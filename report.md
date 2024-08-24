@@ -117,13 +117,14 @@ El segmento inicial será ***Usuarios Residenciales***, ya que estos son los cli
 # CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
 ## 2.2 Entrevistas
 ### 2.2.1 Diseño de entrevistas
-## Preguntas Generales
+
+**Preguntas Generales:**
 
 1. ¿Cuáles son sus nombres y apellidos?
 2. ¿Qué edad tiene usted?
 3. ¿Cuál es su ocupación?
 
-## Para Dueños de Inmuebles
+**Para Dueños de Inmuebles:**
 
 1. ¿Qué desafíos de seguridad ha enfrentado en su propiedad anteriormente?
 2. ¿Qué características considera esenciales en un sistema de seguridad para su hogar?
@@ -134,7 +135,7 @@ El segmento inicial será ***Usuarios Residenciales***, ya que estos son los cli
 7. ¿Qué tan relevante es para usted que el sistema de seguridad pueda integrarse con futuros dispositivos inteligentes que adquiera para su hogar?
 8. ¿Cómo prefiere que se gestione el acceso a su sistema de seguridad: a través de una app, un panel de control, o de otra manera?
 
-## Para Empresas de Seguridad
+**Para Empresas de Seguridad:**
 
 1. ¿Qué protocolos siguen cuando se recibe una alerta de alarma desde un sistema IoT?
 2. ¿Cómo capacitan a su personal para responder a alertas provenientes de dispositivos IoT?
