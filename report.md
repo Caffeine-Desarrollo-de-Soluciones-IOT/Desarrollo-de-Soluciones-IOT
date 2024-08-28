@@ -114,6 +114,69 @@ El segmento inicial será ***Usuarios Residenciales***, ya que estos son los cli
 #### 1.2.2.4 Lean UX Canvas
 ![Lean UX Canvas](/images/lean-ux-canvas.jpg)
 ## 1.3 Segmentos objetivo
+
+## 2.3 Needfinding
+### 2.3.1. User Personas
+* **Segmento 1: Dueños de inmuebles**
+  ![User Persona 1](/images/user-persona-seg1.png)
+
+* **Segmento 2: Empresas de Seguridad**
+* **Segmento 3: Empresas de Instalación y Mantenimiento**
+
+### 2.3.2. User Task Matrix
+* **Segmento 1: Dueños de inmuebles**
+  <table border="1">
+    <tr>
+      <th>Tareas</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+    <tr>
+      <td>Monitorear la seguridad del inmueble en tiempo real</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recibir alertas de seguridad (intrusos, incendios, etc.)</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Configurar dispositivos IoT y cámaras de seguridad</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Consultar registros de actividad y acceso</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Actualizar el sistema de seguridad y firmware de dispositivos</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Administrar usuarios y permisos de acceso</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+</table>
+
+* **Segmento 2: Empresas de Seguridad**
+
+### 2.3.3. User Journey Mapping
+* **Segmento 1: Dueños de inmuebles**
+  ![User Journey Map 1](/images/user-journey-mapping-seg1.png)
+
+### 2.3.4. Empathy Mapping
+* **Segmento 1: Dueños de inmuebles**
+  ![Empathy Map 1](/images/empathy-mapping-seg1.png)
+  
+### 2.3.5. As-Is Scenario Mapping
+* **Segmento 1: Dueños de inmuebles**
+  ![As-Is Scenario Map 1](/images/as-is-scenario-mapping-seg1.png)
+
 # CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
 # CAPÍTULO III: REQUERIMENTS SPECIFICATION
 # CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
