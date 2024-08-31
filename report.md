@@ -118,6 +118,44 @@ El segmento inicial será ***Usuarios Residenciales***, ya que estos son los cli
 ![Lean UX Canvas](/images/lean-ux-canvas.jpg)
 ## 1.3 Segmentos objetivo
 
+# CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
+## 2.1 Competidores
+### 2.1.1. Análisis competitivo
+### 2.1.2. Estrategias y tácticas frente a competidores
+## 2.2 Entrevistas
+### 2.2.1. Diseño de entrevistas
+
+**Preguntas Generales:**
+
+1. ¿Cuáles son sus nombres y apellidos?
+2. ¿Qué edad tiene usted?
+3. ¿Cuál es su ocupación?
+
+**Para Dueños de Inmuebles:**
+
+1. ¿Qué desafíos de seguridad ha enfrentado en su propiedad anteriormente?
+2. ¿Qué características considera esenciales en un sistema de seguridad para su hogar?
+3. ¿Cómo maneja actualmente la seguridad de su hogar y qué le gustaría mejorar?
+4. ¿Qué tan cómodo se sentiría al recibir notificaciones y alertas de seguridad en su dispositivo móvil?
+5. ¿Qué nivel de automatización está dispuesto a aceptar en su sistema de seguridad?
+6. ¿Qué tipo de alertas le gustaría recibir en caso de una intrusión o emergencia?
+7. ¿Qué tan relevante es para usted que el sistema de seguridad pueda integrarse con futuros dispositivos inteligentes que adquiera para su hogar?
+8. ¿Cómo prefiere que se gestione el acceso a su sistema de seguridad: a través de una app, un panel de control, o de otra manera?
+
+**Para Empresas de Seguridad:**
+
+1. ¿Qué protocolos siguen cuando se recibe una alerta de alarma desde un sistema IoT?
+2. ¿Cómo capacitan a su personal para responder a alertas provenientes de dispositivos IoT?
+3. ¿Qué tipo de formación y equipo reciben sus empleados para garantizar una respuesta rápida y efectiva?
+4. ¿Qué tipo de integración ofrecen con sistemas de seguridad basados en IoT?
+5. ¿Cómo manejan la comunicación con los propietarios de las viviendas durante una respuesta a emergencia?
+6. ¿Qué procedimientos siguen para verificar la autenticidad de una alarma antes de desplegar personal?
+7. ¿Cuál es el tiempo promedio de respuesta de su equipo en caso de una alarma de seguridad?
+8. ¿Cómo se coordina su empresa con los servicios de emergencia locales en caso de una alarma?
+9. ¿Qué tipo de informes o retroalimentación proporcionan a los clientes después de una respuesta a emergencia?
+10. ¿Qué mejoras están considerando implementar para adaptarse a la creciente integración de tecnología IoT en los sistemas de seguridad?
+### 2.2.2. Registro de entrevistas
+### 2.2.3. Análisis de entrevistas
 ## 2.3 Needfinding
 ### 2.3.1. User Personas
 * **Segmento 1: Dueños de inmuebles**
@@ -125,7 +163,6 @@ El segmento inicial será ***Usuarios Residenciales***, ya que estos son los cli
 
 * **Segmento 2: Empresas de Seguridad**
 * **Segmento 3: Empresas de Instalación y Mantenimiento**
-
 ### 2.3.2. User Task Matrix
 * **Segmento 1: Dueños de inmuebles**
   <table border="1">
@@ -167,53 +204,22 @@ El segmento inicial será ***Usuarios Residenciales***, ya que estos son los cli
 </table>
 
 * **Segmento 2: Empresas de Seguridad**
-
 ### 2.3.3. User Journey Mapping
 * **Segmento 1: Dueños de inmuebles**
   ![User Journey Map 1](/images/user-journey-mapping-seg1.png)
-
 ### 2.3.4. Empathy Mapping
 * **Segmento 1: Dueños de inmuebles**
   ![Empathy Map 1](/images/empathy-mapping-seg1.png)
-  
 ### 2.3.5. As-Is Scenario Mapping
 * **Segmento 1: Dueños de inmuebles**
   ![As-Is Scenario Map 1](/images/as-is-scenario-mapping-seg1.png)
 
-# CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
-## 2.2 Entrevistas
-### 2.2.1 Diseño de entrevistas
-
-**Preguntas Generales:**
-
-1. ¿Cuáles son sus nombres y apellidos?
-2. ¿Qué edad tiene usted?
-3. ¿Cuál es su ocupación?
-
-**Para Dueños de Inmuebles:**
-
-1. ¿Qué desafíos de seguridad ha enfrentado en su propiedad anteriormente?
-2. ¿Qué características considera esenciales en un sistema de seguridad para su hogar?
-3. ¿Cómo maneja actualmente la seguridad de su hogar y qué le gustaría mejorar?
-4. ¿Qué tan cómodo se sentiría al recibir notificaciones y alertas de seguridad en su dispositivo móvil?
-5. ¿Qué nivel de automatización está dispuesto a aceptar en su sistema de seguridad?
-6. ¿Qué tipo de alertas le gustaría recibir en caso de una intrusión o emergencia?
-7. ¿Qué tan relevante es para usted que el sistema de seguridad pueda integrarse con futuros dispositivos inteligentes que adquiera para su hogar?
-8. ¿Cómo prefiere que se gestione el acceso a su sistema de seguridad: a través de una app, un panel de control, o de otra manera?
-
-**Para Empresas de Seguridad:**
-
-1. ¿Qué protocolos siguen cuando se recibe una alerta de alarma desde un sistema IoT?
-2. ¿Cómo capacitan a su personal para responder a alertas provenientes de dispositivos IoT?
-3. ¿Qué tipo de formación y equipo reciben sus empleados para garantizar una respuesta rápida y efectiva?
-4. ¿Qué tipo de integración ofrecen con sistemas de seguridad basados en IoT?
-5. ¿Cómo manejan la comunicación con los propietarios de las viviendas durante una respuesta a emergencia?
-6. ¿Qué procedimientos siguen para verificar la autenticidad de una alarma antes de desplegar personal?
-7. ¿Cuál es el tiempo promedio de respuesta de su equipo en caso de una alarma de seguridad?
-8. ¿Cómo se coordina su empresa con los servicios de emergencia locales en caso de una alarma?
-9. ¿Qué tipo de informes o retroalimentación proporcionan a los clientes después de una respuesta a emergencia?
-10. ¿Qué mejoras están considerando implementar para adaptarse a la creciente integración de tecnología IoT en los sistemas de seguridad?
-
+## 2.4. Ubiquitous Language
 
 # CAPÍTULO III: REQUERIMENTS SPECIFICATION
+## 3.1. To-Be Scenario Mapping
+## 3.2. User Stories
+## 3.3. Impact Mapping
+## 3.4. Product Backlog
+
 # CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
