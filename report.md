@@ -3,6 +3,9 @@
 ### 1.1.1 Descripción de la Startup
 ### 1.1.2 Perfiles de integrantes del equipo
 - **Elvia Guadalupe Arteaga Cruz:** Soy una estudiante de la carrera de ingeniería de software. Ingresé a la universidad para estudiar ingeniería mecatrónica, pero el mundo de la programación siempre me gustó más, es por ello que decidí cambiarme de carrera. Me gusta mucho la tecnología y las grandes cosas que se pueden hacer con ella. Tengo la ilusión de crear productos y servicios que ayuden a facilitar la vida de las personas y que nos ayuden a crecer como sociedad.
+  
+- **Max Dayson Sabino Arostegui:** Soy estudiante de Ingeniería de Software y me interesa especialmente el machine learning y la ciberseguridad. Tengo experiencia con la metodología ágil SCRUM y estoy familiarizado con varios frameworks y lenguajes de programación, como Angular, Vue, C++ y Python. Además, poseo habilidades blandas importantes como el trabajo en equipo, asertividad y cooperación.
+  
 ## 1.2 Solution Profile
 ### 1.2.1  Antecedentes y problemática
 ### 1.2.2 Lean UX Process
@@ -178,5 +181,39 @@ El segmento inicial será ***Usuarios Residenciales***, ya que estos son los cli
   ![As-Is Scenario Map 1](/images/as-is-scenario-mapping-seg1.png)
 
 # CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
+## 2.2 Entrevistas
+### 2.2.1 Diseño de entrevistas
+
+**Preguntas Generales:**
+
+1. ¿Cuáles son sus nombres y apellidos?
+2. ¿Qué edad tiene usted?
+3. ¿Cuál es su ocupación?
+
+**Para Dueños de Inmuebles:**
+
+1. ¿Qué desafíos de seguridad ha enfrentado en su propiedad anteriormente?
+2. ¿Qué características considera esenciales en un sistema de seguridad para su hogar?
+3. ¿Cómo maneja actualmente la seguridad de su hogar y qué le gustaría mejorar?
+4. ¿Qué tan cómodo se sentiría al recibir notificaciones y alertas de seguridad en su dispositivo móvil?
+5. ¿Qué nivel de automatización está dispuesto a aceptar en su sistema de seguridad?
+6. ¿Qué tipo de alertas le gustaría recibir en caso de una intrusión o emergencia?
+7. ¿Qué tan relevante es para usted que el sistema de seguridad pueda integrarse con futuros dispositivos inteligentes que adquiera para su hogar?
+8. ¿Cómo prefiere que se gestione el acceso a su sistema de seguridad: a través de una app, un panel de control, o de otra manera?
+
+**Para Empresas de Seguridad:**
+
+1. ¿Qué protocolos siguen cuando se recibe una alerta de alarma desde un sistema IoT?
+2. ¿Cómo capacitan a su personal para responder a alertas provenientes de dispositivos IoT?
+3. ¿Qué tipo de formación y equipo reciben sus empleados para garantizar una respuesta rápida y efectiva?
+4. ¿Qué tipo de integración ofrecen con sistemas de seguridad basados en IoT?
+5. ¿Cómo manejan la comunicación con los propietarios de las viviendas durante una respuesta a emergencia?
+6. ¿Qué procedimientos siguen para verificar la autenticidad de una alarma antes de desplegar personal?
+7. ¿Cuál es el tiempo promedio de respuesta de su equipo en caso de una alarma de seguridad?
+8. ¿Cómo se coordina su empresa con los servicios de emergencia locales en caso de una alarma?
+9. ¿Qué tipo de informes o retroalimentación proporcionan a los clientes después de una respuesta a emergencia?
+10. ¿Qué mejoras están considerando implementar para adaptarse a la creciente integración de tecnología IoT en los sistemas de seguridad?
+
+
 # CAPÍTULO III: REQUERIMENTS SPECIFICATION
 # CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
