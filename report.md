@@ -313,6 +313,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 
 ## 2.4. Ubiquitous Language
 
+
 # CAPÍTULO III: REQUERIMENTS SPECIFICATION
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
@@ -320,3 +321,26 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 ## 3.4. Product Backlog
 
 # CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
+## 4.1. Strategic-Level Domain-Driven Design
+### 4.1.1. EventStorming
+#### 4.1.1.1. Candidate Context Discovery
+#### 4.1.1.2. Domain Message Flows Modeling
+#### 4.1.1.3. Bounded Context Canvases
+
+### 4.1.2. Context Mapping
+
+### 4.1.3. Software Architecture
+#### 4.1.3.1. Software Architecture System Landscape Diagram
+#### 4.1.3.2. Software Architecture Context Level Diagrams
+#### 4.1.3.2. Software Architecture Container Level Diagrams
+#### 4.1.3.2. Software Architecture Deployment Diagrams
+
+## 4.2. Tactical-Level Domain-Driven Design
+
+# Conclusiones
+## Conclusiones y Recomendaciones
+
+# Bibliografía
+
+# Anexos
+
