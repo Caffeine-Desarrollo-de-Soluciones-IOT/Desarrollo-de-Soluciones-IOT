@@ -338,7 +338,6 @@ Para VerySafe tenemos los siguientes términos:
 11. **Propietarios de inmuebles**: Personas o entidades que poseen propiedades y buscan protegerlas.
 12. **Empresas de seguridad**: Compañías que ofrecen servicios de monitoreo y respuesta a emergencias.
 
-
 # CAPÍTULO III: REQUERIMENTS SPECIFICATION
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
