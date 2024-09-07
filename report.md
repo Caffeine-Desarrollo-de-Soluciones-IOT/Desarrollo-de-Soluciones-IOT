@@ -313,6 +313,23 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 
 ## 2.4. Ubiquitous Language
 
+Para el desarrollo de esta sección, como grupo debemos estar alineados con los términos y conceptos claves que son necesarios para la realización del proyecto. Además, nos ayuda a tener un lenguaje en común para entender nuestros objetivos, funcionalidades y benerfios. 
+
+Para VerySafe tenemos los siguientes términos:
+
+1. **Seguridad IoT (Internet de las Cosas)**: Referencia a la integración de dispositivos de seguridad conectados a internet para monitorización y control remoto.
+2. **FalconShield**: Nombre de la línea de productos que simboliza la protección integral y la vigilancia avanzada para inmuebles.
+3. **Dispositivos de Seguridad**: Sensores, cámaras, alarmas, y otros equipos incluidos en la línea FalconShield que protegen los inmuebles.
+4. **Monitoreo en Tiempo Real**: La capacidad de los usuarios para observar y controlar sus dispositivos de seguridad instantáneamente desde cualquier lugar.
+5. **Interfaz Unificada**: Plataforma de usuario que centraliza el control de todos los dispositivos FalconShield en un solo lugar.
+6. **Mantenimiento Preventivo**: Estrategias y acciones automatizadas para asegurar que los dispositivos FalconShield estén siempre en óptimas condiciones.
+7. **Respuesta a Emergencias**: Protocolos y acciones automáticas o manuales que se activan cuando el sistema FalconShield detecta una intrusión o emergencia.
+8. **Subscripción**: Modelo de monetización basado en pagos recurrentes para acceder a los servicios y actualizaciones del sistema FalconShield.
+9. **Alianzas de Seguridad**: Colaboraciones con empresas especializadas en seguridad para ofrecer una respuesta más rápida y eficiente en caso de emergencias.
+10. **AWS**: Plataforma de servicios en la nube utilizada para almacenar y proteger los datos de video y otros registros de seguridad.
+11. **Propietarios de inmuebles**: Personas o entidades que poseen propiedades y buscan protegerlas.
+12. **Empresas de seguridad**: Compañías que ofrecen servicios de monitoreo y respuesta a emergencias.
+
 # CAPÍTULO III: REQUERIMENTS SPECIFICATION
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
