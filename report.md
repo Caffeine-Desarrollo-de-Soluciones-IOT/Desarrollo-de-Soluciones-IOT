@@ -262,6 +262,16 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 9. ¿Qué tipo de informes o retroalimentación proporcionan a los clientes después de una respuesta a emergencia?
 10. ¿Qué mejoras están considerando implementar para adaptarse a la creciente integración de tecnología IoT en los sistemas de seguridad?
 ### 2.2.2. Registro de entrevistas
+1. **Entrevista N°1**
+   - Segmento objetivo: Dueños de inmuebles
+   - Nombres y apellidos: Jesús Aliaga
+   - Edad: 60
+    ![Entrevista 1](/images/entrevista1.png)
+   - Enlace del video: 
+   - Resumen: Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble ya que actualmente lo maneja de forma manual con cercos. Además destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
+
+2. 
+
 ### 2.2.3. Análisis de entrevistas
 ## 2.3 Needfinding
 ### 2.3.1. User Personas
@@ -354,6 +364,7 @@ Para VerySafe tenemos los siguientes términos:
 #### 4.1.1.3. Bounded Context Canvases
 
 ### 4.1.2. Context Mapping
+<!-- TODO -->
 
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
@@ -362,6 +373,18 @@ Para VerySafe tenemos los siguientes términos:
 #### 4.1.3.2. Software Architecture Deployment Diagrams
 
 ## 4.2. Tactical-Level Domain-Driven Design
+<!-- TODO -->
+### 4.2.1. Bounded Context: Payments
+#### 4.2.1.1. Domain Layer
+#### 4.2.1.2. Interface Layer
+#### 4.2.1.3. Application Layer
+#### 4.2.1.4. Infrastructure Layer
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.1.6.1. Bounded Context Database Design Diagram
+
+
 
 # Conclusiones
 ## Conclusiones y Recomendaciones
