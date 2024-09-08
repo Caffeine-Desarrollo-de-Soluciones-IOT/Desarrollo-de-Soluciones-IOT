@@ -180,7 +180,7 @@ El segmento inicial será ***Usuarios Residenciales***, ya que estos son los cli
   - *Cambio en el Indicador Clave de Rendimiento:* Altas tasas de disponibilidad y sólidos resultados en auditorías de seguridad.
 
 #### 1.2.2.4 Lean UX Canvas
-![Lean UX Canvas](/images/lean-ux-canvas.jpg)
+![Lean UX Canvas](/src/images/lean-ux-canvas.jpg)
 ## 1.3 Segmentos objetivo
 
 # CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
@@ -198,7 +198,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 
 | Startup | VerySafe | Verisure | Prosegur | Securitas |
 | -- | -- | -- | -- | -- |
-| Logo | ![VerySafe](/images/logo.jpg) | ![Verisure](/images/verisure.jpg) | ![Prosegur](/images/prosegur.jpg) | ![Securitas](/images/securitas.png) |
+| Logo | ![VerySafe](/src/images/logo.jpg) | ![Verisure](/src/images/verisure.jpg) | ![Prosegur](/src/images/prosegur.jpg) | ![Securitas](/src/images/securitas.png) |
 | **Overview** | Ofrece soluciones de seguridad accesibles y personalizadas para inmuebles. Se enfoca en integrar tecnología avanzada con un enfoque en la accesibilidad, buscando proteger hogares y pequeñas empresas con productos innovadores y servicios flexibles que se adaptan a las necesidades de sus clientes. | Ofrece sistemas de alarmas conectadas y monitoreo remoto 24/7. Con una fuerte presencia en el mercado peruano, Verisure ofrece soluciones de alta tecnología que combinan la seguridad física y digital, destacándose por su fiabilidad y servicio al cliente. | Ofrece una amplia gama de servicios que incluyen desde alarmas y videovigilancia hasta servicios de seguridad física y logística de valores, adaptándose tanto a clientes residenciales como corporativos con soluciones integradas. | Ofrece soluciones personalizadas que combinan seguridad física y digital, dirigidas principalmente a grandes empresas e instituciones. Su enfoque está en la integración de tecnologías innovadoras y la adaptación a las necesidades específicas de cada cliente. | 
 |**Ventaja competitiva ¿Qué valor ofrece a los clientes?** | Ofrecer soluciones tecnológicas avanzadas IoT a precios accesibles, con un enfoque en personalización y accesibilidad para un público amplio. | Alta tecnología en sistemas de monitoreo remoto y servicio al cliente eficiente. | Amplia gama de servicios de seguridad integrados con una fuerte presencia en el mercado local e internacional | Tecnología avanzada y un enfoque en la integración de soluciones de seguridad física y digital. | 
 
@@ -260,11 +260,37 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 9. ¿Qué tipo de informes o retroalimentación proporcionan a los clientes después de una respuesta a emergencia?
 10. ¿Qué mejoras están considerando implementar para adaptarse a la creciente integración de tecnología IoT en los sistemas de seguridad?
 ### 2.2.2. Registro de entrevistas
+<table border="1">
+    <tr>
+      <th>Nro</th>
+      <th>Nombres</th>
+      <th>Apellidos</th>
+      <th>Edad</th>
+      <th>Distrito</th>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>Diana Patricia</td>
+      <td>Gomez Oré</td>
+      <td>Chorrillos</td>
+    </tr>
+</table>
+
 ### 2.2.3. Análisis de entrevistas
+* **Segmento 1: Dueños de inmuebles**
+**Entrevista Nro 1: Diana Gomez**
+![interview 1](/src/images/interview-1.png)
+
+Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
+
+Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más importantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. Por último, mencionó que ella prefiere gestionar el sistema de seguridd de su hogar mediante una aplicación, ya que de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
+
+* **Segmento 2: Empresas de Seguridad**
+* **Segmento 3: Empresas de Instalación y Mantenimiento**
 ## 2.3 Needfinding
 ### 2.3.1. User Personas
 * **Segmento 1: Dueños de inmuebles**
-  ![User Persona 1](/images/user-persona-seg1.png)
+  ![User Persona 1](/src/images/user-persona-seg1.png)
 
 * **Segmento 2: Empresas de Seguridad**
 * **Segmento 3: Empresas de Instalación y Mantenimiento**
@@ -311,13 +337,13 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 * **Segmento 2: Empresas de Seguridad**
 ### 2.3.3. User Journey Mapping
 * **Segmento 1: Dueños de inmuebles**
-  ![User Journey Map 1](/images/user-journey-mapping-seg1.png)
+  ![User Journey Map 1](/src/images/user-journey-mapping-seg1.png)
 ### 2.3.4. Empathy Mapping
 * **Segmento 1: Dueños de inmuebles**
-  ![Empathy Map 1](/images/empathy-mapping-seg1.png)
+  ![Empathy Map 1](/src/images/empathy-mapping-seg1.png)
 ### 2.3.5. As-Is Scenario Mapping
 * **Segmento 1: Dueños de inmuebles**
-  ![As-Is Scenario Map 1](/images/as-is-scenario-mapping-seg1.png)
+  ![As-Is Scenario Map 1](/src/images/as-is-scenario-mapping-seg1.png)
 
 ## 2.4. Ubiquitous Language
 
