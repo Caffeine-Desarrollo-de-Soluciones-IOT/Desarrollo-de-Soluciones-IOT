@@ -390,6 +390,48 @@ Para VerySafe tenemos los siguientes términos:
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
+### **Product Backlog**
+
+|**Número**|**Nombre de Historia**|**Prioridad**|**Riesgo**|**Estimación**|
+|---|---|---|---|---|
+| HU-03 | Monitorear múltiples propiedades | Alta | Alto | 13 |
+| HU-07 | Acceso remoto a cámaras | Alta | Alto | 13 |
+| HU-16 | Detección de anomalías en tiempo real | Alta | Alto | 13 |
+| HU-17 | Actualización remota de firmware | Alta | Alto | 13 |
+| HU-30 | Gestión de patrullas | Alta | Alto | 13 |
+| HU-31 | Notificaciones de intrusión en tiempo real | Alta | Alto | 13 |
+| HU-22 | Monitoreo de sensores de movimiento | Alta | Alto | 13 |
+| HU-32 | Acceso a cámaras de seguridad | Alta | Medio | 8 |
+| HU-25 | Ver estado de la propiedad en tiempo real | Alta | Alto | 8 |
+| HU-26 | Recibir notificaciones | Alta | Medio | 8 |
+| HU-01 | Ver historial de alertas | Alta | Medio | 5 |
+| HU-02 | Controlar dispositivos de seguridad | Alta | Alto | 5 |
+| HU-05 | Reportar un incidente | Alta | Medio | 5 |
+| HU-08 | Control de acceso remoto | Alta | Medio | 5 |
+| HU-21 | Control de luces inteligentes | Alta | Medio | 5 |
+| HU-12 | Gestión de dispositivos conectados | Alta | Alto | 5 |
+| HU-13 | Integración con sistemas de terceros | Alta | Alto | 5 |
+| HU-09 | Crear y gestionar alertas desde la app | Media | Medio | 3 |
+| HU-10 | Ver grabaciones de seguridad | Media | Medio | 3 |
+| HU-11 | Gestión de usuarios | Alta | Alto | 3 |
+| HU-14 | Gestión de logs y auditoría | Media | Medio | 3 |
+| HU-15 | Configuración de políticas de seguridad | Media | Medio | 3 |
+| HU-18 | Autonomía operativa de dispositivos edge | Media | Medio | 3 |
+| HU-19 | Monitoreo de alertas en dispositivos edge | Media | Medio | 3 |
+| HU-20 | Reinicio remoto de dispositivos edge | Media | Bajo | 3 |
+| HU-23 | Monitorización de baterías en dispositivos IoT | Media | Medio | 3 |
+| HU-24 | Automatización de escenarios | Media | Medio | 3 |
+| HU-27 | Acceso a informes de seguridad | Media | Bajo | 3 |
+| HU-28 | Configurar notificaciones de prioridad | Media | Medio | 3 |
+| HU-29 | Configuración de acceso compartido | Media | Medio | 3 |
+| HU-33 | Control de acceso remoto | Media | Medio | 3 |
+| HU-34 | Respuesta automatizada ante amenazas | Media | Alto | 3 |
+| HU-35 | Personalización de la interfaz | Media | Bajo | 2 |
+| HU-36 | Uso compartido de dispositivos | Media | Bajo | 2 |
+| HU-37 | Alertas de mantenimiento preventivo | Media | Bajo | 2 |
+
+
+
 # CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. EventStorming
