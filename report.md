@@ -1156,6 +1156,68 @@ Son representaciones gráficas que ilustran cómo se despliegan y ejecutan los c
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
 ![Bounded Context Database Areas](src/images/bc-db-areas.jpg)
 
+### 4.2.4. Bounded Context: User
+#### 4.2.4.1. Domain Layer
+
+**Entidades de dominio**
+
+- Account: Representa una cuenta de usuario en el sistema.
+- PropertyUser: Representa un perfil del sector inmobiliario en el sistema.
+- SecurityUser: Representa un perfil de un especialista en la seguridad en el sistema.
+  
+**Agregados**
+
+Autenticador: Maneja la autenticación de los usuarios, verificando sus credenciales y emitiendo tokens de acceso.
+Autorizador: Maneja la autorización de los usuarios, verificando que tienen los permisos necesarios para realizar una acción en el sistema
+
+**Repositorios**
+
+* AccountRepository: Maneja la persistencia de las cuentas de usuario.
+* PropertyProfileRepository: Maneja la persistencia de los perfiles de los usuarios que tienen inmueble.
+* SecurityProfileRepository: Maneja la persistencia de los perfiles de especialistas en la seguridad del hogar.
+
+#### 4.2.4.2. Interface Layer
+
+- **PropertyAccountController:** El PropertyAccountController maneja las operaciones relacionadas con la gestión de cuentas de usuarios de inmuebles, como la creación de cuentas, la autenticación y el cierre de sesiones.
+
+- **SecurityAccountController:** El SecurityAccountController maneja las operaciones relacionadas con la gestión de cuentas de los dueños de inmuebles, la seguridad, como la creación de cuentas, la autenticación y el cierre de sesiones.
+
+- **UserController:** Esta clase maneja las operaciones de gestión de usuarios, incluyendo el registro, autenticación, actualización de perfiles y eliminación de cuentas.
+
+- **UserProfileController:** El UserProfileController está encargado de las operaciones específicas relacionadas con los perfiles de usuario, como la actualización de la información personal del usuario.
+
+#### 4.2.4.3. Application Layer
+
+En el contexto de "Account," el Application Layer se enfoca en la creación, autenticación y la autorización de usuarios (dueños de inmuebles y seguridad). Proporciona una interfaz de inicio de sesión y registro para los usuarios, donde pueden ingresar sus credenciales de manera segura. El Application Layer verifica la identidad de los usuarios y garantiza que tengan acceso solo a las funciones y los datos apropiados según sus permisos. Además, se gestionan eventos relacionados con la autenticación, como el inicio de sesión exitoso, para proporcionar una experiencia segura y efectiva.
+
+**Command Handlers:**
+
+- **RegisterUserCommandHandler:** Procesa la creación de nuevas cuentas de usuario en VerySafe. Cuando un usuario se registra, este componente crea una cuenta y gestiona las credenciales asociadas de acuerdo al tipo de usuario registrado.
+- **AuthenticateUserCommandHandler:** Se encarga de verificar las credenciales de inicio de sesión de los usuarios. Permite el acceso a las funciones de la aplicación después de una autenticación exitosa.
+  
+**Event Handlers:**
+
+- **UserLoggedInEventHandler:** Responde a eventos que indican un inicio de sesión exitoso por parte de un usuario. Actualiza el estado de la sesión del usuario y genera eventos adicionales relacionados con la autenticación.
+
+- **PermissionsUpdatedEventHandler:** Maneja eventos que indican cambios en los permisos de usuario. Cuando se producen cambios en los permisos, este componente actualiza el estado de la autorización y emite eventos de seguridad correspondientes.
+
+#### 4.2.4.4. Infrastructure Layer
+
+**Integración con AWS SNS para el envío de notificaciones:** Se configurarán conexiones y se desarrollarán adaptadores para interactuar con el servicio de notificaciones de AWS SNS, permitiendo el envío y recepción de mensajes a través de múltiples canales, como SMS, correos electrónicos, o notificaciones push. Esto implicará la configuración del servicio SNS, la gestión de credenciales de acceso y la integración con otros servicios externos para el envío de notificaciones. Además, se implementará la autenticación con Firebase Auth para garantizar la seguridad en el acceso a la aplicación, incluyendo la configuración de Firebase Auth, la gestión de tokens de autenticación y la integración con los servicios de notificación de Firebase.
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+![component-user](src/images/bc-component-user.jpg)
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+![bc](src/images/BC-ACCOUNT.jpg)
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![BD](src/images/BD-ACCOUNT.jpg)
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
