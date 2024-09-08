@@ -374,7 +374,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
       <td>Aliaga</td>
       <td>60 años</td>
       <td> --- </td>
-      <td> --- </td>
+      <td> 00:00 </td>
     </tr>
     <tr>
       <td>02</td>
@@ -382,7 +382,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
       <td>Gomez Oré</td>
       <td>25 años</td>
       <td>Chorrillos</td>
-      <td> --- </td>
+      <td> 09:34 </td>
     </tr>
     <tr>
       <td>03</td>
@@ -390,7 +390,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
       <td>Minaya Herrera</td>
       <td>52 años</td>
       <td>Chorrillos</td>
-      <td> 8:36 </td>
+      <td> 15:00 </td>
     </tr>
     <tr>
       <td>04</td>
@@ -398,7 +398,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
       <td>Alva Moreno</td>
       <td>24 años</td>
       <td>San Juan de Lurigancho</td>
-      <td> --- </td>
+      <td> 23:37 </td>
     </tr>
         <tr>
       <td>05</td>
@@ -406,7 +406,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
       <td>Acuña</td>
       <td>28 años</td>
       <td>San Isidro</td>
-      <td> --- </td>
+      <td> 26:24 </td>
     </tr>
     </tr>
         <tr>
@@ -415,7 +415,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
       <td>Luis</td>
       <td>23 años</td>
       <td>San Juan de Miraflores</td>
-      <td> --- </td>
+      <td> 29:21 </td>
     </tr>
 </table>
 
@@ -1413,3 +1413,6 @@ El diagrama de nivel de código muestra la estructura del código y las relacion
 
 # Anexos
 
+| Seccion | Caracteristicas del video | 
+|-|-|
+| Needfinding Interviews | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=LEhkwy |
