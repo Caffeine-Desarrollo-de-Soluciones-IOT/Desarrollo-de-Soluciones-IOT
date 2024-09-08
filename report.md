@@ -473,6 +473,11 @@ Para VerySafe tenemos los siguientes términos:
 
 # CAPÍTULO III: REQUERIMENTS SPECIFICATION
 ## 3.1. To-Be Scenario Mapping
+* **Segmento 1: Dueños de inmuebles**
+![To Be 1](/src/images/to-be-1.jpg)
+
+* **Segmento 2: Empresa de seguridad**
+![To Be 2](/src/images/to-be-2.jpg)
 ## 3.2. User Stories
 
 **Historias de Usuario para la Aplicación Web**
@@ -909,7 +914,20 @@ link del miro : https://miro.com/app/board/uXjVKjBJwpE=/?share_link_id=165602234
 
 
 #### 4.1.1.2. Domain Message Flows Modeling
+Este enfoque esencial nos permite visualizar y comprender cómo las diferentes partes de nuestro sistema interactúan entre sí mediante intercambios de mensajes. A través del modelado de flujos de mensajes, podemos capturar la lógica y la dinámica de nuestro dominio de manera clara y concisa, lo que facilita la comunicación y el diseño efectivo de sistemas complejos
+
+**Installations Context**
+![alt text](/src/images/flow-events.png)
+**Events Context**
+![alt text](/src/images/flow-events1.png)
+**Notifications Context**
+![alt text](/src/images/flow-noti.png)
+**Answers Context**
+![alt text](/src/images/flow-aws.png)
 #### 4.1.1.3. Bounded Context Canvases
+![alt text](/src/images/context-mapping.png)
+
+link del miro: https://miro.com/app/board/uXjVKhxU5HM=/?share_link_id=949468869000
 
 ### 4.1.2. Context Mapping
 **Area Management Context - Device Management Context:**
