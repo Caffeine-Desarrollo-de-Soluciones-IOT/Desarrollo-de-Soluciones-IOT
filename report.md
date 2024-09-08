@@ -878,7 +878,27 @@ link del miro : https://miro.com/app/board/uXjVKjBJwpE=/?share_link_id=165602234
 #### 4.1.1.3. Bounded Context Canvases
 
 ### 4.1.2. Context Mapping
-<!-- TODO -->
+**Area Management Context - Device Management Context:**
+
+La relación entre Area Management Context y Device Management Context es de Partnership. El contexto Area Management organiza las propiedades y áreas, mientras que el contexto Device Management gestiona los dispositivos dentro de esas áreas. Ambos contextos colaboran estrechamente para garantizar una integración efectiva entre la organización espacial y la gestión de dispositivos en el sistema de seguridad basado en IoT.
+
+![alt text](/images/412-1.png)
+
+**Area Management Context - Events Context:**
+
+La relación entre Area Management Context y Events Context es de Customer-Supplier. El contexto Area Management define las áreas, mientras que el contexto Events registra y gestiona los eventos que ocurren en esas áreas, como la activación de sensores o alarmas. Events Context depende de los datos de Area Management para asociar los eventos correctamente a sus ubicaciones.
+
+![alt text](/images/412-2.png)
+
+**Area Management Context - Subscriptions Context:**
+
+La relación entre ambos contextos también es de tipo Customer-Supplier. En esta relación, el contexto Subscriptions Management gestiona los planes y pagos de los usuarios, determinando cuántas áreas pueden gestionar según su plan de suscripción. Area Management depende de las reglas definidas por Subscriptions Management para limitar o permitir la creación de más áreas en función del plan del usuario. Esta relación garantiza que el acceso a más áreas esté controlado por el nivel de suscripción, manteniendo la coherencia entre la gestión de áreas y las restricciones del plan en el sistema de seguridad.
+
+![alt text](/images/412-3.png)
+
+**Events Context - Device Management Context:**
+
+La relación entre ambos contextos son de tipo Conformist porque el Events Context depende directamente de los dispositivos definidos en el Device Management Context para registrar y manejar los eventos. En esta relación, el Events Context no redefine ni expande significativamente la estructura o el modelo de los dispositivos, sino que adopta la representación de los dispositivos tal como se modelan en el Device Management Context.
 
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
@@ -887,9 +907,31 @@ link del miro : https://miro.com/app/board/uXjVKjBJwpE=/?share_link_id=165602234
 #### 4.1.3.2. Software Architecture Deployment Diagrams
 
 ## 4.2. Tactical-Level Domain-Driven Design
-<!-- TODO -->
-### 4.2.1. Bounded Context: Payments
+### 4.2.1. Bounded Context: Subscriptions
 #### 4.2.1.1. Domain Layer
+En esta capa reside el núcleo de la aplicación encargado de gestionar las suscripciones y el sistema de pagos en la aplicación.
+
+- Entities:
+  - Payments:
+  - Subscriptions:
+  - Subscriptions Plans:s
+
+- Value Objects:
+  - Email: Un objeto de valor para representar direcciones de correo electrónico válidas.
+  - Password: Un objeto de valor para manejar contraseñas de manera segura.
+
+- Aggregates:
+  - UserAggregate: Puede ser un agregado que incluye la entidad de usuario y los roles relacionados.
+
+- Factories:
+  - UserFactory: Para crear instancias de usuarios y roles de manera consistente.
+
+- Domain Services:
+  - AuthenticationService: Puede ser un servicio de dominio encargado de la autenticación de usuarios.
+
+- Repositories:
+  - UserRepository: Define cómo se accede y se persisten los usuarios y roles.
+
 #### 4.2.1.2. Interface Layer
 #### 4.2.1.3. Application Layer
 #### 4.2.1.4. Infrastructure Layer
