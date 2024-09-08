@@ -172,7 +172,7 @@ El segmento inicial será ***Usuarios Residenciales***, ya que estos son los cli
   - *Cambio en el Indicador Clave de Rendimiento:* Altas tasas de disponibilidad y sólidos resultados en auditorías de seguridad.
 
 #### 1.2.2.4 Lean UX Canvas
-![Lean UX Canvas](/images/lean-ux-canvas.jpg)
+![Lean UX Canvas](/src/images/lean-ux-canvas.jpg)
 ## 1.3 Segmentos objetivo
 
 # CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
