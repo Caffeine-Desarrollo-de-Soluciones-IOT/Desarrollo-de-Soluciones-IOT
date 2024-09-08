@@ -413,8 +413,14 @@ Para VerySafe tenemos los siguientes términos:
 #### 4.2.1.2. Interface Layer
 #### 4.2.1.3. Application Layer
 #### 4.2.1.4. Infrastructure Layer
-### 4.2.2. Bounded Context: Device
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.1.6.1. Bounded Context Database Design Diagram
 
+
+
+#### 4.2.2. Bounded Context: Device
 #### 4.2.2.1 Domain Layer
 - **Entidades de dominio**:
   - **Device**: Representa un dispositivo IoT instalado en el inmueble, incluyendo sus características y estado.
@@ -459,14 +465,7 @@ Para VerySafe tenemos los siguientes términos:
 - **Seguridad**: Implementa medidas de seguridad para proteger los datos de los dispositivos y la comunicación entre los dispositivos y el sistema central. Esto podría incluir cifrado de datos, autenticación de dispositivos y medidas contra accesos no autorizados.
 
 
-#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
-#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
-#### 4.2.1.6.1. Bounded Context Database Design Diagram
-
-
-
-# Conclusiones
+## Conclusiones
 ## Conclusiones y Recomendaciones
 
 # Bibliografía
