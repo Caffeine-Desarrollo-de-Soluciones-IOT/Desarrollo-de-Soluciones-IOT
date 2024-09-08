@@ -396,8 +396,7 @@ Para VerySafe tenemos los siguientes términos:
 
 Es una técnica colaborativa que nos permite explorar a fondo el dominio de nuestra aplicación de FalconShield. A través de una dinámica visual, se identifican eventos clave, acciones del usuario, reglas del sistema y flujos de mensajes. Esto mejora significativamente la comprensión del dominio, facilita el diseño del sistema y promueve una sólida colaboración entre el equipo.
 
-![alt text](image.png)
-
+![alt text](src/images/image.png)
 
 #### 4.1.1.1. Candidate Context Discovery
 
@@ -405,27 +404,27 @@ link del miro : https://miro.com/app/board/uXjVKjBJwpE=/?share_link_id=165602234
 
 **Bounded Context:**
 
-![alt text](image-1.png)
+![alt text](src/images/image-1.png)
 
 
 
 **User profile context:**
-![alt text](image-2.png)
+![alt text](src/images/image-2.png)
 
 **Devices Context:**
-![alt text](image-3.png)
+![alt text](src/images/image-3.png)
 
 **Installation devices Context:**
-![alt text](image-4.png)
+![alt text](src/images/image-4.png)
 
 **Events Context:**
-![alt text](image-5.png)
+![alt text](src/images/image-5.png)
 **Notifications Context:**
-![alt text](image-6.png)
+![alt text](src/images/image-6.png)
 **Update software devices Context:**
-![alt text](image-7.png)
+![alt text](src/images/image-7.png)
 **Suscription Context:**
-![alt text](image-9.png)
+![alt text](src/images/image-9.png)
 
 
 
