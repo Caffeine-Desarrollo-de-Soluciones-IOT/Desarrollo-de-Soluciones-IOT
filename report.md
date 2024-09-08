@@ -736,6 +736,8 @@ Para VerySafe tenemos los siguientes términos:
 |**Riesgo:** |Bajo|
 |**Descripción:** |Como propietario de un inmueble, quiero recibir alertas de mantenimiento preventivo de los dispositivos para evitar fallos y asegurar su operación continua.|
 |**Criterios de aceptación:**| **Dado** que tengo dispositivos operando **Cuando** alguno necesita mantenimiento **Entonces** recibo una alerta en la app y el email con los pasos a seguir para realizar el mantenimiento.|
+
+
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
