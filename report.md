@@ -909,6 +909,16 @@ link del miro : https://miro.com/app/board/uXjVKjBJwpE=/?share_link_id=165602234
 
 
 #### 4.1.1.2. Domain Message Flows Modeling
+Este enfoque esencial nos permite visualizar y comprender cómo las diferentes partes de nuestro sistema interactúan entre sí mediante intercambios de mensajes. A través del modelado de flujos de mensajes, podemos capturar la lógica y la dinámica de nuestro dominio de manera clara y concisa, lo que facilita la comunicación y el diseño efectivo de sistemas complejos
+
+**Installations Context**
+![alt text](/src/images/flow-events.png)
+**Events Context**
+![alt text](/src/images/flow-events1.png)
+**Notifications Context**
+![alt text](/src/images/flow-noti.png)
+**Answers Context**
+![alt text](/src/images/flow-aws.png)
 #### 4.1.1.3. Bounded Context Canvases
 
 ### 4.1.2. Context Mapping
