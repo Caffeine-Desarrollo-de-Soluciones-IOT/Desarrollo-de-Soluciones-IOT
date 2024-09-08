@@ -916,19 +916,19 @@ link del miro : https://miro.com/app/board/uXjVKjBJwpE=/?share_link_id=165602234
 
 La relación entre Area Management Context y Device Management Context es de Partnership. El contexto Area Management organiza las propiedades y áreas, mientras que el contexto Device Management gestiona los dispositivos dentro de esas áreas. Ambos contextos colaboran estrechamente para garantizar una integración efectiva entre la organización espacial y la gestión de dispositivos en el sistema de seguridad basado en IoT.
 
-![alt text](/images/412-1.png)
+![alt text](src/images/412-1.png)
 
 **Area Management Context - Events Context:**
 
 La relación entre Area Management Context y Events Context es de Customer-Supplier. El contexto Area Management define las áreas, mientras que el contexto Events registra y gestiona los eventos que ocurren en esas áreas, como la activación de sensores o alarmas. Events Context depende de los datos de Area Management para asociar los eventos correctamente a sus ubicaciones.
 
-![alt text](/images/412-2.png)
+![alt text](src/images/412-2.png)
 
 **Area Management Context - Subscriptions Context:**
 
 La relación entre ambos contextos también es de tipo Customer-Supplier. En esta relación, el contexto Subscriptions Management gestiona los planes y pagos de los usuarios, determinando cuántas áreas pueden gestionar según su plan de suscripción. Area Management depende de las reglas definidas por Subscriptions Management para limitar o permitir la creación de más áreas en función del plan del usuario. Esta relación garantiza que el acceso a más áreas esté controlado por el nivel de suscripción, manteniendo la coherencia entre la gestión de áreas y las restricciones del plan en el sistema de seguridad.
 
-![alt text](/images/412-3.png)
+![alt text](src/images/412-3.png)
 
 **Events Context - Device Management Context:**
 
@@ -942,39 +942,84 @@ La relación entre ambos contextos son de tipo Conformist porque el Events Conte
 
 ## 4.2. Tactical-Level Domain-Driven Design
 ### 4.2.1. Bounded Context: Subscriptions
-#### 4.2.1.1. Domain Layer
+
 En esta capa reside el núcleo de la aplicación encargado de gestionar las suscripciones y el sistema de pagos en la aplicación.
 
+#### 4.2.1.1. Domain Layer
+
 - Entities:
-  - Payments:
-  - Subscriptions:
-  - Subscriptions Plans:s
+  - Payments: Representa los pagos realizados por los usuarios para suscribirse a los planes de seguridad.
+  - Subscriptions: Representa los planes de suscripción que definen la cantidad de áreas y dispositivos que un usuario puede gestionar.
+  - Subscriptions Plans: Define los diferentes niveles de suscripción y las restricciones asociadas a cada plan.
 
 - Value Objects:
-  - Email: Un objeto de valor para representar direcciones de correo electrónico válidas.
-  - Password: Un objeto de valor para manejar contraseñas de manera segura.
+  - SubscriptionId: Identificador único de una suscripción.
+  - PlanId: Identificador único de un plan de suscripción.
+  - PaymentDetails: Detalles de un pago realizado por un usuario.
+  - SubscriptionDetails: Detalles de una suscripción, incluyendo el plan asociado y la cantidad de áreas y dispositivos permitidos.
 
 - Aggregates:
-  - UserAggregate: Puede ser un agregado que incluye la entidad de usuario y los roles relacionados.
-
-- Factories:
-  - UserFactory: Para crear instancias de usuarios y roles de manera consistente.
+  - SubscriptionAggregate: Agregado raíz que encapsula las operaciones relacionadas con las suscripciones, incluyendo la creación, actualización y cancelación de suscripciones.
+  - PlanAggregate: Agregado que define las reglas y restricciones de un plan de suscripción, como la cantidad de áreas y dispositivos permitidos.
+  - PaymentAggregate: Agregado que gestiona los pagos realizados por los usuarios, incluyendo la creación y verificación de pagos.
 
 - Domain Services:
-  - AuthenticationService: Puede ser un servicio de dominio encargado de la autenticación de usuarios.
+  - SubscriptionService: Define las operaciones de negocio relacionadas con las suscripciones, como la creación, actualización y cancelación de suscripciones.
+  - PaymentService: Gestiona las operaciones de pago, incluyendo la creación y verificación de pagos.
 
 - Repositories:
-  - UserRepository: Define cómo se accede y se persisten los usuarios y roles.
+  - SubscriptionRepository: Interfaz que define las operaciones de persistencia relacionadas con las suscripciones.
+  - PlanRepository: Interfaz que define las operaciones de persistencia relacionadas con los planes de suscripción.
+  - PaymentRepository: Interfaz que define las operaciones de persistencia relacionadas con los pagos.
 
 #### 4.2.1.2. Interface Layer
+
+- API Endpoints:
+  - POST /subscriptions: Crea una nueva suscripción para un usuario.
+  - PUT /subscriptions/{subscriptionId}: Actualiza una suscripción existente.
+  - DELETE /subscriptions/{subscriptionId}: Cancela una suscripción.
+  - GET /subscriptions/{subscriptionId}: Obtiene los detalles de una suscripción.
+- DTOs:
+  - SubscriptionDTO: Representa los datos de una suscripción para ser enviados o recibidos a través de la API.
+  - PlanDTO: Representa los datos de un plan de suscripción para ser enviados o recibidos a través de la API.
+  - PaymentDTO: Representa los datos de un pago para ser enviados o recibidos a través de la API.
+- Controllers:
+  - SubscriptionController: Controlador que gestiona las operaciones relacionadas con las suscripciones, como la creación, actualización y cancelación de suscripciones.
+  - PlanController: Controlador que gestiona las operaciones relacionadas con los planes de suscripción, como la creación y actualización de planes.
+  - PaymentController: Controlador que gestiona las operaciones relacionadas con los pagos, como la creación y verificación de pagos.
+
 #### 4.2.1.3. Application Layer
+
+- Application Services:
+  - SubscriptionApplicationService: Servicio de aplicación que coordina las operaciones relacionadas con las suscripciones, como la creación, actualización y cancelación de suscripciones.
+  - PlanApplicationService: Servicio de aplicación que gestiona las operaciones relacionadas con los planes de suscripción, como la creación y actualización de planes.
+  - PaymentApplicationService: Servicio de aplicación que gestiona las operaciones relacionadas con los pagos, como la creación y verificación de pagos.
+- Commands/Queries:
+  - CreateSubscriptionCommand: Comando para crear una nueva suscripción.
+  - UpdateSubscriptionCommand: Comando para actualizar una suscripción existente.
+  - CancelSubscriptionCommand: Comando para cancelar una suscripción.
+  - GetSubscriptionQuery: Consulta para obtener los detalles de una suscripción.
+- Events:
+  - SubscriptionCreatedEvent: Evento que se dispara cuando se crea una nueva suscripción.
+  - SubscriptionUpdatedEvent: Evento que se dispara cuando se actualiza una suscripción.
+  - SubscriptionCancelledEvent: Evento que se dispara cuando se cancela una suscripción.
+  
 #### 4.2.1.4. Infrastructure Layer
+
+- Repositories implementations:
+  - SubscriptionRepositoryImpl: Implementación concreta del repositorio de suscripciones que se encarga de la persistencia de las suscripciones en la base de datos.
+  - PlanRepositoryImpl: Implementación concreta del repositorio de planes de suscripción que se encarga de la persistencia de los planes en la base de datos.
+  - PaymentRepositoryImpl: Implementación concreta del repositorio de pagos que se encarga de la persistencia de los pagos en la base de datos.
+- External Services:
+  - PaymentGatewayService: Servicio externo que se encarga de procesar los pagos realizados por los usuarios, como la verificación de tarjetas de crédito y la
+  - StripePaymentGateway: Implementación concreta del servicio de pasarela de pagos que utiliza la API de Stripe para procesar los pagos de los usuarios.
+  
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
-#### 4.2.1.6.1. Bounded Context Database Design Diagram
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
 
-
+![alt text](src/images/bc-db-subscriptions.png)
 
 # Conclusiones
 ## Conclusiones y Recomendaciones
