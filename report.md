@@ -944,6 +944,10 @@ Este diagrama nos ofrece una visión mas general de como es la interacción de l
 ![landscape](src/images/landscape%20diagram.jpg)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
+
+En este tipo de diagramas, se muestra como nuestro sistema interactúa con elementos externos.
+![context](src/images/diagrama%20de%20contexto.jpg)
+
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 #### 4.1.3.2. Software Architecture Deployment Diagrams
 
