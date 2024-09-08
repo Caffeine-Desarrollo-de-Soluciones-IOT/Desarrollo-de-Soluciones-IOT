@@ -925,6 +925,9 @@ Este enfoque esencial nos permite visualizar y comprender cómo las diferentes p
 **Answers Context**
 ![alt text](/src/images/flow-aws.png)
 #### 4.1.1.3. Bounded Context Canvases
+![alt text](/src/images/context-mapping.png)
+
+link del miro: https://miro.com/app/board/uXjVKhxU5HM=/?share_link_id=949468869000
 
 ### 4.1.2. Context Mapping
 **Area Management Context - Device Management Context:**
