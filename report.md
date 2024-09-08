@@ -1,3 +1,55 @@
+# Report Iot
+
+![logo](src/images/logo.webp)
+
+Carrera: Ingeniería de Software
+
+Nombre del curso: Desarrollo de Soluciones IOT
+
+Sección: WV71
+
+Nombre del profesor: Velasquez Nuñez, Angel Augusto
+
+"Informe de TB1"
+
+Nombre del startup: VerySafe
+
+Nombre del producto: FalconShield
+
+Relación de integrantes:
+
+- Gabriela Soledad Nomberto Ramos
+- Dennis Piero Quevedo Yucra
+- Max Dayson Sabino Arostegui
+- Elvia Guadalupe Arteaga Cruz
+- Jamutaq Piero Ortega Vélez
+
+Mes y año: Agosto 2024
+
+Ciclo: 2024-2
+
+## Registro de Versiones del Informe
+| Version | Fecha| Autor | Descripción de la Modificación |
+|-----------|-----------|-----------|-----------|
+| 0.1 | 27/08/2023 | Arteaga, Elvia | Lean UX Proccess |
+| 0.2 | 27/08/2023 | Nomberto, Gabriela | Antecedentes y Problemática |
+| 0.3 | 29/08/2023 | Ortega, Jamutaq | Creacion del repositorio backend, Needfinding |
+| 0.4 | 30/08/2023 | Sabino, Max | Estrategias y Tacticas frene a competidores, Diseño de entrevistas |
+| 0.5 | 29/08/2023 | Quevedo, Dennis | Descripcion de la Startup, Needfinding |
+| 0.6 | 31/08/2023 | Quevedo, Dennis | Segmentos Objetivos|
+| 0.7 | 1/09/2023 | Ahuanari, Maria | Desarrollo de Bounded Context Physiotherapist Selection and Review Management |
+| 0.8 | 4/09/2023 | Todos los participantes | Registro de entrevista y análisis de entrevista |
+| 0.9 | 5/09/2023 | Nomberto, Gabriela | Ubiquitous Language |
+| 0.10 | 5/09/2023 | Arteaga, Elvia | To-be Scenario Mapping |
+| 0.11 | 7/09/2023 | Quevedo, Dennis | Impact Mapping |
+| 0.11 | 7/09/2023 | Todos los participantes | EventStorming, User Stories, Tactical-Level Domain-Driven Design |
+
+# Student Outcome
+| Criterio específico | Acciones realizadas | Conclusiones |
+|----------------------|----------------------|--------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **TB1:** <br> **Max Dayson Sabino Arostegui:** <br> Colabore en todos los capitulos con los puntos: estrategia y tácticas frente a competidores, product backlog, diseños de entrevista, registro de entrevista y con el bounded context devices. Todo esto me ayudó a fomentar el trabajo en equipo <br> **Gabriela Nomberto Ramos** <br> Colabore en todos los capitulos tanto como la definicion y focalziacion del alcance de nuestro producto asi como las arquitecturas, modelos y mejoras continuas |Concluimos que las reuniones y las mejoras continuas entre todos nos ayuda a mejorar el reporte de trabajo y poder colaborar todo de forma equitativa |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **TB1:** <br> **Max Dayson Sabino Arostegui:** <br> Durante las reuniones en el aula planificamos las tareas y definimos las metas. En cada reunión revisamos el avance para recalcar los objetivos <br> **Gabriela Nomberto Ramos** <br> Tuvimos reuniones en el salón de clase el cual nos ayudo mucho a definir lo que cada uno debe de hacer, asimismo por medio de un grupo de WhatsApp pudimos absolver algunas dudas |Para este apartado, todos aportamos en la estructuracion y llenado del reporte, trabajando asi en grupo y entendiendonos entre todos |
+
 # CAPÍTULO I: INTRODUCTION
 ## 1.1 Startup Profile
 ### 1.1.1 Descripción de la Startup
@@ -1247,9 +1299,70 @@ En el contexto de "Account," el Application Layer se enfoca en la creación, aut
 
 ![BD](src/images/BD-ACCOUNT.jpg)
 
+### 4.2.5. Bounded Context: Event
+#### 4.2.5.1. Domain Layer
+
+**Entidades de dominio**
+
+- **Event:** Representa un evento en el sistema.
+- **EventType:** Representa el tipo de evento en el sistema.
+
+**Agregados**
+
+- **EventManager:** Maneja la creación y gestión de eventos.
+- **EventTypeManager:** Maneja la creación y gestión de tipos de eventos.
+  
+**Repositorios**
+
+- **EventRepository:** Maneja la persistencia de los eventos.
+- **EventTypeRepository:** Maneja la persistencia de los tipos de eventos.
+ 
+#### 4.2.5.2. Interface Layer
+
+- **EventController:** Maneja las operaciones relacionadas con la gestión de eventos, como la creación, actualización y eliminación de eventos.
+
+- **EventTypeController:** Maneja las operaciones relacionadas con la gestión de tipos de eventos, como la creación, actualización y eliminación de tipos de eventos.
+
+#### 4.2.5.3. Application Layer
+
+En el contexto de “Events,” el Application Layer se enfoca en la creación y gestión de eventos y sus tipos. Proporciona una interfaz para que los usuarios puedan crear, actualizar y eliminar eventos y tipos de eventos.
+
+**Command Handlers:**
+
+- **CreateEventCommandHandler:** Procesa la creación de nuevos eventos en el sistema.
+- **UpdateEventCommandHandler:** Procesa la actualización de eventos existentes.
+- **DeleteEventCommandHandler:** Procesa la eliminación de eventos.
+
+**Event Handlers:**
+
+- **EventCreatedEventHandler:** Responde a eventos que indican la creación exitosa de un evento.
+- **EventUpdatedEventHandler:** Responde a eventos que indican la actualización exitosa de un evento.
+- **EventDeletedEventHandler:** Responde a eventos que indican la eliminación exitosa de un evento.
+
+#### 4.2.5.4. Infrastructure Layer
+
+**Integración con AWS SNS para el envío de notificaciones:** Se configurarán conexiones y se desarrollarán adaptadores para interactuar con el servicio de notificaciones de AWS SNS, permitiendo el envío y recepción de mensajes a través de múltiples canales, como SMS, correos electrónicos, o notificaciones push como respuesta a una alerta o prevencion de la alarma.
+
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+![component](src/images/bc-component-event.jpg)
+
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+![class](src/images/bc-class-event.jpg)
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![events](src/images/bd-events.jpg)
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
+
+- La especificación de nuestro problema a partir de los 5w y 2H nos permitió reconocer e identificar la problemática que abordamos en general. Nos ayudó a implementar acciones estratégicas con el fin de que nuestra solución de software sea eficiente y abarque en todos los sentidos el problema identificado.
+
+- La descripción de los Problem Statement fue de suma ayuda ya que nos permitió a identificar si nuestra solución que queremos brindar era la adecuada. Los resultados que llegamos a partir de la especificación fueron que a partir del análisis de los Problem Statement identificamos que era necesario agregar más ideas de solución a las que ya habíamos propuesto en un inicio. Había algunas ideas que no habíamos tomado en cuenta, pero para nuestros usuarios eran aspectos primordiales. Lo cual al realizar este ítem decidimos incluir más ideas de solución porque queríamos atender todas las necesidades que nuestro público objetivo desea satisfacer.
+
+- El diseño de las arquitecturas tanto en los diagramas C4 como en los bounded context que cada uno logró hacer, identificamos que con ello podemos centrar mejor nuestra vision y alcance del proyecto para que de esta forma todos estemos alineados para las entregas futuras.
 
 # Bibliografía
 - Gothelf, J., & Seiden, J. (2016). Lean UX: Designing Great Products with Agile Teams. «O’Reilly Media, Inc.»
