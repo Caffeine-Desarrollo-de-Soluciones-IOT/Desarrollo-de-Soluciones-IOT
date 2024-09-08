@@ -473,6 +473,11 @@ Para VerySafe tenemos los siguientes términos:
 
 # CAPÍTULO III: REQUERIMENTS SPECIFICATION
 ## 3.1. To-Be Scenario Mapping
+* **Segmento 1: Dueños de inmuebles**
+![To Be 1](/src/images/to-be-1.jpg)
+
+* **Segmento 2: Empresa de seguridad**
+![To Be 2](/src/images/to-be-2.jpg)
 ## 3.2. User Stories
 
 **Historias de Usuario para la Aplicación Web**
