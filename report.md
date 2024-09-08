@@ -387,6 +387,355 @@ Para VerySafe tenemos los siguientes términos:
 # CAPÍTULO III: REQUERIMENTS SPECIFICATION
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
+
+**Historias de Usuario para la Aplicación Web**
+
+|**Número:**| HU 1|
+|-| - |
+   |**Usuario:**| Propietario de inmueble
+   |**Nombre de historia:**| Ver historial de alertas
+   |**Prioridad:** |Alta
+   |**Riesgo:**| Medio
+   |**Descripción:**| Como propietario de un inmueble, quiero poder ver el historial de alertas de seguridad para revisar incidentes pasados.|
+   |**Criterios de aceptación:**| **Dado** que estoy en la página de historial **Cuando** selecciono una fecha específica **Entonces** puedo ver todas las alertas generadas ese día con detalles como hora, tipo de alerta, y acción tomada. |
+
+|**Número:**| HU 2 |
+|- |- |
+   |**Usuario:** |Propietario de inmueble|
+   |**Nombre de historia:**| Controlar dispositivos de seguridad|
+   |**Prioridad:**| Alta|
+   |**Riesgo:**| Alto|
+   |**Descripción:**| Como propietario de un inmueble, quiero controlar mis dispositivos de seguridad desde la aplicación web para armar o desarmar la alarma.|
+   |**Criterios de aceptación:**| **Dado** que estoy en el panel de control de dispositivos **Cuando** selecciono un dispositivo y una acción (armar/desarmar) **Entonces** el dispositivo realiza la acción y se muestra una notificación de confirmación. |
+
+|**Número:**| HU-03|
+|-|-|
+   |**Usuario:**| Empresa de seguridad|
+   |**Nombre de historia:**| Monitorear múltiples propiedades|
+   |**Prioridad:**| Alta|
+   |**Riesgo:**| Alto|
+   |**Descripción:** |Como empresa de seguridad, quiero monitorear varias propiedades desde una única interfaz para gestionar las alertas de manera eficiente.|
+   |**Criterios de aceptación:**|**Dado** que estoy en el dashboard **Cuando** selecciono una propiedad **Entonces** puedo ver un resumen en tiempo real de todos los dispositivos y alertas de esa propiedad.|
+
+|**Número:** | HU-04|
+| - | - |
+   |**Usuario:** |Empresa de seguridad|
+   |**Nombre de historia:**| Configurar alertas personalizadas|
+   |**Prioridad:**| Media|
+   |**Riesgo:** |Medio|
+   |**Descripción:**| Como empresa de seguridad, quiero configurar alertas personalizadas para recibir notificaciones específicas según los tipos de eventos en cada propiedad.|
+   |**Criterios de aceptación:**| **Dado** que estoy en la sección de configuraciones **Cuando** creo una nueva alerta personalizada **Entonces** recibo notificaciones solo para los eventos configurados.|
+
+|**Número:** | HU-05|
+|-|-|
+   |**Usuario:**| Propietario de inmueble|
+   |**Nombre de historia:** |Reportar un incidente|
+   |**Prioridad:** |Alta|
+   |**Riesgo:**| Medio|
+   |**Descripción:** |Como propietario de un inmueble, quiero reportar un incidente directamente desde la aplicación web para que la empresa de seguridad lo gestione.|
+   |**Criterios de aceptación:**| **Dado** que estoy en la sección de reportes **Cuando** lleno el formulario de incidente y lo envío **Entonces** la empresa de seguridad recibe una notificación con los detalles del reporte.| 
+
+**Historias de Usuario para la Aplicación Móvil**
+
+|**Número:** | HU-06|
+   |-|-|
+   |**Usuario:**| Propietario de inmueble|
+   |**Nombre de historia:** |Recibir notificaciones en tiempo real|
+   |**Prioridad:** |Alta|
+   |**Riesgo:**| Alto|
+   |**Descripción:**| Como propietario de un inmueble, quiero recibir notificaciones en tiempo real en mi móvil sobre cualquier alerta de seguridad para tomar acciones inmediatas.|
+   |**Criterios de aceptación:**| **Dado** que tengo la aplicación móvil instalada **Cuando** se activa una alerta **Entonces** recibo una notificación push con la descripción del evento.|
+   
+| **Número:**| HU-07|
+|-|-|
+   | **Usuario:**| Empresa de seguridad|
+   | **Nombre de historia:** |Acceso remoto a cámaras|
+   | **Prioridad:** |Alta|
+   | **Riesgo:**| Alto|
+   | **Descripción:**| Como empresa de seguridad, quiero acceder a las cámaras de las propiedades desde mi dispositivo móvil para verificar en tiempo real cualquier alerta.|
+   |**Criterios de aceptación:**|**Dado** que tengo acceso a la propiedad en la app  **Cuando** selecciono la opción de cámaras **Entonces** puedo ver las imágenes en vivo de todas las cámaras instaladas.|
+
+|**Número:**| HU-08|
+|-|-|
+   |**Usuario:**| Propietario de inmueble|
+   |**Nombre de historia:** |Control de acceso remoto|
+   |**Prioridad:**  | Alta   |
+   |**Riesgo:**| Medio|
+   |**Descripción:** |Como propietario de un inmueble, quiero controlar el acceso a mi propiedad desde mi móvil para abrir o cerrar puertas de manera remota.|
+   |**Criterios de aceptación:**| **Dado** que tengo la app instalada **Cuando** selecciono la opción de control de acceso **Entonces** puedo abrir o cerrar puertas conectadas con un solo clic.|
+
+|**Número:** | HU-09|
+|-|-|
+   |**Usuario:**| Empresa de seguridad
+   |**Nombre de historia:**| Crear y gestionar alertas desde la app
+   |**Prioridad:**| Media
+   |**Riesgo:**| Medio
+   |**Descripción:**| Como empresa de seguridad, quiero poder crear y gestionar alertas desde mi móvil para estar siempre en control, incluso cuando no estoy en la oficina.
+   |**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando** creo una nueva alerta personalizada **Entonces** esta se activa y puedo recibir notificaciones basadas en esa configuración.|
+
+   |**Número:**| HU-10|
+   |-|-|
+   |**Usuario:**| Propietario de inmueble|
+   |**Nombre de historia:**| Ver grabaciones de seguridad|
+   |**Prioridad:**| Media|
+   |**Riesgo:** |Medio|
+   |**Descripción:**| Como propietario de un inmueble, quiero ver las grabaciones de seguridad desde mi móvil para revisar eventos pasados mientras estoy fuera de casa.|
+   |**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando** selecciono una fecha y hora **Entonces** puedo ver la grabación correspondiente directamente desde mi dispositivo móvil.|
+
+**Historias de Usuario para el Backend**
+
+|**Número:**| HU-11|
+|-|-|
+|**Usuario:**| Administrador del sistema|
+|**Nombre de historia:**| Gestión de usuarios|
+|**Prioridad:**| Alta|
+|**Riesgo:** |Alto|
+|**Descripción:**| Como administrador, quiero poder gestionar todos los usuarios desde el backend para controlar el acceso y los permisos de la plataforma.|
+|**Criterios de aceptación:**| **Dado** que estoy en el panel de administración **Cuando** agrego, edito o elimino un usuario **Entonces** estos cambios se reflejan en la aplicación web y móvil.|
+
+|**Número:** | HU-12|
+|-|-|
+|**Usuario:**| Administrador del sistema|
+|**Nombre de historia:**| Gestión de dispositivos conectados|
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como administrador, quiero poder gestionar todos los dispositivos conectados para monitorear su estado y funcionamiento.|
+|**Criterios de aceptación:**| **Dado** que estoy en el panel de administración  **Cuando** veo el listado de dispositivos **Entonces** puedo actualizar su estado, ver logs y desconectar dispositivos si es necesario.|
+
+|**Número:** | HU-13|
+|-|-|
+|**Usuario:**| Administrador del sistema|
+|**Nombre de historia:**| Integración con sistemas de terceros|
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como administrador, quiero integrar la plataforma con sistemas de seguridad de terceros para ampliar las capacidades del sistema.|
+|**Criterios de aceptación:**| **Dado** que estoy en el panel de integraciones  **Cuando** configuro una integración nueva **Entonces** los dispositivos y datos del sistema de terceros se sincronizan con nuestra plataforma. |
+
+|**Número:** | HU-14|
+|-|-|
+|**Usuario:**| Administrador del sistema|
+|**Nombre de historia:**| Gestión de logs y auditoría|
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como administrador, quiero poder acceder a los logs y realizar auditorías para monitorear la actividad del sistema y detectar anomalías.|
+|**Criterios de aceptación:**| **Dado** que estoy en la sección de logs **Cuando** selecciono un rango de fechas **Entonces** puedo ver todas las actividades registradas en ese periodo. |
+
+|**Número:** | HU-15|
+|-|-|
+|**Usuario:**| Administrador del sistema|
+|**Nombre de historia:**| Configuración de políticas de seguridad|
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como administrador, quiero poder configurar políticas de seguridad para asegurar que todos los dispositivos y datos cumplan con los estándares requeridos.|
+|**Criterios de aceptación:**| **Dado** que estoy en la sección de políticas **Cuando** establezco una nueva política **Entonces** se aplica a todos los dispositivos y usuarios de la plataforma. |
+
+**Historias de Usuario para el Edge**
+
+|**Número:** | HU-16|
+|-|-|
+|**Usuario:**| Propietario de inmueble|
+|**Nombre de historia:**| Detección de anomalías en tiempo real|
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como propietario de un inmueble, quiero que los dispositivos en el edge detecten anomalías en tiempo real para reaccionar de inmediato ante posibles amenazas.|
+|**Criterios de aceptación:**| **Dado** que tengo dispositivos edge instalados **Cuando** ocurre una anomalía **Entonces** el dispositivo envía una alerta inmediata a la app móvil y web. |
+
+|**Número:** | HU-17|
+|-|-|
+|**Usuario:**| Administrador del sistema |
+|**Nombre de historia:**| Actualización remota de firmware|
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como administrador, quiero poder actualizar remotamente el firmware de los dispositivos en el edge para asegurar su correcto funcionamiento y seguridad.|
+|**Criterios de aceptación:**| **Dado** que estoy en el panel de dispositivos **Cuando** selecciono actualizar el firmware de un dispositivo **Entonces** el dispositivo se actualiza automáticamente y se reinicia. |
+
+|**Número:** | HU-18|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Autonomía operativa de dispositivos edge |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como empresa de seguridad, quiero que los dispositivos en el edge funcionen de manera autónoma si pierden conexión con el servidor para asegurar la continuidad del servicio.|
+|**Criterios de aceptación:**| **Dado** que un dispositivo edge pierde conexión **Cuando** continúa operando de manera autónoma **Entonces** las alertas y registros se guardan localmente hasta que se restablezca la conexión. |
+
+|**Número:** | HU-19|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Monitoreo de alertas en dispositivos edge |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como propietario de un inmueble, quiero monitorear las alertas de mis dispositivos edge.|
+|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de alertas **Cuando** le doy click a un dispositivo **Entonces** puedo ver un historial de alertas del dispositivo y recibir sugerencias de optimización. |
+
+|**Número:** | HU-20|
+|-|-|
+|**Usuario:**|Administrador del sistema|
+|**Nombre de historia:**| Reinicio remoto de dispositivos edge |
+|**Prioridad:** |Media|
+|**Riesgo:** |Bajo|
+|**Descripción:** |Como administrador, quiero poder reiniciar remotamente los dispositivos en el edge para solucionar problemas de manera eficiente.|
+|**Criterios de aceptación:**| **Dado** que estoy en el panel de dispositivos **Cuando**  selecciono la opción de reinicio **Entonces** el dispositivo se reinicia automáticamente y notifica al usuario. |
+
+**Historias de Usuario para Dispositivos IoT**
+
+|**Número:** | HU-21|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Control de luces inteligentes |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como propietario de un inmueble, quiero controlar las luces inteligentes de mi propiedad desde la app para encender o apagar según necesidad.|
+|**Criterios de aceptación:**| **Dado** que estoy en la app móvil **Cuando**  selecciono una luz que quiero modificar **Entonces** puedo encenderla, apagarla o ajustar la intensidad.|
+
+|**Número:** | HU-22|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| nitoreo de sensores de movimiento |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como empresa de seguridad, quiero monitorear en tiempo real los sensores de movimiento de los dispositivos IoT para detectar intrusos.|
+|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de sensores **Cuando** un sensor detecta movimiento **Entonces** recibo una alerta inmediata en la app.|
+
+|**Número:** | HU-23|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Monitorización de baterías en dispositivos IoT |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como empresa de seguridad, quiero monitorear el nivel de batería de los dispositivos IoT para asegurar que siempre estén operativos.|
+|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de energía **Cuando** el nivel de batería es bajo **Entonces** recibo una alerta para reemplazar o recargar el dispositivo.|
+
+|**Número:** | HU-24|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Automatización de escenarios |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como propietario de un inmueble, quiero crear escenarios automatizados en mi app para que los dispositivos IoT actúen en conjunto según la hora o eventos específicos.|
+|**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando**  configuro un escenario **Entonces** los dispositivos correspondientes se activan o desactivan automáticamente según lo programado.|
+
+**Historias de Usuario para Propietarios de Inmuebles**
+
+|**Número:** | HU-25|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Ver estado de la propiedad en tiempo real |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alt|
+|**Descripción:** |Como propietario de un inmueble, quiero ver el estado de seguridad de mi propiedad en tiempo real desde la app para asegurarme de que todo esté en orden.|
+|**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando**  creviso el dashboard **Entonces** uedo ver el estado de todos mis dispositivos de seguridad en tiempo real.|
+
+|**Número:** | HU-26|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**|  Recibir notificaciones |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como propietario de un inmueble, quiero recibir notificaciones en la app para estar informado sobre cualquier alerta de seguridad.|
+|**Criterios de aceptación:**| **Dado** que tengo notificaciones activas **Cuando**  ocurre una alerta **Entonces** los dispositivos correspondientes se activan la alarma y recibo una notificacion de alerta|
+
+|**Número:** | HU-27|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Acceso a informes de seguridad|
+|**Prioridad:** |Media|
+|**Riesgo:** |Bajo|
+|**Descripción:** |Como propietario de un inmueble, quiero acceder a informes de seguridad mensuales para revisar el rendimiento de mis dispositivos de seguridad.|
+|**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando**  cdescargo el informe **Entonces** recibo un PDF con un resumen del mes en términos de eventos y alertas. |
+
+|**Número:** | HU-28|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Configurar notificaciones de prioridad |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como propietario de un inmueble, quiero configurar qué tipos de alertas recibir para priorizar las más importantes y evitar saturación de notificaciones.|
+|**Criterios de aceptación:**| **Dado** que estoy en la sección de notificaciones **Cuando** ajusto las preferencias **Entonces** recibo solo las notificaciones configuradas.|
+
+|**Número:** | HU-29|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Configuración de acceso compartido |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como propietario de un inmueble, quiero compartir acceso temporal o limitado con otras personas para que puedan entrar en mi propiedad sin comprometer la seguridad.|
+|**Criterios de aceptación:**| **Dado** que estoy en la sección de acceso **Cuando** configuro el acceso compartido **Entonces** la otra persona recibe un código o acceso temporal limitado.|
+
+**Historias de Usuario para Usuarios de Empresas de Seguridad**
+
+|**Número:** | HU-30|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Gestión de patrullas |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como empresa de seguridad, quiero gestionar las rutas de patrullas en tiempo real para optimizar la vigilancia en propiedades protegidas.|
+|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de patrulla **Cuando** asigno una ruta a un guardia **Entonces** puedo ver su progreso y hacer ajustes en tiempo real.|
+
+|**Número:** | HU-31|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Notificaciones de intrusión en tiempo real |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como empresa de seguridad, quiero recibir notificaciones en tiempo real sobre cualquier intento de intrusión en las propiedades bajo nuestra vigilancia para actuar inmediatamente.|
+|**Criterios de aceptación:**| **Dado** que un sensor detecta una intrusión **Cuando** la alerta se dispara **Entonces** recibo una notificación inmediata en mi panel de control y la app.|
+
+|**Número:** | HU-32|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Acceso a cámaras de seguridad |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como empresa de seguridad, quiero acceder a las cámaras de seguridad en las propiedades de nuestros clientes para monitorear en tiempo real cualquier actividad sospechosa.|
+|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de cámaras **Cuando** selecciono una cámara **Entonces** puedo ver la transmisión en vivo y revisar grabaciones.|
+
+|**Número:** | HU-33|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Control de acceso remoto |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como empresa de seguridad, quiero controlar de manera remota el acceso a una propiedad para permitir la entrada o salida de personas sin estar físicamente presentes.|
+|**Criterios de aceptación:**| **Dado** que estoy en el panel de control **Cuando** selecciono la opción de abrir o cerrar accesos **Entonces** puedo desbloquear o bloquear la puerta remotamente.|
+
+|**Número:** | HU-34|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Respuesta automatizada ante amenazas |
+|**Prioridad:** |Media|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como empresa de seguridad, quiero que el sistema responda automáticamente ante amenazas identificadas por los dispositivos de seguridad para minimizar el tiempo de reacción.|
+|**Criterios de aceptación:**| **Dado** que una amenaza es detectada **Cuando** el sistema la confirma **Entonces** se activan las medidas de seguridad preconfiguradas (alarma, bloqueo de puertas, notificación a autoridades).|
+
+**Historias de Usuario para Aplicaciones Móviles y Web**
+
+|**Número:** | HU-35|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Personalización de la interfaz |
+|**Prioridad:** |Media|
+|**Riesgo:** |Bajo|
+|**Descripción:** |Como propietario de un inmueble, quiero personalizar la interfaz de la app para que se adapte a mis preferencias y uso cotidiano.|
+|**Criterios de aceptación:**| **Dado** que estoy en la sección de configuración **Cuando** ajusto la apariencia y disposición de elementos **Entonces** la interfaz refleja mis preferencias personales.|
+
+|**Número:** | HU-36|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Uso compartido de dispositivos |
+|**Prioridad:** |Media|
+|**Riesgo:** |Bajo|
+|**Descripción:** |Como propietario de un inmueble, quiero compartir el control de ciertos dispositivos con otros usuarios desde la app para que también puedan manejarlos.|
+|**Criterios de aceptación:**| **Dado** que estoy en la sección de dispositivos **Cuando** configuro el uso compartido **Entonces** el otro usuario tiene acceso limitado o completo según lo configurado.|
+
+|**Número:** | HU-37|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Alertas de mantenimiento preventivo |
+|**Prioridad:** |Media|
+|**Riesgo:** |Bajo|
+|**Descripción:** |Como propietario de un inmueble, quiero recibir alertas de mantenimiento preventivo de los dispositivos para evitar fallos y asegurar su operación continua.|
+|**Criterios de aceptación:**| **Dado** que tengo dispositivos operando **Cuando** alguno necesita mantenimiento **Entonces** recibo una alerta en la app y el email con los pasos a seguir para realizar el mantenimiento.|
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
