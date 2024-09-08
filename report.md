@@ -296,6 +296,22 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
       <td>Chorrillos</td>
       <td> 8:36 </td>
     </tr>
+    <tr>
+      <td>04</td>
+      <td>Aaron</td>
+      <td>Alva Moreno</td>
+      <td>24 años</td>
+      <td>San Juan de Lurigancho</td>
+      <td> --- </td>
+    </tr>
+        <tr>
+      <td>05</td>
+      <td>Diego</td>
+      <td>Acuña</td>
+      <td>28 años</td>
+      <td>San Isidro</td>
+      <td> --- </td>
+    </tr>
 </table>
 
 
@@ -313,8 +329,6 @@ Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproxi
 
 Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más importantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. Por último, mencionó que ella prefiere gestionar el sistema de seguridd de su hogar mediante una aplicación, ya que de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
 
-
-
 3. **Entrevista Nro 3: Luis Minaya**
 
 ![alt text](/src/images/interview3.png)
@@ -323,8 +337,18 @@ Luis menciona que hace un tiempo sufrió un intento de robo en su inmueble, lo q
 
 link de la entrevista: https://youtu.be/jfX4erZaQ9c
 
+4. **Entrevista Nro 4: Aaron Alva**
+
+![entrevista 4](src/images/interview-4.jpg)
+
+Aaron antes de la entrevista me comentó que inició un proceso de mudanza en una zona un poco movida de SJL. Al empezar la entrevista me comenta que su zona hay demasiada inseguridad y que el robo de los inmuebles u hogares esta a la orden del día. Además, me comenta que ha estado en busca de un sistema de seguridad para su hogar y de esta forma sentirse protegido ante robos, me comenta que estaría dispuesto a probar sistemas IoT y ver su funcionaldiad y mejoramiento a traves de las notificaciones que podamos brindarlos.
 
 * **Segmento 2: Empresas de Seguridad**
+
+1. **Entrevista Nro 5: Diego Acuña**
+![entrevista 5](src/images/interview-5.jpg)
+
+Para esta ocasión entrevistamos a Diego quien tiene una compañía de seguridad. Nos comenta que busca mejorar poco a poco dado que sus tiempos de respuesta ante una emergencia pueden llegar a ser de hasta 10 minutos y dependiendo a la zona que se dirija la alarma emitida, además nos comenta que sí esta familiarizado con dispositivos IoT pero que hay ciertas momentos que se malogran y las notificaciones no llegan ahasta despues de un tiempo. Asimismo que esta dispuesto a buscar otros tipos de dispositvos en donde pueda beneficiarse.
 
 ## 2.3 Needfinding
 ### 2.3.1. User Personas
