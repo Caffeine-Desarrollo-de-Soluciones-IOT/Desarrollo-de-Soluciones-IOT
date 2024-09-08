@@ -956,6 +956,9 @@ Son representaciones visuales de la arquitectura de software a nivel de contened
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
+Son representaciones gráficas que ilustran cómo se despliegan y ejecutan los componentes de software en la infraestructura de hardware o en un entorno de producción.
+![deployment](src/images/deployment.jpg)
+
 ## 4.2. Tactical-Level Domain-Driven Design
 ### 4.2.1. Bounded Context: Subscriptions
 #### 4.2.1.1. Domain Layer
