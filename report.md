@@ -960,31 +960,8 @@ Son representaciones gráficas que ilustran cómo se despliegan y ejecutan los c
 ![deployment](src/images/deployment.jpg)
 
 ## 4.2. Tactical-Level Domain-Driven Design
-### 4.2.1. Bounded Context: Subscriptions
+### 4.2.1. Bounded Context:
 #### 4.2.1.1. Domain Layer
-En esta capa reside el núcleo de la aplicación encargado de gestionar las suscripciones y el sistema de pagos en la aplicación.
-
-- Entities:
-  - Payments:
-  - Subscriptions:
-  - Subscriptions Plans:s
-
-- Value Objects:
-  - Email: Un objeto de valor para representar direcciones de correo electrónico válidas.
-  - Password: Un objeto de valor para manejar contraseñas de manera segura.
-
-- Aggregates:
-  - UserAggregate: Puede ser un agregado que incluye la entidad de usuario y los roles relacionados.
-
-- Factories:
-  - UserFactory: Para crear instancias de usuarios y roles de manera consistente.
-
-- Domain Services:
-  - AuthenticationService: Puede ser un servicio de dominio encargado de la autenticación de usuarios.
-
-- Repositories:
-  - UserRepository: Define cómo se accede y se persisten los usuarios y roles.
-
 #### 4.2.1.2. Interface Layer
 #### 4.2.1.3. Application Layer
 #### 4.2.1.4. Infrastructure Layer
