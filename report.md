@@ -1350,7 +1350,7 @@ En el contexto de “Events,” el Application Layer se enfoca en la creación y
 #### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 ![class](src/images/bc-class-event.jpg)
 
-#### 4.2.3.6.2. Bounded Context Database Design Diagram
+#### 4.2.5.6.2. Bounded Context Database Design Diagram
 
 ![events](src/images/bd-events.jpg)
 
