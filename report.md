@@ -356,6 +356,15 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
       <td>San Isidro</td>
       <td> --- </td>
     </tr>
+    </tr>
+        <tr>
+      <td>06</td>
+      <td>Jorge</td>
+      <td>Luis</td>
+      <td>23 años</td>
+      <td>San Juan de Miraflores</td>
+      <td> --- </td>
+    </tr>
 </table>
 
 
@@ -393,6 +402,10 @@ Aaron antes de la entrevista me comentó que inició un proceso de mudanza en un
 ![entrevista 5](src/images/interview-5.jpg)
 
 Para esta ocasión entrevistamos a Diego quien tiene una compañía de seguridad. Nos comenta que busca mejorar poco a poco dado que sus tiempos de respuesta ante una emergencia pueden llegar a ser de hasta 10 minutos y dependiendo a la zona que se dirija la alarma emitida, además nos comenta que sí esta familiarizado con dispositivos IoT pero que hay ciertas momentos que se malogran y las notificaciones no llegan ahasta despues de un tiempo. Asimismo que esta dispuesto a buscar otros tipos de dispositvos en donde pueda beneficiarse.
+
+2. **Entrevista Nro 6: Jorge Luis**
+![entrevista 5](src/images/interview-6.png)
+Las respuestas de Jorge reflejan un enfoque robusto y adaptable para gestionar la seguridad a través de IoT. La empresa muestra un fuerte compromiso con la capacitación de su personal, la integración tecnológica, y la mejora continua de sus procesos para asegurar respuestas rápidas y eficientes ante cualquier amenaza.
 
 ## 2.3 Needfinding
 ### 2.3.1. User Personas
@@ -832,6 +845,16 @@ Para VerySafe tenemos los siguientes términos:
 
 
 ## 3.3. Impact Mapping
+La herramienta denominada Impact Mapping consiste en una forma visual de representar las metas que nos plasmamos para llegar a cada sector de nuestro público. Por esta razón, el equipo utilizó este artefacto con el fin de definir nuestro camino para alcanzar a los segmentos objetivos. De este modo, al final del mapa mental identificamos las acciones y funcionalidades que debemos llevar a cabo para formar el proyecto de manera eficiente.
+
+### User: Dueño de Inmuebles
+A continuación, se presenta el Impact Map en el usuario, dueño de inmuebles; para la cual nos basamos en las User Stories de nuestro proyecto, brindando las alternativas con las que dispone los aplicativos para solucionar y satisfacer las necesidades del usuario.
+![](/src/images/impact-map-dueño-inmueble.png)
+
+### User: Empresa de seguridad
+Este mapa de impacto incluye los objetivos empresariales, los efectos deseados en la organización de seguridad y las historias de usuario relacionadas. El enfoque es en mejorar la eficiencia operativa y la satisfacción del cliente mediante el uso de tecnología IoT para vigilancia en tiempo real y respuestas automatizadas a amenazas.
+![](/src/images/impact-map-seguridad.png)
+
 ## 3.4. Product Backlog
 
 ### **Product Backlog**
