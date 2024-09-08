@@ -948,8 +948,13 @@ Este diagrama nos ofrece una visión mas general de como es la interacción de l
 En este tipo de diagramas, se muestra como nuestro sistema interactúa con elementos externos.
 ![context](src/images/diagrama%20de%20contexto.jpg)
 
-#### 4.1.3.2. Software Architecture Container Level Diagrams
-#### 4.1.3.2. Software Architecture Deployment Diagrams
+#### 4.1.3.3. Software Architecture Container Level Diagrams
+
+Son representaciones visuales de la arquitectura de software a nivel de contenedores, que muestran cómo se agrupan y se comunican los distintos componentes y servicios dentro de un sistema o aplicación. Estos diagramas proporcionan una vista detallada de la organización de los contenedores de software, lo que ayuda a entender la estructura y las interacciones en la arquitectura general.
+![container](src/images/container.jpg)
+
+
+#### 4.1.3.4. Software Architecture Deployment Diagrams
 
 ## 4.2. Tactical-Level Domain-Driven Design
 ### 4.2.1. Bounded Context: Subscriptions
