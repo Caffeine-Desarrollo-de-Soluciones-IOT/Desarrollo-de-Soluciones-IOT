@@ -408,7 +408,11 @@ Para VerySafe tenemos los siguientes términos:
 
 ## 4.2. Tactical-Level Domain-Driven Design
 <!-- TODO -->
-
+### 4.2.1. Bounded Context: Payments
+#### 4.2.1.1. Domain Layer
+#### 4.2.1.2. Interface Layer
+#### 4.2.1.3. Application Layer
+#### 4.2.1.4. Infrastructure Layer
 ### 4.2.2. Bounded Context: Device
 
 #### 4.2.2.1 Domain Layer
