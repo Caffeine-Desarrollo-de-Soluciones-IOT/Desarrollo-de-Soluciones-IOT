@@ -432,7 +432,6 @@ Para VerySafe tenemos los siguientes términos:
 - **InstallationController**: Maneja la gestión de la instalación de dispositivos. Permite a los usuarios iniciar nuevas instalaciones, actualizar el estado de las instalaciones y visualizar el historial de instalaciones.
 
 - **PropertyController**: Gestiona la información de las propiedades donde los dispositivos están instalados. Permite a los usuarios ver detalles sobre las propiedades y asociar dispositivos con propiedades específicas.
-
 #### 4.2.2.3. Application Layer
 - **Command Handlers**:
   - **RegisterDeviceCommandHandler**: Procesa la solicitud para registrar un nuevo dispositivo IoT en el sistema. Este handler maneja la creación de registros para nuevos dispositivos y su configuración inicial.
@@ -453,6 +452,8 @@ Para VerySafe tenemos los siguientes términos:
 - **Gestión de bases de datos**: Incluye la configuración y gestión de bases de datos relacionadas con los dispositivos IoT. Abarca la creación de tablas, almacenamiento en caché para mejorar el rendimiento y copias de seguridad de datos sensibles.
 
 - **Seguridad**: Implementa medidas de seguridad para proteger los datos de los dispositivos y la comunicación entre los dispositivos y el sistema central. Esto podría incluir cifrado de datos, autenticación de dispositivos y medidas contra accesos no autorizados.
+
+
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
