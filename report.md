@@ -1066,6 +1066,12 @@ Son representaciones gráficas que ilustran cómo se despliegan y ejecutan los c
   - **DeviceInstalledEventHandler**: Maneja eventos de instalación exitosa de un dispositivo. Actualiza el estado de la instalación y emite notificaciones.
   - **DeviceUninstalledEventHandler**: Responde a eventos que indican que un dispositivo ha sido desinstalado. Actualiza el estado en la base de datos y emite notificaciones relacionadas.
 
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+![alt text](/src/images/devices-diagram.png)
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+![alt text](/src/images/devices-db.png)
+
 #### 4.2.2.4. Infrastructure Layer
   
 - **Integración con proveedores de dispositivos**: Implementa adaptadores para interactuar con proveedores de hardware y servicios relacionados con los dispositivos IoT, como actualizaciones de firmware y estado del dispositivo.
