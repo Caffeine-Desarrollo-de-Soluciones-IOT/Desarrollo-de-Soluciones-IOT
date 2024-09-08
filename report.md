@@ -960,6 +960,7 @@ La relación entre ambos contextos son de tipo Conformist porque el Events Conte
 #### 4.1.3.2. Software Architecture Deployment Diagrams
 
 ## 4.2. Tactical-Level Domain-Driven Design
+
 ### 4.2.1. Bounded Context: Subscriptions
 
 En esta capa reside el núcleo de la aplicación encargado de gestionar las suscripciones y el sistema de pagos en la aplicación.
@@ -1040,10 +1041,95 @@ En esta capa reside el núcleo de la aplicación encargado de gestionar las susc
 
 ![alt text](src/images/bc-db-subscriptions.png)
 
+### 4.2.2. Bounded Context: Areas
+#### 4.2.2.1. Domain Layer
+- Entities:
+  - Area: Representa un área específica en la que se colocan los dispositivos.
+    - Atributos: id, name, icon, color.
+  - Property: Representa una propiedad que puede tener múltiples áreas.
+    - Atributos: id, name, image_url, address.
+
+- Value Objects:
+  - AreaId: Identificador único de un área.
+  - PropertyId: Identificador único de una propiedad.
+
+- Aggregates:
+  - AreaAggregate: Agregado raíz que encapsula las operaciones relacionadas con las áreas, incluyendo la creación, actualización y eliminación de áreas.
+  - PropertyAggregate: Agregado raíz que encapsula las operaciones relacionadas con las propiedades, incluyendo la asociación con áreas.
+
+- Domain Services:
+  - AreaService: Define las operaciones de negocio relacionadas con las áreas, como la creación, actualización y eliminación de áreas.
+  - PropertyService: Define las operaciones de negocio relacionadas con las propiedades, como la gestión de áreas asociadas.
+
+- Repositories:
+  - AreaRepository: Interfaz que define las operaciones de persistencia relacionadas con las áreas.
+  - PropertyRepository: Interfaz que define las operaciones de persistencia relacionadas con las propiedades.
+
+#### 4.2.2.2. Interface Layer
+- API Endpoints:
+  - POST /areas: Crea una nueva área.
+  - PUT /areas/{areaId}: Actualiza una área existente.
+  - DELETE /areas/{areaId}: Elimina una área.
+  - GET /areas/{areaId}: Obtiene los detalles de una área.
+  - POST /properties: Crea una nueva propiedad.
+  - PUT /properties/{propertyId}: Actualiza una propiedad existente.
+  - DELETE /properties/{propertyId}: Elimina una propiedad.
+  - GET /properties/{propertyId}: Obtiene los detalles de una propiedad.
+
+- DTOs:
+  - AreaDTO: Representa los datos de un área para ser enviados o recibidos a través de la API.
+  - PropertyDTO: Representa los datos de una propiedad para ser enviados o recibidos a través de la API.
+
+- Controllers:
+  - AreaController: Controlador que gestiona las operaciones relacionadas con las áreas, como la creación, actualización y eliminación de áreas.
+  - PropertyController: Controlador que gestiona las operaciones relacionadas con las propiedades, como la creación, actualización y eliminación de propiedades.
+
+#### 4.2.2.3. Application Layer
+- Application Services:
+  - AreaApplicationService: Servicio de aplicación que coordina las operaciones relacionadas con las áreas, como la creación, actualización y eliminación de áreas.
+  - PropertyApplicationService: Servicio de aplicación que gestiona las operaciones relacionadas con las propiedades, como la creación, actualización y eliminación de propiedades.
+
+- Commands/Queries:
+  - CreateAreaCommand: Comando para crear una nueva área.
+  - UpdateAreaCommand: Comando para actualizar una área existente.
+  - DeleteAreaCommand: Comando para eliminar una área.
+  - GetAreaQuery: Consulta para obtener los detalles de una área.
+  - CreatePropertyCommand: Comando para crear una nueva propiedad.
+  - UpdatePropertyCommand: Comando para actualizar una propiedad existente.
+  - DeletePropertyCommand: Comando para eliminar una propiedad.
+  - GetPropertyQuery: Consulta para obtener los detalles de una propiedad.
+
+- Events:
+  - AreaCreatedEvent: Evento que se dispara cuando se crea una nueva área.
+  - AreaUpdatedEvent: Evento que se dispara cuando se actualiza una área.
+  - AreaDeletedEvent: Evento que se dispara cuando se elimina una área.
+  - PropertyCreatedEvent: Evento que se dispara cuando se crea una nueva propiedad.
+  - PropertyUpdatedEvent: Evento que se dispara cuando se actualiza una propiedad.
+  - PropertyDeletedEvent: Evento que se dispara cuando se elimina una propiedad.
+
+#### 4.2.2.4. Infrastructure Layer
+- Repositories Implementations:
+  - AreaRepositoryImpl: Implementación concreta del repositorio de áreas que se encarga de la persistencia de las áreas en la base de datos.
+  - PropertyRepositoryImpl: Implementación concreta del repositorio de propiedades que se encarga de la persistencia de las propiedades en la base de datos.
+
+- External Services:
+  - En este contexto, no se han identificado servicios externos específicos para las áreas y propiedades, pero podrían incluir servicios de almacenamiento de imágenes o integraciones con sistemas de mapeo si se requieren en el futuro.
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+![Bounded Context UML Areas](src/images/bc-uml-areas.png)
+#### 4.2.2.6.2. Bounded Context Database Design Diagram
+![Bounded Context Database Areas](src/images/bc-db-areas.jpg)
+
 # Conclusiones
 ## Conclusiones y Recomendaciones
 
 # Bibliografía
+- Gothelf, J., & Seiden, J. (2016). Lean UX: Designing Great Products with Agile Teams. «O’Reilly Media, Inc.»
+- The C4 model for visualising software architecture. (s. f.). https://c4model.com/
+- Verisure Perú. (s. f.). Protegemos tu hogar y lo que más quieres. Alarmas Verisure Perú. https://www.verisure.pe/
 
 # Anexos
 
