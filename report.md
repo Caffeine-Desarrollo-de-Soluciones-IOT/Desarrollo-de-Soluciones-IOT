@@ -16,6 +16,8 @@ Nuestra visión es convertirnos en líderes en tecnología de seguridad, resolvi
 
 - **Dennis Piero Quevedo Yucra:** Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 9no ciclo. Tengo conocimientos en múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible.
 
+- **Jamutaq Piero Ortega Vélez:** Soy estudiante de la carrera de Ingeniería de Software, tengo 22 años y me encuentro en el 7mo ciclo. Me considero una persona honrada, respetuosa y responsable, siempre me gusta aportar y ayudar a mi equipo de trabajo. Poseo una gran experiencia en el desarrollo de soluciones backend con tecnologías que como Spring Boot con Java, .NET Core con C# y Node.js con JS y TS. Además, también me apasiona el mundo del DevOps y tecnologías cloud. Me gusta mucho la música y la meditación, y en mis tiempos libres me dedico a caminar y a reflexionar sobre la vida.
+
 ## 1.2 Solution Profile
 
 En este apartado daremos una explicación detallada del producto de software que presentaremos como factor innovador y la forma de monetización
@@ -260,6 +262,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 9. ¿Qué tipo de informes o retroalimentación proporcionan a los clientes después de una respuesta a emergencia?
 10. ¿Qué mejoras están considerando implementar para adaptarse a la creciente integración de tecnología IoT en los sistemas de seguridad?
 ### 2.2.2. Registro de entrevistas
+
 <table border="1">
     <tr>
       <th>Nro</th>
@@ -267,18 +270,29 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
       <th>Apellidos</th>
       <th>Edad</th>
       <th>Distrito</th>
+      <th>Minutos</th>
     </tr>
     <tr>
       <td>01</td>
       <td>Diana Patricia</td>
       <td>Gomez Oré</td>
       <td>Chorrillos</td>
+      <td> --- </td>
     </tr>
 </table>
 
+
 ### 2.2.3. Análisis de entrevistas
 * **Segmento 1: Dueños de inmuebles**
-**Entrevista Nro 1: Diana Gomez**
+1. **Entrevista N°1**
+   - Segmento objetivo: Dueños de inmuebles
+   - Nombres y apellidos: Jesús Aliaga
+   - Edad: 60
+    ![Entrevista 1](/images/entrevista1.png)
+   - Enlace del video: 
+   - Resumen: Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble ya que actualmente lo maneja de forma manual con cercos. Además destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
+
+2. **Entrevista Nro 2: Diana Gomez**
 ![interview 1](/src/images/interview-1.png)
 
 Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
@@ -378,6 +392,7 @@ Para VerySafe tenemos los siguientes términos:
 #### 4.1.1.3. Bounded Context Canvases
 
 ### 4.1.2. Context Mapping
+<!-- TODO -->
 
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
@@ -386,6 +401,18 @@ Para VerySafe tenemos los siguientes términos:
 #### 4.1.3.2. Software Architecture Deployment Diagrams
 
 ## 4.2. Tactical-Level Domain-Driven Design
+<!-- TODO -->
+### 4.2.1. Bounded Context: Payments
+#### 4.2.1.1. Domain Layer
+#### 4.2.1.2. Interface Layer
+#### 4.2.1.3. Application Layer
+#### 4.2.1.4. Infrastructure Layer
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.1.6.1. Bounded Context Database Design Diagram
+
+
 
 # Conclusiones
 ## Conclusiones y Recomendaciones
