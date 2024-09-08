@@ -954,44 +954,33 @@ La relación entre ambos contextos también es de tipo Customer-Supplier. En est
 La relación entre ambos contextos son de tipo Conformist porque el Events Context depende directamente de los dispositivos definidos en el Device Management Context para registrar y manejar los eventos. En esta relación, el Events Context no redefine ni expande significativamente la estructura o el modelo de los dispositivos, sino que adopta la representación de los dispositivos tal como se modelan en el Device Management Context.
 
 ### 4.1.3. Software Architecture
+
+En esta parte, mostraremos la representación de la Arquitectura de Software de la solución en base a los modelos C4
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+
+Este diagrama nos ofrece una visión mas general de como es la interacción de los usuarios con los sistemas externos, nos permite comprender la conexión de los componentes para contribuir al funcionamiento general de las aplicaciones.
+![landscape](src/images/landscape%20diagram.jpg)
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams
-#### 4.1.3.2. Software Architecture Container Level Diagrams
-#### 4.1.3.2. Software Architecture Deployment Diagrams
+
+En este tipo de diagramas, se muestra como nuestro sistema interactúa con elementos externos.
+![context](src/images/diagrama%20de%20contexto.jpg)
+
+#### 4.1.3.3. Software Architecture Container Level Diagrams
+
+Son representaciones visuales de la arquitectura de software a nivel de contenedores, que muestran cómo se agrupan y se comunican los distintos componentes y servicios dentro de un sistema o aplicación. Estos diagramas proporcionan una vista detallada de la organización de los contenedores de software, lo que ayuda a entender la estructura y las interacciones en la arquitectura general.
+![container](src/images/container.jpg)
+
+
+#### 4.1.3.4. Software Architecture Deployment Diagrams
+
+Son representaciones gráficas que ilustran cómo se despliegan y ejecutan los componentes de software en la infraestructura de hardware o en un entorno de producción.
+![deployment](src/images/deployment.jpg)
 
 ## 4.2. Tactical-Level Domain-Driven Design
-
-### 4.2.1. Bounded Context: Subscriptions
-
-En esta capa reside el núcleo de la aplicación encargado de gestionar las suscripciones y el sistema de pagos en la aplicación.
-
+### 4.2.1. Bounded Context:
 #### 4.2.1.1. Domain Layer
-
-- Entities:
-  - Payments: Representa los pagos realizados por los usuarios para suscribirse a los planes de seguridad.
-  - Subscriptions: Representa los planes de suscripción que definen la cantidad de áreas y dispositivos que un usuario puede gestionar.
-  - Subscriptions Plans: Define los diferentes niveles de suscripción y las restricciones asociadas a cada plan.
-
-- Value Objects:
-  - SubscriptionId: Identificador único de una suscripción.
-  - PlanId: Identificador único de un plan de suscripción.
-  - PaymentDetails: Detalles de un pago realizado por un usuario.
-  - SubscriptionDetails: Detalles de una suscripción, incluyendo el plan asociado y la cantidad de áreas y dispositivos permitidos.
-
-- Aggregates:
-  - SubscriptionAggregate: Agregado raíz que encapsula las operaciones relacionadas con las suscripciones, incluyendo la creación, actualización y cancelación de suscripciones.
-  - PlanAggregate: Agregado que define las reglas y restricciones de un plan de suscripción, como la cantidad de áreas y dispositivos permitidos.
-  - PaymentAggregate: Agregado que gestiona los pagos realizados por los usuarios, incluyendo la creación y verificación de pagos.
-
-- Domain Services:
-  - SubscriptionService: Define las operaciones de negocio relacionadas con las suscripciones, como la creación, actualización y cancelación de suscripciones.
-  - PaymentService: Gestiona las operaciones de pago, incluyendo la creación y verificación de pagos.
-
-- Repositories:
-  - SubscriptionRepository: Interfaz que define las operaciones de persistencia relacionadas con las suscripciones.
-  - PlanRepository: Interfaz que define las operaciones de persistencia relacionadas con los planes de suscripción.
-  - PaymentRepository: Interfaz que define las operaciones de persistencia relacionadas con los pagos.
-
 #### 4.2.1.2. Interface Layer
 
 - API Endpoints:
