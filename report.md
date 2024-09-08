@@ -274,8 +274,17 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
     </tr>
     <tr>
       <td>01</td>
+      <td>Jesús</td>
+      <td>Aliaga</td>
+      <td>60 años</td>
+      <td> --- </td>
+      <td> --- </td>
+    </tr>
+    <tr>
+      <td>02</td>
       <td>Diana Patricia</td>
       <td>Gomez Oré</td>
+      <td>25 años</td>
       <td>Chorrillos</td>
       <td> --- </td>
     </tr>
@@ -285,15 +294,12 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 ### 2.2.3. Análisis de entrevistas
 * **Segmento 1: Dueños de inmuebles**
 1. **Entrevista N°1**
-   - Segmento objetivo: Dueños de inmuebles
-   - Nombres y apellidos: Jesús Aliaga
-   - Edad: 60
-    ![Entrevista 1](/images/entrevista1.png)
-   - Enlace del video: 
-   - Resumen: Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble ya que actualmente lo maneja de forma manual con cercos. Además destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
+![Interview 1](/src/images/interview-1.png)
+   
+Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble ya que actualmente lo maneja de forma manual con cercos. Además destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
 
-2. **Entrevista Nro 2: Diana Gomez**
-![interview 1](/src/images/interview-1.png)
+1. **Entrevista Nro 2: Diana Gomez**
+![Interview 2](/src/images/interview-2.png)
 
 Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
 
