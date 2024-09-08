@@ -1,12 +1,22 @@
 # CAPÍTULO I: INTRODUCTION
 ## 1.1 Startup Profile
 ### 1.1.1 Descripción de la Startup
+Verysafe está abordando una necesidad crítica de mejorar la seguridad de inmuebles en Lima, Perú. Con el aumento de los delitos relacionados con propiedades en los últimos años, tanto los propietarios como las empresas de seguridad están buscando formas más eficientes de proteger sus bienes. Muchas empresas de seguridad enfrentan dificultades para mejorar sus servicios, lo que deja a las propiedades vulnerables a robos y otros crímenes, causando importantes pérdidas materiales y exponiéndolas a riesgos continuos.
+
+Para responder a esta creciente demanda, hemos fundado Verysafe, una empresa dedicada al desarrollo de dispositivos de seguridad innovadores que resuelvan estos problemas urgentes. Nuestra misión es brindar a los dueños de inmuebles y a las empresas de seguridad acceso rápido y confiable a la información sobre quién está ingresando a sus propiedades. Estamos aprovechando la tecnología avanzada, como sensores de movimiento y proximidad, para proporcionar datos en tiempo real que mejoran el monitoreo y la detección de amenazas.
+
+Nuestra visión es convertirnos en líderes en tecnología de seguridad, resolviendo los desafíos más críticos de la seguridad de inmuebles en Perú, y eventualmente, expandir nuestras soluciones a nivel mundial.
+
 ### 1.1.2 Perfiles de integrantes del equipo
 - **Elvia Guadalupe Arteaga Cruz:** Soy una estudiante de la carrera de ingeniería de software. Ingresé a la universidad para estudiar ingeniería mecatrónica, pero el mundo de la programación siempre me gustó más, es por ello que decidí cambiarme de carrera. Me gusta mucho la tecnología y las grandes cosas que se pueden hacer con ella. Tengo la ilusión de crear productos y servicios que ayuden a facilitar la vida de las personas y que nos ayuden a crecer como sociedad.
   
 - **Max Dayson Sabino Arostegui:** Soy estudiante de Ingeniería de Software y me interesa especialmente el machine learning y la ciberseguridad. Tengo experiencia con la metodología ágil SCRUM y estoy familiarizado con varios frameworks y lenguajes de programación, como Angular, Vue, C++ y Python. Además, poseo habilidades blandas importantes como el trabajo en equipo, asertividad y cooperación.
 
 - **Gabriela Soledad Nomberto Ramos:** Soy estudiante de la carrera de Ingeniería de Software en el 9no ciclo. Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Además, soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión.
+
+- **Dennis Piero Quevedo Yucra:** Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 9no ciclo. Tengo conocimientos en múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible.
+
+- **Jamutaq Piero Ortega Vélez:** Soy estudiante de la carrera de Ingeniería de Software, tengo 22 años y me encuentro en el 7mo ciclo. Me considero una persona honrada, respetuosa y responsable, siempre me gusta aportar y ayudar a mi equipo de trabajo. Poseo una gran experiencia en el desarrollo de soluciones backend con tecnologías que como Spring Boot con Java, .NET Core con C# y Node.js con JS y TS. Además, también me apasiona el mundo del DevOps y tecnologías cloud. Me gusta mucho la música y la meditación, y en mis tiempos libres me dedico a caminar y a reflexionar sobre la vida.
 
 ## 1.2 Solution Profile
 
@@ -190,7 +200,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 
 | Startup | VerySafe | Verisure | Prosegur | Securitas |
 | -- | -- | -- | -- | -- |
-| Logo | ![VerySafe](/images/logo.jpg) | ![Verisure](/images/verisure.jpg) | ![Prosegur](/images/prosegur.jpg) | ![Securitas](/images/securitas.png) |
+| Logo | ![VerySafe](/src/images/logo.jpg) | ![Verisure](/src/images/verisure.jpg) | ![Prosegur](/src/images/prosegur.jpg) | ![Securitas](/src/images/securitas.png) |
 | **Overview** | Ofrece soluciones de seguridad accesibles y personalizadas para inmuebles. Se enfoca en integrar tecnología avanzada con un enfoque en la accesibilidad, buscando proteger hogares y pequeñas empresas con productos innovadores y servicios flexibles que se adaptan a las necesidades de sus clientes. | Ofrece sistemas de alarmas conectadas y monitoreo remoto 24/7. Con una fuerte presencia en el mercado peruano, Verisure ofrece soluciones de alta tecnología que combinan la seguridad física y digital, destacándose por su fiabilidad y servicio al cliente. | Ofrece una amplia gama de servicios que incluyen desde alarmas y videovigilancia hasta servicios de seguridad física y logística de valores, adaptándose tanto a clientes residenciales como corporativos con soluciones integradas. | Ofrece soluciones personalizadas que combinan seguridad física y digital, dirigidas principalmente a grandes empresas e instituciones. Su enfoque está en la integración de tecnologías innovadoras y la adaptación a las necesidades específicas de cada cliente. | 
 |**Ventaja competitiva ¿Qué valor ofrece a los clientes?** | Ofrecer soluciones tecnológicas avanzadas IoT a precios accesibles, con un enfoque en personalización y accesibilidad para un público amplio. | Alta tecnología en sistemas de monitoreo remoto y servicio al cliente eficiente. | Amplia gama de servicios de seguridad integrados con una fuerte presencia en el mercado local e internacional | Tecnología avanzada y un enfoque en la integración de soluciones de seguridad física y digital. | 
 
@@ -252,11 +262,55 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 9. ¿Qué tipo de informes o retroalimentación proporcionan a los clientes después de una respuesta a emergencia?
 10. ¿Qué mejoras están considerando implementar para adaptarse a la creciente integración de tecnología IoT en los sistemas de seguridad?
 ### 2.2.2. Registro de entrevistas
+
+<table border="1">
+    <tr>
+      <th>Nro</th>
+      <th>Nombres</th>
+      <th>Apellidos</th>
+      <th>Edad</th>
+      <th>Distrito</th>
+      <th>Minutos</th>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>Jesús</td>
+      <td>Aliaga</td>
+      <td>60 años</td>
+      <td> --- </td>
+      <td> --- </td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>Diana Patricia</td>
+      <td>Gomez Oré</td>
+      <td>25 años</td>
+      <td>Chorrillos</td>
+      <td> --- </td>
+    </tr>
+</table>
+
+
 ### 2.2.3. Análisis de entrevistas
+* **Segmento 1: Dueños de inmuebles**
+1. **Entrevista N°1**
+![Interview 1](/src/images/interview-1.png)
+   
+Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble ya que actualmente lo maneja de forma manual con cercos. Además destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
+
+1. **Entrevista Nro 2: Diana Gomez**
+![Interview 2](/src/images/interview-2.png)
+
+Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
+
+Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más importantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. Por último, mencionó que ella prefiere gestionar el sistema de seguridd de su hogar mediante una aplicación, ya que de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
+
+* **Segmento 2: Empresas de Seguridad**
+* **Segmento 3: Empresas de Instalación y Mantenimiento**
 ## 2.3 Needfinding
 ### 2.3.1. User Personas
 * **Segmento 1: Dueños de inmuebles**
-  ![User Persona 1](/images/user-persona-seg1.png)
+  ![User Persona 1](/src/images/user-persona-seg1.png)
 
 * **Segmento 2: Empresas de Seguridad**
 * **Segmento 3: Empresas de Instalación y Mantenimiento**
@@ -303,16 +357,32 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 * **Segmento 2: Empresas de Seguridad**
 ### 2.3.3. User Journey Mapping
 * **Segmento 1: Dueños de inmuebles**
-  ![User Journey Map 1](/images/user-journey-mapping-seg1.png)
+  ![User Journey Map 1](/src/images/user-journey-mapping-seg1.png)
 ### 2.3.4. Empathy Mapping
 * **Segmento 1: Dueños de inmuebles**
-  ![Empathy Map 1](/images/empathy-mapping-seg1.png)
+  ![Empathy Map 1](/src/images/empathy-mapping-seg1.png)
 ### 2.3.5. As-Is Scenario Mapping
 * **Segmento 1: Dueños de inmuebles**
-  ![As-Is Scenario Map 1](/images/as-is-scenario-mapping-seg1.png)
+  ![As-Is Scenario Map 1](/src/images/as-is-scenario-mapping-seg1.png)
 
 ## 2.4. Ubiquitous Language
 
+Para el desarrollo de esta sección, como grupo debemos estar alineados con los términos y conceptos claves que son necesarios para la realización del proyecto. Además, nos ayuda a tener un lenguaje en común para entender nuestros objetivos, funcionalidades y benerfios. 
+
+Para VerySafe tenemos los siguientes términos:
+
+1. **Seguridad IoT (Internet de las Cosas)**: Referencia a la integración de dispositivos de seguridad conectados a internet para monitorización y control remoto.
+2. **FalconShield**: Nombre de la línea de productos que simboliza la protección integral y la vigilancia avanzada para inmuebles.
+3. **Dispositivos de Seguridad**: Sensores, cámaras, alarmas, y otros equipos incluidos en la línea FalconShield que protegen los inmuebles.
+4. **Monitoreo en Tiempo Real**: La capacidad de los usuarios para observar y controlar sus dispositivos de seguridad instantáneamente desde cualquier lugar.
+5. **Interfaz Unificada**: Plataforma de usuario que centraliza el control de todos los dispositivos FalconShield en un solo lugar.
+6. **Mantenimiento Preventivo**: Estrategias y acciones automatizadas para asegurar que los dispositivos FalconShield estén siempre en óptimas condiciones.
+7. **Respuesta a Emergencias**: Protocolos y acciones automáticas o manuales que se activan cuando el sistema FalconShield detecta una intrusión o emergencia.
+8. **Subscripción**: Modelo de monetización basado en pagos recurrentes para acceder a los servicios y actualizaciones del sistema FalconShield.
+9. **Alianzas de Seguridad**: Colaboraciones con empresas especializadas en seguridad para ofrecer una respuesta más rápida y eficiente en caso de emergencias.
+10. **AWS**: Plataforma de servicios en la nube utilizada para almacenar y proteger los datos de video y otros registros de seguridad.
+11. **Propietarios de inmuebles**: Personas o entidades que poseen propiedades y buscan protegerlas.
+12. **Empresas de seguridad**: Compañías que ofrecen servicios de monitoreo y respuesta a emergencias.
 
 # CAPÍTULO III: REQUERIMENTS SPECIFICATION
 ## 3.1. To-Be Scenario Mapping
@@ -328,6 +398,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 #### 4.1.1.3. Bounded Context Canvases
 
 ### 4.1.2. Context Mapping
+<!-- TODO -->
 
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
@@ -336,6 +407,18 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 #### 4.1.3.2. Software Architecture Deployment Diagrams
 
 ## 4.2. Tactical-Level Domain-Driven Design
+<!-- TODO -->
+### 4.2.1. Bounded Context: Payments
+#### 4.2.1.1. Domain Layer
+#### 4.2.1.2. Interface Layer
+#### 4.2.1.3. Application Layer
+#### 4.2.1.4. Infrastructure Layer
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.1.6.1. Bounded Context Database Design Diagram
+
+
 
 # Conclusiones
 ## Conclusiones y Recomendaciones
