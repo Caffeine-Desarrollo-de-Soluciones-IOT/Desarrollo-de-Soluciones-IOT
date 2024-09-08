@@ -400,6 +400,7 @@ Para esta ocasión entrevistamos a Diego quien tiene una compañía de seguridad
   ![User Persona 1](/src/images/user-persona-seg1.png)
 
 * **Segmento 2: Empresas de Seguridad**
+  ![User Persona 2](/src/images/user-persona-empresa.png)
 
 ### 2.3.2. User Task Matrix
 * **Segmento 1: Dueños de inmuebles**
