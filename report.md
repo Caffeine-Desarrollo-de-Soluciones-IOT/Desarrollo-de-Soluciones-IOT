@@ -1354,6 +1354,48 @@ En el contexto de “Events,” el Application Layer se enfoca en la creación y
 
 ![events](src/images/bd-events.jpg)
 
+### 4.2.6. Bounded Context: Notifications
+#### 4.2.6.1. Domain Layer
+**Entidades de dominio** 
+- **Notification:** Representa una notificación en el sistema.
+-	**NotificationType:** Representa el tipo de notificación en el sistema.
+Agregados
+-	**NotificationManager:** Maneja la creación y gestión de notificaciones.
+-	**NotificationTypeManager:** Maneja la creación y gestión de tipos de notificaciones.
+Repositorios
+-	**NotificationRepository:** Maneja la persistencia de las notificaciones.
+-	**NotificationTypeRepository:** Maneja la persistencia de los tipos de notificaciones.
+
+#### 4.2.6.2. Interface Layer
+-	**NotificationController:** Maneja las operaciones relacionadas con la gestión de notificaciones, como la creación, actualización y eliminación de notificaciones.
+-	**NotificationTypeController:** Maneja las operaciones relacionadas con la gestión de tipos de notificaciones, como la creación, actualización y eliminación de tipos de notificaciones.
+
+#### 4.2.6.3. Application Layer
+En el contexto de “Notifications,” el Application Layer se enfoca en la creación y gestión de notificaciones y sus tipos. Proporciona una interfaz para que los usuarios puedan crear, actualizar y eliminar notificaciones y tipos de notificaciones.
+**Command Handlers:**
+-	**CreateNotificationCommandHandler:** Procesa la creación de nuevas notificaciones en el sistema.
+-	**UpdateNotificationCommandHandler:** Procesa la actualización de notificaciones existentes.
+-	**DeleteNotificationCommandHandler:** Procesa la eliminación de notificaciones.
+
+**Event Handlers:**
+-	**NotificationCreatedEventHandler:** Responde a eventos que indican la creación exitosa de una notificación.
+-	**NotificationUpdatedEventHandler:** Responde a eventos que indican la actualización exitosa de una notificación.
+-	**NotificationDeletedEventHandler:** Responde a eventos que indican la eliminación exitosa de una notificación.
+
+#### 4.2.6.4. Infrastructure Layer
+Integración con servicios externos: Se configurarán conexiones y se desarrollarán adaptadores para interactuar con servicios externos para el envío de notificaciones. Esto implicará la configuración de servicios de mensajería y la gestión de credenciales de acceso.
+
+#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+El diagrama de nivel de componentes muestra cómo interactúan los diferentes componentes del sistema:
+![](src/images/bd-component-notification.jpg)
+
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+El diagrama de nivel de código muestra la estructura del código y las relaciones entre las clases:
+![](src/images/class-diagram-notification.jpeg)
+
+#### 4.2.6.7. Bounded Context Database Design Diagram
+![](src/images/bd-notification.jpeg)
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
