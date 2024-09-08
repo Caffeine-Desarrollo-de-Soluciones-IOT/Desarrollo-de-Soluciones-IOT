@@ -229,6 +229,40 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 | **Amenazas** | Competencia fuerte de marcas establecidas | Competencia en precios de empresas locales y nuevas tecnologías. | Innovaciones tecnológicas y nuevos competidores más ágiles. | Innovación tecnológica de startups más ágiles y económicas. | 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+### Estrategias y Tácticas para VerySafe
+#### Estrategia 1: Diferenciación por Precio y Personalización
+
+### Tácticas:
+
+**Paquetes personalizables**: Planes de seguridad donde los clientes puedan seleccionar productos específicos (sensores, cámaras, alarmas) según sus necesidades. Esto permitirá que hogares pequeños y medianos ajusten los servicios a su presupuesto.
+  
+#### Estrategia 2: Innovación Tecnológica con Enfoque en IoT
+
+### Tácticas:
+**Ecosistema de seguridad IoT**: Dispositivos adicionales como cerraduras inteligentes, sensores de humo y detectores de monóxido de carbono, integrados en la plataforma de monitoreo. 
+
+**Actualizaciones automáticas y soporte**: Garantizar que todos los dispositivos tengan actualizaciones automáticas de software sin costos adicionales, mejorando las capacidades de seguridad continuamente sin interrupciones para el cliente.
+
+### Estrategia 3: Marketing Enfocado en la Seguridad Asequible y de Calidad
+
+### Tácticas:
+**Campañas en redes sociales y medios locales**: Enfocar las campañas de marketing digital en mostrar historias de éxito de clientes reales que usan los productos de VerySafe en Lima Metropolitana. Usar plataformas como Facebook, Instagram y TikTok para resaltar testimonios de clientes satisfechos, con énfasis en la relación costo-beneficio.
+  
+**Colaboraciones locales**: Establecer alianzas con agentes inmobiliarios, desarrolladores de proyectos habitacionales y administradores de condominios para incluir a VerySafe como parte de las recomendaciones de seguridad en nuevas construcciones.
+
+### Estrategia 4: Integración con Instituciones de Seguridad Pública y Privada
+
+### Tácticas:
+**Asociaciones con bomberos, policía y seguridad privada**: Crear convenios para que los dispositivos de VerySafe se conecten directamente con estas instituciones en caso de emergencias. Esto permitirá que los usuarios puedan recibir respuestas rápidas en situaciones críticas, diferenciándose de competidores que solo ofrecen notificaciones internas o a empresas de monitoreo.
+
+**Control remoto desde dispositivos móviles**: Mejorar la app móvil para permitir una interacción más fluida con los sistemas de seguridad. Los usuarios podrán armar y desarmar sus sistemas, ver imágenes de cámaras en tiempo real y recibir alertas de emergencia desde cualquier lugar.
+
+### Estrategia 5: Ampliación del Mercado Objetivo
+
+### Tácticas:
+**Paquetes para pequeños comercios**: Crear ofertas específicas para pequeños negocios como tiendas, minimarkets y oficinas que necesitan soluciones de seguridad asequibles pero efectivas. 
+
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
 
