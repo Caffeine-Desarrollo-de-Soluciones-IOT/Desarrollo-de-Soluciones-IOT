@@ -1224,6 +1224,61 @@ En el contexto de "Account," el Application Layer se enfoca en la creación, aut
 
 ![BD](src/images/BD-ACCOUNT.jpg)
 
+### 4.2.5. Bounded Context: Event
+#### 4.2.5.1. Domain Layer
+
+**Entidades de dominio**
+
+- **Event:** Representa un evento en el sistema.
+- **EventType:** Representa el tipo de evento en el sistema.
+
+**Agregados**
+
+- **EventManager:** Maneja la creación y gestión de eventos.
+- **EventTypeManager:** Maneja la creación y gestión de tipos de eventos.
+  
+**Repositorios**
+
+- **EventRepository:** Maneja la persistencia de los eventos.
+- **EventTypeRepository:** Maneja la persistencia de los tipos de eventos.
+ 
+#### 4.2.5.2. Interface Layer
+
+- **EventController:** Maneja las operaciones relacionadas con la gestión de eventos, como la creación, actualización y eliminación de eventos.
+
+- **EventTypeController:** Maneja las operaciones relacionadas con la gestión de tipos de eventos, como la creación, actualización y eliminación de tipos de eventos.
+
+#### 4.2.5.3. Application Layer
+
+En el contexto de “Events,” el Application Layer se enfoca en la creación y gestión de eventos y sus tipos. Proporciona una interfaz para que los usuarios puedan crear, actualizar y eliminar eventos y tipos de eventos.
+
+**Command Handlers:**
+
+- **CreateEventCommandHandler:** Procesa la creación de nuevos eventos en el sistema.
+- **UpdateEventCommandHandler:** Procesa la actualización de eventos existentes.
+- **DeleteEventCommandHandler:** Procesa la eliminación de eventos.
+
+**Event Handlers:**
+
+- **EventCreatedEventHandler:** Responde a eventos que indican la creación exitosa de un evento.
+- **EventUpdatedEventHandler:** Responde a eventos que indican la actualización exitosa de un evento.
+- **EventDeletedEventHandler:** Responde a eventos que indican la eliminación exitosa de un evento.
+
+#### 4.2.5.4. Infrastructure Layer
+
+**Integración con AWS SNS para el envío de notificaciones:** Se configurarán conexiones y se desarrollarán adaptadores para interactuar con el servicio de notificaciones de AWS SNS, permitiendo el envío y recepción de mensajes a través de múltiples canales, como SMS, correos electrónicos, o notificaciones push como respuesta a una alerta o prevencion de la alarma.
+
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+![component](src/images/bc-component-event.jpg)
+
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+![class](src/images/bc-class-event.jpg)
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![events](src/images/bd-events.jpg)
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
