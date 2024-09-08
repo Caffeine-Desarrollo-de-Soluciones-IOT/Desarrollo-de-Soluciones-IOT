@@ -1,12 +1,22 @@
 # CAPÍTULO I: INTRODUCTION
 ## 1.1 Startup Profile
 ### 1.1.1 Descripción de la Startup
+Verysafe está abordando una necesidad crítica de mejorar la seguridad de inmuebles en Lima, Perú. Con el aumento de los delitos relacionados con propiedades en los últimos años, tanto los propietarios como las empresas de seguridad están buscando formas más eficientes de proteger sus bienes. Muchas empresas de seguridad enfrentan dificultades para mejorar sus servicios, lo que deja a las propiedades vulnerables a robos y otros crímenes, causando importantes pérdidas materiales y exponiéndolas a riesgos continuos.
+
+Para responder a esta creciente demanda, hemos fundado Verysafe, una empresa dedicada al desarrollo de dispositivos de seguridad innovadores que resuelvan estos problemas urgentes. Nuestra misión es brindar a los dueños de inmuebles y a las empresas de seguridad acceso rápido y confiable a la información sobre quién está ingresando a sus propiedades. Estamos aprovechando la tecnología avanzada, como sensores de movimiento y proximidad, para proporcionar datos en tiempo real que mejoran el monitoreo y la detección de amenazas.
+
+Nuestra visión es convertirnos en líderes en tecnología de seguridad, resolviendo los desafíos más críticos de la seguridad de inmuebles en Perú, y eventualmente, expandir nuestras soluciones a nivel mundial.
+
 ### 1.1.2 Perfiles de integrantes del equipo
 - **Elvia Guadalupe Arteaga Cruz:** Soy una estudiante de la carrera de ingeniería de software. Ingresé a la universidad para estudiar ingeniería mecatrónica, pero el mundo de la programación siempre me gustó más, es por ello que decidí cambiarme de carrera. Me gusta mucho la tecnología y las grandes cosas que se pueden hacer con ella. Tengo la ilusión de crear productos y servicios que ayuden a facilitar la vida de las personas y que nos ayuden a crecer como sociedad.
   
 - **Max Dayson Sabino Arostegui:** Soy estudiante de Ingeniería de Software y me interesa especialmente el machine learning y la ciberseguridad. Tengo experiencia con la metodología ágil SCRUM y estoy familiarizado con varios frameworks y lenguajes de programación, como Angular, Vue, C++ y Python. Además, poseo habilidades blandas importantes como el trabajo en equipo, asertividad y cooperación.
 
 - **Gabriela Soledad Nomberto Ramos:** Soy estudiante de la carrera de Ingeniería de Software en el 9no ciclo. Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Además, soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión.
+
+- **Dennis Piero Quevedo Yucra:** Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 9no ciclo. Tengo conocimientos en múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible.
+
+- **Jamutaq Piero Ortega Vélez:** Soy estudiante de la carrera de Ingeniería de Software, tengo 22 años y me encuentro en el 7mo ciclo. Me considero una persona honrada, respetuosa y responsable, siempre me gusta aportar y ayudar a mi equipo de trabajo. Poseo una gran experiencia en el desarrollo de soluciones backend con tecnologías que como Spring Boot con Java, .NET Core con C# y Node.js con JS y TS. Además, también me apasiona el mundo del DevOps y tecnologías cloud. Me gusta mucho la música y la meditación, y en mis tiempos libres me dedico a caminar y a reflexionar sobre la vida.
 
 ## 1.2 Solution Profile
 
@@ -172,7 +182,7 @@ El segmento inicial será ***Usuarios Residenciales***, ya que estos son los cli
   - *Cambio en el Indicador Clave de Rendimiento:* Altas tasas de disponibilidad y sólidos resultados en auditorías de seguridad.
 
 #### 1.2.2.4 Lean UX Canvas
-![Lean UX Canvas](/images/lean-ux-canvas.jpg)
+![Lean UX Canvas](/src/images/lean-ux-canvas.jpg)
 ## 1.3 Segmentos objetivo
 
 # CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
@@ -190,7 +200,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 
 | Startup | VerySafe | Verisure | Prosegur | Securitas |
 | -- | -- | -- | -- | -- |
-| Logo | ![VerySafe](/images/logo.jpg) | ![Verisure](/images/verisure.jpg) | ![Prosegur](/images/prosegur.jpg) | ![Securitas](/images/securitas.png) |
+| Logo | ![VerySafe](/src/images/logo.jpg) | ![Verisure](/src/images/verisure.jpg) | ![Prosegur](/src/images/prosegur.jpg) | ![Securitas](/src/images/securitas.png) |
 | **Overview** | Ofrece soluciones de seguridad accesibles y personalizadas para inmuebles. Se enfoca en integrar tecnología avanzada con un enfoque en la accesibilidad, buscando proteger hogares y pequeñas empresas con productos innovadores y servicios flexibles que se adaptan a las necesidades de sus clientes. | Ofrece sistemas de alarmas conectadas y monitoreo remoto 24/7. Con una fuerte presencia en el mercado peruano, Verisure ofrece soluciones de alta tecnología que combinan la seguridad física y digital, destacándose por su fiabilidad y servicio al cliente. | Ofrece una amplia gama de servicios que incluyen desde alarmas y videovigilancia hasta servicios de seguridad física y logística de valores, adaptándose tanto a clientes residenciales como corporativos con soluciones integradas. | Ofrece soluciones personalizadas que combinan seguridad física y digital, dirigidas principalmente a grandes empresas e instituciones. Su enfoque está en la integración de tecnologías innovadoras y la adaptación a las necesidades específicas de cada cliente. | 
 |**Ventaja competitiva ¿Qué valor ofrece a los clientes?** | Ofrecer soluciones tecnológicas avanzadas IoT a precios accesibles, con un enfoque en personalización y accesibilidad para un público amplio. | Alta tecnología en sistemas de monitoreo remoto y servicio al cliente eficiente. | Amplia gama de servicios de seguridad integrados con una fuerte presencia en el mercado local e internacional | Tecnología avanzada y un enfoque en la integración de soluciones de seguridad física y digital. | 
 
@@ -252,11 +262,55 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 9. ¿Qué tipo de informes o retroalimentación proporcionan a los clientes después de una respuesta a emergencia?
 10. ¿Qué mejoras están considerando implementar para adaptarse a la creciente integración de tecnología IoT en los sistemas de seguridad?
 ### 2.2.2. Registro de entrevistas
+
+<table border="1">
+    <tr>
+      <th>Nro</th>
+      <th>Nombres</th>
+      <th>Apellidos</th>
+      <th>Edad</th>
+      <th>Distrito</th>
+      <th>Minutos</th>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td>Jesús</td>
+      <td>Aliaga</td>
+      <td>60 años</td>
+      <td> --- </td>
+      <td> --- </td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>Diana Patricia</td>
+      <td>Gomez Oré</td>
+      <td>25 años</td>
+      <td>Chorrillos</td>
+      <td> --- </td>
+    </tr>
+</table>
+
+
 ### 2.2.3. Análisis de entrevistas
+* **Segmento 1: Dueños de inmuebles**
+1. **Entrevista N°1**
+![Interview 1](/src/images/interview-1.png)
+   
+Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble ya que actualmente lo maneja de forma manual con cercos. Además destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
+
+1. **Entrevista Nro 2: Diana Gomez**
+![Interview 2](/src/images/interview-2.png)
+
+Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
+
+Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más importantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. Por último, mencionó que ella prefiere gestionar el sistema de seguridd de su hogar mediante una aplicación, ya que de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
+
+* **Segmento 2: Empresas de Seguridad**
+* **Segmento 3: Empresas de Instalación y Mantenimiento**
 ## 2.3 Needfinding
 ### 2.3.1. User Personas
 * **Segmento 1: Dueños de inmuebles**
-  ![User Persona 1](/images/user-persona-seg1.png)
+  ![User Persona 1](/src/images/user-persona-seg1.png)
 
 * **Segmento 2: Empresas de Seguridad**
 * **Segmento 3: Empresas de Instalación y Mantenimiento**
@@ -303,20 +357,385 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 * **Segmento 2: Empresas de Seguridad**
 ### 2.3.3. User Journey Mapping
 * **Segmento 1: Dueños de inmuebles**
-  ![User Journey Map 1](/images/user-journey-mapping-seg1.png)
+  ![User Journey Map 1](/src/images/user-journey-mapping-seg1.png)
 ### 2.3.4. Empathy Mapping
 * **Segmento 1: Dueños de inmuebles**
-  ![Empathy Map 1](/images/empathy-mapping-seg1.png)
+  ![Empathy Map 1](/src/images/empathy-mapping-seg1.png)
 ### 2.3.5. As-Is Scenario Mapping
 * **Segmento 1: Dueños de inmuebles**
-  ![As-Is Scenario Map 1](/images/as-is-scenario-mapping-seg1.png)
+  ![As-Is Scenario Map 1](/src/images/as-is-scenario-mapping-seg1.png)
 
 ## 2.4. Ubiquitous Language
 
+Para el desarrollo de esta sección, como grupo debemos estar alineados con los términos y conceptos claves que son necesarios para la realización del proyecto. Además, nos ayuda a tener un lenguaje en común para entender nuestros objetivos, funcionalidades y benerfios. 
+
+Para VerySafe tenemos los siguientes términos:
+
+1. **Seguridad IoT (Internet de las Cosas)**: Referencia a la integración de dispositivos de seguridad conectados a internet para monitorización y control remoto.
+2. **FalconShield**: Nombre de la línea de productos que simboliza la protección integral y la vigilancia avanzada para inmuebles.
+3. **Dispositivos de Seguridad**: Sensores, cámaras, alarmas, y otros equipos incluidos en la línea FalconShield que protegen los inmuebles.
+4. **Monitoreo en Tiempo Real**: La capacidad de los usuarios para observar y controlar sus dispositivos de seguridad instantáneamente desde cualquier lugar.
+5. **Interfaz Unificada**: Plataforma de usuario que centraliza el control de todos los dispositivos FalconShield en un solo lugar.
+6. **Mantenimiento Preventivo**: Estrategias y acciones automatizadas para asegurar que los dispositivos FalconShield estén siempre en óptimas condiciones.
+7. **Respuesta a Emergencias**: Protocolos y acciones automáticas o manuales que se activan cuando el sistema FalconShield detecta una intrusión o emergencia.
+8. **Subscripción**: Modelo de monetización basado en pagos recurrentes para acceder a los servicios y actualizaciones del sistema FalconShield.
+9. **Alianzas de Seguridad**: Colaboraciones con empresas especializadas en seguridad para ofrecer una respuesta más rápida y eficiente en caso de emergencias.
+10. **AWS**: Plataforma de servicios en la nube utilizada para almacenar y proteger los datos de video y otros registros de seguridad.
+11. **Propietarios de inmuebles**: Personas o entidades que poseen propiedades y buscan protegerlas.
+12. **Empresas de seguridad**: Compañías que ofrecen servicios de monitoreo y respuesta a emergencias.
 
 # CAPÍTULO III: REQUERIMENTS SPECIFICATION
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
+
+**Historias de Usuario para la Aplicación Web**
+
+|**Número:**| HU 1|
+|-| - |
+   |**Usuario:**| Propietario de inmueble
+   |**Nombre de historia:**| Ver historial de alertas
+   |**Prioridad:** |Alta
+   |**Riesgo:**| Medio
+   |**Descripción:**| Como propietario de un inmueble, quiero poder ver el historial de alertas de seguridad para revisar incidentes pasados.|
+   |**Criterios de aceptación:**| **Dado** que estoy en la página de historial **Cuando** selecciono una fecha específica **Entonces** puedo ver todas las alertas generadas ese día con detalles como hora, tipo de alerta, y acción tomada. |
+
+|**Número:**| HU 2 |
+|- |- |
+   |**Usuario:** |Propietario de inmueble|
+   |**Nombre de historia:**| Controlar dispositivos de seguridad|
+   |**Prioridad:**| Alta|
+   |**Riesgo:**| Alto|
+   |**Descripción:**| Como propietario de un inmueble, quiero controlar mis dispositivos de seguridad desde la aplicación web para armar o desarmar la alarma.|
+   |**Criterios de aceptación:**| **Dado** que estoy en el panel de control de dispositivos **Cuando** selecciono un dispositivo y una acción (armar/desarmar) **Entonces** el dispositivo realiza la acción y se muestra una notificación de confirmación. |
+
+|**Número:**| HU-03|
+|-|-|
+   |**Usuario:**| Empresa de seguridad|
+   |**Nombre de historia:**| Monitorear múltiples propiedades|
+   |**Prioridad:**| Alta|
+   |**Riesgo:**| Alto|
+   |**Descripción:** |Como empresa de seguridad, quiero monitorear varias propiedades desde una única interfaz para gestionar las alertas de manera eficiente.|
+   |**Criterios de aceptación:**|**Dado** que estoy en el dashboard **Cuando** selecciono una propiedad **Entonces** puedo ver un resumen en tiempo real de todos los dispositivos y alertas de esa propiedad.|
+
+|**Número:** | HU-04|
+| - | - |
+   |**Usuario:** |Empresa de seguridad|
+   |**Nombre de historia:**| Configurar alertas personalizadas|
+   |**Prioridad:**| Media|
+   |**Riesgo:** |Medio|
+   |**Descripción:**| Como empresa de seguridad, quiero configurar alertas personalizadas para recibir notificaciones específicas según los tipos de eventos en cada propiedad.|
+   |**Criterios de aceptación:**| **Dado** que estoy en la sección de configuraciones **Cuando** creo una nueva alerta personalizada **Entonces** recibo notificaciones solo para los eventos configurados.|
+
+|**Número:** | HU-05|
+|-|-|
+   |**Usuario:**| Propietario de inmueble|
+   |**Nombre de historia:** |Reportar un incidente|
+   |**Prioridad:** |Alta|
+   |**Riesgo:**| Medio|
+   |**Descripción:** |Como propietario de un inmueble, quiero reportar un incidente directamente desde la aplicación web para que la empresa de seguridad lo gestione.|
+   |**Criterios de aceptación:**| **Dado** que estoy en la sección de reportes **Cuando** lleno el formulario de incidente y lo envío **Entonces** la empresa de seguridad recibe una notificación con los detalles del reporte.| 
+
+**Historias de Usuario para la Aplicación Móvil**
+
+|**Número:** | HU-06|
+   |-|-|
+   |**Usuario:**| Propietario de inmueble|
+   |**Nombre de historia:** |Recibir notificaciones en tiempo real|
+   |**Prioridad:** |Alta|
+   |**Riesgo:**| Alto|
+   |**Descripción:**| Como propietario de un inmueble, quiero recibir notificaciones en tiempo real en mi móvil sobre cualquier alerta de seguridad para tomar acciones inmediatas.|
+   |**Criterios de aceptación:**| **Dado** que tengo la aplicación móvil instalada **Cuando** se activa una alerta **Entonces** recibo una notificación push con la descripción del evento.|
+   
+| **Número:**| HU-07|
+|-|-|
+   | **Usuario:**| Empresa de seguridad|
+   | **Nombre de historia:** |Acceso remoto a cámaras|
+   | **Prioridad:** |Alta|
+   | **Riesgo:**| Alto|
+   | **Descripción:**| Como empresa de seguridad, quiero acceder a las cámaras de las propiedades desde mi dispositivo móvil para verificar en tiempo real cualquier alerta.|
+   |**Criterios de aceptación:**|**Dado** que tengo acceso a la propiedad en la app  **Cuando** selecciono la opción de cámaras **Entonces** puedo ver las imágenes en vivo de todas las cámaras instaladas.|
+
+|**Número:**| HU-08|
+|-|-|
+   |**Usuario:**| Propietario de inmueble|
+   |**Nombre de historia:** |Control de acceso remoto|
+   |**Prioridad:**  | Alta   |
+   |**Riesgo:**| Medio|
+   |**Descripción:** |Como propietario de un inmueble, quiero controlar el acceso a mi propiedad desde mi móvil para abrir o cerrar puertas de manera remota.|
+   |**Criterios de aceptación:**| **Dado** que tengo la app instalada **Cuando** selecciono la opción de control de acceso **Entonces** puedo abrir o cerrar puertas conectadas con un solo clic.|
+
+|**Número:** | HU-09|
+|-|-|
+   |**Usuario:**| Empresa de seguridad
+   |**Nombre de historia:**| Crear y gestionar alertas desde la app
+   |**Prioridad:**| Media
+   |**Riesgo:**| Medio
+   |**Descripción:**| Como empresa de seguridad, quiero poder crear y gestionar alertas desde mi móvil para estar siempre en control, incluso cuando no estoy en la oficina.
+   |**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando** creo una nueva alerta personalizada **Entonces** esta se activa y puedo recibir notificaciones basadas en esa configuración.|
+
+   |**Número:**| HU-10|
+   |-|-|
+   |**Usuario:**| Propietario de inmueble|
+   |**Nombre de historia:**| Ver grabaciones de seguridad|
+   |**Prioridad:**| Media|
+   |**Riesgo:** |Medio|
+   |**Descripción:**| Como propietario de un inmueble, quiero ver las grabaciones de seguridad desde mi móvil para revisar eventos pasados mientras estoy fuera de casa.|
+   |**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando** selecciono una fecha y hora **Entonces** puedo ver la grabación correspondiente directamente desde mi dispositivo móvil.|
+
+**Historias de Usuario para el Backend**
+
+|**Número:**| HU-11|
+|-|-|
+|**Usuario:**| Administrador del sistema|
+|**Nombre de historia:**| Gestión de usuarios|
+|**Prioridad:**| Alta|
+|**Riesgo:** |Alto|
+|**Descripción:**| Como administrador, quiero poder gestionar todos los usuarios desde el backend para controlar el acceso y los permisos de la plataforma.|
+|**Criterios de aceptación:**| **Dado** que estoy en el panel de administración **Cuando** agrego, edito o elimino un usuario **Entonces** estos cambios se reflejan en la aplicación web y móvil.|
+
+|**Número:** | HU-12|
+|-|-|
+|**Usuario:**| Administrador del sistema|
+|**Nombre de historia:**| Gestión de dispositivos conectados|
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como administrador, quiero poder gestionar todos los dispositivos conectados para monitorear su estado y funcionamiento.|
+|**Criterios de aceptación:**| **Dado** que estoy en el panel de administración  **Cuando** veo el listado de dispositivos **Entonces** puedo actualizar su estado, ver logs y desconectar dispositivos si es necesario.|
+
+|**Número:** | HU-13|
+|-|-|
+|**Usuario:**| Administrador del sistema|
+|**Nombre de historia:**| Integración con sistemas de terceros|
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como administrador, quiero integrar la plataforma con sistemas de seguridad de terceros para ampliar las capacidades del sistema.|
+|**Criterios de aceptación:**| **Dado** que estoy en el panel de integraciones  **Cuando** configuro una integración nueva **Entonces** los dispositivos y datos del sistema de terceros se sincronizan con nuestra plataforma. |
+
+|**Número:** | HU-14|
+|-|-|
+|**Usuario:**| Administrador del sistema|
+|**Nombre de historia:**| Gestión de logs y auditoría|
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como administrador, quiero poder acceder a los logs y realizar auditorías para monitorear la actividad del sistema y detectar anomalías.|
+|**Criterios de aceptación:**| **Dado** que estoy en la sección de logs **Cuando** selecciono un rango de fechas **Entonces** puedo ver todas las actividades registradas en ese periodo. |
+
+|**Número:** | HU-15|
+|-|-|
+|**Usuario:**| Administrador del sistema|
+|**Nombre de historia:**| Configuración de políticas de seguridad|
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como administrador, quiero poder configurar políticas de seguridad para asegurar que todos los dispositivos y datos cumplan con los estándares requeridos.|
+|**Criterios de aceptación:**| **Dado** que estoy en la sección de políticas **Cuando** establezco una nueva política **Entonces** se aplica a todos los dispositivos y usuarios de la plataforma. |
+
+**Historias de Usuario para el Edge**
+
+|**Número:** | HU-16|
+|-|-|
+|**Usuario:**| Propietario de inmueble|
+|**Nombre de historia:**| Detección de anomalías en tiempo real|
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como propietario de un inmueble, quiero que los dispositivos en el edge detecten anomalías en tiempo real para reaccionar de inmediato ante posibles amenazas.|
+|**Criterios de aceptación:**| **Dado** que tengo dispositivos edge instalados **Cuando** ocurre una anomalía **Entonces** el dispositivo envía una alerta inmediata a la app móvil y web. |
+
+|**Número:** | HU-17|
+|-|-|
+|**Usuario:**| Administrador del sistema |
+|**Nombre de historia:**| Actualización remota de firmware|
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como administrador, quiero poder actualizar remotamente el firmware de los dispositivos en el edge para asegurar su correcto funcionamiento y seguridad.|
+|**Criterios de aceptación:**| **Dado** que estoy en el panel de dispositivos **Cuando** selecciono actualizar el firmware de un dispositivo **Entonces** el dispositivo se actualiza automáticamente y se reinicia. |
+
+|**Número:** | HU-18|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Autonomía operativa de dispositivos edge |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como empresa de seguridad, quiero que los dispositivos en el edge funcionen de manera autónoma si pierden conexión con el servidor para asegurar la continuidad del servicio.|
+|**Criterios de aceptación:**| **Dado** que un dispositivo edge pierde conexión **Cuando** continúa operando de manera autónoma **Entonces** las alertas y registros se guardan localmente hasta que se restablezca la conexión. |
+
+|**Número:** | HU-19|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Monitoreo de alertas en dispositivos edge |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como propietario de un inmueble, quiero monitorear las alertas de mis dispositivos edge.|
+|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de alertas **Cuando** le doy click a un dispositivo **Entonces** puedo ver un historial de alertas del dispositivo y recibir sugerencias de optimización. |
+
+|**Número:** | HU-20|
+|-|-|
+|**Usuario:**|Administrador del sistema|
+|**Nombre de historia:**| Reinicio remoto de dispositivos edge |
+|**Prioridad:** |Media|
+|**Riesgo:** |Bajo|
+|**Descripción:** |Como administrador, quiero poder reiniciar remotamente los dispositivos en el edge para solucionar problemas de manera eficiente.|
+|**Criterios de aceptación:**| **Dado** que estoy en el panel de dispositivos **Cuando**  selecciono la opción de reinicio **Entonces** el dispositivo se reinicia automáticamente y notifica al usuario. |
+
+**Historias de Usuario para Dispositivos IoT**
+
+|**Número:** | HU-21|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Control de luces inteligentes |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como propietario de un inmueble, quiero controlar las luces inteligentes de mi propiedad desde la app para encender o apagar según necesidad.|
+|**Criterios de aceptación:**| **Dado** que estoy en la app móvil **Cuando**  selecciono una luz que quiero modificar **Entonces** puedo encenderla, apagarla o ajustar la intensidad.|
+
+|**Número:** | HU-22|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| nitoreo de sensores de movimiento |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como empresa de seguridad, quiero monitorear en tiempo real los sensores de movimiento de los dispositivos IoT para detectar intrusos.|
+|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de sensores **Cuando** un sensor detecta movimiento **Entonces** recibo una alerta inmediata en la app.|
+
+|**Número:** | HU-23|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Monitorización de baterías en dispositivos IoT |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como empresa de seguridad, quiero monitorear el nivel de batería de los dispositivos IoT para asegurar que siempre estén operativos.|
+|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de energía **Cuando** el nivel de batería es bajo **Entonces** recibo una alerta para reemplazar o recargar el dispositivo.|
+
+|**Número:** | HU-24|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Automatización de escenarios |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como propietario de un inmueble, quiero crear escenarios automatizados en mi app para que los dispositivos IoT actúen en conjunto según la hora o eventos específicos.|
+|**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando**  configuro un escenario **Entonces** los dispositivos correspondientes se activan o desactivan automáticamente según lo programado.|
+
+**Historias de Usuario para Propietarios de Inmuebles**
+
+|**Número:** | HU-25|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Ver estado de la propiedad en tiempo real |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alt|
+|**Descripción:** |Como propietario de un inmueble, quiero ver el estado de seguridad de mi propiedad en tiempo real desde la app para asegurarme de que todo esté en orden.|
+|**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando**  creviso el dashboard **Entonces** uedo ver el estado de todos mis dispositivos de seguridad en tiempo real.|
+
+|**Número:** | HU-26|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**|  Recibir notificaciones |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como propietario de un inmueble, quiero recibir notificaciones en la app para estar informado sobre cualquier alerta de seguridad.|
+|**Criterios de aceptación:**| **Dado** que tengo notificaciones activas **Cuando**  ocurre una alerta **Entonces** los dispositivos correspondientes se activan la alarma y recibo una notificacion de alerta|
+
+|**Número:** | HU-27|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Acceso a informes de seguridad|
+|**Prioridad:** |Media|
+|**Riesgo:** |Bajo|
+|**Descripción:** |Como propietario de un inmueble, quiero acceder a informes de seguridad mensuales para revisar el rendimiento de mis dispositivos de seguridad.|
+|**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando**  cdescargo el informe **Entonces** recibo un PDF con un resumen del mes en términos de eventos y alertas. |
+
+|**Número:** | HU-28|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Configurar notificaciones de prioridad |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como propietario de un inmueble, quiero configurar qué tipos de alertas recibir para priorizar las más importantes y evitar saturación de notificaciones.|
+|**Criterios de aceptación:**| **Dado** que estoy en la sección de notificaciones **Cuando** ajusto las preferencias **Entonces** recibo solo las notificaciones configuradas.|
+
+|**Número:** | HU-29|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Configuración de acceso compartido |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como propietario de un inmueble, quiero compartir acceso temporal o limitado con otras personas para que puedan entrar en mi propiedad sin comprometer la seguridad.|
+|**Criterios de aceptación:**| **Dado** que estoy en la sección de acceso **Cuando** configuro el acceso compartido **Entonces** la otra persona recibe un código o acceso temporal limitado.|
+
+**Historias de Usuario para Usuarios de Empresas de Seguridad**
+
+|**Número:** | HU-30|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Gestión de patrullas |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como empresa de seguridad, quiero gestionar las rutas de patrullas en tiempo real para optimizar la vigilancia en propiedades protegidas.|
+|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de patrulla **Cuando** asigno una ruta a un guardia **Entonces** puedo ver su progreso y hacer ajustes en tiempo real.|
+
+|**Número:** | HU-31|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Notificaciones de intrusión en tiempo real |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como empresa de seguridad, quiero recibir notificaciones en tiempo real sobre cualquier intento de intrusión en las propiedades bajo nuestra vigilancia para actuar inmediatamente.|
+|**Criterios de aceptación:**| **Dado** que un sensor detecta una intrusión **Cuando** la alerta se dispara **Entonces** recibo una notificación inmediata en mi panel de control y la app.|
+
+|**Número:** | HU-32|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Acceso a cámaras de seguridad |
+|**Prioridad:** |Alta|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como empresa de seguridad, quiero acceder a las cámaras de seguridad en las propiedades de nuestros clientes para monitorear en tiempo real cualquier actividad sospechosa.|
+|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de cámaras **Cuando** selecciono una cámara **Entonces** puedo ver la transmisión en vivo y revisar grabaciones.|
+
+|**Número:** | HU-33|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Control de acceso remoto |
+|**Prioridad:** |Media|
+|**Riesgo:** |Medio|
+|**Descripción:** |Como empresa de seguridad, quiero controlar de manera remota el acceso a una propiedad para permitir la entrada o salida de personas sin estar físicamente presentes.|
+|**Criterios de aceptación:**| **Dado** que estoy en el panel de control **Cuando** selecciono la opción de abrir o cerrar accesos **Entonces** puedo desbloquear o bloquear la puerta remotamente.|
+
+|**Número:** | HU-34|
+|-|-|
+|**Usuario:**|Empresa de seguridad|
+|**Nombre de historia:**| Respuesta automatizada ante amenazas |
+|**Prioridad:** |Media|
+|**Riesgo:** |Alto|
+|**Descripción:** |Como empresa de seguridad, quiero que el sistema responda automáticamente ante amenazas identificadas por los dispositivos de seguridad para minimizar el tiempo de reacción.|
+|**Criterios de aceptación:**| **Dado** que una amenaza es detectada **Cuando** el sistema la confirma **Entonces** se activan las medidas de seguridad preconfiguradas (alarma, bloqueo de puertas, notificación a autoridades).|
+
+**Historias de Usuario para Aplicaciones Móviles y Web**
+
+|**Número:** | HU-35|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Personalización de la interfaz |
+|**Prioridad:** |Media|
+|**Riesgo:** |Bajo|
+|**Descripción:** |Como propietario de un inmueble, quiero personalizar la interfaz de la app para que se adapte a mis preferencias y uso cotidiano.|
+|**Criterios de aceptación:**| **Dado** que estoy en la sección de configuración **Cuando** ajusto la apariencia y disposición de elementos **Entonces** la interfaz refleja mis preferencias personales.|
+
+|**Número:** | HU-36|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Uso compartido de dispositivos |
+|**Prioridad:** |Media|
+|**Riesgo:** |Bajo|
+|**Descripción:** |Como propietario de un inmueble, quiero compartir el control de ciertos dispositivos con otros usuarios desde la app para que también puedan manejarlos.|
+|**Criterios de aceptación:**| **Dado** que estoy en la sección de dispositivos **Cuando** configuro el uso compartido **Entonces** el otro usuario tiene acceso limitado o completo según lo configurado.|
+
+|**Número:** | HU-37|
+|-|-|
+|**Usuario:**|Propietario de inmueble|
+|**Nombre de historia:**| Alertas de mantenimiento preventivo |
+|**Prioridad:** |Media|
+|**Riesgo:** |Bajo|
+|**Descripción:** |Como propietario de un inmueble, quiero recibir alertas de mantenimiento preventivo de los dispositivos para evitar fallos y asegurar su operación continua.|
+|**Criterios de aceptación:**| **Dado** que tengo dispositivos operando **Cuando** alguno necesita mantenimiento **Entonces** recibo una alerta en la app y el email con los pasos a seguir para realizar el mantenimiento.|
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
@@ -328,6 +747,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 #### 4.1.1.3. Bounded Context Canvases
 
 ### 4.1.2. Context Mapping
+<!-- TODO -->
 
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
@@ -336,6 +756,18 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 #### 4.1.3.2. Software Architecture Deployment Diagrams
 
 ## 4.2. Tactical-Level Domain-Driven Design
+<!-- TODO -->
+### 4.2.1. Bounded Context: Payments
+#### 4.2.1.1. Domain Layer
+#### 4.2.1.2. Interface Layer
+#### 4.2.1.3. Application Layer
+#### 4.2.1.4. Infrastructure Layer
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.1.6.1. Bounded Context Database Design Diagram
+
+
 
 # Conclusiones
 ## Conclusiones y Recomendaciones
