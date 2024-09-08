@@ -1,3 +1,55 @@
+# Report Iot
+
+![logo](src/images/logo.webp)
+
+Carrera: Ingeniería de Software
+
+Nombre del curso: Desarrollo de Soluciones IOT
+
+Sección: WV71
+
+Nombre del profesor: Velasquez Nuñez, Angel Augusto
+
+"Informe de TB1"
+
+Nombre del startup: VerySafe
+
+Nombre del producto: FalconShield
+
+Relación de integrantes:
+
+- Gabriela Soledad Nomberto Ramos
+- Dennis Piero Quevedo Yucra
+- Max Dayson Sabino Arostegui
+- Elvia Guadalupe Arteaga Cruz
+- Jamutaq Piero Ortega Vélez
+
+Mes y año: Agosto 2024
+
+Ciclo: 2024-2
+
+## Registro de Versiones del Informe
+| Version | Fecha| Autor | Descripción de la Modificación |
+|-----------|-----------|-----------|-----------|
+| 0.1 | 27/08/2023 | Arteaga, Elvia | Lean UX Proccess |
+| 0.2 | 27/08/2023 | Nomberto, Gabriela | Antecedentes y Problemática |
+| 0.3 | 29/08/2023 | Ortega, Jamutaq | Creacion del repositorio backend, Needfinding |
+| 0.4 | 30/08/2023 | Sabino, Max | Estrategias y Tacticas frene a competidores, Diseño de entrevistas |
+| 0.5 | 29/08/2023 | Quevedo, Dennis | Descripcion de la Startup, Needfinding |
+| 0.6 | 31/08/2023 | Quevedo, Dennis | Segmentos Objetivos|
+| 0.7 | 1/09/2023 | Ahuanari, Maria | Desarrollo de Bounded Context Physiotherapist Selection and Review Management |
+| 0.8 | 4/09/2023 | Todos los participantes | Registro de entrevista y análisis de entrevista |
+| 0.9 | 5/09/2023 | Nomberto, Gabriela | Ubiquitous Language |
+| 0.10 | 5/09/2023 | Arteaga, Elvia | To-be Scenario Mapping |
+| 0.11 | 7/09/2023 | Quevedo, Dennis | Impact Mapping |
+| 0.11 | 7/09/2023 | Todos los participantes | EventStorming, User Stories, Tactical-Level Domain-Driven Design |
+
+# Student Outcome
+| Criterio específico | Acciones realizadas | Conclusiones |
+|----------------------|----------------------|--------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **TB1:** <br> **Max Dayson Sabino Arostegui:** <br> Colabore en todos los capitulos con los puntos: estrategia y tácticas frente a competidores, product backlog, diseños de entrevista, registro de entrevista y con el bounded context devices. Todo esto me ayudó a fomentar el trabajo en equipo <br> **Gabriela Nomberto Ramos** <br> Colabore en todos los capitulos tanto como la definicion y focalziacion del alcance de nuestro producto asi como las arquitecturas, modelos y mejoras continuas |Concluimos que las reuniones y las mejoras continuas entre todos nos ayuda a mejorar el reporte de trabajo y poder colaborar todo de forma equitativa |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **TB1:** <br> **Max Dayson Sabino Arostegui:** <br> Durante las reuniones en el aula planificamos las tareas y definimos las metas. En cada reunión revisamos el avance para recalcar los objetivos <br> **Gabriela Nomberto Ramos** <br> Tuvimos reuniones en el salón de clase el cual nos ayudo mucho a definir lo que cada uno debe de hacer, asimismo por medio de un grupo de WhatsApp pudimos absolver algunas dudas |Para este apartado, todos aportamos en la estructuracion y llenado del reporte, trabajando asi en grupo y entendiendonos entre todos |
+
 # CAPÍTULO I: INTRODUCTION
 ## 1.1 Startup Profile
 ### 1.1.1 Descripción de la Startup
@@ -184,6 +236,16 @@ El segmento inicial será ***Usuarios Residenciales***, ya que estos son los cli
 #### 1.2.2.4 Lean UX Canvas
 ![Lean UX Canvas](/src/images/lean-ux-canvas.jpg)
 ## 1.3 Segmentos objetivo
+Según el Instituto Nacional de Estadística e Informática (INEI), cerca del 12% de las viviendas en áreas urbanas de Perú sufrieron robos o intentos de robo en años recientes. Sin embargo, solo el 17.9% de las víctimas denuncian estos delitos, lo que sugiere que el problema es más amplio de lo que reflejan las cifras oficiales​. Los métodos de los delincuentes son cada vez más variados. Entre las tácticas más comunes están el engaño a empleados domésticos, la simulación de ser trabajadores de empresas de servicios públicos, y los robos durante días feriados, cuando las casas suelen estar desocupadas​.
+Tenemos 2 segmentos objetivos:
+
+### Segmento objetivo 1: Dueños de Inmuebles
+Los dueños que poseen uno o varios inmuebles
+![](/src/images/dueño-inmueble.jpg)
+
+### Segmento objetivo 2: Empresas de Seguridad
+Empresas de seguridad que quieren mejorar/reforzar sus servicios
+![](/src/images/empresa-seguridad.jpg)
 
 # CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
 ## 2.1 Competidores
@@ -229,6 +291,40 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 | **Amenazas** | Competencia fuerte de marcas establecidas | Competencia en precios de empresas locales y nuevas tecnologías. | Innovaciones tecnológicas y nuevos competidores más ágiles. | Innovación tecnológica de startups más ágiles y económicas. | 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+### Estrategias y Tácticas para VerySafe
+#### Estrategia 1: Diferenciación por Precio y Personalización
+
+### Tácticas:
+
+**Paquetes personalizables**: Planes de seguridad donde los clientes puedan seleccionar productos específicos (sensores, cámaras, alarmas) según sus necesidades. Esto permitirá que hogares pequeños y medianos ajusten los servicios a su presupuesto.
+  
+#### Estrategia 2: Innovación Tecnológica con Enfoque en IoT
+
+### Tácticas:
+**Ecosistema de seguridad IoT**: Dispositivos adicionales como cerraduras inteligentes, sensores de humo y detectores de monóxido de carbono, integrados en la plataforma de monitoreo. 
+
+**Actualizaciones automáticas y soporte**: Garantizar que todos los dispositivos tengan actualizaciones automáticas de software sin costos adicionales, mejorando las capacidades de seguridad continuamente sin interrupciones para el cliente.
+
+### Estrategia 3: Marketing Enfocado en la Seguridad Asequible y de Calidad
+
+### Tácticas:
+**Campañas en redes sociales y medios locales**: Enfocar las campañas de marketing digital en mostrar historias de éxito de clientes reales que usan los productos de VerySafe en Lima Metropolitana. Usar plataformas como Facebook, Instagram y TikTok para resaltar testimonios de clientes satisfechos, con énfasis en la relación costo-beneficio.
+  
+**Colaboraciones locales**: Establecer alianzas con agentes inmobiliarios, desarrolladores de proyectos habitacionales y administradores de condominios para incluir a VerySafe como parte de las recomendaciones de seguridad en nuevas construcciones.
+
+### Estrategia 4: Integración con Instituciones de Seguridad Pública y Privada
+
+### Tácticas:
+**Asociaciones con bomberos, policía y seguridad privada**: Crear convenios para que los dispositivos de VerySafe se conecten directamente con estas instituciones en caso de emergencias. Esto permitirá que los usuarios puedan recibir respuestas rápidas en situaciones críticas, diferenciándose de competidores que solo ofrecen notificaciones internas o a empresas de monitoreo.
+
+**Control remoto desde dispositivos móviles**: Mejorar la app móvil para permitir una interacción más fluida con los sistemas de seguridad. Los usuarios podrán armar y desarmar sus sistemas, ver imágenes de cámaras en tiempo real y recibir alertas de emergencia desde cualquier lugar.
+
+### Estrategia 5: Ampliación del Mercado Objetivo
+
+### Tácticas:
+**Paquetes para pequeños comercios**: Crear ofertas específicas para pequeños negocios como tiendas, minimarkets y oficinas que necesitan soluciones de seguridad asequibles pero efectivas. 
+
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
 
@@ -278,7 +374,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
       <td>Aliaga</td>
       <td>60 años</td>
       <td> --- </td>
-      <td> --- </td>
+      <td> 00:00 </td>
     </tr>
     <tr>
       <td>02</td>
@@ -286,7 +382,40 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
       <td>Gomez Oré</td>
       <td>25 años</td>
       <td>Chorrillos</td>
-      <td> --- </td>
+      <td> 09:34 </td>
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>Luiz Alberto</td>
+      <td>Minaya Herrera</td>
+      <td>52 años</td>
+      <td>Chorrillos</td>
+      <td> 15:00 </td>
+    </tr>
+    <tr>
+      <td>04</td>
+      <td>Aaron</td>
+      <td>Alva Moreno</td>
+      <td>24 años</td>
+      <td>San Juan de Lurigancho</td>
+      <td> 23:37 </td>
+    </tr>
+        <tr>
+      <td>05</td>
+      <td>Diego</td>
+      <td>Acuña</td>
+      <td>28 años</td>
+      <td>San Isidro</td>
+      <td> 26:24 </td>
+    </tr>
+    </tr>
+        <tr>
+      <td>06</td>
+      <td>Jorge</td>
+      <td>Luis</td>
+      <td>23 años</td>
+      <td>San Juan de Miraflores</td>
+      <td> 29:21 </td>
     </tr>
 </table>
 
@@ -298,22 +427,46 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
    
 Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble ya que actualmente lo maneja de forma manual con cercos. Además destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
 
-1. **Entrevista Nro 2: Diana Gomez**
+2. **Entrevista Nro 2: Diana Gomez**
 ![Interview 2](/src/images/interview-2.png)
 
 Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
 
 Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más importantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. Por último, mencionó que ella prefiere gestionar el sistema de seguridd de su hogar mediante una aplicación, ya que de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
 
+3. **Entrevista Nro 3: Luis Minaya**
+
+![alt text](/src/images/interview3.png)
+
+Luis menciona que hace un tiempo sufrió un intento de robo en su inmueble, lo que lo llevó a contratar un servicio de seguridad con VerySure. A raíz de esa experiencia, comenta que el uso de dispositivos automatizados le ayudaría considerablemente a prevenir este tipo de situaciones. Además, destaca que tener control de estos dispositivos desde su celular sería lo más conveniente. También menciona que el sistema debería contar con comunicación directa con instituciones de seguridad, como bomberos, policía o seguridad privada.
+
+link de la entrevista: https://youtu.be/jfX4erZaQ9c
+
+4. **Entrevista Nro 4: Aaron Alva**
+
+![entrevista 4](src/images/interview-4.jpg)
+
+Aaron antes de la entrevista me comentó que inició un proceso de mudanza en una zona un poco movida de SJL. Al empezar la entrevista me comenta que su zona hay demasiada inseguridad y que el robo de los inmuebles u hogares esta a la orden del día. Además, me comenta que ha estado en busca de un sistema de seguridad para su hogar y de esta forma sentirse protegido ante robos, me comenta que estaría dispuesto a probar sistemas IoT y ver su funcionaldiad y mejoramiento a traves de las notificaciones que podamos brindarlos.
+
 * **Segmento 2: Empresas de Seguridad**
-* **Segmento 3: Empresas de Instalación y Mantenimiento**
+
+1. **Entrevista Nro 5: Diego Acuña**
+![entrevista 5](src/images/interview-5.jpg)
+
+Para esta ocasión entrevistamos a Diego quien tiene una compañía de seguridad. Nos comenta que busca mejorar poco a poco dado que sus tiempos de respuesta ante una emergencia pueden llegar a ser de hasta 10 minutos y dependiendo a la zona que se dirija la alarma emitida, además nos comenta que sí esta familiarizado con dispositivos IoT pero que hay ciertas momentos que se malogran y las notificaciones no llegan ahasta despues de un tiempo. Asimismo que esta dispuesto a buscar otros tipos de dispositvos en donde pueda beneficiarse.
+
+2. **Entrevista Nro 6: Jorge Luis**
+![entrevista 5](src/images/interview-6.png)
+Las respuestas de Jorge reflejan un enfoque robusto y adaptable para gestionar la seguridad a través de IoT. La empresa muestra un fuerte compromiso con la capacitación de su personal, la integración tecnológica, y la mejora continua de sus procesos para asegurar respuestas rápidas y eficientes ante cualquier amenaza.
+
 ## 2.3 Needfinding
 ### 2.3.1. User Personas
 * **Segmento 1: Dueños de inmuebles**
   ![User Persona 1](/src/images/user-persona-seg1.png)
 
 * **Segmento 2: Empresas de Seguridad**
-* **Segmento 3: Empresas de Instalación y Mantenimiento**
+  ![User Persona 2](/src/images/user-persona-empresa.png)
+
 ### 2.3.2. User Task Matrix
 * **Segmento 1: Dueños de inmuebles**
   <table border="1">
@@ -386,6 +539,11 @@ Para VerySafe tenemos los siguientes términos:
 
 # CAPÍTULO III: REQUERIMENTS SPECIFICATION
 ## 3.1. To-Be Scenario Mapping
+* **Segmento 1: Dueños de inmuebles**
+![To Be 1](/src/images/to-be-1.jpg)
+
+* **Segmento 2: Empresa de seguridad**
+![To Be 2](/src/images/to-be-2.jpg)
 ## 3.2. User Stories
 
 **Historias de Usuario para la Aplicación Web**
@@ -736,43 +894,525 @@ Para VerySafe tenemos los siguientes términos:
 |**Riesgo:** |Bajo|
 |**Descripción:** |Como propietario de un inmueble, quiero recibir alertas de mantenimiento preventivo de los dispositivos para evitar fallos y asegurar su operación continua.|
 |**Criterios de aceptación:**| **Dado** que tengo dispositivos operando **Cuando** alguno necesita mantenimiento **Entonces** recibo una alerta en la app y el email con los pasos a seguir para realizar el mantenimiento.|
+
+
 ## 3.3. Impact Mapping
+La herramienta denominada Impact Mapping consiste en una forma visual de representar las metas que nos plasmamos para llegar a cada sector de nuestro público. Por esta razón, el equipo utilizó este artefacto con el fin de definir nuestro camino para alcanzar a los segmentos objetivos. De este modo, al final del mapa mental identificamos las acciones y funcionalidades que debemos llevar a cabo para formar el proyecto de manera eficiente.
+
+### User: Dueño de Inmuebles
+A continuación, se presenta el Impact Map en el usuario, dueño de inmuebles; para la cual nos basamos en las User Stories de nuestro proyecto, brindando las alternativas con las que dispone los aplicativos para solucionar y satisfacer las necesidades del usuario.
+![](/src/images/impact-map-dueño-inmueble.png)
+
+### User: Empresa de seguridad
+Este mapa de impacto incluye los objetivos empresariales, los efectos deseados en la organización de seguridad y las historias de usuario relacionadas. El enfoque es en mejorar la eficiencia operativa y la satisfacción del cliente mediante el uso de tecnología IoT para vigilancia en tiempo real y respuestas automatizadas a amenazas.
+![](/src/images/impact-map-seguridad.png)
+
 ## 3.4. Product Backlog
+
+### **Product Backlog**
+
+|**Número**|**Nombre de Historia**|**Prioridad**|**Riesgo**|**Estimación**|
+|---|---|---|---|---|
+| HU-03 | Monitorear múltiples propiedades | Alta | Alto | 13 |
+| HU-07 | Acceso remoto a cámaras | Alta | Alto | 13 |
+| HU-16 | Detección de anomalías en tiempo real | Alta | Alto | 13 |
+| HU-17 | Actualización remota de firmware | Alta | Alto | 13 |
+| HU-30 | Gestión de patrullas | Alta | Alto | 13 |
+| HU-31 | Notificaciones de intrusión en tiempo real | Alta | Alto | 13 |
+| HU-22 | Monitoreo de sensores de movimiento | Alta | Alto | 13 |
+| HU-32 | Acceso a cámaras de seguridad | Alta | Medio | 8 |
+| HU-25 | Ver estado de la propiedad en tiempo real | Alta | Alto | 8 |
+| HU-26 | Recibir notificaciones | Alta | Medio | 8 |
+| HU-01 | Ver historial de alertas | Alta | Medio | 5 |
+| HU-02 | Controlar dispositivos de seguridad | Alta | Alto | 5 |
+| HU-05 | Reportar un incidente | Alta | Medio | 5 |
+| HU-08 | Control de acceso remoto | Alta | Medio | 5 |
+| HU-21 | Control de luces inteligentes | Alta | Medio | 5 |
+| HU-12 | Gestión de dispositivos conectados | Alta | Alto | 5 |
+| HU-13 | Integración con sistemas de terceros | Alta | Alto | 5 |
+| HU-09 | Crear y gestionar alertas desde la app | Media | Medio | 3 |
+| HU-10 | Ver grabaciones de seguridad | Media | Medio | 3 |
+| HU-11 | Gestión de usuarios | Alta | Alto | 3 |
+| HU-14 | Gestión de logs y auditoría | Media | Medio | 3 |
+| HU-15 | Configuración de políticas de seguridad | Media | Medio | 3 |
+| HU-18 | Autonomía operativa de dispositivos edge | Media | Medio | 3 |
+| HU-19 | Monitoreo de alertas en dispositivos edge | Media | Medio | 3 |
+| HU-20 | Reinicio remoto de dispositivos edge | Media | Bajo | 3 |
+| HU-23 | Monitorización de baterías en dispositivos IoT | Media | Medio | 3 |
+| HU-24 | Automatización de escenarios | Media | Medio | 3 |
+| HU-27 | Acceso a informes de seguridad | Media | Bajo | 3 |
+| HU-28 | Configurar notificaciones de prioridad | Media | Medio | 3 |
+| HU-29 | Configuración de acceso compartido | Media | Medio | 3 |
+| HU-33 | Control de acceso remoto | Media | Medio | 3 |
+| HU-34 | Respuesta automatizada ante amenazas | Media | Alto | 3 |
+| HU-35 | Personalización de la interfaz | Media | Bajo | 2 |
+| HU-36 | Uso compartido de dispositivos | Media | Bajo | 2 |
+| HU-37 | Alertas de mantenimiento preventivo | Media | Bajo | 2 |
+
+
 
 # CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. EventStorming
+
+Es una técnica colaborativa que nos permite explorar a fondo el dominio de nuestra aplicación de FalconShield. A través de una dinámica visual, se identifican eventos clave, acciones del usuario, reglas del sistema y flujos de mensajes. Esto mejora significativamente la comprensión del dominio, facilita el diseño del sistema y promueve una sólida colaboración entre el equipo.
+
+![alt text](src/images/image.png)
+
 #### 4.1.1.1. Candidate Context Discovery
+
+link del miro : https://miro.com/app/board/uXjVKjBJwpE=/?share_link_id=165602234559
+
+**Bounded Context:**
+
+![alt text](src/images/image-1.png)
+
+
+
+**User profile context:**
+![alt text](src/images/image-2.png)
+
+**Devices Context:**
+![alt text](src/images/image-3.png)
+
+**Installation devices Context:**
+![alt text](src/images/image-4.png)
+
+**Events Context:**
+![alt text](src/images/image-5.png)
+**Notifications Context:**
+![alt text](src/images/image-6.png)
+**Update software devices Context:**
+![alt text](src/images/image-7.png)
+**Suscription Context:**
+![alt text](src/images/image-9.png)
+
+
+
 #### 4.1.1.2. Domain Message Flows Modeling
+Este enfoque esencial nos permite visualizar y comprender cómo las diferentes partes de nuestro sistema interactúan entre sí mediante intercambios de mensajes. A través del modelado de flujos de mensajes, podemos capturar la lógica y la dinámica de nuestro dominio de manera clara y concisa, lo que facilita la comunicación y el diseño efectivo de sistemas complejos
+
+**Installations Context**
+![alt text](/src/images/flow-events.png)
+**Events Context**
+![alt text](/src/images/flow-events1.png)
+**Notifications Context**
+![alt text](/src/images/flow-noti.png)
+**Answers Context**
+![alt text](/src/images/flow-aws.png)
 #### 4.1.1.3. Bounded Context Canvases
+![alt text](/src/images/context-mapping.png)
+
+link del miro: https://miro.com/app/board/uXjVKhxU5HM=/?share_link_id=949468869000
 
 ### 4.1.2. Context Mapping
-<!-- TODO -->
+**Area Management Context - Device Management Context:**
+
+La relación entre Area Management Context y Device Management Context es de Partnership. El contexto Area Management organiza las propiedades y áreas, mientras que el contexto Device Management gestiona los dispositivos dentro de esas áreas. Ambos contextos colaboran estrechamente para garantizar una integración efectiva entre la organización espacial y la gestión de dispositivos en el sistema de seguridad basado en IoT.
+
+![alt text](src/images/412-1.png)
+
+**Area Management Context - Events Context:**
+
+La relación entre Area Management Context y Events Context es de Customer-Supplier. El contexto Area Management define las áreas, mientras que el contexto Events registra y gestiona los eventos que ocurren en esas áreas, como la activación de sensores o alarmas. Events Context depende de los datos de Area Management para asociar los eventos correctamente a sus ubicaciones.
+
+![alt text](src/images/412-2.png)
+
+**Area Management Context - Subscriptions Context:**
+
+La relación entre ambos contextos también es de tipo Customer-Supplier. En esta relación, el contexto Subscriptions Management gestiona los planes y pagos de los usuarios, determinando cuántas áreas pueden gestionar según su plan de suscripción. Area Management depende de las reglas definidas por Subscriptions Management para limitar o permitir la creación de más áreas en función del plan del usuario. Esta relación garantiza que el acceso a más áreas esté controlado por el nivel de suscripción, manteniendo la coherencia entre la gestión de áreas y las restricciones del plan en el sistema de seguridad.
+
+![alt text](src/images/412-3.png)
+
+**Events Context - Device Management Context:**
+
+La relación entre ambos contextos son de tipo Conformist porque el Events Context depende directamente de los dispositivos definidos en el Device Management Context para registrar y manejar los eventos. En esta relación, el Events Context no redefine ni expande significativamente la estructura o el modelo de los dispositivos, sino que adopta la representación de los dispositivos tal como se modelan en el Device Management Context.
 
 ### 4.1.3. Software Architecture
+
+En esta parte, mostraremos la representación de la Arquitectura de Software de la solución en base a los modelos C4
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+
+Este diagrama nos ofrece una visión mas general de como es la interacción de los usuarios con los sistemas externos, nos permite comprender la conexión de los componentes para contribuir al funcionamiento general de las aplicaciones.
+![landscape](src/images/landscape%20diagram.jpg)
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams
-#### 4.1.3.2. Software Architecture Container Level Diagrams
-#### 4.1.3.2. Software Architecture Deployment Diagrams
+
+En este tipo de diagramas, se muestra como nuestro sistema interactúa con elementos externos.
+![context](src/images/diagrama%20de%20contexto.jpg)
+
+#### 4.1.3.3. Software Architecture Container Level Diagrams
+
+Son representaciones visuales de la arquitectura de software a nivel de contenedores, que muestran cómo se agrupan y se comunican los distintos componentes y servicios dentro de un sistema o aplicación. Estos diagramas proporcionan una vista detallada de la organización de los contenedores de software, lo que ayuda a entender la estructura y las interacciones en la arquitectura general.
+![container](src/images/container.jpg)
+
+
+#### 4.1.3.4. Software Architecture Deployment Diagrams
+
+Son representaciones gráficas que ilustran cómo se despliegan y ejecutan los componentes de software en la infraestructura de hardware o en un entorno de producción.
+![deployment](src/images/deployment.jpg)
 
 ## 4.2. Tactical-Level Domain-Driven Design
-<!-- TODO -->
-### 4.2.1. Bounded Context: Payments
+### 4.2.1. Bounded Context:
 #### 4.2.1.1. Domain Layer
 #### 4.2.1.2. Interface Layer
+
+- API Endpoints:
+  - POST /subscriptions: Crea una nueva suscripción para un usuario.
+  - PUT /subscriptions/{subscriptionId}: Actualiza una suscripción existente.
+  - DELETE /subscriptions/{subscriptionId}: Cancela una suscripción.
+  - GET /subscriptions/{subscriptionId}: Obtiene los detalles de una suscripción.
+- DTOs:
+  - SubscriptionDTO: Representa los datos de una suscripción para ser enviados o recibidos a través de la API.
+  - PlanDTO: Representa los datos de un plan de suscripción para ser enviados o recibidos a través de la API.
+  - PaymentDTO: Representa los datos de un pago para ser enviados o recibidos a través de la API.
+- Controllers:
+  - SubscriptionController: Controlador que gestiona las operaciones relacionadas con las suscripciones, como la creación, actualización y cancelación de suscripciones.
+  - PlanController: Controlador que gestiona las operaciones relacionadas con los planes de suscripción, como la creación y actualización de planes.
+  - PaymentController: Controlador que gestiona las operaciones relacionadas con los pagos, como la creación y verificación de pagos.
+
 #### 4.2.1.3. Application Layer
+
+- Application Services:
+  - SubscriptionApplicationService: Servicio de aplicación que coordina las operaciones relacionadas con las suscripciones, como la creación, actualización y cancelación de suscripciones.
+  - PlanApplicationService: Servicio de aplicación que gestiona las operaciones relacionadas con los planes de suscripción, como la creación y actualización de planes.
+  - PaymentApplicationService: Servicio de aplicación que gestiona las operaciones relacionadas con los pagos, como la creación y verificación de pagos.
+- Commands/Queries:
+  - CreateSubscriptionCommand: Comando para crear una nueva suscripción.
+  - UpdateSubscriptionCommand: Comando para actualizar una suscripción existente.
+  - CancelSubscriptionCommand: Comando para cancelar una suscripción.
+  - GetSubscriptionQuery: Consulta para obtener los detalles de una suscripción.
+- Events:
+  - SubscriptionCreatedEvent: Evento que se dispara cuando se crea una nueva suscripción.
+  - SubscriptionUpdatedEvent: Evento que se dispara cuando se actualiza una suscripción.
+  - SubscriptionCancelledEvent: Evento que se dispara cuando se cancela una suscripción.
+  
 #### 4.2.1.4. Infrastructure Layer
+
+- Repositories implementations:
+  - SubscriptionRepositoryImpl: Implementación concreta del repositorio de suscripciones que se encarga de la persistencia de las suscripciones en la base de datos.
+  - PlanRepositoryImpl: Implementación concreta del repositorio de planes de suscripción que se encarga de la persistencia de los planes en la base de datos.
+  - PaymentRepositoryImpl: Implementación concreta del repositorio de pagos que se encarga de la persistencia de los pagos en la base de datos.
+- External Services:
+  - PaymentGatewayService: Servicio externo que se encarga de procesar los pagos realizados por los usuarios, como la verificación de tarjetas de crédito y la
+  - StripePaymentGateway: Implementación concreta del servicio de pasarela de pagos que utiliza la API de Stripe para procesar los pagos de los usuarios.
+  
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
-#### 4.2.1.6.1. Bounded Context Database Design Diagram
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
 
+![alt text](src/images/bc-db-subscriptions.png)
 
+#### 4.2.2. Bounded Context: Device
+#### 4.2.2.1 Domain Layer
+- **Entidades de dominio**:
+  - **Device**: Representa un dispositivo IoT instalado en el inmueble, incluyendo sus características y estado.
+  - **Installation**: Representa la instalación de un dispositivo en un inmueble, incluyendo la fecha de instalación y el estado de la instalación.
+  - **Property**: Representa la propiedad (inmueble) donde los dispositivos están instalados, incluyendo detalles sobre la ubicación y características.
+
+- **Objetos de valor**:
+  - **DeviceConfiguration**: Contiene la configuración específica de cada dispositivo, como el tipo de dispositivo, configuraciones de red y parámetros operativos.
+  - **InstallationDetails**: Información sobre la instalación del dispositivo, como la ubicación exacta y el método de instalación.
+
+- **Repositorios**:
+  - **DeviceRepository**: Maneja la persistencia de los dispositivos.
+  - **InstallationRepository**: Maneja la persistencia de las instalaciones de dispositivos.
+  - **PropertyRepository**: Maneja la persistencia de las propiedades donde se instalan los dispositivos.
+
+#### 4.2.2.2 Interface Layer
+- **DeviceController**: Gestiona la configuración y visualización de dispositivos IoT. Permite a los usuarios ver, agregar y actualizar la información de los dispositivos instalados, así como revisar el estado y configuraciones de cada dispositivo.
+
+- **InstallationController**: Maneja la gestión de la instalación de dispositivos. Permite a los usuarios iniciar nuevas instalaciones, actualizar el estado de las instalaciones y visualizar el historial de instalaciones.
+
+- **PropertyController**: Gestiona la información de las propiedades donde los dispositivos están instalados. Permite a los usuarios ver detalles sobre las propiedades y asociar dispositivos con propiedades específicas.
+
+#### 4.2.2.3. Application Layer
+- **Command Handlers**:
+  - **RegisterDeviceCommandHandler**: Procesa la solicitud para registrar un nuevo dispositivo IoT en el sistema. Este handler maneja la creación de registros para nuevos dispositivos y su configuración inicial.
+  - **UpdateDeviceConfigurationCommandHandler**: Maneja las actualizaciones en la configuración de un dispositivo existente.
+  - **InstallDeviceCommandHandler**: Procesa la solicitud para instalar un dispositivo en una propiedad. Maneja la asociación del dispositivo con la propiedad y actualiza el estado de la instalación.
+  - **UninstallDeviceCommandHandler**: Maneja la solicitud para desinstalar un dispositivo, actualizando el estado del dispositivo y la propiedad asociada.
+
+- **Event Handlers**:
+  - **DeviceRegisteredEventHandler**: Responde a eventos que confirman la creación y registro exitoso de un dispositivo. Actualiza el estado del dispositivo en la base de datos y emite eventos relacionados.
+  - **DeviceConfigurationUpdatedEventHandler**: Maneja eventos que indican que la configuración de un dispositivo ha sido actualizada. Actualiza la base de datos y notifica a los usuarios correspondientes.
+  - **DeviceInstalledEventHandler**: Maneja eventos de instalación exitosa de un dispositivo. Actualiza el estado de la instalación y emite notificaciones.
+  - **DeviceUninstalledEventHandler**: Responde a eventos que indican que un dispositivo ha sido desinstalado. Actualiza el estado en la base de datos y emite notificaciones relacionadas.
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+![alt text](/src/images/devices-diagram.png)
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+![alt text](/src/images/devices-db.png)
+
+#### 4.2.2.4. Infrastructure Layer
+  
+- **Integración con proveedores de dispositivos**: Implementa adaptadores para interactuar con proveedores de hardware y servicios relacionados con los dispositivos IoT, como actualizaciones de firmware y estado del dispositivo.
+
+- **Gestión de bases de datos**: Incluye la configuración y gestión de bases de datos relacionadas con los dispositivos IoT. Abarca la creación de tablas, almacenamiento en caché para mejorar el rendimiento y copias de seguridad de datos sensibles.
+
+- **Seguridad**: Implementa medidas de seguridad para proteger los datos de los dispositivos y la comunicación entre los dispositivos y el sistema central. Esto podría incluir cifrado de datos, autenticación de dispositivos y medidas contra accesos no autorizados.
+
+### 4.2.3. Bounded Context: Areas
+#### 4.2.3.1. Domain Layer
+- Entities:
+  - Area: Representa un área específica en la que se colocan los dispositivos.
+    - Atributos: id, name, icon, color.
+  - Property: Representa una propiedad que puede tener múltiples áreas.
+    - Atributos: id, name, image_url, address.
+
+- Value Objects:
+  - AreaId: Identificador único de un área.
+  - PropertyId: Identificador único de una propiedad.
+
+- Aggregates:
+  - AreaAggregate: Agregado raíz que encapsula las operaciones relacionadas con las áreas, incluyendo la creación, actualización y eliminación de áreas.
+  - PropertyAggregate: Agregado raíz que encapsula las operaciones relacionadas con las propiedades, incluyendo la asociación con áreas.
+
+- Domain Services:
+  - AreaService: Define las operaciones de negocio relacionadas con las áreas, como la creación, actualización y eliminación de áreas.
+  - PropertyService: Define las operaciones de negocio relacionadas con las propiedades, como la gestión de áreas asociadas.
+
+- Repositories:
+  - AreaRepository: Interfaz que define las operaciones de persistencia relacionadas con las áreas.
+  - PropertyRepository: Interfaz que define las operaciones de persistencia relacionadas con las propiedades.
+
+#### 4.2.3.2. Interface Layer
+- API Endpoints:
+  - POST /areas: Crea una nueva área.
+  - PUT /areas/{areaId}: Actualiza una área existente.
+  - DELETE /areas/{areaId}: Elimina una área.
+  - GET /areas/{areaId}: Obtiene los detalles de una área.
+  - POST /properties: Crea una nueva propiedad.
+  - PUT /properties/{propertyId}: Actualiza una propiedad existente.
+  - DELETE /properties/{propertyId}: Elimina una propiedad.
+  - GET /properties/{propertyId}: Obtiene los detalles de una propiedad.
+
+- DTOs:
+  - AreaDTO: Representa los datos de un área para ser enviados o recibidos a través de la API.
+  - PropertyDTO: Representa los datos de una propiedad para ser enviados o recibidos a través de la API.
+
+- Controllers:
+  - AreaController: Controlador que gestiona las operaciones relacionadas con las áreas, como la creación, actualización y eliminación de áreas.
+  - PropertyController: Controlador que gestiona las operaciones relacionadas con las propiedades, como la creación, actualización y eliminación de propiedades.
+
+#### 4.2.3.3. Application Layer
+- Application Services:
+  - AreaApplicationService: Servicio de aplicación que coordina las operaciones relacionadas con las áreas, como la creación, actualización y eliminación de áreas.
+  - PropertyApplicationService: Servicio de aplicación que gestiona las operaciones relacionadas con las propiedades, como la creación, actualización y eliminación de propiedades.
+
+- Commands/Queries:
+  - CreateAreaCommand: Comando para crear una nueva área.
+  - UpdateAreaCommand: Comando para actualizar una área existente.
+  - DeleteAreaCommand: Comando para eliminar una área.
+  - GetAreaQuery: Consulta para obtener los detalles de una área.
+  - CreatePropertyCommand: Comando para crear una nueva propiedad.
+  - UpdatePropertyCommand: Comando para actualizar una propiedad existente.
+  - DeletePropertyCommand: Comando para eliminar una propiedad.
+  - GetPropertyQuery: Consulta para obtener los detalles de una propiedad.
+
+- Events:
+  - AreaCreatedEvent: Evento que se dispara cuando se crea una nueva área.
+  - AreaUpdatedEvent: Evento que se dispara cuando se actualiza una área.
+  - AreaDeletedEvent: Evento que se dispara cuando se elimina una área.
+  - PropertyCreatedEvent: Evento que se dispara cuando se crea una nueva propiedad.
+  - PropertyUpdatedEvent: Evento que se dispara cuando se actualiza una propiedad.
+  - PropertyDeletedEvent: Evento que se dispara cuando se elimina una propiedad.
+
+#### 4.2.3.4. Infrastructure Layer
+- Repositories Implementations:
+  - AreaRepositoryImpl: Implementación concreta del repositorio de áreas que se encarga de la persistencia de las áreas en la base de datos.
+  - PropertyRepositoryImpl: Implementación concreta del repositorio de propiedades que se encarga de la persistencia de las propiedades en la base de datos.
+
+- External Services:
+  - En este contexto, no se han identificado servicios externos específicos para las áreas y propiedades, pero podrían incluir servicios de almacenamiento de imágenes o integraciones con sistemas de mapeo si se requieren en el futuro.
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+![Bounded Context UML Areas](src/images/bc-uml-areas.png)
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
+![Bounded Context Database Areas](src/images/bc-db-areas.jpg)
+
+### 4.2.4. Bounded Context: User
+#### 4.2.4.1. Domain Layer
+
+**Entidades de dominio**
+
+- Account: Representa una cuenta de usuario en el sistema.
+- PropertyUser: Representa un perfil del sector inmobiliario en el sistema.
+- SecurityUser: Representa un perfil de un especialista en la seguridad en el sistema.
+  
+**Agregados**
+
+Autenticador: Maneja la autenticación de los usuarios, verificando sus credenciales y emitiendo tokens de acceso.
+Autorizador: Maneja la autorización de los usuarios, verificando que tienen los permisos necesarios para realizar una acción en el sistema
+
+**Repositorios**
+
+* AccountRepository: Maneja la persistencia de las cuentas de usuario.
+* PropertyProfileRepository: Maneja la persistencia de los perfiles de los usuarios que tienen inmueble.
+* SecurityProfileRepository: Maneja la persistencia de los perfiles de especialistas en la seguridad del hogar.
+
+#### 4.2.4.2. Interface Layer
+
+- **PropertyAccountController:** El PropertyAccountController maneja las operaciones relacionadas con la gestión de cuentas de usuarios de inmuebles, como la creación de cuentas, la autenticación y el cierre de sesiones.
+
+- **SecurityAccountController:** El SecurityAccountController maneja las operaciones relacionadas con la gestión de cuentas de los dueños de inmuebles, la seguridad, como la creación de cuentas, la autenticación y el cierre de sesiones.
+
+- **UserController:** Esta clase maneja las operaciones de gestión de usuarios, incluyendo el registro, autenticación, actualización de perfiles y eliminación de cuentas.
+
+- **UserProfileController:** El UserProfileController está encargado de las operaciones específicas relacionadas con los perfiles de usuario, como la actualización de la información personal del usuario.
+
+#### 4.2.4.3. Application Layer
+
+En el contexto de "Account," el Application Layer se enfoca en la creación, autenticación y la autorización de usuarios (dueños de inmuebles y seguridad). Proporciona una interfaz de inicio de sesión y registro para los usuarios, donde pueden ingresar sus credenciales de manera segura. El Application Layer verifica la identidad de los usuarios y garantiza que tengan acceso solo a las funciones y los datos apropiados según sus permisos. Además, se gestionan eventos relacionados con la autenticación, como el inicio de sesión exitoso, para proporcionar una experiencia segura y efectiva.
+
+**Command Handlers:**
+
+- **RegisterUserCommandHandler:** Procesa la creación de nuevas cuentas de usuario en VerySafe. Cuando un usuario se registra, este componente crea una cuenta y gestiona las credenciales asociadas de acuerdo al tipo de usuario registrado.
+- **AuthenticateUserCommandHandler:** Se encarga de verificar las credenciales de inicio de sesión de los usuarios. Permite el acceso a las funciones de la aplicación después de una autenticación exitosa.
+  
+**Event Handlers:**
+
+- **UserLoggedInEventHandler:** Responde a eventos que indican un inicio de sesión exitoso por parte de un usuario. Actualiza el estado de la sesión del usuario y genera eventos adicionales relacionados con la autenticación.
+
+- **PermissionsUpdatedEventHandler:** Maneja eventos que indican cambios en los permisos de usuario. Cuando se producen cambios en los permisos, este componente actualiza el estado de la autorización y emite eventos de seguridad correspondientes.
+
+#### 4.2.4.4. Infrastructure Layer
+
+**Integración con AWS SNS para el envío de notificaciones:** Se configurarán conexiones y se desarrollarán adaptadores para interactuar con el servicio de notificaciones de AWS SNS, permitiendo el envío y recepción de mensajes a través de múltiples canales, como SMS, correos electrónicos, o notificaciones push. Esto implicará la configuración del servicio SNS, la gestión de credenciales de acceso y la integración con otros servicios externos para el envío de notificaciones. Además, se implementará la autenticación con Firebase Auth para garantizar la seguridad en el acceso a la aplicación, incluyendo la configuración de Firebase Auth, la gestión de tokens de autenticación y la integración con los servicios de notificación de Firebase.
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+![component-user](src/images/bc-component-user.jpg)
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+![bc](src/images/BC-ACCOUNT.jpg)
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![BD](src/images/BD-ACCOUNT.jpg)
+
+### 4.2.5. Bounded Context: Event
+#### 4.2.5.1. Domain Layer
+
+**Entidades de dominio**
+
+- **Event:** Representa un evento en el sistema.
+- **EventType:** Representa el tipo de evento en el sistema.
+
+**Agregados**
+
+- **EventManager:** Maneja la creación y gestión de eventos.
+- **EventTypeManager:** Maneja la creación y gestión de tipos de eventos.
+  
+**Repositorios**
+
+- **EventRepository:** Maneja la persistencia de los eventos.
+- **EventTypeRepository:** Maneja la persistencia de los tipos de eventos.
+ 
+#### 4.2.5.2. Interface Layer
+
+- **EventController:** Maneja las operaciones relacionadas con la gestión de eventos, como la creación, actualización y eliminación de eventos.
+
+- **EventTypeController:** Maneja las operaciones relacionadas con la gestión de tipos de eventos, como la creación, actualización y eliminación de tipos de eventos.
+
+#### 4.2.5.3. Application Layer
+
+En el contexto de “Events,” el Application Layer se enfoca en la creación y gestión de eventos y sus tipos. Proporciona una interfaz para que los usuarios puedan crear, actualizar y eliminar eventos y tipos de eventos.
+
+**Command Handlers:**
+
+- **CreateEventCommandHandler:** Procesa la creación de nuevos eventos en el sistema.
+- **UpdateEventCommandHandler:** Procesa la actualización de eventos existentes.
+- **DeleteEventCommandHandler:** Procesa la eliminación de eventos.
+
+**Event Handlers:**
+
+- **EventCreatedEventHandler:** Responde a eventos que indican la creación exitosa de un evento.
+- **EventUpdatedEventHandler:** Responde a eventos que indican la actualización exitosa de un evento.
+- **EventDeletedEventHandler:** Responde a eventos que indican la eliminación exitosa de un evento.
+
+#### 4.2.5.4. Infrastructure Layer
+
+**Integración con AWS SNS para el envío de notificaciones:** Se configurarán conexiones y se desarrollarán adaptadores para interactuar con el servicio de notificaciones de AWS SNS, permitiendo el envío y recepción de mensajes a través de múltiples canales, como SMS, correos electrónicos, o notificaciones push como respuesta a una alerta o prevencion de la alarma.
+
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+![component](src/images/bc-component-event.jpg)
+
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+![class](src/images/bc-class-event.jpg)
+
+#### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+![events](src/images/bd-events.jpg)
+
+### 4.2.6. Bounded Context: Notifications
+#### 4.2.6.1. Domain Layer
+**Entidades de dominio** 
+- **Notification:** Representa una notificación en el sistema.
+-	**NotificationType:** Representa el tipo de notificación en el sistema.
+Agregados
+-	**NotificationManager:** Maneja la creación y gestión de notificaciones.
+-	**NotificationTypeManager:** Maneja la creación y gestión de tipos de notificaciones.
+Repositorios
+-	**NotificationRepository:** Maneja la persistencia de las notificaciones.
+-	**NotificationTypeRepository:** Maneja la persistencia de los tipos de notificaciones.
+
+#### 4.2.6.2. Interface Layer
+-	**NotificationController:** Maneja las operaciones relacionadas con la gestión de notificaciones, como la creación, actualización y eliminación de notificaciones.
+-	**NotificationTypeController:** Maneja las operaciones relacionadas con la gestión de tipos de notificaciones, como la creación, actualización y eliminación de tipos de notificaciones.
+
+#### 4.2.6.3. Application Layer
+En el contexto de “Notifications,” el Application Layer se enfoca en la creación y gestión de notificaciones y sus tipos. Proporciona una interfaz para que los usuarios puedan crear, actualizar y eliminar notificaciones y tipos de notificaciones.
+**Command Handlers:**
+-	**CreateNotificationCommandHandler:** Procesa la creación de nuevas notificaciones en el sistema.
+-	**UpdateNotificationCommandHandler:** Procesa la actualización de notificaciones existentes.
+-	**DeleteNotificationCommandHandler:** Procesa la eliminación de notificaciones.
+
+**Event Handlers:**
+-	**NotificationCreatedEventHandler:** Responde a eventos que indican la creación exitosa de una notificación.
+-	**NotificationUpdatedEventHandler:** Responde a eventos que indican la actualización exitosa de una notificación.
+-	**NotificationDeletedEventHandler:** Responde a eventos que indican la eliminación exitosa de una notificación.
+
+#### 4.2.6.4. Infrastructure Layer
+Integración con servicios externos: Se configurarán conexiones y se desarrollarán adaptadores para interactuar con servicios externos para el envío de notificaciones. Esto implicará la configuración de servicios de mensajería y la gestión de credenciales de acceso.
+
+#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+El diagrama de nivel de componentes muestra cómo interactúan los diferentes componentes del sistema:
+![](src/images/bd-component-notification.jpg)
+
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+El diagrama de nivel de código muestra la estructura del código y las relaciones entre las clases:
+![](src/images/class-diagram-notification.jpeg)
+
+#### 4.2.6.7. Bounded Context Database Design Diagram
+![](src/images/bd-notification.jpeg)
 
 # Conclusiones
+
 ## Conclusiones y Recomendaciones
 
+- La especificación de nuestro problema a partir de los 5w y 2H nos permitió reconocer e identificar la problemática que abordamos en general. Nos ayudó a implementar acciones estratégicas con el fin de que nuestra solución de software sea eficiente y abarque en todos los sentidos el problema identificado.
+
+- La descripción de los Problem Statement fue de suma ayuda ya que nos permitió a identificar si nuestra solución que queremos brindar era la adecuada. Los resultados que llegamos a partir de la especificación fueron que a partir del análisis de los Problem Statement identificamos que era necesario agregar más ideas de solución a las que ya habíamos propuesto en un inicio. Había algunas ideas que no habíamos tomado en cuenta, pero para nuestros usuarios eran aspectos primordiales. Lo cual al realizar este ítem decidimos incluir más ideas de solución porque queríamos atender todas las necesidades que nuestro público objetivo desea satisfacer.
+
+- El diseño de las arquitecturas tanto en los diagramas C4 como en los bounded context que cada uno logró hacer, identificamos que con ello podemos centrar mejor nuestra vision y alcance del proyecto para que de esta forma todos estemos alineados para las entregas futuras.
+
 # Bibliografía
+- Gothelf, J., & Seiden, J. (2016). Lean UX: Designing Great Products with Agile Teams. «O’Reilly Media, Inc.»
+- The C4 model for visualising software architecture. (s. f.). https://c4model.com/
+- Verisure Perú. (s. f.). Protegemos tu hogar y lo que más quieres. Alarmas Verisure Perú. https://www.verisure.pe/
 
 # Anexos
 
+| Seccion | Caracteristicas del video | 
+|-|-|
+| Needfinding Interviews | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=LEhkwy |
