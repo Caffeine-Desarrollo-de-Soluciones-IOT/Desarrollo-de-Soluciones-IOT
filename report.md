@@ -288,6 +288,14 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
       <td>Chorrillos</td>
       <td> --- </td>
     </tr>
+    <tr>
+      <td>03</td>
+      <td>Luiz Alberto</td>
+      <td>Minaya Herrera</td>
+      <td>52 años</td>
+      <td>Chorrillos</td>
+      <td> 8:36 </td>
+    </tr>
 </table>
 
 
@@ -298,22 +306,33 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
    
 Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble ya que actualmente lo maneja de forma manual con cercos. Además destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
 
-1. **Entrevista Nro 2: Diana Gomez**
+2. **Entrevista Nro 2: Diana Gomez**
 ![Interview 2](/src/images/interview-2.png)
 
 Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
 
 Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más importantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. Por último, mencionó que ella prefiere gestionar el sistema de seguridd de su hogar mediante una aplicación, ya que de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
 
+
+
+3. **Entrevista Nro 3: Luis Minaya**
+
+![alt text](/src/images/interview3.png)
+
+Luis menciona que hace un tiempo sufrió un intento de robo en su inmueble, lo que lo llevó a contratar un servicio de seguridad con VerySure. A raíz de esa experiencia, comenta que el uso de dispositivos automatizados le ayudaría considerablemente a prevenir este tipo de situaciones. Además, destaca que tener control de estos dispositivos desde su celular sería lo más conveniente. También menciona que el sistema debería contar con comunicación directa con instituciones de seguridad, como bomberos, policía o seguridad privada.
+
+link de la entrevista: https://youtu.be/jfX4erZaQ9c
+
+
 * **Segmento 2: Empresas de Seguridad**
-* **Segmento 3: Empresas de Instalación y Mantenimiento**
+
 ## 2.3 Needfinding
 ### 2.3.1. User Personas
 * **Segmento 1: Dueños de inmuebles**
   ![User Persona 1](/src/images/user-persona-seg1.png)
 
 * **Segmento 2: Empresas de Seguridad**
-* **Segmento 3: Empresas de Instalación y Mantenimiento**
+
 ### 2.3.2. User Task Matrix
 * **Segmento 1: Dueños de inmuebles**
   <table border="1">
