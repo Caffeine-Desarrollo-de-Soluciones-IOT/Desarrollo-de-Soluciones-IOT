@@ -935,7 +935,14 @@ La relación entre ambos contextos también es de tipo Customer-Supplier. En est
 La relación entre ambos contextos son de tipo Conformist porque el Events Context depende directamente de los dispositivos definidos en el Device Management Context para registrar y manejar los eventos. En esta relación, el Events Context no redefine ni expande significativamente la estructura o el modelo de los dispositivos, sino que adopta la representación de los dispositivos tal como se modelan en el Device Management Context.
 
 ### 4.1.3. Software Architecture
+
+En esta parte, mostraremos la representación de la Arquitectura de Software de la solución en base a los modelos C4
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+
+Este diagrama nos ofrece una visión mas general de como es la interacción de los usuarios con los sistemas externos, nos permite comprender la conexión de los componentes para contribuir al funcionamiento general de las aplicaciones.
+![landscape](src/images/landscape%20diagram.jpg)
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 #### 4.1.3.2. Software Architecture Deployment Diagrams
