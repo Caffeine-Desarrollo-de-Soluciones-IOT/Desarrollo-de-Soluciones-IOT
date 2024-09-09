@@ -37,7 +37,7 @@ Ciclo: 2024-2
 | 0.4 | 30/08/2023 | Sabino, Max | Estrategias y Tacticas frene a competidores, Diseño de entrevistas |
 | 0.5 | 29/08/2023 | Quevedo, Dennis | Descripcion de la Startup, Needfinding |
 | 0.6 | 31/08/2023 | Quevedo, Dennis | Segmentos Objetivos|
-| 0.7 | 1/09/2023 | Ahuanari, Maria | Desarrollo de Bounded Context Physiotherapist Selection and Review Management |
+| 0.7 | 1/09/2023 | Sabino, Max | User Stories y product backlog |
 | 0.8 | 4/09/2023 | Todos los participantes | Registro de entrevista y análisis de entrevista |
 | 0.9 | 5/09/2023 | Nomberto, Gabriela | Ubiquitous Language |
 | 0.10 | 5/09/2023 | Arteaga, Elvia | To-be Scenario Mapping |
