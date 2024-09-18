@@ -64,7 +64,7 @@ Ciclo: 2024-2
 ## 3.3. Impact Mapping.
 ## 3.4. Product Backlog.
 
-# Capítulo IV: Solution Software Design
+# CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. EventStorming
 #### 4.1.1.1 Candidate Context Discovery
@@ -86,3 +86,23 @@ Ciclo: 2024-2
 #### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 4.2.X.6.2. Bounded Context Database Design Diagram
+
+# CAPÍTULO V: SOLUTION UI/UX DESIGN
+## 5.1. Style Guidelines
+### 5.1.1. General Style Guidelines
+### 5.1.2. Web, Mobile and IoT Style Guidelines
+## 5.2. Information Architecture
+### 5.2.1. Organization Systems
+### 5.2.2. Labeling Systems
+### 5.2.3. SEO Tags and Meta Tags
+### 5.2.4. Searching Systems
+### 5.2.5. Navigation Systems
+## 5.3. Landing Page UI Design
+### 5.3.1. Landing Page Wireframe
+### 5.3.2. Landing Page Mock-up
+## 5.4. Applications UX/UI Design
+### 5.4.1. Applications Wireframes
+### 5.4.2. Applications Wireflow Diagrams
+### 5.4.2. Applications Mock-ups
+### 5.4.3. Applications User Flow Diagrams
+## 5.5. Applications Prototyping
