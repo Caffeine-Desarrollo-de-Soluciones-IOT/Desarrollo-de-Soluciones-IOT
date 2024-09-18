@@ -49,8 +49,9 @@ Ciclo: 2024-2
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
+* **Segmento 1: Dueños de inmuebles**
    
-2. Entrevista N° 2: Diana Gomez Oré
+2. **Entrevista N°2:** Diana Gomez Oré
  - Edad: 25 años
  - Distrito: Chorrillos
  - Timing: 9:35
