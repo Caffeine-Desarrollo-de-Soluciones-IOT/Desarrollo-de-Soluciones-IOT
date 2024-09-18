@@ -49,6 +49,22 @@ Ciclo: 2024-2
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
+   
+2. Entrevista N° 2: Diana Gomez Oré
+ - Edad: 25 años
+ - Distrito: Chorrillos
+ - Timing: 9:35
+ - Duración: 5:22
+ - Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=Hh8QaG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTc0Ljc0fX0%3D"> Entrevista 2 </a>
+
+![Interview 2](/src/images/interview-2.png)
+
+Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
+
+Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más importantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. Por último, mencionó que ella prefiere gestionar el sistema de seguridd de su hogar mediante una aplicación, ya que de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
+
+También pude notar que Diana utiliza un celular con android y una laptop con Windows. Además, sus canales de comunicación son principalmente WhatsApp e Instagram. Su relación con la tecnología es bastante buena, debido a que en su trabajo están en constante capacitación, sobretodo para el uso de pc. Asimismo, está acostumbrada a utilizar browsers basados en chromium, tales como Chrome y Brave.
+
 ### 2.2.3. Análisis de entrevistas
 ## 2.3 Needfinding
 ### 2.3.1. User Personas
