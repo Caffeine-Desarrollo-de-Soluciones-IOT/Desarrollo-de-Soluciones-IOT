@@ -62,11 +62,11 @@ Nuestra visión es convertirnos en líderes en tecnología de seguridad, resolvi
 ### 1.1.2 Perfiles de integrantes del equipo
 | Integrante | Imagen |
 |----------------------|----------------------|
-| **Elvia Guadalupe Arteaga Cruz:** Soy una estudiante de la carrera de ingeniería de software. Ingresé a la universidad para estudiar ingeniería mecatrónica, pero el mundo de la programación siempre me gustó más, es por ello que decidí cambiarme de carrera. Me gusta mucho la tecnología y las grandes cosas que se pueden hacer con ella. Tengo la ilusión de crear productos y servicios que ayuden a facilitar la vida de las personas y que nos ayuden a crecer como sociedad.| ![ElviaArteaga](src/images/) |
-| **Max Dayson Sabino Arostegui:** Soy estudiante de Ingeniería de Software y me interesa especialmente el machine learning y la ciberseguridad. Tengo experiencia con la metodología ágil SCRUM y estoy familiarizado con varios frameworks y lenguajes de programación, como Angular, Vue, C++ y Python. Además, poseo habilidades blandas importantes como el trabajo en equipo, asertividad y cooperación.| ![MaxSabino](src/images/perfil2.png)|
-| **Gabriela Soledad Nomberto Ramos:** Soy estudiante de la carrera de Ingeniería de Software en el 9no ciclo. Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Además, soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión.|![GabrielaNomberto](src/images/) |
-| **Dennis Piero Quevedo Yucra:** Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 9no ciclo. Tengo conocimientos en múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible.| ![DennisQuevedo](src/images/)|
-| **Jamutaq Piero Ortega Vélez:** Soy estudiante de la carrera de Ingeniería de Software, tengo 22 años y me encuentro en el 7mo ciclo. Me considero una persona honrada, respetuosa y responsable, siempre me gusta aportar y ayudar a mi equipo de trabajo. Poseo una gran experiencia en el desarrollo de soluciones backend con tecnologías que como Spring Boot con Java, .NET Core con C# y Node.js con JS y TS. Además, también me apasiona el mundo del DevOps y tecnologías cloud. Me gusta mucho la música y la meditación, y en mis tiempos libres me dedico a caminar y a reflexionar sobre la vida.| ![JamutaqOrtega](src/images/foto-jamutaq.jpeg)|
+| **Elvia Guadalupe Arteaga Cruz:** <br>Código: u201616507<br> Soy una estudiante de la carrera de ingeniería de software. Ingresé a la universidad para estudiar ingeniería mecatrónica, pero el mundo de la programación siempre me gustó más, es por ello que decidí cambiarme de carrera. Me gusta mucho la tecnología y las grandes cosas que se pueden hacer con ella. Tengo la ilusión de crear productos y servicios que ayuden a facilitar la vida de las personas y que nos ayuden a crecer como sociedad.| ![ElviaArteaga](src/images/) |
+| **Max Dayson Sabino Arostegui:** <br>Código: u20201a991<br> Soy estudiante de Ingeniería de Software y me interesa especialmente el machine learning y la ciberseguridad. Tengo experiencia con la metodología ágil SCRUM y estoy familiarizado con varios frameworks y lenguajes de programación, como Angular, Vue, C++ y Python. Además, poseo habilidades blandas importantes como el trabajo en equipo, asertividad y cooperación.| ![MaxSabino](src/images/perfil2.png)|
+| **Gabriela Soledad Nomberto Ramos:** <br>Código: u202113876<br> Soy estudiante de la carrera de Ingeniería de Software en el 9no ciclo. Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Además, soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión.|![GabrielaNomberto](src/images/) |
+| **Dennis Piero Quevedo Yucra:** <br>Código: u201619823<br> Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 9no ciclo. Tengo conocimientos en múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible.| ![DennisQuevedo](src/images/)|
+| **Jamutaq Piero Ortega Vélez:** <br>Código: u201911703<br> Soy estudiante de la carrera de Ingeniería de Software, tengo 22 años y me encuentro en el 7mo ciclo. Me considero una persona honrada, respetuosa y responsable, siempre me gusta aportar y ayudar a mi equipo de trabajo. Poseo una gran experiencia en el desarrollo de soluciones backend con tecnologías que como Spring Boot con Java, .NET Core con C# y Node.js con JS y TS. Además, también me apasiona el mundo del DevOps y tecnologías cloud. Me gusta mucho la música y la meditación, y en mis tiempos libres me dedico a caminar y a reflexionar sobre la vida.| ![JamutaqOrtega](src/images/foto-jamutaq.jpeg)|
 
 
 ## 1.2 Solution Profile
@@ -75,8 +75,64 @@ Nuestra visión es convertirnos en líderes en tecnología de seguridad, resolvi
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
+El estado actual del dominio de la seguridad IoT para el hogar se ha centrado principalmente en los usuarios residenciales, las empresas de seguridad y las empresas de instalación y mantenimiento. Los puntos críticos incluyen la falta de un acceso centralizado a la información de los dispositivos, problemas de coordinación en emergencias y dificultades en la gestión del mantenimiento.
+
+Lo que los productos/servicios existentes no logran abordar es la necesidad de integrar la gestión de dispositivos, la respuesta en tiempo real ante emergencias y la administración del mantenimiento en una plataforma unificada. Además, los competidores no ofrecen alianzas con empresas de seguridad, lo que resulta en respuestas menos especializadas.
+
+Nuestro producto/servicio abordará esta brecha mediante el desarrollo de una plataforma IoT unificada que conecte dispositivos de seguridad, mejore la coordinación con empresas de seguridad aliadas y optimice la gestión del mantenimiento en tiempo real.
+
+Nuestro enfoque inicial será los usuarios residenciales, ya que necesitan una experiencia de usuario simplificada que permita un control centralizado de sus dispositivos y una respuesta más rápida ante emergencias.
+
+Sabremos que tenemos éxito cuando veamos un aumento en la satisfacción del cliente, una mayor utilización diaria de la plataforma, una reducción en el tiempo de respuesta de emergencias y una mejora en la coordinación con empresas de seguridad y mantenimiento.
 #### 1.2.2.2 Lean UX Assumptions
+1. User Assumptions
+- Los usuarios residenciales prefieren una única plataforma centralizada para gestionar todos sus dispositivos de seguridad en lugar de utilizar múltiples aplicaciones.
+- Los usuarios valoran la capacidad de recibir notificaciones en tiempo real sobre el estado de sus dispositivos y eventos de seguridad.
+- Los usuarios se sienten más seguros al saber que existe una alianza con una empresa de seguridad para responder rápidamente a emergencias.
+- Los usuarios tienen conocimientos básicos de tecnología IoT y son capaces de interactuar con interfaces sencillas.
+
+2. Business Assumptions
+- Las empresas de seguridad están interesadas en formar alianzas para integrar sus servicios con plataformas de seguridad IoT, ya que esto mejora su capacidad de respuesta.
+- Las empresas de instalación y mantenimiento ven un valor en poder gestionar el estado de los dispositivos y coordinar las tareas de mantenimiento a través de una única plataforma.
+- La implementación de una solución de seguridad IoT que optimice la gestión de dispositivos y emergencias atraerá tanto a nuevos clientes residenciales como a empresas de seguridad y mantenimiento.
+
+3. User Outcomes Assumptions
+- Los usuarios residenciales utilizarán la plataforma de forma recurrente para monitorear su hogar y gestionar sus dispositivos de seguridad.
+- Los usuarios se sentirán más satisfechos y seguros al poder recibir asistencia inmediata en caso de emergencia, reduciendo la ansiedad relacionada con la seguridad del hogar.
+- Los usuarios adoptarán la plataforma y recomendarán el servicio a otros propietarios de viviendas una vez que experimenten su efectividad.
+
+4. Business Outcomes Assumptions
+- Las empresas de seguridad mejorarán sus tiempos de respuesta en emergencias gracias a la integración en tiempo real con la plataforma.
+- La plataforma permitirá a las empresas de instalación y mantenimiento reducir los costos operativos al automatizar el monitoreo y la notificación de fallos o necesidades de mantenimiento.
+- El éxito de la plataforma en el segmento residencial facilitará la expansión hacia otros mercados, como empresas comerciales y oficinas.
+
+5. Features Assumptions
+- Una interfaz intuitiva y centralizada para el control de todos los dispositivos IoT será clave para que los usuarios residenciales adopten la plataforma.
+- La integración en tiempo real con empresas de seguridad, permitiendo la comunicación inmediata y el envío de datos críticos durante una emergencia, será una característica fundamental para diferenciarse de la competencia.
+- La plataforma necesitará incluir funcionalidades de mantenimiento automatizado, como notificaciones de fallos en los dispositivos, para atraer a las empresas de instalación y mantenimiento.
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
+Creemos que lograremos una mejora significativa en la satisfacción y retención de los usuarios para nuestra plataforma IoT de seguridad. Si los usuarios residenciales tienen acceso a una plataforma centralizada que integra monitoreo en tiempo real, coordinación de respuesta a emergencias y gestión del mantenimiento, alcanzarán una experiencia de usuario fluida y una mayor sensación de seguridad, con notificaciones oportunas, gestión simplificada de dispositivos y respuestas eficaces a emergencias. Con una interfaz unificada que conecta todos los dispositivos de seguridad, alertas en tiempo real y la integración con empresas de seguridad para una respuesta rápida ante emergencias.
+
+Creemos que lograremos un mayor nivel de eficiencia operativa para las empresas de seguridad. Si estas empresas pueden acceder a datos y alertas en tiempo real desde la plataforma IoT integrada, alcanzarán tiempos de respuesta más rápidos ante emergencias y una mejor coordinación con los usuarios residenciales. Con la integración de datos en tiempo real y alertas que facilitan la toma de decisiones informadas durante los incidentes.
+
+Creemos que lograremos una reducción de los costos operativos para las empresas de instalación y mantenimiento. Si estas empresas pueden utilizar una sola plataforma para gestionar el estado de los dispositivos y las tareas de mantenimiento, alcanzarán una programación de mantenimiento más eficiente y menos fallos inesperados. Con notificaciones automatizadas sobre problemas en los dispositivos y un panel centralizado para el seguimiento de las actividades de mantenimiento.
+
+Creemos que lograremos una mayor adopción de nuestra plataforma IoT de seguridad entre los usuarios residenciales. Si ofrecemos una solución que simplifica la gestión de dispositivos y mejora las capacidades de respuesta ante emergencias, alcanzarán una mayor tasa de compromiso con el uso de la plataforma y recomendaciones positivas a otros usuarios. Con una interfaz fácil de usar que integra todas las funciones de seguridad y proporciona una coordinación efectiva en emergencias.
+
+Creemos que lograremos una integración más eficiente entre las empresas de seguridad y la plataforma IoT. Si las empresas de seguridad pueden recibir información detallada y en tiempo real sobre las alertas y el estado de los dispositivos, alcanzarán una coordinación más fluida y respuestas más especializadas durante las emergencias. Con una plataforma que facilita el acceso a datos críticos y la comunicación inmediata con los usuarios residenciales.
+
+Creemos que lograremos una mejora en la gestión del mantenimiento para los dispositivos de seguridad. Si los usuarios y las empresas de mantenimiento tienen acceso a herramientas que permiten un seguimiento proactivo del estado de los dispositivos, alcanzarán una reducción en los tiempos de inactividad y un aumento en la durabilidad de los dispositivos. Con funcionalidades de monitoreo continuo y alertas automáticas sobre necesidades de mantenimiento o fallos.
+
+Creemos que lograremos una mayor confianza en la plataforma por parte de los usuarios. Si implementamos medidas de seguridad robustas y proporcionamos soporte técnico eficiente, alcanzarán una mayor confianza en la protección de sus datos y en la efectividad del sistema de seguridad. Con protocolos de seguridad avanzados y un soporte técnico accesible y confiable.
 
 #### 1.2.2.4 Lean UX Canvas
+En el desarrollo de soluciones innovadoras para el mercado de seguridad IoT para el hogar, es crucial entender y validar los problemas y necesidades tanto desde la perspectiva del negocio como de los usuarios finales. El Lean UX Canvas es una herramienta esencial que nos permite estructurar y visualizar los elementos clave de nuestro proyecto, facilitando la identificación de problemas, la definición de resultados esperados y la planificación de experimentos para validar nuestras suposiciones.
+
+Este canvas se centra en resolver el problema principal relacionado con la falta de integración eficaz en los sistemas de seguridad actuales. A través de un enfoque iterativo y basado en evidencia, nuestro objetivo es desarrollar una solución que mejore la experiencia de gestión de seguridad para los usuarios residenciales, optimice la respuesta a emergencias para las empresas de seguridad, y facilite el mantenimiento para los proveedores de instalación y mantenimiento.
+
+El Lean UX Canvas que a continuación se presenta detalla los problemas de negocio, los resultados esperados, los tipos de usuarios a enfocar, los beneficios para los usuarios, las soluciones propuestas, las hipótesis a validar, los riesgos críticos y los experimentos necesarios para aprender rápidamente y ajustar nuestra estrategia en función de los hallazgos. Esta estructura nos guiará en la creación de una solución eficaz y centrada en el usuario, maximizando nuestras oportunidades de éxito en el mercado.
+
+![LeanUxCanvas](src/images/lean-ux-canvas.jpg)
+
+## 1.3 Segmentos Objetivo
