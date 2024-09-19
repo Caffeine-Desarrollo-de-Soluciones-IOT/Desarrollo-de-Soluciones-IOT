@@ -69,7 +69,94 @@ También pude notar que Diana utiliza un celular con android y una laptop con Wi
 ### 2.2.3. Análisis de entrevistas
 ## 2.3 Needfinding
 ### 2.3.1. User Personas
+Las personas que se presentan a continuación son una representación de los segmentos de usuarios definidos, se han tomado en cuenta las características más relevantes de las entrevistas realizadas y el análisis de la competencia las cuales incluyen: edad, distrito, dispositivos tecnológicos que utilizan, canales de comunicación, relación con la tecnología, necesidades y preferencias.
+
+- **Segmento 1: Dueños de inmuebles**
+![user persona seg 1](/src/images/user-persona-seg1.png)
+
+- **Segmento 2: Empresas de seguridad**
+![user persona seg 2](/src/images/user-persona-empresa.png)
+
 ### 2.3.2. User Task Matrix
+
+Los User Personas que se han definido son Seele Vollerei el cual representa al primer segmento, dueño de inmueble y José Ramirez para el segundo segmento, empresa de seguridad. A continuación, se presenta la matriz de tareas de los User Personas.
+
+<table border="1">
+  <thead>
+    <tr>
+      <th rowspan="2">Task</th>
+      <th colspan="2">Seele Vollerei <br> (Dueño de inmueble)</th>
+      <th colspan="2">José Ramirez <br> (Empresa de seguridad)</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Monitorización de cámaras en tiempo real</td>
+      <td>Casi siempre</td>
+      <td>Alta</td>
+      <td>Siempre</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisión de grabaciones de las cámaras</td>
+      <td>A veces</td>
+      <td>Media alta</td>
+      <td>Siempre</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recepción de alertas en tiempo real</td>
+      <td>Siempre</td>
+      <td>Alta</td>
+      <td>Siempre</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Respuesta ante incidentes</td>
+      <td>Rara vez</td>
+      <td>Alta</td>
+      <td>Siempre</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Análisis de patrones de seguridad</td>
+      <td>Pocas veces</td>
+      <td>Alta</td>
+      <td>Siempre</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Realización de informes de actividad</td>
+      <td>Casi nunca</td>
+      <td>Baja</td>
+      <td>Siempre</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Instalación de nuevas cámaras y/o dispositivos IoT</td>
+      <td>A veces</td>
+      <td>Alta</td>
+      <td>Rara vez (no es su rubro)</td>
+      <td>Baja</td>
+    </tr>
+    <tr>
+      <td>Configuración y mantenimiento de los dispositivos IoT y cámaras</td>
+      <td>Casi siempre</td>
+      <td>Alta</td>
+      <td>Casi nunca</td>
+      <td>Baja</td>
+    </tr>
+  </tbody>
+</table>
+
+Las tareas que se realizan con mayor frecuencia e importancia por parte de los User Personas son la monitorización de cámaras en tiempo real, la recepción de alertas en tiempo real y la revisión de las grabaciones. En cuanto a las diferencias, se puede observar que Seele Vollerei realiza la instalación de nuevas cámaras y/o dispositivos IoT, mientras que José Ramirez no lo hace, ya que no es su rubro. Por otro lado, las demás tareas coinciden en su importancia y frecuencia, aunque José Ramirez realiza la mayoría de tareas con mayor frecuencia que Seele Vollerei debido a que es su trabajo.
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-Is Scenario Mapping
