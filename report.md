@@ -158,6 +158,34 @@ Los User Personas que se han definido son Seele Vollerei el cual representa al p
 Las tareas que se realizan con mayor frecuencia e importancia por parte de los User Personas son la monitorización de cámaras en tiempo real, la recepción de alertas en tiempo real y la revisión de las grabaciones. En cuanto a las diferencias, se puede observar que Seele Vollerei realiza la instalación de nuevas cámaras y/o dispositivos IoT, mientras que José Ramirez no lo hace, ya que no es su rubro. Por otro lado, las demás tareas coinciden en su importancia y frecuencia, aunque José Ramirez realiza la mayoría de tareas con mayor frecuencia que Seele Vollerei debido a que es su trabajo.
 
 ### 2.3.3. User Journey Mapping
+
+En esta sección se realiza la demostración de la experiencia del usuario con el producto o servicio (como está actualmente). En este caso, se ha realizado el mapeo del viaje del usuario desde el momento en que se plantea la necesidad de adquirir un sistema de seguridad hasta que se instala y se configura el sistema en su hogar (Dueño de inmueble) y desde que se recibe la solicitud o alerta de un cliente hasta que se resuelve el incidente (Empresa de seguridad).
+
+- **User Journey Mapping (Seele Vollerei - Dueño de inmueble)**
+![user journey seg 1](/src/images/user-journey-mapping-seg1.png)
+
+- **User Journey Mapping (José Ramirez - Empresa de seguridad)**
+<!-- TODO -->
+
+
 ### 2.3.4. Empathy Mapping
+
+El proceso de elaboración del Empathy Mapping se ha realizado tomando en cuenta las entrevistas realizadas a los usuarios de cada segmento y en base a la información recopilada en las mismas. A continuación, se presentan los Empathy Mapping de los User Personas definidos.
+
+- **Empathy Mapping (Seele Vollerei - Dueño de inmueble)**
+![empathy mapping seg 1](/src/images/empathy-mapping-seg1.png)
+
+- **Empathy Mapping (José Ramirez - Empresa de seguridad)**
+<!-- TODO -->
+
 ### 2.3.5. As-Is Scenario Mapping
+
+Para la elaboración del As-Is Scenario Mapping se ha seguido el proceso de mapeo de escenarios actuales de los User Personas definidos y una lluvia de ideas tomando en cuenta su situación actual, necesidades, preferencias y el mercado actual. A continuación, se presentan los As-Is Scenario Mapping de los User Personas definidos.
+
+- **As-Is Scenario Mapping (Seele Vollerei - Dueño de inmueble)**
+![as-is scenario seg 1](/src/images/as-is-scenario-mapping-seg1.png)
+
+- **As-Is Scenario Mapping (José Ramirez - Empresa de seguridad)**
+<!-- TODO -->
+
 ## 2.4. Ubiquitous Language
