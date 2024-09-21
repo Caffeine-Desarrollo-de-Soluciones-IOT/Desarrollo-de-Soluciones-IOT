@@ -214,23 +214,28 @@ El Subscription and Payment Context abarca todos los procesos y funciones relaci
   - Las facturas deben generarse automáticamente después de cada pago exitoso.
   - La información del cliente, como su correo electrónico, debe estar siempre actualizada en Stripe.
 
-#### 4.2.X.2. Interface Layer
-En esta sección el equipo introduce, presenta y explica las clases que forman parte 
-de Interface/Presentation Layer, como clases del tipo Controllers o Consumers.
+#### 4.2.1.2. Interface Layer
+En esta capa se presentan las clases que permiten la comunicación entre la capa de dominio y la capa de aplicación, manejando las solicitudes de los usuarios y devolviendo las respuestas adecuadas. Para el contexto de Subscription & Payments, se han identificado los siguientes controladores:
 
-#### 4.2.X.3. Application Layer
+- CustomerController: expone las operaciones relacionadas con los clientes de la aplicación. Permite la creación, actualización y consulta de los clientes, así como la gestión de su relación con Stripe. Al crear un cliente, se genera un identificador (stripeCustomerId) que es guardado en la entidad local y se sincroniza con el sistema de Stripe.
+  ![alt text](src/images/customer-controller.png)
+
+- SubscriptionController: gestiona las operaciones relacionadas con las suscripciones de los clientes. Este controlador permite crear nuevas suscripciones, actualizar el estado de las mismas y cancelarlas, todo esto interactuando con los servicios de Stripe.
+  ![alt text](src/images/subscription-controller.png)
+
+#### 4.2.1.3. Application Layer
 En esta sección el equipo explica a través de qué clases se maneja los flujos de 
 procesos del negocio. En esta sección debe evidenciarse que se considera los 
 capabilities de la aplicación en relación al bounded context. Aquí debe considerarse 
 clases del tipo Command Handlers e Event Handlers. 
 
-#### 4.2.X.4. Infrastructure Layer
+#### 4.2.1.4. Infrastructure Layer
 En esta capa el equipo presenta aquellas clases que acceden a servicios externos 
 como databases, messaging systems o email services. Es en esta capa que se ubica la 
 implementación de Repositories para las interfaces definidas en Domain Layer. Algo 
 similar ocurre con interfaces definidas para MessageBrokers.
 
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 En esta sección, el equipo explica y presenta los Component Diagrams de C4 Model 
 para cada uno de los Containers considerados para el bounded context. En estos 
 diagramas el equipo busca reflejar la descomposición de cada Container para 
