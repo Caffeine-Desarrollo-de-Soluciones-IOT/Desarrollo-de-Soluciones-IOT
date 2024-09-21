@@ -98,12 +98,147 @@ Ciclo: 2024-2
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 ## 4.2. Tactical-Level Domain-Driven Design
-### 4.2.X. Bounded Context: <Bounded Context Name>
-#### 4.2.X.1. Domain Layer
+### 4.2.1. Bounded Context: Subscription & Payments context
+El Subscription and Payment Context abarca todos los procesos y funciones relacionados con la gestión de suscripciones y pagos dentro de nuestro sistema. Este contexto es responsable de manejar la creación, modificación y cancelación de suscripciones, así como de procesar pagos y gestionar el estado de los mismos. Incluye la administración de detalles relacionados con los clientes, el seguimiento de las facturas y el estado de cada pago, y la sincronización con sistemas externos como Stripe. Asegura que las suscripciones y pagos se gestionen de manera eficiente y precisa, proporcionando una experiencia de servicio continua y sin interrupciones para los usuarios. A continuación, se detallan las clases identificadas en este contexto:
+
+1. Clase Customer
+    - Propósito: La clase Customer representa a un cliente en el sistema. Contiene la información esencial del cliente, como su nombre y correo electrónico, y un identificador que enlaza con el sistema de Stripe para gestionar pagos y suscripciones
+    - Atributos:
+      - `id: string` - Identificador único del cliente
+      - `name: String` - Nombre del cliente
+      - `email: String` - Correo electrónico del cliente
+      - `stripeCustomerId: String` - Identificador del cliente en el sistema de Stripe
+    - Métodos:
+      - `getCustomerDetails(): CustomerDetails` - Retorna los detalles básicos del cliente (nombre y correo electrónico)
+      - `registerStripeCustomer(): void` - Registra al cliente en Stripe
+   	- Relaciones:
+     	- `1...n` con Subscription, ya que un cliente puede tener varias suscripciones activas.
+
+    ![alt text](src/images/customer-class.png)
+
+2. Clase Subscription
+    - Propósito: La clase Subscription gestiona las suscripciones de un cliente a un servicio específico. Mantiene los detalles esenciales, como el estado de la suscripción y las fechas de inicio y finalización. Los detalles más complejos de la suscripción son manejados por Stripe.
+    - Atributos:
+      - `id: string` - Identificador único de la suscripción
+      - `status: string` - Estado actual de la suscripción (ejm: ACTIVA, CANCELADA, etc.)
+      - `planId: string` - Identificador del plan de suscripción
+      - `status: string` - Estado actual de la suscripción (activo, inactivo, cancelado)
+      - `startDate: Date` - Fecha de inicio de la suscripción
+      - `endDate: Date` - Fecha de finalización de la suscripción
+      - `stripeSubscriptionId: string` - Identificador de la suscripción en Stripe
+    - Métodos:
+      - `getSubscriptionDetails(): SubscriptionDetails` - Retorna los detalles de la suscripción
+      - `cancelSubscription(): void` - Cancela la suscripción
+    - Relaciones:
+      - `n...1` con Customer, ya que una suscripción pertenece a un cliente.
+      - `1...n` con Payment, una suscripción puede tener múltiples pagos.
+
+    ![alt text](src/images/subscription-class.png)
+
+3. Clase Payment
+    - Propósito: Esta clase almacena la información de los pagos realizados por un cliente en relación con una suscripción. Aunque Stripe gestiona el procesamiento de pagos, esta clase registra información relevante localmente, como el estado y monto del pago.
+    - Atributos:
+      - `id: string` - Identificador único del pago
+      - `amount: double` - Monto del pago
+      - `currency: string` - Moneda en la que se realizó el pago (ejm: USD, EUR)
+      - `paymentDate: Date` - Fecha en la que se procesó el pago
+      - `status: string` - Estado actual del pago (ejm: SUCCEEDED, FAILED)
+      - `stripePaymentId: string` - Identificador del pago en el sistema de Stripe
+    - Métodos:
+      - `getPaymentDetails(): PaymentDetails` - Retorna los detalles del pago
+    - Relaciones:
+      - `n...1` con Subscription, un pago pertenece a una suscripción.
+      - `1...n` con Invoice, un pago puede tener varias facturas asociadas.
+
+    ![alt text](src/images/payment-class.png)
+
+4. Clase Invoice
+    - Propósito: Esta clase representa una factura generada por un pago. Aunque Stripe emite las facturas, esta clase localiza la información esencial de las mismas, como el monto total y la fecha de emisión.
+    - Atributos:
+      - `id: string` - Identificador único de la factura
+      - `invoiceDate: Date` - Fecha de emisión de la factura
+      - `totalAmount: double` - Monto total de la factura
+      - `stripeInvoiceId: string` - Identificador de la factura en Stripe
+    - Métodos:
+      - `getInvoiceDetails(): InvoiceDetails` - Retorna los detalles de la factura
+    - Relaciones:
+      - `n...1` con Payment, una factura pertenece a un pago.
+
+    ![alt text](src/images/invoice-class.png)
+
+#### 4.2.1.1. Domain Layer
+
+- Clases Core de la aplicación:
+  - Entities:
+    1. Customer: Representa a un usuario de la aplicación móvil que se suscribe a servicios IoT de seguridad. Esta entidad contiene la información básica del cliente y está relacionada con las suscripciones que tiene activas.
+    ![alt text](src/images/customer-class-entity.png)
+
+    2. Subscription: Representa una suscripción de un cliente a un plan específico. Esta clase encapsula el estado y los detalles relevantes de la suscripción, como su duración y la integración con Stripe.
+    ![alt text](src/images/subscription-class-entity.png)
+
+    3. Payment: Esta entidad representa un pago asociado a una suscripción, aunque Stripe procesa los pagos, esta entidad almacena localmente la información esencial del pago.
+    ![alt text](src/images/payment-class-entity.png)
+
+    4. Invoice: La entidad Invoice representa una factura generada por un pago hecho por Stripe, esta entidad almacena localmente los detalles esenciales de la factura.
+    ![alt text](src/images/invoice-class-entity.png)
+
+  - Value Objects:
+    1. SubscriptionPlan: Encapsula los detalles de un pago, como el monto, la moneda y la fecha de procesamiento. Este objeto se utiliza para transmitir información de pago entre las capas de la aplicación.
+    ![alt text](src/images/subscriptionplan-class-vo.png)
+
+    2. Money: Encapsula el concepto de dinero, incluyendo el monto y la moneda. Se utiliza en los pagos, planes de suscripción y otros.    
+    ![alt text](src/images/money-class-vo.png)
+
+    3. Currency: Este enumerado define los códigos de moneda estándar que se utilizan en la aplicación. Se utiliza para garantizar la consistencia en la representación de monedas en toda la aplicación.
+    ![alt text](src/images/currency-enum.png)
+    
+    4. SubscriptionStatus: Este enumerado define los posibles estados de una suscripción, como activa, cancelada o pendiente, se utiliza para controlar el ciclo de vida de las suscripciones.
+    ![alt text](src/images/subscriptionstatus-enum.png)
+
+    5. PaymentStatus: Este enumerado define los estados posibles de un pago, como exitoso, fallido o pendiente. Se utiliza para rastrear el estado de los pagos.
+    ![alt text](src/images/paymentstatus-enum.png)
+  
+  - Aggregates:
+    1. CustomerAggregate: Eencapsula la lógica de negocio relacionada con los clientes y sus suscripciones. Esto permite gestionar de manera coherente y transaccional las operaciones relacionadas con los clientes.
+    ![alt text](src/images/customeraggregate.png)
+  
+  - Domain Services:
+    1. SubscriptionService: Este servicio contiene la lógica de negocio relacionada con la gestión de suscripciones, como la creación, cancelación y renovación de suscripciones. Este servicio se encarga de coordinar las operaciones de suscripción.
+    ![alt text](src/images/subscriptionservice.png)
+
+- Reglas de negocio:
+  - Las suscripciones deben renovarse automáticamente a menos que se cancelen antes de la fecha de renovación.
+  - No se puede cancelar una suscripción con pagos pendientes.
+  - Los pagos deben procesarse de manera segura y reflejarse en el estado de la suscripción correspondiente.
+  - Los pagos fallidos deben ser gestionados adecuadamente para evitar interrupciones en el servicio.
+  - Las facturas deben generarse automáticamente después de cada pago exitoso.
+  - La información del cliente, como su correo electrónico, debe estar siempre actualizada en Stripe.
+
 #### 4.2.X.2. Interface Layer
+En esta sección el equipo introduce, presenta y explica las clases que forman parte 
+de Interface/Presentation Layer, como clases del tipo Controllers o Consumers.
+
 #### 4.2.X.3. Application Layer
+En esta sección el equipo explica a través de qué clases se maneja los flujos de 
+procesos del negocio. En esta sección debe evidenciarse que se considera los 
+capabilities de la aplicación en relación al bounded context. Aquí debe considerarse 
+clases del tipo Command Handlers e Event Handlers. 
+
 #### 4.2.X.4. Infrastructure Layer
+En esta capa el equipo presenta aquellas clases que acceden a servicios externos 
+como databases, messaging systems o email services. Es en esta capa que se ubica la 
+implementación de Repositories para las interfaces definidas en Domain Layer. Algo 
+similar ocurre con interfaces definidas para MessageBrokers.
+
 #### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+En esta sección, el equipo explica y presenta los Component Diagrams de C4 Model 
+para cada uno de los Containers considerados para el bounded context. En estos 
+diagramas el equipo busca reflejar la descomposición de cada Container para 
+identificar los bloques estructurales principales y sus interacciones. Un Component 
+Diagram debe mostrar cómo un container está conformado por components, qué 
+son cada uno de dichos components, sus responsabilidades y los detalles de 
+implementación/tecnología
+
 #### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 4.2.X.6.2. Bounded Context Database Design Diagram
