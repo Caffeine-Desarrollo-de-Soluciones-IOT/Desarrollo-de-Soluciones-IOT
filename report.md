@@ -93,10 +93,42 @@ Ciclo: 2024-2
     ![alt text](src/images/412-4.jpg)
 
 ### 4.1.3. Software Architecture
+
+En esta parte, mostraremos la representación de la Arquitectura de Software de la solución en base a los modelos C4 para poder obtener una mejor visión de nuestro sistema
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+
+Este diagrama nos ofrece una visión mas general de como es la interacción de los usuarios con los sistemas externos, nos permite comprender la conexión de los componentes para contribuir al funcionamiento general de las aplicaciones.
+
+![landscape](src/images/landscape%20diagram.jpg)
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams
+
+En este tipo de diagramas, se muestra como nuestro sistema interactúa con elementos externos.
+
+![contexto](src/images/contexto.jpg)
+
+En nuestro diagrama mostramos a los usuarios que son los consumidores de inmuebles o negocios que buscan mantener mejorar la seguridad de su inmueble, este esta conectado con la aplicación para que el usuario pueda interactuar y finalmente se conecta con un servicio externo que utilizamos para el envío de notificaciones.
+
 #### 4.1.3.2. Software Architecture Container Level Diagrams
+
+Son representaciones visuales de la arquitectura de software a nivel de contenedores, que muestran cómo se agrupan y se comunican los distintos componentes y servicios dentro de un sistema o aplicación. Estos diagramas proporcionan una vista detallada de la organización de los contenedores de software, lo que ayuda a entender la estructura y las interacciones en la arquitectura general.
+
+![container](src/images/container.png)
+
+Para el diagrama de contenedores desglosamos a nuestros usuarios que son el propietario de inmuebles y el usuario de seguridad, cada uno interactua con nuestras aplicaciones en este caso el propietario interactua con nuestro Single Page Application, Web Application y Mobile Application dado que podra manejar un sistema más integral. Asimismo el usuario de seguridad tendra su tipo de acceso en el Web Application y Mobile Application para el monitoreo de las alarmas de seguridad.
+Pasando con las aplicaciones propuestas, tenemos que el Single Page Application que es una primera vista de nuestra propuesta de solucion se conect con el Web Application.
+Para el Web Application tenemos que se conecta con la API de la applicacion y esta misma API va a una base de datos de la aplicacion. 
+Para lo que es el Mobile Application tiene conexion a su misma base de datos y conexion con el API principal de nuestra aplicacion. 
+Asi tambien tenemos nuestros dispositivo IoT, el cual se conecta con el edge API y este a su vez a su base de datos con el API general de todo la aplicacion.
+Finalmente, el API principal lo conectamos con nuestro servicio externo de mensajeria AWS SNS.
+
 #### 4.1.3.3. Software Architecture Deployment Diagrams
+
+Son representaciones gráficas que ilustran cómo se despliegan y ejecutan los componentes de software en la infraestructura de hardware o en un entorno de producción.
+
+![deployment](src/images/deployment.jpg)
+
 ## 4.2. Tactical-Level Domain-Driven Design
 ### 4.2.X. Bounded Context: <Bounded Context Name>
 #### 4.2.X.1. Domain Layer
