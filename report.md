@@ -71,6 +71,27 @@ Ciclo: 2024-2
 #### 4.1.1.2 Domain Message Flows Modeling
 #### 4.1.1.3 Bounded Context Canvases
 ### 4.1.2. Context Mapping
+
+1. **Events Management Context - Notification Management Context (Customer/Supplier):**
+  La relación entre estos dos bounded contexts sigue el patrón Customer/Supplier. El Events Management Context es el proveedor que genera eventos críticos como alertas de seguridad o cambios en el estado de los dispositivos IoT. El Notification Management Context, como cliente, consume estos eventos y se encarga de enviar notificaciones al usuario a través de distintos canales (correo, SMS, etc.).
+
+    ![alt text](src/images/412-1.jpg)
+
+2. **IoT Asset Management Context - Software Update Context (Conformist):**
+  El IoT Asset Management Context, encargado de gestionar los dispositivos IoT, depende del Software Update Context para implementar actualizaciones y parches. En este caso, el primero actúa como un Conformist, ya que debe adherirse a las reglas y servicios proporcionados por el Software Update Context sin imponer sus propias reglas, asegurando que las actualizaciones se apliquen de manera consistente.
+
+    ![alt text](src/images/412-2.jpg)
+
+3.	**Security Shield Management System Context - Identity and Access Management Context (Shared Kernel):**
+  Ambos bounded contexts comparten un núcleo común (Shared Kernel), ya que el Security Shield Management System necesita autenticar y autorizar a los usuarios y dispositivos, lo cual está estrechamente ligado con las políticas y mecanismos del Identity and Access Management Context. Debido a la naturaleza crítica de la seguridad, estas dos áreas deben compartir información sensible y estar completamente sincronizadas en términos de datos y lógicas de negocio relacionadas con la identidad.
+
+    ![alt text](src/images/412-3.jpg)
+
+4.	**Subscription and Payment Context - Notification Management Context (Anti-Corruption Layer):**
+  La relación entre estos dos bounded contexts se beneficia de un Anti-Corruption Layer para traducir y aislar los modelos de dominio. El Subscription and Payment Context maneja información financiera y suscripciones, mientras que el Notification Management Context envía alertas sobre el estado de las suscripciones o pagos. Para evitar que las complejidades del modelo de pagos interfieran con la simplicidad del sistema de notificaciones, se utiliza una capa anti-corrupción que actúa como interfaz entre ambos contexts.
+
+    ![alt text](src/images/412-4.jpg)
+
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 #### 4.1.3.2. Software Architecture Context Level Diagrams
