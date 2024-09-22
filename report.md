@@ -93,10 +93,42 @@ Ciclo: 2024-2
     ![alt text](src/images/412-4.jpg)
 
 ### 4.1.3. Software Architecture
+
+En esta parte, mostraremos la representación de la Arquitectura de Software de la solución en base a los modelos C4 para poder obtener una mejor visión de nuestro sistema
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+
+Este diagrama nos ofrece una visión mas general de como es la interacción de los usuarios con los sistemas externos, nos permite comprender la conexión de los componentes para contribuir al funcionamiento general de las aplicaciones.
+
+![landscape](src/images/landscape%20diagram.jpg)
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams
+
+En este tipo de diagramas, se muestra como nuestro sistema interactúa con elementos externos.
+
+![contexto](src/images/contexto.jpg)
+
+En nuestro diagrama mostramos a los usuarios que son los consumidores de inmuebles o negocios que buscan mantener mejorar la seguridad de su inmueble, este esta conectado con la aplicación para que el usuario pueda interactuar y finalmente se conecta con un servicio externo que utilizamos para el envío de notificaciones.
+
 #### 4.1.3.2. Software Architecture Container Level Diagrams
+
+Son representaciones visuales de la arquitectura de software a nivel de contenedores, que muestran cómo se agrupan y se comunican los distintos componentes y servicios dentro de un sistema o aplicación. Estos diagramas proporcionan una vista detallada de la organización de los contenedores de software, lo que ayuda a entender la estructura y las interacciones en la arquitectura general.
+
+![container](src/images/container.png)
+
+Para el diagrama de contenedores desglosamos a nuestros usuarios que son el propietario de inmuebles y el usuario de seguridad, cada uno interactua con nuestras aplicaciones en este caso el propietario interactua con nuestro Single Page Application, Web Application y Mobile Application dado que podra manejar un sistema más integral. Asimismo el usuario de seguridad tendra su tipo de acceso en el Web Application y Mobile Application para el monitoreo de las alarmas de seguridad.
+Pasando con las aplicaciones propuestas, tenemos que el Single Page Application que es una primera vista de nuestra propuesta de solucion se conect con el Web Application.
+Para el Web Application tenemos que se conecta con la API de la applicacion y esta misma API va a una base de datos de la aplicacion. 
+Para lo que es el Mobile Application tiene conexion a su misma base de datos y conexion con el API principal de nuestra aplicacion. 
+Asi tambien tenemos nuestros dispositivo IoT, el cual se conecta con el edge API y este a su vez a su base de datos con el API general de todo la aplicacion.
+Finalmente, el API principal lo conectamos con nuestro servicio externo de mensajeria AWS SNS.
+
 #### 4.1.3.3. Software Architecture Deployment Diagrams
+
+Son representaciones gráficas que ilustran cómo se despliegan y ejecutan los componentes de software en la infraestructura de hardware o en un entorno de producción.
+
+![deployment](src/images/deployment.jpg)
+
 ## 4.2. Tactical-Level Domain-Driven Design
 ### 4.2.1. Bounded Context: Subscription & Payments context
 El Subscription and Payment Context abarca todos los procesos y funciones relacionados con la gestión de suscripciones y pagos dentro de nuestro sistema. Este contexto es responsable de manejar la creación, modificación y cancelación de suscripciones, así como de procesar pagos y gestionar el estado de los mismos. Incluye la administración de detalles relacionados con los clientes, el seguimiento de las facturas y el estado de cada pago, y la sincronización con sistemas externos como Stripe. Asegura que las suscripciones y pagos se gestionen de manera eficiente y precisa, proporcionando una experiencia de servicio continua y sin interrupciones para los usuarios. A continuación, se detallan las clases identificadas en este contexto:
@@ -286,3 +318,89 @@ En esta sección, el equipo explica y presenta los Component Diagrams de C4 Mode
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+<!-- TODO -->
+### 4.2.3. Bounded Context: Areas
+#### 4.2.3.1. Domain Layer
+- Entities:
+  - Area: Representa un área específica en la que se colocan los dispositivos.
+    - Atributos: id, name, icon, color.
+  - Property: Representa una propiedad que puede tener múltiples áreas.
+    - Atributos: id, name, image_url, address.
+
+- Value Objects:
+  - AreaId: Identificador único de un área.
+  - PropertyId: Identificador único de una propiedad.
+
+- Aggregates:
+  - AreaAggregate: Agregado raíz que encapsula las operaciones relacionadas con las áreas, incluyendo la creación, actualización y eliminación de áreas.
+  - PropertyAggregate: Agregado raíz que encapsula las operaciones relacionadas con las propiedades, incluyendo la asociación con áreas.
+
+- Domain Services:
+  - AreaService: Define las operaciones de negocio relacionadas con las áreas, como la creación, actualización y eliminación de áreas.
+  - PropertyService: Define las operaciones de negocio relacionadas con las propiedades, como la gestión de áreas asociadas.
+
+- Repositories:
+  - AreaRepository: Interfaz que define las operaciones de persistencia relacionadas con las áreas.
+  - PropertyRepository: Interfaz que define las operaciones de persistencia relacionadas con las propiedades.
+
+#### 4.2.3.2. Interface Layer
+- API Endpoints:
+  - POST /areas: Crea una nueva área.
+  - PUT /areas/{areaId}: Actualiza una área existente.
+  - DELETE /areas/{areaId}: Elimina una área.
+  - GET /areas/{areaId}: Obtiene los detalles de una área.
+  - POST /properties: Crea una nueva propiedad.
+  - PUT /properties/{propertyId}: Actualiza una propiedad existente.
+  - DELETE /properties/{propertyId}: Elimina una propiedad.
+  - GET /properties/{propertyId}: Obtiene los detalles de una propiedad.
+
+- DTOs:
+  - AreaDTO: Representa los datos de un área para ser enviados o recibidos a través de la API.
+  - PropertyDTO: Representa los datos de una propiedad para ser enviados o recibidos a través de la API.
+
+- Controllers:
+  - AreaController: Controlador que gestiona las operaciones relacionadas con las áreas, como la creación, actualización y eliminación de áreas.
+  - PropertyController: Controlador que gestiona las operaciones relacionadas con las propiedades, como la creación, actualización y eliminación de propiedades.
+
+#### 4.2.3.3. Application Layer
+- Application Services:
+  - AreaApplicationService: Servicio de aplicación que coordina las operaciones relacionadas con las áreas, como la creación, actualización y eliminación de áreas.
+  - PropertyApplicationService: Servicio de aplicación que gestiona las operaciones relacionadas con las propiedades, como la creación, actualización y eliminación de propiedades.
+
+- Commands/Queries:
+  - CreateAreaCommand: Comando para crear una nueva área.
+  - UpdateAreaCommand: Comando para actualizar una área existente.
+  - DeleteAreaCommand: Comando para eliminar una área.
+  - GetAreaQuery: Consulta para obtener los detalles de una área.
+  - CreatePropertyCommand: Comando para crear una nueva propiedad.
+  - UpdatePropertyCommand: Comando para actualizar una propiedad existente.
+  - DeletePropertyCommand: Comando para eliminar una propiedad.
+  - GetPropertyQuery: Consulta para obtener los detalles de una propiedad.
+
+- Events:
+  - AreaCreatedEvent: Evento que se dispara cuando se crea una nueva área.
+  - AreaUpdatedEvent: Evento que se dispara cuando se actualiza una área.
+  - AreaDeletedEvent: Evento que se dispara cuando se elimina una área.
+  - PropertyCreatedEvent: Evento que se dispara cuando se crea una nueva propiedad.
+  - PropertyUpdatedEvent: Evento que se dispara cuando se actualiza una propiedad.
+  - PropertyDeletedEvent: Evento que se dispara cuando se elimina una propiedad.
+
+#### 4.2.3.4. Infrastructure Layer
+- Repositories Implementations:
+  - AreaRepositoryImpl: Implementación concreta del repositorio de áreas que se encarga de la persistencia de las áreas en la base de datos.
+  - PropertyRepositoryImpl: Implementación concreta del repositorio de propiedades que se encarga de la persistencia de las propiedades en la base de datos.
+
+- External Services:
+  - En este contexto, no se han identificado servicios externos específicos para las áreas y propiedades, pero podrían incluir servicios de almacenamiento de imágenes o integraciones con sistemas de mapeo si se requieren en el futuro.
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+El diagrama UML del bounded context "Areas" ilustra las clases Area y Property con sus respectivos atributos y métodos. En este contexto, Area representa las distintas áreas dentro de una propiedad, mientras que Property representa el conjunto completo de estas áreas. Cada clase tiene atributos básicos como identificadores, nombres, y otras características relevantes. Las clases también contienen métodos para crear, actualizar y eliminar instancias. La relación entre Property y Area está representada mediante una composición, donde una propiedad contiene múltiples áreas, lo que refuerza la relación de uno a muchos entre ambas clases.
+![Bounded Context UML Areas](src/images/bc-uml-areas.png)
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
+Este diagrama de base de datos representa las tablas y las relaciones dentro del bounded context "Areas". Se define la tabla area, que almacena información sobre las áreas específicas donde se colocan dispositivos de seguridad, y la tabla property, que representa una propiedad, la cual puede contener múltiples áreas. La relación entre estas dos entidades es de uno a muchos, donde una propiedad puede tener varias áreas asociadas. Los atributos principales incluyen identificadores únicos para cada entidad, nombres descriptivos, y detalles adicionales como iconos y colores para las áreas, y direcciones para las propiedades.
+![Bounded Context Database Areas](src/images/bc-db-areas.jpg)
