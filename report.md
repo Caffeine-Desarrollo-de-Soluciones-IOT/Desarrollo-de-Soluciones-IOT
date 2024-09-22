@@ -250,20 +250,38 @@ Esta capa, para el Subscription and Payment Context, se definen los flujos de ne
   3. PaymentFailedEventHandler: Este handler reacciona a eventos de pagos fallidos, ya sea generados por el dominio o recibidos de Stripe. Se encarga de notificar al cliente, reintentar el pago y, si es necesario, cancelar la suscripción.
   ![alt text](src/images/paymentfailed-eh.png)
 
+- Capabilities Cubiertos: 
+  
+  Las clases de la Application Layer están diseñadas para cubrir los siguientes capabilities del sistema:
+
+	1.	Gestión de Suscripciones: A través de los Command Handlers como CreateSubscriptionCommandHandler y CancelSubscriptionCommandHandler, el sistema permite a los clientes gestionar sus suscripciones, incluyendo su creación, cancelación y renovación.
+	2.	Procesamiento de Pagos: Mediante ProcessPaymentCommandHandler y event handlers como PaymentFailedEventHandler, el sistema registra los pagos, incluyendo la integración con Stripe y manejo de pagos fallidos.
+	3.	Manejo de Eventos Externos (Stripe Webhooks): StripeWebhookEventHandler garantiza que el sistema reaccione correctamente a los eventos provenientes de Stripe, sincronizando los estados de suscripciones y pagos entre la plataforma y el sistema.
+	4.	Manejo de Expiración de Suscripciones: SubscriptionExpiredEventHandler asegura que, cuando una suscripción expire, se tomen las acciones adecuadas, como notificar al cliente y desactivar servicios asociados.
+
 #### 4.2.1.4. Infrastructure Layer
-En esta capa el equipo presenta aquellas clases que acceden a servicios externos 
-como databases, messaging systems o email services. Es en esta capa que se ubica la 
-implementación de Repositories para las interfaces definidas en Domain Layer. Algo 
-similar ocurre con interfaces definidas para MessageBrokers.
+Esta capa es responsable de proporcionar la implementación de las operaciones que interactúan con recursos externos, como bases de datos, servicios de terceros (por ejemplo, Stripe), sistemas de mensajería y otros. En esta capa, también se implementan los Repositories definidos en la Domain Layer, que permiten la persistencia de las entidades del sistema. A continuación, se presentan las clases clave de esta capa, con una breve descripción de su función en el contexto del sistema:
+
+1. StripePaymentGateway: Es la clase encargada de la integración con el sistema de pagos de Stripe. Implementa las operaciones necesarias para gestionar pagos, suscripciones y facturación a través de la API de Stripe.
+![alt text](src/images/stripepaymentgateway.png)
+
+2. NotificationService: Se encarga de enviar notificaciones a los usuarios, ya sea por correo electrónico, SMS o cualquier otro medio configurado. Es utilizada para notificar eventos importantes, como pagos fallidos, renovaciones de suscripción o vencimientos.
+![alt text](src/images/notificationservice.png)
+
+3. StripeWebhookService: Se encarga de procesar las notificaciones recibidas desde Stripe a través de webhooks. Esta clase recibe los eventos de Stripe y los transforma en eventos internos del dominio que los Event Handlers procesan.
+![alt text](src/images/stripewebhookservice.png)
+
+4. PaymentRepository: Esta clase maneja las operaciones de almacenamiento y recuperación de información relacionada con los pagos realizados por los clientes.
+![alt text](src/images/payment-repo.png)
+
+5. SubscriptionRepository: Esta clase se encarga de manejar las operaciones de persistencia de las suscripciones en la base de datos.
+![alt text](src/images/subscription-repo.png)
+
+6. CustomerRepository: Se encarga de gestionar la persistencia de la información de los clientes, incluyendo la sincronización con el sistema de Stripe.
+![alt text](src/images/customer-repo.png)
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-En esta sección, el equipo explica y presenta los Component Diagrams de C4 Model 
-para cada uno de los Containers considerados para el bounded context. En estos 
-diagramas el equipo busca reflejar la descomposición de cada Container para 
-identificar los bloques estructurales principales y sus interacciones. Un Component 
-Diagram debe mostrar cómo un container está conformado por components, qué 
-son cada uno de dichos components, sus responsabilidades y los detalles de 
-implementación/tecnología
+En esta sección, el equipo explica y presenta los Component Diagrams de C4 Model para cada uno de los Containers considerados para el bounded context. En estos diagramas el equipo busca reflejar la descomposición de cada Container para identificar los bloques estructurales principales y sus interacciones. Un Component Diagram debe mostrar cómo un container está conformado por components, qué son cada uno de dichos components, sus responsabilidades y los detalles de implementación/tecnología
 
 #### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
