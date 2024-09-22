@@ -223,11 +223,32 @@ En esta capa se presentan las clases que permiten la comunicación entre la capa
 - SubscriptionController: gestiona las operaciones relacionadas con las suscripciones de los clientes. Este controlador permite crear nuevas suscripciones, actualizar el estado de las mismas y cancelarlas, todo esto interactuando con los servicios de Stripe.
   ![alt text](src/images/subscription-controller.png)
 
+- PlanController: gestiona los planes de suscripción disponibles en la aplicación. Los usuarios pueden consultar los planes disponibles, sus características y precios.
+  ![alt text](src/images/subscription-controller.png)
+
 #### 4.2.1.3. Application Layer
-En esta sección el equipo explica a través de qué clases se maneja los flujos de 
-procesos del negocio. En esta sección debe evidenciarse que se considera los 
-capabilities de la aplicación en relación al bounded context. Aquí debe considerarse 
-clases del tipo Command Handlers e Event Handlers. 
+Esta capa, para el Subscription and Payment Context, se definen los flujos de negocio a través de clases de tipo Command Handlers y Event Handlers, asegurando que los procesos de suscripción, pago y gestión de eventos externos (como los webhooks de Stripe) se manejen correctamente. Estos handlers permiten que el sistema sea reactivo, eficiente y mantenga la consistencia entre las operaciones internas y los eventos externos. A continuación, se presentan los handlers y eventos identificados para este contexto:
+
+- Command Handlers:
+  1. CreateSubscriptionCommandHandler: Maneja el proceso de creación de una nueva suscripción para un cliente. Este handler se encarga de validar los datos de entrada y crea la suscripción tanto en el sistema como en Stripe.
+  ![alt text](src/images/createsubscription-ch.png)
+
+  2. ProcessPaymentCommandHandler: Se encarga de guardar el pago procesado por Stripe en la base de datos y mantener la consistencia entre el estado del pago y la suscripción asociada.
+  ![alt text](src/images/processpayment-ch.png)
+
+  3. CancelSubscriptionCommandHandler: Gestiona la cancelación de una suscripción existente. Este handler verifica si la suscripción puede ser cancelada, actualiza su estado y notifica a Stripe para reflejar el cambio.
+  ![alt text](src/images/cancelsubscription-ch.png)
+
+
+- Event Handlers:
+  1. StripeWebhookEventHandler: Maneja los eventos provenientes de Stripe a través de webhooks. Se asegura de procesar adecuadamente los eventos de facturación, pagos fallidos, renovaciones de suscripciones, etc.
+  ![alt text](src/images/stripewebhook-eh.png)
+
+  2. SubscriptionExpiredEventHandler: Reacciona cuando una suscripción ha llegado a su fecha de finalización sin ser renovada. Gestiona la lógica relacionada con la expiración, como la notificación al cliente y la desactivación de servicios vinculados.
+  ![alt text](src/images/subscriptionexpired-eh.png)
+
+  3. PaymentFailedEventHandler: Este handler reacciona a eventos de pagos fallidos, ya sea generados por el dominio o recibidos de Stripe. Se encarga de notificar al cliente, reintentar el pago y, si es necesario, cancelar la suscripción.
+  ![alt text](src/images/paymentfailed-eh.png)
 
 #### 4.2.1.4. Infrastructure Layer
 En esta capa el equipo presenta aquellas clases que acceden a servicios externos 
