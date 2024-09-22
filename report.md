@@ -250,3 +250,45 @@ Para la elaboración del As-Is Scenario Mapping se ha seguido el proceso de mape
 <!-- TODO -->
 
 ## 2.4. Ubiquitous Language
+Para el desarrollo de esta sección, como grupo debemos estar alineados con los términos y conceptos claves que son necesarios para la realización del proyecto. Además, nos ayuda a tener un lenguaje en común para entender nuestros objetivos, funcionalidades y benerfios.
+
+Para VerySafe tenemos los siguientes términos:
+
+1. Property Owner (Propietario de Inmueble): Persona o entidad que posee un inmueble y tiene la responsabilidad de protegerlo.
+   Definición: Persona física o jurídica que es propietaria de un bien inmueble, como una casa, edificio o terreno, y busca soluciones para mejorar la seguridad de su propiedad.
+
+2. Security Company (Empresa de Seguridad): Organización encargada de proveer servicios de vigilancia y protección a inmuebles.
+   Definición: Empresa especializada en ofrecer servicios de monitoreo, control de accesos y respuesta ante incidentes para asegurar propiedades frente a amenazas como robos o intrusiones.
+
+3. Real-Time Monitoring (Monitoreo en Tiempo Real): Supervisión continua y en vivo de una propiedad utilizando dispositivos tecnológicos.
+   Definición: Proceso mediante el cual se recogen datos de manera inmediata desde sensores o cámaras para tener una visión constante de lo que ocurre en la propiedad.
+
+4. Intrusion Detection (Detección de Intrusos): Sistema que permite identificar la entrada no autorizada en una propiedad.
+   Definición: Tecnología diseñada para alertar cuando una persona o entidad no autorizada intenta ingresar a una propiedad.
+
+5. Motion Sensor (Sensor de Movimiento): Dispositivo que detecta cualquier tipo de movimiento dentro de un área específica.
+   Definición: Sensor que responde a cualquier cambio de posición o desplazamiento dentro de su rango, utilizado para alertar de posibles intrusos.
+
+6. Proximity Sensor (Sensor de Proximidad): Dispositivo que detecta la cercanía de personas u objetos sin contacto físico.
+   Definición: Sensor que percibe la aproximación de un objeto o individuo a un punto específico, utilizado para gestionar accesos o alertar sobre entradas no autorizadas.
+
+7. Access Control (Control de Acceso): Mecanismo que regula y monitorea quién puede entrar o salir de un inmueble.
+   Definición: Sistema de seguridad que restringe el acceso a personas autorizadas, permitiendo o denegando entradas basadas en credenciales predefinidas.
+
+8. Surveillance Data (Datos de Vigilancia): Información recopilada a través de cámaras o sensores en un inmueble.
+   Definición: Conjunto de datos generados por dispositivos de monitoreo, tales como imágenes o registros de movimiento, que se utilizan para evaluar y garantizar la seguridad de la propiedad.
+
+9. Security Threat (Amenaza de Seguridad): Cualquier situación o evento que ponga en riesgo la seguridad de un inmueble.
+    Definición: Situación que compromete la integridad de una propiedad, ya sea por la presencia de personas no autorizadas o por vulnerabilidades en el sistema de protección.
+
+10. Alarm System (Sistema de Alarma): Dispositivo que emite una alerta cuando detecta una posible amenaza.
+    Definición: Sistema de seguridad que se activa para notificar sobre una intrusión o anomalía en la propiedad, ya sea mediante sonido, luz o notificaciones electrónicas.
+
+11. Incident Response (Respuesta ante Incidentes): Proceso que se sigue tras la detección de una amenaza en una propiedad.
+    Definición: Serie de acciones realizadas después de la activación de una alerta, que pueden incluir el envío de personal de seguridad o la notificación a las autoridades.
+
+12. Perimeter Security (Seguridad Perimetral): Medidas de protección implementadas en los límites de una propiedad.
+    Definición: Estrategias de seguridad diseñadas para proteger las áreas exteriores de una propiedad, evitando accesos no autorizados a través de cercas, cámaras o sensores.
+
+13. False Alarm (Falsa Alarma): Activación de un sistema de seguridad sin la presencia de una amenaza real.
+    Definición: Situación en la que el sistema de seguridad detecta una actividad que no representa un peligro, como el movimiento de un animal, y genera una alerta innecesaria.
