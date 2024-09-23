@@ -404,3 +404,92 @@ El diagrama UML del bounded context "Areas" ilustra las clases Area y Property c
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
 Este diagrama de base de datos representa las tablas y las relaciones dentro del bounded context "Areas". Se define la tabla area, que almacena información sobre las áreas específicas donde se colocan dispositivos de seguridad, y la tabla property, que representa una propiedad, la cual puede contener múltiples áreas. La relación entre estas dos entidades es de uno a muchos, donde una propiedad puede tener varias áreas asociadas. Los atributos principales incluyen identificadores únicos para cada entidad, nombres descriptivos, y detalles adicionales como iconos y colores para las áreas, y direcciones para las propiedades.
 ![Bounded Context Database Areas](src/images/bc-db-areas.jpg)
+
+### 4.2.4. Bounded Context: User context
+El User Context abarca los procesos y funciones relacionados con la gestión del usuario y el rol que desempeña cada uno dentro de nuestro sistema. Aqui podemos manejar la creación, modificación o eliminación del usuario de nuestro sistema, asimismo podemos gestionar la asiganción de roles.
+
+1. Clase User
+   * Propósito: La clase User representa a los usuarios del sistema. Un usuario puede tener un rol asignado
+   * Atributos:
+     * `id: string`: Identificador único del usuario
+     * `firstname: string`: Nombre del usuario
+     * `lastname: string`: Apellido del usuario
+     * `email: string`: Correo electrónico del usuario
+     * `password: string`: Contraseña cifrada del usuario
+     * `phone: number`: Número Telefónico del usuario
+     * `dni: char(8)`: Documento Nacional de Identidad del usuario
+     * `rols_id: int`: Identificador del rol asignado al usuario
+   * Métodos:
+     * `getUserDetails(): void` - Retorna los detalles importantes del usuario para el inicio de sesión.
+     * `registerUser(): void` - Registro del usuario en el sistema
+   * Relaciones:
+     * `n...1` con Roles ya que un rol puede tener varios usuarios
+
+2. Clase Roles
+   * Propósito: Representa los distintos roles que los usuarios puedan tener dentor del sistema para que determine los permisos y acciones que puedan realizar.
+   * Atributos:
+     * `id: string`: Identificador único del rol
+     * `type: string`: Tipo del rol que podría desempeñar el usuario.
+   * Relaciones: 
+     * `1...n` con User dado que un rol puede tener varios usuario.
+
+#### 4.2.4.1. Domain Layer
+En la capa de dominio encontramos nuestras clases centrales como núcleo de nuestro sistema y las reglas de negocio que incluyen lo siguiente:
+
+* Entities:
+  * User: Representa a un usuario del sistema y debe de ser único.
+    * Atributos: id, firstname, lastname, email, password,phone, dni
+  * Role: Representa el rol que desempeña el usuario dentro de la aplicacion.
+    * Atributos: id, type.
+
+* Value Objects:
+  * UserId: Identificador único de cada usuario
+  * RoleId: Identificador único de cada rol asignado a un usuario
+  * Password: Objeto de valor para manejar contraseñas seguras y encriptadas.
+  * Email: Objeto de valor para manejar correos únicos por cada usuario.
+  
+* Aggregates: 
+  * UserAggregate: Es un agregado que incluye la entidad de usuario y los roles relacionados a ella. Además encapsula a las reglas y lógica de negocio.
+
+* Domain Services: 
+  * AuthenticationSerivce: Puede ser incluido un servicio de dominio encargado de la autenticación del usuario
+  
+* Repositories: 
+  * UserRepository: Define los métodos para almacenar, modificar, eliminar y recuperar información de los usuarios en la base de datos
+  * RoleRepository: Define los métofdos para gestionar la persistencia de roles.
+
+#### 4.2.4.2. Interface Layer
+Aquí manejamos las interacciones y solicitudes entre el sistema y los usuarios y consigo devolviendo respuestas optimas. Para el Bounded Context de User tenemos lo siguiente:
+
+* Controllers:
+  * UserController: Se expone las operaciones relacionadas con el usuario como la creción, actualización, consulta y eliminación del usuario. Al crease un usuario, este a su vez.
+  * RoleController: Gestiona las peticiones relacionadas con la administración de roles, como la creación de nuevos roles o la modificación de roles existentes.
+  
+
+#### 4.2.4.3. Application Layer
+Para esta capa definimos los flujos de negocios a traves de clases de tipo Command  Handlers y Event Handlers, asegurando asi el manejor de las clases correctamente.
+
+* Command Handlers:
+  * CreateUserCommandHandler: Maneja la lógica de creación de nuevos usuarios, asegurándose que cada uno cumpla con todas las reglas de negocio, como validar el correo único y el cifrado de contraseñas
+  * AssignRoleToUserCommandHandler: Gestiona la asiganción de roles a los usuarios
+* Event Handlers:
+  * UserRegisteredEventHandler: Este handler puede enviar una notificación cuando un nuevo usuario es registrado existosamente en el sistema
+
+#### 4.2.4.4. Infrastructure Layer
+En esta capa veremos las relaciones de nuestreas clases con las conexiones a los servicios externos como las bases de datos
+
+**Repositories:**
+  * UserRepository: Implementacion de la interfaz de repositorio para acceder a la base de datos que almacena la información de los usuarios.
+  * RoleRepository: Implementacion de la interfaz de repositorio para gestionar la persistencia de roles a travez de la base de datos.
+
+**External Service:**
+* MessageService: Servicio externo que se utiliza para enviar notificaciones a los usuarios en caso haya cambios en la aplicación móvil o una gestión de alarmas.
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+En esta parte presentaremos el Diagrama de componentes en el modelo C4, mostraremos las descomposicion del container en componentes y sus interacciones
+
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.4.6.2. Bounded Context Database Design Diagram
+En el diagrama de base de datos de usuario podemos ver la relacion existente de las tablas dentro del bounded context "User". Aqui definimos la tabla usuario, en el cual almacenamos información importante del usuario para que pueda registrarse en la aplicacion que a su vez esta relacionada con un rol de usuario el cual asigna los permisos al sistema dependiendo el rol que desempeñen dentro de nuestra aplicación dando conocer asi que un rol lo puede desempeñar varios usuarios pero un usuario tiene un unico rol. Los atributos los cuales manejamos incluyen identificadores unicos para cada entidad asi como detalles principales que debemos tener para la aplicacion. 
+![Bounded Context Database User](src/images/database-user.png)
