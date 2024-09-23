@@ -256,7 +256,7 @@ En esta capa se presentan las clases que permiten la comunicación entre la capa
   ![alt text](src/images/subscription-controller.png)
 
 - PlanController: gestiona los planes de suscripción disponibles en la aplicación. Los usuarios pueden consultar los planes disponibles, sus características y precios.
-  ![alt text](src/images/subscription-controller.png)
+  ![alt text](src/images/plan-controller.png)
 
 #### 4.2.1.3. Application Layer
 Esta capa, para el Subscription and Payment Context, se definen los flujos de negocio a través de clases de tipo Command Handlers y Event Handlers, asegurando que los procesos de suscripción, pago y gestión de eventos externos (como los webhooks de Stripe) se manejen correctamente. Estos handlers permiten que el sistema sea reactivo, eficiente y mantenga la consistencia entre las operaciones internas y los eventos externos. A continuación, se presentan los handlers y eventos identificados para este contexto:
