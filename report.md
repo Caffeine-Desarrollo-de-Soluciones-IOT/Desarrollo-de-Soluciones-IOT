@@ -189,4 +189,14 @@ El Lean UX Canvas que a continuación se presenta detalla los problemas de negoc
 
 ![LeanUxCanvas](src/images/lean-ux-canvas.jpg)
 
-## 1.3 Segmentos Objetivo
+## 1.3 Segmentos objetivo
+Según el Instituto Nacional de Estadística e Informática (INEI), cerca del 12% de las viviendas en áreas urbanas de Perú sufrieron robos o intentos de robo en años recientes. Sin embargo, solo el 17.9% de las víctimas denuncian estos delitos, lo que sugiere que el problema es más amplio de lo que reflejan las cifras oficiales​. Los métodos de los delincuentes son cada vez más variados. Entre las tácticas más comunes están el engaño a empleados domésticos, la simulación de ser trabajadores de empresas de servicios públicos, y los robos durante días feriados, cuando las casas suelen estar desocupadas​.
+Tenemos 2 segmentos objetivos:
+
+### Segmento objetivo 1: Dueños de Inmuebles
+Los dueños que poseen uno o varios inmuebles
+![](/src/images/dueño-inmueble.jpg)
+
+### Segmento objetivo 2: Empresas de Seguridad
+Empresas de seguridad que quieren mejorar/reforzar sus servicios
+![](/src/images/empresa-seguridad.jpg)
