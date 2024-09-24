@@ -202,10 +202,9 @@ de robo fue mayor en la Provincia Constitucional del Callao (7,9%), que en Lima 
 Por lo mencionado anteriormente es que hemos establecido 2 segmentos objetivos:
 
 ### Segmento objetivo 1: Dueños de Inmuebles
-Nuestro primer segmento objetivo son los dueños que poseen uno o varios inmuebles. Estas personas constantement
+Nuestro primer segmento objetivo son los propietarios de uno o varios inmuebles, tanto construidos como en proceso de construcción. Este grupo incluye personas que, al no contar con sistemas de seguridad adecuados, deben visitar o supervisar periódicamente sus propiedades para asegurarse de que no hayan sido vulneradas o víctimas de robos.
 ![](/src/images/dueño-inmueble.jpg)
 
 ### Segmento objetivo 2: Empresas de Seguridad
-Empresas de seguridad que quieren mejorar/reforzar sus servicios
+Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejorar y fortalecer sus servicios de videovigilancia mediante el uso de un software robusto y completo, diseñado para satisfacer plenamente las necesidades de sus clientes y optimizar la gestión de seguridad.
 ![](/src/images/empresa-seguridad.jpg)
-
