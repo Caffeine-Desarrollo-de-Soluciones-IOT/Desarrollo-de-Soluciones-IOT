@@ -67,8 +67,87 @@ Ciclo: 2024-2
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. EventStorming
+Es una técnica colaborativa que nos permite explorar a fondo el dominio de nuestra aplicación de FalconShield, para realizar el proceso, se llevó a cabo diversas reuniones y con apoyo de la herramienta Miro se pudo desarrollar todo el flujo y los pasos. Para el primer paso se analizaron diversas opiniones sobre los posibles eventos del dominio y se fue clasificando según criterios, tales como frecuencia, relevancia, etc.
+
+1. **Primer paso: Unstructured Exploration**
+
+    Para este paso se analizaron diversas opiniones sobre los posibles eventos del dominio y se fue clasificando según criterios, tales como frecuencia, relevancia, etc.
+    
+    ![event](src/images/event-1.png)
+
+2. **Segundo paso: Timelines**
+   
+    En este paso se procedió a ordenar los eventos en una línea de tiempo, para poder visualizar mejor el flujo de los eventos y las interacciones entre ellos.
+    
+    ![timeline](src/images/event-2.png)
+3. **Tercer paso: Pain Points**
+   
+    En este paso se identifaron posibles cuellos de botella o problemas en el flujo de eventos, para poder abordarlos y solucionarlos de manera efectiva.
+    
+    ![pain](src/images/event-3.png)
+
+4. **Cuarto paso: Pivotal Points**
+   
+    En este paso se identificaron puntos o eventos importantes que pueden ser cruciales para el funcionamiento del sistema, y que deben ser considerados con especial atención.
+
+    ![pivotal](src/images/event-4.png)
+
+5. **Quinto paso: Commands**
+    Aquí se identificaron los comandos que se pueden ejecutar en el sistema, y que generan eventos en el dominio.
+    
+    ![commands](src/images/event-5.png)
+
 #### 4.1.1.1 Candidate Context Discovery
+Una vez identificados los eventos clave, se procedió a seguir los otros pasos para finalmente agruparlos en contextos delimitados, que representan áreas de interés o responsabilidades dentro del sistema. Estos contextos se definen en función de la cohesión de los eventos y las reglas de negocio asociadas.
+
+6. **Sexto paso: Policies**
+   
+    En este paso se identificaron los eventos que deberían ser ejecutados de forma automática por el sistema, sin intervención del usuario o si se requiere de alguna política de negocio para su ejecución.
+
+    ![alt text](src/images/event-6.png)
+
+7. **Séptimo paso: Read Models**
+   
+    En este paso se identificaron los eventos que generan información que debe ser almacenada y consultada posteriormente, para poder visualizar el estado actual del sistema.
+
+    ![alt text](src/images/event-7.png)
+
+8. **Octavo paso: External Systems**
+   
+    En este paso se identificaron los eventos que interactúan con sistemas externos, como APIs de terceros, bases de datos, etc.
+
+    ![alt text](src/images/event-8.png)
+
+9. **Noveno paso: Aggregates**
+   
+    En este paso se identificaron los eventos que están relacionados entre sí y que pueden ser agrupados en un agregado, para poder gestionarlos de forma coherente.
+
+    ![alt text](src/images/event-9.png)
+
+10. **Décimo paso: Bounded Contexts**
+   
+    En este paso se agruparon los eventos en contextos delimitados, que representan áreas de interés o responsabilidades dentro del sistema. Estos contextos se definen en función de la cohesión de los eventos y las reglas de negocio asociadas.
+
+    ![alt text](src/images/event-10.png)
+
+Enlace a los diagramas de EventStorming: [EventStorming](https://miro.com/app/board/uXjVKjBJwpE=/?share_link_id=833719450756)
+
 #### 4.1.1.2 Domain Message Flows Modeling
+
+Para el modelado de los flujos de mensajes del dominio, se utilizó la técnica de EventStorming para identificar los eventos clave y las interacciones entre ellos. A partir de estos eventos, se crearon diagramas de flujo de mensajes que representan cómo se comunican los distintos componentes del sistema para lograr los objetivos del negocio. A continuación, se presentan los diagramas de flujo de mensajes para los contextos identificados en el paso anterior.
+
+1. Sincronización del sistema de seguridad:
+![alt text](src/images/message-flow-1.png)
+
+2. Alerta y notificación de eventos:
+![alt text](src/images/message-flow-2.png)
+
+3. Alerta y notificación de eventos:
+![alt text](src/images/message-flow-3.png)
+
+4. Respuesta a la activación de la alarma:
+![alt text](src/images/message-flow-4.png)
+
 #### 4.1.1.3 Bounded Context Canvases
 ### 4.1.2. Context Mapping
 
