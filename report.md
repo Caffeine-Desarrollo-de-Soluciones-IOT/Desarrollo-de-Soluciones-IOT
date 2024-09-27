@@ -122,6 +122,56 @@ Ciclo: 2024-2
 Para esta parte como grtupo explicaremos nuestro diseño de Landing page, donde hemos utilizado buenas prácticas de diseño. Asimismo, utilizamos Figma como herramienta principal para el diseño de nuestros wireframes y mockups.
 
 ### 5.3.1. Landing Page Wireframe
+
+Para nuestra base de Landing Page utilizamos el diseño Wireframe que nos da una visión mejor de cómo queremos que quede nuestro diseño, esto a su vez es diseñado tanto para un sitio web de escritorio y móvil. Además, hemos utilizado los principios, elementos de diseño, diseño inclusivo y arquitecturas de informacipon que se han planteado anteriormente.
+
+Primero explicaremos cada parte de nuestra landing page:
+
+**a. Landing Page Wireframe**
+Como encabezado tendremos nuestro nombre y logo de la Empresa, así como Call to Action que nos dirigirán tanto a la aplicación web de nuestra empresa o que nos ayudará a desplazarnos dentro de la Landing Page. Asimismo contaremos con una frase de valor *"We provide protection in every corner, so that growth is your only concern" ("Brindamos protección en cada rincón, para que el crecimiento sea tu única preocupación")*. Para la parte de móvil, tendrá un call to action que nos redirigirá a la parte para descargar la aplicación móvil.
+
+| Wireframe para Desktop | Wireframe para Mobile |
+| -- |-- |
+| ![primera parte web](src/images/1.%20web%20.jpg) | ![primera parte mov](src/images/1.%20app.jpg) |
+
+Luego, ponemos nuestras soluciones que tenemos que son las cámaras de seguridad, sensores y alarmas. Aquí explicaremos brevemente las soluciones que brindamos al usuario.
+
+| Wireframe para Desktop | Wireframe para Mobile |
+| -- |-- |
+| ![primera parte web](src/images/2.web.jpg) | ![primera parte mov](src/images/2.app.jpg) |
+
+Seguidamente, presentamos nuestros planes en este caso solo tendremos 3; el básico, el premium y el gold que le ofrecemos al usuario y asimismo a un precio cómodo.
+
+| Wireframe para Desktop | Wireframe para Mobile |
+| -- |-- |
+| ![primera parte web](src/images/3.web.jpg) | ![primera parte mov](src/images/3.app.jpg) |
+
+Luego, tenemos nustra sección en donde presentamos el equipo de trabajo, aquí se pondrá una fotografía de cada uno esto nos ayudará a generar confianza con nuestros nuevos usuarios o con los usuarios que ya tenemos.
+
+| Wireframe para Desktop | Wireframe para Mobile |
+| -- |-- |
+| ![primera parte web](src/images/4.web.jpg) | ![primera parte mov](src/images/4.app.jpg) |
+
+Asimismo, tendremos una sección con los comentarios de los usuarios y además para lo que es el Landing Page Web una sección adicional en donde encontrarán nuestro App Móvil
+
+| Wireframe para Desktop | Wireframe para Mobile |
+| -- |-- |
+| ![primera parte web](src/images/5.web.jpg) | ![primera parte mov](src/images/5.app.jpg) |
+
+
+Por último tendremos nuestra sección donde hablamos más sobre la aplicación mediante un video y nuestro footer.
+
+| Wireframe para Desktop | Wireframe para Mobile |
+| -- |-- |
+| ![primera parte web](src/images/6.web.jpg) | ![primera parte mov](src/images/6.app.jpg) |
+
+
+Luego de explicar cada sección, mostramos nuestros wireframe completo tanto para la parte del escritorio como para el mobile.
+
+| Wireframe para Desktop | Wireframe para Mobile |
+| -- |-- |
+| ![primera parte web](src/images/LandingPageWebWireframe.png) | ![primera parte mov](src/images/LandingPagemobileWireframe.png) |
+
 ### 5.3.2. Landing Page Mock-up
 ## 5.4. Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
