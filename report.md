@@ -410,6 +410,50 @@ El diseño de la base de datos para el contexto Subscription & Payments refleja 
 
 ![alt text](src/images/database-design-subs.png)
 
+#### 4.2.2. Bounded Context: Device
+#### 4.2.2.1 Domain Layer
+- **Entidades de dominio**:
+  - **Device**: Representa un dispositivo IoT instalado en el inmueble, incluyendo sus características y estado.
+  - **Installation**: Representa la instalación de un dispositivo en un inmueble, incluyendo la fecha de instalación y el estado de la instalación.
+  - **Property**: Representa la propiedad (inmueble) donde los dispositivos están instalados, incluyendo detalles sobre la ubicación y características.
+
+- **Objetos de valor**:
+  - **DeviceConfiguration**: Contiene la configuración específica de cada dispositivo, como el tipo de dispositivo, configuraciones de red y parámetros operativos.
+  - **InstallationDetails**: Información sobre la instalación del dispositivo, como la ubicación exacta y el método de instalación.
+
+- **Repositorios**:
+  - **DeviceRepository**: Maneja la persistencia de los dispositivos.
+  - **InstallationRepository**: Maneja la persistencia de las instalaciones de dispositivos.
+  - **PropertyRepository**: Maneja la persistencia de las propiedades donde se instalan los dispositivos.
+
+#### 4.2.2.2 Interface Layer
+- **DeviceController**: Gestiona la configuración y visualización de dispositivos IoT. Permite a los usuarios ver, agregar y actualizar la información de los dispositivos instalados, así como revisar el estado y configuraciones de cada dispositivo.
+
+- **InstallationController**: Maneja la gestión de la instalación de dispositivos. Permite a los usuarios iniciar nuevas instalaciones, actualizar el estado de las instalaciones y visualizar el historial de instalaciones.
+
+- **PropertyController**: Gestiona la información de las propiedades donde los dispositivos están instalados. Permite a los usuarios ver detalles sobre las propiedades y asociar dispositivos con propiedades específicas.
+
+#### 4.2.2.3. Application Layer
+- **Command Handlers**:
+  - **RegisterDeviceCommandHandler**: Procesa la solicitud para registrar un nuevo dispositivo IoT en el sistema. Este handler maneja la creación de registros para nuevos dispositivos y su configuración inicial.
+  - **UpdateDeviceConfigurationCommandHandler**: Maneja las actualizaciones en la configuración de un dispositivo existente.
+  - **InstallDeviceCommandHandler**: Procesa la solicitud para instalar un dispositivo en una propiedad. Maneja la asociación del dispositivo con la propiedad y actualiza el estado de la instalación.
+  - **UninstallDeviceCommandHandler**: Maneja la solicitud para desinstalar un dispositivo, actualizando el estado del dispositivo y la propiedad asociada.
+
+- **Event Handlers**:
+  - **DeviceRegisteredEventHandler**: Responde a eventos que confirman la creación y registro exitoso de un dispositivo. Actualiza el estado del dispositivo en la base de datos y emite eventos relacionados.
+  - **DeviceConfigurationUpdatedEventHandler**: Maneja eventos que indican que la configuración de un dispositivo ha sido actualizada. Actualiza la base de datos y notifica a los usuarios correspondientes.
+  - **DeviceInstalledEventHandler**: Maneja eventos de instalación exitosa de un dispositivo. Actualiza el estado de la instalación y emite notificaciones.
+  - **DeviceUninstalledEventHandler**: Responde a eventos que indican que un dispositivo ha sido desinstalado. Actualiza el estado en la base de datos y emite notificaciones relacionadas.
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+![alt text](/src/images/c4-devices.png)
+
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+![alt text](/src/images/devices-diagram.png)
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+![alt text](/src/images/devices-db.png)
+
 <!-- TODO -->
 ### 4.2.3. Bounded Context: Areas
 #### 4.2.3.1. Domain Layer
