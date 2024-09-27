@@ -111,6 +111,17 @@ En esta sección se presentan las historias de usuario correspondientes a nuestr
 | **HU-27**| Alertas de mantenimiento preventivo        | Como propietario de un inmueble, quiero recibir alertas de mantenimiento preventivo de los dispositivos para evitar fallos y asegurar su operación continua. | **Given** que tengo dispositivos operando **When** alguno necesita mantenimiento **Then** recibo una alerta en la app y el email con los pasos a seguir para realizar el mantenimiento. <br><br> **Given** que he realizado el mantenimiento **When** actualizo el estado en la app **Then** se registra la acción y se confirma la operación continua del dispositivo. | Epic 15                       |
 
 ## 3.3. Impact Mapping
+La herramienta denominada Impact Mapping consiste en una forma visual de representar las metas que nos plasmamos para llegar a cada sector de nuestro público. Por esta razón, el equipo utilizó este artefacto con el fin de definir nuestro camino para alcanzar a los segmentos objetivos. De este modo, al final del mapa mental identificamos las acciones y funcionalidades que debemos llevar a cabo para formar el proyecto de manera eficiente.
+
+### User: Dueño de Inmuebles
+
+A continuación, se presenta el Impact Map en el usuario, dueño de inmuebles; para la cual nos basamos en las User Stories de nuestro proyecto, brindando las alternativas con las que dispone los aplicativos para solucionar y satisfacer las necesidades del usuario.
+![](/src/images/impact-map-dueño-inmueble.png)
+
+### User: Empresa de seguridad
+Este mapa de impacto incluye los objetivos empresariales, los efectos deseados en la organización de seguridad y las historias de usuario relacionadas. El enfoque es en mejorar la eficiencia operativa y la satisfacción del cliente mediante el uso de tecnología IoT para vigilancia en tiempo real y respuestas automatizadas a amenazas.
+![](/src/images/impact-map-seguridad.png)
+
 ## 3.4. Product Backlog
 
 Una vez que todas las User Stories están redactadas, es necesario priorizarlas. El Product Backlog se encarga de establecer un orden de relevancia entre todas las historias de usuario. Además, se incluirán los Story Points asignados a cada historia, que representan el esfuerzo requerido para completar exitosamente la User Story correspondiente.
