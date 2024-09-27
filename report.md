@@ -119,7 +119,7 @@ Ciclo: 2024-2
 
 ## 5.3. Landing Page UI Design
 
-Para esta parte como grtupo explicaremos nuestro diseño de Landing page, donde hemos utilizado buenas prácticas de diseño. Asimismo, utilizamos Figma como herramienta principal para el diseño de nuestros wireframes y mockups.
+Para esta parte como grupo explicaremos nuestro diseño de Landing page, donde hemos utilizado buenas prácticas de diseño. Asimismo, utilizamos Figma como herramienta principal para el diseño de nuestros wireframes y mockups.
 
 ### 5.3.1. Landing Page Wireframe
 
@@ -219,9 +219,14 @@ Luego de explicar cada sección, mostramos nuestros wireframe completo tanto par
 | -- |-- |
 | ![primera parte web](src/images/LandingPageWebMockup.png) | ![primera parte mov](src/images/LandingPagemobileMockup.png) |
 
-
 ## 5.4. Applications UX/UI Design
+
+Para esta parte como grupo explicaremos nuestro diseños Wireframes y Mock-ups de nuestra aplicación móvil y aplicación web de nuestro producto FalconShield
+
 ### 5.4.1. Applications Wireframes
+
+
+
 ### 5.4.2. Applications Wireflow Diagrams
 ### 5.4.2. Applications Mock-ups
 ### 5.4.3. Applications User Flow Diagrams
