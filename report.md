@@ -118,6 +118,9 @@ Ciclo: 2024-2
  - **Navegación Secuencial:** Durante la coordinación de una respuesta a un incidente, el sistema guiará a los usuarios paso a paso, desde la recepción de la alerta hasta la resolución, asegurando que cada fase del proceso sea clara y fácil de seguir.
 
 ## 5.3. Landing Page UI Design
+
+Para esta parte como grtupo explicaremos nuestro diseño de Landing page, donde hemos utilizado buenas prácticas de diseño. Asimismo, utilizamos Figma como herramienta principal para el diseño de nuestros wireframes y mockups.
+
 ### 5.3.1. Landing Page Wireframe
 ### 5.3.2. Landing Page Mock-up
 ## 5.4. Applications UX/UI Design
