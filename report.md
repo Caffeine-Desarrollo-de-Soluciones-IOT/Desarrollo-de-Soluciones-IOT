@@ -447,11 +447,16 @@ El diseño de la base de datos para el contexto Subscription & Payments refleja 
   - **DeviceUninstalledEventHandler**: Responde a eventos que indican que un dispositivo ha sido desinstalado. Actualiza el estado en la base de datos y emite notificaciones relacionadas.
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama proporciona una vista de la estructura de la arquitectura y cómo los diferentes componentes interactúan dentro del aggregate Devices.
+
 ![alt text](/src/images/c4-devices.png)
 
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+El diagrama UML del bounded context "Devices" ilustra las clases Property, Devices, Installation y DeviceConfigurations con sus respectivos atributos y métodos. Las clases también contienen métodos para crear, actualizar, validar y eliminar instancias. 
 ![alt text](/src/images/devices-diagram.png)
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama de base de datos representa las tablas y las relaciones dentro del bounded context "Devices". Se define la entidad devices, que almacena información sobre ek tipo y la descripción del dispositivo de seguridad.La entidad devices_type almacena el tipo de dispositivo.
 ![alt text](/src/images/devices-db.png)
 
 <!-- TODO -->
