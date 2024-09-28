@@ -252,6 +252,71 @@ Los dispositivos IoT, como las cámaras y sensores, son fundamentales para la ex
 
 ### 5.2.2. Labeling Systems
 ### 5.2.3. SEO Tags and Meta Tags
+
+Presentaremos las etiquetas que identificarán y diferenciarán a nuestro sitio web. Asimismo para el app movil incluiremos el ASO.
+
+**Landing Page:**
+1. Title (Título):
+   1. Title: FalconShield - Seguridad Avanzada para tu Hogar y Negocio
+   
+2. Meta Tags:
+   1. Meta Description: 
+    `<meta name="description" content="FalconShield ofrece soluciones de seguridad avanzada para hogares y negocios. Con monitoreo en tiempo real, sensores, cámaras y alarmas IoT, garantizamos la protección de lo que más valoras.">`
+    2. Meta Keywords:
+      `<meta name="keywords" content="seguridad IoT, cámaras de seguridad, alarmas, sensores, protección de propiedades, seguridad en tiempo real, FalconShield, seguridad para el hogar, VerySafe">`
+    3. Meta Author:
+      `<meta name="author" content="Equipo FalconShield">`
+
+3. Open Graph Tags:
+   1. Open Graph Title
+      `<meta property="og:title" content="FalconShield - Protección Inteligente para tu Propiedad">`
+    2. Open Graph Description
+      `<meta property="og:description" content="Con FalconShield, monitorea y protege tu hogar o negocio desde cualquier lugar con tecnología IoT avanzada. Cámaras, alarmas y sensores inteligentes a tu disposición.">`
+    3. Open Graph Image
+        `<meta property="og:image" content="https://tusitio.com/imagen_falconshield.jpg">`
+    4. Open Graph URL
+      `<meta property="og:url" content="https://tusitio.com">`
+
+**Web Application:**
+
+1. Title (Título):
+   1. Title: FalconShield App - Controla la Seguridad de tu Propiedad desde Cualquier Lugar
+
+2. Meta Tags:
+   1. Meta Description:
+      `<meta name="description" content="Gestiona tu sistema de seguridad con la app FalconShield. Monitoreo en tiempo real, alertas instantáneas y control total de tus dispositivos IoT desde una plataforma intuitiva.">`
+   2. Meta Keywords:
+      `<meta name="keywords" content="app de seguridad, control de seguridad IoT, monitoreo de cámaras, control de alarmas, FalconShield app, seguridad en tiempo real, VerySafe">`
+   3.  Meta Author:
+      `<meta name="author" content="Gaby Nomberto, Equipo FalconShield">`
+
+1. Open Graph Tags:
+   1. Open Graph Title:
+      `<meta property="og:title" content="FalconShield App - Monitorea tu Seguridad en Tiempo Real">`
+   2. Open Graph Description:
+      `<meta property="og:description" content="Con la app FalconShield, protege tu hogar o negocio. Recibe alertas y controla tus dispositivos de seguridad desde tu teléfono.">`
+   3. Open Graph Image:
+    `<meta property="og:image" content="https://tusitio.com/app_falconshield.jpg">`
+   4. Open Graph URL:
+    `<meta property="og:url" content="https://tusitio.com/app">`
+
+**ASO (App Store Optimization) para Aplicaciones Móviles:**
+
+1. App Title:
+   1. FalconShield: Seguridad Inteligente en Tiempo Real
+2. App Subtitle: 
+   1. Protege tu hogar y negocio con monitoreo avanzado IoT
+
+3. App Keywords:
+   1. seguridad IoT, cámaras de seguridad, alarmas, sensores, monitoreo en tiempo real, protección de propiedades, FalconShield, seguridad inteligente, VerySafe
+
+4. App Description:
+   1. FalconShield es una solución de seguridad inteligente que te permite proteger tu hogar y negocio con tecnología IoT avanzada. Desde la app puedes monitorear en tiempo real, controlar tus cámaras, alarmas y sensores, y recibir alertas instantáneas ante cualquier amenaza. Con una interfaz fácil de usar, FalconShield te brinda la tranquilidad que necesitas. Descárgala ahora y asegúrate de que lo que más valoras esté siempre protegido.
+
+5. App Store Screenshots and Media:
+   1. Asegúrate de incluir capturas de pantalla que muestren la interfaz de usuario, la funcionalidad de monitoreo en tiempo real, el control de dispositivos IoT, y las alertas en acción. Estas imágenes deben reflejar la facilidad de uso y el nivel avanzado de tecnología ofrecido.
+
+
 ### 5.2.4. Searching Systems
 ### 5.2.5. Navigation Systems
 **1. Propietarios de inmuebles**
