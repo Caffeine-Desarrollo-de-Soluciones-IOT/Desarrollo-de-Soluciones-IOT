@@ -89,6 +89,9 @@ Ciclo: 2024-2
 
 # CAPÍTULO V: SOLUTION UI/UX DESIGN
 ## 5.1. Style Guidelines
+
+Para esta sección, acordamos como equipo ciertos diseños, fuentes, colores, etc. para estar de acorde en todos nuestros diseños y en el momento de programación.
+
 ### 5.1.1. General Style Guidelines
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
