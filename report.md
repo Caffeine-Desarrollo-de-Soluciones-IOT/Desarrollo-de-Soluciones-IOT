@@ -225,7 +225,53 @@ Para esta parte como grupo explicaremos nuestro diseños Wireframes y Mock-ups d
 
 ### 5.4.1. Applications Wireframes
 
+**MOBILE APPLICATION WIREFRAMES**
 
+Presentaremos nuestro diseño visual en el formato de wireframe que nos da una visión de bajo nivel al diseño que quisieramos lograr. Tengamos en cuenta que la aplicación móvil solo va dirigida a un segmento objetivo que es el Dueño de Inmueble.
+
+Tenemos nuestras pantallas generales como el inicio de sesión y el registro del usuario, asi como las pantallas de registro o inicio de sesión exitoso.
+
+| Wireframe | Descripción |
+|-- | -- |
+|![inicio de sesion app movil](src/images/inicioapp.png) | **Inicio de Sesión:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para que ingrese a nuestra aplicación. |
+| ![inicio exitoso app movil](src/images/inicioexapp.png) | **Inicio de sesión exitoso:**  En esta pantalla le mostramos al usuario que pudo acceder de forma exitosa dado que ingreso correctamente sus credenciales. |
+| ![registro de usuario](src/images/registerapp.png) | **Registrar una cuenta:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para poder crearse una cuenta. |
+| ![registro exitoso](src/images/registerexitapp.png) | **Registro exitoso:** En esta pantalla le mostramos al usuario que pudo crear correctamente su nueva cuenta. |
+
+Asimismo contamos dentro de la aplicación con la pantalla principal Home:
+
+| Wireframe | Descripción |
+| -- | -- |
+| ![pantalla inicial app](src/images/Home%20Screenapp.png) | **Pantalla de Incio:** En esta pantalla le mostramos al usuario sus dispositivos que ha solicitado asimismo en que ambientes se han instalado. Tener en cuenta que esta pantalla sera de tipo scroll. |
+
+Tenemos tambiens nuestra pantalla donde el usuario podrá ver su información personal.
+| Wireframe | Descripción |
+| -- | -- |
+| ![profile](src/images/Profile.png) | **Perfil del usuario:** En esta pantalla el usuario podrá ver su información asi como otras funciones adicionales. |
+
+Tenemos tambien nuestras pantallas para que el usuario agregue los dispositivos luego de ser instalados.
+
+| Wireframe | Descripción |
+| -- | -- |
+| ![pantalla inicial de dispositivos](src/images/ADD%20DEVICE.png) | **Pantalla principal de los Dispositivos:** En esta pantalla le presentaremos al usuario los dispositivos adquiridos, asi como un boton que puede agregar luego de obtener más|
+| ![seleccion de conexion](src/images/AD%203.png) | **Selección tipo de conexión con el dispositivo nuevo:** En esta pantalla el usuario podrá elegir el tipo de conexión con su nuevo dispositivo en este caso Bluetooth |
+| ![tipo de nuevo dispositivo](src/images/AD%204.png) | **Selección del nuevo dispositivo:** En esta pantalla el usuario podrá seleccionar el nuevo dispositivo adquirido para poder agregarlo. |
+| ![seleccion de ambiente](src/images/AD%205.png) | **Selección de ambiente:** En esta pantalla el usuario podrá elegir en que ambiente de su inmueble fue colocado el nuevo dispositivo |
+| ![nombre de dispositivo](src/images/AD%206.png) | **Ingreso de nombre del dispositivo nuevo:** En esta pantalla el usuario podrá ingresar como quiere que se llame su nuevo dispositivo. |
+| ![dispositivo nuevo agregado exitoso](src/images/AD%207.png) | **Registro de dispositivo nuevo exitoso:** En esta pantala el usuario podrá ver que agrego su dispositivo nuevo de forma exitosa en la aplicación |
+| ![nuevo dispositvo](src/images/AD%208.png) | **Ver nuevo dispositivo:** En esta pantalla el usuario podrá verificar el nuevo dispositivo que ha agregado. |
+| ![detalles del dispositivo](src/images/Device%20Especification.png) | **Detalles del dispositivo:** En esta pantalla el usuario verá los detalles del dispositivo ya sea su descripcióm, el tipo de dispositvo, etc. |
+
+Tenemos tambien nuestras pantallas para que el usuario agregue los nuevos ambientes que desea un dispositivo.
+
+| Wireframe | Descripción |
+| -- | -- |
+| ![pantalla incial de ambientes](src/images/CREATE%20ROOM.png) | **Pantalla principal de los ambientes:** En esta pantalla el usuario podrá visualizar los ambientes en los cuales tiene un dispositivo de seguridad |
+| ![ingreso de nombre del nuevo ambiente](src/images/CR%201.png) | **Ingreso del nombre del nuevo ambiente:** En esta pantalla el usuario podrá ingresar el nombre del nuevo ambiente que quiera crear |
+| ![selección del ambiente](src/images/CR%202.png) | **Selección del nuevo ambiente:** En esta pantalla el usuario podrá elegir el nuevo ambiente que va a tener un dispositivo de seguridad |
+| ![ambiente agregado exitoso](src/images/CR%203.png) | **Ambiente agregado de forma exitosa:** En esta pantalla el usuario verá que su ambiente se ha agregado exitosamente |
+| ![visualizacion del nuevo ambiente](src/images/CR%204.png) | **Nuevo ambiente visualizado:** En esta pantalla el usuario verá que se agrego el ambiente en la aplicación móvil. |
+| ![especificaciones del nuevo ambiente](src/images/Room%20Especification.png) | **Detalles del ambiente:** En esta pantalla el usuario verá que dispositivos se encuentran en el ambiente seleccionado. |
 
 ### 5.4.2. Applications Wireflow Diagrams
 ### 5.4.2. Applications Mock-ups
