@@ -392,10 +392,9 @@ Esta capa es responsable de proporcionar la implementación de las operaciones q
 ![alt text](src/images/customer-repo.png)
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-En esta sección, el equipo explica y presenta los Component Diagrams de C4 Model para cada uno de los Containers considerados para el bounded context. En estos diagramas el equipo busca reflejar la descomposición de cada Container para identificar los bloques estructurales principales y sus interacciones. Un Component Diagram debe mostrar cómo un container está conformado por components, qué son cada uno de dichos components, sus responsabilidades y los detalles de implementación/tecnología
+En el caso del Bounded Context Subscription & Payments, se ha identificado los siguientes componentes y sus interacciones:
 
-
-
+![alt text](src/images/c4-component-bc-subscriptions.png)
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
