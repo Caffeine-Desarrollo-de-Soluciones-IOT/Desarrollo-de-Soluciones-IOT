@@ -110,6 +110,70 @@ Ciclo: 2024-2
 # CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
 ## 6.1. Software Configuration Management
 ### 6.1.1. Software Development Environment Configuration
+1. **UX Pressia**
+Es una herramienta diseñada para la creación de mapas de experiencia del usuario. Permite al equipo visualizar y documentar la experiencia del usuario en un formato colaborativo, facilitando la identificación de puntos de dolor y oportunidades de mejora. En este proyecto, se utilizará para desarrollar y comunicar la experiencia del usuario en las soluciones de IoT.
+Link: https://uxpressia.com
+
+2. **Miro**
+Es una pizarra colaborativa en línea que permite a los equipos trabajar juntos en tiempo real. Es ideal para la lluvia de ideas, la planificación de proyectos y el diseño de flujos de trabajo. En este proyecto, se utilizará para la colaboración en la definición de requisitos y la creación de diagramas de flujo que guiarán el desarrollo del software.
+Link: https://miro.com
+
+3. **Figma**
+Es una herramienta de diseño de interfaces y prototipado colaborativo que permite a los diseñadores y desarrolladores trabajar juntos en tiempo real. En el contexto del proyecto, se utilizará para diseñar la interfaz de usuario (UI) y crear prototipos interactivos que se validarán con los usuarios finales.
+Link: https://www.figma.com
+
+4. **Oveflow**
+Es una herramienta de diagramación de flujos de usuario que permite a los diseñadores crear recorridos visuales de las interacciones del usuario con la aplicación. Facilita la comunicación entre diseñadores y desarrolladores al ilustrar cómo los usuarios interactuarán con la solución de IoT.
+Link: https://overflow.io
+
+5. **Structurizr**
+Es una herramienta para crear diagramas de arquitectura de software utilizando el lenguaje C4. Permite a los equipos documentar y visualizar la arquitectura de software de manera efectiva. En este proyecto, se utilizará para definir y comunicar la arquitectura de la solución IoT.
+Link: https://structurizr.com
+
+6. **LucidChart**
+Es una herramienta de diagramación en línea que permite crear diagramas de flujo, organigramas y otros gráficos. En este proyecto, se utilizará para documentar visualmente los procesos y flujos de trabajo asociados con el desarrollo de la solución de IoT.
+Link: https://www.lucidchart.com
+
+7. **Vertabelo**
+Es una herramienta de diseño de bases de datos que permite crear, modificar y documentar esquemas de bases de datos. Es útil para el modelado de datos en el proyecto, asegurando que la estructura de la base de datos se alinee con los requisitos del sistema IoT.
+Link: https://www.vertabelo.com
+
+8. **HTML5**
+Es el lenguaje de marcado estándar para crear páginas web. Se utilizará para estructurar el contenido de las aplicaciones web del proyecto, asegurando una base sólida para la interfaz de usuario.
+
+1. **CSS3**
+Es la hoja de estilo utilizada para diseñar la presentación de las aplicaciones web. En este proyecto, se utilizará para estilizar las interfaces de usuario y garantizar una experiencia visual atractiva y coherente.
+
+1.  **JavaScript**
+Es un lenguaje de programación utilizado para desarrollar aplicaciones web interactivas. En el proyecto, se utilizará para implementar la lógica de negocio y las interacciones en la aplicación de IoT.
+
+1.  **Angular Framework**
+Es un framework de desarrollo web para construir aplicaciones web de una sola página. En este proyecto, se utilizará para crear la interfaz del usuario y gestionar el estado de la aplicación IoT.
+Link: https://angular.io
+
+1.  **Angular Material**
+Es una biblioteca de componentes de UI para Angular que sigue las pautas de diseño de Material Design. Se utilizará para implementar componentes de interfaz de usuario coherentes y responsivos en la aplicación.
+Link: https://material.angular.io
+
+1.  **TypeScript**
+Es un superset de JavaScript que añade tipado estático. Se utilizará en el proyecto para mejorar la calidad del código y facilitar el desarrollo al proporcionar herramientas de desarrollo más robustas.
+Link: https://www.typescriptlang.org
+
+1.  **Trello**
+Es una herramienta de gestión de proyectos que utiliza tableros para organizar tareas y proyectos. Se utilizará para gestionar el progreso del proyecto, asignar tareas y hacer seguimiento del trabajo del equipo.
+Link: https://trello.com
+
+1.  **GIT**
+Es un sistema de control de versiones distribuido que permite gestionar el código fuente del proyecto. Se utilizará para llevar un seguimiento de los cambios en el código y colaborar eficientemente entre los miembros del equipo.
+Link: https://git-scm.com
+
+1.  **GitHub**
+Es una plataforma de desarrollo colaborativo que permite almacenar y gestionar repositorios de código usando Git. Se utilizará para alojar el código del proyecto y facilitar la colaboración entre los miembros del equipo.
+Link: https://github.com
+
+1.  **GitFlow**
+Es un flujo de trabajo para Git que define un modelo de ramificación para gestionar el desarrollo. Se utilizará para organizar el trabajo en el proyecto, facilitando la integración de nuevas características y la gestión de lanzamientos.
+
 ### 6.1.2. Source Code Management
 ### 6.1.3. Source Code Style Guide & Conventions
 Aquí el equipo explica e indica las referencias que adoptará para nombrar elementos y programar en los lenguajes que se utilizan en la solución (en este caso HTML, CSS, JavaScript, TypeScript, Java, C#, Kotlin, Swift, u otros según los contraints del proyecto; así como Gherkin para los archivos .feature). Para todos los lenguajes debe aplicar la nomenclatura en inglés. Adicionalmente, adopte convenciones estándares para coding (Vea por ejemplo “HTML Style Guide and Coding Conventions”, “Google HTML/CSS Style Guide”, “Gherkin Conventions for Readable Specifications”, “Angular coding style guide”, “Google Java Style Guide”, “Google TypeScript Style Guide” y “Spring Boot Features” en la sección de Referencias).
