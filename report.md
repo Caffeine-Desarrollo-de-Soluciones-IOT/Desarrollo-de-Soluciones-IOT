@@ -197,6 +197,55 @@ A continuación, se darán a conocer las convenciones, formatos, estilos y entre
 - _Separar los escenarios con comentarios:_ Si se da el caso de tener muchos escenarios en una prueba, es usar los comentarios como separadores para que visualmente sea más organizado, fácil de leer y distinguir mejor.
 
 ### 6.1.4. Software Deployment Configuration
+
+En esta sección especificaremos los pasos necesarios para realizar el despliegue de los productos digitales actuales de la solución. En la fase inicial, se despliega la Landing Page utilizando GitHub Pages y la aplicación Web en Netlify.
+
+**Landing Page - Despliegue en GitHub Pages**
+
+**Pasos para el Despliegue:**
+1. Preparación del Repositorio:
+   * Asegúrate de tener el repositorio de GitHub creado para la Landing Page.
+   * Todos los archivos de la Landing Page (HTML, CSS, JavaScript y activos estáticos) deben estar en el directorio raíz o en una carpeta llamada docs.
+  
+2. Configurar GitHub Pages:
+   * Ve a la sección de Settings en tu repositorio de GitHub.
+   * Desplázate hasta GitHub Pages y selecciona la rama desde la que deseas desplegar tu página (generalmente main o master).
+   * Si los archivos de tu Landing Page están en una carpeta específica, como docs, selecciona esa carpeta en el desplegable.
+
+3. Publicación:
+     * Guarda los cambios. GitHub Pages generará automáticamente una URL donde tu Landing Page estará disponible.
+     * Verifica que la Landing Page sea accesible desde la URL proporcionada por GitHub Pages.
+
+4. Actualizaciones:
+   * Para hacer cambios en la Landing Page, realiza commits y push en el repositorio. GitHub Pages actualizará automáticamente el sitio con los cambios subidos.
+
+**Web Application - Despliegue en Netlify**
+**Pasos para el Despliegue:**
+
+1. Preparación del Proyecto:
+  * Asegúrate de que el proyecto esté correctamente configurado en tu entorno local.
+  * Genera una versión de producción del proyecto con el comando adecuado (ejemplo: npm run build si usas React).
+
+2. Conexión con Netlify:
+   * Inicia sesión en tu cuenta de Netlify.
+   * En el panel de control, selecciona "New site from Git".
+   * Conecta tu repositorio de GitHub donde está alojada la Web Application.
+
+3. Configuración de Despliegue:
+   * Selecciona la rama que deseas desplegar (generalmente main o master).
+   * Especifica el comando de construcción (por ejemplo, npm run build) y la carpeta donde se encuentra la salida (build o dist, dependiendo de tu configuración).
+  
+4. Publicación:
+   * Netlify construirá y desplegará automáticamente la aplicación. Una vez que el despliegue esté completo, recibirás una URL para acceder a la aplicación.
+   * Puedes personalizar la URL o usar un dominio personalizado en la configuración de Netlify.
+5. Actualizaciones:
+   * Para actualizar la Web Application, realiza cambios en el código, haz commits y push. Netlify detectará automáticamente los cambios y reconstruirá el sitio.
+
+**Deployment Diagram (C4 Model)**
+Para esta parte como es una etapa inicial contamos unicamente con nuestra Landing Page y nuestra primera versión de la aplicación Web
+
+![deployment C4 1er sprint](src/images/deploymentc4.jpg)
+
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
 #### 6.2.1.1. Sprint Planning n
