@@ -60,6 +60,10 @@ Ciclo: 2024-2
 
 # CAPÍTULO III: REQUIREMENTS SPECIFICATION
 ## 3.1. To-Be Scenario Mapping
+El To-Be Scenario Mapping es una herramienta clave para visualizar el recorrido ideal de los usuarios al interactuar con un sistema de seguridad IoT. Este enfoque permite identificar y optimizar cada fase del proceso, asegurando que las soluciones se alineen con las necesidades y expectativas de los usuarios.
+
+A través de este mapeo, se busca mejorar la eficiencia y la experiencia del usuario, fomentando la confianza y tranquilidad tanto de los propietarios de inmuebles como de las empresas de seguridad. A continuación, se presentan los To-Be Scenario Mapping para cada segmento.
+
 * **Segmento 1: Dueños de inmuebles**
 
 El To Be Scenario Mapping para los dueños de inmuebles tiene como objetivo visualizar el recorrido ideal que experimentarán estos usuarios al interactuar con un sistema de seguridad IoT. Al identificar cada paso que estos propietarios realizan, desde la investigación hasta el uso diario y mantenimiento del sistema, se puede comprender mejor cómo proporcionar una experiencia fluida y satisfactoria.
