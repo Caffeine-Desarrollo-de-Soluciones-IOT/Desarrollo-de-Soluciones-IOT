@@ -10,7 +10,7 @@ Sección: WV71
 
 Nombre del profesor: Velasquez Nuñez, Angel Augusto
 
-"Informe de TB1"
+"Informe de TP1"
 
 Nombre del startup: VerySafe
 
