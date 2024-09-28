@@ -93,6 +93,100 @@ Ciclo: 2024-2
 Para esta sección, acordamos como equipo ciertos diseños, fuentes, colores, etc. para estar de acorde en todos nuestros diseños y en el momento de programación.
 
 ### 5.1.1. General Style Guidelines
+
+Para esta parte mostraremos nuestra guía organizada de los estilos y herramientas que se estarán utilizando para la contrucción del diseño.
+
+**Brand Overview**
+
+La seguridad es una preocupación creciente en Lima, Perú, debido al aumento de robos e intrusiones en propiedades residenciales y comerciales. Los propietarios buscan soluciones efectivas que no solo sean accesibles, sino también confiables y tecnológicamente avanzadas para proteger lo que más valoran. Sin embargo, las soluciones de seguridad tradicionales tienden a ser costosas y, en muchos casos, ineficientes en ofrecer respuestas rápidas o integrarse con la tecnología moderna.
+
+Nuestra solución, FalconShield, responde a esta necesidad crítica al ofrecer un ecosistema de seguridad IoT (Internet de las Cosas) que incluye sensores avanzados, cámaras inteligentes y sistemas de alarmas, todos integrados en una plataforma centralizada y fácil de usar. Este producto no solo permite monitorear y controlar el estado de seguridad en tiempo real, sino que también se asocia con empresas de seguridad para proporcionar una respuesta rápida y coordinada en caso de emergencias. VerySafe, nuestra empresa, se compromete a garantizar que la seguridad de nuestros usuarios sea accesible, eficaz y moderna.
+
+**Brand Name**
+
+El nombre de nuestra solución es FalconShield. Este surgió de la combinación de dos palabras que simbolizan nuestros valores fundamentales. Falcon, que representa agudeza y vigilancia, alude a la capacidad de nuestro sistema para detectar intrusiones y amenazas de manera precisa y rápida. Shield, que significa escudo, refuerza el concepto de protección y defensa contra cualquier peligro que pueda afectar las propiedades de nuestros usuarios.
+
+Elegimos el nombre en inglés para que sea comercialmente atractivo a nivel global y fácil de recordar en el mercado local. Este enfoque hace que el producto sea accesible y entendible no solo en Perú, sino también para una posible expansión en el futuro. VerySafe, el nombre de nuestra empresa, refleja nuestro compromiso de brindar soluciones que vayan más allá de las expectativas, asegurando una protección "muy segura" para todos nuestros clientes.
+
+A continuación, presentaremos nuestro logo: 
+
+![logo](src/images/logo1.jpg)
+
+**Typography**
+
+La tipografía debe ser clara y fácilmente legible, reflejando profesionalismo y modernidad. Aquí algunas recomendaciones:
+
+* **Fuente primaria:** Lato o Open Sans son excelentes opciones para reflejar tecnología avanzada y claridad. Son fuentes sans-serif modernas y versátiles.
+
+![lato](src/images/lato.png)
+![open sans](src/images/open%20sans.png)
+
+* **Jerarquía de texto:**
+* 
+  * **Títulos y encabezados:** Deben estar en negrita y ser grandes para capturar la atención. Tamaños sugeridos: 24px para el encabezado principal, 20px para subtítulos.
+  * **Cuerpo del texto:** Para mejorar la legibilidad en dispositivos móviles y de escritorio, el tamaño sugerido es entre 16px-18px.
+Botones y CTA (Call to Action): El texto debe ser claro y conciso, con tamaños de entre 14px-16px.
+    ![tipografia](src/images/Typpgraphy.png)
+
+
+**Colors**
+
+Los colores juegan un papel clave en el diseño de VerySafe y FalconShield, y deben reflejar seguridad, confianza y tecnología. Basado en el análisis, tenemos estos colores
+
+**Color Primario : Verde**
+
+El verde es el color primario de nuestra marca, seleccionado para reflejar varios valores clave:
+
+* **Seguridad y protección:** El verde es un color que transmite estabilidad y confianza, características fundamentales para una marca de seguridad.
+* **Tecnología avanzada:** También representa crecimiento y evolución, lo que refuerza el enfoque innovador de FalconShield en la utilización de tecnología IoT avanzada.
+* **Sostenibilidad y modernidad:** El verde es un color que conecta con la idea de un futuro más seguro y sostenible, lo que encaja con nuestra visión de integrar soluciones que sean accesibles para todos.
+
+![src](src/images/verde.jpg)
+
+**Color Secundario: Azul Marino**
+
+El azul marino es el color secundario de la marca, elegido por sus asociaciones con profesionalismo, tecnología avanzada y tranquilidad. El azul marino complementa al verde oscuro y agrega una capa de sofisticación y profundidad visual. Es ideal para utilizar en elementos como los fondos de secciones, textos secundarios y detalles gráficos.
+
+![azul](src/images/azul.jpg)
+
+**Color de estado: Error - Rojo**
+
+Utilizamos el color rojo ya que siempre han estado como el error de algún proceso. Así que usaremos este color en caso el usuario realice una actividad errónea
+
+![rojo](src/images/rojo.jpg)
+
+**Colores Neutros: Gris Claro y Blanco**
+
+Para equilibrar los colores primarios y secundarios, utilizamos el gris claro y el blanco como colores neutros. Estos colores ayudan a proporcionar claridad y simplicidad, lo que es esencial en una plataforma de seguridad donde la información debe ser clara y directa.
+
+![gris](src/images/gris.jpg)
+
+**Spacing**
+
+El espaciado es crucial para mejorar la experiencia del usuario y mantener un diseño limpio y fácil de navegar.
+
+* **Margen y relleno:** Mantén un margen consistente entre secciones principales (al menos 80px en desktop y 40px en móvil) para que el contenido no se vea apretado. Esto facilita la escaneabilidad de la página.
+* **Espaciado entre elementos:** Usa un espaciado generoso entre los elementos de cada sección, por ejemplo, entre un título y un bloque de texto (al menos 20px en desktop, 15px en móvil) y entre tarjetas o bloques de información como los planes de suscripción.
+  
+![spacing](src/images/spaccing.png)
+
+**Tono de Comunicación y Lenguaje**
+Dado que el producto se dirige tanto a usuarios residenciales como a empresas de seguridad, el tono debe ser serio, profesional, y confiable, pero también accesible. Aquí te dejo una guía del tono:
+
+* **Tono General:**
+    * Serio y Formal, pero no distante. Los usuarios deben sentir que están en buenas manos, y la comunicación debe transmitir autoridad en seguridad, pero con un enfoque amigable y fácil de entender.
+  
+* **Aplicación del Tono:**
+  * Botones y llamadas a la acción (CTA): Usa verbos claros y directos, como “Proteger mi hogar”, “Descargar App”, o “Ver más”.
+  * Mensajes de bienvenida y testimonios: Puedes ser un poco más informal y cercano para crear un vínculo con el usuario. Por ejemplo: “Disfruta de la tranquilidad de saber que FalconShield cuida lo que más valoras.”
+  * Instrucciones y mensajes operacionales: El tono debe ser respetuoso y profesional, evitando la jerga técnica innecesaria.
+
+**Referencias y Principios de Diseño**
+Las decisiones de diseño se basan en los principios de Diseño Responsivo y Diseño Inclusivo, asegurando que el contenido sea accesible en cualquier dispositivo y para usuarios con diferentes capacidades visuales. El uso de colores contrastantes, tipografías legibles y espaciados amplios contribuye a una experiencia de usuario óptima.
+
+* Diseño Responsivo: El contenido debe ajustarse correctamente a pantallas de diferentes tamaños, asegurando que las columnas de soluciones y planes se apilen en dispositivos móviles.
+* Accesibilidad: Aplicar una buena relación de contraste entre los colores del texto y el fondo. Añadir textos alternativos a las imágenes para aquellos que usen lectores de pantalla.
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems
