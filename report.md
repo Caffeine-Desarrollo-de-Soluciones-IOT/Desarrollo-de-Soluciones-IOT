@@ -574,6 +574,8 @@ Segmento objetivo Dueños de Inmuebles
 | --- | --- |
 | **User Goal:** Como usuario, deseo ver los detalles de los dispositivos para conocer más acerca de sus capacidades e instalaciones en el inmueble. | ![wireflow-add-area](src/images/w-device.png) |
 | --- | --- |
+| **User Goal:** Como usuario, deseo ver los detalles de las areas para tener conocimiento de los dispositivos que se están usando. | ![wireflow-add-area](src/images/w-view-room.png) |
+| --- | --- |
 
 ### 5.4.2. Applications Mock-ups
 
