@@ -488,22 +488,22 @@ Se presenta el diseño visual y de interacción en formato de wireframes de nues
 
 Tenemos las pantallas generales que vendrían a ser el inicio sesión y registro.
 
-![alt text](image.png)
+![alt text](src/images/webFrame.png)
 Iniciar sesión: En esta pantalla le mostramos al usuario los campos a llenar para ingresas con su cuenta en nuestra plataforma,
 
-![alt text](image-1.png)
+![alt text](src/images/webFrame1.png)
 Registrar cuenta: En esta pantalla le mostramos al usuario los campos a llenar para crearse una cuenta en nuestra plataforma. Se usaron elementos como formas, textos y colores.
 
-![alt text](image-2.png)
+![alt text](src/images/webFrame2.png)
 Mis dispositivos: En esta parte el usuario podra visualizar los dispositivos asociados a su cuenta.
 
-![alt text](image-3.png)
+![alt text](src/images/webFrame3.png)
 Dashboard: En esta pantalla se mostrará un resumen de los eventos de todos los dispositivos de manera grafica.
 
-![alt text](image-4.png)
+![alt text](src/images/webFrame4.png)
 Asistencia: En esta parte el usuario podra contarse para recibir una asistencia tecnica cuando lo requiera.
 
-![alt text](image-5.png)
+![alt text](src/images/webFrame5.png)
 Eventos: En esta pantalla el usuario visualiza los eventos registrados por los dispositivos.
 
 **MOBILE APPLICATION WIREFRAMES**
