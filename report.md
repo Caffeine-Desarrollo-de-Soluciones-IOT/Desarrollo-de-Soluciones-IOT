@@ -1,4 +1,3 @@
-# Report Iot
 
 ![logo](src/images/logo.webp)
 
@@ -2274,3 +2273,4 @@ Enlace de aplicacion web: https://verysafe.netlify.app/
 Las actividades de implementación se han desarrollado de acuerdo a lo planificado en el Sprint Planning, donde se han asignado tareas a cada miembro del equipo y se han realizado reuniones grupales para realizar el despliegue. A continuación, se presentan los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 1:
 
 ![network](src/images/network.jpg)
+
