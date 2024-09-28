@@ -599,7 +599,7 @@ Asimismo contamos dentro de la aplicación con la pantalla principal Home:
 Tenemos tambiens nuestra pantalla donde el usuario podrá ver su información personal.
 | Wireframe | Descripción |
 | -- | -- |
-| ![profile](src/images/mProfile.png) | **Perfil del usuario:** En esta pantalla el usuario podrá ver su información asi como otras funciones adicionales. |
+| ![profile](src/images/MProfile.png) | **Perfil del usuario:** En esta pantalla el usuario podrá ver su información asi como otras funciones adicionales. |
 
 Tenemos tambien nuestras pantallas para que el usuario agregue los dispositivos luego de ser instalados.
 
