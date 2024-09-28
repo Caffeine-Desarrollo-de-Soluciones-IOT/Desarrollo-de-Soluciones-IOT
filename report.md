@@ -141,7 +141,6 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 
     En su búsqueda de una solución, Aaron se mostró abierto a explorar tecnologías de Internet de las Cosas (IoT) que puedan mejorar la seguridad de su hogar. Está interesado en sistemas que no solo ofrezcan protección, sino que también permitan una gestión eficiente a través de notificaciones en tiempo real. Esta funcionalidad podría ayudarlo a sentirse más seguro y al tanto de cualquier situación inusual en su entorno. La posibilidad de monitorear su hogar de manera remota y recibir alertas inmediatas sobre posibles amenazas es una característica que considera fundamental para tomar decisiones informadas y reaccionar rápidamente ante cualquier eventualidad. Asimismo, nos comento que el en sistemas operativos es fanático de windows y android.
 
-
 * **Segmento 2: Empresas de Seguridad**
 - Entrevista N°5:
     - Nombres y apellidos: Diego Acuña
@@ -157,6 +156,16 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 
     Diego está decidido a explorar nuevas opciones y tecnologías que puedan optimizar su sistema de seguridad. Está dispuesto a investigar otros tipos de dispositivos que ofrezcan mayor fiabilidad y rapidez en la comunicación de alertas. Su enfoque proactivo refleja su compromiso con la mejora continua de su empresa, buscando siempre proporcionar un servicio más eficiente y efectivo a sus clientes. La incorporación de soluciones innovadoras podría no solo disminuir los tiempos de respuesta, sino también aumentar la confianza de sus clientes en la seguridad que brinda. Nos comenta además que en su compañía, utilizan mejor el sistema Windows para el monitoreo de las alarmas.
 
+- Entrevista N°6:
+    - Nombres y apellidos: Jorge Luis Quevedo Yucra
+    - Edad: 19 años
+    - Distrito: Chorrillos
+    - Timing: 23:37
+    - Duración: 5:00
+    - Link: [Enlace entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=WkDqqD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+    
+    ![entrevista 5](src/images/interview-6.png)
+Las respuestas de Jorge revelan un enfoque sólido y flexible en la gestión de seguridad mediante tecnologías IoT, demostrando una profunda comprensión de las necesidades actuales del sector. Su empresa se distingue por un firme compromiso con la capacitación constante de su equipo, asegurando que el personal esté altamente preparado para enfrentar los desafíos de un entorno tecnológico en evolución. Además, han adoptado una estrategia proactiva en la integración de soluciones tecnológicas avanzadas, lo que les permite optimizar la eficiencia operativa y mejorar la detección y respuesta ante cualquier posible amenaza. La combinación de estos factores, junto con un enfoque en la mejora continua de sus procesos internos, garantiza que la empresa no solo reaccione rápidamente ante incidentes, sino que también se mantenga a la vanguardia en la protección de activos y la seguridad integral de sus clientes.
 
 ### 2.2.3. Análisis de entrevistas
 ## 2.3 Needfinding
@@ -257,8 +266,9 @@ En esta sección se realiza la demostración de la experiencia del usuario con e
 ![user journey seg 1](/src/images/user-journey-mapping-seg1.png)
 
 - **User Journey Mapping (José Ramirez - Empresa de seguridad)**
-<!-- TODO -->
+![user journey seg 2](/src/images/user-journey-mapping(josé-ramirez-empresa-de-seguridad).png)
 
+Se presenta el User Journey Map para el segmento de Empresa de Seguridad, en el cual se establecen las distintas etapas por las que pasa este usuario durante el uso de la aplicación.
 
 ### 2.3.4. Empathy Mapping
 
@@ -268,7 +278,9 @@ El proceso de elaboración del Empathy Mapping se ha realizado tomando en cuenta
 ![empathy mapping seg 1](/src/images/empathy-mapping-seg1.png)
 
 - **Empathy Mapping (José Ramirez - Empresa de seguridad)**
-<!-- TODO -->
+![empathy mapping seg 2](/src/images/empaty-mapping(jose-ramirez-empresa-de-seguridad).png)
+
+José Ramírez se encuentra en una posición de búsqueda activa de soluciones tecnológicas que mejoren los servicios de seguridad que su empresa ofrece. Su principal desafío es integrar de manera efectiva nuevas tecnologías de videovigilancia IoT sin sacrificar la calidad del servicio ni incrementar demasiado los costos operativos. Está motivado por mantenerse a la vanguardia en un sector altamente competitivo, pero también está preocupado por la complejidad técnica y la compatibilidad de las nuevas soluciones. Su decisión de adoptar un nuevo sistema de seguridad depende en gran medida de la facilidad de implementación, la fiabilidad, y la capacidad para mejorar la experiencia de sus clientes.
 
 ### 2.3.5. As-Is Scenario Mapping
 
@@ -278,7 +290,8 @@ Para la elaboración del As-Is Scenario Mapping se ha seguido el proceso de mape
 ![as-is scenario seg 1](/src/images/as-is-scenario-mapping-seg1.png)
 
 - **As-Is Scenario Mapping (José Ramirez - Empresa de seguridad)**
-<!-- TODO -->
+![as-is scenario seg 1](/src/images/as-is-scenario-mapping-seguridad.png)
+Este As-Is Scenario Mapping refleja el viaje de José Ramírez desde la investigación inicial hasta el uso diario y el mantenimiento de un sistema de videovigilancia IoT, destacando tanto los puntos positivos como los desafíos que enfrenta.
 
 ## 2.4. Ubiquitous Language
 Para el desarrollo de esta sección, como grupo debemos estar alineados con los términos y conceptos claves que son necesarios para la realización del proyecto. Además, nos ayuda a tener un lenguaje en común para entender nuestros objetivos, funcionalidades y benerfios.
