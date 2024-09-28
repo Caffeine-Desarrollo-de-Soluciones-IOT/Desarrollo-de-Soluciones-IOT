@@ -492,18 +492,23 @@ Tenemos las pantallas generales que vendrían a ser el inicio sesión y registro
 Iniciar sesión: En esta pantalla le mostramos al usuario los campos a llenar para ingresas con su cuenta en nuestra plataforma,
 
 ![alt text](src/images/webFrame1.png)
+
 Registrar cuenta: En esta pantalla le mostramos al usuario los campos a llenar para crearse una cuenta en nuestra plataforma. Se usaron elementos como formas, textos y colores.
 
 ![alt text](src/images/webFrame2.png)
+
 Mis dispositivos: En esta parte el usuario podra visualizar los dispositivos asociados a su cuenta.
 
 ![alt text](src/images/webFrame3.png)
+
 Dashboard: En esta pantalla se mostrará un resumen de los eventos de todos los dispositivos de manera grafica.
 
 ![alt text](src/images/webFrame4.png)
+
 Asistencia: En esta parte el usuario podra contarse para recibir una asistencia tecnica cuando lo requiera.
 
 ![alt text](src/images/webFrame5.png)
+
 Eventos: En esta pantalla el usuario visualiza los eventos registrados por los dispositivos.
 
 **MOBILE APPLICATION WIREFRAMES**
@@ -557,6 +562,20 @@ Tenemos tambien nuestras pantallas para que el usuario agregue los nuevos ambien
 ### 5.4.2. Applications Wireflow Diagrams
 En esta sección se presentará los flujos de navegación entre pantallas de nuestra aplicación que visualizará el usuario y la interacción que tendrá con los elementos que presenta cada sección.
 
+**WEB APPLICATION WIREFLOWS:**
+
+| **User Goal:** Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación. | ![alt text](src/images/flow.png) |
+| --- | --- |
+| **User Goal:** Como usuario, quiero controlar mis dispositivos de seguridad desde la aplicación web para armar o desarmar la alarma.. |![alt text](src/images/flow1.png)  |
+| --- | --- |
+| **User Goal:** Como usuario, quiero un resumen de todos los eventos desde una única interfaz para gestionar los dispositivos de manera eficiente. | ![alt text](src/images/flow2.png) |
+| --- | --- |
+| **User Goal:** Como usuario, quiero tener una asistencia tecnica para solucionar problemas con el dispositivo. | ![alt text](src/images/flow3.png)|
+| --- | --- |
+| **User Goal:** Como usuario, quiero ver las eventos registrados por los dispositivos. | ![alt text](src/images/flow4.png) |
+| --- | --- |
+
+
 
 **MOBILE APPLICATION WIREFLOWS:**
 
@@ -576,6 +595,21 @@ Segmento objetivo Dueños de Inmuebles
 | --- | --- |
 
 ### 5.4.2. Applications Mock-ups
+
+**WEB APPLICATION MOCK-UP**
+| Wireframe | Descripción |
+|-- | -- |
+|![alt text](src/images/mweb1.png)| **Inicio de Sesión:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para que ingrese a nuestra aplicación. Utilizamos botones para que el usuario pueda diferenciar |
+| ![alt text](src/images/mweb2.png) | **Registrar una cuenta:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para poder crearse una cuenta. |
+|
+
+| Wireframe | Descripción |
+| -- | -- |
+| ![alt text](src/images/mweb3.png) | **Pantalla Home:** En esta pantalla le mostramos al usuario sus dispositivos, alertas, pendientes y problemas tiene. |
+| ![alt text](src/images/mweb4.png) | **Pantalla Asisstence:** En esta pantalla le mostramos al usuario un medio para que pueda tener asistencia tecnica. |
+| ![alt text](src/images/mweb5.png) | **Pantalla My Devices:** En esta pantalla le mostramos al usuario los dispositivos asociados a su cuenta. |
+| ![alt text](src/images/mweb6.png) | **Pantalla My Devices:** En esta pantalla le mostramos al usuario los dispositivos asociados a su cuenta. |
+
 
 **MOBILE APPLICATION MOCK-UP**
 
@@ -605,7 +639,7 @@ Tenemos tambien nuestras pantallas para que el usuario agregue los dispositivos 
 
 | Wireframe | Descripción |
 | -- | -- |
-| ![pantalla inicial de dispositivos](src/images/MADD%20DEVICE}.png) | **Pantalla principal de los Dispositivos:** En esta pantalla le presentaremos al usuario los dispositivos adquiridos, asi como un boton que puede agregar luego de obtener más|
+| ![pantalla inicial de dispositivos](src/images/MADD%20DEVICE.png) | **Pantalla principal de los Dispositivos:** En esta pantalla le presentaremos al usuario los dispositivos adquiridos, asi como un boton que puede agregar luego de obtener más|
 | ![seleccion de conexion](src/images/MAD%203.png) | **Selección tipo de conexión con el dispositivo nuevo:** En esta pantalla el usuario podrá elegir el tipo de conexión con su nuevo dispositivo en este caso Bluetooth |
 | ![tipo de nuevo dispositivo](src/images/MAD%204.png) | **Selección del nuevo dispositivo:** En esta pantalla el usuario podrá seleccionar el nuevo dispositivo adquirido para poder agregarlo. |
 | ![seleccion de ambiente](src/images/MAD%205.png) | **Selección de ambiente:** En esta pantalla el usuario podrá elegir en que ambiente de su inmueble fue colocado el nuevo dispositivo |
