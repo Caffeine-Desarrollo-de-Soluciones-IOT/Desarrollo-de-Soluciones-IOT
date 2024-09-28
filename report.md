@@ -477,17 +477,23 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
 </table>
 
 #### 6.2.1.3. Development Evidence for Sprint Review
+
+Para el despliegue de la aplicación web utilizamos Netlify: 
+Enlace de la aplicacion web: https://verysafe.netlify.app/
+
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
+
+Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro iot device.
+
+![team](src/images/team.jpg)
+
 #### 6.2.1.5. Execution Evidence for Sprint Review
-#### 6.2.1.6. Services Documentation Evidence for Sprint Review
-#### 6.2.1.7. Software Deployment Evidence for Sprint Review
-#### 6.2.1.8. Team Collaboration Insights during Sprint
+
+#### 6.2.1.6. Software Deployment Evidence for Sprint Review
+
+Enlace de aplicacion web: https://verysafe.netlify.app/
+
+#### 6.2.1.7. Team Collaboration Insights during Sprint
 Las actividades de implementación se han desarrollado de acuerdo a lo planificado en el Sprint Planning, donde se han asignado tareas a cada miembro del equipo y se han realizado reuniones grupales para realizar el despliegue. A continuación, se presentan los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 1:
 
-- **Landing Page:**
-  - Gráfico:
-  - Interpretación:
-  
-- **Web Application:**
-  - Gráfico:
-  - Interpretación:
+![network](src/images/network.jpg)
