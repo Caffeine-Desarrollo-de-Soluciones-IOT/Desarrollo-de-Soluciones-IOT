@@ -574,7 +574,6 @@ Segmento objetivo Dueños de Inmuebles
 | --- | --- |
 | **User Goal:** Como usuario, deseo ver los detalles de los dispositivos para conocer más acerca de sus capacidades e instalaciones en el inmueble. | ![wireflow-add-area](src/images/w-device.png) |
 | --- | --- |
-| **User Goal:** Como usuario, deseo ver los detalles de las areas para tener conocimiento de los dispositivos que se están usando. | ![wireflow-add-area](src/images/w-view-room.png) |
 
 ### 5.4.2. Applications Mock-ups
 
@@ -627,4 +626,17 @@ Tenemos tambien nuestras pantallas para que el usuario agregue los nuevos ambien
 | ![especificaciones del nuevo ambiente](src/images/Living%20Room.png) | **Detalles del ambiente:** En esta pantalla el usuario verá que dispositivos se encuentran en el ambiente seleccionado. |
 
 ### 5.4.3. Applications User Flow Diagrams
+
+**MOBILE APPLICATION USERFLOWS:**
+Enlace para una mejor visualización: https://overflow.io/s/3C8AFWFU
+
+| -- | -- |
+| -- | -- |
+| **USER GOAL:** Como usuario deseo crear una cuenta | ![flow1](src/images/userflow2.jpg) |
+| **USER GOAL:** Como usuario deseo iniciar sesión con mi cuenta previamente creada | ![flow2](src/images/userflow1.jpg) |
+| **USER GOAL:** Como usuario deseo poder visualizar mi perfil | ![flow3](src/images/FLOW3.jpg) |
+| **USER GOAL:** Como usuario, deseo agregar un nuevo dispositivo para que pueda tener control de otra area de mi inmueble. | ![flow4](src/images/flow4.jpg) |
+| **USER GOAL:** Como usuario, deseo agregar una nueva area para tener control con los dispositivos IoT. | ![flow5](src/images/folw5.jpg) |
+
+
 ## 5.5. Applications Prototyping
