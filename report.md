@@ -1025,7 +1025,6 @@ Este diagrama de base de datos representa las tablas y las relaciones dentro del
 
 ![alt text](/src/images/devices-db.png)
 
-<!-- TODO -->
 ### 4.2.3. Bounded Context: Area
 #### 4.2.3.1. Domain Layer
 - Entities:
@@ -1287,16 +1286,6 @@ En esta parte presentaremos el Diagrama de componentes en el modelo C4, mostrare
 En el diagrama de base de datos de usuario podemos ver la relacion existente de las tablas dentro del bounded context "Event". Aqui definimos la tabla event, en el cual almacenamos información importante del evento o suceso que suceda en el momento que pueda activarse una alarma, además esta esta relacionado con un tipo de evento para una mejor gestión al momento de registrar el evento ocurrido. Los atributos los cuales manejamos incluyen identificadores unicos para cada entidad asi como detalles principales que debemos tener para la aplicacion. 
 
 ![Bounded Context Event](src/images/database%20event.png)
-=======
-### 4.2.X. Bounded Context: <Bounded Context Name>
-#### 4.2.X.1. Domain Layer
-#### 4.2.X.2. Interface Layer
-#### 4.2.X.3. Application Layer
-#### 4.2.X.4. Infrastructure Layer
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
-##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-##### 4.2.X.6.2. Bounded Context Database Design Diagram
 
 # CAPÍTULO V: SOLUTION UI/UX DESIGN
 ## 5.1. Style Guidelines
