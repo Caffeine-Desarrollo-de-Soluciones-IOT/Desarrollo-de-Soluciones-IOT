@@ -135,8 +135,6 @@ En esta sección se presenta la configuración del entorno de desarrollo de soft
 
 ### 6.1.2. Source Code Management
 ### 6.1.3. Source Code Style Guide & Conventions
-Aquí el equipo explica e indica las referencias que adoptará para nombrar elementos y programar en los lenguajes que se utilizan en la solución (en este caso HTML, CSS, JavaScript, TypeScript, Java, C#, Kotlin, Swift, u otros según los contraints del proyecto; así como Gherkin para los archivos .feature). Para todos los lenguajes debe aplicar la nomenclatura en inglés. Adicionalmente, adopte convenciones estándares para coding (Vea por ejemplo “HTML Style Guide and Coding Conventions”, “Google HTML/CSS Style Guide”, “Gherkin Conventions for Readable Specifications”, “Angular coding style guide”, “Google Java Style Guide”, “Google TypeScript Style Guide” y “Spring Boot Features” en la sección de Referencias).
-
 A continuación, se darán a conocer las convenciones, formatos, estilos y entre otras propiedades de los lenguajes trabajados en la presente solución las cuales son: HTML, JavaScript/TypeScript, Java y CSS. Además, por el lado de las pruebas de aceptación también se darán a conocer dichos temas para el lenguaje Gherkin.
 
 **HTML:** Se hará uso de la guía “HTML Style Guide and Coding” de la página W3Schools, la cual menciona las convenciones y estándares de este lenguaje de etiquetas. Hemos considerado las siguientes como las más importantes:
