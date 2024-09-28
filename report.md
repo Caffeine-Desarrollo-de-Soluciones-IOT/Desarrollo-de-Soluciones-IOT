@@ -199,11 +199,225 @@ A continuación, se darán a conocer las convenciones, formatos, estilos y entre
 ### 6.1.4. Software Deployment Configuration
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
-#### 6.2.1.1. Sprint Planning n
-#### 6.2.1.2. Sprint Backlog n
+#### 6.2.1.1. Sprint Planning 1
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint #</b>
+        </td>
+        <td>
+            <b>Sprint 1</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            20/09/24         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            16:00         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Canal de voz en Discord      
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+            Integrantes del equipo  
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Gabriela Soledad Nomberto Ramos <br/>
+            - Dennis Piero Quevedo Yucra <br/>
+            - Max Dayson Sabino Arostegui  <br/>
+            - Elvia Guadalupe Arteaga Cruz <br/>    
+            - Jamutaq Piero Ortega Vélez <br/> 
+        </td>
+    </tr>
+      </tr>
+       <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo del Landing Page y la lógica de negocio de la plataforma. Se desplegó el landing page de forma exitosa.
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+        Se logró cumplir con los objetivos planteados en el Sprint 1, sin embargo, se identificaron oportunidades de mejora en la comunicación y coordinación del equipo.
+        </td>
+    </tr>
+     <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+    </tr>
+      <tr align="left">
+        <td>
+            <b>Sprint 1 Velocity</b>
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+</table> 
+
+#### 6.2.1.2. Sprint Backlog 1
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+       <td colspan="1"><b>Sprint #</b></td>
+       <td colspan="7"><b>Sprint 1</b></td>
+     </tr>
+     <tr>
+       <td colspan="2"><b>User Story</b></td>
+       <td colspan="6"><b>Work-Item / Task</b></td>
+     </tr>
+     <tr>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Description</b></td>
+       <td><b>Estimation(Hours)</b></td>
+       <td><b>Assigned To</b></td>
+       <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+     </tr>
+     <tr>
+       <td rowspan="3">HU-01	</td>
+       <td rowspan="3">Ver historial de eventos</td>
+       <td>T01</td>
+       <td>Creación del componente</td>
+       <td>Crear y tener los archivos de código fuente necesarios  </td>
+       <td>0.1</td>
+       <td>Jamutaq O.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T02</td>
+       <td>Estructuración del componente (UI)</td>
+       <td>Implementar el código HTML necesario</td>
+       <td>2</td>
+       <td>Jamutaq O.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T03</td>
+       <td>Estilado del componente</td>
+       <td>Agregar los estilos correspondientes (desde una archivo SCSS o de Angular Material)</td>
+       <td>2</td>
+       <td>Jamutaq O.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+    </tr>
+   <tr>
+       <td rowspan="3">HU-03	</td>
+       <td rowspan="3">Controlar dispositivos de seguridad</td>
+       <td>T04</td>
+       <td>Creación de la vista</td>
+       <td>Crear el componente para la vista y configurar su ruta</td>
+       <td>0.5</td>
+       <td>Elvia A.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T05</td>
+       <td>Creación de subcomponentes necesarios</td>
+       <td>Crear o importar componentes como cards, botones y entre otros</td>
+       <td>2</td>
+       <td>Elvia A.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T06</td>
+       <td>Creación de los servicios</td>
+       <td>Crear los servicios necesarios como llamadas a APIs</td>
+       <td>2</td>
+       <td>Elvia A.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="3">HU-12</td>
+       <td rowspan="3">Gestión de dispositivos conectados	</td>
+       <td>T07</td>
+       <td>Creación de la vista</td>
+       <td>Crear el componente para la vista y sus rutas</td>
+       <td>1</td>
+       <td>Max D.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T08</td>
+       <td>Creación de subcomponentes</td>
+       <td>Crear o importar componentes necesarios</td>
+       <td>2</td>
+       <td>Max D.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T09</td>
+       <td>Creación de los servicios</td>
+       <td>Crear kos servicios para obtener los datos</td>
+       <td>2</td>
+       <td>Max D.</td>
+       <td>Done</td>
+    </tr>
+</table>
+
 #### 6.2.1.3. Development Evidence for Sprint Review
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 #### 6.2.1.5. Execution Evidence for Sprint Review
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
 #### 6.2.1.8. Team Collaboration Insights during Sprint
+Las actividades de implementación se han desarrollado de acuerdo a lo planificado en el Sprint Planning, donde se han asignado tareas a cada miembro del equipo y se han realizado reuniones grupales para realizar el despliegue. A continuación, se presentan los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 1:
+
+- **Landing Page:**
+  - Gráfico:
+  - Interpretación:
+  
+- **Web Application:**
+  - Gráfico:
+  - Interpretación:
