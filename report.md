@@ -482,6 +482,30 @@ Para esta parte como grupo explicaremos nuestro diseños Wireframes y Mock-ups d
 
 ### 5.4.1. Applications Wireframes
 
+**WEB APPLICATION WIREFRAMES**
+
+Se presenta el diseño visual y de interacción en formato de wireframes de nuestro producto digital.
+
+Tenemos las pantallas generales que vendrían a ser el inicio sesión y registro.
+
+![alt text](image.png)
+Iniciar sesión: En esta pantalla le mostramos al usuario los campos a llenar para ingresas con su cuenta en nuestra plataforma,
+
+![alt text](image-1.png)
+Registrar cuenta: En esta pantalla le mostramos al usuario los campos a llenar para crearse una cuenta en nuestra plataforma. Se usaron elementos como formas, textos y colores.
+
+![alt text](image-2.png)
+Mis dispositivos: En esta parte el usuario podra visualizar los dispositivos asociados a su cuenta.
+
+![alt text](image-3.png)
+Dashboard: En esta pantalla se mostrará un resumen de los eventos de todos los dispositivos de manera grafica.
+
+![alt text](image-4.png)
+Asistencia: En esta parte el usuario podra contarse para recibir una asistencia tecnica cuando lo requiera.
+
+![alt text](image-5.png)
+Eventos: En esta pantalla el usuario visualiza los eventos registrados por los dispositivos.
+
 **MOBILE APPLICATION WIREFRAMES**
 
 Presentaremos nuestro diseño visual en el formato de wireframe que nos da una visión de bajo nivel al diseño que quisieramos lograr. Tengamos en cuenta que la aplicación móvil solo va dirigida a un segmento objetivo que es el Dueño de Inmueble.
