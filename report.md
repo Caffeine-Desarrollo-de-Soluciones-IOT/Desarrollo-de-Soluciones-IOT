@@ -466,6 +466,26 @@ Tenemos tambien nuestras pantallas para que el usuario agregue los nuevos ambien
 | ![especificaciones del nuevo ambiente](src/images/Room%20Especification.png) | **Detalles del ambiente:** En esta pantalla el usuario verá que dispositivos se encuentran en el ambiente seleccionado. |
 
 ### 5.4.2. Applications Wireflow Diagrams
+En esta sección se presentará los flujos de navegación entre pantallas de nuestra aplicación que visualizará el usuario y la interacción que tendrá con los elementos que presenta cada sección.
+
+
+**MOBILE APPLICATION WIREFLOWS:**
+
+Segmento objetivo Dueños de Inmuebles
+
+| **User Goal:** Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación. | ![wireflow-register](src/images/w-register.png) |
+| --- | --- |
+| **User Goal:** Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación. | ![wireflow-login](src/images/w-login.png) |
+| --- | --- |
+| **User Goal:** Como usuario, deseo ingresar a mi perfil para visualizar los datos que presento en la aplicación. | ![wireflow-profile](src/images/w-profile.png) |
+| --- | --- |
+| **User Goal:** Como usuario, deseo agregar un nuevo dispositivo para que pueda tener control de otra area de mi inmueble. | ![wireflow-add-device](src/images/w-add-device.png) |
+| --- | --- |
+| **User Goal:** Como usuario, deseo agregar una nueva area para tener control con los dispositivos IoT. | ![wireflow-add-area](src/images/w-create-area.png) |
+| --- | --- |
+| **User Goal:** Como usuario, deseo ver los detalles de los dispositivos para conocer más acerca de sus capacidades e instalaciones en el inmueble. | ![wireflow-add-area](src/images/w-device.png) |
+| --- | --- |
+
 ### 5.4.2. Applications Mock-ups
 
 **MOBILE APPLICATION MOCK-UP**
