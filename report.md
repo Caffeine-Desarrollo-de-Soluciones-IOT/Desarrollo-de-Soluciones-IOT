@@ -29,1372 +29,63 @@ Mes y año: Agosto 2024
 Ciclo: 2024-2
 
 ## Registro de Versiones del Informe
-| Version | Fecha| Autor | Descripción de la Modificación |
-|-----------|-----------|-----------|-----------|
-| 0.1 | 27/08/2023 | Arteaga, Elvia | Lean UX Proccess |
-| 0.2 | 27/08/2023 | Nomberto, Gabriela | Antecedentes y Problemática |
-| 0.3 | 29/08/2023 | Ortega, Jamutaq | Creacion del repositorio backend, Needfinding |
-| 0.4 | 30/08/2023 | Sabino, Max | Estrategias y Tacticas frene a competidores, Diseño de entrevistas |
-| 0.5 | 29/08/2023 | Quevedo, Dennis | Descripcion de la Startup, Needfinding |
-| 0.6 | 31/08/2023 | Quevedo, Dennis | Segmentos Objetivos|
-| 0.7 | 1/09/2023 | Ahuanari, Maria | Desarrollo de Bounded Context Physiotherapist Selection and Review Management |
-| 0.8 | 4/09/2023 | Todos los participantes | Registro de entrevista y análisis de entrevista |
-| 0.9 | 5/09/2023 | Nomberto, Gabriela | Ubiquitous Language |
-| 0.10 | 5/09/2023 | Arteaga, Elvia | To-be Scenario Mapping |
-| 0.11 | 7/09/2023 | Quevedo, Dennis | Impact Mapping |
-| 0.11 | 7/09/2023 | Todos los participantes | EventStorming, User Stories, Tactical-Level Domain-Driven Design |
-
 # Student Outcome
-| Criterio específico | Acciones realizadas | Conclusiones |
-|----------------------|----------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **TB1:** <br> **Max Dayson Sabino Arostegui:** <br> Colabore en todos los capitulos con los puntos: estrategia y tácticas frente a competidores, product backlog, diseños de entrevista, registro de entrevista y con el bounded context devices. Todo esto me ayudó a fomentar el trabajo en equipo <br> **Gabriela Nomberto Ramos** <br> Colabore en todos los capitulos tanto como la definicion y focalziacion del alcance de nuestro producto asi como las arquitecturas, modelos y mejoras continuas |Concluimos que las reuniones y las mejoras continuas entre todos nos ayuda a mejorar el reporte de trabajo y poder colaborar todo de forma equitativa |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **TB1:** <br> **Max Dayson Sabino Arostegui:** <br> Durante las reuniones en el aula planificamos las tareas y definimos las metas. En cada reunión revisamos el avance para recalcar los objetivos <br> **Gabriela Nomberto Ramos** <br> Tuvimos reuniones en el salón de clase el cual nos ayudo mucho a definir lo que cada uno debe de hacer, asimismo por medio de un grupo de WhatsApp pudimos absolver algunas dudas |Para este apartado, todos aportamos en la estructuracion y llenado del reporte, trabajando asi en grupo y entendiendonos entre todos |
-
 # CAPÍTULO I: INTRODUCTION
 ## 1.1 Startup Profile
 ### 1.1.1 Descripción de la Startup
-Verysafe está abordando una necesidad crítica de mejorar la seguridad de inmuebles en Lima, Perú. Con el aumento de los delitos relacionados con propiedades en los últimos años, tanto los propietarios como las empresas de seguridad están buscando formas más eficientes de proteger sus bienes. Muchas empresas de seguridad enfrentan dificultades para mejorar sus servicios, lo que deja a las propiedades vulnerables a robos y otros crímenes, causando importantes pérdidas materiales y exponiéndolas a riesgos continuos.
-
-Para responder a esta creciente demanda, hemos fundado Verysafe, una empresa dedicada al desarrollo de dispositivos de seguridad innovadores que resuelvan estos problemas urgentes. Nuestra misión es brindar a los dueños de inmuebles y a las empresas de seguridad acceso rápido y confiable a la información sobre quién está ingresando a sus propiedades. Estamos aprovechando la tecnología avanzada, como sensores de movimiento y proximidad, para proporcionar datos en tiempo real que mejoran el monitoreo y la detección de amenazas.
-
-Nuestra visión es convertirnos en líderes en tecnología de seguridad, resolviendo los desafíos más críticos de la seguridad de inmuebles en Perú, y eventualmente, expandir nuestras soluciones a nivel mundial.
-
 ### 1.1.2 Perfiles de integrantes del equipo
-- **Elvia Guadalupe Arteaga Cruz:** Soy una estudiante de la carrera de ingeniería de software. Ingresé a la universidad para estudiar ingeniería mecatrónica, pero el mundo de la programación siempre me gustó más, es por ello que decidí cambiarme de carrera. Me gusta mucho la tecnología y las grandes cosas que se pueden hacer con ella. Tengo la ilusión de crear productos y servicios que ayuden a facilitar la vida de las personas y que nos ayuden a crecer como sociedad.
-  
-- **Max Dayson Sabino Arostegui:** Soy estudiante de Ingeniería de Software y me interesa especialmente el machine learning y la ciberseguridad. Tengo experiencia con la metodología ágil SCRUM y estoy familiarizado con varios frameworks y lenguajes de programación, como Angular, Vue, C++ y Python. Además, poseo habilidades blandas importantes como el trabajo en equipo, asertividad y cooperación.
-
-- **Gabriela Soledad Nomberto Ramos:** Soy estudiante de la carrera de Ingeniería de Software en el 9no ciclo. Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Además, soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión.
-
-- **Dennis Piero Quevedo Yucra:** Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 9no ciclo. Tengo conocimientos en múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible.
-
-- **Jamutaq Piero Ortega Vélez:** Soy estudiante de la carrera de Ingeniería de Software, tengo 22 años y me encuentro en el 7mo ciclo. Me considero una persona honrada, respetuosa y responsable, siempre me gusta aportar y ayudar a mi equipo de trabajo. Poseo una gran experiencia en el desarrollo de soluciones backend con tecnologías que como Spring Boot con Java, .NET Core con C# y Node.js con JS y TS. Además, también me apasiona el mundo del DevOps y tecnologías cloud. Me gusta mucho la música y la meditación, y en mis tiempos libres me dedico a caminar y a reflexionar sobre la vida.
-
 ## 1.2 Solution Profile
-
-En este apartado daremos una explicación detallada del producto de software que presentaremos como factor innovador y la forma de monetización
-
-**Company Name**
-
-Decidimos nombrar nuestra empresa "VerySafe," una combinación de las palabras en inglés "Very" y "Safe." "Very" significa "muy," lo que refleja nuestro compromiso de ofrecer un producto que vaya más allá de las expectativas. "Safe" significa "seguro," y captura la esencia de nuestra misión de brindar dispositivos que garanticen la seguridad de los inmuebles. Así, nace VerySafe, una empresa dedicada a proporcionar soluciones de seguridad de alta calidad, comprometida a proteger lo que más valoras.
-
-**Product Name**
-
-Decidimos llamar a nuestro conjunto de productos "FalconShield." Este nombre combina dos palabras en ingléS, primero "Falcon," que hace referencia al halcón, un símbolo de agudeza y vigilancia, y "Shield," que significa escudo, representando protección. Así, "FalconShield" evoca la imagen de un guardián alerta y confiable, reflejando nuestro compromiso de ofrecer productos que aseguren la protección y seguridad de los inmmuebles de nuestros clientes. Optamos por este nombre en inglés para hacerlo más atractivo y comercializable en el mercado global, ya que el inglés es ampliamente reconocido y comprendido en todo el mundo.
-
-**Product Description**
-
-FalconShield es una innovadora línea de dispositivos de seguridad diseñados para proteger inmuebles de manera integral. Nuestra oferta incluye una variedad de soluciones avanzadas, como sistemas de sesores y alarmas inteligentes, que se adaptan a las necesidades específicas de cada cliente. Los usuarios podrán acceder a una interfaz sencilla y eficiente, donde podrán controlar y supervisar todos los dispositivos conectados. Además, FalconShield se integra con otros servicios y plataformas de seguridad, permitiendo un monitoreo continuo. Al utilizar nuestros productos, los clientes tendrán la tranquilidad de saber que su propiedad está protegida por una tecnología de vanguardia, respaldada por un equipo de expertos dedicados a brindar un servicio de excelencia. Obteniendo convenios con empresas para el seguimiento de seguridad y empresas de mantenimientos que se le pueda ofrecer a los productos que cada cliente solicite.
-
-**Monetización**
-
-VerySafe generará ingresos de forma en subscripciones y/o alquileres de nuestros productos
-
 ### 1.2.1  Antecedentes y problemática
-
-Para la realizacion de este segmento utilizaremos la técnica de las 5W y 2H
-
-**Descripción de la Problemática**
-
-Nuestro software se enfoca en el sector inmobiliario, dado que hemos evidenciado un incremento en cuanto a robos, intrusiones y actos vandálicos y la protección del hogar es primordial, por ende la diversidad de soluciones que existen en el mercado llegan a ser costosas. Es por esto que "VerySafe" busca cubrir estas necesidades de seguridad y protección de una forma más accesibles a la mayuor cantidad de personas
-
-**Herramienta 5W y 2H**
-- **What - ¿Cuál es el problema?**
-  
-  El problema principal es el aumento de robos, intrusiones y actos vandálicos en inmuebles de Lima Metropolitana. La seguridad de los hogares y propiedades se ve comprometida, y las soluciones disponibles en el mercado suelen ser costosas, limitando su accesibilidad para la mayoría de la población.
-
-- **When - ¿Cuándo sucede el problema?**
-
-  Este problema es persistente y puede ocurrir en cualquier momento, pero es particularmente crítico durante las noches y en momentos en que los propietarios no están en sus hogares. Además, en épocas festivas o de alta movilidad, los incidentes tienden a aumentar.
-
-- **Where - ¿Dónde surge el problema?**
-
-  El problema surge principalmente en zonas urbanas de Lima Metropolitana, donde la densidad de población y la disparidad económica generan áreas con altos índices de delincuencia. Tanto en barrios residenciales como en zonas comerciales, la vulnerabilidad a estos actos es significativa.
-
-- **Who - ¿Quienes son afectados por el problema?**
-
-  Los principales afectados son los propietarios de viviendas que carecen de un sistema de seguridad de calidad.
-
-- **Why - ¿Cuál es la causa del problema?**
-
-  La causa del problema radica en la falta de seguridad adecuada en muchas propiedades, combinada con la creciente actividad delictiva en la región. Además, la accesibilidad limitada a sistemas de seguridad avanzados debido a su alto costo agrava la situación, dejando a muchas personas y negocios vulnerables.
-
-- **How - ¿Cómo se llevan a cabo los hechos?**
-
-  Los robos e intrusiones suelen llevarse a cabo mediante el forzamiento de cerraduras, rotura de ventanas o el acceso no autorizado a través de puntos vulnerables de las propiedades. Los delincuentes aprovechan la falta de sistemas de seguridad activos o la ausencia de los propietarios para cometer estos actos.
-
-- **How Much - ¿Cuál es la magnitud del problema?**
-
-  El delito de robo en viviendas ha experimentado un incremento significativo en el área urbana del Perú, especialmente en Lima Metropolitana. Según el Instituto Nacional de Estadística e Informática (INEI), en 2022, el 9.9 % de las viviendas fueron afectadas por este tipo de delito. Este porcentaje aumentó a 12.9 % en 2023, y para abril de 2024, ya se había alcanzado el 13.1 %. Estos datos evidencian una preocupante tendencia al alza en la frecuencia de robos a viviendas, lo que subraya la urgencia de implementar soluciones de seguridad más accesibles y efectivas para proteger a los hogares.
-
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
-**Domain:** Seguridad IoT para el hogar
-
-**Customer Segments:**
-
-1. **Usuarios Residenciales:** Personas que buscan proteger sus viviendas mediante sistemas de seguridad.
-2. **Empresas de Seguridad:** Compañías encargadas de responder a emergencias activadas por alarmas de seguridad.
-3. **Empresas de Instalación y Mantenimiento:** Proveedores que instalan, mantienen y gestionan dispositivos de seguridad en viviendas.
-
-**Pain Points:**
-
-**1. Usuarios Residenciales:**
-
-- **Acceso Limitado a Información:** Dificultad para obtener datos en tiempo real sobre el estado de los dispositivos y acceder a imágenes en vivo o grabaciones pasadas.
-- **Falta de Control Centralizado:** Necesidad de gestionar múltiples dispositivos y aplicaciones, lo que resulta en una experiencia de usuario fragmentada.
-- **Respuesta Lenta en Emergencias:** La integración con las empresas de seguridad puede ser lenta, afectando la rapidez en la gestión de incidentes.
-
-**2. Empresas de Seguridad:**
-
-- **Falta de Información en Tiempo Real:** Limitaciones para acceder a datos cruciales durante emergencias, afectando la toma de decisiones.
-- **Coordinación Ineficiente:** Dificultades para coordinarse con los usuarios en la gestión de alertas y respuesta a incidentes.
-
-**3. Empresas de Instalación y Mantenimiento:**
-
-- **Gestión del Mantenimiento:** Dificultad para rastrear el estado de los dispositivos y coordinar las tareas de mantenimiento preventivo y correctivo.
-- **Notificación de Fallos:** Falta de un sistema efectivo para recibir alertas sobre fallos en los dispositivos o necesidades de instalación.
-
-**Gap:**
-
-Actualmente, los sistemas de seguridad disponibles no integran eficazmente la gestión de dispositivos, la respuesta a emergencias y la administración del mantenimiento en una plataforma unificada. Además, la principal empresa competidora no tiene una alianza con una empresa de seguridad y solo llama a la policía nacional en caso de alertas, lo que puede resultar en una respuesta menos especializada y menos eficiente en comparación con un equipo de seguridad propio o aliado. Esto representa una oportunidad para ofrecer una solución más completa y eficiente.
-
-**Visión/Estrategia:**
-
-Desarrollar una solución de seguridad IoT innovadora que integre dispositivos de seguridad con una interfaz unificada y fácil de usar, mejorando la gestión en tiempo real, la coordinación en emergencias y la eficiencia en el mantenimiento. La estrategia incluye formar alianzas con empresas de seguridad para proporcionar una respuesta más eficaz y especializada, y ofrecer una plataforma que permita a los usuarios residenciales, empresas de seguridad y empresas de mantenimiento operar de manera más eficiente.
-
-**Initial Segment:**
-
-El segmento inicial será ***Usuarios Residenciales***, ya que estos son los clientes finales que utilizarán el sistema de seguridad de manera directa. Su experiencia y satisfacción con la plataforma serán fundamentales para establecer la aceptación y adopción del producto. La solución debe abordar sus necesidades de acceso a información en tiempo real, gestión centralizada de dispositivos y respuesta rápida a incidentes, destacando la ventaja competitiva de contar con una alianza con empresas de seguridad.
-
 #### 1.2.2.2 Lean UX Assumptions
-**Suposiciones sobre los Usuarios y sus Necesidades:**
-
-- Los usuarios residenciales valoran un sistema de seguridad intuitivo que les permita monitorear y controlar dispositivos desde cualquier lugar.
-- Las empresas de seguridad necesitan acceso instantáneo a datos relevantes para responder eficazmente a emergencias.
-- Las empresas de mantenimiento requieren notificaciones automáticas sobre fallos y necesidades de mantenimiento para gestionar el mantenimiento de forma proactiva.
-
-**Suposiciones sobre el Comportamiento de los Dispositivos:**
-
-- Los dispositivos de seguridad funcionarán de manera confiable con conectividad Wi-Fi.
-- Las actualizaciones de firmware podrán realizarse de forma automática y remota sin interrumpir el servicio.
-- Las baterías de respaldo serán adecuadas para mantener el funcionamiento durante cortes de energía.
-
-**Suposiciones sobre la Tecnología Utilizada:**
-
-- Wi-Fi proporcionará una conectividad adecuada y estable entre los dispositivos y las aplicaciones.
-- AWS ofrecerá una solución segura y escalable para el almacenamiento en la nube.
-- La arquitectura basada en microservicios permitirá escalar el sistema de manera eficiente.
-
-**Suposiciones sobre la Experiencia del Usuario:**
-
-- Los usuarios prefieren una interfaz simple y directa para la gestión de dispositivos.
-- Las notificaciones push y alertas automáticas serán eficaces para mantener a los usuarios informados sobre eventos importantes.
-- La integración de funcionalidades en una única aplicación mejorará la experiencia del usuario.
-
 #### 1.2.2.3 Lean UX Hypothesis Statements
-
-1. **Facilidad de Uso:**
-- ***Hipótesis:*** Creemos que si la interfaz de usuario es intuitiva y fácil de usar, entonces los usuarios residenciales estarán más satisfechos y serán más propensos a adoptar y utilizar el sistema de manera continua.
-- **Validación:** Sabremos que estamos en lo correcto cuando veamos la siguiente retroalimentación del mercado:
-  - *Retroalimentación Cualitativa:* Comentarios positivos de los usuarios sobre la facilidad de navegación y la gestión de dispositivos durante las pruebas de usabilidad.
-  - *Retroalimentación Cuantitativa:* Altas tasas de adopción de usuarios y bajas tasas de deserción en las métricas de participación de usuarios.
-  - *Cambio en el Indicador Clave de Rendimiento:* Mejora en los puntajes de satisfacción del usuario y una disminución en las solicitudes de soporte relacionadas con problemas de usabilidad.
-
-2. **Acceso a Datos en Tiempo Real:**
-
-- ***Hipótesis:*** Creemos que si las empresas de seguridad tienen acceso inmediato a datos relevantes como imágenes de cámaras y alertas, entonces su eficacia para responder a emergencias mejorará significativamente.
-- ***Validación:*** Sabremos que estamos en lo correcto cuando veamos la siguiente retroalimentación del mercado:
-  - *Retroalimentación Cualitativa:* Comentarios positivos de las empresas de seguridad sobre la mejora en la toma de decisiones y en los tiempos de respuesta.
-  - *Retroalimentación Cuantitativa:* Reducción en los tiempos de respuesta a incidentes en comparación con sistemas que no tienen acceso a datos en tiempo real.
-  -  *Cambio en el Indicador Clave de Rendimiento:* Mejora en los métricas de eficacia en la respuesta a emergencias y tiempos de resolución más rápidos.
-
-3. **Notificaciones y Alertas Automáticas:**
-
-- ***Hipótesis:*** Creemos que si las empresas de instalación y mantenimiento reciben notificaciones automáticas sobre fallos en los dispositivos y necesidades de mantenimiento, entonces podrán gestionar el mantenimiento de manera más proactiva y eficiente.
-- ***Validación:*** Sabremos que estamos en lo correcto cuando veamos la siguiente retroalimentación del mercado:
-  - *Retroalimentación Cualitativa:* Comentarios positivos de las empresas de mantenimiento sobre la eficiencia y la puntualidad en la programación del mantenimiento y la resolución de problemas.
-  - *Retroalimentación Cuantitativa:* Disminución en los tiempos de respuesta a problemas de mantenimiento y mayor tasa de acciones proactivas de mantenimiento.
-  - *Cambio en el Indicador Clave de Rendimiento:* Aumento en la efectividad de las operaciones de mantenimiento y reducción en el tiempo de inactividad de los dispositivos.
-
-4. **Wi-Fi como Tecnología:**
-
-- ***Hipótesis:*** Creemos que si el sistema utiliza Wi-Fi como tecnología de comunicación, entonces la confiabilidad del sistema dependerá de la calidad y estabilidad de la red Wi-Fi, lo que afectará la experiencia del usuario.
-- ***Validación:*** Sabremos que estamos en lo correcto cuando veamos la siguiente retroalimentación del mercado:
-  - *Retroalimentación Cualitativa:* Comentarios de los usuarios sobre problemas de conectividad o satisfacción con el rendimiento del sistema basado en la calidad del Wi-Fi.
-  - *Retroalimentación Cuantitativa:* Frecuencia de problemas de conectividad reportados por los usuarios.
-  - *Cambio en el Indicador Clave de Rendimiento:* Mejora en las métricas de confiabilidad del sistema y en los puntajes de satisfacción del usuario relacionados con la conectividad.
-
-5. **Almacenamiento en AWS:**
-
-- ***Hipótesis:*** Creemos que usar AWS para el almacenamiento en la nube de datos de video garantizará una alta seguridad y disponibilidad de los datos debido a las características avanzadas de seguridad e infraestructura confiable de AWS.
-- ***Validación:*** Sabremos que estamos en lo correcto cuando veamos la siguiente retroalimentación del mercado:
-  - *Retroalimentación Cualitativa:* Comentarios positivos sobre la seguridad y disponibilidad de los datos por parte de los usuarios.
-  - *Retroalimentación Cuantitativa:* Baja incidencia de pérdida de datos o problemas de acceso reportados.
-  - *Cambio en el Indicador Clave de Rendimiento:* Altas tasas de disponibilidad y sólidos resultados en auditorías de seguridad.
-
 #### 1.2.2.4 Lean UX Canvas
-![Lean UX Canvas](/src/images/lean-ux-canvas.jpg)
 ## 1.3 Segmentos objetivo
-Según el Instituto Nacional de Estadística e Informática (INEI), cerca del 12% de las viviendas en áreas urbanas de Perú sufrieron robos o intentos de robo en años recientes. Sin embargo, solo el 17.9% de las víctimas denuncian estos delitos, lo que sugiere que el problema es más amplio de lo que reflejan las cifras oficiales​. Los métodos de los delincuentes son cada vez más variados. Entre las tácticas más comunes están el engaño a empleados domésticos, la simulación de ser trabajadores de empresas de servicios públicos, y los robos durante días feriados, cuando las casas suelen estar desocupadas​.
-Tenemos 2 segmentos objetivos:
-
-### Segmento objetivo 1: Dueños de Inmuebles
-Los dueños que poseen uno o varios inmuebles
-![](/src/images/dueño-inmueble.jpg)
-
-### Segmento objetivo 2: Empresas de Seguridad
-Empresas de seguridad que quieren mejorar/reforzar sus servicios
-![](/src/images/empresa-seguridad.jpg)
 
 # CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
 ## 2.1 Competidores
 ### 2.1.1. Análisis competitivo
-
-Para el análisis competitivo, observamos a tres empresas que se encuentran en el mercado que ofrecen una similitud y estos son los siguientes: 
-
-| Competitive Analysis Landscape |
-| -- |
-| ¿Por qué llevar a cabo este análisis? |
-| ¿Cómo se posiciona VerySafe en comparación con sus principales competidores por los clientes en el mercado de seguridad de inmuebles en Lima Metropolitana? |
-
-**Perfil del Startup**
-
-| Startup | VerySafe | Verisure | Prosegur | Securitas |
-| -- | -- | -- | -- | -- |
-| Logo | ![VerySafe](/src/images/logo.jpg) | ![Verisure](/src/images/verisure.jpg) | ![Prosegur](/src/images/prosegur.jpg) | ![Securitas](/src/images/securitas.png) |
-| **Overview** | Ofrece soluciones de seguridad accesibles y personalizadas para inmuebles. Se enfoca en integrar tecnología avanzada con un enfoque en la accesibilidad, buscando proteger hogares y pequeñas empresas con productos innovadores y servicios flexibles que se adaptan a las necesidades de sus clientes. | Ofrece sistemas de alarmas conectadas y monitoreo remoto 24/7. Con una fuerte presencia en el mercado peruano, Verisure ofrece soluciones de alta tecnología que combinan la seguridad física y digital, destacándose por su fiabilidad y servicio al cliente. | Ofrece una amplia gama de servicios que incluyen desde alarmas y videovigilancia hasta servicios de seguridad física y logística de valores, adaptándose tanto a clientes residenciales como corporativos con soluciones integradas. | Ofrece soluciones personalizadas que combinan seguridad física y digital, dirigidas principalmente a grandes empresas e instituciones. Su enfoque está en la integración de tecnologías innovadoras y la adaptación a las necesidades específicas de cada cliente. | 
-|**Ventaja competitiva ¿Qué valor ofrece a los clientes?** | Ofrecer soluciones tecnológicas avanzadas IoT a precios accesibles, con un enfoque en personalización y accesibilidad para un público amplio. | Alta tecnología en sistemas de monitoreo remoto y servicio al cliente eficiente. | Amplia gama de servicios de seguridad integrados con una fuerte presencia en el mercado local e internacional | Tecnología avanzada y un enfoque en la integración de soluciones de seguridad física y digital. | 
-
-**Perfil de Marketing**
-
-| Startup | VerySafe | Verisure | Prosegur | Securitas |
-| -- | -- | -- | -- | -- |
-| **Mercado Objetivo** | Propietarios de Inmuebles que se encuentren en Lima Metropolitana | Hogares y pequeñas empresas que buscan sistemas de alarma conectados de alta gama. | Grandes empresas, instituciones y hogares de clase media-alta. | Grandes empresas, instituciones gubernamentales y hogares de clase media-alta. |
-| **Estrategias de Marketing** | Campañas digitales enfocadas en el costo-beneficio y accesibilidad de los productos. Publicidad en medios locales. | Marketing enfocado en la tecnología avanzada y la confiabilidad. Campañas en redes sociales y medios de comunicación masiva. | Marketing tradicional y digital enfocado en la solidez de la marca y la experiencia. | Estrategias de marketing centradas en la seguridad integral y la tecnología de punta. |
-
-**Perfil de Producto**
-
-| Startup | VerySafe | Verisure | Prosegur | Securitas |
-| -- | -- | -- | -- | -- |
-| **Productos & Servicios** | Sistemas de sensores, cámaras y alarmas inteligentes, integrados con una plataforma digital para monitoreo y control remoto 24/7. | Alarmas conectadas, sensores de movimiento, y monitoreo remoto 24/7. | Alarmas, cámaras de vigilancia, control de accesos, monitoreo, y guardias de seguridad | Sistemas de seguridad integrados, alarmas, cámaras, monitoreo, y servicios de guardias.|
-| **Precios & Costos** | Modelo de precios accesible, con opciones de suscripción o alquiler. | Precios medios-altos, con modelos de suscripción. | Variedad de precios según los servicios, generalmente en un rango medio-alto. Y dependiendo del kit elegido. | Variedad de precios, con un enfoque en soluciones a medida para clientes corporativos. |
-| **Canales de distribución (Web y/o Móvil)** | Venta y distribución a través de web y aplicación móvil, con opciones de instalación y soporte técnico. | Distribución a través de web, móvil, y red de instaladores locales. | Distribución a través de web, puntos de venta físicos y contacto directo con clientes. | Distribución a través de web, móvil, y ventas directas a través de representantes.|
-
-**Analisis SWOT**
-
-| Startup | VerySafe | Verisure | Prosegur | Securitas |
-| -- | -- | -- | -- | -- |
-| **Fortalezas** | Accesibilidad en precios, personalización de productos, enfoque local. | Tecnología avanzada, reputación global, servicio al cliente robusto. | Amplia gama de servicios, presencia fuerte en el mercado, reconocimiento de marca. | Integración de servicios, tecnología avanzada, capacidad de adaptación |
-| **Debilidades** | Menor reconocimiento de la empresa y marca | Precio elevado, menos accesible para clientes de clase media-baja. | Alto costo de los servicios, enfoque más en clientes corporativos que en residenciales. | Alto costo, enfoque más en grandes empresas e instituciones. | 
-| **Oportunidades** | Expandirse a nuevos segmentos de mercado, como pequeñas empresas y hogares de clase media. | Creciente demanda de seguridad avanzada en hogares y empresas. | Crecimiento del mercado de seguridad en hogares y negocios. | Expansión en servicios digitales y mercados emergentes. | 
-| **Amenazas** | Competencia fuerte de marcas establecidas | Competencia en precios de empresas locales y nuevas tecnologías. | Innovaciones tecnológicas y nuevos competidores más ágiles. | Innovación tecnológica de startups más ágiles y económicas. | 
-
-### 2.1.2. Estrategias y tácticas frente a competidores
-
-### Estrategias y Tácticas para VerySafe
-#### Estrategia 1: Diferenciación por Precio y Personalización
-
-### Tácticas:
-
-**Paquetes personalizables**: Planes de seguridad donde los clientes puedan seleccionar productos específicos (sensores, cámaras, alarmas) según sus necesidades. Esto permitirá que hogares pequeños y medianos ajusten los servicios a su presupuesto.
-  
-#### Estrategia 2: Innovación Tecnológica con Enfoque en IoT
-
-### Tácticas:
-**Ecosistema de seguridad IoT**: Dispositivos adicionales como cerraduras inteligentes, sensores de humo y detectores de monóxido de carbono, integrados en la plataforma de monitoreo. 
-
-**Actualizaciones automáticas y soporte**: Garantizar que todos los dispositivos tengan actualizaciones automáticas de software sin costos adicionales, mejorando las capacidades de seguridad continuamente sin interrupciones para el cliente.
-
-### Estrategia 3: Marketing Enfocado en la Seguridad Asequible y de Calidad
-
-### Tácticas:
-**Campañas en redes sociales y medios locales**: Enfocar las campañas de marketing digital en mostrar historias de éxito de clientes reales que usan los productos de VerySafe en Lima Metropolitana. Usar plataformas como Facebook, Instagram y TikTok para resaltar testimonios de clientes satisfechos, con énfasis en la relación costo-beneficio.
-  
-**Colaboraciones locales**: Establecer alianzas con agentes inmobiliarios, desarrolladores de proyectos habitacionales y administradores de condominios para incluir a VerySafe como parte de las recomendaciones de seguridad en nuevas construcciones.
-
-### Estrategia 4: Integración con Instituciones de Seguridad Pública y Privada
-
-### Tácticas:
-**Asociaciones con bomberos, policía y seguridad privada**: Crear convenios para que los dispositivos de VerySafe se conecten directamente con estas instituciones en caso de emergencias. Esto permitirá que los usuarios puedan recibir respuestas rápidas en situaciones críticas, diferenciándose de competidores que solo ofrecen notificaciones internas o a empresas de monitoreo.
-
-**Control remoto desde dispositivos móviles**: Mejorar la app móvil para permitir una interacción más fluida con los sistemas de seguridad. Los usuarios podrán armar y desarmar sus sistemas, ver imágenes de cámaras en tiempo real y recibir alertas de emergencia desde cualquier lugar.
-
-### Estrategia 5: Ampliación del Mercado Objetivo
-
-### Tácticas:
-**Paquetes para pequeños comercios**: Crear ofertas específicas para pequeños negocios como tiendas, minimarkets y oficinas que necesitan soluciones de seguridad asequibles pero efectivas. 
-
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
-
-**Preguntas Generales:**
-
-1. ¿Cuáles son sus nombres y apellidos?
-2. ¿Qué edad tiene usted?
-3. ¿Cuál es su ocupación?
-
-**Para Dueños de Inmuebles:**
-
-1. ¿Qué desafíos de seguridad ha enfrentado en su propiedad anteriormente?
-2. ¿Qué características considera esenciales en un sistema de seguridad para su hogar?
-3. ¿Cómo maneja actualmente la seguridad de su hogar y qué le gustaría mejorar?
-4. ¿Qué tan cómodo se sentiría al recibir notificaciones y alertas de seguridad en su dispositivo móvil?
-5. ¿Qué nivel de automatización está dispuesto a aceptar en su sistema de seguridad?
-6. ¿Qué tipo de alertas le gustaría recibir en caso de una intrusión o emergencia?
-7. ¿Qué tan relevante es para usted que el sistema de seguridad pueda integrarse con futuros dispositivos inteligentes que adquiera para su hogar?
-8. ¿Cómo prefiere que se gestione el acceso a su sistema de seguridad: a través de una app, un panel de control, o de otra manera?
-
-**Para Empresas de Seguridad:**
-
-1. ¿Qué protocolos siguen cuando se recibe una alerta de alarma desde un sistema IoT?
-2. ¿Cómo capacitan a su personal para responder a alertas provenientes de dispositivos IoT?
-3. ¿Qué tipo de formación y equipo reciben sus empleados para garantizar una respuesta rápida y efectiva?
-4. ¿Qué tipo de integración ofrecen con sistemas de seguridad basados en IoT?
-5. ¿Cómo manejan la comunicación con los propietarios de las viviendas durante una respuesta a emergencia?
-6. ¿Qué procedimientos siguen para verificar la autenticidad de una alarma antes de desplegar personal?
-7. ¿Cuál es el tiempo promedio de respuesta de su equipo en caso de una alarma de seguridad?
-8. ¿Cómo se coordina su empresa con los servicios de emergencia locales en caso de una alarma?
-9. ¿Qué tipo de informes o retroalimentación proporcionan a los clientes después de una respuesta a emergencia?
-10. ¿Qué mejoras están considerando implementar para adaptarse a la creciente integración de tecnología IoT en los sistemas de seguridad?
 ### 2.2.2. Registro de entrevistas
-
-<table border="1">
-    <tr>
-      <th>Nro</th>
-      <th>Nombres</th>
-      <th>Apellidos</th>
-      <th>Edad</th>
-      <th>Distrito</th>
-      <th>Minutos</th>
-    </tr>
-    <tr>
-      <td>01</td>
-      <td>Jesús</td>
-      <td>Aliaga</td>
-      <td>60 años</td>
-      <td> --- </td>
-      <td> 00:00 </td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>Diana Patricia</td>
-      <td>Gomez Oré</td>
-      <td>25 años</td>
-      <td>Chorrillos</td>
-      <td> 09:34 </td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>Luiz Alberto</td>
-      <td>Minaya Herrera</td>
-      <td>52 años</td>
-      <td>Chorrillos</td>
-      <td> 15:00 </td>
-    </tr>
-    <tr>
-      <td>04</td>
-      <td>Aaron</td>
-      <td>Alva Moreno</td>
-      <td>24 años</td>
-      <td>San Juan de Lurigancho</td>
-      <td> 23:37 </td>
-    </tr>
-        <tr>
-      <td>05</td>
-      <td>Diego</td>
-      <td>Acuña</td>
-      <td>28 años</td>
-      <td>San Isidro</td>
-      <td> 26:24 </td>
-    </tr>
-    </tr>
-        <tr>
-      <td>06</td>
-      <td>Jorge</td>
-      <td>Luis</td>
-      <td>23 años</td>
-      <td>San Juan de Miraflores</td>
-      <td> 29:21 </td>
-    </tr>
-</table>
-
-
 ### 2.2.3. Análisis de entrevistas
-* **Segmento 1: Dueños de inmuebles**
-1. **Entrevista N°1**
-![Interview 1](/src/images/interview-1.png)
-   
-Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble ya que actualmente lo maneja de forma manual con cercos. Además destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
-
-2. **Entrevista Nro 2: Diana Gomez**
-![Interview 2](/src/images/interview-2.png)
-
-Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
-
-Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más importantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. Por último, mencionó que ella prefiere gestionar el sistema de seguridd de su hogar mediante una aplicación, ya que de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
-
-3. **Entrevista Nro 3: Luis Minaya**
-
-![alt text](/src/images/interview3.png)
-
-Luis menciona que hace un tiempo sufrió un intento de robo en su inmueble, lo que lo llevó a contratar un servicio de seguridad con VerySure. A raíz de esa experiencia, comenta que el uso de dispositivos automatizados le ayudaría considerablemente a prevenir este tipo de situaciones. Además, destaca que tener control de estos dispositivos desde su celular sería lo más conveniente. También menciona que el sistema debería contar con comunicación directa con instituciones de seguridad, como bomberos, policía o seguridad privada.
-
-link de la entrevista: https://youtu.be/jfX4erZaQ9c
-
-4. **Entrevista Nro 4: Aaron Alva**
-
-![entrevista 4](src/images/interview-4.jpg)
-
-Aaron antes de la entrevista me comentó que inició un proceso de mudanza en una zona un poco movida de SJL. Al empezar la entrevista me comenta que su zona hay demasiada inseguridad y que el robo de los inmuebles u hogares esta a la orden del día. Además, me comenta que ha estado en busca de un sistema de seguridad para su hogar y de esta forma sentirse protegido ante robos, me comenta que estaría dispuesto a probar sistemas IoT y ver su funcionaldiad y mejoramiento a traves de las notificaciones que podamos brindarlos.
-
-* **Segmento 2: Empresas de Seguridad**
-
-1. **Entrevista Nro 5: Diego Acuña**
-![entrevista 5](src/images/interview-5.jpg)
-
-Para esta ocasión entrevistamos a Diego quien tiene una compañía de seguridad. Nos comenta que busca mejorar poco a poco dado que sus tiempos de respuesta ante una emergencia pueden llegar a ser de hasta 10 minutos y dependiendo a la zona que se dirija la alarma emitida, además nos comenta que sí esta familiarizado con dispositivos IoT pero que hay ciertas momentos que se malogran y las notificaciones no llegan ahasta despues de un tiempo. Asimismo que esta dispuesto a buscar otros tipos de dispositvos en donde pueda beneficiarse.
-
-2. **Entrevista Nro 6: Jorge Luis**
-![entrevista 5](src/images/interview-6.png)
-Las respuestas de Jorge reflejan un enfoque robusto y adaptable para gestionar la seguridad a través de IoT. La empresa muestra un fuerte compromiso con la capacitación de su personal, la integración tecnológica, y la mejora continua de sus procesos para asegurar respuestas rápidas y eficientes ante cualquier amenaza.
-
 ## 2.3 Needfinding
 ### 2.3.1. User Personas
-* **Segmento 1: Dueños de inmuebles**
-  ![User Persona 1](/src/images/user-persona-seg1.png)
-
-* **Segmento 2: Empresas de Seguridad**
-  ![User Persona 2](/src/images/user-persona-empresa.png)
-
 ### 2.3.2. User Task Matrix
-* **Segmento 1: Dueños de inmuebles**
-  <table border="1">
-    <tr>
-      <th>Tareas</th>
-      <th>Frecuencia</th>
-      <th>Importancia</th>
-    </tr>
-    <tr>
-      <td>Monitorear la seguridad del inmueble en tiempo real</td>
-      <td>Alta</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Recibir alertas de seguridad (intrusos, incendios, etc.)</td>
-      <td>Alta</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Configurar dispositivos IoT y cámaras de seguridad</td>
-      <td>Media</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Consultar registros de actividad y acceso</td>
-      <td>Media</td>
-      <td>Media</td>
-    </tr>
-    <tr>
-      <td>Actualizar el sistema de seguridad y firmware de dispositivos</td>
-      <td>Media</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Administrar usuarios y permisos de acceso</td>
-      <td>Baja</td>
-      <td>Media</td>
-    </tr>
-</table>
-
-* **Segmento 2: Empresas de Seguridad**
 ### 2.3.3. User Journey Mapping
-* **Segmento 1: Dueños de inmuebles**
-  ![User Journey Map 1](/src/images/user-journey-mapping-seg1.png)
 ### 2.3.4. Empathy Mapping
-* **Segmento 1: Dueños de inmuebles**
-  ![Empathy Map 1](/src/images/empathy-mapping-seg1.png)
 ### 2.3.5. As-Is Scenario Mapping
-* **Segmento 1: Dueños de inmuebles**
-  ![As-Is Scenario Map 1](/src/images/as-is-scenario-mapping-seg1.png)
-
 ## 2.4. Ubiquitous Language
 
-Para el desarrollo de esta sección, como grupo debemos estar alineados con los términos y conceptos claves que son necesarios para la realización del proyecto. Además, nos ayuda a tener un lenguaje en común para entender nuestros objetivos, funcionalidades y benerfios. 
-
-Para VerySafe tenemos los siguientes términos:
-
-1. **Seguridad IoT (Internet de las Cosas)**: Referencia a la integración de dispositivos de seguridad conectados a internet para monitorización y control remoto.
-2. **FalconShield**: Nombre de la línea de productos que simboliza la protección integral y la vigilancia avanzada para inmuebles.
-3. **Dispositivos de Seguridad**: Sensores, cámaras, alarmas, y otros equipos incluidos en la línea FalconShield que protegen los inmuebles.
-4. **Monitoreo en Tiempo Real**: La capacidad de los usuarios para observar y controlar sus dispositivos de seguridad instantáneamente desde cualquier lugar.
-5. **Interfaz Unificada**: Plataforma de usuario que centraliza el control de todos los dispositivos FalconShield en un solo lugar.
-6. **Mantenimiento Preventivo**: Estrategias y acciones automatizadas para asegurar que los dispositivos FalconShield estén siempre en óptimas condiciones.
-7. **Respuesta a Emergencias**: Protocolos y acciones automáticas o manuales que se activan cuando el sistema FalconShield detecta una intrusión o emergencia.
-8. **Subscripción**: Modelo de monetización basado en pagos recurrentes para acceder a los servicios y actualizaciones del sistema FalconShield.
-9. **Alianzas de Seguridad**: Colaboraciones con empresas especializadas en seguridad para ofrecer una respuesta más rápida y eficiente en caso de emergencias.
-10. **AWS**: Plataforma de servicios en la nube utilizada para almacenar y proteger los datos de video y otros registros de seguridad.
-11. **Propietarios de inmuebles**: Personas o entidades que poseen propiedades y buscan protegerlas.
-12. **Empresas de seguridad**: Compañías que ofrecen servicios de monitoreo y respuesta a emergencias.
-
-# CAPÍTULO III: REQUERIMENTS SPECIFICATION
-## 3.1. To-Be Scenario Mapping
-* **Segmento 1: Dueños de inmuebles**
-![To Be 1](/src/images/to-be-1.jpg)
-
-* **Segmento 2: Empresa de seguridad**
-![To Be 2](/src/images/to-be-2.jpg)
-## 3.2. User Stories
-
-**Historias de Usuario para la Aplicación Web**
-
-|**Número:**| HU 1|
-|-| - |
-   |**Usuario:**| Propietario de inmueble
-   |**Nombre de historia:**| Ver historial de alertas
-   |**Prioridad:** |Alta
-   |**Riesgo:**| Medio
-   |**Descripción:**| Como propietario de un inmueble, quiero poder ver el historial de alertas de seguridad para revisar incidentes pasados.|
-   |**Criterios de aceptación:**| **Dado** que estoy en la página de historial **Cuando** selecciono una fecha específica **Entonces** puedo ver todas las alertas generadas ese día con detalles como hora, tipo de alerta, y acción tomada. |
-
-|**Número:**| HU 2 |
-|- |- |
-   |**Usuario:** |Propietario de inmueble|
-   |**Nombre de historia:**| Controlar dispositivos de seguridad|
-   |**Prioridad:**| Alta|
-   |**Riesgo:**| Alto|
-   |**Descripción:**| Como propietario de un inmueble, quiero controlar mis dispositivos de seguridad desde la aplicación web para armar o desarmar la alarma.|
-   |**Criterios de aceptación:**| **Dado** que estoy en el panel de control de dispositivos **Cuando** selecciono un dispositivo y una acción (armar/desarmar) **Entonces** el dispositivo realiza la acción y se muestra una notificación de confirmación. |
-
-|**Número:**| HU-03|
-|-|-|
-   |**Usuario:**| Empresa de seguridad|
-   |**Nombre de historia:**| Monitorear múltiples propiedades|
-   |**Prioridad:**| Alta|
-   |**Riesgo:**| Alto|
-   |**Descripción:** |Como empresa de seguridad, quiero monitorear varias propiedades desde una única interfaz para gestionar las alertas de manera eficiente.|
-   |**Criterios de aceptación:**|**Dado** que estoy en el dashboard **Cuando** selecciono una propiedad **Entonces** puedo ver un resumen en tiempo real de todos los dispositivos y alertas de esa propiedad.|
-
-|**Número:** | HU-04|
-| - | - |
-   |**Usuario:** |Empresa de seguridad|
-   |**Nombre de historia:**| Configurar alertas personalizadas|
-   |**Prioridad:**| Media|
-   |**Riesgo:** |Medio|
-   |**Descripción:**| Como empresa de seguridad, quiero configurar alertas personalizadas para recibir notificaciones específicas según los tipos de eventos en cada propiedad.|
-   |**Criterios de aceptación:**| **Dado** que estoy en la sección de configuraciones **Cuando** creo una nueva alerta personalizada **Entonces** recibo notificaciones solo para los eventos configurados.|
-
-|**Número:** | HU-05|
-|-|-|
-   |**Usuario:**| Propietario de inmueble|
-   |**Nombre de historia:** |Reportar un incidente|
-   |**Prioridad:** |Alta|
-   |**Riesgo:**| Medio|
-   |**Descripción:** |Como propietario de un inmueble, quiero reportar un incidente directamente desde la aplicación web para que la empresa de seguridad lo gestione.|
-   |**Criterios de aceptación:**| **Dado** que estoy en la sección de reportes **Cuando** lleno el formulario de incidente y lo envío **Entonces** la empresa de seguridad recibe una notificación con los detalles del reporte.| 
-
-**Historias de Usuario para la Aplicación Móvil**
-
-|**Número:** | HU-06|
-   |-|-|
-   |**Usuario:**| Propietario de inmueble|
-   |**Nombre de historia:** |Recibir notificaciones en tiempo real|
-   |**Prioridad:** |Alta|
-   |**Riesgo:**| Alto|
-   |**Descripción:**| Como propietario de un inmueble, quiero recibir notificaciones en tiempo real en mi móvil sobre cualquier alerta de seguridad para tomar acciones inmediatas.|
-   |**Criterios de aceptación:**| **Dado** que tengo la aplicación móvil instalada **Cuando** se activa una alerta **Entonces** recibo una notificación push con la descripción del evento.|
-   
-| **Número:**| HU-07|
-|-|-|
-   | **Usuario:**| Empresa de seguridad|
-   | **Nombre de historia:** |Acceso remoto a cámaras|
-   | **Prioridad:** |Alta|
-   | **Riesgo:**| Alto|
-   | **Descripción:**| Como empresa de seguridad, quiero acceder a las cámaras de las propiedades desde mi dispositivo móvil para verificar en tiempo real cualquier alerta.|
-   |**Criterios de aceptación:**|**Dado** que tengo acceso a la propiedad en la app  **Cuando** selecciono la opción de cámaras **Entonces** puedo ver las imágenes en vivo de todas las cámaras instaladas.|
-
-|**Número:**| HU-08|
-|-|-|
-   |**Usuario:**| Propietario de inmueble|
-   |**Nombre de historia:** |Control de acceso remoto|
-   |**Prioridad:**  | Alta   |
-   |**Riesgo:**| Medio|
-   |**Descripción:** |Como propietario de un inmueble, quiero controlar el acceso a mi propiedad desde mi móvil para abrir o cerrar puertas de manera remota.|
-   |**Criterios de aceptación:**| **Dado** que tengo la app instalada **Cuando** selecciono la opción de control de acceso **Entonces** puedo abrir o cerrar puertas conectadas con un solo clic.|
-
-|**Número:** | HU-09|
-|-|-|
-   |**Usuario:**| Empresa de seguridad
-   |**Nombre de historia:**| Crear y gestionar alertas desde la app
-   |**Prioridad:**| Media
-   |**Riesgo:**| Medio
-   |**Descripción:**| Como empresa de seguridad, quiero poder crear y gestionar alertas desde mi móvil para estar siempre en control, incluso cuando no estoy en la oficina.
-   |**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando** creo una nueva alerta personalizada **Entonces** esta se activa y puedo recibir notificaciones basadas en esa configuración.|
-
-   |**Número:**| HU-10|
-   |-|-|
-   |**Usuario:**| Propietario de inmueble|
-   |**Nombre de historia:**| Ver grabaciones de seguridad|
-   |**Prioridad:**| Media|
-   |**Riesgo:** |Medio|
-   |**Descripción:**| Como propietario de un inmueble, quiero ver las grabaciones de seguridad desde mi móvil para revisar eventos pasados mientras estoy fuera de casa.|
-   |**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando** selecciono una fecha y hora **Entonces** puedo ver la grabación correspondiente directamente desde mi dispositivo móvil.|
-
-**Historias de Usuario para el Backend**
-
-|**Número:**| HU-11|
-|-|-|
-|**Usuario:**| Administrador del sistema|
-|**Nombre de historia:**| Gestión de usuarios|
-|**Prioridad:**| Alta|
-|**Riesgo:** |Alto|
-|**Descripción:**| Como administrador, quiero poder gestionar todos los usuarios desde el backend para controlar el acceso y los permisos de la plataforma.|
-|**Criterios de aceptación:**| **Dado** que estoy en el panel de administración **Cuando** agrego, edito o elimino un usuario **Entonces** estos cambios se reflejan en la aplicación web y móvil.|
-
-|**Número:** | HU-12|
-|-|-|
-|**Usuario:**| Administrador del sistema|
-|**Nombre de historia:**| Gestión de dispositivos conectados|
-|**Prioridad:** |Alta|
-|**Riesgo:** |Alto|
-|**Descripción:** |Como administrador, quiero poder gestionar todos los dispositivos conectados para monitorear su estado y funcionamiento.|
-|**Criterios de aceptación:**| **Dado** que estoy en el panel de administración  **Cuando** veo el listado de dispositivos **Entonces** puedo actualizar su estado, ver logs y desconectar dispositivos si es necesario.|
-
-|**Número:** | HU-13|
-|-|-|
-|**Usuario:**| Administrador del sistema|
-|**Nombre de historia:**| Integración con sistemas de terceros|
-|**Prioridad:** |Alta|
-|**Riesgo:** |Alto|
-|**Descripción:** |Como administrador, quiero integrar la plataforma con sistemas de seguridad de terceros para ampliar las capacidades del sistema.|
-|**Criterios de aceptación:**| **Dado** que estoy en el panel de integraciones  **Cuando** configuro una integración nueva **Entonces** los dispositivos y datos del sistema de terceros se sincronizan con nuestra plataforma. |
-
-|**Número:** | HU-14|
-|-|-|
-|**Usuario:**| Administrador del sistema|
-|**Nombre de historia:**| Gestión de logs y auditoría|
-|**Prioridad:** |Media|
-|**Riesgo:** |Medio|
-|**Descripción:** |Como administrador, quiero poder acceder a los logs y realizar auditorías para monitorear la actividad del sistema y detectar anomalías.|
-|**Criterios de aceptación:**| **Dado** que estoy en la sección de logs **Cuando** selecciono un rango de fechas **Entonces** puedo ver todas las actividades registradas en ese periodo. |
-
-|**Número:** | HU-15|
-|-|-|
-|**Usuario:**| Administrador del sistema|
-|**Nombre de historia:**| Configuración de políticas de seguridad|
-|**Prioridad:** |Media|
-|**Riesgo:** |Medio|
-|**Descripción:** |Como administrador, quiero poder configurar políticas de seguridad para asegurar que todos los dispositivos y datos cumplan con los estándares requeridos.|
-|**Criterios de aceptación:**| **Dado** que estoy en la sección de políticas **Cuando** establezco una nueva política **Entonces** se aplica a todos los dispositivos y usuarios de la plataforma. |
-
-**Historias de Usuario para el Edge**
-
-|**Número:** | HU-16|
-|-|-|
-|**Usuario:**| Propietario de inmueble|
-|**Nombre de historia:**| Detección de anomalías en tiempo real|
-|**Prioridad:** |Alta|
-|**Riesgo:** |Alto|
-|**Descripción:** |Como propietario de un inmueble, quiero que los dispositivos en el edge detecten anomalías en tiempo real para reaccionar de inmediato ante posibles amenazas.|
-|**Criterios de aceptación:**| **Dado** que tengo dispositivos edge instalados **Cuando** ocurre una anomalía **Entonces** el dispositivo envía una alerta inmediata a la app móvil y web. |
-
-|**Número:** | HU-17|
-|-|-|
-|**Usuario:**| Administrador del sistema |
-|**Nombre de historia:**| Actualización remota de firmware|
-|**Prioridad:** |Alta|
-|**Riesgo:** |Alto|
-|**Descripción:** |Como administrador, quiero poder actualizar remotamente el firmware de los dispositivos en el edge para asegurar su correcto funcionamiento y seguridad.|
-|**Criterios de aceptación:**| **Dado** que estoy en el panel de dispositivos **Cuando** selecciono actualizar el firmware de un dispositivo **Entonces** el dispositivo se actualiza automáticamente y se reinicia. |
-
-|**Número:** | HU-18|
-|-|-|
-|**Usuario:**|Empresa de seguridad|
-|**Nombre de historia:**| Autonomía operativa de dispositivos edge |
-|**Prioridad:** |Media|
-|**Riesgo:** |Medio|
-|**Descripción:** |Como empresa de seguridad, quiero que los dispositivos en el edge funcionen de manera autónoma si pierden conexión con el servidor para asegurar la continuidad del servicio.|
-|**Criterios de aceptación:**| **Dado** que un dispositivo edge pierde conexión **Cuando** continúa operando de manera autónoma **Entonces** las alertas y registros se guardan localmente hasta que se restablezca la conexión. |
-
-|**Número:** | HU-19|
-|-|-|
-|**Usuario:**|Propietario de inmueble|
-|**Nombre de historia:**| Monitoreo de alertas en dispositivos edge |
-|**Prioridad:** |Media|
-|**Riesgo:** |Medio|
-|**Descripción:** |Como propietario de un inmueble, quiero monitorear las alertas de mis dispositivos edge.|
-|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de alertas **Cuando** le doy click a un dispositivo **Entonces** puedo ver un historial de alertas del dispositivo y recibir sugerencias de optimización. |
-
-|**Número:** | HU-20|
-|-|-|
-|**Usuario:**|Administrador del sistema|
-|**Nombre de historia:**| Reinicio remoto de dispositivos edge |
-|**Prioridad:** |Media|
-|**Riesgo:** |Bajo|
-|**Descripción:** |Como administrador, quiero poder reiniciar remotamente los dispositivos en el edge para solucionar problemas de manera eficiente.|
-|**Criterios de aceptación:**| **Dado** que estoy en el panel de dispositivos **Cuando**  selecciono la opción de reinicio **Entonces** el dispositivo se reinicia automáticamente y notifica al usuario. |
-
-**Historias de Usuario para Dispositivos IoT**
-
-|**Número:** | HU-21|
-|-|-|
-|**Usuario:**|Propietario de inmueble|
-|**Nombre de historia:**| Control de luces inteligentes |
-|**Prioridad:** |Alta|
-|**Riesgo:** |Medio|
-|**Descripción:** |Como propietario de un inmueble, quiero controlar las luces inteligentes de mi propiedad desde la app para encender o apagar según necesidad.|
-|**Criterios de aceptación:**| **Dado** que estoy en la app móvil **Cuando**  selecciono una luz que quiero modificar **Entonces** puedo encenderla, apagarla o ajustar la intensidad.|
-
-|**Número:** | HU-22|
-|-|-|
-|**Usuario:**|Empresa de seguridad|
-|**Nombre de historia:**| nitoreo de sensores de movimiento |
-|**Prioridad:** |Alta|
-|**Riesgo:** |Alto|
-|**Descripción:** |Como empresa de seguridad, quiero monitorear en tiempo real los sensores de movimiento de los dispositivos IoT para detectar intrusos.|
-|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de sensores **Cuando** un sensor detecta movimiento **Entonces** recibo una alerta inmediata en la app.|
-
-|**Número:** | HU-23|
-|-|-|
-|**Usuario:**|Empresa de seguridad|
-|**Nombre de historia:**| Monitorización de baterías en dispositivos IoT |
-|**Prioridad:** |Media|
-|**Riesgo:** |Medio|
-|**Descripción:** |Como empresa de seguridad, quiero monitorear el nivel de batería de los dispositivos IoT para asegurar que siempre estén operativos.|
-|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de energía **Cuando** el nivel de batería es bajo **Entonces** recibo una alerta para reemplazar o recargar el dispositivo.|
-
-|**Número:** | HU-24|
-|-|-|
-|**Usuario:**|Propietario de inmueble|
-|**Nombre de historia:**| Automatización de escenarios |
-|**Prioridad:** |Media|
-|**Riesgo:** |Medio|
-|**Descripción:** |Como propietario de un inmueble, quiero crear escenarios automatizados en mi app para que los dispositivos IoT actúen en conjunto según la hora o eventos específicos.|
-|**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando**  configuro un escenario **Entonces** los dispositivos correspondientes se activan o desactivan automáticamente según lo programado.|
-
-**Historias de Usuario para Propietarios de Inmuebles**
-
-|**Número:** | HU-25|
-|-|-|
-|**Usuario:**|Propietario de inmueble|
-|**Nombre de historia:**| Ver estado de la propiedad en tiempo real |
-|**Prioridad:** |Alta|
-|**Riesgo:** |Alt|
-|**Descripción:** |Como propietario de un inmueble, quiero ver el estado de seguridad de mi propiedad en tiempo real desde la app para asegurarme de que todo esté en orden.|
-|**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando**  creviso el dashboard **Entonces** uedo ver el estado de todos mis dispositivos de seguridad en tiempo real.|
-
-|**Número:** | HU-26|
-|-|-|
-|**Usuario:**|Propietario de inmueble|
-|**Nombre de historia:**|  Recibir notificaciones |
-|**Prioridad:** |Alta|
-|**Riesgo:** |Medio|
-|**Descripción:** |Como propietario de un inmueble, quiero recibir notificaciones en la app para estar informado sobre cualquier alerta de seguridad.|
-|**Criterios de aceptación:**| **Dado** que tengo notificaciones activas **Cuando**  ocurre una alerta **Entonces** los dispositivos correspondientes se activan la alarma y recibo una notificacion de alerta|
-
-|**Número:** | HU-27|
-|-|-|
-|**Usuario:**|Propietario de inmueble|
-|**Nombre de historia:**| Acceso a informes de seguridad|
-|**Prioridad:** |Media|
-|**Riesgo:** |Bajo|
-|**Descripción:** |Como propietario de un inmueble, quiero acceder a informes de seguridad mensuales para revisar el rendimiento de mis dispositivos de seguridad.|
-|**Criterios de aceptación:**| **Dado** que estoy en la app **Cuando**  cdescargo el informe **Entonces** recibo un PDF con un resumen del mes en términos de eventos y alertas. |
-
-|**Número:** | HU-28|
-|-|-|
-|**Usuario:**|Propietario de inmueble|
-|**Nombre de historia:**| Configurar notificaciones de prioridad |
-|**Prioridad:** |Media|
-|**Riesgo:** |Medio|
-|**Descripción:** |Como propietario de un inmueble, quiero configurar qué tipos de alertas recibir para priorizar las más importantes y evitar saturación de notificaciones.|
-|**Criterios de aceptación:**| **Dado** que estoy en la sección de notificaciones **Cuando** ajusto las preferencias **Entonces** recibo solo las notificaciones configuradas.|
-
-|**Número:** | HU-29|
-|-|-|
-|**Usuario:**|Propietario de inmueble|
-|**Nombre de historia:**| Configuración de acceso compartido |
-|**Prioridad:** |Media|
-|**Riesgo:** |Medio|
-|**Descripción:** |Como propietario de un inmueble, quiero compartir acceso temporal o limitado con otras personas para que puedan entrar en mi propiedad sin comprometer la seguridad.|
-|**Criterios de aceptación:**| **Dado** que estoy en la sección de acceso **Cuando** configuro el acceso compartido **Entonces** la otra persona recibe un código o acceso temporal limitado.|
-
-**Historias de Usuario para Usuarios de Empresas de Seguridad**
-
-|**Número:** | HU-30|
-|-|-|
-|**Usuario:**|Empresa de seguridad|
-|**Nombre de historia:**| Gestión de patrullas |
-|**Prioridad:** |Alta|
-|**Riesgo:** |Alto|
-|**Descripción:** |Como empresa de seguridad, quiero gestionar las rutas de patrullas en tiempo real para optimizar la vigilancia en propiedades protegidas.|
-|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de patrulla **Cuando** asigno una ruta a un guardia **Entonces** puedo ver su progreso y hacer ajustes en tiempo real.|
-
-|**Número:** | HU-31|
-|-|-|
-|**Usuario:**|Empresa de seguridad|
-|**Nombre de historia:**| Notificaciones de intrusión en tiempo real |
-|**Prioridad:** |Alta|
-|**Riesgo:** |Alto|
-|**Descripción:** |Como empresa de seguridad, quiero recibir notificaciones en tiempo real sobre cualquier intento de intrusión en las propiedades bajo nuestra vigilancia para actuar inmediatamente.|
-|**Criterios de aceptación:**| **Dado** que un sensor detecta una intrusión **Cuando** la alerta se dispara **Entonces** recibo una notificación inmediata en mi panel de control y la app.|
-
-|**Número:** | HU-32|
-|-|-|
-|**Usuario:**|Empresa de seguridad|
-|**Nombre de historia:**| Acceso a cámaras de seguridad |
-|**Prioridad:** |Alta|
-|**Riesgo:** |Medio|
-|**Descripción:** |Como empresa de seguridad, quiero acceder a las cámaras de seguridad en las propiedades de nuestros clientes para monitorear en tiempo real cualquier actividad sospechosa.|
-|**Criterios de aceptación:**| **Dado** que estoy en el dashboard de cámaras **Cuando** selecciono una cámara **Entonces** puedo ver la transmisión en vivo y revisar grabaciones.|
-
-|**Número:** | HU-33|
-|-|-|
-|**Usuario:**|Empresa de seguridad|
-|**Nombre de historia:**| Control de acceso remoto |
-|**Prioridad:** |Media|
-|**Riesgo:** |Medio|
-|**Descripción:** |Como empresa de seguridad, quiero controlar de manera remota el acceso a una propiedad para permitir la entrada o salida de personas sin estar físicamente presentes.|
-|**Criterios de aceptación:**| **Dado** que estoy en el panel de control **Cuando** selecciono la opción de abrir o cerrar accesos **Entonces** puedo desbloquear o bloquear la puerta remotamente.|
-
-|**Número:** | HU-34|
-|-|-|
-|**Usuario:**|Empresa de seguridad|
-|**Nombre de historia:**| Respuesta automatizada ante amenazas |
-|**Prioridad:** |Media|
-|**Riesgo:** |Alto|
-|**Descripción:** |Como empresa de seguridad, quiero que el sistema responda automáticamente ante amenazas identificadas por los dispositivos de seguridad para minimizar el tiempo de reacción.|
-|**Criterios de aceptación:**| **Dado** que una amenaza es detectada **Cuando** el sistema la confirma **Entonces** se activan las medidas de seguridad preconfiguradas (alarma, bloqueo de puertas, notificación a autoridades).|
-
-**Historias de Usuario para Aplicaciones Móviles y Web**
-
-|**Número:** | HU-35|
-|-|-|
-|**Usuario:**|Propietario de inmueble|
-|**Nombre de historia:**| Personalización de la interfaz |
-|**Prioridad:** |Media|
-|**Riesgo:** |Bajo|
-|**Descripción:** |Como propietario de un inmueble, quiero personalizar la interfaz de la app para que se adapte a mis preferencias y uso cotidiano.|
-|**Criterios de aceptación:**| **Dado** que estoy en la sección de configuración **Cuando** ajusto la apariencia y disposición de elementos **Entonces** la interfaz refleja mis preferencias personales.|
-
-|**Número:** | HU-36|
-|-|-|
-|**Usuario:**|Propietario de inmueble|
-|**Nombre de historia:**| Uso compartido de dispositivos |
-|**Prioridad:** |Media|
-|**Riesgo:** |Bajo|
-|**Descripción:** |Como propietario de un inmueble, quiero compartir el control de ciertos dispositivos con otros usuarios desde la app para que también puedan manejarlos.|
-|**Criterios de aceptación:**| **Dado** que estoy en la sección de dispositivos **Cuando** configuro el uso compartido **Entonces** el otro usuario tiene acceso limitado o completo según lo configurado.|
-
-|**Número:** | HU-37|
-|-|-|
-|**Usuario:**|Propietario de inmueble|
-|**Nombre de historia:**| Alertas de mantenimiento preventivo |
-|**Prioridad:** |Media|
-|**Riesgo:** |Bajo|
-|**Descripción:** |Como propietario de un inmueble, quiero recibir alertas de mantenimiento preventivo de los dispositivos para evitar fallos y asegurar su operación continua.|
-|**Criterios de aceptación:**| **Dado** que tengo dispositivos operando **Cuando** alguno necesita mantenimiento **Entonces** recibo una alerta en la app y el email con los pasos a seguir para realizar el mantenimiento.|
-
-
-## 3.3. Impact Mapping
-La herramienta denominada Impact Mapping consiste en una forma visual de representar las metas que nos plasmamos para llegar a cada sector de nuestro público. Por esta razón, el equipo utilizó este artefacto con el fin de definir nuestro camino para alcanzar a los segmentos objetivos. De este modo, al final del mapa mental identificamos las acciones y funcionalidades que debemos llevar a cabo para formar el proyecto de manera eficiente.
-
-### User: Dueño de Inmuebles
-A continuación, se presenta el Impact Map en el usuario, dueño de inmuebles; para la cual nos basamos en las User Stories de nuestro proyecto, brindando las alternativas con las que dispone los aplicativos para solucionar y satisfacer las necesidades del usuario.
-![](/src/images/impact-map-dueño-inmueble.png)
-
-### User: Empresa de seguridad
-Este mapa de impacto incluye los objetivos empresariales, los efectos deseados en la organización de seguridad y las historias de usuario relacionadas. El enfoque es en mejorar la eficiencia operativa y la satisfacción del cliente mediante el uso de tecnología IoT para vigilancia en tiempo real y respuestas automatizadas a amenazas.
-![](/src/images/impact-map-seguridad.png)
-
-## 3.4. Product Backlog
-
-### **Product Backlog**
-
-|**Número**|**Nombre de Historia**|**Prioridad**|**Riesgo**|**Estimación**|
-|---|---|---|---|---|
-| HU-03 | Monitorear múltiples propiedades | Alta | Alto | 13 |
-| HU-07 | Acceso remoto a cámaras | Alta | Alto | 13 |
-| HU-16 | Detección de anomalías en tiempo real | Alta | Alto | 13 |
-| HU-17 | Actualización remota de firmware | Alta | Alto | 13 |
-| HU-30 | Gestión de patrullas | Alta | Alto | 13 |
-| HU-31 | Notificaciones de intrusión en tiempo real | Alta | Alto | 13 |
-| HU-22 | Monitoreo de sensores de movimiento | Alta | Alto | 13 |
-| HU-32 | Acceso a cámaras de seguridad | Alta | Medio | 8 |
-| HU-25 | Ver estado de la propiedad en tiempo real | Alta | Alto | 8 |
-| HU-26 | Recibir notificaciones | Alta | Medio | 8 |
-| HU-01 | Ver historial de alertas | Alta | Medio | 5 |
-| HU-02 | Controlar dispositivos de seguridad | Alta | Alto | 5 |
-| HU-05 | Reportar un incidente | Alta | Medio | 5 |
-| HU-08 | Control de acceso remoto | Alta | Medio | 5 |
-| HU-21 | Control de luces inteligentes | Alta | Medio | 5 |
-| HU-12 | Gestión de dispositivos conectados | Alta | Alto | 5 |
-| HU-13 | Integración con sistemas de terceros | Alta | Alto | 5 |
-| HU-09 | Crear y gestionar alertas desde la app | Media | Medio | 3 |
-| HU-10 | Ver grabaciones de seguridad | Media | Medio | 3 |
-| HU-11 | Gestión de usuarios | Alta | Alto | 3 |
-| HU-14 | Gestión de logs y auditoría | Media | Medio | 3 |
-| HU-15 | Configuración de políticas de seguridad | Media | Medio | 3 |
-| HU-18 | Autonomía operativa de dispositivos edge | Media | Medio | 3 |
-| HU-19 | Monitoreo de alertas en dispositivos edge | Media | Medio | 3 |
-| HU-20 | Reinicio remoto de dispositivos edge | Media | Bajo | 3 |
-| HU-23 | Monitorización de baterías en dispositivos IoT | Media | Medio | 3 |
-| HU-24 | Automatización de escenarios | Media | Medio | 3 |
-| HU-27 | Acceso a informes de seguridad | Media | Bajo | 3 |
-| HU-28 | Configurar notificaciones de prioridad | Media | Medio | 3 |
-| HU-29 | Configuración de acceso compartido | Media | Medio | 3 |
-| HU-33 | Control de acceso remoto | Media | Medio | 3 |
-| HU-34 | Respuesta automatizada ante amenazas | Media | Alto | 3 |
-| HU-35 | Personalización de la interfaz | Media | Bajo | 2 |
-| HU-36 | Uso compartido de dispositivos | Media | Bajo | 2 |
-| HU-37 | Alertas de mantenimiento preventivo | Media | Bajo | 2 |
-
-
+# CAPÍTULO III: REQUIREMENTS SPECIFICATION
+## 3.1. To-Be Scenario Mapping.
+## 3.2. User Stories.
+## 3.3. Impact Mapping.
+## 3.4. Product Backlog.
 
 # CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. EventStorming
-
-Es una técnica colaborativa que nos permite explorar a fondo el dominio de nuestra aplicación de FalconShield. A través de una dinámica visual, se identifican eventos clave, acciones del usuario, reglas del sistema y flujos de mensajes. Esto mejora significativamente la comprensión del dominio, facilita el diseño del sistema y promueve una sólida colaboración entre el equipo.
-
-![alt text](src/images/image.png)
-
-#### 4.1.1.1. Candidate Context Discovery
-
-link del miro : https://miro.com/app/board/uXjVKjBJwpE=/?share_link_id=165602234559
-
-**Bounded Context:**
-
-![alt text](src/images/image-1.png)
-
-
-
-**User profile context:**
-![alt text](src/images/image-2.png)
-
-**Devices Context:**
-![alt text](src/images/image-3.png)
-
-**Installation devices Context:**
-![alt text](src/images/image-4.png)
-
-**Events Context:**
-![alt text](src/images/image-5.png)
-**Notifications Context:**
-![alt text](src/images/image-6.png)
-**Update software devices Context:**
-![alt text](src/images/image-7.png)
-**Suscription Context:**
-![alt text](src/images/image-9.png)
-
-
-
-#### 4.1.1.2. Domain Message Flows Modeling
-Este enfoque esencial nos permite visualizar y comprender cómo las diferentes partes de nuestro sistema interactúan entre sí mediante intercambios de mensajes. A través del modelado de flujos de mensajes, podemos capturar la lógica y la dinámica de nuestro dominio de manera clara y concisa, lo que facilita la comunicación y el diseño efectivo de sistemas complejos
-
-**Installations Context**
-![alt text](/src/images/flow-events.png)
-**Events Context**
-![alt text](/src/images/flow-events1.png)
-**Notifications Context**
-![alt text](/src/images/flow-noti.png)
-**Answers Context**
-![alt text](/src/images/flow-aws.png)
-#### 4.1.1.3. Bounded Context Canvases
-![alt text](/src/images/context-mapping.png)
-
-link del miro: https://miro.com/app/board/uXjVKhxU5HM=/?share_link_id=949468869000
-
+#### 4.1.1.1 Candidate Context Discovery
+#### 4.1.1.2 Domain Message Flows Modeling
+#### 4.1.1.3 Bounded Context Canvases
 ### 4.1.2. Context Mapping
-**Area Management Context - Device Management Context:**
-
-La relación entre Area Management Context y Device Management Context es de Partnership. El contexto Area Management organiza las propiedades y áreas, mientras que el contexto Device Management gestiona los dispositivos dentro de esas áreas. Ambos contextos colaboran estrechamente para garantizar una integración efectiva entre la organización espacial y la gestión de dispositivos en el sistema de seguridad basado en IoT.
-
-![alt text](src/images/412-1.png)
-
-**Area Management Context - Events Context:**
-
-La relación entre Area Management Context y Events Context es de Customer-Supplier. El contexto Area Management define las áreas, mientras que el contexto Events registra y gestiona los eventos que ocurren en esas áreas, como la activación de sensores o alarmas. Events Context depende de los datos de Area Management para asociar los eventos correctamente a sus ubicaciones.
-
-![alt text](src/images/412-2.png)
-
-**Area Management Context - Subscriptions Context:**
-
-La relación entre ambos contextos también es de tipo Customer-Supplier. En esta relación, el contexto Subscriptions Management gestiona los planes y pagos de los usuarios, determinando cuántas áreas pueden gestionar según su plan de suscripción. Area Management depende de las reglas definidas por Subscriptions Management para limitar o permitir la creación de más áreas en función del plan del usuario. Esta relación garantiza que el acceso a más áreas esté controlado por el nivel de suscripción, manteniendo la coherencia entre la gestión de áreas y las restricciones del plan en el sistema de seguridad.
-
-![alt text](src/images/412-3.png)
-
-**Events Context - Device Management Context:**
-
-La relación entre ambos contextos son de tipo Conformist porque el Events Context depende directamente de los dispositivos definidos en el Device Management Context para registrar y manejar los eventos. En esta relación, el Events Context no redefine ni expande significativamente la estructura o el modelo de los dispositivos, sino que adopta la representación de los dispositivos tal como se modelan en el Device Management Context.
-
 ### 4.1.3. Software Architecture
-
-En esta parte, mostraremos la representación de la Arquitectura de Software de la solución en base a los modelos C4
-
 #### 4.1.3.1. Software Architecture System Landscape Diagram
-
-Este diagrama nos ofrece una visión mas general de como es la interacción de los usuarios con los sistemas externos, nos permite comprender la conexión de los componentes para contribuir al funcionamiento general de las aplicaciones.
-![landscape](src/images/landscape%20diagram.jpg)
-
 #### 4.1.3.2. Software Architecture Context Level Diagrams
-
-En este tipo de diagramas, se muestra como nuestro sistema interactúa con elementos externos.
-![context](src/images/diagrama%20de%20contexto.jpg)
-
-#### 4.1.3.3. Software Architecture Container Level Diagrams
-
-Son representaciones visuales de la arquitectura de software a nivel de contenedores, que muestran cómo se agrupan y se comunican los distintos componentes y servicios dentro de un sistema o aplicación. Estos diagramas proporcionan una vista detallada de la organización de los contenedores de software, lo que ayuda a entender la estructura y las interacciones en la arquitectura general.
-![container](src/images/container.jpg)
-
-
-#### 4.1.3.4. Software Architecture Deployment Diagrams
-
-Son representaciones gráficas que ilustran cómo se despliegan y ejecutan los componentes de software en la infraestructura de hardware o en un entorno de producción.
-![deployment](src/images/deployment.jpg)
-
+#### 4.1.3.2. Software Architecture Container Level Diagrams
+#### 4.1.3.3. Software Architecture Deployment Diagrams
 ## 4.2. Tactical-Level Domain-Driven Design
-### 4.2.1. Bounded Context:
-#### 4.2.1.1. Domain Layer
-#### 4.2.1.2. Interface Layer
-
-- API Endpoints:
-  - POST /subscriptions: Crea una nueva suscripción para un usuario.
-  - PUT /subscriptions/{subscriptionId}: Actualiza una suscripción existente.
-  - DELETE /subscriptions/{subscriptionId}: Cancela una suscripción.
-  - GET /subscriptions/{subscriptionId}: Obtiene los detalles de una suscripción.
-- DTOs:
-  - SubscriptionDTO: Representa los datos de una suscripción para ser enviados o recibidos a través de la API.
-  - PlanDTO: Representa los datos de un plan de suscripción para ser enviados o recibidos a través de la API.
-  - PaymentDTO: Representa los datos de un pago para ser enviados o recibidos a través de la API.
-- Controllers:
-  - SubscriptionController: Controlador que gestiona las operaciones relacionadas con las suscripciones, como la creación, actualización y cancelación de suscripciones.
-  - PlanController: Controlador que gestiona las operaciones relacionadas con los planes de suscripción, como la creación y actualización de planes.
-  - PaymentController: Controlador que gestiona las operaciones relacionadas con los pagos, como la creación y verificación de pagos.
-
-#### 4.2.1.3. Application Layer
-
-- Application Services:
-  - SubscriptionApplicationService: Servicio de aplicación que coordina las operaciones relacionadas con las suscripciones, como la creación, actualización y cancelación de suscripciones.
-  - PlanApplicationService: Servicio de aplicación que gestiona las operaciones relacionadas con los planes de suscripción, como la creación y actualización de planes.
-  - PaymentApplicationService: Servicio de aplicación que gestiona las operaciones relacionadas con los pagos, como la creación y verificación de pagos.
-- Commands/Queries:
-  - CreateSubscriptionCommand: Comando para crear una nueva suscripción.
-  - UpdateSubscriptionCommand: Comando para actualizar una suscripción existente.
-  - CancelSubscriptionCommand: Comando para cancelar una suscripción.
-  - GetSubscriptionQuery: Consulta para obtener los detalles de una suscripción.
-- Events:
-  - SubscriptionCreatedEvent: Evento que se dispara cuando se crea una nueva suscripción.
-  - SubscriptionUpdatedEvent: Evento que se dispara cuando se actualiza una suscripción.
-  - SubscriptionCancelledEvent: Evento que se dispara cuando se cancela una suscripción.
-  
-#### 4.2.1.4. Infrastructure Layer
-
-- Repositories implementations:
-  - SubscriptionRepositoryImpl: Implementación concreta del repositorio de suscripciones que se encarga de la persistencia de las suscripciones en la base de datos.
-  - PlanRepositoryImpl: Implementación concreta del repositorio de planes de suscripción que se encarga de la persistencia de los planes en la base de datos.
-  - PaymentRepositoryImpl: Implementación concreta del repositorio de pagos que se encarga de la persistencia de los pagos en la base de datos.
-- External Services:
-  - PaymentGatewayService: Servicio externo que se encarga de procesar los pagos realizados por los usuarios, como la verificación de tarjetas de crédito y la
-  - StripePaymentGateway: Implementación concreta del servicio de pasarela de pagos que utiliza la API de Stripe para procesar los pagos de los usuarios.
-  
-#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
-#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
-#### 4.2.1.6.2. Bounded Context Database Design Diagram
-
-![alt text](src/images/bc-db-subscriptions.png)
-
-#### 4.2.2. Bounded Context: Device
-#### 4.2.2.1 Domain Layer
-- **Entidades de dominio**:
-  - **Device**: Representa un dispositivo IoT instalado en el inmueble, incluyendo sus características y estado.
-  - **Installation**: Representa la instalación de un dispositivo en un inmueble, incluyendo la fecha de instalación y el estado de la instalación.
-  - **Property**: Representa la propiedad (inmueble) donde los dispositivos están instalados, incluyendo detalles sobre la ubicación y características.
-
-- **Objetos de valor**:
-  - **DeviceConfiguration**: Contiene la configuración específica de cada dispositivo, como el tipo de dispositivo, configuraciones de red y parámetros operativos.
-  - **InstallationDetails**: Información sobre la instalación del dispositivo, como la ubicación exacta y el método de instalación.
-
-- **Repositorios**:
-  - **DeviceRepository**: Maneja la persistencia de los dispositivos.
-  - **InstallationRepository**: Maneja la persistencia de las instalaciones de dispositivos.
-  - **PropertyRepository**: Maneja la persistencia de las propiedades donde se instalan los dispositivos.
-
-#### 4.2.2.2 Interface Layer
-- **DeviceController**: Gestiona la configuración y visualización de dispositivos IoT. Permite a los usuarios ver, agregar y actualizar la información de los dispositivos instalados, así como revisar el estado y configuraciones de cada dispositivo.
-
-- **InstallationController**: Maneja la gestión de la instalación de dispositivos. Permite a los usuarios iniciar nuevas instalaciones, actualizar el estado de las instalaciones y visualizar el historial de instalaciones.
-
-- **PropertyController**: Gestiona la información de las propiedades donde los dispositivos están instalados. Permite a los usuarios ver detalles sobre las propiedades y asociar dispositivos con propiedades específicas.
-
-#### 4.2.2.3. Application Layer
-- **Command Handlers**:
-  - **RegisterDeviceCommandHandler**: Procesa la solicitud para registrar un nuevo dispositivo IoT en el sistema. Este handler maneja la creación de registros para nuevos dispositivos y su configuración inicial.
-  - **UpdateDeviceConfigurationCommandHandler**: Maneja las actualizaciones en la configuración de un dispositivo existente.
-  - **InstallDeviceCommandHandler**: Procesa la solicitud para instalar un dispositivo en una propiedad. Maneja la asociación del dispositivo con la propiedad y actualiza el estado de la instalación.
-  - **UninstallDeviceCommandHandler**: Maneja la solicitud para desinstalar un dispositivo, actualizando el estado del dispositivo y la propiedad asociada.
-
-- **Event Handlers**:
-  - **DeviceRegisteredEventHandler**: Responde a eventos que confirman la creación y registro exitoso de un dispositivo. Actualiza el estado del dispositivo en la base de datos y emite eventos relacionados.
-  - **DeviceConfigurationUpdatedEventHandler**: Maneja eventos que indican que la configuración de un dispositivo ha sido actualizada. Actualiza la base de datos y notifica a los usuarios correspondientes.
-  - **DeviceInstalledEventHandler**: Maneja eventos de instalación exitosa de un dispositivo. Actualiza el estado de la instalación y emite notificaciones.
-  - **DeviceUninstalledEventHandler**: Responde a eventos que indican que un dispositivo ha sido desinstalado. Actualiza el estado en la base de datos y emite notificaciones relacionadas.
-
-#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
-#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
-![alt text](/src/images/devices-diagram.png)
-#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
-![alt text](/src/images/devices-db.png)
-
-#### 4.2.2.4. Infrastructure Layer
-  
-- **Integración con proveedores de dispositivos**: Implementa adaptadores para interactuar con proveedores de hardware y servicios relacionados con los dispositivos IoT, como actualizaciones de firmware y estado del dispositivo.
-
-- **Gestión de bases de datos**: Incluye la configuración y gestión de bases de datos relacionadas con los dispositivos IoT. Abarca la creación de tablas, almacenamiento en caché para mejorar el rendimiento y copias de seguridad de datos sensibles.
-
-- **Seguridad**: Implementa medidas de seguridad para proteger los datos de los dispositivos y la comunicación entre los dispositivos y el sistema central. Esto podría incluir cifrado de datos, autenticación de dispositivos y medidas contra accesos no autorizados.
-
-### 4.2.3. Bounded Context: Areas
-#### 4.2.3.1. Domain Layer
-- Entities:
-  - Area: Representa un área específica en la que se colocan los dispositivos.
-    - Atributos: id, name, icon, color.
-  - Property: Representa una propiedad que puede tener múltiples áreas.
-    - Atributos: id, name, image_url, address.
-
-- Value Objects:
-  - AreaId: Identificador único de un área.
-  - PropertyId: Identificador único de una propiedad.
-
-- Aggregates:
-  - AreaAggregate: Agregado raíz que encapsula las operaciones relacionadas con las áreas, incluyendo la creación, actualización y eliminación de áreas.
-  - PropertyAggregate: Agregado raíz que encapsula las operaciones relacionadas con las propiedades, incluyendo la asociación con áreas.
-
-- Domain Services:
-  - AreaService: Define las operaciones de negocio relacionadas con las áreas, como la creación, actualización y eliminación de áreas.
-  - PropertyService: Define las operaciones de negocio relacionadas con las propiedades, como la gestión de áreas asociadas.
-
-- Repositories:
-  - AreaRepository: Interfaz que define las operaciones de persistencia relacionadas con las áreas.
-  - PropertyRepository: Interfaz que define las operaciones de persistencia relacionadas con las propiedades.
-
-#### 4.2.3.2. Interface Layer
-- API Endpoints:
-  - POST /areas: Crea una nueva área.
-  - PUT /areas/{areaId}: Actualiza una área existente.
-  - DELETE /areas/{areaId}: Elimina una área.
-  - GET /areas/{areaId}: Obtiene los detalles de una área.
-  - POST /properties: Crea una nueva propiedad.
-  - PUT /properties/{propertyId}: Actualiza una propiedad existente.
-  - DELETE /properties/{propertyId}: Elimina una propiedad.
-  - GET /properties/{propertyId}: Obtiene los detalles de una propiedad.
-
-- DTOs:
-  - AreaDTO: Representa los datos de un área para ser enviados o recibidos a través de la API.
-  - PropertyDTO: Representa los datos de una propiedad para ser enviados o recibidos a través de la API.
-
-- Controllers:
-  - AreaController: Controlador que gestiona las operaciones relacionadas con las áreas, como la creación, actualización y eliminación de áreas.
-  - PropertyController: Controlador que gestiona las operaciones relacionadas con las propiedades, como la creación, actualización y eliminación de propiedades.
-
-#### 4.2.3.3. Application Layer
-- Application Services:
-  - AreaApplicationService: Servicio de aplicación que coordina las operaciones relacionadas con las áreas, como la creación, actualización y eliminación de áreas.
-  - PropertyApplicationService: Servicio de aplicación que gestiona las operaciones relacionadas con las propiedades, como la creación, actualización y eliminación de propiedades.
-
-- Commands/Queries:
-  - CreateAreaCommand: Comando para crear una nueva área.
-  - UpdateAreaCommand: Comando para actualizar una área existente.
-  - DeleteAreaCommand: Comando para eliminar una área.
-  - GetAreaQuery: Consulta para obtener los detalles de una área.
-  - CreatePropertyCommand: Comando para crear una nueva propiedad.
-  - UpdatePropertyCommand: Comando para actualizar una propiedad existente.
-  - DeletePropertyCommand: Comando para eliminar una propiedad.
-  - GetPropertyQuery: Consulta para obtener los detalles de una propiedad.
-
-- Events:
-  - AreaCreatedEvent: Evento que se dispara cuando se crea una nueva área.
-  - AreaUpdatedEvent: Evento que se dispara cuando se actualiza una área.
-  - AreaDeletedEvent: Evento que se dispara cuando se elimina una área.
-  - PropertyCreatedEvent: Evento que se dispara cuando se crea una nueva propiedad.
-  - PropertyUpdatedEvent: Evento que se dispara cuando se actualiza una propiedad.
-  - PropertyDeletedEvent: Evento que se dispara cuando se elimina una propiedad.
-
-#### 4.2.3.4. Infrastructure Layer
-- Repositories Implementations:
-  - AreaRepositoryImpl: Implementación concreta del repositorio de áreas que se encarga de la persistencia de las áreas en la base de datos.
-  - PropertyRepositoryImpl: Implementación concreta del repositorio de propiedades que se encarga de la persistencia de las propiedades en la base de datos.
-
-- External Services:
-  - En este contexto, no se han identificado servicios externos específicos para las áreas y propiedades, pero podrían incluir servicios de almacenamiento de imágenes o integraciones con sistemas de mapeo si se requieren en el futuro.
-
-#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
-
-#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
-#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
-![Bounded Context UML Areas](src/images/bc-uml-areas.png)
-#### 4.2.3.6.2. Bounded Context Database Design Diagram
-![Bounded Context Database Areas](src/images/bc-db-areas.jpg)
-
-### 4.2.4. Bounded Context: User
-#### 4.2.4.1. Domain Layer
-
-**Entidades de dominio**
-
-- Account: Representa una cuenta de usuario en el sistema.
-- PropertyUser: Representa un perfil del sector inmobiliario en el sistema.
-- SecurityUser: Representa un perfil de un especialista en la seguridad en el sistema.
-  
-**Agregados**
-
-Autenticador: Maneja la autenticación de los usuarios, verificando sus credenciales y emitiendo tokens de acceso.
-Autorizador: Maneja la autorización de los usuarios, verificando que tienen los permisos necesarios para realizar una acción en el sistema
-
-**Repositorios**
-
-* AccountRepository: Maneja la persistencia de las cuentas de usuario.
-* PropertyProfileRepository: Maneja la persistencia de los perfiles de los usuarios que tienen inmueble.
-* SecurityProfileRepository: Maneja la persistencia de los perfiles de especialistas en la seguridad del hogar.
-
-#### 4.2.4.2. Interface Layer
-
-- **PropertyAccountController:** El PropertyAccountController maneja las operaciones relacionadas con la gestión de cuentas de usuarios de inmuebles, como la creación de cuentas, la autenticación y el cierre de sesiones.
-
-- **SecurityAccountController:** El SecurityAccountController maneja las operaciones relacionadas con la gestión de cuentas de los dueños de inmuebles, la seguridad, como la creación de cuentas, la autenticación y el cierre de sesiones.
-
-- **UserController:** Esta clase maneja las operaciones de gestión de usuarios, incluyendo el registro, autenticación, actualización de perfiles y eliminación de cuentas.
-
-- **UserProfileController:** El UserProfileController está encargado de las operaciones específicas relacionadas con los perfiles de usuario, como la actualización de la información personal del usuario.
-
-#### 4.2.4.3. Application Layer
-
-En el contexto de "Account," el Application Layer se enfoca en la creación, autenticación y la autorización de usuarios (dueños de inmuebles y seguridad). Proporciona una interfaz de inicio de sesión y registro para los usuarios, donde pueden ingresar sus credenciales de manera segura. El Application Layer verifica la identidad de los usuarios y garantiza que tengan acceso solo a las funciones y los datos apropiados según sus permisos. Además, se gestionan eventos relacionados con la autenticación, como el inicio de sesión exitoso, para proporcionar una experiencia segura y efectiva.
-
-**Command Handlers:**
-
-- **RegisterUserCommandHandler:** Procesa la creación de nuevas cuentas de usuario en VerySafe. Cuando un usuario se registra, este componente crea una cuenta y gestiona las credenciales asociadas de acuerdo al tipo de usuario registrado.
-- **AuthenticateUserCommandHandler:** Se encarga de verificar las credenciales de inicio de sesión de los usuarios. Permite el acceso a las funciones de la aplicación después de una autenticación exitosa.
-  
-**Event Handlers:**
-
-- **UserLoggedInEventHandler:** Responde a eventos que indican un inicio de sesión exitoso por parte de un usuario. Actualiza el estado de la sesión del usuario y genera eventos adicionales relacionados con la autenticación.
-
-- **PermissionsUpdatedEventHandler:** Maneja eventos que indican cambios en los permisos de usuario. Cuando se producen cambios en los permisos, este componente actualiza el estado de la autorización y emite eventos de seguridad correspondientes.
-
-#### 4.2.4.4. Infrastructure Layer
-
-**Integración con AWS SNS para el envío de notificaciones:** Se configurarán conexiones y se desarrollarán adaptadores para interactuar con el servicio de notificaciones de AWS SNS, permitiendo el envío y recepción de mensajes a través de múltiples canales, como SMS, correos electrónicos, o notificaciones push. Esto implicará la configuración del servicio SNS, la gestión de credenciales de acceso y la integración con otros servicios externos para el envío de notificaciones. Además, se implementará la autenticación con Firebase Auth para garantizar la seguridad en el acceso a la aplicación, incluyendo la configuración de Firebase Auth, la gestión de tokens de autenticación y la integración con los servicios de notificación de Firebase.
-
-#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
-
-![component-user](src/images/bc-component-user.jpg)
-
-#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
-#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
-
-![bc](src/images/BC-ACCOUNT.jpg)
-
-#### 4.2.3.6.2. Bounded Context Database Design Diagram
-
-![BD](src/images/BD-ACCOUNT.jpg)
-
-### 4.2.5. Bounded Context: Event
-#### 4.2.5.1. Domain Layer
-
-**Entidades de dominio**
-
-- **Event:** Representa un evento en el sistema.
-- **EventType:** Representa el tipo de evento en el sistema.
-
-**Agregados**
-
-- **EventManager:** Maneja la creación y gestión de eventos.
-- **EventTypeManager:** Maneja la creación y gestión de tipos de eventos.
-  
-**Repositorios**
-
-- **EventRepository:** Maneja la persistencia de los eventos.
-- **EventTypeRepository:** Maneja la persistencia de los tipos de eventos.
- 
-#### 4.2.5.2. Interface Layer
-
-- **EventController:** Maneja las operaciones relacionadas con la gestión de eventos, como la creación, actualización y eliminación de eventos.
-
-- **EventTypeController:** Maneja las operaciones relacionadas con la gestión de tipos de eventos, como la creación, actualización y eliminación de tipos de eventos.
-
-#### 4.2.5.3. Application Layer
-
-En el contexto de “Events,” el Application Layer se enfoca en la creación y gestión de eventos y sus tipos. Proporciona una interfaz para que los usuarios puedan crear, actualizar y eliminar eventos y tipos de eventos.
-
-**Command Handlers:**
-
-- **CreateEventCommandHandler:** Procesa la creación de nuevos eventos en el sistema.
-- **UpdateEventCommandHandler:** Procesa la actualización de eventos existentes.
-- **DeleteEventCommandHandler:** Procesa la eliminación de eventos.
-
-**Event Handlers:**
-
-- **EventCreatedEventHandler:** Responde a eventos que indican la creación exitosa de un evento.
-- **EventUpdatedEventHandler:** Responde a eventos que indican la actualización exitosa de un evento.
-- **EventDeletedEventHandler:** Responde a eventos que indican la eliminación exitosa de un evento.
-
-#### 4.2.5.4. Infrastructure Layer
-
-**Integración con AWS SNS para el envío de notificaciones:** Se configurarán conexiones y se desarrollarán adaptadores para interactuar con el servicio de notificaciones de AWS SNS, permitiendo el envío y recepción de mensajes a través de múltiples canales, como SMS, correos electrónicos, o notificaciones push como respuesta a una alerta o prevencion de la alarma.
-
-#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
-![component](src/images/bc-component-event.jpg)
-
-#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
-#### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
-![class](src/images/bc-class-event.jpg)
-
-#### 4.2.5.6.2. Bounded Context Database Design Diagram
-
-![events](src/images/bd-events.jpg)
-
-### 4.2.6. Bounded Context: Notifications
-#### 4.2.6.1. Domain Layer
-**Entidades de dominio** 
-- **Notification:** Representa una notificación en el sistema.
--	**NotificationType:** Representa el tipo de notificación en el sistema.
-Agregados
--	**NotificationManager:** Maneja la creación y gestión de notificaciones.
--	**NotificationTypeManager:** Maneja la creación y gestión de tipos de notificaciones.
-Repositorios
--	**NotificationRepository:** Maneja la persistencia de las notificaciones.
--	**NotificationTypeRepository:** Maneja la persistencia de los tipos de notificaciones.
-
-#### 4.2.6.2. Interface Layer
--	**NotificationController:** Maneja las operaciones relacionadas con la gestión de notificaciones, como la creación, actualización y eliminación de notificaciones.
--	**NotificationTypeController:** Maneja las operaciones relacionadas con la gestión de tipos de notificaciones, como la creación, actualización y eliminación de tipos de notificaciones.
-
-#### 4.2.6.3. Application Layer
-En el contexto de “Notifications,” el Application Layer se enfoca en la creación y gestión de notificaciones y sus tipos. Proporciona una interfaz para que los usuarios puedan crear, actualizar y eliminar notificaciones y tipos de notificaciones.
-**Command Handlers:**
--	**CreateNotificationCommandHandler:** Procesa la creación de nuevas notificaciones en el sistema.
--	**UpdateNotificationCommandHandler:** Procesa la actualización de notificaciones existentes.
--	**DeleteNotificationCommandHandler:** Procesa la eliminación de notificaciones.
-
-**Event Handlers:**
--	**NotificationCreatedEventHandler:** Responde a eventos que indican la creación exitosa de una notificación.
--	**NotificationUpdatedEventHandler:** Responde a eventos que indican la actualización exitosa de una notificación.
--	**NotificationDeletedEventHandler:** Responde a eventos que indican la eliminación exitosa de una notificación.
-
-#### 4.2.6.4. Infrastructure Layer
-Integración con servicios externos: Se configurarán conexiones y se desarrollarán adaptadores para interactuar con servicios externos para el envío de notificaciones. Esto implicará la configuración de servicios de mensajería y la gestión de credenciales de acceso.
-
-#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
-El diagrama de nivel de componentes muestra cómo interactúan los diferentes componentes del sistema:
-![](src/images/bd-component-notification.jpg)
-
-#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
-El diagrama de nivel de código muestra la estructura del código y las relaciones entre las clases:
-![](src/images/class-diagram-notification.jpeg)
-
-#### 4.2.6.7. Bounded Context Database Design Diagram
-![](src/images/bd-notification.jpeg)
+### 4.2.X. Bounded Context: <Bounded Context Name>
+#### 4.2.X.1. Domain Layer
+#### 4.2.X.2. Interface Layer
+#### 4.2.X.3. Application Layer
+#### 4.2.X.4. Infrastructure Layer
+#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.X.6.2. Bounded Context Database Design Diagram
 
 # CAPÍTULO V: SOLUTION UI/UX DESIGN
 ## 5.1. Style Guidelines
@@ -1418,38 +109,391 @@ El diagrama de nivel de código muestra la estructura del código y las relacion
 
 # CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
 ## 6.1. Software Configuration Management
-### 6.1.1. Software Development Environment Configuration.
-### 6.1.2. Source Code Management.
-### 6.1.3. Source Code Style Guide & Conventions.
-### 6.1.4. Software Deployment Configuration.
-## 6.2. Landing Page, Services & Applications Implementation.
+### 6.1.1. Software Development Environment Configuration
+En esta sección se presenta la configuración del entorno de desarrollo de software utilizado por el equipo en el proyecto de IoT. A continuación, se detallan las herramientas seleccionadas, junto con sus descripciones y propósitos específicos, así como los enlaces para acceder a cada una de ellas. Estas herramientas son fundamentales para colaborar eficazmente en las diversas etapas del ciclo de vida de los productos digitales, incluyendo la gestión de proyectos, la gestión de requisitos, el diseño UX/UI, el desarrollo de software, las pruebas, el despliegue y la documentación.
+
+| Herramienta | Descripción y propósito | Enlace |
+|-------------|-------------------------|--------|
+| UX Pressia         | Herramienta para crear mapas de experiencia del usuario, permitiendo visualizar y documentar la experiencia del usuario en un formato colaborativo. Se utilizará para desarrollar y comunicar la experiencia del usuario en las soluciones de IoT.                                         | [https://uxpressia.com](https://uxpressia.com)     |
+| Miro               | Pizarra colaborativa en línea ideal para la lluvia de ideas y la planificación de proyectos. Se utilizará para la colaboración en la definición de requisitos y la creación de diagramas de flujo que guiarán el desarrollo del software.                                                            | [https://miro.com](https://miro.com)                 |
+| Figma              | Herramienta de diseño de interfaces y prototipado colaborativo que permite trabajar juntos en tiempo real. Se utilizará para diseñar la interfaz de usuario (UI) y crear prototipos interactivos que se validarán con los usuarios finales.                                                        | [https://www.figma.com](https://www.figma.com)      |
+| Overflow           | Herramienta de diagramación de flujos de usuario que permite crear recorridos visuales de las interacciones del usuario. Se utilizará para ilustrar cómo los usuarios interactuarán con la solución de IoT.                                                                                     | [https://overflow.io](https://overflow.io)          |
+| Structurizr        | Herramienta para crear diagramas de arquitectura de software utilizando el lenguaje C4. Se utilizará para definir y comunicar la arquitectura de la solución IoT.                                                                                                                                              | [https://structurizr.com](https://structurizr.com)  |
+| LucidChart         | Herramienta de diagramación en línea que permite crear diagramas de flujo y organigramas. Se utilizará para documentar visualmente los procesos y flujos de trabajo asociados con el desarrollo de la solución de IoT.                                                                           | [https://www.lucidchart.com](https://www.lucidchart.com) |
+| Vertabelo          | Herramienta de diseño de bases de datos que permite crear y documentar esquemas de bases de datos. Se utilizará para el modelado de datos en el proyecto, asegurando que la estructura de la base de datos se alinee con los requisitos del sistema IoT.                                             | [https://www.vertabelo.com](https://www.vertabelo.com) |
+| HTML5              | Lenguaje de marcado estándar para crear páginas web. Se utilizará para estructurar el contenido de las aplicaciones web del proyecto, asegurando una base sólida para la interfaz de usuario.                                                                                                            | No dispone |
+| CSS3               | Hoja de estilo utilizada para diseñar la presentación de las aplicaciones web. Se utilizará para estilizar las interfaces de usuario y garantizar una experiencia visual atractiva y coherente.                                                                                                         | No dispone   |
+| JavaScript         | Lenguaje de programación utilizado para desarrollar aplicaciones web interactivas. Se utilizará para implementar la lógica de negocio y las interacciones en la aplicación de IoT.                                                                                                         | No dispone   |
+| Angular Framework   | Framework de desarrollo web para construir aplicaciones web de una sola página. Se utilizará para crear la interfaz del usuario y gestionar el estado de la aplicación IoT.                                                                                                                        | [https://angular.io](https://angular.io)          |
+| Angular Material    | Biblioteca de componentes de UI para Angular que sigue las pautas de diseño de Material Design. Se utilizará para implementar componentes de interfaz de usuario coherentes y responsivos en la aplicación.                                                                                 | [https://material.angular.io](https://material.angular.io)  |
+| TypeScript         | Superset de JavaScript que añade tipado estático. Se utilizará en el proyecto para mejorar la calidad del código y facilitar el desarrollo al proporcionar herramientas de desarrollo más robustas.                                                                                                   | [https://www.typescriptlang.org](https://www.typescriptlang.org)  |
+| Trello             | Herramienta de gestión de proyectos que utiliza tableros para organizar tareas y proyectos. Se utilizará para gestionar el progreso del proyecto, asignar tareas y hacer seguimiento del trabajo del equipo.                                                                                             | [https://trello.com](https://trello.com)           |
+| GIT                | Sistema de control de versiones distribuido que permite gestionar el código fuente del proyecto. Se utilizará para llevar un seguimiento de los cambios en el código y colaborar eficientemente entre los miembros del equipo.                                                                               | [https://git-scm.com](https://git-scm.com)         |
+| GitHub             | Plataforma de desarrollo colaborativo que permite almacenar y gestionar repositorios de código usando Git. Se utilizará para alojar el código del proyecto y facilitar la colaboración entre los miembros del equipo.                                                                                   | [https://github.com](https://github.com)           |
+| GitFlow            | Flujo de trabajo para Git que define un modelo de ramificación para gestionar el desarrollo. Se utilizará para organizar el trabajo en el proyecto, facilitando la integración de nuevas características y la gestión de lanzamientos.                                                                     | No dispone |
+
+
+### 6.1.2. Source Code Management
+### 6.1.3. Source Code Style Guide & Conventions
+A continuación, se darán a conocer las convenciones, formatos, estilos y entre otras propiedades de los lenguajes trabajados en la presente solución las cuales son: HTML, JavaScript/TypeScript, Java y CSS. Además, por el lado de las pruebas de aceptación también se darán a conocer dichos temas para el lenguaje Gherkin.
+
+**HTML:** Se hará uso de la guía “HTML Style Guide and Coding” de la página W3Schools, la cual menciona las convenciones y estándares de este lenguaje de etiquetas. Hemos considerado las siguientes como las más importantes:
+
+- _Declarar siempre el tipo documento:_ Es decir, colocar siempre la etiqueta \<!DOCTYPE html\> en la primera línea del código.
+- _Utilizar el nombre de las etiquetas y sus atributos en minúscula:_ Por un tema de estética y orden del código para que este se vea más limpio y sea más fácil de escribir.
+- _Cerrar todas las etiquetas:_ Esto evita futuros problemas o errores de sintaxis.
+- _Siempre coloca comillas para los valores de los atributos de las etiquetas:_ De esta forma los valores son más fáciles de leer y se deben utilizar obligatoriamente si este contiene espacios.
+- _Especificar siempre los atributos alt, width y height para las imágenes:_ Es importante en caso de que la imagen no se pueda mostrar por algún motivo y también ayuda con el tema de la accesibilidad de los usuarios.
+- _No omitir la etiqueta \<title\> ni los metadatos (\<meta\>):_ Estas etiquetas son importantes para la optimización de motores de búsqueda (SEO).
+
+**CSS:** Se siguió la guía “Google HTML/CSS Style Guide” donde se indican las convenciones, reglas y buenas prácticas para este lenguaje. Hemos considerado las siguientes recomendaciones como las más destacadas:
+
+- _Nombre de clases:_ Se recomienda usar nombres generales para las clases, no deben ser específicas por la razón de que deben comportarse como padres.
+- _Usar nombres de clase cortos:_ Se recomienda utilizar nombres de clase que sean cortos y descriptivos, para transmitir la idea de lo que representa de manera concisa.
+- _Usar delimitadores de nombres de clase adecuados:_ Se debe de separar las palabras en los nombres de clase con solo guiones.
+- _Evitar los selectores de ID:_ No se recomienda implementar este tipo de selectores, por la razón de que estos deben ser únicos en toda la página y en proyectos grandes que tengan muchos componentes es difícil de garantizar esa unicidad, es preferible usar selectores de clase.
+- _Usar propiedades abreviadas:_ Es muy recomendable usar propiedades que soporten ser declarados de forma abreviada (por ejemplo, la propiedad padding, margin, border, etc.) por la razón de que reduce de forma significativa la cantidad de líneas de código, y es más legible para el programador o diseñador.
+
+**JavaScript:** Se consideró importante seguir una guía de buenas prácticas para un mejor desarrollo del código, para este caso se eligió la guía de la wiki “JavaScript best practices“ del World Wide Web (W3C). Lo cual se destaca lo siguiente:
+
+- _Usar nombres cortos y fáciles de leer:_ Es recomendable nombrar adecuadamente las variables, clases, funciones y otros elementos para que sea más sencillo de leer y comprender.
+- _Evitar el uso de variables globales (keyword “var”):_ No se recomienda el uso de este tipo de variables en un proyecto, porque pueden generar muchos errores a medida que el proyecto crece y estas pueden sobrescribirse fácilmente afectando el valor y se pueden declarar otros elementos como funciones con el mismo nombre de la variable y generar errores.
+- _Comentar y documentar lo necesario:_ Se recomienda comentar líneas de código que son complejos de entender a simple vista explicando o dejando mensajes para que otros programadores lo entiendan.
+- _Usar notaciones sencillas de entender:_ Javascript cuenta con diversas notaciones y operadores para crear o modificar ciertas estructuras de datos como objetos, arrays, selectivas, etc.
+
+**TypeScript:** Se siguieron las convenciones y guías de estilo de código de “TypeScript Style Guide” de Google. Lo cual se destaca lo siguiente: 
+
+- _PascalCase para Clases y Tipos:_ Los nombres de clases y tipos deben usar PascalCase, donde cada palabra comienza con una letra mayúscula. Ejemplo: MiClase. 
+- _camelCase para Variables y Funciones:_ Los nombres de variables y funciones deben usar camelCase, donde la primera palabra comienza con minúscula y las siguientes con mayúscula. Ejemplo: miVariable. 
+- _UPPER_CASE para Constantes:_ Los nombres de constantes se escriben completamente en mayúsculas y se separan con guiones bajos. Ejemplo: MI_CONSTANTE. 
+- _Evitar el tipo Any:_ Se debe evitar el uso de any en TypeScript y, en su lugar, se deben declarar tipos explícitos para variables y parámetros de función siempre que sea posible. 
+- _Interfaces para Estructuras de Datos:_ Utilizar interfaces para definir la estructura de datos de objetos y clases.  
+- _Uso de Tipos Genéricos:_ Utilizar tipos genéricos para crear componentes y funciones reutilizables que funcionen con varios tipos de datos. 
+- _Uso de Modificadores de Acceso:_ Utilizar modificadores de acceso como public, private y protected para controlar la visibilidad y el acceso a propiedades y métodos de una clase. 
+- _Nombrar Funciones según su Propósito:_ Dar nombres descriptivos a las funciones que reflejen su propósito y su acción. 
+
+**Angular:** Se siguieron las convenciones y guías de estilo de código de “Angular coding style guide” de la página oficial de Angular.io. Lo cual se destaca lo siguiente: 
+
+- _Nombres de Archivos en kebab-case:_ Los nombres de los archivos de componentes, módulos y servicios deben usar la convención kebab-case, donde las palabras se separan con guiones. Ejemplo: mi-componente.component.ts. 
+- _Uso de Decoradores:_ Utilizar decoradores como @Component y @Injectable para anotar componentes, servicios y otros elementos de Angular. 
+- _Convención de Carpetas:_ Organizar los archivos de Angular en carpetas según su tipo, como componentes, servicios, módulos, etc. 
+- _Uso de Módulos:_ Utilizar módulos para organizar y encapsular funcionalidades relacionadas en la aplicación. 
+- _Uso de RxJS:_ Emplear RxJS para gestionar flujos de datos asíncronos y observables en la aplicación. 
+- _Uso de Directivas Personalizadas:_ Crear directivas personalizadas cuando sea necesario para agregar funcionalidad específica a elementos del DOM. 
+- _Uso de Servicios:_ Separar la lógica de negocio y la comunicación con el servidor en servicios reutilizables. 
+- _Evitar Lógica en Plantillas:_ Evitar lógica compleja en las plantillas de componentes y, en su lugar, moverla a los métodos del componente. 
+- _Gestión de Rutas:_ Utilizar el enrutamiento de Angular para gestionar las rutas y la navegación entre páginas de la aplicación. 
+
+**Spring:** Se siguieron las convenciones y guías de estilo de código de la documentación oficial de Spring Boot y se destaca lo siguiente: 
+
+- _Uso de Anotaciones:_ Utilizar anotaciones como @Controller, @Service, @Repository y @Component para marcar clases y componentes específicos de Spring. 
+- _Convención de Paquetes:_ Organizar los archivos y clases en carpetas que representen la estructura lógica de la aplicación, como controladores, servicios, repositorios, etc. 
+- _Convención de Nombres en Bases de Datos:_ Utilizar la convención de nombres en bases de datos como snake_case para nombres de tablas y columnas. Spring Boot se encargará de mapear estos nombres a objetos Java. 
+- _Uso de Spring Data JPA:_ Emplear Spring Data JPA para simplificar la interacción con la capa de persistencia y bases de datos. 
+- _Uso de Inyección de Dependencias:_ Aplicar la inyección de dependencias utilizando el constructor de las clases. 
+- _Configuración Externa:_ Utilizar archivos de configuración externos (como application.properties o application.yml) para configurar propiedades de la aplicación. 
+- _Uso de @RestController:_ Usar la anotación @RestController para marcar controladores que devuelven datos en formato JSON. 
+- _Manejo de Excepciones:_ Implementar el manejo de excepciones de manera consistente, utilizando las anotaciones @ExceptionHandler y @ControllerAdvice. 
+- _Logging con SLF4J:_ Realizar el registro de eventos y seguimiento de la aplicación utilizando la interfaz SLF4J (Simple Logging Facade for Java). 
+- _Seguridad con Spring Security:_ Implementar la seguridad en la aplicación utilizando Spring Security para autenticación y autorización. 
+
+**Java:** Se siguieron las convenciones y guías de estilo de código de " Java Style Guide” de Google y se destaca lo siguiente: 
+
+- _Nombres de Clases en CamelCase:_ Los nombres de clases en Java deben seguir la convención CamelCase, donde cada palabra comienza con mayúscula. Ejemplo: MiClase. 
+- _Nombres de Paquetes en minúsculas:_ Los nombres de paquetes en Java se escriben en minúsculas y generalmente reflejan la estructura del proyecto. Ejemplo: com.miproyecto. 
+- _Nombres de Métodos Descriptivos:_ Dar nombres descriptivos a los métodos que reflejen su propósito y acción, utilizando camelCase. Ejemplo: calcularTotal. 
+- _Nombres de Variables en camelCase:_ Los nombres de variables en Java se escriben en camelCase, donde la primera letra comienza con minúscula. Ejemplo: miVariable. 
+- _Uso de Comentarios Javadoc:_ Documentar las clases y métodos utilizando comentarios Javadoc para proporcionar una descripción clara y legible de su funcionalidad. 
+- _Convención de Nombres para Getters y Setters:_ Los métodos de acceso (getters) y modificación (setters) para propiedades deben seguir la convención getPropiedad y setPropiedad. Ejemplo: getNombre y setNombre. 
+- _Uso de Interfaces:_ Utilizar interfaces para definir contratos y proporcionar una forma de implementación común en clases diferentes. 
+- _Convención para Manejo de Excepciones:_ Manejar las excepciones de manera adecuada, preferiblemente utilizando bloques try-catch, y proporcionar mensajes descriptivos en las excepciones personalizadas. 
+- _Convención de Nombres para Enumeraciones:_ Los nombres de enumeraciones se escriben en mayúsculas y suelen representar valores constantes. Ejemplo: DíasDeLaSemana. 
+- _Evitar el Uso de Caracteres Especiales en Nombres:_ Evitar caracteres especiales, espacios y acentos en los nombres de clases, métodos y variables. 
+
+**Gherkin:** Se consideró conveniente usar la guía y convenciones que se mencionan en “Gherkin Conventions for Readable Specifications” para una correcta realización de las pruebas. A continuación, se mencionan los puntos que consideramos más importantes para nuestro trabajo:
+
+- _Los bloques “Give-When-Then” deben ser diferenciados:_ Se recomienda usar una correcta indentación de esos bloques para identificar mejor las secciones de la prueba y también añadiendo la keyword “And” para añadir otra línea en los pasos y otro bloque.
+- _Usar tablas para los pasos:_ Si uno de los pasos requiere de más información es recomendable - usar tablas para organizar dicha información y tenga un aspecto más ordenado.
+- _Usar comillas simples para los parámetros:_ Se recomienda esta práctica para una mejor legibilidad de los parámetros en un paso y tener una sintaxis más simple.
+- _Separar los escenarios con comentarios:_ Si se da el caso de tener muchos escenarios en una prueba, es usar los comentarios como separadores para que visualmente sea más organizado, fácil de leer y distinguir mejor.
+
+### 6.1.4. Software Deployment Configuration
+
+En esta sección especificaremos los pasos necesarios para realizar el despliegue de los productos digitales actuales de la solución. En la fase inicial, se despliega la Landing Page utilizando GitHub Pages y la aplicación Web en Netlify.
+
+**Landing Page - Despliegue en GitHub Pages**
+
+**Pasos para el Despliegue:**
+1. Preparación del Repositorio:
+   * Asegúrate de tener el repositorio de GitHub creado para la Landing Page.
+   * Todos los archivos de la Landing Page (HTML, CSS, JavaScript y activos estáticos) deben estar en el directorio raíz o en una carpeta llamada docs.
+  
+2. Configurar GitHub Pages:
+   * Ve a la sección de Settings en tu repositorio de GitHub.
+   * Desplázate hasta GitHub Pages y selecciona la rama desde la que deseas desplegar tu página (generalmente main o master).
+   * Si los archivos de tu Landing Page están en una carpeta específica, como docs, selecciona esa carpeta en el desplegable.
+
+3. Publicación:
+     * Guarda los cambios. GitHub Pages generará automáticamente una URL donde tu Landing Page estará disponible.
+     * Verifica que la Landing Page sea accesible desde la URL proporcionada por GitHub Pages.
+
+4. Actualizaciones:
+   * Para hacer cambios en la Landing Page, realiza commits y push en el repositorio. GitHub Pages actualizará automáticamente el sitio con los cambios subidos.
+
+**Web Application - Despliegue en Netlify**
+**Pasos para el Despliegue:**
+
+1. Preparación del Proyecto:
+  * Asegúrate de que el proyecto esté correctamente configurado en tu entorno local.
+  * Genera una versión de producción del proyecto con el comando adecuado (ejemplo: npm run build si usas React).
+
+2. Conexión con Netlify:
+   * Inicia sesión en tu cuenta de Netlify.
+   * En el panel de control, selecciona "New site from Git".
+   * Conecta tu repositorio de GitHub donde está alojada la Web Application.
+
+3. Configuración de Despliegue:
+   * Selecciona la rama que deseas desplegar (generalmente main o master).
+   * Especifica el comando de construcción (por ejemplo, npm run build) y la carpeta donde se encuentra la salida (build o dist, dependiendo de tu configuración).
+  
+4. Publicación:
+   * Netlify construirá y desplegará automáticamente la aplicación. Una vez que el despliegue esté completo, recibirás una URL para acceder a la aplicación.
+   * Puedes personalizar la URL o usar un dominio personalizado en la configuración de Netlify.
+5. Actualizaciones:
+   * Para actualizar la Web Application, realiza cambios en el código, haz commits y push. Netlify detectará automáticamente los cambios y reconstruirá el sitio.
+
+**Deployment Diagram (C4 Model)**
+Para esta parte como es una etapa inicial contamos unicamente con nuestra Landing Page y nuestra primera versión de la aplicación Web
+
+![deployment C4 1er sprint](src/images/deploymentc4.jpg)
+
+## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
-#### 6.2.1.1. Sprint Planning n.
-#### 6.2.1.2. Sprint Backlog n.
-#### 6.2.1.3. Development Evidence for Sprint Review.
-#### 6.2.1.4. Testing Suite Evidence for Sprint Review.
-#### 6.2.1.5. Execution Evidence for Sprint Review.
-#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
-#### 6.2.1.7. Software Deployment Evidence for Sprint Review.
-#### 6.2.1.8. Team Collaboration Insights during Sprint.
+#### 6.2.1.1. Sprint Planning 1
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint #</b>
+        </td>
+        <td>
+            <b>Sprint 1</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            20/09/24         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            16:00         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Canal de voz en Discord      
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+            Integrantes del equipo  
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Gabriela Soledad Nomberto Ramos <br/>
+            - Dennis Piero Quevedo Yucra <br/>
+            - Max Dayson Sabino Arostegui  <br/>
+            - Elvia Guadalupe Arteaga Cruz <br/>    
+            - Jamutaq Piero Ortega Vélez <br/> 
+        </td>
+    </tr>
+      </tr>
+       <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo del Landing Page y la lógica de negocio de la plataforma. Se desplegó el landing page de forma exitosa.
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+        Se logró cumplir con los objetivos planteados en el Sprint 1, sin embargo, se identificaron oportunidades de mejora en la comunicación y coordinación del equipo.
+        </td>
+    </tr>
+     <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+    </tr>
+      <tr align="left">
+        <td>
+            <b>Sprint 1 Velocity</b>
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+</table> 
 
-# Conclusiones
+#### 6.2.1.2. Sprint Backlog 1
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
 
-## Conclusiones y Recomendaciones
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+       <td colspan="1"><b>Sprint #</b></td>
+       <td colspan="7"><b>Sprint 1</b></td>
+     </tr>
+     <tr>
+       <td colspan="2"><b>User Story</b></td>
+       <td colspan="6"><b>Work-Item / Task</b></td>
+     </tr>
+     <tr>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Description</b></td>
+       <td><b>Estimation(Hours)</b></td>
+       <td><b>Assigned To</b></td>
+       <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+     </tr>
+     <tr>
+       <td rowspan="3">HU-01	</td>
+       <td rowspan="3">Ver historial de eventos</td>
+       <td>T01</td>
+       <td>Creación del componente</td>
+       <td>Crear y tener los archivos de código fuente necesarios  </td>
+       <td>0.1</td>
+       <td>Jamutaq O.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T02</td>
+       <td>Estructuración del componente (UI)</td>
+       <td>Implementar el código HTML necesario</td>
+       <td>2</td>
+       <td>Jamutaq O.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T03</td>
+       <td>Estilado del componente</td>
+       <td>Agregar los estilos correspondientes (desde una archivo SCSS o de Angular Material)</td>
+       <td>2</td>
+       <td>Jamutaq O.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+    </tr>
+   <tr>
+       <td rowspan="3">HU-03	</td>
+       <td rowspan="3">Controlar dispositivos de seguridad</td>
+       <td>T04</td>
+       <td>Creación de la vista</td>
+       <td>Crear el componente para la vista y configurar su ruta</td>
+       <td>0.5</td>
+       <td>Elvia A.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T05</td>
+       <td>Creación de subcomponentes necesarios</td>
+       <td>Crear o importar componentes como cards, botones y entre otros</td>
+       <td>2</td>
+       <td>Elvia A.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T06</td>
+       <td>Creación de los servicios</td>
+       <td>Crear los servicios necesarios como llamadas a APIs</td>
+       <td>2</td>
+       <td>Elvia A.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="3">HU-12</td>
+       <td rowspan="3">Gestión de dispositivos conectados	</td>
+       <td>T07</td>
+       <td>Creación de la vista</td>
+       <td>Crear el componente para la vista y sus rutas</td>
+       <td>1</td>
+       <td>Max D.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T08</td>
+       <td>Creación de subcomponentes</td>
+       <td>Crear o importar componentes necesarios</td>
+       <td>2</td>
+       <td>Max D.</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T09</td>
+       <td>Creación de los servicios</td>
+       <td>Crear kos servicios para obtener los datos</td>
+       <td>2</td>
+       <td>Max D.</td>
+       <td>Done</td>
+    </tr>
+</table>
 
-- La especificación de nuestro problema a partir de los 5w y 2H nos permitió reconocer e identificar la problemática que abordamos en general. Nos ayudó a implementar acciones estratégicas con el fin de que nuestra solución de software sea eficiente y abarque en todos los sentidos el problema identificado.
+#### 6.2.1.3. Development Evidence for Sprint Review
 
-- La descripción de los Problem Statement fue de suma ayuda ya que nos permitió a identificar si nuestra solución que queremos brindar era la adecuada. Los resultados que llegamos a partir de la especificación fueron que a partir del análisis de los Problem Statement identificamos que era necesario agregar más ideas de solución a las que ya habíamos propuesto en un inicio. Había algunas ideas que no habíamos tomado en cuenta, pero para nuestros usuarios eran aspectos primordiales. Lo cual al realizar este ítem decidimos incluir más ideas de solución porque queríamos atender todas las necesidades que nuestro público objetivo desea satisfacer.
+Para el despliegue de la aplicación web utilizamos Netlify: 
+Enlace de la aplicacion web: https://verysafe.netlify.app/
 
-- El diseño de las arquitecturas tanto en los diagramas C4 como en los bounded context que cada uno logró hacer, identificamos que con ello podemos centrar mejor nuestra vision y alcance del proyecto para que de esta forma todos estemos alineados para las entregas futuras.
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
-# Bibliografía
-- Gothelf, J., & Seiden, J. (2016). Lean UX: Designing Great Products with Agile Teams. «O’Reilly Media, Inc.»
-- The C4 model for visualising software architecture. (s. f.). https://c4model.com/
-- Verisure Perú. (s. f.). Protegemos tu hogar y lo que más quieres. Alarmas Verisure Perú. https://www.verisure.pe/
+Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro iot device.
 
-# Anexos
+![team](src/images/team.jpg)
 
-| Seccion | Caracteristicas del video | 
-|-|-|
-| Needfinding Interviews | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=LEhkwy |
+#### 6.2.1.5. Execution Evidence for Sprint Review
+
+#### 6.2.1.6. Software Deployment Evidence for Sprint Review
+
+Enlace de aplicacion web: https://verysafe.netlify.app/
+
+#### 6.2.1.7. Team Collaboration Insights during Sprint
+Las actividades de implementación se han desarrollado de acuerdo a lo planificado en el Sprint Planning, donde se han asignado tareas a cada miembro del equipo y se han realizado reuniones grupales para realizar el despliegue. A continuación, se presentan los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 1:
+
+![network](src/images/network.jpg)
