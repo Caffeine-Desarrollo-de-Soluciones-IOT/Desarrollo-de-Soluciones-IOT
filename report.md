@@ -39,6 +39,20 @@ Ciclo: 2024-2
 # CAPÍTULO I: INTRODUCTION
 ## 1.1 Startup Profile
 ### 1.1.1 Descripción de la Startup
+Verysafe está abordando una necesidad crítica de mejorar la seguridad de inmuebles en Lima, Perú. Con el
+aumento de los delitos relacionados con propiedades en los últimos años, tanto los propietarios como las
+empresas de seguridad están buscando formas más eficientes de proteger sus bienes. Muchas empresas de
+seguridad enfrentan dificultades para mejorar sus servicios, lo que deja a las propiedades vulnerables a robos y
+otros crímenes, causando importantes pérdidas materiales y exponiéndolas a riesgos continuos.
+Para responder a esta creciente demanda, hemos fundado Verysafe, una empresa dedicada al desarrollo de
+dispositivos de seguridad innovadores que resuelvan estos problemas urgentes. Nuestra misión es brindar a
+los dueños de inmuebles y a las empresas de seguridad acceso rápido y confiable a la información sobre quién
+está ingresando a sus propiedades. Estamos aprovechando la tecnología avanzada, como sensores de
+movimiento y proximidad, para proporcionar datos en tiempo real que mejoran el monitoreo y la detección de
+amenazas.
+Nuestra visión es convertirnos en líderes en tecnología de seguridad, resolviendo los desafíos más críticos de
+la seguridad de inmuebles en Perú, y eventualmente, expandir nuestras soluciones a nivel mundial.
+
 ### 1.1.2 Perfiles de integrantes del equipo
 | Integrante | Imagen |
 |----------------------|----------------------|
@@ -188,15 +202,6 @@ Nuestro primer segmento objetivo son los propietarios de uno o varios inmuebles,
 ### Segmento objetivo 2: Empresas de Seguridad
 Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejorar y fortalecer sus servicios de videovigilancia mediante el uso de un software robusto y completo, diseñado para satisfacer plenamente las necesidades de sus clientes y optimizar la gestión de seguridad.
 ![](/src/images/empresa-seguridad.jpg)
-=======
-## 1.2 Solution Profile
-### 1.2.1  Antecedentes y problemática
-### 1.2.2 Lean UX Process
-#### 1.2.2.1 Lean UX Problem Statements
-#### 1.2.2.2 Lean UX Assumptions
-#### 1.2.2.3 Lean UX Hypothesis Statements
-#### 1.2.2.4 Lean UX Canvas
-## 1.3 Segmentos objetivo
 
 # CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
 ## 2.1 Competidores
