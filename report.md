@@ -80,6 +80,7 @@ Es una técnica colaborativa que nos permite explorar a fondo el dominio de nues
     En este paso se procedió a ordenar los eventos en una línea de tiempo, para poder visualizar mejor el flujo de los eventos y las interacciones entre ellos.
     
     ![timeline](src/images/event-2.png)
+
 3. **Tercer paso: Pain Points**
    
     En este paso se identifaron posibles cuellos de botella o problemas en el flujo de eventos, para poder abordarlos y solucionarlos de manera efectiva.
@@ -100,31 +101,31 @@ Es una técnica colaborativa que nos permite explorar a fondo el dominio de nues
 #### 4.1.1.1 Candidate Context Discovery
 Una vez identificados los eventos clave, se procedió a seguir los otros pasos para finalmente agruparlos en contextos delimitados, que representan áreas de interés o responsabilidades dentro del sistema. Estos contextos se definen en función de la cohesión de los eventos y las reglas de negocio asociadas.
 
-6. **Sexto paso: Policies**
+1. **Sexto paso: Policies**
    
     En este paso se identificaron los eventos que deberían ser ejecutados de forma automática por el sistema, sin intervención del usuario o si se requiere de alguna política de negocio para su ejecución.
 
     ![alt text](src/images/event-6.png)
 
-7. **Séptimo paso: Read Models**
+2. **Séptimo paso: Read Models**
    
     En este paso se identificaron los eventos que generan información que debe ser almacenada y consultada posteriormente, para poder visualizar el estado actual del sistema.
 
     ![alt text](src/images/event-7.png)
 
-8. **Octavo paso: External Systems**
+3. **Octavo paso: External Systems**
    
     En este paso se identificaron los eventos que interactúan con sistemas externos, como APIs de terceros, bases de datos, etc.
 
     ![alt text](src/images/event-8.png)
 
-9. **Noveno paso: Aggregates**
+4. **Noveno paso: Aggregates**
    
     En este paso se identificaron los eventos que están relacionados entre sí y que pueden ser agrupados en un agregado, para poder gestionarlos de forma coherente.
 
     ![alt text](src/images/event-9.png)
 
-10. **Décimo paso: Bounded Contexts**
+5. **Décimo paso: Bounded Contexts**
    
     En este paso se agruparon los eventos en contextos delimitados, que representan áreas de interés o responsabilidades dentro del sistema. Estos contextos se definen en función de la cohesión de los eventos y las reglas de negocio asociadas.
 
@@ -295,26 +296,33 @@ El Subscription and Payment Context abarca todos los procesos y funciones relaci
 
   - Value Objects:
     1. SubscriptionPlan: Encapsula los detalles de un pago, como el monto, la moneda y la fecha de procesamiento. Este objeto se utiliza para transmitir información de pago entre las capas de la aplicación.
+
     ![alt text](src/images/subscriptionplan-class-vo.png)
 
     2. Money: Encapsula el concepto de dinero, incluyendo el monto y la moneda. Se utiliza en los pagos, planes de suscripción y otros.    
+
     ![alt text](src/images/money-class-vo.png)
 
     3. Currency: Este enumerado define los códigos de moneda estándar que se utilizan en la aplicación. Se utiliza para garantizar la consistencia en la representación de monedas en toda la aplicación.
+
     ![alt text](src/images/currency-enum.png)
     
     4. SubscriptionStatus: Este enumerado define los posibles estados de una suscripción, como activa, cancelada o pendiente, se utiliza para controlar el ciclo de vida de las suscripciones.
+
     ![alt text](src/images/subscriptionstatus-enum.png)
 
     5. PaymentStatus: Este enumerado define los estados posibles de un pago, como exitoso, fallido o pendiente. Se utiliza para rastrear el estado de los pagos.
+
     ![alt text](src/images/paymentstatus-enum.png)
   
   - Aggregates:
     1. CustomerAggregate: Eencapsula la lógica de negocio relacionada con los clientes y sus suscripciones. Esto permite gestionar de manera coherente y transaccional las operaciones relacionadas con los clientes.
+
     ![alt text](src/images/customeraggregate.png)
   
   - Domain Services:
     1. SubscriptionService: Este servicio contiene la lógica de negocio relacionada con la gestión de suscripciones, como la creación, cancelación y renovación de suscripciones. Este servicio se encarga de coordinar las operaciones de suscripción.
+
     ![alt text](src/images/subscriptionservice.png)
 
 - Reglas de negocio:
@@ -329,12 +337,15 @@ El Subscription and Payment Context abarca todos los procesos y funciones relaci
 En esta capa se presentan las clases que permiten la comunicación entre la capa de dominio y la capa de aplicación, manejando las solicitudes de los usuarios y devolviendo las respuestas adecuadas. Para el contexto de Subscription & Payments, se han identificado los siguientes controladores:
 
 - CustomerController: expone las operaciones relacionadas con los clientes de la aplicación. Permite la creación, actualización y consulta de los clientes, así como la gestión de su relación con Stripe. Al crear un cliente, se genera un identificador (stripeCustomerId) que es guardado en la entidad local y se sincroniza con el sistema de Stripe.
+- 
   ![alt text](src/images/customer-controller.png)
 
 - SubscriptionController: gestiona las operaciones relacionadas con las suscripciones de los clientes. Este controlador permite crear nuevas suscripciones, actualizar el estado de las mismas y cancelarlas, todo esto interactuando con los servicios de Stripe.
+- 
   ![alt text](src/images/subscription-controller.png)
 
 - PlanController: gestiona los planes de suscripción disponibles en la aplicación. Los usuarios pueden consultar los planes disponibles, sus características y precios.
+- 
   ![alt text](src/images/plan-controller.png)
 
 #### 4.2.1.3. Application Layer
@@ -342,23 +353,28 @@ Esta capa, para el Subscription and Payment Context, se definen los flujos de ne
 
 - Command Handlers:
   1. CreateSubscriptionCommandHandler: Maneja el proceso de creación de una nueva suscripción para un cliente. Este handler se encarga de validar los datos de entrada y crea la suscripción tanto en el sistema como en Stripe.
+
   ![alt text](src/images/createsubscription-ch.png)
 
   2. ProcessPaymentCommandHandler: Se encarga de guardar el pago procesado por Stripe en la base de datos y mantener la consistencia entre el estado del pago y la suscripción asociada.
+
   ![alt text](src/images/processpayment-ch.png)
 
   3. CancelSubscriptionCommandHandler: Gestiona la cancelación de una suscripción existente. Este handler verifica si la suscripción puede ser cancelada, actualiza su estado y notifica a Stripe para reflejar el cambio.
-  ![alt text](src/images/cancelsubscription-ch.png)
 
+  ![alt text](src/images/cancelsubscription-ch.png)
 
 - Event Handlers:
   1. StripeWebhookEventHandler: Maneja los eventos provenientes de Stripe a través de webhooks. Se asegura de procesar adecuadamente los eventos de facturación, pagos fallidos, renovaciones de suscripciones, etc.
+
   ![alt text](src/images/stripewebhook-eh.png)
 
   2. SubscriptionExpiredEventHandler: Reacciona cuando una suscripción ha llegado a su fecha de finalización sin ser renovada. Gestiona la lógica relacionada con la expiración, como la notificación al cliente y la desactivación de servicios vinculados.
+
   ![alt text](src/images/subscriptionexpired-eh.png)
 
   3. PaymentFailedEventHandler: Este handler reacciona a eventos de pagos fallidos, ya sea generados por el dominio o recibidos de Stripe. Se encarga de notificar al cliente, reintentar el pago y, si es necesario, cancelar la suscripción.
+
   ![alt text](src/images/paymentfailed-eh.png)
 
 - Capabilities Cubiertos: 
@@ -374,21 +390,27 @@ Esta capa, para el Subscription and Payment Context, se definen los flujos de ne
 Esta capa es responsable de proporcionar la implementación de las operaciones que interactúan con recursos externos, como bases de datos, servicios de terceros (por ejemplo, Stripe), sistemas de mensajería y otros. En esta capa, también se implementan los Repositories definidos en la Domain Layer, que permiten la persistencia de las entidades del sistema. A continuación, se presentan las clases clave de esta capa, con una breve descripción de su función en el contexto del sistema:
 
 1. StripePaymentGateway: Es la clase encargada de la integración con el sistema de pagos de Stripe. Implementa las operaciones necesarias para gestionar pagos, suscripciones y facturación a través de la API de Stripe.
+
 ![alt text](src/images/stripepaymentgateway.png)
 
 2. NotificationService: Se encarga de enviar notificaciones a los usuarios, ya sea por correo electrónico, SMS o cualquier otro medio configurado. Es utilizada para notificar eventos importantes, como pagos fallidos, renovaciones de suscripción o vencimientos.
+
 ![alt text](src/images/notificationservice.png)
 
 3. StripeWebhookService: Se encarga de procesar las notificaciones recibidas desde Stripe a través de webhooks. Esta clase recibe los eventos de Stripe y los transforma en eventos internos del dominio que los Event Handlers procesan.
+
 ![alt text](src/images/stripewebhookservice.png)
 
 4. PaymentRepository: Esta clase maneja las operaciones de almacenamiento y recuperación de información relacionada con los pagos realizados por los clientes.
+
 ![alt text](src/images/payment-repo.png)
 
 5. SubscriptionRepository: Esta clase se encarga de manejar las operaciones de persistencia de las suscripciones en la base de datos.
+
 ![alt text](src/images/subscription-repo.png)
 
 6. CustomerRepository: Se encarga de gestionar la persistencia de la información de los clientes, incluyendo la sincronización con el sistema de Stripe.
+
 ![alt text](src/images/customer-repo.png)
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
@@ -409,7 +431,7 @@ El diseño de la base de datos para el contexto Subscription & Payments refleja 
 
 ![alt text](src/images/database-design-subs.png)
 
-#### 4.2.2. Bounded Context: Device
+### 4.2.2. Bounded Context: Device
 #### 4.2.2.1 Domain Layer
 - **Entidades de dominio**:
   - **Device**: Representa un dispositivo IoT instalado en el inmueble, incluyendo sus características y estado.
@@ -453,13 +475,15 @@ Este diagrama proporciona una vista de la estructura de la arquitectura y cómo 
 
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama UML del bounded context "Devices" ilustra las clases Property, Devices, Installation y DeviceConfigurations con sus respectivos atributos y métodos. Las clases también contienen métodos para crear, actualizar, validar y eliminar instancias. 
+
 ![alt text](/src/images/devices-diagram.png)
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 Este diagrama de base de datos representa las tablas y las relaciones dentro del bounded context "Devices". Se define la entidad devices, que almacena información sobre ek tipo y la descripción del dispositivo de seguridad.La entidad devices_type almacena el tipo de dispositivo.
+
 ![alt text](/src/images/devices-db.png)
 
 <!-- TODO -->
-### 4.2.3. Bounded Context: Areas
+### 4.2.3. Bounded Context: Area
 #### 4.2.3.1. Domain Layer
 - Entities:
   - Area: Representa un área específica en la que se colocan los dispositivos.
@@ -534,14 +558,18 @@ Este diagrama de base de datos representa las tablas y las relaciones dentro del
   - En este contexto, no se han identificado servicios externos específicos para las áreas y propiedades, pero podrían incluir servicios de almacenamiento de imágenes o integraciones con sistemas de mapeo si se requieren en el futuro.
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+Este diagrama proporciona una vista de la estructura de la arquitectura y cómo los diferentes componentes interactúan dentro del aggregate Areas.
+![Bounded Context C4 Areas](src/images/bc-c4-areas.jpeg)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama UML del bounded context "Areas" ilustra las clases Area y Property con sus respectivos atributos y métodos. En este contexto, Area representa las distintas áreas dentro de una propiedad, mientras que Property representa el conjunto completo de estas áreas. Cada clase tiene atributos básicos como identificadores, nombres, y otras características relevantes. Las clases también contienen métodos para crear, actualizar y eliminar instancias. La relación entre Property y Area está representada mediante una composición, donde una propiedad contiene múltiples áreas, lo que refuerza la relación de uno a muchos entre ambas clases.
+
 ![Bounded Context UML Areas](src/images/bc-uml-areas.png)
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
 Este diagrama de base de datos representa las tablas y las relaciones dentro del bounded context "Areas". Se define la tabla area, que almacena información sobre las áreas específicas donde se colocan dispositivos de seguridad, y la tabla property, que representa una propiedad, la cual puede contener múltiples áreas. La relación entre estas dos entidades es de uno a muchos, donde una propiedad puede tener varias áreas asociadas. Los atributos principales incluyen identificadores únicos para cada entidad, nombres descriptivos, y detalles adicionales como iconos y colores para las áreas, y direcciones para las propiedades.
+
 ![Bounded Context Database Areas](src/images/bc-db-areas.jpg)
 
 ### 4.2.4. Bounded Context: User context
@@ -631,8 +659,8 @@ En esta parte presentaremos el Diagrama de componentes en el modelo C4, mostrare
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 En el diagrama de base de datos de usuario podemos ver la relacion existente de las tablas dentro del bounded context "User". Aqui definimos la tabla usuario, en el cual almacenamos información importante del usuario para que pueda registrarse en la aplicacion que a su vez esta relacionada con un rol de usuario el cual asigna los permisos al sistema dependiendo el rol que desempeñen dentro de nuestra aplicación dando conocer asi que un rol lo puede desempeñar varios usuarios pero un usuario tiene un unico rol. Los atributos los cuales manejamos incluyen identificadores unicos para cada entidad asi como detalles principales que debemos tener para la aplicacion. 
-![Bounded Context Database User](src/images/database-user.png)
 
+![Bounded Context Database User](src/images/database-user.png)
 
 ### 4.2.5. Bounded Context: Events context
 El Event Context abarca los procesos y funciones relacionados con la gestión de los eventos y/o sucesos que puedan ocurrir a traves de nuestro sistema de alarma. Podemos manejar la creación o modificación de las alarmas según el usuario lo crea conveniente.
@@ -687,7 +715,6 @@ Aquí manejamos las interacciones y solicitudes entre el sistema y los usuarios 
 * Controllers:
   * EventController: Se expone las operaciones relacionadas con el evento como la creción, actualización y consulta del evento. Al crearse un evento, este a su vez.
   * EventTypeController: Gestiona las peticiones relacionadas con la administración de tipos de eventos, como la creación de nuevos eventos o la modificación de eventos existentes.
-  
 
 #### 4.2.4.3. Application Layer
 Para esta capa definimos los flujos de negocios a traves de clases de tipo Command  Handlers y Event Handlers, asegurando asi el manejor de las clases correctamente.
@@ -715,4 +742,5 @@ En esta parte presentaremos el Diagrama de componentes en el modelo C4, mostrare
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 En el diagrama de base de datos de usuario podemos ver la relacion existente de las tablas dentro del bounded context "Event". Aqui definimos la tabla event, en el cual almacenamos información importante del evento o suceso que suceda en el momento que pueda activarse una alarma, además esta esta relacionado con un tipo de evento para una mejor gestión al momento de registrar el evento ocurrido. Los atributos los cuales manejamos incluyen identificadores unicos para cada entidad asi como detalles principales que debemos tener para la aplicacion. 
+
 ![Bounded Context Event](src/images/database%20event.png)
