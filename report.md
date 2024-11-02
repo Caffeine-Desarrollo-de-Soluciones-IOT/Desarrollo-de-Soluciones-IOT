@@ -497,3 +497,202 @@ Enlace de aplicacion web: https://verysafe.netlify.app/
 Las actividades de implementación se han desarrollado de acuerdo a lo planificado en el Sprint Planning, donde se han asignado tareas a cada miembro del equipo y se han realizado reuniones grupales para realizar el despliegue. A continuación, se presentan los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 1:
 
 ![network](src/images/network.jpg)
+
+
+
+6\.2.2. Sprint 2
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint n. Incluye como secciones internas: Sprint Planning n, Sprint Backlog n, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, junto con Team Collaboration Insights during Sprint.
+
+6\.2.2.1. Sprint Planning 2.
+
+En esta sección se especifica los aspectos principales del Sprint Planning Meeting. Se inicia la sección con una introducción y a continuación se coloca el cuadro de resumen del sprint planning meeting. La estructura a utilizar se presenta a continuación.
+
+|**Sprint #**|Sprint n|
+| :- | :- |
+|**Sprint Planning Background**||
+|Date||
+|Time||
+|Location||
+|Prepared By||
+|Attendees (to planning meeting)||
+|Sprint n – 1 Review Summary||
+|Sprint n – 1 Retrospective Summary  ||
+|**Sprint Goal & User Stories**||
+|Sprint n Goal||
+|Sprint n Velocity||
+|Sum of Story Points||
+
+Es muy importante que el equipo dedique atención a la identificación del Sprint Goal.
+
+Según el Scrum Guide “El Sprint Goal es el objetivo individual del Sprint. Es un
+
+6\.2.2.2. Sprint Backlog 2. 
+
+Una sección de Sprint Backlog debe iniciar con una introducción que resuma el objetivo principal del Sprint y a continuación presente un screenshot del Board para el Sprint en la herramienta de control indicada (por ejemplo Trello), junto con el URL público del Board. A continuación, debe incluir una tabla donde se especifique los User Stories asignados al Sprint, junto con los Work-items/Tasks resultantes de la descomposición de los User Stories o Tasks adicionales que no dependen de un User Story en particular (por ejemplo, un task que debe realizarse para satisfacer un constraint general).
+
+
+|Sprint #|Sprint n||||||||
+| :- | :- | :- | :- | :- | :- | :- | :- | :- |
+|User Story|Work-Item / Task ||||||||
+|Id|Title|id|Title|Description|Estimation ( Hours)|Estimation (Hours)|Assigned To|Status (To-do / InProcess / ToReview / Done)|
+||||||||||
+||||||||||
+||||||||||
+
+
+6\.2.2.3. Development Evidence for Sprint Review.
+
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing Page, Web Applications, Web Services y otros. La sección inicia con una introducción que resume los principales avances en la implementación. Debe elaborarse una tabla que incluya para cada repositorio los commits relacionados con la implementación. La estructura requerida se presenta a continuación
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|<p>user/repositoryname</p><p></p>|<p>feature/loremipsum</p><p></p>|<p>14ca4e3</p><p></p>|<p>test: consectetur adipiscing elit</p><p></p>|<p>Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut. </p><p></p>|<p>04/09/2021</p><p></p>|
+|||||||
+
+
+6\.2.2.4. Testing Suite Evidence for Sprint Review.
+
+En esta sección se explica y presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services relacionados con los User Stories especificados en el Sprint. En el caso de los tests de BDD debe elaborarse los archivos .feature utilizando el lenguaje Gherkin y los archivos Steps en el lenguaje de programación. En esta sección se debe incluir la relación de tests diseñados. En el caso de los Unit Tests, debe indicarse con qué clases y comportamientos se relacionan. En el caso de los Integration Tests ó Acceptance Tests bajo el enfoque BDD, se incluye el código de los .feature Files, explicando con qué User Stories se relacionan. También debe incluirse la ruta del repositorio de control de versiones para los proyectos de Testing, junto con los id de commits relacionados con los avances en Testing para este Sprint. Debe elaborarse una tabla que incluya para cada repositorio los commits relacionados con testing. La estructura requerida se presenta a continuación.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|<p>user/repositoryname</p><p></p>|<p>feature/loremipsum</p><p></p>|<p>14ca4e3</p><p></p>|<p>test: consectetur adipiscing elit</p><p></p>|<p>Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut. </p><p></p>|<p>04/09/2021</p><p></p>|
+|||||||
+
+
+6\.2.2.5. Execution Evidence for Sprint Review.
+
+Esta sección inicia con un resumen que explique lo alcanzado en este Sprint y presenta screenshots de las principales vistas implementadas, junto con un enlace a un video que ilustre y explique la visualización y navegación logrados en este Sprint.
+
+6\.2.2.6. Services Documentation Evidence for Sprint Review.
+
+En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. La sección inicia con una introducción en la que se resume los logros alcanzados en relación con Documentación de Web Services para este Sprint. Debe elaborarse una tabla en la que se incluya, para cada Endpoint, la indicación de acciones implementadas, junto con los enlaces correspondientes a la documentación desplegada (o URL local en Sprints previos al despliegue de Web Services). Indicar las acciones soportadas incluyendo para cada acción el verbo http (get, post, put, delete, patch), sintaxis de llamada, especificación de posibles parámetros, así como ejemplo y explicación del response. Adicionalmente, debe incluirse y explicarse capturas en imágenes de la interacción, utilizando datos de muestra, con la documentación elaborada. Debe incluirse el URL del repositorio de Web Services, junto con los id de los commits relacionados con Documentación para este Sprint.
+
+6\.2.2.7. Software Deployment Evidence for Sprint Review.
+
+En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. La sección inicia con una introducción explicando qué se ha realizado con respecto a despliegue durante este Sprint. Abarca actividades de creación de cuentas, configuración de recursos en cloud providers, configuración de proyectos de desarrollo para integración o automatización de labor de Deployment, entre otros. Se considera dentro del proceso de Deployment todos los productos digitales: Landing Page, Web Services y Aplicaciones. Se debe adicionar capturas en imagen y explicaciones de los pasos realizados durante el Sprint.
+
+6\.2.2.8. Team Collaboration Insights during Sprint.
+
+En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta capturas en imagen de los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo, así como la redacción de la interpretación de estos analíticos por parte del equipo. Todos los miembros del equipo deben tener participación en la implementación de cada uno de los productos según corresponda en el Sprint: Landing Page, Web Services y Aplicaciones.
+
+
+6\.2.3. Sprint 3
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint n. Incluye como secciones internas: Sprint Planning n, Sprint Backlog n, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, junto con Team Collaboration Insights during Sprint.
+
+6\.2.3.1. Sprint Planning 3.
+
+En esta sección se especifica los aspectos principales del Sprint Planning Meeting. Se inicia la sección con una introducción y a continuación se coloca el cuadro de resumen del sprint planning meeting. La estructura a utilizar se presenta a continuación.
+
+|**Sprint #**|Sprint n|
+| :- | :- |
+|**Sprint Planning Background**||
+|Date||
+|Time||
+|Location||
+|Prepared By||
+|Attendees (to planning meeting)||
+|Sprint n – 1 Review Summary||
+|Sprint n – 1 Retrospective Summary  ||
+|**Sprint Goal & User Stories**||
+|Sprint n Goal||
+|Sprint n Velocity||
+|Sum of Story Points||
+
+
+
+Es muy importante que el equipo dedique atención a la identificación del Sprint Goal.
+
+Según el Scrum Guide “El Sprint Goal es el objetivo individual del Sprint. Es un
+
+6\.2.2.2. Sprint Backlog 3. 
+
+Una sección de Sprint Backlog debe iniciar con una introducción que resuma el objetivo principal del Sprint y a continuación presente un screenshot del Board para el Sprint en la herramienta de control indicada (por ejemplo Trello), junto con el URL público del Board. A continuación, debe incluir una tabla donde se especifique los User Stories asignados al Sprint, junto con los Work-items/Tasks resultantes de la descomposición de los User Stories o Tasks adicionales que no dependen de un User Story en particular (por ejemplo, un task que debe realizarse para satisfacer un constraint general).
+
+
+|Sprint #|Sprint n||||||||
+| :- | :- | :- | :- | :- | :- | :- | :- | :- |
+|User Story|Work-Item / Task ||||||||
+|Id|Title|id|Title|Description|Estimation ( Hours)|Estimation (Hours)|Assigned To|Status (To-do / InProcess / ToReview / Done)|
+||||||||||
+||||||||||
+||||||||||
+
+
+6\.2.2.3. Development Evidence for Sprint Review.
+
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing Page, Web Applications, Web Services y otros. La sección inicia con una introducción que resume los principales avances en la implementación. Debe elaborarse una tabla que incluya para cada repositorio los commits relacionados con la implementación. La estructura requerida se presenta a continuación
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|<p>user/repositoryname</p><p></p>|<p>feature/loremipsum</p><p></p>|<p>14ca4e3</p><p></p>|<p>test: consectetur adipiscing elit</p><p></p>|<p>Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut. </p><p></p>|<p>04/09/2021</p><p></p>|
+|||||||
+
+
+6\.2.3.4. Testing Suite Evidence for Sprint Review.
+
+En esta sección se explica y presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services relacionados con los User Stories especificados en el Sprint. En el caso de los tests de BDD debe elaborarse los archivos .feature utilizando el lenguaje Gherkin y los archivos Steps en el lenguaje de programación. En esta sección se debe incluir la relación de tests diseñados. En el caso de los Unit Tests, debe indicarse con qué clases y comportamientos se relacionan. En el caso de los Integration Tests ó Acceptance Tests bajo el enfoque BDD, se incluye el código de los .feature Files, explicando con qué User Stories se relacionan. También debe incluirse la ruta del repositorio de control de versiones para los proyectos de Testing, junto con los id de commits relacionados con los avances en Testing para este Sprint. Debe elaborarse una tabla que incluya para cada repositorio los commits relacionados con testing. La estructura requerida se presenta a continuación.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|<p>user/repositoryname</p><p></p>|<p>feature/loremipsum</p><p></p>|<p>14ca4e3</p><p></p>|<p>test: consectetur adipiscing elit</p><p></p>|<p>Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut. </p><p></p>|<p>04/09/2021</p><p></p>|
+|||||||
+
+
+6\.2.3.5. Execution Evidence for Sprint Review.
+
+Esta sección inicia con un resumen que explique lo alcanzado en este Sprint y presenta screenshots de las principales vistas implementadas, junto con un enlace a un video que ilustre y explique la visualización y navegación logrados en este Sprint.
+
+6\.2.3.6. Services Documentation Evidence for Sprint Review.
+
+En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. La sección inicia con una introducción en la que se resume los logros alcanzados en relación con Documentación de Web Services para este Sprint. Debe elaborarse una tabla en la que se incluya, para cada Endpoint, la indicación de acciones implementadas, junto con los enlaces correspondientes a la documentación desplegada (o URL local en Sprints previos al despliegue de Web Services). Indicar las acciones soportadas incluyendo para cada acción el verbo http (get, post, put, delete, patch), sintaxis de llamada, especificación de posibles parámetros, así como ejemplo y explicación del response. Adicionalmente, debe incluirse y explicarse capturas en imágenes de la interacción, utilizando datos de muestra, con la documentación elaborada. Debe incluirse el URL del repositorio de Web Services, junto con los id de los commits relacionados con Documentación para este Sprint.
+
+6\.2.3.7. Software Deployment Evidence for Sprint Review.
+
+En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. La sección inicia con una introducción explicando qué se ha realizado con respecto a despliegue durante este Sprint. Abarca actividades de creación de cuentas, configuración de recursos en cloud providers, configuración de proyectos de desarrollo para integración o automatización de labor de Deployment, entre otros. Se considera dentro del proceso de Deployment todos los productos digitales: Landing Page, Web Services y Aplicaciones. Se debe adicionar capturas en imagen y explicaciones de los pasos realizados durante el Sprint.
+
+6\.2.3.8. Team Collaboration Insights during Sprint.
+
+En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta capturas en imagen de los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo, así como la redacción de la interpretación de estos analíticos por parte del equipo. Todos los miembros del equipo deben tener participación en la implementación de cada uno de los productos según corresponda en el Sprint: Landing Page, Web Services y Aplicaciones.
+
+6\.3. Validation Interviews.
+
+En esta sección, el equipo registra y explica las actividades de entrevistas de validación durante el proyecto. Se debe realizar entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con las aplicaciones. Incluye secciones internas para Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas. Para el proceso de validación debe aplicarse el formato de evaluación heurística indicado para el proyecto
+
+6\.3.1. Diseño de Entrevistas.
+
+En esta sección el equipo establece por cada segmento objetivo los elementos a incluir en la sesión de validación, incluyendo el Landing Page y las aplicaciones. Aquí se especifica también cuáles serán los user flows de las aplicaciones, que formarán parte del proceso de validación.
+
+6\.3.2. Registro de Entrevistas.
+
+Para cada segmento se requiere de 3 a 5 entrevistas. Para cada una de las entrevistas se debe indicar la información de nombres, apellidos, edad, distrito, un screenshot de un cuadro de video y el URL del video subido en Microsoft Stream incluyendo el timing donde inicia la entrevista y su duración. La entrevista debe ser registrada en video, que sirve de evidencia de entrevistas. Para cada entrevista debe redactarse en este informe un resumen, que explique de forma descriptiva las principales apreciaciones del entrevistado con respecto a las tareas asignadas. Ver otras indicaciones importantes en el Anexo C. Indicaciones para secciones que incluyen Videos.
+
+6\.3.3. Evaluaciones según heurísticas. 
+
+Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta. Para esto la sección debe contener la estructura del formato para evaluaciones de heurísticas indicado en el Anexo D. Formato para Evaluación de User Experience según Heurísticas. 
+
+6\.4. Video About-the-Product.
+
+**Conclusiones**
+
+En esta sección se incluye como secciones internas Conclusiones y recomendaciones, así como Video About-The-Team.
+
+Conclusiones y recomendaciones.
+
+En esta sección el equipo enuncia las conclusiones sobre el trabajo, incluyendo los resultados a los que ha llegado en relación a los Problem Statements especificados, los assumptions realizados frente al comportamiento real de los segmentos, los Hypotheses Statements establecidos y los criterios de éxito especificados en el proceso de Lean UX, en contraste con los resultados obtenidos de las validaciones. Igualmente incluye recomendaciones sobre los siguientes pasos en relación a Roadmap de los productos digitales que forman parte del alcance del modelo de negocio digital.
+
+Video About-the-Team.
+
+En esta sección el equipo elabora un resumen de los aspectos más relevantes del video About-The-Team, la pauta de secuencias de contenido (secciones con el timing de inicio de cada una, es decir hh:mm:ss de cada sección dentro del video) incluyendo además un cuadro de video representativo del mismo, junto con el URL de la versión publicada en Microsoft Stream (y además, el URL de la versión publicada en YouTube utilizada para incrustarse en el Landing Page). Este video resume el proceso de trabajo realizado, incluyendo escenas con imágenes o video de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. Ver otras indicaciones importantes en el Anexo C. Indicaciones para secciones que incluyen Videos
+
+Bibliografía
+
+En esta sección el equipo especifica todas las referencias bibliográficas en formato APA, utilizadas como base para el desarrollo del trabajo o referenciadas en secciones del informe. 
+
+
+Anexos
+
+En esta sección, el equipo incluye como anexos tablas, documentos, gráficos, u otros elementos que por su extensión o grado de importancia ameriten aparecer en esta sección. Cada sección de anexo debe iniciar en una nueva página diferenciando el título con una letra mayúscula (Ejemplo: Anexo A, Anexo B, etc.)
+
