@@ -722,6 +722,7 @@ Para esta seccion mostraremos las evidencias correspondientes al sprint 3 que se
 **Edge API**
 Para esta parte mostramos los endpoints utilizados y creados que se manejaran para la conexión a wokwi
 ![alt text](src/images/Captura%20de%20pantalla%202024-11-03%20042016.png)
+![alt text](src/images/Captura%20de%20pantalla%202024-11-03%20083545.png)
 
 
 ### 6\.2.3.6. Services Documentation Evidence for Sprint Review.
