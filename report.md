@@ -676,11 +676,11 @@ En esta sección se explica y presenta los avances en implementación con relaci
 
 ### 6\.2.3.4. Testing Suite Evidence for Sprint Review.
 
-En esta sección se explica y presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services relacionados con los User Stories especificados en el Sprint. En el caso de los tests de BDD debe elaborarse los archivos .feature utilizando el lenguaje Gherkin y los archivos Steps en el lenguaje de programación. En esta sección se debe incluir la relación de tests diseñados. En el caso de los Unit Tests, debe indicarse con qué clases y comportamientos se relacionan. En el caso de los Integration Tests ó Acceptance Tests bajo el enfoque BDD, se incluye el código de los .feature Files, explicando con qué User Stories se relacionan. También debe incluirse la ruta del repositorio de control de versiones para los proyectos de Testing, junto con los id de commits relacionados con los avances en Testing para este Sprint. Debe elaborarse una tabla que incluya para cada repositorio los commits relacionados con testing. La estructura requerida se presenta a continuación.
 
+En esta sección, presentamos el conjunto de Acceptance Tests relacionados con las User Stories seleccionadas para el desarrollo del Sprint 3. Para estos criterios de aceptación, se utilizó el lenguaje Gherkin bajo el enfoque BDD.
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
 | :- | :- | :- | :- | :- | :- |
-|<p>user/repositoryname</p><p></p>|<p>feature/loremipsum</p><p></p>|<p>14ca4e3</p><p></p>|<p>test: consectetur adipiscing elit</p><p></p>|<p>Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut. </p><p></p>|<p>04/09/2021</p><p></p>|
+|<p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git</p><p></p>|<p>main</p><p></p>|<p>ef745cd</p><p></p>|<p>feat(testing)</p><p></p>|<p>create hu40 feature</p><p></p>|<p>03/11/2024</p><p></p>|
 |||||||
 
 
@@ -806,9 +806,9 @@ Antes de la entrevista Diana me comentó que le pareció interesante el tener 3 
   - Distrito: San Borja
   - Timing: 
   - Duración: 07:04 minutos
-  - Link: 
-
-    ![Validation Interview 1](/src/images/validation-interview-2.png)
+  - Link: https://youtu.be/NO6eZs-q9hM
+     
+    ![Validation Interview2](/src/images/validation-interview-2.png)
 
 En la entrevista, Aldahir menciona que la landing page es intuitiva y fácil de navegar. Además, destaca que los planes se muestran de manera clara y que las imágenes ayudan a comprender los beneficios que obtendrá el usuario. Con respecto al prototipo de la aplicación móvil, le agrada la funcionalidad para agregar una nueva propiedad y asignar áreas a estas, así como la opción de activar y desactivar dispositivos. También resalta la utilidad de recibir notificaciones cuando se genera un evento en los dispositivos, aunque advierte que podría ser molesto si el dispositivo genera alertas por eventos que no son de emergencia. En cuanto a las mejoras sugeridas, propone ajustar la imagen de fondo en el inicio de la landing page, ya que actualmente no tiene suficiente contraste con el texto del eslogan, lo cual dificulta su lectura.
 
