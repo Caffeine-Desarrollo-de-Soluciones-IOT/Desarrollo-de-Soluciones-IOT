@@ -693,12 +693,17 @@ Link: https://trello.com/b/VzbK516w/sprint-3
 
 ### 6\.2.2.3. Development Evidence for Sprint Review.
 
-En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing Page, Web Applications, Web Services y otros. La sección inicia con una introducción que resume los principales avances en la implementación. Debe elaborarse una tabla que incluya para cada repositorio los commits relacionados con la implementación. La estructura requerida se presenta a continuación
+El repositorio FalconShield-EdgeApi ha tenido avances significativos, incluyendo la implementación de la base de la API, CRUD para actuadores, documentación Swagger, y API de sensores. Estos cambios refuerzan la infraestructura de la Edge API, garantizando que sea robusta, bien documentada, y funcional para manejar sensores y actuadores en un entorno IoT.
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
 | :- | :- | :- | :- | :- | :- |
-|<p>user/repositoryname</p><p></p>|<p>feature/loremipsum</p><p></p>|<p>14ca4e3</p><p></p>|<p>test: consectetur adipiscing elit</p><p></p>|<p>Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut. </p><p></p>|<p>04/09/2021</p><p></p>|
-|||||||
+|<p>GabySol26/FalconShield-EdgeApi</p><p></p>|<p>add base repository </p><p></p>|<p>07ca48a23cff0b23290ba10e62f72edddd664bcc</p><p></p>|<p>add base repository</p><p></p>|<p>add base repository </p><p></p>|<p>02/10/2024</p><p></p>|
+| GabySol26/FalconShield-EdgeApi| add: base edge api | 07ca48a23cff0b23290ba10e62f72edddd664bcc| add: base edge api | add: base edge api | 02/10/2024 |
+| quevedito2/FalconShield-EdgeApi | add: crud actuator | b6ce930efd3921dbe112e803aa5dc133246bba46 | add: crud actuator |add: crud actuator | 02/10/2024 |
+| deyson63/FalconShield-EdgeApi | add: documentation swagger |  158591609b2863f8289f88f23b67b7493be6ab66 | add: documentation swagger | add: documentation swagger | 02/10/2024 | 
+| miikuru002/FalconShield-EdgeApi | add: snesor api | 19153ed38e046d50adf2ca72f853d8690e43f4bb | add: snesor api | add: snesor api |  02/10/2024 | 
+| elvi98/FalconShield-EdgeApi | fix: swagger actuators | bc790e496d9bfbaa47f16cb06dd257959b05ef62 | fix: swagger actuators | fix: swagger actuators | 02/10/2024 |
+| GabySol26/FalconShield-EdgeApi  | add: descriptions sensors swagger api | 54607743a414bbc7b0a64013eb70b9badba9435a | add: descriptions sensors swagger api | add: descriptions sensors swagger api | 02/10/2024 | 
 
 
 ### 6\.2.3.4. Testing Suite Evidence for Sprint Review.
@@ -712,19 +717,45 @@ En esta sección, presentamos el conjunto de Acceptance Tests relacionados con l
 
 ### 6\.2.3.5. Execution Evidence for Sprint Review.
 
-Esta sección inicia con un resumen que explique lo alcanzado en este Sprint y presenta screenshots de las principales vistas implementadas, junto con un enlace a un video que ilustre y explique la visualización y navegación logrados en este Sprint.
+Para esta seccion mostraremos las evidencias correspondientes al sprint 3 que se encarga de la aplicación Movil, Edge API y IoT Device.
+**Mobile Application**
+**Edge API**
+Para esta parte mostramos los endpoints utilizados y creados que se manejaran para la conexión a wokwi
+![alt text](src/images/Captura%20de%20pantalla%202024-11-03%20042016.png)
+
 
 ### 6\.2.3.6. Services Documentation Evidence for Sprint Review.
+A continuación, se detallan los nuevos endpoints implementados y las operaciones asociadas:
 
-En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. La sección inicia con una introducción en la que se resume los logros alcanzados en relación con Documentación de Web Services para este Sprint. Debe elaborarse una tabla en la que se incluya, para cada Endpoint, la indicación de acciones implementadas, junto con los enlaces correspondientes a la documentación desplegada (o URL local en Sprints previos al despliegue de Web Services). Indicar las acciones soportadas incluyendo para cada acción el verbo http (get, post, put, delete, patch), sintaxis de llamada, especificación de posibles parámetros, así como ejemplo y explicación del response. Adicionalmente, debe incluirse y explicarse capturas en imágenes de la interacción, utilizando datos de muestra, con la documentación elaborada. Debe incluirse el URL del repositorio de Web Services, junto con los id de los commits relacionados con Documentación para este Sprint.
+| Endpoint                  | Http Verb | Acción                                   | Descripción                                   |
+|---------------------------|-----------|------------------------------------------|-----------------------------------------------|
+| `api/actuators/register`  | POST      | Controlar el actuador y sus lecturas     | Registra y controla el estado de un actuador  |
+| `api/actuators/{id}/status` | GET     | Obtener el status de los actuadores      | Obtiene el estado actual de un actuador específico |
+| `api/sensors/readings`    | GET       | Obtener los datos de los sensores        | Recupera las lecturas actuales de los sensores |
+| `api/sensors/reading`     | POST      | Procesar la lectura de datos de los sensores | Envía y procesa una nueva lectura de un sensor |
+| `api/sensors/mac-address` | POST      | Registro de MAC Address de los sensores  | Registra la dirección MAC de un sensor        |
+
 
 ### 6\.2.3.7. Software Deployment Evidence for Sprint Review.
+ 
+Para el despliegue de la Mobile App empleamos Firebase
 
-En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. La sección inicia con una introducción explicando qué se ha realizado con respecto a despliegue durante este Sprint. Abarca actividades de creación de cuentas, configuración de recursos en cloud providers, configuración de proyectos de desarrollo para integración o automatización de labor de Deployment, entre otros. Se considera dentro del proceso de Deployment todos los productos digitales: Landing Page, Web Services y Aplicaciones. Se debe adicionar capturas en imagen y explicaciones de los pasos realizados durante el Sprint.
+Link de la Mobile App desplegada: ()
+
+Para el dispositivo IoT utilizamos Wokwi
+
+Link de la dispositivo IoT: ()
+
+Para el despliegue de la Edge API
+
+Link de la API desplegada: (http://localhost:8080/swagger-ui/index.html#/)
+
 
 #### 6\.2.3.8. Team Collaboration Insights during Sprint.
 
-En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta capturas en imagen de los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo, así como la redacción de la interpretación de estos analíticos por parte del equipo. Todos los miembros del equipo deben tener participación en la implementación de cada uno de los productos según corresponda en el Sprint: Landing Page, Web Services y Aplicaciones.
+Para evidenciar la colaboración de todos integrantes del equipo FalconShield en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro Edge api.
+
+![alt](src/images/Captura%20de%20pantalla%202024-11-03%20043719.png)
 
 ### 6\.3. Validation Interviews.
 
