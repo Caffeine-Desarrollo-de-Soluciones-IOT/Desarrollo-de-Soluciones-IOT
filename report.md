@@ -703,7 +703,6 @@ En esta sección se explica y presenta los avances en implementación con relaci
 
 ### 6\.2.3.4. Testing Suite Evidence for Sprint Review.
 
-
 En esta sección, presentamos el conjunto de Acceptance Tests relacionados con las User Stories seleccionadas para el desarrollo del Sprint 3. Para estos criterios de aceptación, se utilizó el lenguaje Gherkin bajo el enfoque BDD.
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
 | :- | :- | :- | :- | :- | :- |
@@ -848,7 +847,9 @@ En esta sección se incluye como secciones internas Conclusiones y recomendacion
 
 Conclusiones y recomendaciones.
 
-En esta sección el equipo enuncia las conclusiones sobre el trabajo, incluyendo los resultados a los que ha llegado en relación a los Problem Statements especificados, los assumptions realizados frente al comportamiento real de los segmentos, los Hypotheses Statements establecidos y los criterios de éxito especificados en el proceso de Lean UX, en contraste con los resultados obtenidos de las validaciones. Igualmente incluye recomendaciones sobre los siguientes pasos en relación a Roadmap de los productos digitales que forman parte del alcance del modelo de negocio digital.
+* La API REST proporciona un backend robusto para manejar las solicitudes de la aplicación móvil y otros clientes. Debe estar bien documentada y seguir las mejores prácticas de diseño RESTful.
+* La Edge API facilita la comunicación y el procesamiento de datos en dispositivos de borde (como ESP32). Es crucial para aplicaciones IoT que requieren decisiones en tiempo real.
+* La aplicación móvil está progresando bien con características implementadas como la navegación mediante BottomNavBar y la gestión de propiedades. La UI es intuitiva y sigue el diseño previsto.
 
 Video About-the-Team.
 
