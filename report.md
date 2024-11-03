@@ -661,9 +661,83 @@ En esta sección el equipo explica cómo se han desarrollado las actividades de 
 
 En esta sección, el equipo registra y explica las actividades de entrevistas de validación durante el proyecto. Se debe realizar entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con las aplicaciones. Incluye secciones internas para Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas. Para el proceso de validación debe aplicarse el formato de evaluación heurística indicado para el proyecto
 
-6\.3.1. Diseño de Entrevistas.
+### 6\.3.1. Diseño de Entrevistas.
 
-En esta sección el equipo establece por cada segmento objetivo los elementos a incluir en la sesión de validación, incluyendo el Landing Page y las aplicaciones. Aquí se especifica también cuáles serán los user flows de las aplicaciones, que formarán parte del proceso de validación.
+### User Flows para el Proceso de Validación de VerySafe
+
+#### Segmento: Dueños de Inmueble
+1. Exploración del Landing Page y Comprensión del Valor Propuesto
+2. Recepción y Configuración de Notificaciones de Seguridad
+3. Consulta del Historial de Eventos de Seguridad
+4. Activación y Desactivación de Alertas
+
+#### Segmento: Empresas de Seguridad
+1. Exploración Corporativa del Landing Page
+2. Monitoreo de Múltiples Propiedades y Recepción de Alertas
+3. Configuración de Notificaciones y Personalización por Propiedad
+4. Consulta de Historial Corporativo y Filtrado de Eventos
+5. Interacción Remota con las Propiedades (Activación/Desactivación de Alarmas)
+
+---
+
+### Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Dueños de Inmueble”
+
+#### 1. Landing Page de VerySafe
+- **Presentación del Landing Page**  
+  - Pregunta: ¿Cómo describirías la manera en que se presenta la información en la página de inicio? ¿Es clara y atractiva?
+
+- **Navegación y Usabilidad**  
+  - Pregunta: ¿Encuentras que la navegación en el sitio es intuitiva y fácil de entender?
+
+- **Valor Propuesto**  
+  - Pregunta: ¿Entiendes claramente cuál es el valor de VerySafe para la seguridad de tu propiedad?
+
+- **Planes de Suscripción**  
+  - Pregunta: ¿Consideras que la sección de planes de suscripción comunica bien las opciones y beneficios?
+
+#### 2. Aplicación Móvil de VerySafe
+- **Recepción de Alertas de Seguridad (Funcionalidad Clave)**  
+  - Pregunta: ¿Recibes las alertas de movimiento, humo o cambios de temperatura de manera clara y oportuna? ¿Te sientes más seguro con estas alertas?
+
+- **Configuración de Notificaciones Personalizadas**  
+  - Pregunta: ¿Te resulta sencillo personalizar las notificaciones para los eventos que deseas monitorizar?
+
+- **Acceso al Historial de Eventos de Seguridad**  
+  - Pregunta: ¿Es útil el historial de eventos de seguridad? ¿Encuentras fácil filtrar y acceder a los registros específicos?
+
+- **Interacción y Diseño de la Aplicación**  
+  - Pregunta: ¿Te parece que el diseño y la interacción de la app son intuitivos y claros para la gestión de seguridad?
+
+---
+
+### Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Empresas de Seguridad”
+
+#### 1. Landing Page de VerySafe
+- **Presentación del Landing Page**  
+  - Pregunta: ¿Cómo describirías la forma en que se presenta la información y los servicios de VerySafe? ¿Es adecuada para una empresa de seguridad?
+
+- **Navegación y Usabilidad desde una Perspectiva Corporativa**  
+  - Pregunta: ¿Es intuitivo y fácil de usar el sitio para un uso corporativo, donde necesitas gestionar múltiples propiedades?
+
+- **Valor Propuesto para Empresas de Seguridad**  
+  - Pregunta: ¿Percibes claramente cuál es el valor de VerySafe para facilitar la seguridad y monitoreo de varias propiedades?
+
+- **Opciones de Suscripción**  
+  - Pregunta: ¿Consideras que las opciones de suscripción son claras y adecuadas para un uso a gran escala?
+
+#### 2. Aplicación Móvil de VerySafe para Gestión Corporativa
+- **Monitoreo de Alertas en Múltiples Propiedades**  
+  - Pregunta: ¿Te parece útil y fácil de usar la función de monitoreo de alertas en diferentes propiedades? ¿Te ayuda a responder rápidamente a eventos críticos?
+
+- **Acceso y Filtros en el Historial de Seguridad**  
+  - Pregunta: ¿Encuentras práctico el historial de seguridad para revisar y filtrar eventos por cada propiedad?
+
+- **Configuración y Personalización de Notificaciones**  
+  - Pregunta: ¿Es fácil para tu empresa personalizar las notificaciones para distintos tipos de eventos? ¿Te permite esta opción un control efectivo?
+
+- **Interacción con el Sistema para la Activación y Desactivación de Alarmas**  
+  - Pregunta: ¿Te resulta intuitiva la funcionalidad de activar o desactivar alarmas de forma remota en distintas propiedades?
+
 
 6\.3.2. Registro de Entrevistas.
 
