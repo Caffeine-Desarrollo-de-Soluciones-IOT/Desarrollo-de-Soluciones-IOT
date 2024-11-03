@@ -678,7 +678,7 @@ En esta sección, el equipo registra y explica las actividades de entrevistas de
 4. Consulta de Historial Corporativo y Filtrado de Eventos
 5. Interacción Remota con las Propiedades (Activación/Desactivación de Alarmas)
 
----
+
 
 ### Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Dueños de Inmueble”
 
@@ -708,7 +708,7 @@ En esta sección, el equipo registra y explica las actividades de entrevistas de
 - **Interacción y Diseño de la Aplicación**  
   - Pregunta: ¿Te parece que el diseño y la interacción de la app son intuitivos y claros para la gestión de seguridad?
 
----
+
 
 ### Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Empresas de Seguridad”
 
