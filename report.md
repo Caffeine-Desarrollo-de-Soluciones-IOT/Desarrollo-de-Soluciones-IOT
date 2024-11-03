@@ -557,40 +557,53 @@ En este Sprint 2, el objetivo principal es desarrollar la página web de VerySaf
 
 ### 6\.2.2.3. Development Evidence for Sprint Review.
 
-En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing Page, Web Applications, Web Services y otros. La sección inicia con una introducción que resume los principales avances en la implementación. Debe elaborarse una tabla que incluya para cada repositorio los commits relacionados con la implementación. La estructura requerida se presenta a continuación
+A continuación, se presenta la lista de commis realiados en los repositorios para este sprint 2.
 
+<table><tr><th valign="top">Repository</th><th valign="top">Branch</th><th valign="top">Commit Id</th><th valign="top">Commit Message</th><th valign="top">Commit Message Body</th><th valign="top">Commited on (Date)</th></tr>
+<tr><td rowspan="5" valign="top"><p><https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web.git></p><p></p></td><td valign="top"><p>feat/areas</p><p></p></td><td valign="top">01871a0a</td><td valign="top">add: ()</td><td valign="top">properties crud</td><td valign="top">Oct 07 2024</td></tr>
+<tr><td valign="top">feat/areas</td><td valign="top">8ba68733</td><td valign="top">add: ()</td><td valign="top">my devices page</td><td valign="top">Oct 05 202</td></tr>
+<tr><td valign="top">feat/events</td><td valign="top">3eb0165b</td><td valign="top">add: ()</td><td valign="top">Créate and delete properties</td><td valign="top">Oct 13 2024</td></tr>
+<tr><td valign="top">Feat/events</td><td valign="top">570d3898</td><td valign="top">add: ()</td><td valign="top">Update events</td><td valign="top">Nov 02 2024</td></tr>
+<tr><td valign="top">develop</td><td valign="top">1dcc1490</td><td valign="top">refactor: ()</td><td valign="top">update area interfaces and service methods for improved data handling</td><td valign="top">Nov 03 2024</td></tr>
+<tr><td rowspan="5" valign="top"><p><https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield.git></p><p></p></td><td valign="top">Feat/notifications</td><td valign="top">8bf251c9</td><td valign="top">Add: ()</td><td valign="top">User profile context</td><td valign="top">Oct 07 2024</td></tr>
+<tr><td valign="top">Feat/notifications</td><td valign="top">81f6af96</td><td valign="top">add: ()</td><td valign="top">get, getById, post & delete property</td><td valign="top">Oct 13 2024</td></tr>
+<tr><td valign="top">Feat/notifications</td><td valign="top">93ea9db4</td><td valign="top">add: ()</td><td valign="top">base documents notifications</td><td valign="top">Oct 28 2024</td></tr>
+<tr><td valign="top">development</td><td valign="top">fd5b57fb</td><td valign="top">add: ()</td><td valign="top">documents java into notification</td><td valign="top">` `Oct 30 202</td></tr>
+<tr><td valign="top">development</td><td valign="top">a4376074</td><td valign="top">add ()</td><td valign="top"><p>add</p><p>controller</p></td><td valign="top">Nov 02 2024</td></tr>
+</table>
+
+
+
+
+### 6\.2.2.4. Testing Suite Evidence for Sprint Review.
+
+En esta sección, presentamos el conjunto de Acceptance Tests relacionados con las User Stories seleccionadas para el desarrollo del Sprint 3. Para estos criterios de aceptación, se utilizó el lenguaje Gherkin bajo el enfoque BDD.
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
 | :- | :- | :- | :- | :- | :- |
-|<p>user/repositoryname</p><p></p>|<p>feature/loremipsum</p><p></p>|<p>14ca4e3</p><p></p>|<p>test: consectetur adipiscing elit</p><p></p>|<p>Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut. </p><p></p>|<p>04/09/2021</p><p></p>|
+|<p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git</p><p></p>|<p>main</p><p></p>|<p>ef745cd</p><p></p>|<p>feat(testing)</p><p></p>|<p>create hu40 feature</p><p></p>|<p>03/11/2024</p><p></p>|
 |||||||
 
 
-6\.2.2.4. Testing Suite Evidence for Sprint Review.
-
-En esta sección se explica y presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services relacionados con los User Stories especificados en el Sprint. En el caso de los tests de BDD debe elaborarse los archivos .feature utilizando el lenguaje Gherkin y los archivos Steps en el lenguaje de programación. En esta sección se debe incluir la relación de tests diseñados. En el caso de los Unit Tests, debe indicarse con qué clases y comportamientos se relacionan. En el caso de los Integration Tests ó Acceptance Tests bajo el enfoque BDD, se incluye el código de los .feature Files, explicando con qué User Stories se relacionan. También debe incluirse la ruta del repositorio de control de versiones para los proyectos de Testing, junto con los id de commits relacionados con los avances en Testing para este Sprint. Debe elaborarse una tabla que incluya para cada repositorio los commits relacionados con testing. La estructura requerida se presenta a continuación.
-
-|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
-| :- | :- | :- | :- | :- | :- |
-|<p>user/repositoryname</p><p></p>|<p>feature/loremipsum</p><p></p>|<p>14ca4e3</p><p></p>|<p>test: consectetur adipiscing elit</p><p></p>|<p>Curabitur quis placerat nulla. Fusce malesuada faucibus quam, ut condimentum velit rutrum ut. </p><p></p>|<p>04/09/2021</p><p></p>|
-|||||||
-
-
-6\.2.2.5. Execution Evidence for Sprint Review.
+### 6\.2.2.5. Execution Evidence for Sprint Review.
 
 Esta sección inicia con un resumen que explique lo alcanzado en este Sprint y presenta screenshots de las principales vistas implementadas, junto con un enlace a un video que ilustre y explique la visualización y navegación logrados en este Sprint.
 
-6\.2.2.6. Services Documentation Evidence for Sprint Review.
+### 6\.2.2.6. Services Documentation Evidence for Sprint Review.
 
 En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. La sección inicia con una introducción en la que se resume los logros alcanzados en relación con Documentación de Web Services para este Sprint. Debe elaborarse una tabla en la que se incluya, para cada Endpoint, la indicación de acciones implementadas, junto con los enlaces correspondientes a la documentación desplegada (o URL local en Sprints previos al despliegue de Web Services). Indicar las acciones soportadas incluyendo para cada acción el verbo http (get, post, put, delete, patch), sintaxis de llamada, especificación de posibles parámetros, así como ejemplo y explicación del response. Adicionalmente, debe incluirse y explicarse capturas en imágenes de la interacción, utilizando datos de muestra, con la documentación elaborada. Debe incluirse el URL del repositorio de Web Services, junto con los id de los commits relacionados con Documentación para este Sprint.
 
-6\.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 6\.2.2.7. Software Deployment Evidence for Sprint Review.
 
 En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. La sección inicia con una introducción explicando qué se ha realizado con respecto a despliegue durante este Sprint. Abarca actividades de creación de cuentas, configuración de recursos en cloud providers, configuración de proyectos de desarrollo para integración o automatización de labor de Deployment, entre otros. Se considera dentro del proceso de Deployment todos los productos digitales: Landing Page, Web Services y Aplicaciones. Se debe adicionar capturas en imagen y explicaciones de los pasos realizados durante el Sprint.
 
-6\.2.2.8. Team Collaboration Insights during Sprint.
+### 6\.2.2.8. Team Collaboration Insights during Sprint.
 
-En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta capturas en imagen de los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo, así como la redacción de la interpretación de estos analíticos por parte del equipo. Todos los miembros del equipo deben tener participación en la implementación de cada uno de los productos según corresponda en el Sprint: Landing Page, Web Services y Aplicaciones.
+Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro Aplicación Web.
 
+![alt text](/src/images/sprint2_insight.png)
+
+Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestra Web Services.
+![alt text](/src/images/sprint2_insight2.png)
 
 ### 6\.2.3. Sprint 3
 
@@ -684,26 +697,23 @@ En esta sección, presentamos el conjunto de Acceptance Tests relacionados con l
 |||||||
 
 
-6\.2.3.5. Execution Evidence for Sprint Review.
+### 6\.2.3.5. Execution Evidence for Sprint Review.
 
 Esta sección inicia con un resumen que explique lo alcanzado en este Sprint y presenta screenshots de las principales vistas implementadas, junto con un enlace a un video que ilustre y explique la visualización y navegación logrados en este Sprint.
 
-6\.2.3.6. Services Documentation Evidence for Sprint Review.
+### 6\.2.3.6. Services Documentation Evidence for Sprint Review.
 
 En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. La sección inicia con una introducción en la que se resume los logros alcanzados en relación con Documentación de Web Services para este Sprint. Debe elaborarse una tabla en la que se incluya, para cada Endpoint, la indicación de acciones implementadas, junto con los enlaces correspondientes a la documentación desplegada (o URL local en Sprints previos al despliegue de Web Services). Indicar las acciones soportadas incluyendo para cada acción el verbo http (get, post, put, delete, patch), sintaxis de llamada, especificación de posibles parámetros, así como ejemplo y explicación del response. Adicionalmente, debe incluirse y explicarse capturas en imágenes de la interacción, utilizando datos de muestra, con la documentación elaborada. Debe incluirse el URL del repositorio de Web Services, junto con los id de los commits relacionados con Documentación para este Sprint.
 
-6\.2.3.7. Software Deployment Evidence for Sprint Review.
+### 6\.2.3.7. Software Deployment Evidence for Sprint Review.
 
 En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. La sección inicia con una introducción explicando qué se ha realizado con respecto a despliegue durante este Sprint. Abarca actividades de creación de cuentas, configuración de recursos en cloud providers, configuración de proyectos de desarrollo para integración o automatización de labor de Deployment, entre otros. Se considera dentro del proceso de Deployment todos los productos digitales: Landing Page, Web Services y Aplicaciones. Se debe adicionar capturas en imagen y explicaciones de los pasos realizados durante el Sprint.
 
-6\.2.3.8. Team Collaboration Insights during Sprint.
+#### 6\.2.3.8. Team Collaboration Insights during Sprint.
 
 En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta capturas en imagen de los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo, así como la redacción de la interpretación de estos analíticos por parte del equipo. Todos los miembros del equipo deben tener participación en la implementación de cada uno de los productos según corresponda en el Sprint: Landing Page, Web Services y Aplicaciones.
 
-6\.3. Validation Interviews.
-
-En esta sección, el equipo registra y explica las actividades de entrevistas de validación durante el proyecto. Se debe realizar entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con las aplicaciones. Incluye secciones internas para Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas. Para el proceso de validación debe aplicarse el formato de evaluación heurística indicado para el proyecto
-
+### 6\.3. Validation Interviews.
 
 ### 6\.3.1. Diseño de Entrevistas.
 
@@ -837,5 +847,4 @@ En esta sección el equipo especifica todas las referencias bibliográficas en f
 
 Anexos
 
-En esta sección, el equipo incluye como anexos tablas, documentos, gráficos, u otros elementos que por su extensión o grado de importancia ameriten aparecer en esta sección. Cada sección de anexo debe iniciar en una nueva página diferenciando el título con una letra mayúscula (Ejemplo: Anexo A, Anexo B, etc.)
-
+ 
