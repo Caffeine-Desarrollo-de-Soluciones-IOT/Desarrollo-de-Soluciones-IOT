@@ -2305,3 +2305,393 @@ Las actividades de implementación se han desarrollado de acuerdo a lo planifica
 
 ![network](src/images/network.jpg)
 
+Capitulo-VI
+
+
+### 6\.2.2. Sprint 2
+
+### 6\.2.2.1. Sprint Planning 2.
+
+En esta sesión de planificación para el Sprint 2, nos enfocaremos en los desarrollos clave del frontend y backend de nuestro producto VerySafe, que busca ofrecer una solución de seguridad integral para propietarios de propiedades y empresas de seguridad. Durante el Sprint 1, logramos sentar las bases del producto al definir los componentes esenciales y avanzar en algunos elementos básicos en el frontend Ahora, el objetivo del Sprint 2 es dar un paso adelante, desarrollando las interfaces de usuario y los servicios backend necesarios para ofrecer una experiencia coherente y funcional.
+
+|**Sprint #**|Sprint 2|
+| :- | :- |
+|**Sprint Planning Background**||
+|Date|15/10/2024|
+|Time|11:30 pm|
+|Location|Cubículo de la Universidad UPC sede Villa|
+|Prepared By|Gabriela Nomberto|
+|Attendees (to planning meeting)|Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo|
+|Sprint n – 1 Review Summary|Se realizó el tablero del Sprint 1 en el Trello y creo las tareas relacionados a los user stories.|
+|Sprint n – 1 Retrospective Summary  |Dos tareas no lograron completarse.|
+|**Sprint Goal & User Stories**||
+|Sprint 1 Goal|Crear la página web que permita a los usuarios registrarse, iniciar sesión y acceder a un dashboard donde puedan gestionar sus dispositivos y propiedades  asegurando una interfaz atractiva y funcional con un backend sólido para manejar la autenticación, operaciones CRUD de dispositivos y consulta de datos en tiempo real.|
+|Sprint 1 Velocity|34|
+|Sum of Story Points|38|
+
+### 6\.2.2.2. Sprint Backlog 2. 
+
+En este Sprint 2, el objetivo principal es desarrollar la página web de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional en el frontend, complementada con un backend sólido que gestione la autenticación y soporte las operaciones CRUD para dispositivos, así como consultas de datos en tiempo real. Al finalizar este sprint, buscamos tener una versión funcional de estas funcionalidades clave, lista para pruebas iniciales y validación.
+
+A continuación se muestra el tablero del Sprint2 en Trello. 
+
+
+![alt text](src/images/trello2.png)
+
+Link del trello: https://trello.com/b/F9HDJVzc/sprint-2
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint n</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task </td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation (Hours)</td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-do / InProcess / ToReview / Done)</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU-37</td><td colspan="1" rowspan="4" valign="top">Registro y Login de Perfil</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Formularios de registro y login</td><td colspan="1" valign="top">Diseñar formularios de registro y login con validaciones de entrada de datos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Mensajes de error y éxito</td><td colspan="1" valign="top">Configurar mensajes de error y éxito en los formularios de autenticación.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Endpoints de registro y autenticación</td><td colspan="1" valign="top">Crear endpoints para registro y autenticación de usuarios.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Seguridad en autenticación</td><td colspan="1" valign="top">Implementar seguridad con encriptación de contraseñas y generación de tokens de sesión.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU-38</td><td colspan="1" rowspan="4" valign="top">Dashboard de Resumen</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Crear componente de resumen</td><td colspan="1" valign="top">Crear un componente para mostrar la cantidad de dispositivos y timeline de eventos con gráficos y tablas.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Diseño responsivo del dashboard</td><td colspan="1" valign="top">Diseñar la interfaz para que el resumen y el timeline sean responsivos y accesibles en diferentes dispositivos.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">API de resumen de dispositivos y eventos</td><td colspan="1" valign="top">Implementar una API para obtener los datos de la cantidad de dispositivos y el historial de eventos</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Process</td></tr>
+<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Filtrado y orden de eventos para timeline</td><td colspan="1" valign="top">Crear lógica de negocio para filtrar y ordenar los eventos relevantes para el timeline.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Process</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU-39</td><td colspan="1" rowspan="4" valign="top">Gestión  de Dispositivos  (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Componente de tabla interactiva</td><td colspan="1" valign="top">Crear un componente de tabla interactiva para mostrar los dispositivos y permitir opciones CRUD.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Modales para CRUD de dispositivos</td><td colspan="1" valign="top">Agregar formularios modales para crear y actualizar la información de cada dispositivo.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Endpoints CRUD de dispositivos</td><td colspan="1" valign="top">Implementar endpoints para operaciones CRUD en los dispositivos</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Validaciones y permisos de usuario</td><td colspan="1" valign="top">Crear validaciones y control de permisos para asegurar que solo el usuario propietario pueda modificar sus dispositivos.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU-40</td><td colspan="1" rowspan="4" valign="top">Visualización de Propiedades, Áreas y Dispositivos (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Componente de tarjetas de propiedades</td><td colspan="1" valign="top">Crear un componente de tarjeta para mostrar propiedades y áreas con sus respectivos dispositivos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Navegación entre propiedades y áreas</td><td colspan="1" valign="top">Diseñar la navegación entre propiedades y áreas, permitiendo expandir o contraer cada una para ver los dispositivos.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">API de propiedades y áreas</td><td colspan="1" valign="top">Implementar una API para obtener propiedades, áreas y dispositivos vinculados al usuario.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Control de acceso y permisos</td><td colspan="1" valign="top">Configurar relaciones y permisos en la base de datos para asegurar que solo el usuario vea sus propias propiedades, áreas y dispositivos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU-41</td><td colspan="1" rowspan="4" valign="top">Sección de Asistencia, Manuales y Soporte</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Interfaz de preguntas frecuentes</td><td colspan="1" valign="top">Crear una interfaz de preguntas frecuentes y un buscador para facilitar el acceso a información específica</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Botones de redirección a soporte</td><td colspan="1" valign="top">Diseñar botones de redirección claros para soporte y manuales adicionales.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">API de preguntas frecuentes y manuales</td><td colspan="1" valign="top">Implementar una API que permita acceder y gestionar preguntas frecuentes y manuales de configuración.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Redirección a soporte técnico</td><td colspan="1" valign="top">Configurar el servicio de redirección a soporte técnico con la información de contacto y manuales.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-42</td><td colspan="1" rowspan="4" valign="top">Información de Contacto y Colaboradores de la Empresa</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Componente de información de contacto</td><td colspan="1" valign="top">Crear un componente que muestre el número de teléfono, dirección y correo de la empresa.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Botón de acceso directo a colaboradores</td><td colspan="1" valign="top">Agregar un botón de acceso directo a los colaboradores de la empresa.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"></td><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">API de información de contacto</td><td colspan="1" valign="top">Implementar una API que permita almacenar y recuperar información de contacto de la empresa.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Permisos de edición para administración</td><td colspan="1" valign="top">Configurar permisos de edición para el equipo de administración que pueda actualizar esta información.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+</table>
+
+
+### 6\.2.2.3. Development Evidence for Sprint Review.
+
+A continuación, se presenta la lista de commis realiados en los repositorios para este sprint 2.
+
+<table><tr><th valign="top">Repository</th><th valign="top">Branch</th><th valign="top">Commit Id</th><th valign="top">Commit Message</th><th valign="top">Commit Message Body</th><th valign="top">Commited on (Date)</th></tr>
+<tr><td rowspan="5" valign="top"><p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web.git</p><p></p></td><td valign="top"><p>feat/areas</p><p></p></td><td valign="top">01871a0a</td><td valign="top">add: ()</td><td valign="top">properties crud</td><td valign="top">Oct 07 2024</td></tr>
+<tr><td valign="top">feat/areas</td><td valign="top">8ba68733</td><td valign="top">add: ()</td><td valign="top">my devices page</td><td valign="top">Oct 05 202</td></tr>
+<tr><td valign="top">feat/events</td><td valign="top">3eb0165b</td><td valign="top">add: ()</td><td valign="top">Créate and delete properties</td><td valign="top">Oct 13 2024</td></tr>
+<tr><td valign="top">Feat/events</td><td valign="top">570d3898</td><td valign="top">add: ()</td><td valign="top">Update events</td><td valign="top">Nov 02 2024</td></tr>
+<tr><td valign="top">develop</td><td valign="top">1dcc1490</td><td valign="top">refactor: ()</td><td valign="top">update area interfaces and service methods for improved data handling</td><td valign="top">Nov 03 2024</td></tr>
+<tr><td rowspan="5" valign="top"><p> https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield.git </p><p></p></td><td valign="top">Feat/notifications</td><td valign="top">8bf251c9</td><td valign="top">Add: ()</td><td valign="top">User profile context</td><td valign="top">Oct 07 2024</td></tr>
+<tr><td valign="top">Feat/notifications</td><td valign="top">81f6af96</td><td valign="top">add: ()</td><td valign="top">get, getById, post & delete property</td><td valign="top">Oct 13 2024</td></tr>
+<tr><td valign="top">Feat/notifications</td><td valign="top">93ea9db4</td><td valign="top">add: ()</td><td valign="top">base documents notifications</td><td valign="top">Oct 28 2024</td></tr>
+<tr><td valign="top">development</td><td valign="top">fd5b57fb</td><td valign="top">add: ()</td><td valign="top">documents java into notification</td><td valign="top">` `Oct 30 202</td></tr>
+<tr><td valign="top">development</td><td valign="top">a4376074</td><td valign="top">add ()</td><td valign="top"><p>add</p><p>controller</p></td><td valign="top">Nov 02 2024</td></tr>
+</table>
+
+
+
+
+### 6\.2.2.4. Testing Suite Evidence for Sprint Review.
+
+En esta sección, presentamos el conjunto de Acceptance Tests relacionados con las User Stories seleccionadas para el desarrollo del Sprint 3. Para estos criterios de aceptación, se utilizó el lenguaje Gherkin bajo el enfoque BDD.
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|<p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git</p><p></p>|<p>main</p><p></p>|<p>ef745cd</p><p></p>|<p>feat(testing)</p><p></p>|<p>create hu40 feature</p><p></p>|<p>03/11/2024</p><p></p>|
+|||||||
+
+
+### 6\.2.2.5. Execution Evidence for Sprint Review.
+
+### 6\.2.2.6. Services Documentation Evidence for Sprint Review.
+
+#### 6\.2.2.7. Software Deployment Evidence for Sprint Review.
+
+### 6\.2.2.8. Team Collaboration Insights during Sprint.
+
+Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro Aplicación Web.
+
+![alt text](/src/images/sprint2_insight.png)
+
+Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestra Web Services.
+![alt text](/src/images/sprint2_insight2.png)
+
+### 6\.2.3. Sprint 3
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint n. Incluye como secciones internas: Sprint Planning n, Sprint Backlog n, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, junto con Team Collaboration Insights during Sprint.
+
+### 6\.2.3.1. Sprint Planning 3.
+
+En esta sesión de planificación para el Sprint 3, nos enfocaremos en los desarrollos clave del Aplicación Móvil  de nuestro producto VerySafe y del el IoT Device Embedded Application. Durante el Sprint 2, logramos implementar el fronted y backend para la aplicación web de VerySafe.
+
+|**Sprint #**|Sprint 3|
+| :- | :- |
+|**Sprint Planning Background**||
+|Date|22/10/2024|
+|Time|11:30 pm|
+|Location|Cubículo de la Universidad UPC sede Villa|
+|Prepared By|Gabriela Nomberto|
+|Attendees (to planning meeting)|Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo|
+|Sprint n – 1 Review Summary|Se realizó el tablero del Sprint 2 en el Trello y creo las tareas relacionados a los user stories.|
+|Sprint n – 1 Retrospective Summary  |Se ha logrado avanzar con 18 task de las 43.|
+|**Sprint Goal & User Stories**||
+|Sprint 1 Goal|El objetivo principal es desarrollar la aplicación móvil de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional. De la misma manera se creará el IoT Device Embedded Application. en Wokwi para simular su funcionamiento|
+|Sprint 1 Velocity|26|
+|Sum of Story Points|38|
+
+### 6\.2.2.2. Sprint Backlog 3. 
+
+En este Sprint 3, el objetivo principal es desarrollar la aplicación móvil de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional. De la misma manera se creara el IoT Device Embedded Application. en Wokwi para simular su funcionamiento.  Al finalizar este sprint, buscamos tener una versión funcional de estas funcionalidades clave, lista para pruebas iniciales y validación.
+
+A continuación se muestra el tablero del Sprint 3 en Trello: 
+
+![alt text](src/images/trello3.png)
+
+Link: https://trello.com/b/VzbK516w/sprint-3
+
+
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task </td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation (Hours)</td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-do / InProcess / ToReview / Done)</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU-37</td><td colspan="1" rowspan="4" valign="top">Registro y Login de Perfil</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Formularios de registro y login</td><td colspan="1" valign="top">Diseñar pantallas de login adaptada a dispositivos móviles, con validación de datos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Formularios de registro y login</td><td colspan="1" valign="top">Diseñar pantallas de registro adaptada a dispositivos móviles, con validación de datos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Ver perfil</td><td colspan="1" valign="top">Implementar seccion de Perfil de App Mobile</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Persistencia de datos</td><td colspan="1" valign="top">Configurar la gestión de sesión y persistencia de datos en el dispositivo móvil para mantener al usuario autenticado. .</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-38</td><td colspan="1" rowspan="2" valign="top">Dashboard de Resumen</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Diseño responsivo del dashboard</td><td colspan="1" valign="top">Diseñar gráficos y tablas adaptados a pantallas móviles para el resumen y timeline</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Notificaciones de eventos</td><td colspan="1" valign="top">Integrar notificaciones push para eventos importantes en tiempo real.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU-39</td><td colspan="1" rowspan="3" valign="top">Gestión  de Dispositivos  (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Conectar dispositivos</td><td colspan="1" valign="top">Implementar conexión de nuevo dispositivo en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Sección dispositivos</td><td colspan="1" valign="top">Implementar seccion de dispositivos en App mobile</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Gestión de dispositivos</td><td colspan="1" valign="top">Implementar formularios emergentes para añadir y editar dispositivos de manera intuitiva.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU-40</td><td colspan="1" rowspan="3" valign="top">Visualización de Propiedades, Áreas y Dispositivos (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Pantalla Areas</td><td colspan="1" valign="top">Implementar Areas en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Registro de propiedad</td><td colspan="1" valign="top"><p>Implementar Registro de Propiedad en App Mobile</p><p></p></td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Navegación entre propiedades y áreas</td><td colspan="1" valign="top">Crear una vista de tarjetas para cada propiedad, mostrando áreas y dispositivos asociados.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU-41</td><td colspan="1" rowspan="4" valign="top">Sección de Asistencia, Manuales y Soporte</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Asistencia para los usuarios</td><td colspan="1" valign="top">Implementar Assistance en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Botones de redirección a soporte</td><td colspan="1" valign="top">Diseñar botones de redirección claros para soporte y manuales adicionales.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Enlace a soporte tecnico</td><td colspan="1" valign="top">Implementar un  enlace directo a soporte técnico en caso de dudas.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Resolver dudas</td><td colspan="1" valign="top">Crear una sección de preguntas frecuentes.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-42</td><td colspan="1" rowspan="2" valign="top">Información de Contacto y Colaboradores de la Empresa</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Pantalla para los contactos</td><td colspan="1" valign="top">Crear una pantalla que muestre la información de contacto (teléfono, correo y dirección) de manera clara.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Botón de acceso directo a colaboradores</td><td colspan="1" valign="top">Agregar un botón de acceso directo a los colaboradores de la empresa.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">HU-43</td><td colspan="1" rowspan="6" valign="top">Configuraciones de la aplicación movil VerySafe</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Pantalla para los configuraciones</td><td colspan="1" valign="top">Implementar seccion de Configuración</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Cambiar contraseña</td><td colspan="1" valign="top">Implementar seccion de Configuracion - Change your Password</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Elegir método de pago</td><td colspan="1" valign="top">Implementar seccion Configuracion - Payment Method</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Cambiar Idioma</td><td colspan="1" valign="top">Implementar seccion Configuracion - Application Language</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA05</td><td colspan="1" valign="top">Cerrar sesión</td><td colspan="1" valign="top">Implementar seccion Configuracion - Log Out</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA06</td><td colspan="1" valign="top">Eliminar cuenta</td><td colspan="1" valign="top">Implementar seccion Configuracion - Delete Account</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-44</td><td colspan="1" rowspan="2" valign="top">Usabilidad de la aplicación movil Verysafe</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Agregar iconos y botones</td><td colspan="1" valign="top">Añadir iconos y botones optimizados para facilitar el manejo en pantallas táctiles.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Agregar NavBar</td><td colspan="1" valign="top">Implementar Bottom NavBar para facilitacion de navegacion</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-45</td><td colspan="1" rowspan="2" valign="top">Control Remoto de Dispositivos</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Prueba de control remoto IR</td><td colspan="1" valign="top">Realizar pruebas de control remoto IR para el manejo de los dispositivos.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Funciones de control remoto</td><td colspan="1" valign="top">Implementar funciones de control remoto para activar y desactivar dispositivos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top"><p>Jamutaq</p><p></p></td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU-46</td><td colspan="1" rowspan="3" valign="top">Configuración y Pruebas de Sensores</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Configurar Motion Sensor (PIR)</td><td colspan="1" valign="top">Configurar el dispositivo Motion Sensor - PIR.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Configurar sensor de proximidad</td><td colspan="1" valign="top">Configurar el dispositivo sensor de proximidad.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Pruebas individuales de sensores</td><td colspan="1" valign="top">Realizar pruebas individuales de cada sensor.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-47</td><td colspan="1" rowspan="2" valign="top">Visualización de Datos en Pantalla LCD</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Mostrar datos en LCD según control</td><td colspan="1" valign="top">Mostrar datos de sensores en LCD de acuerdo a la opción del control remoto.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Configurar pantalla LCD</td><td colspan="1" valign="top">Configurar la pantalla LCD para visualizar datos.</td><td colspan="1" valign="top"><p></p><p>2</p></td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-48</td><td colspan="1" rowspan="2" valign="top">Integración y Mensajes de Confirmación en LCD</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Mensajes de confirmación para RFID</td><td colspan="1" valign="top">Implementar mensajes de confirmación en LCD para la tarjeta RFID.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Pruebas de integración de sensores y LCD</td><td colspan="1" valign="top">Realizar pruebas de integración entre sensores y la pantalla LCD.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">HU-49</td><td colspan="1" valign="top">Configuración del Sensor de Gas</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Configurar MQ2 Gas Sensor</td><td colspan="1" valign="top"><p>Configurar el dispositivo MQ2 Gas Sensor.</p><p></p></td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">HU-50</td><td colspan="1" valign="top">Configuración del Módulo RFID</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Configurar módulo RFID</td><td colspan="1" valign="top">Configurar el módulo RFID para habilitar la autenticación.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Done</td></tr>
+</table>
+
+
+
+### 6\.2.2.3. Development Evidence for Sprint Review.
+
+El repositorio FalconShield-EdgeApi ha tenido avances significativos, incluyendo la implementación de la base de la API, CRUD para actuadores, documentación Swagger, y API de sensores. Estos cambios refuerzan la infraestructura de la Edge API, garantizando que sea robusta, bien documentada, y funcional para manejar sensores y actuadores en un entorno IoT.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|<p>GabySol26/FalconShield-EdgeApi</p><p></p>|<p>add base repository </p><p></p>|<p>07ca48a23cff0b23290ba10e62f72edddd664bcc</p><p></p>|<p>add base repository</p><p></p>|<p>add base repository </p><p></p>|<p>02/10/2024</p><p></p>|
+| GabySol26/FalconShield-EdgeApi| add: base edge api | 07ca48a23cff0b23290ba10e62f72edddd664bcc| add: base edge api | add: base edge api | 02/10/2024 |
+| quevedito2/FalconShield-EdgeApi | add: crud actuator | b6ce930efd3921dbe112e803aa5dc133246bba46 | add: crud actuator |add: crud actuator | 02/10/2024 |
+| deyson63/FalconShield-EdgeApi | add: documentation swagger |  158591609b2863f8289f88f23b67b7493be6ab66 | add: documentation swagger | add: documentation swagger | 02/10/2024 | 
+| miikuru002/FalconShield-EdgeApi | add: snesor api | 19153ed38e046d50adf2ca72f853d8690e43f4bb | add: snesor api | add: snesor api |  02/10/2024 | 
+| elvi98/FalconShield-EdgeApi | fix: swagger actuators | bc790e496d9bfbaa47f16cb06dd257959b05ef62 | fix: swagger actuators | fix: swagger actuators | 02/10/2024 |
+| GabySol26/FalconShield-EdgeApi  | add: descriptions sensors swagger api | 54607743a414bbc7b0a64013eb70b9badba9435a | add: descriptions sensors swagger api | add: descriptions sensors swagger api | 02/10/2024 | 
+
+
+### 6\.2.3.4. Testing Suite Evidence for Sprint Review.
+
+En esta sección, presentamos el conjunto de Acceptance Tests relacionados con las User Stories seleccionadas para el desarrollo del Sprint 3. Para estos criterios de aceptación, se utilizó el lenguaje Gherkin bajo el enfoque BDD.
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| :- | :- | :- | :- | :- | :- |
+|<p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git</p><p></p>|<p>main</p><p></p>|<p>ef745cd</p><p></p>|<p>feat(testing)</p><p></p>|<p>create hu40 feature</p><p></p>|<p>03/11/2024</p><p></p>|
+|||||||
+
+
+### 6\.2.3.5. Execution Evidence for Sprint Review.
+
+Para esta seccion mostraremos las evidencias correspondientes al sprint 3 que se encarga de la aplicación Movil, Edge API y IoT Device.
+**Mobile Application**
+**Edge API**
+Para esta parte mostramos los endpoints utilizados y creados que se manejaran para la conexión a wokwi
+![alt text](src/images/Captura%20de%20pantalla%202024-11-03%20042016.png)
+![alt text](src/images/Captura%20de%20pantalla%202024-11-03%20083545.png)
+
+
+### 6\.2.3.6. Services Documentation Evidence for Sprint Review.
+A continuación, se detallan los nuevos endpoints implementados y las operaciones asociadas:
+
+| Endpoint                  | Http Verb | Acción                                   | Descripción                                   |
+|---------------------------|-----------|------------------------------------------|-----------------------------------------------|
+| `api/actuators/register`  | POST      | Controlar el actuador y sus lecturas     | Registra y controla el estado de un actuador  |
+| `api/actuators/{id}/status` | GET     | Obtener el status de los actuadores      | Obtiene el estado actual de un actuador específico |
+| `api/sensors/readings`    | GET       | Obtener los datos de los sensores        | Recupera las lecturas actuales de los sensores |
+| `api/sensors/reading`     | POST      | Procesar la lectura de datos de los sensores | Envía y procesa una nueva lectura de un sensor |
+| `api/sensors/mac-address` | POST      | Registro de MAC Address de los sensores  | Registra la dirección MAC de un sensor        |
+
+
+### 6\.2.3.7. Software Deployment Evidence for Sprint Review.
+ 
+Para el despliegue de la Mobile App empleamos Firebase
+
+Link de la Mobile App desplegada: ()
+
+Para el dispositivo IoT utilizamos Wokwi
+
+Link de la dispositivo IoT: ()
+
+Para el despliegue de la Edge API
+
+Link de la API desplegada: (http://localhost:8080/swagger-ui/index.html#/)
+
+
+#### 6\.2.3.8. Team Collaboration Insights during Sprint.
+
+Para evidenciar la colaboración de todos integrantes del equipo FalconShield en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro Edge api.
+
+![alt](src/images/Captura%20de%20pantalla%202024-11-03%20043719.png)
+
+### 6\.3. Validation Interviews.
+
+### 6\.3.1. Diseño de Entrevistas.
+
+### User Flows para el Proceso de Validación de VerySafe
+
+#### Segmento: Dueños de Inmueble
+1. Exploración del Landing Page y Comprensión del Valor Propuesto
+2. Recepción y Configuración de Notificaciones de Seguridad
+3. Consulta del Historial de Eventos de Seguridad
+4. Activación y Desactivación de Alertas
+
+#### Segmento: Empresas de Seguridad
+1. Exploración Corporativa del Landing Page
+2. Monitoreo de Múltiples Propiedades y Recepción de Alertas
+3. Configuración de Notificaciones y Personalización por Propiedad
+4. Consulta de Historial Corporativo y Filtrado de Eventos
+5. Interacción Remota con las Propiedades (Activación/Desactivación de Alarmas)
+
+
+
+### Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Dueños de Inmueble”
+
+#### 1. Landing Page de VerySafe
+- **Presentación del Landing Page**  
+  - Pregunta: ¿Cómo describirías la manera en que se presenta la información en la página de inicio? ¿Es clara y atractiva?
+
+- **Navegación y Usabilidad**  
+  - Pregunta: ¿Encuentras que la navegación en el sitio es intuitiva y fácil de entender?
+
+- **Valor Propuesto**  
+  - Pregunta: ¿Entiendes claramente cuál es el valor de VerySafe para la seguridad de tu propiedad?
+
+- **Planes de Suscripción**  
+  - Pregunta: ¿Consideras que la sección de planes de suscripción comunica bien las opciones y beneficios?
+
+#### 2. Aplicación Móvil de VerySafe
+- **Recepción de Alertas de Seguridad (Funcionalidad Clave)**  
+  - Pregunta: ¿Recibes las alertas de movimiento, humo o cambios de temperatura de manera clara y oportuna? ¿Te sientes más seguro con estas alertas?
+
+- **Configuración de Notificaciones Personalizadas**  
+  - Pregunta: ¿Te resulta sencillo personalizar las notificaciones para los eventos que deseas monitorizar?
+
+- **Acceso al Historial de Eventos de Seguridad**  
+  - Pregunta: ¿Es útil el historial de eventos de seguridad? ¿Encuentras fácil filtrar y acceder a los registros específicos?
+
+- **Interacción y Diseño de la Aplicación**  
+  - Pregunta: ¿Te parece que el diseño y la interacción de la app son intuitivos y claros para la gestión de seguridad?
+
+
+
+### Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Empresas de Seguridad”
+
+#### 1. Landing Page de VerySafe
+- **Presentación del Landing Page**  
+  - Pregunta: ¿Cómo describirías la forma en que se presenta la información y los servicios de VerySafe? ¿Es adecuada para una empresa de seguridad?
+
+- **Navegación y Usabilidad desde una Perspectiva Corporativa**  
+  - Pregunta: ¿Es intuitivo y fácil de usar el sitio para un uso corporativo, donde necesitas gestionar múltiples propiedades?
+
+- **Valor Propuesto para Empresas de Seguridad**  
+  - Pregunta: ¿Percibes claramente cuál es el valor de VerySafe para facilitar la seguridad y monitoreo de varias propiedades?
+
+- **Opciones de Suscripción**  
+  - Pregunta: ¿Consideras que las opciones de suscripción son claras y adecuadas para un uso a gran escala?
+
+#### 2. Aplicación Móvil de VerySafe para Gestión Corporativa
+- **Monitoreo de Alertas en Múltiples Propiedades**  
+  - Pregunta: ¿Te parece útil y fácil de usar la función de monitoreo de alertas en diferentes propiedades? ¿Te ayuda a responder rápidamente a eventos críticos?
+
+- **Acceso y Filtros en el Historial de Seguridad**  
+  - Pregunta: ¿Encuentras práctico el historial de seguridad para revisar y filtrar eventos por cada propiedad?
+
+- **Configuración y Personalización de Notificaciones**  
+  - Pregunta: ¿Es fácil para tu empresa personalizar las notificaciones para distintos tipos de eventos? ¿Te permite esta opción un control efectivo?
+
+- **Interacción con el Sistema para la Activación y Desactivación de Alarmas**  
+  - Pregunta: ¿Te resulta intuitiva la funcionalidad de activar o desactivar alarmas de forma remota en distintas propiedades?
+
+
+6\.3.2. Registro de Entrevistas.
+
+* **Segmento 1: Dueños de inmuebles**
+
+- Entrevista N°1:
+  - Nombres y apellidos: Diana Gomez Oré
+  - Edad: 25 años
+  - Distrito: Chorrillos
+  - Timing:
+  - Duración:
+  - Link: [Enlace entrevista 1]()
+
+    ![Validation Interview 1](/src/images/validation-interview-1.png)
+
+Antes de la entrevista Diana me comentó que le pareció interesante el tener 3 idiomas en la landing page, esto debido a que no era algo común para ella. Durante la entrevista se pudo apreciar que la sección que más llamó su atención en la landing page fue la de los planes, ya que indicó que tener la información de los planes a la mano le facilita el poder seleccionar cuál desea adquirir y poder comparar sus características. En cuanto al prototipo de la aplicación web, lo que más le agradó fue la sección de dispositivos por áreas, esto debido a que le encontró utilidad al hecho de tener los dispositivos filtrados mediante áreas correspondientes. Finalmente, ella comentó que le parece importante el recibir notificaciones sobre eventos que puedan sucitarse en su propiedad, debido a que toma mucho en cuanta su seguridad al vivir sola. Es así que Diana indicó que le gustaría mucho el poder recibir estas notificaciones mediante una aplicación móvil, ya que es el dispositivo que tiene a su mano con mayor frecuencia.
+
+
+- Entrevista N°2:
+  - Nombres y apellidos: Aldahir Valenzuela
+  - Edad: 23 años
+  - Distrito: San Borja
+  - Timing: 
+  - Duración: 07:04 minutos
+  - Link: https://youtu.be/NO6eZs-q9hM
+     
+    ![Validation Interview2](/src/images/validation-interview-2.png)
+
+En la entrevista, Aldahir menciona que la landing page es intuitiva y fácil de navegar. Además, destaca que los planes se muestran de manera clara y que las imágenes ayudan a comprender los beneficios que obtendrá el usuario. Con respecto al prototipo de la aplicación móvil, le agrada la funcionalidad para agregar una nueva propiedad y asignar áreas a estas, así como la opción de activar y desactivar dispositivos. También resalta la utilidad de recibir notificaciones cuando se genera un evento en los dispositivos, aunque advierte que podría ser molesto si el dispositivo genera alertas por eventos que no son de emergencia. En cuanto a las mejoras sugeridas, propone ajustar la imagen de fondo en el inicio de la landing page, ya que actualmente no tiene suficiente contraste con el texto del eslogan, lo cual dificulta su lectura.
+
+6\.3.3. Evaluaciones según heurísticas. 
+
+Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta. Para esto la sección debe contener la estructura del formato para evaluaciones de heurísticas indicado en el Anexo D. Formato para Evaluación de User Experience según Heurísticas. 
+
+6\.4. Video About-the-Product.
+
+**Conclusiones**
+
+En esta sección se incluye como secciones internas Conclusiones y recomendaciones, así como Video About-The-Team.
+
+Conclusiones y recomendaciones.
+
+* La API REST proporciona un backend robusto para manejar las solicitudes de la aplicación móvil y otros clientes. Debe estar bien documentada y seguir las mejores prácticas de diseño RESTful.
+* La Edge API facilita la comunicación y el procesamiento de datos en dispositivos de borde (como ESP32). Es crucial para aplicaciones IoT que requieren decisiones en tiempo real.
+* La aplicación móvil está progresando bien con características implementadas como la navegación mediante BottomNavBar y la gestión de propiedades. La UI es intuitiva y sigue el diseño previsto.
+
+Video About-the-Team.
+
+En esta sección el equipo elabora un resumen de los aspectos más relevantes del video About-The-Team, la pauta de secuencias de contenido (secciones con el timing de inicio de cada una, es decir hh:mm:ss de cada sección dentro del video) incluyendo además un cuadro de video representativo del mismo, junto con el URL de la versión publicada en Microsoft Stream (y además, el URL de la versión publicada en YouTube utilizada para incrustarse en el Landing Page). Este video resume el proceso de trabajo realizado, incluyendo escenas con imágenes o video de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. Ver otras indicaciones importantes en el Anexo C. Indicaciones para secciones que incluyen Videos
+
+Bibliografía
+
+En esta sección el equipo especifica todas las referencias bibliográficas en formato APA, utilizadas como base para el desarrollo del trabajo o referenciadas en secciones del informe. 
+
+
+Anexos
