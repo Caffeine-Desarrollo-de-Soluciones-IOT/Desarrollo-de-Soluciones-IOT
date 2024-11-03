@@ -2675,6 +2675,8 @@ Esta sección contiene el proceso de evaluación de las sesiones de validación 
 
 6\.4. Video About-the-Product.
 
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EUIX0qkl-xBAixGeKsGHE0oBkSMaXfWsVcneOx8giYwXiQ?e=6jF96u&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
 **Conclusiones**
 
 En esta sección se incluye como secciones internas Conclusiones y recomendaciones, así como Video About-The-Team.
@@ -2687,7 +2689,7 @@ Conclusiones y recomendaciones.
 
 Video About-the-Team.
 
-En esta sección el equipo elabora un resumen de los aspectos más relevantes del video About-The-Team, la pauta de secuencias de contenido (secciones con el timing de inicio de cada una, es decir hh:mm:ss de cada sección dentro del video) incluyendo además un cuadro de video representativo del mismo, junto con el URL de la versión publicada en Microsoft Stream (y además, el URL de la versión publicada en YouTube utilizada para incrustarse en el Landing Page). Este video resume el proceso de trabajo realizado, incluyendo escenas con imágenes o video de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. Ver otras indicaciones importantes en el Anexo C. Indicaciones para secciones que incluyen Videos
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EUIX0qkl-xBAixGeKsGHE0oBkSMaXfWsVcneOx8giYwXiQ?e=y0Yj6B&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Bibliografía
 
