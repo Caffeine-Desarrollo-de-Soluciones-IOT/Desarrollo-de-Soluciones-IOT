@@ -661,6 +661,21 @@ En esta sección el equipo explica cómo se han desarrollado las actividades de 
 
 En esta sección, el equipo registra y explica las actividades de entrevistas de validación durante el proyecto. Se debe realizar entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con las aplicaciones. Incluye secciones internas para Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas. Para el proceso de validación debe aplicarse el formato de evaluación heurística indicado para el proyecto
 
+* **Segmento 1: Dueños de inmuebles**
+
+- Entrevista N°1:
+  - Nombres y apellidos: Diana Gomez Oré
+  - Edad: 25 años
+  - Distrito: Chorrillos
+  - Timing:
+  - Duración:
+  - Link: [Enlace entrevista 1]()
+
+    ![Validation Interview 1](/src/images/validation-interview-1.png)
+
+Antes de la entrevista Diana me comentó que le pareció interesante el tener 3 idiomas en la landing page, esto debido a que no era algo común para ella. Durante la entrevista se pudo apreciar que la sección que más llamó su atención en la landing page fue la de los planes, ya que indicó que tener la información de los planes a la mano le facilita el poder seleccionar cuál desea adquirir y poder comparar sus características. En cuanto al prototipo de la aplicación web, lo que más le agradó fue la sección de dispositivos por áreas, esto debido a que le encontró utilidad al hecho de tener los dispositivos filtrados mediante áreas correspondientes. Finalmente, ella comentó que le parece importante el recibir notificaciones sobre eventos que puedan sucitarse en su propiedad, debido a que toma mucho en cuanta su seguridad al vivir sola. Es así que Diana indicó que le gustaría mucho el poder recibir estas notificaciones mediante una aplicación móvil, ya que es el dispositivo que tiene a su mano con mayor frecuencia.
+
+
 ### 6\.3.1. Diseño de Entrevistas.
 
 ### User Flows para el Proceso de Validación de VerySafe
