@@ -35,7 +35,7 @@ Ciclo: 2024-2
 ### 1.1.1 Descripción de la Startup
 ### 1.1.2 Perfiles de integrantes del equipo
 ## 1.2 Solution Profile
-### 1.2.1  Antecedentes y problemática
+### 1.2.1 Antecedentes y problemática
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1 Lean UX Problem Statements
 #### 1.2.2.2 Lean UX Assumptions
@@ -44,7 +44,7 @@ Ciclo: 2024-2
 ## 1.3 Segmentos objetivo
 ### Segmento objetivo 1: Dueños de Inmuebles
 
-# CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
+# CAPÍTULO II: REQUIREMENTS ELICITATION & ANALYSIS
 ## 2.1 Competidores
 ### 2.1.1. Análisis competitivo
 ## 2.2 Entrevistas
@@ -83,11 +83,9 @@ Es una técnica colaborativa que nos permite explorar a fondo el dominio de nues
     
     ![timeline](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-2.png)
 
-
-
 3. **Tercer paso: Pain Points**
    
-    En este paso se identifaron posibles cuellos de botella o problemas en el flujo de eventos, para poder abordarlos y solucionarlos de manera efectiva.
+    En este paso se identificaron posibles cuellos de botella o problemas en el flujo de eventos, para poder abordarlos y solucionarlos de manera efectiva.
     
     ![pain](src/images/event-3.png)
 
@@ -172,17 +170,17 @@ Para el modelado de los flujos de mensajes del dominio, se utilizó la técnica 
     ![alt text](src/images/412-3.jpg)
 
 4.	**Subscription and Payment Context - Notification Management Context (Anti-Corruption Layer):**
-  La relación entre estos dos bounded contexts se beneficia de un Anti-Corruption Layer para traducir y aislar los modelos de dominio. El Subscription and Payment Context maneja información financiera y suscripciones, mientras que el Notification Management Context envía alertas sobre el estado de las suscripciones o pagos. Para evitar que las complejidades del modelo de pagos interfieran con la simplicidad del sistema de notificaciones, se utiliza una capa anti-corrupción que actúa como interfaz entre ambos contexts.
+  La relación entre estos dos bounded contexts se beneficia de un Anti-Corruption Layer para traducir y aislar los modelos de dominio. El Subscription and Payment Context maneja información financiera y suscripciones, mientras que el Notification Management Context envía alertas sobre el estado de las suscripciones o pagos. Para evitar que las complejidades del modelo de pagos interfieran con la simplicidad del sistema de notificaciones, se utiliza una capa anticorrupción que actúa como interfaz entre ambos contexts.
 
     ![alt text](src/images/412-4.jpg)
 
 ### 4.1.3. Software Architecture
 
-En esta parte, mostraremos la representación de la Arquitectura de Software de la solución en base a los modelos C4 para poder obtener una mejor visión de nuestro sistema
+En esta parte, mostraremos la representación de la Arquitectura de Software de la solución con base en los modelos C4 para poder obtener una mejor visión de nuestro sistema
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-Este diagrama nos ofrece una visión mas general de como es la interacción de los usuarios con los sistemas externos, nos permite comprender la conexión de los componentes para contribuir al funcionamiento general de las aplicaciones.
+Este diagrama nos ofrece una visión más general de como es la interacción de los usuarios con los sistemas externos, nos permite comprender la conexión de los componentes para contribuir al funcionamiento general de las aplicaciones.
 
 ![landscape](src/images/landscape%20diagram.jpg)
 
@@ -192,7 +190,7 @@ En este tipo de diagramas, se muestra como nuestro sistema interactúa con eleme
 
 ![contexto](src/images/contexto.jpg)
 
-En nuestro diagrama mostramos a los usuarios que son los consumidores de inmuebles o negocios que buscan mantener mejorar la seguridad de su inmueble, este esta conectado con la aplicación para que el usuario pueda interactuar y finalmente se conecta con un servicio externo que utilizamos para el envío de notificaciones.
+En nuestro diagrama mostramos a los usuarios que son los consumidores de inmuebles o negocios que buscan mantener mejorar la seguridad de su inmueble, este está conectado con la aplicación para que el usuario pueda interactuar y finalmente se conecta con un servicio externo que utilizamos para el envío de notificaciones.
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 
@@ -200,12 +198,12 @@ Son representaciones visuales de la arquitectura de software a nivel de contened
 
 ![container](src/images/container.png)
 
-Para el diagrama de contenedores desglosamos a nuestros usuarios que son el propietario de inmuebles y el usuario de seguridad, cada uno interactua con nuestras aplicaciones en este caso el propietario interactua con nuestro Single Page Application, Web Application y Mobile Application dado que podra manejar un sistema más integral. Asimismo el usuario de seguridad tendra su tipo de acceso en el Web Application y Mobile Application para el monitoreo de las alarmas de seguridad.
-Pasando con las aplicaciones propuestas, tenemos que el Single Page Application que es una primera vista de nuestra propuesta de solucion se conect con el Web Application.
-Para el Web Application tenemos que se conecta con la API de la applicacion y esta misma API va a una base de datos de la aplicacion. 
-Para lo que es el Mobile Application tiene conexion a su misma base de datos y conexion con el API principal de nuestra aplicacion. 
-Asi tambien tenemos nuestros dispositivo IoT, el cual se conecta con el edge API y este a su vez a su base de datos con el API general de todo la aplicacion.
-Finalmente, el API principal lo conectamos con nuestro servicio externo de mensajeria AWS SNS.
+Para el diagrama de contenedores desglosamos a nuestros usuarios que son el propietario de inmuebles y el usuario de seguridad, cada uno interactúa con nuestras aplicaciones en este caso el propietario interactúa con nuestro Single Page Application, Web Application y Mobile Application dado que podrá manejar un sistema más integral. Asimismo el usuario de seguridad tendrá su tipo de acceso en el Web Application y Mobile Application para el monitoreo de las alarmas de seguridad.
+Pasando con las aplicaciones propuestas, tenemos que el Single Page Application que es una primera vista de nuestra propuesta de solución se conecta con el Web Application.
+Para el Web Application tenemos que se conecta con la API de la aplicación y esta misma API va a una base de datos de la aplicación. 
+Para lo que es el Mobile Application tiene conexión a su misma base de datos y conexión con la API principal de nuestra aplicación. 
+Asi también tenemos nuestro dispositivo IoT, el cual se conecta con el edge API y este a su vez a su base de datos con la API general de todo la aplicación.
+Finalmente, la API principal lo conectamos con nuestro servicio externo de mensajería AWS SNS.
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 
@@ -320,7 +318,7 @@ El Subscription and Payment Context abarca todos los procesos y funciones relaci
     ![alt text](src/images/paymentstatus-enum.png)
   
   - Aggregates:
-    1. CustomerAggregate: Eencapsula la lógica de negocio relacionada con los clientes y sus suscripciones. Esto permite gestionar de manera coherente y transaccional las operaciones relacionadas con los clientes.
+    1. CustomerAggregate: Encapsula la lógica de negocio relacionada con los clientes y sus suscripciones. Esto permite gestionar de manera coherente y transaccional las operaciones relacionadas con los clientes.
 
     ![alt text](src/images/customeraggregate.png)
   
@@ -353,7 +351,7 @@ En esta capa se presentan las clases que permiten la comunicación entre la capa
   ![alt text](src/images/plan-controller.png)
 
 #### 4.2.1.3. Application Layer
-Esta capa, para el Subscription and Payment Context, se definen los flujos de negocio a través de clases de tipo Command Handlers y Event Handlers, asegurando que los procesos de suscripción, pago y gestión de eventos externos (como los webhooks de Stripe) se manejen correctamente. Estos handlers permiten que el sistema sea reactivo, eficiente y mantenga la consistencia entre las operaciones internas y los eventos externos. A continuación, se presentan los handlers y eventos identificados para este contexto:
+Esta capa, para el Subscription and Payment Context, se definen los flujos de negocios a través de clases de tipo Command Handlers y Event Handlers, asegurando que los procesos de suscripción, pago y gestión de eventos externos (como los webhooks de Stripe) se manejen correctamente. Estos handlers permiten que el sistema sea reactivo, eficiente y mantenga la consistencia entre las operaciones internas y los eventos externos. A continuación, se presentan los handlers y eventos identificados para este contexto:
 
 - Command Handlers:
   1. CreateSubscriptionCommandHandler: Maneja el proceso de creación de una nueva suscripción para un cliente. Este handler se encarga de validar los datos de entrada y crea la suscripción tanto en el sistema como en Stripe.
@@ -377,7 +375,7 @@ Esta capa, para el Subscription and Payment Context, se definen los flujos de ne
 
   ![alt text](src/images/subscriptionexpired-eh.png)
 
-  3. PaymentFailedEventHandler: Este handler reacciona a eventos de pagos fallidos, ya sea generados por el dominio o recibidos de Stripe. Se encarga de notificar al cliente, reintentar el pago y, si es necesario, cancelar la suscripción.
+  3. PaymentFailedEventHandler: Este handler reacciona a eventos de pagos fallidos, ya sean generados por el dominio o recibidos de Stripe. Se encarga de notificar al cliente, reintentar el pago y, si es necesario, cancelar la suscripción.
 
   ![alt text](src/images/paymentfailed-eh.png)
 
@@ -482,7 +480,7 @@ El diagrama UML del bounded context "Devices" ilustra las clases Property, Devic
 
 ![alt text](/src/images/devices-diagram.png)
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
-Este diagrama de base de datos representa las tablas y las relaciones dentro del bounded context "Devices". Se define la entidad devices, que almacena información sobre ek tipo y la descripción del dispositivo de seguridad.La entidad devices_type almacena el tipo de dispositivo.
+Este diagrama de base de datos representa las tablas y las relaciones dentro del bounded context "Devices". Se define la entidad devices, que almacena información sobre ek tipo y la descripción del dispositivo de seguridad. La entidad devices_type almacena el tipo de dispositivo.
 
 ![alt text](/src/images/devices-db.png)
 
@@ -490,7 +488,7 @@ Este diagrama de base de datos representa las tablas y las relaciones dentro del
 ### 4.2.3. Bounded Context: Area
 #### 4.2.3.1. Domain Layer
 - Entities:
-  - Area: Representa un área específica en la que se colocan los dispositivos.
+  - Área: Representa un área específica en la que se colocan los dispositivos.
     - Atributos: id, name, icon, color.
   - Property: Representa una propiedad que puede tener múltiples áreas.
     - Atributos: id, name, image_url, address.
@@ -578,7 +576,7 @@ Este diagrama de base de datos representa las tablas y las relaciones dentro del
 ![Bounded Context Database Areas](src/images/bc-db-areas.jpg)
 
 ### 4.2.4. Bounded Context: User context
-El User Context abarca los procesos y funciones relacionados con la gestión del usuario y el rol que desempeña cada uno dentro de nuestro sistema. Aqui podemos manejar la creación, modificación o eliminación del usuario de nuestro sistema, asimismo podemos gestionar la asiganción de roles.
+El User Context abarca los procesos y funciones relacionados con la gestión del usuario y el rol que desempeña cada uno dentro de nuestro sistema. Aquí podemos manejar la creación, modificación o eliminación del usuario de nuestro sistema, asimismo podemos gestionar la asignación de roles.
 
 1. Clase User
    * Propósito: La clase User representa a los usuarios del sistema. Un usuario puede tener un rol asignado
@@ -598,12 +596,12 @@ El User Context abarca los procesos y funciones relacionados con la gestión del
      * `n...1` con Roles ya que un rol puede tener varios usuarios
 
 2. Clase Roles
-   * Propósito: Representa los distintos roles que los usuarios puedan tener dentor del sistema para que determine los permisos y acciones que puedan realizar.
+   * Propósito: Representa los distintos roles que los usuarios puedan tener dentro del sistema para que determine los permisos y acciones que puedan realizar.
    * Atributos:
      * `id: string`: Identificador único del rol
      * `type: string`: Tipo del rol que podría desempeñar el usuario.
    * Relaciones: 
-     * `1...n` con User dado que un rol puede tener varios usuario.
+     * `1...n` con User dado que un rol puede tener varios usuarios.
 
 #### 4.2.4.1. Domain Layer
 En la capa de dominio encontramos nuestras clases centrales como núcleo de nuestro sistema y las reglas de negocio que incluyen lo siguiente:
@@ -611,7 +609,7 @@ En la capa de dominio encontramos nuestras clases centrales como núcleo de nues
 * Entities:
   * User: Representa a un usuario del sistema y debe de ser único.
     * Atributos: id, firstname, lastname, email, password,phone, dni
-  * Role: Representa el rol que desempeña el usuario dentro de la aplicacion.
+  * Role: Representa el rol que desempeña el usuario dentro de la aplicación.
     * Atributos: id, type.
 
 * Value Objects:
@@ -621,54 +619,54 @@ En la capa de dominio encontramos nuestras clases centrales como núcleo de nues
   * Email: Objeto de valor para manejar correos únicos por cada usuario.
   
 * Aggregates: 
-  * UserAggregate: Es un agregado que incluye la entidad de usuario y los roles relacionados a ella. Además encapsula a las reglas y lógica de negocio.
+  * UserAggregate: Es un agregado que incluye la entidad de usuario y los roles relacionados con ella. Además, encapsula a las reglas y lógica de negocio.
 
 * Domain Services: 
-  * AuthenticationSerivce: Puede ser incluido un servicio de dominio encargado de la autenticación del usuario
+  * AuthenticationService: Puede ser incluido un servicio de dominio encargado de la autenticación del usuario
   
 * Repositories: 
   * UserRepository: Define los métodos para almacenar, modificar, eliminar y recuperar información de los usuarios en la base de datos
-  * RoleRepository: Define los métofdos para gestionar la persistencia de roles.
+  * RoleRepository: Define los métodos para gestionar la persistencia de roles.
 
 #### 4.2.4.2. Interface Layer
-Aquí manejamos las interacciones y solicitudes entre el sistema y los usuarios y consigo devolviendo respuestas optimas. Para el Bounded Context de User tenemos lo siguiente:
+Aquí manejamos las interacciones y solicitudes entre el sistema y los usuarios y consigo devolviendo respuestas óptimas. Para el Bounded Context de User tenemos lo siguiente:
 
 * Controllers:
-  * UserController: Se expone las operaciones relacionadas con el usuario como la creción, actualización, consulta y eliminación del usuario. Al crearse un usuario, este a su vez se le asigna un rol.
+  * UserController: Se expone las operaciones relacionadas con el usuario como la creación, actualización, consulta y eliminación del usuario. Al crearse un usuario, este a su vez se le asigna un rol.
   * RoleController: Gestiona las peticiones relacionadas con la administración de roles, como la creación de nuevos roles o la modificación de roles existentes.
   
 
 #### 4.2.4.3. Application Layer
-Para esta capa definimos los flujos de negocios a traves de clases de tipo Command  Handlers y Event Handlers, asegurando asi el manejor de las clases correctamente.
+Para esta capa definimos los flujos de negocios a través de clases de tipo Command Handlers y Event Handlers, asegurando asi el manejo de las clases correctamente.
 
 * Command Handlers:
   * CreateUserCommandHandler: Maneja la lógica de creación de nuevos usuarios, asegurándose que cada uno cumpla con todas las reglas de negocio, como validar el correo único y el cifrado de contraseñas
-  * AssignRoleToUserCommandHandler: Gestiona la asiganción de roles a los usuarios
+  * AssignRoleToUserCommandHandler: Gestiona la asignación de roles a los usuarios
 * Event Handlers:
-  * UserRegisteredEventHandler: Este handler puede enviar una notificación cuando un nuevo usuario es registrado existosamente en el sistema
+  * UserRegisteredEventHandler: Este handler puede enviar una notificación cuando un nuevo usuario es registrado exitosamente en el sistema
 
 #### 4.2.4.4. Infrastructure Layer
-En esta capa veremos las relaciones de nuestreas clases con las conexiones a los servicios externos como las bases de datos
+En esta capa veremos las relaciones de nuestras clases con las conexiones a los servicios externos como las bases de datos
 
 **Repositories:**
-  * UserRepository: Implementacion de la interfaz de repositorio para acceder a la base de datos que almacena la información de los usuarios.
-  * RoleRepository: Implementacion de la interfaz de repositorio para gestionar la persistencia de roles a travez de la base de datos.
+  * UserRepository: Implementación de la interfaz de repositorio para acceder a la base de datos que almacena la información de los usuarios.
+  * RoleRepository: Implementación de la interfaz de repositorio para gestionar la persistencia de roles a través de la base de datos.
 
 **External Service:**
 * MessageService: Servicio externo que se utiliza para enviar notificaciones a los usuarios en caso haya cambios en la aplicación móvil o una gestión de alarmas.
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
-En esta parte presentaremos el Diagrama de componentes en el modelo C4, mostraremos las descomposicion del container en componentes y sus interacciones
+En esta parte presentaremos el Diagrama de componentes en el modelo C4, mostraremos la descomposición del container en componentes y sus interacciones
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
-En el diagrama de base de datos de usuario podemos ver la relacion existente de las tablas dentro del bounded context "User". Aqui definimos la tabla usuario, en el cual almacenamos información importante del usuario para que pueda registrarse en la aplicacion que a su vez esta relacionada con un rol de usuario el cual asigna los permisos al sistema dependiendo el rol que desempeñen dentro de nuestra aplicación dando conocer asi que un rol lo puede desempeñar varios usuarios pero un usuario tiene un unico rol. Los atributos los cuales manejamos incluyen identificadores unicos para cada entidad asi como detalles principales que debemos tener para la aplicacion. 
+En el diagrama de base de datos de usuario podemos ver la relación existente de las tablas dentro del bounded context "User". Aquí definimos la tabla usuario, en el cual almacenamos información importante del usuario para que pueda registrarse en la aplicación que a su vez está relacionada con un rol de usuario el cual asigna los permisos al sistema dependiendo el rol que desempeñen dentro de nuestra aplicación dando conocer asi que un rol lo puede desempeñar varios usuarios, pero un usuario tiene un único rol. Los atributos los cuales manejamos incluyen identificadores unicos para cada entidad asi como detalles principales que debemos tener para la aplicación. 
 
 ![Bounded Context Database User](src/images/database-user.png)
 
 ### 4.2.5. Bounded Context: Events context
-El Event Context abarca los procesos y funciones relacionados con la gestión de los eventos y/o sucesos que puedan ocurrir a traves de nuestro sistema de alarma. Podemos manejar la creación o modificación de las alarmas según el usuario lo crea conveniente.
+El Event Context abarca los procesos y funciones relacionados con la gestión de los eventos y/o sucesos que puedan ocurrir a través de nuestro sistema de alarma. Podemos manejar la creación o modificación de las alarmas según el usuario lo crea conveniente.
 
 1. Clase Events
    * Propósito: La clase Events representa a los eventos que puedan suceder por las alarmas puestas en nuestros.
@@ -676,15 +674,15 @@ El Event Context abarca los procesos y funciones relacionados con la gestión de
      * `id: string`: Identificador único del evento
      * `title: string`: Título del suceso 
      * `description: string`: Descripción del evento sucedido
-     * `timestamp: string`: Hora en el cual sucedio el evento
+     * `timestamp: string`: Hora en el cual sucedió el evento
    * Métodos:
      * `getEventDetails(): void` - Retorna los detalles importantes del evento para el registro correspondiente.
      * `registerEvent(): void` - Registro de un nuevo evento en el sistema
    * Relaciones:
-     * `1...1` con Tipo de Evento ya que un tipo de evento puede tener un evento que sucedió
+     * `1...1` con Tipo de Evento, ya que un tipo de evento puede tener un evento que sucedió
 
 2. Clase Events_type
-   * Propósito: Representa los distintos roles que los usuarios puedan tener dentor del sistema para que determine los permisos y acciones que puedan realizar.
+   * Propósito: Representa los distintos roles que los usuarios puedan tener dentro del sistema para que determine los permisos y acciones que puedan realizar.
    * Atributos:
      * `id: string`: Identificador único del rol
      * `type: string`: Tipo del rol que podría desempeñar el usuario.
@@ -697,7 +695,7 @@ En la capa de dominio encontramos nuestras clases centrales como núcleo de nues
 * Entities:
   * Events: Representa a un evento que pudo ocurrir y capto nuestro sistema de seguridad.
     * Atributos: id, title, description, timestamp.
-  * EventsType: Representa el tipo de evento que desempeña el evento dentro de la aplicacion.
+  * EventsType: Representa el tipo de evento que desempeña el evento dentro de la aplicación.
     * Atributos: id, type.
 
 * Value Objects:
@@ -705,48 +703,48 @@ En la capa de dominio encontramos nuestras clases centrales como núcleo de nues
   * TypeEventId: Identificador único de cada rol asignado a un usuario.
   
 * Aggregates: 
-  * EventsAggregate: Es un agregado que incluye la entidad de usuario y los roles relacionados a ella. Además encapsula a las reglas y lógica de negocio.
+  * EventsAggregate: Es un agregado que incluye la entidad de usuario y los roles relacionados con ella. Además, encapsula a las reglas y lógica de negocio.
 
 * Domain Services: 
   * MessageService: Puede ser incluido un servicio de dominio encargado de la notificación al usuario de un evento ocurrido.
   
 * Repositories: 
   * EventRepository: Define los métodos para almacenar, modificar, eliminar y recuperar información de los usuarios en la base de datos
-  * EventTypeRepository: Define los métofdos para gestionar la persistencia de roles.
+  * EventTypeRepository: Define los métodos para gestionar la persistencia de roles.
 
 #### 4.2.4.2. Interface Layer
-Aquí manejamos las interacciones y solicitudes entre el sistema y los usuarios y consigo devolviendo respuestas optimas. Para el Bounded Context de Event tenemos lo siguiente:
+Aquí manejamos las interacciones y solicitudes entre el sistema y los usuarios y consigo devolviendo respuestas óptimas. Para el Bounded Context de Event tenemos lo siguiente:
 
 * Controllers:
-  * EventController: Se expone las operaciones relacionadas con el evento como la creción, actualización y consulta del evento. Al crearse un evento, este a su vez.
+  * EventController: Se expone las operaciones relacionadas con el evento como la creación, actualización y consulta del evento. Al crearse un evento, este a su vez.
   * EventTypeController: Gestiona las peticiones relacionadas con la administración de tipos de eventos, como la creación de nuevos eventos o la modificación de eventos existentes.
 
 #### 4.2.4.3. Application Layer
-Para esta capa definimos los flujos de negocios a traves de clases de tipo Command  Handlers y Event Handlers, asegurando asi el manejor de las clases correctamente.
+Para esta capa definimos los flujos de negocios a través de clases de tipo Command Handlers y Event Handlers, asegurando asi el manejo de las clases correctamente.
 
 * Command Handlers:
   * CreateEventCommandHandler: Maneja la lógica de creación de nuevos eventos, asegurándose que cada uno cumpla con todas las reglas de negocio.
-  * AssignTypeToEventCommandHandler: Gestiona la asiganción de tipos de eventos a los eventos
+  * AssignTypeToEventCommandHandler: Gestiona la asignación de tipos de eventos a los eventos
 * Event Handlers:
-  * EventRegisteredEventHandler: Este handler puede enviar una notificación cuando un nuevo evento esta sucediendo.
+  * EventRegisteredEventHandler: Este handler puede enviar una notificación cuando un nuevo evento está sucediendo.
 
 #### 4.2.4.4. Infrastructure Layer
-En esta capa veremos las relaciones de nuestreas clases con las conexiones a los servicios externos como las bases de datos
+En esta capa veremos las relaciones de nuestras clases con las conexiones a los servicios externos como las bases de datos
 
 **Repositories:**
-  * EventRepository: Implementacion de la interfaz de repositorio para acceder a la base de datos que almacena la información de los eventos.
-  * EvenTypeRepository: Implementacion de la interfaz de repositorio para gestionar el tipo de evento a travez de la base de datos.
+  * EventRepository: Implementación de la interfaz de repositorio para acceder a la base de datos que almacena la información de los eventos.
+  * EvenTypeRepository: Implementación de la interfaz de repositorio para gestionar el tipo de evento a través de la base de datos.
 
 **External Service:**
 * MessageService: Servicio externo que se utiliza para enviar notificaciones a los usuarios en caso haya cambios en la gestión de alarmas.
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
-En esta parte presentaremos el Diagrama de componentes en el modelo C4, mostraremos las descomposicion del container en componentes y sus interacciones
+En esta parte presentaremos el Diagrama de componentes en el modelo C4, mostraremos la descomposición del container en componentes y sus interacciones
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
-En el diagrama de base de datos de usuario podemos ver la relacion existente de las tablas dentro del bounded context "Event". Aqui definimos la tabla event, en el cual almacenamos información importante del evento o suceso que suceda en el momento que pueda activarse una alarma, además esta esta relacionado con un tipo de evento para una mejor gestión al momento de registrar el evento ocurrido. Los atributos los cuales manejamos incluyen identificadores unicos para cada entidad asi como detalles principales que debemos tener para la aplicacion. 
+En el diagrama de base de datos de usuario podemos ver la relación existente de las tablas dentro del bounded context "Event". Aquí definimos la tabla event, en el cual almacenamos información importante del evento o suceso que suceda en el momento que pueda activarse una alarma, además esta está relacionado con un tipo de evento para una mejor gestión al momento de registrar el evento ocurrido. Los atributos los cuales manejamos incluyen identificadores unicos para cada entidad asi como detalles principales que debemos tener para la aplicación. 
 
 ![Bounded Context Event](src/images/database%20event.png)
 
