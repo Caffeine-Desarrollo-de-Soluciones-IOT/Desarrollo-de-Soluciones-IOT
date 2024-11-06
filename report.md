@@ -29,9 +29,215 @@ Mes y año: Noviembre 2024
 Ciclo: 2024-2
 
 ## Registro de Versiones del Informe
-
+| Versión | Autor            | Fecha       | Descripción de la modificación                                             |
+|---|---|---|---|
+| 1.0.    | Elvia Arteaga     | 18/08/2024  | Initial commit                                                             |
+| 1.0.    | Elvia Arteaga     | 18/08/2024  | Create report.md                                                           |
+| 1.0.    | Elvia Arteaga     | 18/08/2024  | Add Lean UX Process                                                        |
+| 1.1.    | Jamutaq Ortega    | 20/08/2024  | add: user persona for segment 1                                            |
+| 1.1.    | Jamutaq Ortega    | 22/08/2024  | add: empathy map for seg 1                                                 |
+| 1.1.    | Max Sabino        | 23/08/2024  | add profile                                                                |
+| 1.1.    | Max Sabino        | 23/08/2024  | Update interview design                                                    |
+| 1.1.    | Max Sabino        | 23/08/2024  | Add interview design                                                       |
+| 1.1.    | Jamutaq Ortega    | 27/08/2024  | add: needfinding section with user personas                                |
+| 1.1.    | Jamutaq Ortega    | 31/08/2024  | chore: reorder chapters of report                                          |
+| 1.2.    | Gabriela Nomberto | 01/09/2024  | Antecedentes y Problematica                                                |
+| 1.2.    | Gabriela Nomberto | 02/09/2024  | Estructura tb1                                                             |
+| 1.2.    | Gabriela Nomberto | 02/09/2024  | Analisis competitivo                                                       |
+| 1.3.    | Elvia Arteaga     | 05/09/2024  | Update Lean UX                                                             |
+| 1.4.    | Max Sabino        | 07/09/2024  | product-backlog                                                            |
+| 1.4.    | Max Sabino        | 07/09/2024  | UserStories fixed                                                          |
+| 1.4.    | Max Sabino        | 07/09/2024  | UserStories                                                                |
+| 1.4.    | Max Sabino        | 07/09/2024  | tacticas-estrategias                                                       |
+| 1.4.    | Max Sabino        | 07/09/2024  | entrevista3                                                                |
+| 1.4.    | Max Sabino        | 07/09/2024  | fixed images                                                               |
+| 1.4.    | Max Sabino        | 07/09/2024  | moved-images                                                               |
+| 1.4.    | Max Sabino        | 07/09/2024  | event_storming                                                             |
+| 1.4.    | Elvia Arteaga     | 07/09/2024  | Update Lean UX Canvas directory                                            |
+| 1.4.    | Elvia Arteaga     | 07/09/2024  | fix compatibility issues                                                   |
+| 1.4.    | Elvia Arteaga     | 07/09/2024  | add interview 1 and file reorganization                                    |
+| 1.4.    | Jamutaq Ortega    | 07/09/2024  | add: interview 1                                                           |
+| 1.4.    | Jamutaq Ortega    | 07/09/2024  | add: team member profiles in report.md                                     |
+| 1.4.    | Gabriela Nomberto | 07/09/2024  | Ubiquitous                                                                 |
+| 1.4.    | Dennis Quevedo    | 07/09/2024  | Perfil Quevedito                                                           |
+| 1.4.    | Dennis Quevedo    | 07/09/2024  | Descipcion de Startup 1.1                                                  |
+| 1.4.    | Dennis Quevedo    | 07/09/2024  | Descipcion de Startup                                                      |
+| 1.5.    | Elvia Arteaga     | 08/09/2024  | Update outcomes                                                            |
+| 1.5.    | Gabriela Nomberto | 08/09/2024  | tb1 final version                                                          |
+| 1.5.    | Dennis Quevedo    | 08/09/2024  | Notification                                                               |
+| 1.5.    | Gabriela Nomberto | 08/09/2024  | fix                                                                        |
+| 1.5.    | Dennis Quevedo    | 08/09/2024  | Impact map                                                                 |
+| 1.5.    | Gabriela Nomberto | 08/09/2024  | termino del tb1                                                            |
+| 1.5.    | Gabriela Nomberto | 08/09/2024  | bc-event                                                                   |
+| 1.5.    | Gabriela Nomberto | 08/09/2024  | fixed                                                                      |
+| 1.5.    | Max Sabino        | 08/09/2024  | diagram-db-contextdevices                                                  |
+| 1.5.    | Gabriela Nomberto | 08/09/2024  | bounded context user                                                       |
+| 1.5.    | Gabriela Nomberto | 08/09/2024  | fixed                                                                      |
+| 1.5.    | Gabriela Nomberto | 08/09/2024  | deployment: Mobile and IoT Style Guidelines                                |
+| 1.5.    | Gabriela Nomberto | 08/09/2024  | diagram                                                                    |
+| 1.5.    | Elvia Arteaga     | 08/09/2024  | Add Bounded Context Areas                                                  |
+| 1.5.    | Max Sabino        | 08/09/2024  | devices-context-final                                                      |
+| 1.5.    | Max Sabino        | 08/09/2024  | devices2                                                                   |
+| 1.5.    | Max Sabino        | 08/09/2024  | devices-fixed                                                              |
+| 1.5.    | Max Sabino        | 08/09/2024  | devices-context2                                                           |
+| 1.5.    | Max Sabino        | 08/09/2024  | devices-context1                                                           |
+| 1.5.    | Max Sabino        | 08/09/2024  | devices                                                                    |
+| 1.5.    | Dennis Quevedo    | 08/09/2024  | user-persona-empresa                                                       |
+| 1.5.    | Max Sabino        | 08/09/2024  | devices-context                                                            |
+| 1.5.    | Jamutaq Ortega    | 08/09/2024  | add: subscriptions bounded context                                         |
+| 1.5.    | Gabriela Nomberto | 08/09/2024  | context level diagram                                                      |
+| 1.5.    | Max Sabino        | 08/09/2024  | context-mapping                                                            |
+| 1.5.    | Gabriela Nomberto | 08/09/2024  | system landscape diagram                                                   |
+| 1.5.    | Elvia Arteaga     | 08/09/2024  | Add To Be                                                                  |
+| 1.5.    | Max Sabino        | 08/09/2024  | flow-messages                                                              |
+| 1.5.    | Dennis Quevedo    | 08/09/2024  | segmentos objetivo                                                         |
+| 1.5.    | Gabriela Nomberto | 08/09/2024  | entrevista 4 y 5                                                           |
+| 1.5.    | Jamutaq Ortega    | 08/09/2024  | add: context mapping diagrams                                              |
+| 2.0.    | Gabriela Nomberto | 09/09/2024  | estructura tp                                                              |
+| 2.0.    | Gabriela Nomberto | 09/09/2024  | Update report.md                                                           |
+| 2.1.    | Elvia Arteaga     | 17/09/2024  | add: photo elvia                                                           |
+| 2.1.    | Elvia Arteaga     | 17/09/2024  | fix: lean ux process                                                       |
+| 2.1.    | Jamutaq Ortega    | 17/09/2024  | add: photo                                                                 |
+| 2.1.    | Max Sabino        | 17/09/2024  | add:profileMax                                                             |
+| 2.1.    | Gabriela Nomberto | 17/09/2024  | Capitulo-VI                                                                |
+| 2.1.    | Gabriela Nomberto | 17/09/2024  | Capitulo-V                                                                 |
+| 2.1.    | Gabriela Nomberto | 17/09/2024  | Capitulo-IV                                                                |
+| 2.1.    | Gabriela Nomberto | 17/09/2024  | fix                                                                        |
+| 2.1.    | Elvia Arteaga     | 17/09/2024  | Update team profile structure                                              |
+| 2.1.    | Gabriela Nomberto | 17/09/2024  | Capitulo-III                                                               |
+| 2.1.    | Elvia Arteaga     | 17/09/2024  | Update team profile structure                                              |
+| 2.1.    | Gabriela Nomberto | 17/09/2024  | Capitulo-II                                                                |
+| 2.1.    | Gabriela Nomberto | 17/09/2024  | student outcome                                                            |
+| 2.1.    | Gabriela Nomberto | 17/09/2024  | Capitulo-I                                                                 |
+| 2.2.    | Elvia Arteaga     | 18/09/2024  | fix: to be for both target segments                                        |
+| 2.2.    | Elvia Arteaga     | 18/09/2024  | add: to be for both target segments                                        |
+| 2.2.    | Elvia Arteaga     | 18/09/2024  | fix: interview 2                                                           |
+| 2.2.    | Elvia Arteaga     | 18/09/2024  | add: interview 2                                                           |
+| 2.2.    | Elvia Arteaga     | 18/09/2024  | add: interview 2                                                           |
+| 2.2.    | Jamutaq Ortega    | 19/09/2024  | feat: Add user interviews and personas                                     |
+| 2.2.    | Jamutaq Ortega    | 19/09/2024  | add: user journey mapping and empathy mapping for user personas            |
+| 2.2.    | Jamutaq Ortega    | 19/09/2024  | add: user personas and user task matrix                                    |
+| 2.2.    | Gabriela Nomberto | 20/09/2024  | add:photo-gaby                                                             |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024  | fix: enumeration                                                           |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024  | refactor: Add application layer for subscriptions context and refactor...  |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024  | add: application layer 4 subscriptions context                             |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024  | refactor: interface layer 4 Subscription & Payments context                |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024  | refactor: Subscription & Payments context                                  |
+| 2.3.    | Gabriela Nomberto | 21/09/2024  | fix:software architecture                                                  |
+| 2.3.    | Elvia Arteaga     | 21/09/2024  | add: organization systems & navigation systems                             |
+| 2.3.    | Elvia Arteaga     | 21/09/2024  | add: bounded contextx areas                                                |
+| 2.3.    | Gabriela Nomberto | 21/09/2024  | fix:competidores                                                           |
+| 2.3.    | Gabriela Nomberto | 21/09/2024  | fix: analisis competitivo                                                  |
+| 2.3.    | Gabriela Nomberto | 21/09/2024  | fix: antecedentes-problematica                                             |
+| 2.3.    | Gabriela Nomberto | 21/09/2024  | fix:solution-profile                                                       |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024  | add: context mappings                                                      |
+| 2.4.    | Gabriela Nomberto | 22/09/2024  | fix: bc User                                                               |
+| 2.4.    | Jamutaq Ortega    | 22/09/2024  | refactor: Update image reference in PlanController                         |
+| 2.4.    | Gabriela Nomberto | 22/09/2024  | fix: ubiquitous                                                            |
+| 2.4.    | Gabriela Nomberto | 23/09/2024  | fix:entrevista 4                                                           |
+| 2.4.    | Gabriela Nomberto | 23/09/2024  | fix:entrevistas 4 y 5                                                      |
+| 2.4.    | Gabriela Nomberto | 23/09/2024  | fix: Bounded Context Events                                                |
+| 2.4.    | Jamutaq Ortega    | 24/09/2024  | refactor: Update EventStorming diagrams and message flow diagrams          |
+| 2.4.    | Dennis Quevedo    | 24/09/2024  | fix:segmentos objetivo                                                     |
+| 2.4.    | Dennis Quevedo    | 24/09/2024  | Segmentos Objetivo Update 2                                                |
+| 2.4.    | Dennis Quevedo    | 24/09/2024  | Segmentos Objetivo Update                                                  |
+| 2.4.    | Dennis Quevedo    | 24/09/2024  | Segmentos Objetivo                                                         |
+| 2.5.    | Elvia Arteaga     | 27/09/2024  | Update report.md                                                           |
+| 2.5.    | Elvia Arteaga     | 27/09/2024  | Update report.md                                                           |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: outcome                                                               |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024  | add: s.o                                                                   |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add:sprint1                                                                |
+| 2.5.    | Elvia Arteaga     | 27/09/2024  | add: student outcomes                                                      |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024  | chore: remove p.                                                           |
+| 2.5.    | Max Sabino        | 27/09/2024  | add: outcome Max                                                           |
+| 2.5.    | Max Sabino        | 27/09/2024  | add: web mock up                                                           |
+| 2.5.    | Elvia Arteaga     | 27/09/2024  | add intro                                                                  |
+| 2.5.    | Elvia Arteaga     | 27/09/2024  | fix: structure                                                             |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024  | add: cap 6                                                                 |
+| 2.5.    | Elvia Arteaga     | 27/09/2024  | add: software development environment configuration                        |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | fix: image wireframe profile                                               |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | fix: user flow diagrams mobile                                             |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: user flow diagrams mobile                                             |
+| 2.5.    | Dennis Quevedo    | 27/09/2024  | fix:Mobile Application Wireflow                                            |
+| 2.5.    | Dennis Quevedo    | 27/09/2024  | fix:Mobile Application Wireflow                                            |
+| 2.5.    | Elvia Arteaga     | 27/09/2024  | add: c4 areas                                                              |
+| 2.5.    | Dennis Quevedo    | 27/09/2024  | add:Mobile Application Wireflow                                            |
+| 2.5.    | Max Sabino        | 27/09/2024  | add: webFrames                                                             |
+| 2.5.    | Max Sabino        | 27/09/2024  | add: wireframes web                                                        |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: software deployment configuration                                     |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: SEO Tags and Meta Tags                                                |
+| 2.5.    | Elvia Arteaga     | 27/09/2024  | add: intro to be                                                           |
+| 2.5.    | Dennis Quevedo    | 27/09/2024  | add:Labeling Systems                                                       |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: general style guidelines                                              |
+| 2.5.    | Dennis Quevedo    | 27/09/2024  | add:Web                                                                    |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: description style guidelines                                          |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: application mockup app movil                                          |
+| 2.5.    | Dennis Quevedo    | 27/09/2024  | fix:needfinding                                                            |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024  | refactor: Update Bounded Context Subscription & Payments component diagrams|
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: mobile applications wireframes                                        |
+| 2.5.    | Max Sabino        | 27/09/2024  | add: context devices 3.0                                                   |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: description applications ux/ui design                                 |
+| 2.5.    | Max Sabino        | 27/09/2024  | add: c4-devices                                                            |
+| 2.5.    | Max Sabino        | 27/09/2024  | add: update impact maping                                                  |
+| 2.5.    | Max Sabino        | 27/09/2024  | add: product backlog 2.0                                                   |
+| 2.5.    | Max Sabino        | 27/09/2024  | add: user stories update                                                   |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: Landing Page Mockup                                                   |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: Landing Page Wireframe                                                |
+| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: description Landing Page                                              |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024  | add: 6.1.3                                                                 |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024  | add: bc1 diagrams                                                          |
+| 2.5.    | Elvia Arteaga     | 28/09/2024  | Update README.md                                                           |
+| 2.5.    | Elvia Arteaga     | 28/09/2024  | Update report.md                                                           |
+| 2.5.    | Elvia Arteaga     | 28/09/2024  | Update report.md                                                           |
+| 2.5.    | Elvia Arteaga     | 28/09/2024  | Update report.md                                                           |
+| 3.0.    | Max Sabino        | 02/11/2024  | Update interview desing report.md                                          |
+| 3.0.    | Max Sabino        | 02/11/2024  | add interview desing report.md                                             |
+| 3.0.    | Max Sabino        | 02/11/2024  | add sprint 2 and sprint 3 report.md                                        |
+| 3.1.    | Max Sabino        | 02/11/2024  | Update user story and product backlog report.md                            |
+| 3.1.    | Dennis Quevedo    | 03/11/2024  | add: outcomes                                                              |
+| 3.1.    | Gabriela Nomberto | 03/11/2024  | add: about the product and the team                                        |
+| 3.1.    | Max Sabino        | 03/11/2024  | Update report.md                                                           |
+| 3.1.    | Elvia Arteaga     | 03/11/2024  | add image                                                                  |
+| 3.1.    | Elvia Arteaga     | 03/11/2024  | delete image                                                               |
+| 3.1.    | Dennis Quevedo    | 03/11/2024  | fix: sprint 3                                                              |
+| 3.1.    | Gabriela Nomberto | 03/11/2024  | add: spring 3                                                              |
+| 3.1.    | Elvia Arteaga     | 03/11/2024  | Student outcomes.md                                                        |
+| 3.1.    | Gabriela Nomberto | 03/11/2024  | add: conclusions                                                           |
+| 3.1.    | Max Sabino        | 03/11/2024  | Update report.md                                                           |
+| 3.1.    | Max Sabino        | 03/11/2024  | add: outcome max                                                           |
+| 3.1.    | Max Sabino        | 03/11/2024  | add picture trello                                                         |
+| 3.1.    | Max Sabino        | 03/11/2024  | add: update                                                                |
+| 3.1.    | Max Sabino        | 03/11/2024  | add testing and interview2                                                 |
+| 3.1.    | Max Sabino        | 03/11/2024  | Add sprint planing report.md                                               |
+| 3.1.    | Elvia Arteaga     | 03/11/2024  | add: validation interview 1                                                |
+| 3.1.    | Max Sabino        | 03/11/2024  | Add sprint planing report.md                                               |
+| 3.1.    | Max Sabino        | 03/11/2024  | add testing and interview2                                                 |
+| 3.1.    | Max Sabino        | 03/11/2024  | add: update                                                                |
+| 3.1.    | Max Sabino        | 03/11/2024  | add picture trello                                                         |
+| 3.1.    | Max Sabino        | 03/11/2024  | add: outcome max                                                           |
+| 3.1.    | Max Sabino        | 03/11/2024  | Update report.md                                                           |
+| 3.1.    | Gabriela Nomberto | 03/11/2024  | add: conclusions                                                           |
+| 3.1.    | Elvia Arteaga     | 03/11/2024  | Student outcomes.md                                                        |
+| 3.1.    | Gabriela Nomberto | 03/11/2024  | add: spring 3                                                              |
+| 3.1.    | Dennis Quevedo    | 03/11/2024  | fix: sprint 3                                                              |
+| 3.1.    | Elvia Arteaga     | 03/11/2024  | delete image                                                               |
+| 3.1.    | Elvia Arteaga     | 03/11/2024  | add image                                                                  |
+| 3.1.    | Max Sabino        | 03/11/2024  | Update report.md                                                           |
+| 3.1.    | Gabriela Nomberto | 03/11/2024  | add: about the product and the team                                        |
+| 3.1.    | Dennis Quevedo    | 03/11/2024  | add: outcomes                                                              |
 
 ## Project Report Collaboration Insights
+
+Enlace del Project Report: https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/Desarrollo-de-Soluciones-IOT/blob/main/report.md 
+
+**ENTREGA N°1: TB1**
+
+Para esta entrega, en conjunto creamos una organizacion en GitHub agregando así a cada miembro del equipo, adicionalmente creamos la primera estructura del reporte a entregar en el cuál junto al documento de statement seguimos las descripciones para poder tener una entrega exitosa.
+
+**ENTREGA N°1: TP**
+
+Para esta entrega, dentro de la organización creamos los repositorios para el desarrollo del landign page, backend y aplicación web. Asimismo, creamos nuestra presentación dónde mostramos las principales funcionalidades de nuestro trabajo quedando pendiente algunos arreglos 
+
 
 
 ## Contenido
