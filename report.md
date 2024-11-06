@@ -118,7 +118,8 @@ clasificando según criterios, tales como frecuencia, relevancia, etc.
 
    El primer paso consistió en realizar una exploración sin estructura para identificar posibles eventos en el dominio
    de FalconShield. Durante esta etapa, se analizaron criterios como la frecuencia y relevancia de eventos,
-   identificando una variedad de situaciones que los usuarios pueden experimentar, tales como "User registered", "Subscription purchased" y "Notification enabled"
+   identificando una variedad de situaciones que los usuarios pueden experimentar, tales como "User registered", "
+   Subscription purchased" y "Notification enabled"
 
    ![event](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-1.png)
 
@@ -163,7 +164,8 @@ Una vez identificados los eventos clave, se procedió a seguir los otros pasos p
 delimitados, que representan áreas de interés o responsabilidades dentro del sistema. Estos contextos se definen en
 función de la cohesión de los eventos y las reglas de negocio asociadas. Para descubrir los contextos candidatos,
 aplicamos una combinación de análisis de eventos clave y puntos de pivote dentro del EventStorm. Esto permitió una
-identificación estructurada de los Bounded Contexts al analizar aquellos eventos con mayor relevancia para el negocio (look-for-pivotal-events). Así, el equipo fue capaz de definir contextos delimitados en función de la cohesión de eventos
+identificación estructurada de los Bounded Contexts al analizar aquellos eventos con mayor relevancia para el negocio (
+look-for-pivotal-events). Así, el equipo fue capaz de definir contextos delimitados en función de la cohesión de eventos
 y reglas de negocio compartidas.
 
 1. **Sexto paso: Policies**
@@ -266,7 +268,8 @@ A continuación, se presentan ejemplos de los bounded contexts con los patrones 
 - **Events Management Context - Notification Management Context (Customer/Supplier)**: La relación entre estos dos
   bounded contexts sigue el patrón Customer/Supplier. El Events Management Context es el proveedor que genera eventos
   críticos como alertas de seguridad o cambios en el estado de los dispositivos IoT. El Notification Management Context,
-  como cliente, consume estos eventos y se encarga de enviar notificaciones al usuario a través de distintos canales (correo, SMS, etc.).
+  como cliente, consume estos eventos y se encarga de enviar notificaciones al usuario a través de distintos canales (
+  correo, SMS, etc.).
 
 - **IoT Asset Management Context - Software Update Context (Conformist)**: El IoT Asset Management Context, encargado de
   gestionar los dispositivos IoT, depende del Software Update Context para implementar actualizaciones y parches. En
@@ -800,7 +803,8 @@ Las clases de la Application Layer están diseñadas para cubrir los siguientes 
 
 #### Recomendaciones
 
-- Asegurar la implementación de pruebas unitarias para cada Command y Event Handler, validando que los flujos de negocio se ejecutan correctamente.
+- Asegurar la implementación de pruebas unitarias para cada Command y Event Handler, validando que los flujos de negocio
+  se ejecutan correctamente.
 - Documentar la integración con Stripe y cualquier servicio externo, detallando cómo cada handler interactúa con estos
   servicios.
 - Verificar que cada handler gestione adecuadamente los posibles errores para garantizar la robustez del sistema.
@@ -920,12 +924,17 @@ descompone cada contenedor en componentes específicos, explicando sus responsab
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases UML para el contexto delimitado de "Subscription & Payments" muestra las principales entidades y relaciones de la capa de dominio. Este diagrama incluye las clases `Customer`, `Subscription`, `Payment` e `Invoice`, junto con los objetos de valor `Money` y `Currency`, y otros elementos como enumeraciones y agregados que definen el comportamiento y estado de las suscripciones y pagos en el sistema. Además, el diagrama detalla los atributos, métodos y visibilidad (privado, público) de cada clase, cumpliendo con los criterios establecidos.
+El diagrama de clases UML para el contexto delimitado de "Subscription & Payments" muestra las principales entidades y
+relaciones de la capa de dominio. Este diagrama incluye las clases `Customer`, `Subscription`, `Payment` e `Invoice`,
+junto con los objetos de valor `Money` y `Currency`, y otros elementos como enumeraciones y agregados que definen el
+comportamiento y estado de las suscripciones y pagos en el sistema. Además, el diagrama detalla los atributos, métodos y
+visibilidad (privado, público) de cada clase, cumpliendo con los criterios establecidos.
 
 **Componentes principales:**
 
 - **Entities**:
-    - `Customer`: Representa a un cliente de la aplicación, contiene información como el nombre, correo electrónico e identificador de Stripe.
+    - `Customer`: Representa a un cliente de la aplicación, contiene información como el nombre, correo electrónico e
+      identificador de Stripe.
     - `Subscription`: Representa una suscripción de un cliente a un plan, incluye el estado y fechas de la suscripción.
     - `Payment`: Encapsula los detalles de un pago realizado por el cliente, como el monto y el estado.
     - `Invoice`: Representa una factura generada por un pago exitoso.
@@ -939,13 +948,17 @@ El diagrama de clases UML para el contexto delimitado de "Subscription & Payment
     - `PaymentStatus`: Enumera los estados posibles de un pago, incluyendo `SUCCEEDED` y `FAILED`.
 
 - **Aggregate**:
-    - `CustomerAggregate`: Encapsula la lógica de negocio y asegura la consistencia de las operaciones de los clientes y suscripciones.
+    - `CustomerAggregate`: Encapsula la lógica de negocio y asegura la consistencia de las operaciones de los clientes y
+      suscripciones.
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/class-diagram-subs.png)
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 
-El diseño de la base de datos para el contexto de "Subscription & Payments" incluye las entidades principales en forma de tablas relacionales y sus respectivas relaciones. El diagrama de la base de datos presenta los atributos, tipos de datos, claves primarias y foráneas, asegurando la integridad referencial entre las tablas. Esto permite una persistencia de los datos necesaria para soportar las operaciones relacionadas con las suscripciones y pagos.
+El diseño de la base de datos para el contexto de "Subscription & Payments" incluye las entidades principales en forma
+de tablas relacionales y sus respectivas relaciones. El diagrama de la base de datos presenta los atributos, tipos de
+datos, claves primarias y foráneas, asegurando la integridad referencial entre las tablas. Esto permite una persistencia
+de los datos necesaria para soportar las operaciones relacionadas con las suscripciones y pagos.
 
 **Descripción de Tablas Principales:**
 
@@ -954,8 +967,10 @@ El diseño de la base de datos para el contexto de "Subscription & Payments" inc
 - **payments**: Gestiona los pagos realizados por cada suscripción, con referencias a métodos de pago y estados.
 
 **Claves Primarias y Foráneas**:
+
 - Cada tabla incluye claves primarias (`PK`) para identificar de manera única cada registro.
-- Las relaciones entre las tablas están representadas mediante claves foráneas (`FK`) para asegurar la integridad referencial entre suscripciones, planes y pagos.
+- Las relaciones entre las tablas están representadas mediante claves foráneas (`FK`) para asegurar la integridad
+  referencial entre suscripciones, planes y pagos.
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/database-design-subs.png)
 
@@ -1275,7 +1290,8 @@ componentes y sus interacciones
 
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 
-En el diagrama de base de datos de usuario podemos ver la relación existente de las tablas dentro del bounded context "User". Aquí definimos la tabla usuario, en el cual almacenamos información importante del usuario para que pueda
+En el diagrama de base de datos de usuario podemos ver la relación existente de las tablas dentro del bounded context "
+User". Aquí definimos la tabla usuario, en el cual almacenamos información importante del usuario para que pueda
 registrarse en la aplicación que a su vez está relacionada con un rol de usuario el cual asigna los permisos al sistema
 dependiendo el rol que desempeñen dentro de nuestra aplicación dando conocer asi que un rol lo puede desempeñar varios
 usuarios, pero un usuario tiene un único rol. Los atributos los cuales manejamos incluyen identificadores unicos para
@@ -1390,7 +1406,8 @@ componentes y sus interacciones
 
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 
-En el diagrama de base de datos de usuario podemos ver la relación existente de las tablas dentro del bounded context "Event". Aquí definimos la tabla event, en el cual almacenamos información importante del evento o suceso que suceda en
+En el diagrama de base de datos de usuario podemos ver la relación existente de las tablas dentro del bounded context "
+Event". Aquí definimos la tabla event, en el cual almacenamos información importante del evento o suceso que suceda en
 el momento que pueda activarse una alarma, además esta está relacionado con un tipo de evento para una mejor gestión al
 momento de registrar el evento ocurrido. Los atributos los cuales manejamos incluyen identificadores unicos para cada
 entidad asi como detalles principales que debemos tener para la aplicación.
