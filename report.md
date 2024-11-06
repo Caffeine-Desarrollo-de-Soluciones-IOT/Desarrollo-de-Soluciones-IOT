@@ -100,6 +100,13 @@ Ciclo: 2024-2
 
 ## 4.1. Strategic-Level Domain-Driven Design
 
+En esta sección, presentamos el proceso realizado para las decisiones estratégicas de diseño aplicando Domain-Driven
+Design (DDD). Se decidió utilizar DDD debido a su capacidad para estructurar el sistema en dominios claramente
+definidos, lo que facilita el manejo de complejidades y promueve la alineación con los objetivos de negocio de
+FalconShield. A través de DDD, el equipo puede dividir el sistema en componentes manejables (Bounded Contexts), cada uno
+representando áreas críticas del negocio. Esto asegura que las funcionalidades clave se desarrollen de manera coherente
+y escalable.
+
 ### 4.1.1. EventStorming
 
 Es una técnica colaborativa que nos permite explorar a fondo el dominio de nuestra aplicación de FalconShield, para
@@ -109,76 +116,91 @@ clasificando según criterios, tales como frecuencia, relevancia, etc.
 
 1. **Primer paso: Unstructured Exploration**
 
-   Para este paso se analizaron diversas opiniones sobre los posibles eventos del dominio y se fue clasificando según
-   criterios, tales como frecuencia, relevancia, etc.
+   El primer paso consistió en realizar una exploración sin estructura para identificar posibles eventos en el dominio
+   de FalconShield. Durante esta etapa, se analizaron criterios como la frecuencia y relevancia de eventos,
+   identificando una variedad de situaciones que los usuarios pueden experimentar, tales como "User registered", "Subscription purchased" y "Notification enabled"
 
    ![event](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-1.png)
 
 2. **Segundo paso: Timelines**
 
-   En este paso se procedió a ordenar los eventos en una línea de tiempo, para poder visualizar mejor el flujo de los
-   eventos y las interacciones entre ellos.
+   Posteriormente, organizamos los eventos en una línea de tiempo para visualizar el flujo de interacciones y secuencias
+   entre eventos. Esta organización temporal facilita la comprensión de dependencias y secuencias críticas, permitiendo
+   un diseño más coherente.
 
    ![timeline](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-2.png)
 
 3. **Tercer paso: Pain Points**
 
-   En este paso se identificaron posibles cuellos de botella o problemas en el flujo de eventos, para poder abordarlos y
-   solucionarlos de manera efectiva.
+   En el tercer paso, identificamos "Pain Points" o cuellos de botella en el flujo de eventos. Por ejemplo, nos
+   cuestionamos sobre cómo verificar a nuevos usuarios y comparar precios de suscripciones. Estos puntos críticos nos
+   permitieron prever posibles problemas y diseñar soluciones adecuadas.
 
    ![pain](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-3.png)
 
 4. **Cuarto paso: Pivotal Points**
 
-   En este paso se identificaron puntos o eventos importantes que pueden ser cruciales para el funcionamiento del
-   sistema, y que deben ser considerados con especial atención.
+   Identificamos los "Pivotal Points" o eventos cruciales, tales como la configuración de sensores y la aceptación de
+   pagos. Estos puntos son esenciales para el flujo del sistema, y su correcta implementación asegura un funcionamiento
+   fluido.
 
    ![pivotal](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-4.png)
 
 5. **Quinto paso: Commands**
-   Aquí se identificaron los comandos que se pueden ejecutar en el sistema, y que generan eventos en el dominio.
+
+   Finalmente, definimos los comandos que los diferentes roles pueden ejecutar en el sistema. Roles como "Security User"
+   y "Admin" tienen permisos específicos, lo cual asegura que cada usuario tenga un acceso adecuado a sus funciones.
 
    ![commands](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-5.png)
+
+El proceso de EventStorming fue realizado con la herramienta Miro y tuvo una duración de aproximadamente 1.45 horas,
+alineándose con la recomendación de 1 a 2 horas. Durante este tiempo, el equipo exploró el dominio de FalconShield,
+identificando eventos clave, puntos de pivote, y comandos que guían la funcionalidad del sistema.
 
 #### 4.1.1.1 Candidate Context Discovery
 
 Una vez identificados los eventos clave, se procedió a seguir los otros pasos para finalmente agruparlos en contextos
 delimitados, que representan áreas de interés o responsabilidades dentro del sistema. Estos contextos se definen en
-función de la cohesión de los eventos y las reglas de negocio asociadas.
+función de la cohesión de los eventos y las reglas de negocio asociadas. Para descubrir los contextos candidatos,
+aplicamos una combinación de análisis de eventos clave y puntos de pivote dentro del EventStorm. Esto permitió una
+identificación estructurada de los Bounded Contexts al analizar aquellos eventos con mayor relevancia para el negocio (look-for-pivotal-events). Así, el equipo fue capaz de definir contextos delimitados en función de la cohesión de eventos
+y reglas de negocio compartidas.
 
 1. **Sexto paso: Policies**
 
-   En este paso se identificaron los eventos que deberían ser ejecutados de forma automática por el sistema, sin
-   intervención del usuario o si se requiere de alguna política de negocio para su ejecución.
+   Durante este paso, se establecieron políticas específicas, como "Payment Policies" y "Service Policies," para
+   gestionar la interacción entre diferentes componentes del sistema. Estas políticas ayudan a mantener la integridad
+   del sistema y minimizan riesgos operativos.
 
    ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-6.png)
 
 2. **Séptimo paso: Read Models**
 
-   En este paso se identificaron los eventos que generan información que debe ser almacenada y consultada
-   posteriormente, para poder visualizar el estado actual del sistema.
+   Se definieron modelos de lectura como "Device calibration" y "User Profile," que capturan el estado actual del
+   sistema. Estos modelos permiten a los usuarios consultar información actualizada, facilitando la toma de decisiones.
 
    ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-7.png)
 
 3. **Octavo paso: External Systems**
 
-   En este paso se identificaron los eventos que interactúan con sistemas externos, como APIs de terceros, bases de
-   datos, etc.
+   Identificamos sistemas externos que interactúan con nuestro sistema, como "Payment Gateway" y "Subscription Manager."
+   Estos sistemas son fundamentales para ciertas operaciones, y se han implementado mecanismos para gestionar las
+   dependencias.
 
    ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-8.png)
 
 4. **Noveno paso: Aggregates**
 
-   En este paso se identificaron los eventos que están relacionados entre sí y que pueden ser agrupados en un agregado,
-   para poder gestionarlos de forma coherente.
+   Los agregados, como "User Profile," "Devices Manager," y "Notification Manager," agrupan entidades relacionadas de
+   manera lógica, manteniendo la coherencia y modularidad del sistema.
 
    ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-9.png)
 
 5. **Décimo paso: Bounded Contexts**
 
-   En este paso se agruparon los eventos en contextos delimitados, que representan áreas de interés o responsabilidades
-   dentro del sistema. Estos contextos se definen en función de la cohesión de los eventos y las reglas de negocio
-   asociadas.
+   Finalmente, delimitamos los Bounded Contexts, incluyendo "Identity and Access Management," "Notification Management,"
+   y "Events Management." Cada contexto tiene responsabilidades específicas, lo que facilita el mantenimiento y la
+   alineación con los objetivos del negocio.
 
    ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-10.png)
 
@@ -206,7 +228,71 @@ continuación, se presentan los diagramas de flujo de mensajes para los contexto
 
 #### 4.1.1.3 Bounded Context Canvases
 
+En esta sección se detallan los bounded contexts siguiendo un proceso iterativo recomendado para el Bounded Context
+Canvas. A continuación se describe el proceso de diseño de cada contexto, incluyendo la definición del contexto, las
+reglas de negocio, el lenguaje ubicuo, y el análisis de capacidades.
+
+### Proceso de Diseño Iterativo
+
+1. **Context Overview Definition**: Se definieron los límites de cada contexto con base en las áreas funcionales
+   principales, asegurando que cada contexto mantuviera una cohesión en términos de propósito y función. Los contextos
+   incluyen **Events Management**, **Notification Management**, **IoT Asset Management**, **Software Update**, *
+   *Identity and Access Management**, **Subscription and Payment**.
+
+2. **Business Rules Distillation & Ubiquitous Language Capture**: Cada contexto fue documentado con las reglas de
+   negocio y el lenguaje ubicuo específico. Por ejemplo, en el contexto de **Notification Management**, se definieron
+   términos como "activación de notificación" y "confirmación de registro", mientras que en el contexto de *
+   *Subscription and Payment**, se capturaron términos como "procesamiento de pago" y "estado de suscripción".
+
+3. **Capability Analysis**: Se analizaron las capacidades requeridas de cada contexto, enfocándose en cómo cada uno
+   contribuye al sistema en su conjunto. Esto incluyó el análisis de **Notification Management** para enviar alertas a
+   los usuarios y **Events Management** para gestionar y centralizar eventos críticos.
+
+4. **Capability Layering (si aplica)**: No se aplicó una segmentación por capas en cada contexto, ya que la complejidad
+   de las interacciones no requería una subdivisión adicional en este caso.
+
+5. **Dependencies Capture**: Se identificaron las dependencias entre contextos. Por ejemplo, el contexto **Notification
+   Management** depende de **Events Management** para recibir los eventos a notificar, y **Software Update** depende de
+   **IoT Asset Management** para aplicar actualizaciones en los dispositivos.
+
+6. **Design Critique**: Se evaluaron las decisiones de diseño mediante sesiones de revisión en equipo, asegurando que
+   cada contexto fuera lo suficientemente autónomo y que las interdependencias estuvieran justificadas. Además, se
+   analizó si el diseño optimizaba la flexibilidad y mantenibilidad de la solución.
+
+### Ejemplos de Bounded Contexts
+
+A continuación, se presentan ejemplos de los bounded contexts con los patrones de relación entre ellos:
+
+- **Events Management Context - Notification Management Context (Customer/Supplier)**: La relación entre estos dos
+  bounded contexts sigue el patrón Customer/Supplier. El Events Management Context es el proveedor que genera eventos
+  críticos como alertas de seguridad o cambios en el estado de los dispositivos IoT. El Notification Management Context,
+  como cliente, consume estos eventos y se encarga de enviar notificaciones al usuario a través de distintos canales (correo, SMS, etc.).
+
+- **IoT Asset Management Context - Software Update Context (Conformist)**: El IoT Asset Management Context, encargado de
+  gestionar los dispositivos IoT, depende del Software Update Context para implementar actualizaciones y parches. En
+  este caso, el primero actúa como un Conformist, ya que debe adherirse a las reglas y servicios proporcionados por el
+  Software Update Context sin imponer sus propias reglas, asegurando que las actualizaciones se apliquen de manera
+  consistente.
+
+- **Security Shield Management System Context - Identity and Access Management Context (Shared Kernel)**: Ambos bounded
+  contexts comparten un núcleo común (Shared Kernel), ya que el Security Shield Management System necesita autenticar y
+  autorizar a los usuarios y dispositivos, lo cual está estrechamente ligado con las políticas y mecanismos del Identity
+  and Access Management Context. Debido a la naturaleza crítica de la seguridad, estas dos áreas deben compartir
+  información sensible y estar completamente sincronizadas en términos de datos y lógicas de negocio relacionadas con la
+  identidad.
+
+- **Subscription and Payment Context - Notification Management Context (Anti-Corruption Layer)**: La relación entre
+  estos dos bounded contexts se beneficia de un Anti-Corruption Layer para traducir y aislar los modelos de dominio. El
+  Subscription and Payment Context maneja información financiera y suscripciones, mientras que el Notification
+  Management Context envía alertas sobre el estado de las suscripciones o pagos. Para evitar que las complejidades del
+  modelo de pagos interfieran con la simplicidad del sistema de notificaciones, se utiliza una capa anticorrupción que
+  actúa como interfaz entre ambos contexts.
+
 ### 4.1.2. Context Mapping
+
+Para la elaboración de los context maps, se consideraron diferentes alternativas y se realizaron preguntas exploratorias
+para optimizar el diseño de la arquitectura. Este proceso incluyó analizar cómo cambiarían las relaciones y las
+responsabilidades si se modificaran las capacidades o se reestructuraran los bounded contexts.
 
 1. **Events Management Context - Notification Management Context (Customer/Supplier):**
    La relación entre estos dos bounded contexts sigue el patrón Customer/Supplier. El Events Management Context es el
@@ -231,7 +317,7 @@ continuación, se presentan los diagramas de flujo de mensajes para los contexto
    áreas deben compartir información sensible y estar completamente sincronizadas en términos de datos y lógicas de
    negocio relacionadas con la identidad.
 
-![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/412-3.jpg)
+   ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/412-3.jpg)
 
 4. **Subscription and Payment Context - Notification Management Context (Anti-Corruption Layer):**
    La relación entre estos dos bounded contexts se beneficia de un Anti-Corruption Layer para traducir y aislar los
@@ -240,23 +326,52 @@ continuación, se presentan los diagramas de flujo de mensajes para los contexto
    complejidades del modelo de pagos interfieran con la simplicidad del sistema de notificaciones, se utiliza una capa
    anticorrupción que actúa como interfaz entre ambos contexts.
 
-![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/412-4.jpg)
+   ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/412-4.jpg)
+
+### Análisis de Alternativas en Context Mapping
+
+- **Pregunta 1:** ¿Qué pasaría si movemos la capacidad de notificaciones al contexto de **Events Management**?
+    - **Respuesta:** Esto simplificaría el flujo de notificaciones, pero reduciría la flexibilidad de enviar alertas
+      personalizadas. Mantener **Notification Management** como un contexto separado asegura que las notificaciones sean
+      adaptables y personalizables sin afectar la lógica central de eventos.
+
+- **Pregunta 2:** ¿Qué pasaría si dividimos el **IoT Asset Management Context** en dos contextos: uno para gestión de
+  dispositivos y otro para actualizaciones?
+    - **Respuesta:** Dividir este contexto podría mejorar la especialización en cada área, pero también introduciría más
+      complejidad en la coordinación. Se decidió mantenerlo como un solo contexto para evitar interdependencias
+      innecesarias y facilitar la gestión centralizada de los dispositivos.
+
+- **Pregunta 3:** ¿Qué pasaría si duplicamos la funcionalidad de verificación de usuarios entre **Identity and Access
+  Management** y **Security Shield Management System**?
+    - **Respuesta:** La duplicación de esta funcionalidad podría reducir el tiempo de respuesta en cada contexto, pero
+      llevaría a una inconsistencia en la autenticación. Se optó por utilizar un núcleo compartido (Shared Kernel) para
+      asegurar que ambas áreas accedan a una única fuente de autenticación y autorización.
+
+Con base en el análisis, se implementaron los siguientes patrones de relación entre contextos:
+
+- **Customer/Supplier** entre **Events Management** y **Notification Management**.
+- **Conformist** entre **IoT Asset Management** y **Software Update**.
+- **Shared Kernel** entre **Security Shield Management System** e **Identity and Access Management**.
+- **Anti-Corruption Layer** entre **Subscription and Payment** y **Notification Management**.
 
 ### 4.1.3. Software Architecture
 
-En esta parte, mostraremos la representación de la Arquitectura de Software de la solución con base en los modelos C4
-para poder obtener una mejor visión de nuestro sistema
+Se presenta la representación de la Arquitectura de Software para la solución utilizando el modelo C4, el cual
+proporciona una visión clara de cómo se organiza y se comunica cada componente del sistema.
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-Este diagrama nos ofrece una visión más general de como es la interacción de los usuarios con los sistemas externos, nos
-permite comprender la conexión de los componentes para contribuir al funcionamiento general de las aplicaciones.
+El diagrama de landscape ofrece una visión general de cómo los usuarios interactúan con los sistemas externos. Este
+diagrama centraliza el sistema y lo rodea con los usuarios (como el **Property User** y el **Security User**) y sistemas
+externos (como **AWS SNS**) para dar una perspectiva completa de las interacciones.
 
 ![landscape](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/landscape%20diagram.jpg)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
-En este tipo de diagramas, se muestra como nuestro sistema interactúa con elementos externos.
+En este diagrama se muestra cómo el sistema interactúa con elementos externos. Los usuarios principales son *
+*Consumidores o Negocios**, quienes se conectan con la aplicación para gestionar la seguridad de sus inmuebles. La
+aplicación también se conecta con **AWS SNS** para el envío de notificaciones.
 
 ![contexto](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/contexto.jpg)
 
@@ -290,8 +405,9 @@ Finalmente, la API principal lo conectamos con nuestro servicio externo de mensa
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 
-Son representaciones gráficas que ilustran cómo se despliegan y ejecutan los componentes de software en la
-infraestructura de hardware o en un entorno de producción.
+El diagrama de despliegue ilustra cómo los componentes de software se distribuyen en el entorno de producción,
+incluyendo detalles de la infraestructura y la comunicación entre servicios. Cada componente, como la base de datos y
+las API, está desplegado en un entorno específico que garantiza la seguridad y escalabilidad del sistema.
 
 ![deployment](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deployment.jpg)
 
@@ -307,25 +423,24 @@ externos como Stripe. Asegura que las suscripciones y pagos se gestionen de mane
 una experiencia de servicio continua y sin interrupciones para los usuarios. A continuación, se detallan las clases
 identificadas en este contexto:
 
-1. Clase Customer
-    - Propósito: La clase Customer representa a un cliente en el sistema. Contiene la información esencial del cliente,
-      como su nombre y correo electrónico, y un identificador que enlaza con el sistema de Stripe para gestionar pagos y
-      suscripciones
-    - Atributos:
-        - `id: string` - Identificador único del cliente
-        - `name: String` - Nombre del cliente
-        - `email: String` - Correo electrónico del cliente
-        - `stripeCustomerId: String` - Identificador del cliente en el sistema de Stripe
-    - Métodos:
-        - `getCustomerDetails(): CustomerDetails` - Retorna los detalles básicos del cliente (nombre y correo
-          electrónico)
-        - `registerStripeCustomer(): void` - Registra al cliente en Stripe
-        - Relaciones:
-        - `1...n` con Subscription, ya que un cliente puede tener varias suscripciones activas.
+#### Clases Identificadas
+
+1. **Clase `Customer`**
+    - **Propósito:** Representa a un cliente del sistema.
+    - **Atributos:**
+        - `id: string` - Identificador único del cliente.
+        - `name: string` - Nombre del cliente.
+        - `email: string` - Correo electrónico del cliente.
+        - `stripeCustomerId: string` - Identificador del cliente en Stripe.
+    - **Métodos:**
+        - `getCustomerDetails(): CustomerDetails` - Retorna un objeto `CustomerDetails` con la información básica del
+          cliente.
+        - `registerCustomer(): void` - Registra al cliente en el sistema de pagos de Stripe.
+    - **Relaciones:** Relación `1...n` con `Subscription`, ya que un cliente puede tener múltiples suscripciones.
 
    ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customer-class.png)
 
-2. Clase Subscription
+2. **Clase `Subscription`**
     - Propósito: La clase Subscription gestiona las suscripciones de un cliente a un servicio específico. Mantiene los
       detalles esenciales, como el estado de la suscripción y las fechas de inicio y finalización. Los detalles más
       complejos de la suscripción son manejados por Stripe.
@@ -346,7 +461,7 @@ identificadas en este contexto:
 
    ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscription-class.png)
 
-3. Clase Payment
+3. **Clase `Payment`**
     - Propósito: Esta clase almacena la información de los pagos realizados por un cliente en relación con una
       suscripción. Aunque Stripe gestiona el procesamiento de pagos, esta clase registra información relevante
       localmente, como el estado y monto del pago.
@@ -358,14 +473,14 @@ identificadas en este contexto:
         - `status: string` - Estado actual del pago (ejm: SUCCEEDED, FAILED)
         - `stripePaymentId: string` - Identificador del pago en el sistema de Stripe
     - Métodos:
-        - `getPaymentDetails(): PaymentDetails` - Retorna los detalles del pago
+        - `getPaymentDetails(): PaymentDetails` - Proporciona información detallada del pago.
     - Relaciones:
         - `n...1` con Subscription, un pago pertenece a una suscripción.
         - `1...n` con Invoice, un pago puede tener varias facturas asociadas.
 
    ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/payment-class.png)
 
-4. Clase Invoice
+4. **Clase `Invoice`**
     - Propósito: Esta clase representa una factura generada por un pago. Aunque Stripe emite las facturas, esta clase
       localiza la información esencial de las mismas, como el monto total y la fecha de emisión.
     - Atributos:
@@ -374,7 +489,7 @@ identificadas en este contexto:
         - `totalAmount: double` - Monto total de la factura
         - `stripeInvoiceId: string` - Identificador de la factura en Stripe
     - Métodos:
-        - `getInvoiceDetails(): InvoiceDetails` - Retorna los detalles de la factura
+        - `getInvoiceDetails(): InvoiceDetails` - Proporciona detalles de la factura.
     - Relaciones:
         - `n...1` con Payment, una factura pertenece a un pago.
 
@@ -382,95 +497,215 @@ identificadas en este contexto:
 
 #### 4.2.1.1. Domain Layer
 
-- Clases Core de la aplicación:
-    - Entities:
-        1. Customer: Representa a un usuario de la aplicación móvil que se suscribe a servicios IoT de seguridad. Esta
-           entidad contiene la información básica del cliente y está relacionada con las suscripciones que tiene
-           activas.
-           ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customer-class-entity.png)
+En esta sección se presenta la capa de Dominio del contexto de **Suscripción y Pagos** dentro del sistema. La capa de
+Dominio es el núcleo de la aplicación, donde se representan las reglas de negocio y la lógica fundamental del sistema.
+En el contexto de **Suscripción y Pagos**, esta capa incluye Entidades, Objetos de Valor, Agregados y Servicios de
+Dominio que soportan los procesos de administración de suscripciones y procesamiento de pagos.
 
-        2. Subscription: Representa una suscripción de un cliente a un plan específico. Esta clase encapsula el estado y
-           los detalles relevantes de la suscripción, como su duración y la integración con Stripe.
-           ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscription-class-entity.png)
+## Clases Core de la Aplicación
 
-        3. Payment: Esta entidad representa un pago asociado a una suscripción, aunque Stripe procesa los pagos, esta
-           entidad almacena localmente la información esencial del pago.
-           ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/payment-class-entity.png)
+### Entities
 
-        4. Invoice: La entidad Invoice representa una factura generada por un pago hecho por Stripe, esta entidad
-           almacena localmente los detalles esenciales de la factura.
-           ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/invoice-class-entity.png)
+Las siguientes entidades representan los elementos fundamentales del contexto de **Suscripción y Pagos**:
 
-    - Value Objects:
-        1. SubscriptionPlan: Encapsula los detalles de un pago, como el monto, la moneda y la fecha de procesamiento.
-           Este objeto se utiliza para transmitir información de pago entre las capas de la aplicación.
+1. **Customer**
+    - **Propósito**: Representa a un usuario de la aplicación móvil que se suscribe a servicios IoT de seguridad.
+    - **Atributos**:
+        - `id: string` - Identificador único del cliente.
+        - `name: string` - Nombre del cliente.
+        - `email: string` - Correo electrónico del cliente.
+        - `stripeCustomerId: string` - Identificador del cliente en el sistema de Stripe.
+    - **Métodos**:
+        - `getCustomerDetails(): CustomerDetails` - Retorna los detalles básicos del cliente.
+        - `registerStripeCustomer(): void` - Registra al cliente en Stripe.
+    - **Relaciones**:
+        - `1...n` con **Subscription**, ya que un cliente puede tener varias suscripciones activas.
+          ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customer-class-entity.png)
 
-      ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionplan-class-vo.png)
+2. **Subscription**
+    - **Propósito**: Representa una suscripción de un cliente a un plan específico.
+    - **Atributos**:
+        - `id: string` - Identificador único de la suscripción.
+        - `status: SubscriptionStatus` - Estado actual de la suscripción.
+        - `startDate: Date` - Fecha de inicio de la suscripción.
+        - `endDate: Date` - Fecha de finalización de la suscripción.
+        - `stripeSubscriptionId: string` - Identificador de la suscripción en Stripe.
+    - **Métodos**:
+        - `getSubscriptionDetails(): SubscriptionDetails` - Retorna los detalles de la suscripción.
+        - `cancelSubscription(): void` - Cancela la suscripción.
+    - **Relaciones**:
+        - `n...1` con **Customer**.
+        - `1...n` con **Payment**.
+          ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscription-class-entity.png)
 
-        2. Money: Encapsula el concepto de dinero, incluyendo el monto y la moneda. Se utiliza en los pagos, planes de
-           suscripción y otros.
+3. **Payment**
+    - **Propósito**: Esta entidad representa un pago asociado a una suscripción, aunque Stripe procesa los pagos, esta
+      entidad almacena localmente la información esencial del pago.
+    - **Atributos**:
+        - `id: string` - Identificador único del pago.
+        - `amount: Money` - Monto del pago.
+        - `paymentDate: Date` - Fecha del pago.
+        - `status: PaymentStatus` - Estado del pago.
+        - `stripePaymentId: string` - Identificador del pago en Stripe.
+    - **Métodos**:
+        - `getPaymentDetails(): PaymentDetails` - Retorna los detalles del pago.
+    - **Relaciones**:
+        - `n...1` con **Subscription**.
+        - `1...n` con **Invoice**.
 
-      ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/money-class-vo.png)
+   ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/payment-class-entity.png)
 
-        3. Currency: Este enumerado define los códigos de moneda estándar que se utilizan en la aplicación. Se utiliza
-           para garantizar la consistencia en la representación de monedas en toda la aplicación.
+4. **Invoice**
+    - **Propósito**: Representa una factura generada por un pago.
+    - **Atributos**:
+        - `id: string` - Identificador único de la factura.
+        - `invoiceDate: Date` - Fecha de emisión de la factura.
+        - `totalAmount: Money` - Monto total de la factura.
+        - `stripeInvoiceId: string` - Identificador de la factura en Stripe.
+    - **Métodos**:
+        - `getInvoiceDetails(): InvoiceDetails` - Retorna los detalles de la factura.
+    - **Relaciones**:
+        - `n...1` con **Payment**.
 
-      ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/currency-enum.png)
+   ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/invoice-class-entity.png)
 
-        4. SubscriptionStatus: Este enumerado define los posibles estados de una suscripción, como activa, cancelada o
-           pendiente, se utiliza para controlar el ciclo de vida de las suscripciones.
+### Value Objects
 
-      ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionstatus-enum.png)
+Los siguientes objetos de valor encapsulan conceptos de negocio que se utilizan en varias clases de la aplicación:
 
-        5. PaymentStatus: Este enumerado define los estados posibles de un pago, como exitoso, fallido o pendiente. Se
-           utiliza para rastrear el estado de los pagos.
+1. **SubscriptionPlan**
+    - **Propósito**: Encapsula detalles de un plan de suscripción, como el nombre, el precio y la duración.
+    - **Atributos**:
+        - `name: string` - Nombre del plan.
+        - `price: Money` - Precio del plan.
+        - `durationInMonths: int` - Duración en meses.
+    - ![SubscriptionPlan Class](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionplan-class-vo.png)
 
-      ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/paymentstatus-enum.png)
+2. **Money**
+    - **Propósito**: Encapsula el concepto de dinero, incluyendo el monto y la moneda.
+    - **Atributos**:
+        - `amount: double` - Monto de dinero.
+        - `currency: Currency` - Moneda en la que se realiza el pago.
+    - ![Money Class](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/money-class-vo.png)
 
-    - Aggregates:
-        1. CustomerAggregate: Encapsula la lógica de negocio relacionada con los clientes y sus suscripciones. Esto
-           permite gestionar de manera coherente y transaccional las operaciones relacionadas con los clientes.
+3. **Currency (Enumeration)**
+    - **Propósito**: Define las monedas permitidas en la aplicación.
+    - **Valores**:
+        - `USD`, `PEN`, `EUR`
+    - ![Currency Enumeration](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/currency-enum.png)
 
-      ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customeraggregate.png)
+4. **SubscriptionStatus (Enumeration)**
+    - **Propósito**: Define los posibles estados de una suscripción.
+    - **Valores**:
+        - `ACTIVE`, `CANCELED`, `PAST_DUE`, `INCOMPLETE`, `UNPAID`
+    - ![SubscriptionStatus Enumeration](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionstatus-enum.png)
 
-    - Domain Services:
-        1. SubscriptionService: Este servicio contiene la lógica de negocio relacionada con la gestión de suscripciones,
-           como la creación, cancelación y renovación de suscripciones. Este servicio se encarga de coordinar las
-           operaciones de suscripción.
+5. **PaymentStatus (Enumeration)**
+    - **Propósito**: Define los posibles estados de un pago.
+    - **Valores**:
+        - `SUCCEEDED`, `FAILED`, `PENDING`, `CANCELED`
+    - ![PaymentStatus Enumeration](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/paymentstatus-enum.png)
 
-      ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionservice.png)
+### Aggregates
 
-- Reglas de negocio:
-    - Las suscripciones deben renovarse automáticamente a menos que se cancelen antes de la fecha de renovación.
-    - No se puede cancelar una suscripción con pagos pendientes.
-    - Los pagos deben procesarse de manera segura y reflejarse en el estado de la suscripción correspondiente.
-    - Los pagos fallidos deben ser gestionados adecuadamente para evitar interrupciones en el servicio.
-    - Las facturas deben generarse automáticamente después de cada pago exitoso.
-    - La información del cliente, como su correo electrónico, debe estar siempre actualizada en Stripe.
+El agregado **CustomerAggregate** encapsula la lógica de negocio relacionada con los clientes y sus suscripciones,
+permitiendo gestionar las operaciones de manera transaccional y coherente.
+
+1. **CustomerAggregate**
+    - **Propósito**: Coordina la lógica de negocio relacionada con los clientes, sus suscripciones y pagos.
+    - **Atributos**:
+        - `customerData: Customer` - Datos del cliente.
+        - `subscription: Subscription` - Datos de suscripción.
+    - **Métodos**:
+        - `getAccount()`
+        - `cancelSubscription()`
+        - `viewPayments()`
+        - `createCustomerPortal()`
+    - ![CustomerAggregate Class](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customeraggregate.png)
+
+### Domain Services
+
+El **SubscriptionService** contiene la lógica de negocio relacionada con la gestión de suscripciones, incluyendo la
+creación, cancelación y renovación de las mismas.
+
+1. **SubscriptionService**
+    - **Propósito**: Coordina las operaciones relacionadas con las suscripciones de manera eficiente.
+    - **Métodos**:
+        - `createSubscription()`
+        - `cancelSubscription()`
+        - `renewSubscription()`
+    - ![SubscriptionService](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionservice.png)
+
+## Reglas de Negocio
+
+Las reglas de negocio que gobiernan el comportamiento de las entidades y objetos en el contexto de **Suscripción y Pagos
+** son las siguientes:
+
+- **Renovación Automática**: Las suscripciones se renuevan automáticamente a menos que se cancelen antes de la fecha de
+  renovación.
+- **Cancelación de Suscripciones**: Una suscripción con pagos pendientes no puede ser cancelada.
+- **Procesamiento de Pagos**: Los pagos deben ser procesados de forma segura y reflejarse en el estado correspondiente
+  de la suscripción.
+- **Manejo de Pagos Fallidos**: Los pagos fallidos deben ser gestionados adecuadamente para evitar interrupciones en el
+  servicio.
+- **Generación de Facturas**: Las facturas deben generarse automáticamente después de cada pago exitoso.
+- **Actualización de Información del Cliente**: La información del cliente, como el correo electrónico, debe estar
+  siempre sincronizada con Stripe.
+
+Esta capa de dominio define claramente las entidades, objetos de valor, agregados y servicios que componen el núcleo de
+la aplicación. Cumple con los criterios de diseño, siguiendo los principios de Domain-Driven Design para representar de
+manera fiel las reglas y la lógica del dominio específico de **Suscripción y Pagos**.
 
 #### 4.2.1.2. Interface Layer
 
-En esta capa se presentan las clases que permiten la comunicación entre la capa de dominio y la capa de aplicación,
-manejando las solicitudes de los usuarios y devolviendo las respuestas adecuadas. Para el contexto de Subscription &
-Payments, se han identificado los siguientes controladores:
+En esta sección, se detallan las clases que forman parte de la capa de presentación o capa de interfaz para el contexto
+de "Subscription & Payments". Estas clases permiten la interacción entre los usuarios y el sistema, manejando las
+solicitudes HTTP y devolviendo respuestas adecuadas a través de controladores RESTful. Los controladores presentados se
+encargan de gestionar clientes, suscripciones y planes de suscripción, y están diseñados para interactuar con la capa de
+dominio de manera eficaz y segura.
 
-- CustomerController: expone las operaciones relacionadas con los clientes de la aplicación. Permite la creación,
+- **CustomerController**: expone las operaciones relacionadas con los clientes de la aplicación. Permite la creación,
   actualización y consulta de los clientes, así como la gestión de su relación con Stripe. Al crear un cliente, se
   genera un identificador (stripeCustomerId) que es guardado en la entidad local y se sincroniza con el sistema de
   Stripe.
--
+    - **Métodos**:
+        - `createCustomer(CreateCustomerDto request): ResponseEntity` - Crea un nuevo cliente en el sistema y lo
+          registra en Stripe.
+        - `getCustomer(String customerId): CustomerDto` - Recupera los detalles de un cliente específico.
+        - `updateCustomer(String customerId, UpdateCustomerDto req): ResponseEntity` - Actualiza la información de un
+          cliente en el sistema y en Stripe.
+        - `deleteCustomer(String customerId): ResponseEntity` - Elimina un cliente del sistema y de Stripe.
+
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customer-controller.png)
 
-- SubscriptionController: gestiona las operaciones relacionadas con las suscripciones de los clientes. Este controlador
+- **SubscriptionController**: gestiona las operaciones relacionadas con las suscripciones de los clientes. Este
+  controlador
   permite crear nuevas suscripciones, actualizar el estado de las mismas y cancelarlas, todo esto interactuando con los
   servicios de Stripe.
--
+    - **Métodos**:
+        - `createSubscription(String customerId, CreateSubscriptionDto request): SubscriptionDto` - Crea una nueva
+          suscripción para un cliente.
+        - `getSubscription(String customerId): List<SubscriptionDto>` - Recupera la lista de suscripciones activas de un
+          cliente.
+        - `cancelSubscription(String subscriptionId): ResponseEntity` - Cancela una suscripción específica.
+        - `renewSubscription(String customerId): ResponseEntity` - Renueva una suscripción para el cliente.
+
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscription-controller.png)
 
-- PlanController: gestiona los planes de suscripción disponibles en la aplicación. Los usuarios pueden consultar los
+- **PlanController**: gestiona los planes de suscripción disponibles en la aplicación. Los usuarios pueden consultar los
   planes disponibles, sus características y precios.
--
+    - **Métodos**:
+        - `getAvailablePlans(): List<PlanDto>` - Recupera una lista de todos los planes de suscripción disponibles.
+        - `getPlanDetails(String planId): PlanDto` - Muestra los detalles de un plan específico de suscripción.
+
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/plan-controller.png)
+
+### Conclusión
+
+Las clases de la capa de interfaz implementadas cumplen con el objetivo de manejar la comunicación entre la capa de
+presentación y la capa de dominio. Los controladores están diseñados para permitir la gestión eficiente y segura de los
+clientes, suscripciones y planes de suscripción, asegurando una interacción fluida y organizada entre el usuario final y
+el sistema.
 
 #### 4.2.1.3. Application Layer
 
@@ -480,54 +715,95 @@ los webhooks de Stripe) se manejen correctamente. Estos handlers permiten que el
 mantenga la consistencia entre las operaciones internas y los eventos externos. A continuación, se presentan los
 handlers y eventos identificados para este contexto:
 
-- Command Handlers:
-    1. CreateSubscriptionCommandHandler: Maneja el proceso de creación de una nueva suscripción para un cliente. Este
-       handler se encarga de validar los datos de entrada y crea la suscripción tanto en el sistema como en Stripe.
+#### Command Handlers:
 
-  ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/createsubscription-ch.png)
+1. **CreateSubscriptionCommandHandler**
+    - **Descripción**: Maneja el proceso de creación de una nueva suscripción para un cliente. Este handler se encarga
+      de validar los datos de entrada y crear la suscripción tanto en el sistema como en Stripe.
+    - **Atributos**:
+        - `subscriptionService: SubscriptionService` - Servicio para gestionar suscripciones.
+    - **Métodos**:
+        - `handle(CreateSubscriptionCommand command): SubscriptionDto` - Ejecuta la creación de suscripción.
+    - **Diagrama**:
 
-    2. ProcessPaymentCommandHandler: Se encarga de guardar el pago procesado por Stripe en la base de datos y mantener
-       la consistencia entre el estado del pago y la suscripción asociada.
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/createsubscription-ch.png)
 
-  ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/processpayment-ch.png)
+2. **ProcessPaymentCommandHandler**
+    - **Descripción**: Registra el pago procesado por Stripe en la base de datos y mantiene la consistencia entre el
+      estado del pago y la suscripción asociada.
+    - **Atributos**:
+        - `paymentService: PaymentService` - Servicio para procesar pagos.
+    - **Métodos**:
+        - `handle(ProcessPaymentCommand command): PaymentDto` - Procesa y guarda el pago.
+    - **Diagrama**:
+      ![ProcessPaymentCommandHandler](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/processpayment-ch.png)
 
-    3. CancelSubscriptionCommandHandler: Gestiona la cancelación de una suscripción existente. Este handler verifica si
-       la suscripción puede ser cancelada, actualiza su estado y notifica a Stripe para reflejar el cambio.
+3. **CancelSubscriptionCommandHandler**
+    - **Descripción**: Gestiona la cancelación de una suscripción existente, verificando si puede ser cancelada,
+      actualizando su estado y notificando a Stripe.
+    - **Atributos**:
+        - `subscriptionService: SubscriptionService` - Servicio para gestionar suscripciones.
+    - **Métodos**:
+        - `handle(CancelSubscriptionCommand command): void` - Ejecuta la cancelación de la suscripción.
+    - **Diagrama**:
+      ![CancelSubscriptionCommandHandler](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/cancelsubscription-ch.png)
 
-  ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/cancelsubscription-ch.png)
+#### Event Handlers
 
-- Event Handlers:
-    1. StripeWebhookEventHandler: Maneja los eventos provenientes de Stripe a través de webhooks. Se asegura de procesar
-       adecuadamente los eventos de facturación, pagos fallidos, renovaciones de suscripciones, etc.
+1. **StripeWebhookEventHandler**
+    - **Descripción**: Maneja los eventos provenientes de Stripe a través de webhooks. Asegura el procesamiento adecuado
+      de eventos de facturación, pagos fallidos, renovaciones de suscripciones, etc.
+    - **Atributos**:
+        - `subscriptionService: SubscriptionService` - Servicio para gestionar suscripciones.
+    - **Métodos**:
+        - `handle(StripeEvent event): void` - Procesa los eventos de Stripe.
+    - **Diagrama**:
+      ![StripeWebhookEventHandler](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/stripewebhook-eh.png)
 
-  ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/stripewebhook-eh.png)
+2. **SubscriptionExpiredEventHandler**
+    - **Descripción**: Reacciona cuando una suscripción llega a su fecha de finalización sin ser renovada, gestionando
+      la lógica de expiración, como notificación al cliente y desactivación de servicios.
+    - **Atributos**:
+        - `subscriptionService: SubscriptionService` - Servicio para gestionar suscripciones.
+    - **Métodos**:
+        - `handle(SubscriptionExpiredEvent event): void` - Ejecuta las acciones necesarias ante la expiración de la
+          suscripción.
+    - **Diagrama**:
+      ![SubscriptionExpiredEventHandler](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionexpired-eh.png)
 
-    2. SubscriptionExpiredEventHandler: Reacciona cuando una suscripción ha llegado a su fecha de finalización sin ser
-       renovada. Gestiona la lógica relacionada con la expiración, como la notificación al cliente y la desactivación de
-       servicios vinculados.
+3. **PaymentFailedEventHandler**
+    - **Descripción**: Reacciona a eventos de pagos fallidos, generados por el dominio o recibidos de Stripe,
+      notificando al cliente, reintentando el pago y, si es necesario, cancelando la suscripción.
+    - **Atributos**:
+        - `paymentService: PaymentService` - Servicio para gestionar pagos.
+    - **Métodos**:
+        - `handle(PaymentFailedEvent event): void` - Ejecuta la lógica ante el fallo de un pago.
+    - **Diagrama**:
+      ![PaymentFailedEventHandler](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/paymentfailed-eh.png)
 
-  ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionexpired-eh.png)
+#### Capabilities Cubiertos
 
-    3. PaymentFailedEventHandler: Este handler reacciona a eventos de pagos fallidos, ya sean generados por el dominio o
-       recibidos de Stripe. Se encarga de notificar al cliente, reintentar el pago y, si es necesario, cancelar la
-       suscripción.
+Las clases de la Application Layer están diseñadas para cubrir los siguientes capabilities del sistema:
 
-  ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/paymentfailed-eh.png)
+1. **Gestión de Suscripciones**: A través de los Command Handlers como `CreateSubscriptionCommandHandler` y
+   `CancelSubscriptionCommandHandler`, el sistema permite a los clientes gestionar sus suscripciones, incluyendo
+   creación, cancelación y renovación.
 
-- Capabilities Cubiertos:
+2. **Procesamiento de Pagos**: Mediante `ProcessPaymentCommandHandler` y event handlers como
+   `PaymentFailedEventHandler`, el sistema registra los pagos, integrándose con Stripe y gestionando pagos fallidos.
 
-  Las clases de la Application Layer están diseñadas para cubrir los siguientes capabilities del sistema:
+3. **Manejo de Eventos Externos (Stripe Webhooks)**: `StripeWebhookEventHandler` garantiza que el sistema reaccione
+   adecuadamente a eventos de Stripe, sincronizando estados de suscripciones y pagos entre la plataforma y el sistema.
 
-    1. Gestión de Suscripciones: A través de los Command Handlers como CreateSubscriptionCommandHandler y
-       CancelSubscriptionCommandHandler, el sistema permite a los clientes gestionar sus suscripciones, incluyendo su
-       creación, cancelación y renovación.
-    2. Procesamiento de Pagos: Mediante ProcessPaymentCommandHandler y event handlers como PaymentFailedEventHandler, el
-       sistema registra los pagos, incluyendo la integración con Stripe y manejo de pagos fallidos.
-    3. Manejo de Eventos Externos (Stripe Webhooks): StripeWebhookEventHandler garantiza que el sistema reaccione
-       correctamente a los eventos provenientes de Stripe, sincronizando los estados de suscripciones y pagos entre la
-       plataforma y el sistema.
-    4. Manejo de Expiración de Suscripciones: SubscriptionExpiredEventHandler asegura que, cuando una suscripción
-       expire, se tomen las acciones adecuadas, como notificar al cliente y desactivar servicios asociados.
+4. **Manejo de Expiración de Suscripciones**: `SubscriptionExpiredEventHandler` asegura que, cuando una suscripción
+   expire, se tomen las acciones necesarias, como notificar al cliente y desactivar servicios asociados.
+
+#### Recomendaciones
+
+- Asegurar la implementación de pruebas unitarias para cada Command y Event Handler, validando que los flujos de negocio se ejecutan correctamente.
+- Documentar la integración con Stripe y cualquier servicio externo, detallando cómo cada handler interactúa con estos
+  servicios.
+- Verificar que cada handler gestione adecuadamente los posibles errores para garantizar la robustez del sistema.
 
 #### 4.2.1.4. Infrastructure Layer
 
@@ -537,61 +813,149 @@ se implementan los Repositories definidos en la Domain Layer, que permiten la pe
 A continuación, se presentan las clases clave de esta capa, con una breve descripción de su función en el contexto del
 sistema:
 
-1. StripePaymentGateway: Es la clase encargada de la integración con el sistema de pagos de Stripe. Implementa las
+1. **StripePaymentGateway**: Es la clase encargada de la integración con el sistema de pagos de Stripe. Implementa las
    operaciones necesarias para gestionar pagos, suscripciones y facturación a través de la API de Stripe.
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/stripepaymentgateway.png)
 
-2. NotificationService: Se encarga de enviar notificaciones a los usuarios, ya sea por correo electrónico, SMS o
+2. **NotificationService**: Se encarga de enviar notificaciones a los usuarios, ya sea por correo electrónico, SMS o
    cualquier otro medio configurado. Es utilizada para notificar eventos importantes, como pagos fallidos, renovaciones
    de suscripción o vencimientos.
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/notificationservice.png)
 
-3. StripeWebhookService: Se encarga de procesar las notificaciones recibidas desde Stripe a través de webhooks. Esta
+3. **StripeWebhookService**: Se encarga de procesar las notificaciones recibidas desde Stripe a través de webhooks. Esta
    clase recibe los eventos de Stripe y los transforma en eventos internos del dominio que los Event Handlers procesan.
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/stripewebhookservice.png)
 
-4. PaymentRepository: Esta clase maneja las operaciones de almacenamiento y recuperación de información relacionada con
+4. **PaymentRepository**: Esta clase maneja las operaciones de almacenamiento y recuperación de información relacionada
+   con
    los pagos realizados por los clientes.
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/payment-repo.png)
 
-5. SubscriptionRepository: Esta clase se encarga de manejar las operaciones de persistencia de las suscripciones en la
+5. **SubscriptionRepository**: Esta clase se encarga de manejar las operaciones de persistencia de las suscripciones en
+   la
    base de datos.
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscription-repo.png)
 
-6. CustomerRepository: Se encarga de gestionar la persistencia de la información de los clientes, incluyendo la
+6. **CustomerRepository**: Se encarga de gestionar la persistencia de la información de los clientes, incluyendo la
    sincronización con el sistema de Stripe.
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customer-repo.png)
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-En el caso del Bounded Context Subscription & Payments, se ha identificado los siguientes componentes y sus
-interacciones:
+En esta sección, se presenta el diagrama de componentes para el Bounded Context **Subscription & Payments**, mostrando
+la estructura interna de los contenedores y sus interacciones principales. Este diagrama, creado siguiendo el modelo C4,
+descompone cada contenedor en componentes específicos, explicando sus responsabilidades y las tecnologías utilizadas.
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/c4-component-bc-subscriptions.png)
+
+##### Componentes Identificados
+
+1. **Single-Page Application**
+    - **Descripción**: Proporciona la interfaz web para los usuarios de la aplicación Falcon Shield. Permite la gestión
+      de suscripciones, pagos y acceso a las funcionalidades de seguridad.
+    - **Interacción**: Realiza llamadas API (JSON/HTTP) al backend para operar con los datos y gestionar las
+      suscripciones.
+
+2. **Mobile Application**
+    - **Descripción**: Interfaz móvil para Falcon Shield, diseñada para dispositivos Android y iOS. Ofrece
+      funcionalidades similares a la interfaz web, optimizadas para dispositivos móviles.
+    - **Interacción**: Comunica con el backend mediante llamadas API para sincronizar datos de suscripciones y pagos.
+
+3. **Subscription Controller**
+    - **Responsabilidad**: Exponer una interfaz para las operaciones de pago y suscripción, gestionando las
+      interacciones entre la aplicación y el sistema de pagos de Stripe.
+    - **Interacción**: Utiliza el **Stripe Payment Gateway** para la integración directa con Stripe y delega las
+      operaciones de almacenamiento al **Subscription Repository**.
+
+4. **Stripe Payment Gateway**
+    - **Responsabilidad**: Implementa la SDK de Stripe para la gestión de pagos y suscripciones. Encargado de conectar y
+      gestionar la comunicación con la API de Stripe.
+    - **Interacción**: Procesa los pagos y envía eventos de notificación a **Stripe Webhook Service** para mantener el
+      sistema sincronizado.
+
+5. **Stripe Webhook Service**
+    - **Responsabilidad**: Gestiona los eventos de Stripe recibidos a través de webhooks, como pagos exitosos o
+      fallidos, y envía actualizaciones al sistema interno.
+    - **Interacción**: Utiliza el **Subscription Service** para actualizar el estado de las suscripciones basándose en
+      los eventos de Stripe.
+
+6. **Subscription Service**
+    - **Responsabilidad**: Administrar el estado y la persistencia de las suscripciones en el sistema, incluyendo la
+      creación, cancelación y actualización de suscripciones.
+    - **Interacción**: Depende de **Subscription Repository** para realizar operaciones de almacenamiento en la base de
+      datos.
+
+7. **Subscription Repository**
+    - **Responsabilidad**: Manejar las operaciones de almacenamiento de suscripciones, garantizando la persistencia de
+      los datos en la base de datos PostgreSQL.
+    - **Interacción**: Realiza operaciones de lectura/escritura en el contenedor **Database**.
+
+8. **Payment Repository**
+    - **Responsabilidad**: Gestionar la persistencia y recuperación de la información de pagos realizados por los
+      clientes.
+    - **Interacción**: Interactúa con el **Database** para almacenar y acceder a los datos de pagos, asegurando
+      consistencia en el estado de los pagos.
+
+9. **Database**
+    - **Descripción**: Almacena todas las operaciones relacionadas con suscripciones y pagos, proporcionando un
+      repositorio confiable y persistente de datos.
+    - **Interacción**: Es accedido por los componentes **Subscription Repository** y **Payment Repository** para la
+      lectura/escritura de datos.
+
+#### Tecnologías y Detalles de Implementación
+
+- **Backend**: Implementado en Spring Service, que facilita la integración con Stripe y permite la organización
+  estructural de componentes.
+- **Base de Datos**: PostgreSQL, elegido por su robustez y soporte para operaciones complejas de transacción.
+- **Frontends**: Angular y Flutter para proporcionar aplicaciones web y móviles de alto rendimiento y accesibles para el
+  usuario.
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama UML del bounded context Subscription & Payments muestra las clases y sus relaciones en la capa de dominio.
-Las entidades principales, como Customer, Subscription, Payment e Invoice, se relacionan entre sí para representar la
-lógica de negocio del contexto. Además, se incluyen los Value Objects y Aggregates que encapsulan la información y la
-lógica de negocio relacionada con las suscripciones y pagos.
+El diagrama de clases UML para el contexto delimitado de "Subscription & Payments" muestra las principales entidades y relaciones de la capa de dominio. Este diagrama incluye las clases `Customer`, `Subscription`, `Payment` e `Invoice`, junto con los objetos de valor `Money` y `Currency`, y otros elementos como enumeraciones y agregados que definen el comportamiento y estado de las suscripciones y pagos en el sistema. Además, el diagrama detalla los atributos, métodos y visibilidad (privado, público) de cada clase, cumpliendo con los criterios establecidos.
+
+**Componentes principales:**
+
+- **Entities**:
+    - `Customer`: Representa a un cliente de la aplicación, contiene información como el nombre, correo electrónico e identificador de Stripe.
+    - `Subscription`: Representa una suscripción de un cliente a un plan, incluye el estado y fechas de la suscripción.
+    - `Payment`: Encapsula los detalles de un pago realizado por el cliente, como el monto y el estado.
+    - `Invoice`: Representa una factura generada por un pago exitoso.
+
+- **Value Objects**:
+    - `Money`: Maneja el concepto de dinero en diferentes monedas.
+    - `Currency`: Enumera las monedas soportadas.
+
+- **Enumerations**:
+    - `SubscriptionStatus`: Define los posibles estados de una suscripción, como `ACTIVE` y `CANCELED`.
+    - `PaymentStatus`: Enumera los estados posibles de un pago, incluyendo `SUCCEEDED` y `FAILED`.
+
+- **Aggregate**:
+    - `CustomerAggregate`: Encapsula la lógica de negocio y asegura la consistencia de las operaciones de los clientes y suscripciones.
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/class-diagram-subs.png)
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 
-El diseño de la base de datos para el contexto Subscription & Payments refleja la estructura de las entidades y sus
-relaciones. Cada tabla representa una entidad del dominio, con sus atributos y claves primarias y foráneas. La base de
-datos se ha diseñado para garantizar la integridad de los datos y soportar las operaciones de gestión de suscripciones y
-pagos.
+El diseño de la base de datos para el contexto de "Subscription & Payments" incluye las entidades principales en forma de tablas relacionales y sus respectivas relaciones. El diagrama de la base de datos presenta los atributos, tipos de datos, claves primarias y foráneas, asegurando la integridad referencial entre las tablas. Esto permite una persistencia de los datos necesaria para soportar las operaciones relacionadas con las suscripciones y pagos.
+
+**Descripción de Tablas Principales:**
+
+- **subscription_plans**: Contiene los planes de suscripción con sus características únicas.
+- **subscriptions**: Almacena información de las suscripciones activas, incluyendo referencias a los clientes y planes.
+- **payments**: Gestiona los pagos realizados por cada suscripción, con referencias a métodos de pago y estados.
+
+**Claves Primarias y Foráneas**:
+- Cada tabla incluye claves primarias (`PK`) para identificar de manera única cada registro.
+- Las relaciones entre las tablas están representadas mediante claves foráneas (`FK`) para asegurar la integridad referencial entre suscripciones, planes y pagos.
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/database-design-subs.png)
 
