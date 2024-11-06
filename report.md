@@ -110,7 +110,7 @@ Elegimos el nombre en inglés para que sea comercialmente atractivo a nivel glob
 
 A continuación, presentaremos nuestro logo: 
 
-![logo](src/images/logo1.jpg)
+![logo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/logo1.jpg)
 
 **Typography**
 
@@ -118,15 +118,15 @@ La tipografía debe ser clara y fácilmente legible, reflejando profesionalismo 
 
 * **Fuente primaria:** Lato o Open Sans son excelentes opciones para reflejar tecnología avanzada y claridad. Son fuentes sans-serif modernas y versátiles.
 
-![lato](src/images/lato.png)
-![open sans](src/images/open%20sans.png)
+![lato](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/lato.png)
+![open sans](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/open%20sans.png)
 
 * **Jerarquía de texto:**
-* 
+  
   * **Títulos y encabezados:** Deben estar en negrita y ser grandes para capturar la atención. Tamaños sugeridos: 24px para el encabezado principal, 20px para subtítulos.
   * **Cuerpo del texto:** Para mejorar la legibilidad en dispositivos móviles y de escritorio, el tamaño sugerido es entre 16px-18px.
 Botones y CTA (Call to Action): El texto debe ser claro y conciso, con tamaños de entre 14px-16px.
-    ![tipografia](src/images/Typpgraphy.png)
+    ![tipografia](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Typpgraphy.png)
 
 
 **Colors**
@@ -141,25 +141,25 @@ El verde es el color primario de nuestra marca, seleccionado para reflejar vario
 * **Tecnología avanzada:** También representa crecimiento y evolución, lo que refuerza el enfoque innovador de FalconShield en la utilización de tecnología IoT avanzada.
 * **Sostenibilidad y modernidad:** El verde es un color que conecta con la idea de un futuro más seguro y sostenible, lo que encaja con nuestra visión de integrar soluciones que sean accesibles para todos.
 
-![src](src/images/verde.jpg)
+![src](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/verde.jpg)
 
 **Color Secundario: Azul Marino**
 
 El azul marino es el color secundario de la marca, elegido por sus asociaciones con profesionalismo, tecnología avanzada y tranquilidad. El azul marino complementa al verde oscuro y agrega una capa de sofisticación y profundidad visual. Es ideal para utilizar en elementos como los fondos de secciones, textos secundarios y detalles gráficos.
 
-![azul](src/images/azul.jpg)
+![azul](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/azul.jpg)
 
 **Color de estado: Error - Rojo**
 
 Utilizamos el color rojo ya que siempre han estado como el error de algún proceso. Así que usaremos este color en caso el usuario realice una actividad errónea
 
-![rojo](src/images/rojo.jpg)
+![rojo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/rojo.jpg)
 
 **Colores Neutros: Gris Claro y Blanco**
 
 Para equilibrar los colores primarios y secundarios, utilizamos el gris claro y el blanco como colores neutros. Estos colores ayudan a proporcionar claridad y simplicidad, lo que es esencial en una plataforma de seguridad donde la información debe ser clara y directa.
 
-![gris](src/images/gris.jpg)
+![gris](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/gris.jpg)
 
 **Spacing**
 
@@ -168,7 +168,7 @@ El espaciado es crucial para mejorar la experiencia del usuario y mantener un di
 * **Margen y relleno:** Mantén un margen consistente entre secciones principales (al menos 80px en desktop y 40px en móvil) para que el contenido no se vea apretado. Esto facilita la escaneabilidad de la página.
 * **Espaciado entre elementos:** Usa un espaciado generoso entre los elementos de cada sección, por ejemplo, entre un título y un bloque de texto (al menos 20px en desktop, 15px en móvil) y entre tarjetas o bloques de información como los planes de suscripción.
   
-![spacing](src/images/spaccing.png)
+![spacing](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/spaccing.png)
 
 **Tono de Comunicación y Lenguaje**
 Dado que el producto se dirige tanto a usuarios residenciales como a empresas de seguridad, el tono debe ser serio, profesional, y confiable, pero también accesible. Aquí te dejo una guía del tono:
@@ -204,7 +204,7 @@ Utilizaremos el patrón Z, ya que este patrón guía naturalmente la vista del u
 #### **Interacciones y Feedback**
 - Los botones y formularios proporcionarán un feedback visual claro mediante cambios de color o animaciones sutiles, de modo que el usuario sepa que su acción fue reconocida.
 - **Microinteracciones** como notificaciones emergentes se mostrarán cuando se detecten eventos importantes, como alertas de seguridad.
-![web-guidelines](src/images/web-guidelines.png)
+![web-guidelines](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/web-guidelines.png)
 
 ### **Mobile Application**
 La app móvil se diseñará para ofrecer a los usuarios la capacidad de gestionar y monitorear sus sistemas de seguridad de manera eficiente desde cualquier lugar, con un enfoque en la accesibilidad y facilidad de uso en pantallas más pequeñas.
@@ -220,7 +220,7 @@ El diseño de la app seguirá el patrón Z para guiar intuitivamente la atenció
 #### **Interacciones**
 - Los gestos de deslizamiento permitirán a los usuarios navegar entre cámaras y alertas con facilidad.
 - Botones flotantes estarán presentes para activar o desactivar funciones clave como alarmas o tomar capturas rápidas desde las cámaras.
-![web-guidelines](src/images/patron-z.png)
+![web-guidelines](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/patron-z.png)
 
 ### **IoT Device**
 Los dispositivos IoT, como las cámaras y sensores, son fundamentales para la experiencia del usuario. Las interfaces de estos dispositivos deben ser claras, minimalistas y fácilmente accesibles tanto para profesionales como para usuarios novatos.
@@ -237,7 +237,7 @@ Los dispositivos IoT, como las cámaras y sensores, son fundamentales para la ex
 
 #### **Color**
 - Los colores seguirán un esquema similar a las interfaces web y móvil, con colores brillantes para alertas importantes (rojo, amarillo).
-![web-guidelines](src/images/iot-devices.png)
+![web-guidelines](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/iot-devices.png)
 
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems
@@ -389,43 +389,43 @@ Como encabezado tendremos nuestro nombre y logo de la Empresa, así como Call to
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/1.%20web%20.jpg) | ![primera parte mov](src/images/1.%20app.jpg) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/1.%20web%20.jpg) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/1.%20app.jpg) |
 
 Luego, ponemos nuestras soluciones que tenemos que son las cámaras de seguridad, sensores y alarmas. Aquí explicaremos brevemente las soluciones que brindamos al usuario.
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/2.web.jpg) | ![primera parte mov](src/images/2.app.jpg) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/2.web.jpg) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/2.app.jpg) |
 
 Seguidamente, presentamos nuestros planes en este caso solo tendremos 3; el básico, el premium y el gold que le ofrecemos al usuario y asimismo a un precio cómodo.
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/3.web.jpg) | ![primera parte mov](src/images/3.app.jpg) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/3.web.jpg) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/3.app.jpg) |
 
 Luego, tenemos nustra sección en donde presentamos el equipo de trabajo, aquí se pondrá una fotografía de cada uno esto nos ayudará a generar confianza con nuestros nuevos usuarios o con los usuarios que ya tenemos.
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/4.web.jpg) | ![primera parte mov](src/images/4.app.jpg) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/4.web.jpg) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/4.app.jpg) |
 
 Asimismo, tendremos una sección con los comentarios de los usuarios y además para lo que es el Landing Page Web una sección adicional en donde encontrarán nuestro App Móvil
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/5.web.jpg) | ![primera parte mov](src/images/5.app.jpg) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/5.web.jpg) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/5.app.jpg) |
 
 Por último tendremos nuestra sección donde hablamos más sobre la aplicación mediante un video y nuestro footer.
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/6.web.jpg) | ![primera parte mov](src/images/6.app.jpg) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/6.web.jpg) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/6.app.jpg) |
 
 Luego de explicar cada sección, mostramos nuestros wireframe completo tanto para la parte del escritorio como para el mobile.
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/LandingPageWebWireframe.png) | ![primera parte mov](src/images/LandingPagemobileWireframe.png) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/LandingPageWebWireframe.png) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/LandingPagemobileWireframe.png) |
 
 ### 5.3.2. Landing Page Mock-up
 
@@ -438,43 +438,43 @@ Como encabezado tendremos nuestro nombre y logo de la Empresa, así como Call to
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/web1.jpg) | ![primera parte mov](src/images/app1.jpg) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/web1.jpg) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/app1.jpg) |
 
 Luego, ponemos nuestras soluciones que tenemos que son las cámaras de seguridad, sensores y alarmas. Aquí explicaremos con una descripción corta las soluciones que brindamos al usuario.
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/web2.jpg) | ![primera parte mov](src/images/app2.jpg) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/web2.jpg) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/app2.jpg) |
 
 Seguidamente, presentamos nuestros planes en este caso solo tendremos 3; el básico, el premium y el gold que le ofrecemos al usuario y asimismo a un precio cómodo.
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/web3.jpg) | ![primera parte mov](src/images/app3.jpg) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/web3.jpg) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/app3.jpg) |
 
 Luego, tenemos nustra sección en donde presentamos el equipo de trabajo, aquí se pondrá una fotografía de cada uno esto nos ayudará a generar confianza con nuestros nuevos usuarios o con los usuarios que ya tenemos.
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/web4.jpg) | ![primera parte mov](src/images/app4.jpg) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/web4.jpg) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/app4.jpg) |
 
 Asimismo, tendremos una sección con los comentarios de los usuarios y además para lo que es el Landing Page Web una sección adicional en donde encontrarán nuestro App Móvil
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/web5.jpg) | ![primera parte mov](src/images/app5.jpg) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/web5.jpg) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/app5.jpg) |
 
 Por último tendremos nuestra sección donde hablamos más sobre la aplicación mediante un video y nuestro footer.
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/web6.jpg) | ![primera parte mov](src/images/app6.jpg) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/web6.jpg) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/app6.jpg) |
 
 Luego de explicar cada sección, mostramos nuestros wireframe completo tanto para la parte del escritorio como para el mobile.
 
 | Wireframe para Desktop | Wireframe para Mobile |
 | -- |-- |
-| ![primera parte web](src/images/LandingPageWebMockup.png) | ![primera parte mov](src/images/LandingPagemobileMockup.png) |
+| ![primera parte web](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/LandingPageWebMockup.png) | ![primera parte mov](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/LandingPagemobileMockup.png) |
 
 ## 5.4. Applications UX/UI Design
 
@@ -488,26 +488,26 @@ Se presenta el diseño visual y de interacción en formato de wireframes de nues
 
 Tenemos las pantallas generales que vendrían a ser el inicio sesión y registro.
 
-![alt text](src/images/webFrame.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/webFrame.png)
 Iniciar sesión: En esta pantalla le mostramos al usuario los campos a llenar para ingresas con su cuenta en nuestra plataforma,
 
-![alt text](src/images/webFrame1.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/webFrame1.png)
 
 Registrar cuenta: En esta pantalla le mostramos al usuario los campos a llenar para crearse una cuenta en nuestra plataforma. Se usaron elementos como formas, textos y colores.
 
-![alt text](src/images/webFrame2.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/webFrame2.png)
 
 Mis dispositivos: En esta parte el usuario podra visualizar los dispositivos asociados a su cuenta.
 
-![alt text](src/images/webFrame3.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/webFrame3.png)
 
 Dashboard: En esta pantalla se mostrará un resumen de los eventos de todos los dispositivos de manera grafica.
 
-![alt text](src/images/webFrame4.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/webFrame4.png)
 
 Asistencia: En esta parte el usuario podra contarse para recibir una asistencia tecnica cuando lo requiera.
 
-![alt text](src/images/webFrame5.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/webFrame5.png)
 
 Eventos: En esta pantalla el usuario visualiza los eventos registrados por los dispositivos.
 
@@ -519,60 +519,60 @@ Tenemos nuestras pantallas generales como el inicio de sesión y el registro del
 
 | Wireframe | Descripción |
 |-- | -- |
-|![inicio de sesion app movil](src/images/inicioapp.png) | **Inicio de Sesión:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para que ingrese a nuestra aplicación. |
-| ![inicio exitoso app movil](src/images/inicioexapp.png) | **Inicio de sesión exitoso:**  En esta pantalla le mostramos al usuario que pudo acceder de forma exitosa dado que ingreso correctamente sus credenciales. |
-| ![registro de usuario](src/images/registerapp.png) | **Registrar una cuenta:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para poder crearse una cuenta. |
-| ![registro exitoso](src/images/registerexitapp.png) | **Registro exitoso:** En esta pantalla le mostramos al usuario que pudo crear correctamente su nueva cuenta. |
+|![inicio de sesion app movil](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/inicioapp.png) | **Inicio de Sesión:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para que ingrese a nuestra aplicación. |
+| ![inicio exitoso app movil](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/inicioexapp.png) | **Inicio de sesión exitoso:**  En esta pantalla le mostramos al usuario que pudo acceder de forma exitosa dado que ingreso correctamente sus credenciales. |
+| ![registro de usuario](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/registerapp.png) | **Registrar una cuenta:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para poder crearse una cuenta. |
+| ![registro exitoso](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/registerexitapp.png) | **Registro exitoso:** En esta pantalla le mostramos al usuario que pudo crear correctamente su nueva cuenta. |
 
 Asimismo contamos dentro de la aplicación con la pantalla principal Home:
 
 | Wireframe | Descripción |
 | -- | -- |
-| ![pantalla inicial app](src/images/Home%20Screenapp.png) | **Pantalla de Incio:** En esta pantalla le mostramos al usuario sus dispositivos que ha solicitado asimismo en que ambientes se han instalado. Tener en cuenta que esta pantalla sera de tipo scroll. |
+| ![pantalla inicial app](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Home%20Screenapp.png) | **Pantalla de Incio:** En esta pantalla le mostramos al usuario sus dispositivos que ha solicitado asimismo en que ambientes se han instalado. Tener en cuenta que esta pantalla sera de tipo scroll. |
 
 Tenemos tambiens nuestra pantalla donde el usuario podrá ver su información personal.
 | Wireframe | Descripción |
 | -- | -- |
-| ![profile](src/images/Profile.png) | **Perfil del usuario:** En esta pantalla el usuario podrá ver su información asi como otras funciones adicionales. |
+| ![profile](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Profile.png) | **Perfil del usuario:** En esta pantalla el usuario podrá ver su información asi como otras funciones adicionales. |
 
 Tenemos tambien nuestras pantallas para que el usuario agregue los dispositivos luego de ser instalados.
 
 | Wireframe | Descripción |
 | -- | -- |
-| ![pantalla inicial de dispositivos](src/images/ADD%20DEVICE.png) | **Pantalla principal de los Dispositivos:** En esta pantalla le presentaremos al usuario los dispositivos adquiridos, asi como un boton que puede agregar luego de obtener más|
-| ![seleccion de conexion](src/images/AD%203.png) | **Selección tipo de conexión con el dispositivo nuevo:** En esta pantalla el usuario podrá elegir el tipo de conexión con su nuevo dispositivo en este caso Bluetooth |
-| ![tipo de nuevo dispositivo](src/images/AD%204.png) | **Selección del nuevo dispositivo:** En esta pantalla el usuario podrá seleccionar el nuevo dispositivo adquirido para poder agregarlo. |
-| ![seleccion de ambiente](src/images/AD%205.png) | **Selección de ambiente:** En esta pantalla el usuario podrá elegir en que ambiente de su inmueble fue colocado el nuevo dispositivo |
-| ![nombre de dispositivo](src/images/AD%206.png) | **Ingreso de nombre del dispositivo nuevo:** En esta pantalla el usuario podrá ingresar como quiere que se llame su nuevo dispositivo. |
-| ![dispositivo nuevo agregado exitoso](src/images/AD%207.png) | **Registro de dispositivo nuevo exitoso:** En esta pantala el usuario podrá ver que agrego su dispositivo nuevo de forma exitosa en la aplicación |
-| ![nuevo dispositvo](src/images/AD%208.png) | **Ver nuevo dispositivo:** En esta pantalla el usuario podrá verificar el nuevo dispositivo que ha agregado. |
-| ![detalles del dispositivo](src/images/Device%20Especification.png) | **Detalles del dispositivo:** En esta pantalla el usuario verá los detalles del dispositivo ya sea su descripcióm, el tipo de dispositvo, etc. |
+| ![pantalla inicial de dispositivos](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/ADD%20DEVICE.png) | **Pantalla principal de los Dispositivos:** En esta pantalla le presentaremos al usuario los dispositivos adquiridos, asi como un boton que puede agregar luego de obtener más|
+| ![seleccion de conexion](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/AD%203.png) | **Selección tipo de conexión con el dispositivo nuevo:** En esta pantalla el usuario podrá elegir el tipo de conexión con su nuevo dispositivo en este caso Bluetooth |
+| ![tipo de nuevo dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/AD%204.png) | **Selección del nuevo dispositivo:** En esta pantalla el usuario podrá seleccionar el nuevo dispositivo adquirido para poder agregarlo. |
+| ![seleccion de ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/AD%205.png) | **Selección de ambiente:** En esta pantalla el usuario podrá elegir en que ambiente de su inmueble fue colocado el nuevo dispositivo |
+| ![nombre de dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/AD%206.png) | **Ingreso de nombre del dispositivo nuevo:** En esta pantalla el usuario podrá ingresar como quiere que se llame su nuevo dispositivo. |
+| ![dispositivo nuevo agregado exitoso](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/AD%207.png) | **Registro de dispositivo nuevo exitoso:** En esta pantala el usuario podrá ver que agrego su dispositivo nuevo de forma exitosa en la aplicación |
+| ![nuevo dispositvo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/AD%208.png) | **Ver nuevo dispositivo:** En esta pantalla el usuario podrá verificar el nuevo dispositivo que ha agregado. |
+| ![detalles del dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Device%20Especification.png) | **Detalles del dispositivo:** En esta pantalla el usuario verá los detalles del dispositivo ya sea su descripcióm, el tipo de dispositvo, etc. |
 
 Tenemos tambien nuestras pantallas para que el usuario agregue los nuevos ambientes que desea un dispositivo.
 
 | Wireframe | Descripción |
 | -- | -- |
-| ![pantalla incial de ambientes](src/images/CREATE%20ROOM.png) | **Pantalla principal de los ambientes:** En esta pantalla el usuario podrá visualizar los ambientes en los cuales tiene un dispositivo de seguridad |
-| ![ingreso de nombre del nuevo ambiente](src/images/CR%201.png) | **Ingreso del nombre del nuevo ambiente:** En esta pantalla el usuario podrá ingresar el nombre del nuevo ambiente que quiera crear |
-| ![selección del ambiente](src/images/CR%202.png) | **Selección del nuevo ambiente:** En esta pantalla el usuario podrá elegir el nuevo ambiente que va a tener un dispositivo de seguridad |
-| ![ambiente agregado exitoso](src/images/CR%203.png) | **Ambiente agregado de forma exitosa:** En esta pantalla el usuario verá que su ambiente se ha agregado exitosamente |
-| ![visualizacion del nuevo ambiente](src/images/CR%204.png) | **Nuevo ambiente visualizado:** En esta pantalla el usuario verá que se agrego el ambiente en la aplicación móvil. |
-| ![especificaciones del nuevo ambiente](src/images/Room%20Especification.png) | **Detalles del ambiente:** En esta pantalla el usuario verá que dispositivos se encuentran en el ambiente seleccionado. |
+| ![pantalla incial de ambientes](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/CREATE%20ROOM.png) | **Pantalla principal de los ambientes:** En esta pantalla el usuario podrá visualizar los ambientes en los cuales tiene un dispositivo de seguridad |
+| ![ingreso de nombre del nuevo ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/CR%201.png) | **Ingreso del nombre del nuevo ambiente:** En esta pantalla el usuario podrá ingresar el nombre del nuevo ambiente que quiera crear |
+| ![selección del ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/CR%202.png) | **Selección del nuevo ambiente:** En esta pantalla el usuario podrá elegir el nuevo ambiente que va a tener un dispositivo de seguridad |
+| ![ambiente agregado exitoso](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/CR%203.png) | **Ambiente agregado de forma exitosa:** En esta pantalla el usuario verá que su ambiente se ha agregado exitosamente |
+| ![visualizacion del nuevo ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/CR%204.png) | **Nuevo ambiente visualizado:** En esta pantalla el usuario verá que se agrego el ambiente en la aplicación móvil. |
+| ![especificaciones del nuevo ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Room%20Especification.png) | **Detalles del ambiente:** En esta pantalla el usuario verá que dispositivos se encuentran en el ambiente seleccionado. |
 
 ### 5.4.2. Applications Wireflow Diagrams
 En esta sección se presentará los flujos de navegación entre pantallas de nuestra aplicación que visualizará el usuario y la interacción que tendrá con los elementos que presenta cada sección.
 
 **WEB APPLICATION WIREFLOWS:**
 
-| **User Goal:** Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación. | ![alt text](src/images/flow.png) |
+| **User Goal:** Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación. | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow.png) |
 | --- | --- |
-| **User Goal:** Como usuario, quiero controlar mis dispositivos de seguridad desde la aplicación web para armar o desarmar la alarma.. |![alt text](src/images/flow1.png)  |
+| **User Goal:** Como usuario, quiero controlar mis dispositivos de seguridad desde la aplicación web para armar o desarmar la alarma.. |![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow1.png)  |
 | --- | --- |
-| **User Goal:** Como usuario, quiero un resumen de todos los eventos desde una única interfaz para gestionar los dispositivos de manera eficiente. | ![alt text](src/images/flow2.png) |
+| **User Goal:** Como usuario, quiero un resumen de todos los eventos desde una única interfaz para gestionar los dispositivos de manera eficiente. | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow2.png) |
 | --- | --- |
-| **User Goal:** Como usuario, quiero tener una asistencia tecnica para solucionar problemas con el dispositivo. | ![alt text](src/images/flow3.png)|
+| **User Goal:** Como usuario, quiero tener una asistencia tecnica para solucionar problemas con el dispositivo. | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow3.png)|
 | --- | --- |
-| **User Goal:** Como usuario, quiero ver las eventos registrados por los dispositivos. | ![alt text](src/images/flow4.png) |
+| **User Goal:** Como usuario, quiero ver las eventos registrados por los dispositivos. | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow4.png) |
 | --- | --- |
 
 
@@ -581,17 +581,17 @@ En esta sección se presentará los flujos de navegación entre pantallas de nue
 
 Segmento objetivo Dueños de Inmuebles
 
-| **User Goal:** Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación. | ![wireflow-register](src/images/w-register.png) |
+| **User Goal:** Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación. | ![wireflow-register](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-register.png) |
 | --- | --- |
-| **User Goal:** Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación. | ![wireflow-login](src/images/w-login.png) |
+| **User Goal:** Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación. | ![wireflow-login](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-login.png) |
 | --- | --- |
-| **User Goal:** Como usuario, deseo ingresar a mi perfil para visualizar los datos que presento en la aplicación. | ![wireflow-profile](src/images/w-profile.png) |
+| **User Goal:** Como usuario, deseo ingresar a mi perfil para visualizar los datos que presento en la aplicación. | ![wireflow-profile](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-profile.png) |
 | --- | --- |
-| **User Goal:** Como usuario, deseo agregar un nuevo dispositivo para que pueda tener control de otra area de mi inmueble. | ![wireflow-add-device](src/images/w-add-device.png) |
+| **User Goal:** Como usuario, deseo agregar un nuevo dispositivo para que pueda tener control de otra area de mi inmueble. | ![wireflow-add-device](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-add-device.png) |
 | --- | --- |
-| **User Goal:** Como usuario, deseo agregar una nueva area para tener control con los dispositivos IoT. | ![wireflow-add-area](src/images/w-create-area.png) |
+| **User Goal:** Como usuario, deseo agregar una nueva area para tener control con los dispositivos IoT. | ![wireflow-add-area](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-create-area.png) |
 | --- | --- |
-| **User Goal:** Como usuario, deseo ver los detalles de los dispositivos para conocer más acerca de sus capacidades e instalaciones en el inmueble. | ![wireflow-add-area](src/images/w-device.png) |
+| **User Goal:** Como usuario, deseo ver los detalles de los dispositivos para conocer más acerca de sus capacidades e instalaciones en el inmueble. | ![wireflow-add-area](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-device.png) |
 | --- | --- |
 
 ### 5.4.2. Applications Mock-ups
@@ -599,16 +599,16 @@ Segmento objetivo Dueños de Inmuebles
 **WEB APPLICATION MOCK-UP**
 | Wireframe | Descripción |
 |-- | -- |
-|![alt text](src/images/mweb1.png)| **Inicio de Sesión:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para que ingrese a nuestra aplicación. Utilizamos botones para que el usuario pueda diferenciar |
-| ![alt text](src/images/mweb2.png) | **Registrar una cuenta:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para poder crearse una cuenta. |
+|![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/mweb1.png)| **Inicio de Sesión:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para que ingrese a nuestra aplicación. Utilizamos botones para que el usuario pueda diferenciar |
+| ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/mweb2.png) | **Registrar una cuenta:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para poder crearse una cuenta. |
 |
 
 | Wireframe | Descripción |
 | -- | -- |
-| ![alt text](src/images/mweb3.png) | **Pantalla Home:** En esta pantalla le mostramos al usuario sus dispositivos, alertas, pendientes y problemas tiene. |
-| ![alt text](src/images/mweb4.png) | **Pantalla Asisstence:** En esta pantalla le mostramos al usuario un medio para que pueda tener asistencia tecnica. |
-| ![alt text](src/images/mweb5.png) | **Pantalla My Devices:** En esta pantalla le mostramos al usuario los dispositivos asociados a su cuenta. |
-| ![alt text](src/images/mweb6.png) | **Pantalla My Devices:** En esta pantalla le mostramos al usuario los dispositivos asociados a su cuenta. |
+| ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/mweb3.png) | **Pantalla Home:** En esta pantalla le mostramos al usuario sus dispositivos, alertas, pendientes y problemas tiene. |
+| ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/mweb4.png) | **Pantalla Asisstence:** En esta pantalla le mostramos al usuario un medio para que pueda tener asistencia tecnica. |
+| ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/mweb5.png) | **Pantalla My Devices:** En esta pantalla le mostramos al usuario los dispositivos asociados a su cuenta. |
+| ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/mweb6.png) | **Pantalla My Devices:** En esta pantalla le mostramos al usuario los dispositivos asociados a su cuenta. |
 
 
 **MOBILE APPLICATION MOCK-UP**
@@ -619,45 +619,45 @@ Tenemos nuestras pantallas generales como el inicio de sesión y el registro del
 
 | Wireframe | Descripción |
 |-- | -- |
-|![inicio de sesion app movil](src/images/minicioapp.png) | **Inicio de Sesión:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para que ingrese a nuestra aplicación. Utilizamos botones para que el usuario pueda diferenciar |
-| ![inicio exitoso app movil](src/images/minicioexapp.png) | **Inicio de sesión exitoso:**  En esta pantalla le mostramos al usuario que pudo acceder de forma exitosa dado que ingreso correctamente sus credenciales. |
-| ![registro de usuario](src/images/mregisterapp.png) | **Registrar una cuenta:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para poder crearse una cuenta. |
-| ![registro exitoso](src/images/mregisterexitapp.png) | **Registro exitoso:** En esta pantalla le mostramos al usuario que pudo crear correctamente su nueva cuenta. |
+|![inicio de sesion app movil](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/minicioapp.png) | **Inicio de Sesión:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para que ingrese a nuestra aplicación. Utilizamos botones para que el usuario pueda diferenciar |
+| ![inicio exitoso app movil](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/minicioexapp.png) | **Inicio de sesión exitoso:**  En esta pantalla le mostramos al usuario que pudo acceder de forma exitosa dado que ingreso correctamente sus credenciales. |
+| ![registro de usuario](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/mregisterapp.png) | **Registrar una cuenta:** En esta pantalla le mostamos al usuario los campos que tiene que llenar para poder crearse una cuenta. |
+| ![registro exitoso](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/mregisterexitapp.png) | **Registro exitoso:** En esta pantalla le mostramos al usuario que pudo crear correctamente su nueva cuenta. |
 
 Asimismo contamos dentro de la aplicación con la pantalla principal Home:
 
 | Wireframe | Descripción |
 | -- | -- |
-| ![pantalla inicial app](src/images/MHome%20Screen.png) | **Pantalla de Incio:** En esta pantalla le mostramos al usuario sus dispositivos que ha solicitado asimismo en que ambientes se han instalado. Tener en cuenta que esta pantalla sera de tipo scroll. |
+| ![pantalla inicial app](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MHome%20Screen.png) | **Pantalla de Incio:** En esta pantalla le mostramos al usuario sus dispositivos que ha solicitado asimismo en que ambientes se han instalado. Tener en cuenta que esta pantalla sera de tipo scroll. |
 
 Tenemos tambiens nuestra pantalla donde el usuario podrá ver su información personal.
 | Wireframe | Descripción |
 | -- | -- |
-| ![profile](src/images/MProfile.png) | **Perfil del usuario:** En esta pantalla el usuario podrá ver su información asi como otras funciones adicionales. |
+| ![profile](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MProfile.png) | **Perfil del usuario:** En esta pantalla el usuario podrá ver su información asi como otras funciones adicionales. |
 
 Tenemos tambien nuestras pantallas para que el usuario agregue los dispositivos luego de ser instalados.
 
 | Wireframe | Descripción |
 | -- | -- |
-| ![pantalla inicial de dispositivos](src/images/MADD%20DEVICE.png) | **Pantalla principal de los Dispositivos:** En esta pantalla le presentaremos al usuario los dispositivos adquiridos, asi como un boton que puede agregar luego de obtener más|
-| ![seleccion de conexion](src/images/MAD%203.png) | **Selección tipo de conexión con el dispositivo nuevo:** En esta pantalla el usuario podrá elegir el tipo de conexión con su nuevo dispositivo en este caso Bluetooth |
-| ![tipo de nuevo dispositivo](src/images/MAD%204.png) | **Selección del nuevo dispositivo:** En esta pantalla el usuario podrá seleccionar el nuevo dispositivo adquirido para poder agregarlo. |
-| ![seleccion de ambiente](src/images/MAD%205.png) | **Selección de ambiente:** En esta pantalla el usuario podrá elegir en que ambiente de su inmueble fue colocado el nuevo dispositivo |
-| ![nombre de dispositivo](src/images/MAD%206.png) | **Ingreso de nombre del dispositivo nuevo:** En esta pantalla el usuario podrá ingresar como quiere que se llame su nuevo dispositivo. |
-| ![dispositivo nuevo agregado exitoso](src/images/MAD%207.png) | **Registro de dispositivo nuevo exitoso:** En esta pantala el usuario podrá ver que agrego su dispositivo nuevo de forma exitosa en la aplicación |
-| ![nuevo dispositvo](src/images/MAD%208.png) | **Ver nuevo dispositivo:** En esta pantalla el usuario podrá verificar el nuevo dispositivo que ha agregado. |
-| ![detalles del dispositivo](src/images/MA%202.png) | **Detalles del dispositivo:** En esta pantalla el usuario verá los detalles del dispositivo ya sea su descripcióm, el tipo de dispositvo, etc. |
+| ![pantalla inicial de dispositivos](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MADD%20DEVICE.png) | **Pantalla principal de los Dispositivos:** En esta pantalla le presentaremos al usuario los dispositivos adquiridos, asi como un boton que puede agregar luego de obtener más|
+| ![seleccion de conexion](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%203.png) | **Selección tipo de conexión con el dispositivo nuevo:** En esta pantalla el usuario podrá elegir el tipo de conexión con su nuevo dispositivo en este caso Bluetooth |
+| ![tipo de nuevo dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%204.png) | **Selección del nuevo dispositivo:** En esta pantalla el usuario podrá seleccionar el nuevo dispositivo adquirido para poder agregarlo. |
+| ![seleccion de ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%205.png) | **Selección de ambiente:** En esta pantalla el usuario podrá elegir en que ambiente de su inmueble fue colocado el nuevo dispositivo |
+| ![nombre de dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%206.png) | **Ingreso de nombre del dispositivo nuevo:** En esta pantalla el usuario podrá ingresar como quiere que se llame su nuevo dispositivo. |
+| ![dispositivo nuevo agregado exitoso](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%207.png) | **Registro de dispositivo nuevo exitoso:** En esta pantala el usuario podrá ver que agrego su dispositivo nuevo de forma exitosa en la aplicación |
+| ![nuevo dispositvo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%208.png) | **Ver nuevo dispositivo:** En esta pantalla el usuario podrá verificar el nuevo dispositivo que ha agregado. |
+| ![detalles del dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MA%202.png) | **Detalles del dispositivo:** En esta pantalla el usuario verá los detalles del dispositivo ya sea su descripcióm, el tipo de dispositvo, etc. |
 
 Tenemos tambien nuestras pantallas para que el usuario agregue los nuevos ambientes que desea un dispositivo.
 
 | Wireframe | Descripción |
 | -- | -- |
-| ![pantalla incial de ambientes](src/images/MCREATE%20ROOM.png) | **Pantalla principal de los ambientes:** En esta pantalla el usuario podrá visualizar los ambientes en los cuales tiene un dispositivo de seguridad |
-| ![ingreso de nombre del nuevo ambiente](src/images/MCR%201.png) | **Ingreso del nombre del nuevo ambiente:** En esta pantalla el usuario podrá ingresar el nombre del nuevo ambiente que quiera crear |
-| ![selección del ambiente](src/images/MCR%202.png) | **Selección del nuevo ambiente:** En esta pantalla el usuario podrá elegir el nuevo ambiente que va a tener un dispositivo de seguridad |
-| ![ambiente agregado exitoso](src/images/MCR%203.png) | **Ambiente agregado de forma exitosa:** En esta pantalla el usuario verá que su ambiente se ha agregado exitosamente |
-| ![visualizacion del nuevo ambiente](src/images/MCR%204.png) | **Nuevo ambiente visualizado:** En esta pantalla el usuario verá que se agrego el ambiente en la aplicación móvil. |
-| ![especificaciones del nuevo ambiente](src/images/Living%20Room.png) | **Detalles del ambiente:** En esta pantalla el usuario verá que dispositivos se encuentran en el ambiente seleccionado. |
+| ![pantalla incial de ambientes](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MCREATE%20ROOM.png) | **Pantalla principal de los ambientes:** En esta pantalla el usuario podrá visualizar los ambientes en los cuales tiene un dispositivo de seguridad |
+| ![ingreso de nombre del nuevo ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MCR%201.png) | **Ingreso del nombre del nuevo ambiente:** En esta pantalla el usuario podrá ingresar el nombre del nuevo ambiente que quiera crear |
+| ![selección del ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MCR%202.png) | **Selección del nuevo ambiente:** En esta pantalla el usuario podrá elegir el nuevo ambiente que va a tener un dispositivo de seguridad |
+| ![ambiente agregado exitoso](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MCR%203.png) | **Ambiente agregado de forma exitosa:** En esta pantalla el usuario verá que su ambiente se ha agregado exitosamente |
+| ![visualizacion del nuevo ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MCR%204.png) | **Nuevo ambiente visualizado:** En esta pantalla el usuario verá que se agrego el ambiente en la aplicación móvil. |
+| ![especificaciones del nuevo ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Living%20Room.png) | **Detalles del ambiente:** En esta pantalla el usuario verá que dispositivos se encuentran en el ambiente seleccionado. |
 
 ### 5.4.3. Applications User Flow Diagrams
 
@@ -666,11 +666,11 @@ Enlace para una mejor visualización: https://overflow.io/s/3C8AFWFU
 
 | -- | -- |
 | -- | -- |
-| **USER GOAL:** Como usuario deseo crear una cuenta | ![flow1](src/images/userflow2.jpg) |
-| **USER GOAL:** Como usuario deseo iniciar sesión con mi cuenta previamente creada | ![flow2](src/images/userflow1.jpg) |
-| **USER GOAL:** Como usuario deseo poder visualizar mi perfil | ![flow3](src/images/FLOW3.jpg) |
-| **USER GOAL:** Como usuario, deseo agregar un nuevo dispositivo para que pueda tener control de otra area de mi inmueble. | ![flow4](src/images/flow4.jpg) |
-| **USER GOAL:** Como usuario, deseo agregar una nueva area para tener control con los dispositivos IoT. | ![flow5](src/images/folw5.jpg) |
+| **USER GOAL:** Como usuario deseo crear una cuenta | ![flow1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/userflow2.jpg) |
+| **USER GOAL:** Como usuario deseo iniciar sesión con mi cuenta previamente creada | ![flow2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/userflow1.jpg) |
+| **USER GOAL:** Como usuario deseo poder visualizar mi perfil | ![flow3](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/FLOW3.jpg) |
+| **USER GOAL:** Como usuario, deseo agregar un nuevo dispositivo para que pueda tener control de otra area de mi inmueble. | ![flow4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow4.jpg) |
+| **USER GOAL:** Como usuario, deseo agregar una nueva area para tener control con los dispositivos IoT. | ![flow5](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/folw5.jpg) |
 
 
 ## 5.5. Applications Prototyping
