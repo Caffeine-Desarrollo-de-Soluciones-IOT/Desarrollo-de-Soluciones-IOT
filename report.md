@@ -497,7 +497,6 @@ Para VerySafe tenemos los siguientes términos:
 
 13. False Alarm (Falsa Alarma): Activación de un sistema de seguridad sin la presencia de una amenaza real.
     Definición: Situación en la que el sistema de seguridad detecta una actividad que no representa un peligro, como el movimiento de un animal, y genera una alerta innecesaria.
-=======
 
 # CAPÍTULO III: REQUIREMENTS SPECIFICATION
 
@@ -512,7 +511,7 @@ El To Be Scenario Mapping para los dueños de inmuebles tiene como objetivo visu
 
 Este mapeo se centra en las acciones, pensamientos y emociones de los dueños de inmuebles en cada fase de interacción con el sistema. De este modo, se busca diseñar una solución que no solo sea eficiente y segura, sino también intuitiva y alineada con las expectativas y necesidades específicas de los usuarios. A través de este proceso, el objetivo es garantizar que los usuarios experimenten confianza, tranquilidad y satisfacción durante todo el ciclo de vida de su sistema de seguridad.
 
-![To Be Property Owners](/src/images/to-be-1.jpg)
+![To Be Property Owners](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/to-be-1.jpg)
 
 * **Segmento 2: Empresa de seguridad**
 
@@ -520,13 +519,13 @@ El To Be Scenario Mapping para las empresas de seguridad ofrece una representaci
 
 El enfoque está en los desafíos que enfrentan las empresas de seguridad al validar alertas, coordinar respuestas y asegurar que sus equipos y procedimientos estén siempre actualizados y preparados para incidentes futuros. A través de este mapeo, se pretende crear una experiencia integrada, en la que la tecnología y la comunicación con los clientes se alineen para ofrecer una respuesta rápida y efectiva, manteniendo la confianza y satisfacción de los usuarios.
 
-![To Be Security Company](/src/images/to-be-2.jpg)
+![To Be Security Company](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/to-be-2.jpg)
 
 ## 3.2. User Stories
 
 En esta sección se presentan las historias de usuario correspondientes a nuestra aplicación móvil, sitio web estático y dispositivos edge. Estas historias describen las características necesarias para nuestros dos segmentos objetivo. Además, se especifican los criterios de aceptación que nos permitirán verificar si las funcionalidades cumplen con las necesidades de los usuarios.
 
-| **ID**  | **Título**                                                        | **Descripción**                                                                                                   | **Criterios de Aceptación (Cucumber)**                                                                                                                                          | **Relacionado con (Epic ID)** |
+| **ID**  | **Título**                                                        | **Descripción**                                                                                                   | **Criterios de Aceptación**                                                                                                                                          | **Relacionado con (Epic ID)** |
 |---------|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
 | **HU-01** | Ver historial de eventos                                          | Como propietario de un inmueble, quiero poder ver el historial de los eventos para revisar incidentes pasados. | **Given** que el propietario está en la página Events **When** selecciona el evento **Then** puede ver todas las notificaciones en base al evento. <br><br> **Given** que no hay notificaciones en el evento seleccionado **When** selecciona la fila **Then** se muestra un mensaje indicando que no hay notificaciones para ese evento.           | Epic 1                        |
 | **HU-02** | Configurar notificaciones personalizadas                          | Como empresa de seguridad, quiero configurar las alertas para recibir notificaciones específicas según los tipos de eventos en cada propiedad. | **Given** que el usuario está en la sección de configuraciones **When** crea una nueva alerta personalizada **Then** recibe notificaciones solo para los eventos configurados. <br><br> **Given** que hay varias alertas personalizadas creadas **When** elimina una alerta personalizada **Then** la alerta se elimina y ya no recibe notificaciones de ese tipo.            | Epic 1                        |
@@ -573,19 +572,17 @@ En esta sección se presentan las historias de usuario correspondientes a nuestr
 | **HU-43**| Pruebas periódicas de dispositivos                      | Como usuario, quiero recibir notificaciones para realizar pruebas periódicas de los dispositivos IoT para asegurar que funcionan correctamente. | **Given** que el backend genera un recordatorio **When** el usuario recibe una notificación para realizar una prueba **Then** se registra la fecha y hora de la prueba en el sistema. <br><br> **Given** que un dispositivo falla durante la prueba **When** el sistema envía una notificación **Then** se recomienda realizar una revisión del dispositivo. | Epic 20                        |
 | **HU-44**| Integración con servicios de emergencia                 | Como usuario, quiero que el sistema notifique a los servicios de emergencia automáticamente en caso de eventos críticos para una respuesta rápida. | **Given** que se detecta un evento crítico **When** el sistema está configurado para alertar a servicios de emergencia **Then** se envían los datos específicos del evento y la ubicación. <br><br> **Given** que la notificación se ha enviado **When** el sistema registra la hora del envío **Then** se confirma la acción en el registro.                        | Epic 20                       |
 
-
-
 ## 3.3. Impact Mapping
 La herramienta denominada Impact Mapping consiste en una forma visual de representar las metas que nos plasmamos para llegar a cada sector de nuestro público. Por esta razón, el equipo utilizó este artefacto con el fin de definir nuestro camino para alcanzar a los segmentos objetivos. De este modo, al final del mapa mental identificamos las acciones y funcionalidades que debemos llevar a cabo para formar el proyecto de manera eficiente.
 
 ### User: Dueño de Inmuebles
 
 A continuación, se presenta el Impact Map en el usuario, dueño de inmuebles; para la cual nos basamos en las User Stories de nuestro proyecto, brindando las alternativas con las que dispone los aplicativos para solucionar y satisfacer las necesidades del usuario.
-![](/src/images/impact-map-dueño-inmueble.png)
+![Impact Mapping Owner](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/impact-map-dueño-inmueble.png)
 
 ### User: Empresa de seguridad
 Este mapa de impacto incluye los objetivos empresariales, los efectos deseados en la organización de seguridad y las historias de usuario relacionadas. El enfoque es en mejorar la eficiencia operativa y la satisfacción del cliente mediante el uso de tecnología IoT para vigilancia en tiempo real y respuestas automatizadas a amenazas.
-![](/src/images/impact-map-seguridad.png)
+![Impact Mapping Business](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/impact-map-seguridad.png)
 
 ## 3.4. Product Backlog
 
@@ -620,40 +617,6 @@ Una vez que todas las User Stories están redactadas, es necesario priorizarlas.
 | 25        | HU-17             | Actualización remota de firmware                    | Como administrador, quiero poder actualizar remotamente el firmware de los dispositivos en el edge para asegurar su correcto funcionamiento y seguridad. | 3                |
 | 26        | HU-21             | Control de luces inteligentes                        | Como propietario de un inmueble, quiero controlar las luces inteligentes de mi propiedad desde la app para encender o apagar según necesidad. | 3                |
 | 27        | HU-15             | Configuración de políticas de seguridad              | Como administrador, quiero poder configurar políticas de seguridad para asegurar que todos los dispositivos y datos cumplan con los estándares requeridos. | 3                |
-| 28        | HU-28             | Sección de "Hero" con slogan y mensaje de bienvenida               | Como visitante, quiero ver una sección de "Hero" con un slogan atractivo y un mensaje de bienvenida al acceder a la landing page. | 2                |
-| 29        | HU-29             | Sección de "Solutions" para mostrar tecnologías y beneficios       | Como visitante, quiero ver una sección de "Solutions" que muestre las tecnologías y beneficios del sistema. | 3                |
-| 30        | HU-30             | Sección de "Followers" con experiencias positivas de usuarios      | Como visitante, quiero ver una sección de "Followers" que presente experiencias positivas de usuarios previos. | 3                |
-| 31        | HU-31             | Sección de "Learn more about us" con explicación visual del sistema | Como visitante, quiero ver una sección que explique visualmente el sistema y sus características. | 3                |
-| 32        | HU-32             | Sección de "Política de Privacidad" o "Protección de Datos"      | Como visitante, quiero acceder a la sección de "Política de Privacidad" para entender cómo se protegen mis datos. | 2                |
-| 33        | HU-33             | Sección de "Llamada a la Acción" para descarga en Google Play/App Store | Como visitante, quiero ver una sección de "Llamada a la Acción" que me invite a descargar la aplicación. | 2                |
-| 34        | HU-34             | Sección de "Subscription Plans" con diferentes opciones de planes  | Como visitante, quiero ver una sección de "Subscription Plans" que muestre las diferentes opciones de suscripción. | 3                |
-| 35        | HU-35             | Diseño responsivo para usuarios móviles                             | Como usuario móvil, quiero que la landing page se vea bien en mi dispositivo para una mejor experiencia de usuario. | 3                |
-| 36        | HU-36             | Cambio de idioma en la landing page                            | Como visitante, quiero poder seleccionar mi idioma en el sitio web para comprender toda la información y navegar de manera más efectiva | 3                |
-| 37        | HU-37             | Monitoreo y almacenamiento de datos de sensores de movimiento | Como usuario, quiero que el sistema detecte movimientos dentro de mi propiedad y registre estos eventos para monitorear posibles intrusos. | 3                |
-| 38        | HU-38             | Detección de humo y alerta de emergencia               | Como usuario, quiero que el sistema detecte la presencia de humo en mi propiedad y me alerte inmediatamente para poder tomar acción. | 5                |
-| 39        | HU-39             | Alerta por cambios de temperatura inesperados           | Como usuario, quiero que el sistema monitoree la temperatura de mi propiedad y me notifique en caso de cambios bruscos, para poder identificar riesgos como incendios. | 3                |
-| 40        | HU-40             | Activación y desactivación de alarmas                  | Como usuario, quiero poder activar o desactivar la alarma desde la aplicación para tener control sobre la seguridad de mi propiedad. | 3                |
-| 41        | HU-41             | Historial de eventos de seguridad                       | Como usuario, quiero poder acceder al historial de eventos de seguridad para revisar la actividad en mi propiedad. | 3                |
-| 42        | HU-42             | Configuración de notificaciones personalizadas          | Como usuario, quiero configurar qué tipo de notificaciones recibir para que el sistema me alerte solo en situaciones específicas. | 3                |
-| 43        | HU-43             | Pruebas periódicas de dispositivos                      | Como usuario, quiero recibir notificaciones para realizar pruebas periódicas de los dispositivos IoT para asegurar que funcionan correctamente. | 3                |
-| 44        | HU-44             | Integración con servicios de emergencia                 | Como usuario, quiero que el sistema notifique a los servicios de emergencia automáticamente en caso de eventos críticos para una respuesta rápida. | 5                |
-| 28        | HU-28             | Sección de "Hero" con slogan y mensaje de bienvenida               | Como visitante, quiero ver una sección de "Hero" con un slogan atractivo y un mensaje de bienvenida al acceder a la landing page. | 2                |
-| 29        | HU-29             | Sección de "Solutions" para mostrar tecnologías y beneficios       | Como visitante, quiero ver una sección de "Solutions" que muestre las tecnologías y beneficios del sistema. | 3                |
-| 30        | HU-30             | Sección de "Followers" con experiencias positivas de usuarios      | Como visitante, quiero ver una sección de "Followers" que presente experiencias positivas de usuarios previos. | 3                |
-| 31        | HU-31             | Sección de "Learn more about us" con explicación visual del sistema | Como visitante, quiero ver una sección que explique visualmente el sistema y sus características. | 3                |
-| 32        | HU-32             | Sección de "Política de Privacidad" o "Protección de Datos"      | Como visitante, quiero acceder a la sección de "Política de Privacidad" para entender cómo se protegen mis datos. | 2                |
-| 33        | HU-33             | Sección de "Llamada a la Acción" para descarga en Google Play/App Store | Como visitante, quiero ver una sección de "Llamada a la Acción" que me invite a descargar la aplicación. | 2                |
-| 34        | HU-34             | Sección de "Subscription Plans" con diferentes opciones de planes  | Como visitante, quiero ver una sección de "Subscription Plans" que muestre las diferentes opciones de suscripción. | 3                |
-| 35        | HU-35             | Diseño responsivo para usuarios móviles                             | Como usuario móvil, quiero que la landing page se vea bien en mi dispositivo para una mejor experiencia de usuario. | 3                |
-| 36        | HU-36             | Cambio de idioma en la landing page                            | Como visitante, quiero poder seleccionar mi idioma en el sitio web para comprender toda la información y navegar de manera más efectiva | 3                |
-| 37        | HU-37             | Monitoreo y almacenamiento de datos de sensores de movimiento | Como usuario, quiero que el sistema detecte movimientos dentro de mi propiedad y registre estos eventos para monitorear posibles intrusos. | 3                |
-| 38        | HU-38             | Detección de humo y alerta de emergencia               | Como usuario, quiero que el sistema detecte la presencia de humo en mi propiedad y me alerte inmediatamente para poder tomar acción. | 5                |
-| 39        | HU-39             | Alerta por cambios de temperatura inesperados           | Como usuario, quiero que el sistema monitoree la temperatura de mi propiedad y me notifique en caso de cambios bruscos, para poder identificar riesgos como incendios. | 3                |
-| 40        | HU-40             | Activación y desactivación de alarmas                  | Como usuario, quiero poder activar o desactivar la alarma desde la aplicación para tener control sobre la seguridad de mi propiedad. | 3                |
-| 41        | HU-41             | Historial de eventos de seguridad                       | Como usuario, quiero poder acceder al historial de eventos de seguridad para revisar la actividad en mi propiedad. | 3                |
-| 42        | HU-42             | Configuración de notificaciones personalizadas          | Como usuario, quiero configurar qué tipo de notificaciones recibir para que el sistema me alerte solo en situaciones específicas. | 3                |
-| 43        | HU-43             | Pruebas periódicas de dispositivos                      | Como usuario, quiero recibir notificaciones para realizar pruebas periódicas de los dispositivos IoT para asegurar que funcionan correctamente. | 3                |
-| 44        | HU-44             | Integración con servicios de emergencia                 | Como usuario, quiero que el sistema notifique a los servicios de emergencia automáticamente en caso de eventos críticos para una respuesta rápida. | 5                |
 
 # CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
 ## 4.1. Strategic-Level Domain-Driven Design
