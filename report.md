@@ -1,6 +1,6 @@
 # Report Iot
 
-![logo](src/images/logo.webp)
+![title](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/logo.webp)
 
 Carrera: Ingeniería de Software
 
@@ -10,7 +10,7 @@ Sección: WV71
 
 Nombre del profesor: Velasquez Nuñez, Angel Augusto
 
-"Informe de TB2"
+"Informe de TF"
 
 Nombre del startup: VerySafe
 
@@ -24,16 +24,183 @@ Relación de integrantes:
 - Elvia Guadalupe Arteaga Cruz
 - Jamutaq Piero Ortega Vélez
 
-Mes y año: Agosto 2024
+Mes y año: Noviembre 2024
 
 Ciclo: 2024-2
 
 ## Registro de Versiones del Informe
+
+
+## Project Report Collaboration Insights
+
+
+## Contenido
+- [Report Iot](#report-iot)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [Contenido](#contenido)
+- [Student Outcome](#student-outcome)
+- [CAPÍTULO I: INTRODUCTION](#capítulo-i-introduction)
+  - [1.1 Startup Profile](#11-startup-profile)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2 Solution Profile](#12-solution-profile)
+    - [1.2.1  Antecedentes y problemática](#121--antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3 Segmentos objetivo](#13-segmentos-objetivo)
+    - [Segmento objetivo 1: Dueños de Inmuebles](#segmento-objetivo-1-dueños-de-inmuebles)
+    - [Segmento objetivo 2: Empresas de Seguridad](#segmento-objetivo-2-empresas-de-seguridad)
+- [CAPÍTULO II: REQUERIMENTS ELICITATION \& ANALYSIS](#capítulo-ii-requeriments-elicitation--analysis)
+  - [2.1 Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2 Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3 Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-Is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [CAPÍTULO III: REQUIREMENTS SPECIFICATION](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
+- [CAPÍTULO IV: SOLUTION SOFTWARE DESIGN](#capítulo-iv-solution-software-design)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+    - [4.1.1. EventStorming](#411-eventstorming)
+      - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
+      - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+      - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
+    - [4.1.2. Context Mapping](#412-context-mapping)
+    - [4.1.3. Software Architecture](#413-software-architecture)
+      - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+      - [4.1.3.2. Software Architecture Context Level Diagram](#4132-software-architecture-context-level-diagram)
+      - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
+      - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
+  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+    - [4.2.1. Bounded Context: Subscription \& Payments context](#421-bounded-context-subscription--payments-context)
+      - [4.2.1.1. Domain Layer](#4211-domain-layer)
+      - [4.2.1.2. Interface Layer](#4212-interface-layer)
+      - [4.2.1.3. Application Layer](#4213-application-layer)
+      - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+      - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
+        - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
+    - [4.2.2. Bounded Context: Device Context](#422-bounded-context-device-context)
+      - [4.2.2.1 Domain Layer](#4221-domain-layer)
+      - [4.2.2.2 Interface Layer](#4222-interface-layer)
+      - [4.2.2.3. Application Layer](#4223-application-layer)
+      - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+      - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
+      - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
+    - [4.2.3. Bounded Context: Area Context](#423-bounded-context-area-context)
+      - [4.2.3.1. Domain Layer](#4231-domain-layer)
+      - [4.2.3.2. Interface Layer](#4232-interface-layer)
+      - [4.2.3.3. Application Layer](#4233-application-layer)
+      - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+      - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
+      - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+    - [4.2.4. Bounded Context: User Context](#424-bounded-context-user-context)
+      - [4.2.4.1. Domain Layer](#4241-domain-layer)
+      - [4.2.4.2. Interface Layer](#4242-interface-layer)
+      - [4.2.4.3. Application Layer](#4243-application-layer)
+      - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+      - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
+        - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
+    - [4.2.5. Bounded Context: Events Context](#425-bounded-context-events-context)
+      - [4.2.5.1. Domain Layer](#4251-domain-layer)
+      - [4.2.5.2. Interface Layer](#4252-interface-layer)
+      - [4.2.5.3. Application Layer](#4253-application-layer)
+      - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+      - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
+        - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
+    - [4.2.6. Bounded Context: Notifications Context](#426-bounded-context-notifications-context)
+      - [4.2.6.1. Domain Layer](#4261-domain-layer)
+      - [4.2.6.2. Interface Layer](#4262-interface-layer)
+      - [4.2.6.3. Application Layer](#4263-application-layer)
+      - [4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)
+      - [4.2.6.5. Bounded Context Software Architecture Component Level Diagrams](#4265-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.6.6. Bounded Context Software Architecture Code Level Diagrams](#4266-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.6.6.1. Bounded Context Domain Layer Class Diagrams](#42661-bounded-context-domain-layer-class-diagrams)
+        - [4.2.6.6.2. Bounded Context Database Design Diagram](#42662-bounded-context-database-design-diagram)
+- [CAPÍTULO V: SOLUTION UI/UX DESIGN](#capítulo-v-solution-uiux-design)
+  - [5.1. Style Guidelines](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2. Information Architecture](#52-information-architecture)
+    - [5.2.1. Organization Systems](#521-organization-systems)
+    - [5.2.2. Labeling Systems](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems](#524-searching-systems)
+    - [5.2.5. Navigation Systems](#525-navigation-systems)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.2. Applications Mock-ups](#542-applications-mock-ups)
+    - [5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams)
+  - [5.5. Applications Prototyping](#55-applications-prototyping)
+- [CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION \& DEPLOYMENT](#capítulo-vi-product-implementation-validation--deployment)
+  - [6.1. Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 3](#6211-sprint-planning-3)
+      - [6.2.1.2. Sprint Backlog 3](#6212-sprint-backlog-3)
+      - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+      - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+      - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 3](#6221-sprint-planning-3)
+      - [6.2.2.2. Sprint Backlog 3](#6222-sprint-backlog-3)
+      - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
+      - [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
+      - [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+      - [6.2.3.2. Sprint Backlog 3](#6232-sprint-backlog-3)
+      - [6.2.3.3. Development Evidence for Sprint Review](#6233-development-evidence-for-sprint-review)
+      - [6.2.3.4. Testing Suite Evidence for Sprint Review](#6234-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.5. Execution Evidence for Sprint Review](#6235-execution-evidence-for-sprint-review)
+      - [6.2.3.6. Services Documentation Evidence for Sprint Review](#6236-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.7. Software Deployment Evidence for Sprint Review](#6237-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.8. Team Collaboration Insights during Sprint](#6238-team-collaboration-insights-during-sprint)
+
+
 # Student Outcome
-| Criterio específico | Acciones realizadas | Conclusiones |
-|----------------------|----------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **TB1:** <br> **Max Dayson Sabino Arostegui:** <br> Colabore en todos los capitulos con los puntos: estrategia y tácticas frente a competidores, product backlog, diseños de entrevista, registro de entrevista y con el bounded context devices. Todo esto me ayudó a fomentar el trabajo en equipo <br> **Gabriela Nomberto Ramos** <br> Colabore en todos los capitulos tanto como la definicion y focalziacion del alcance de nuestro producto asi como las arquitecturas, modelos y mejoras continuas <br> **Elvia Arteaga Cruz** <br> Con el equipo trabajamos de manera colaborativa para organizarnos y repartir equitativamente las tareas que podían realizarse de manera individual, pero también para juntarnos en tareas grupales, como el event storming. <br> **Dennis Quevedo Yucra** <br> Colaboré en todos los capitulos tanto como la definicion de los segmentos objetivos asi como las user person, impact map, y arquitecturas <br> **Jamutaq Ortega Vélez** <br> Colaboré en todos capítulos y la comunicación y organización con el equipo se mantuvo constante y buena durante todo el desarrollo del entregable.<br> **TP1:** <br> **Max Dayson Sabino Arostegui:** <br> Colabore en la creación del diseño de la aplicación web, realize los wireframes y mockups, asimismo realize el sprint1 en la parte de creación para la sección eventos <br> **Elvia Arteaga Cruz** <br> Colaboré en la redacción de organization y navigation systems, así como en la recopilación de las herramientas utilizadas en el proyecto hasta esta entrega. En la parte de desarrollo, colaboré en la implementación del frontend de la página web y de la fake api con json server. <br> **Jamutaq Ortega Vélez** <br> Me encargué de elaborar y colaborar con mi equipo el desarrollo de la aplicación web junto con la implementación de componentes y vistas principales. <br> **Dennis Quevedo** <br> Me encargue de la creacion de mockups y Wireflow de la Aplicacion Mobile y tambien corregi los puntos que el profesor nos observo en la primera entrega. <br> **TB2:** <br> **Elvia Arteaga Cruz:** <br> Colaboré principalmente con el desarrollo de la aplicación web, aunque también apoyé en los otros productos del proyecto. Esta entrega se centró en presentar un MVP con miras a mejoras futuras.|Concluimos que las reuniones y las mejoras continuas entre todos nos ayuda a mejorar el reporte de trabajo y poder colaborar todo de forma equitativa |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. <br> *Gabriela Nomberto** <br> Colabore con la redaccion del documento. | **TB1:** <br> **Max Dayson Sabino Arostegui:** <br> Durante las reuniones en el aula planificamos las tareas y definimos las metas. En cada reunión revisamos el avance para recalcar los objetivos <br> **Gabriela Nomberto Ramos** <br> Tuvimos reuniones en el salón de clase el cual nos ayudo mucho a definir lo que cada uno debe de hacer, asimismo por medio de un grupo de WhatsApp pudimos absolver algunas dudas  <br> **Elvia Arteaga Cruz** <br> El tiempo brindado por el profesor durante las horas de clase para organizar el proyecto fue de mucha utilidad para el desarrollo del mismo. Ese tiempo fue aprovechado para organizar las tareas individuales y realizar las tareas grupales. Además, contamos con medios digitales para la comunicación continua, tales como Whatsapp y Discord.  <br> **Dennis Quevedo Yucra** <br> Durante las reuniones en el salón de clase el cual nos definimos y consultamos al profesor muchas dudas que teniamos y tambien se definió lo que cada uno debe de hacer, asimismo por medio de un grupo de WhatsApp pudimos absolver algunas dudas como tambien en discord <br> **Jamutaq Ortega Vélez** <br> Trabajamos de manera colaborativa en todo momento. Planificamos nuestros avances y tuvimos tiempo de hacer correcciones también. <br> **TP1:** <br> **Max Dayson Sabino Arostegui:** <br> Realize el sprint 1 en colaboración con los demás mientros del equipo, me conecte a las reuniones por discord y fomente el trabajo en equipo. <br> **Elvia Arteaga Cruz** <br> Tuvimos reunines mediante discord de manera frecuente para coordinar los puntos a avanzar. Esto nos ayudó a organizarnos en las tareas individuales y grupales. <br> **Jamutaq Ortega Vélez** <br> Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. <br> *Gabriela Nomberto** <br> Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. <br> **Dennis Quevedo Yucra** <br> Coordinamos como equipo y primero acordamos corregir las observaciones previas. Con Gabriela Nomberto nos pusimos de acuerdo para poder realizar los mockups de la landing page y demas apartados. <br> **TB2:** <br> **Elvia Arteaga Cruz:** <br> Durante estos dos sprints el equipo optó por realizar reuniones presenciales una vez por semana para verificar avances y consolidar ideas. |Para este apartado, todos aportamos en la estructuracion y llenado del reporte, trabajando asi en grupo y entendiendonos entre todos|
+| Criterio específico                                                                                                           | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                   |
+|-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                                               | **TB1:** **Max Dayson Sabino Arostegui:** Colaboré en todos los capítulos con los puntos: estrategia y tácticas frente a competidores, product backlog, diseños de entrevista, registro de entrevista y con el bounded context devices. Todo esto me ayudó a fomentar el trabajo en equipo. **Gabriela Nomberto Ramos:** Colaboré en todos los capítulos tanto en la definición y focalización del alcance de nuestro producto como en las arquitecturas, modelos y mejoras continuas. **Elvia Arteaga Cruz:** Con el equipo trabajamos de manera colaborativa para organizarnos y repartir equitativamente las tareas que podían realizarse de manera individual, pero también para juntarnos en tareas grupales, como el event storming. **Dennis Quevedo Yucra:** Colaboré en todos los capítulos tanto en la definición de los segmentos objetivos como en las user personas, impact map, y arquitecturas. **Jamutaq Ortega Vélez:** Colaboré en todos los capítulos y la comunicación y organización con el equipo se mantuvo constante y buena durante todo el desarrollo del entregable. **TP1:** **Max Dayson Sabino Arostegui:** Colaboré en la creación del diseño de la aplicación web, realicé los wireframes y mockups, asimismo realicé el sprint1 en la parte de creación para la sección eventos. **Elvia Arteaga Cruz:** Colaboré en la redacción de organization y navigation systems, así como en la recopilación de las herramientas utilizadas en el proyecto hasta esta entrega. En la parte de desarrollo, colaboré en la implementación del frontend de la página web y de la fake api con json server. **Jamutaq Ortega Vélez:** Me encargué de elaborar y colaborar con mi equipo en el desarrollo de la aplicación web junto con la implementación de componentes y vistas principales. **Dennis Quevedo:** Me encargué de la creación de mockups y Wireflow de la Aplicación Mobile y también corregí los puntos que el profesor nos observó en la primera entrega. **TB2:** **Elvia Arteaga Cruz:** Colaboré principalmente con el desarrollo de la aplicación web, aunque también apoyé en los otros productos del proyecto. Esta entrega se centró en presentar un MVP con miras a mejoras futuras. | Concluimos que las reuniones y las mejoras continuas entre todos nos ayudan a mejorar el reporte de trabajo y poder colaborar todo de forma equitativa. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. *Gabriela Nomberto* Colaboré con la redacción del documento. | **TB1:** **Max Dayson Sabino Arostegui:** Durante las reuniones en el aula planificamos las tareas y definimos las metas. En cada reunión revisamos el avance para recalcar los objetivos. **Gabriela Nomberto Ramos:** Tuvimos reuniones en el salón de clase, lo cual nos ayudó mucho a definir lo que cada uno debe hacer, asimismo por medio de un grupo de WhatsApp pudimos absolver algunas dudas. **Elvia Arteaga Cruz:** El tiempo brindado por el profesor durante las horas de clase para organizar el proyecto fue de mucha utilidad para el desarrollo del mismo. Ese tiempo fue aprovechado para organizar las tareas individuales y realizar las tareas grupales. Además, contamos con medios digitales para la comunicación continua, tales como WhatsApp y Discord. **Dennis Quevedo Yucra:** Durante las reuniones en el salón de clase definimos y consultamos al profesor muchas dudas que teníamos y también se definió lo que cada uno debía hacer. Por medio de un grupo de WhatsApp y Discord pudimos absolver dudas. **Jamutaq Ortega Vélez:** Trabajamos de manera colaborativa en todo momento. Planificamos nuestros avances y tuvimos tiempo de hacer correcciones también. **TP1:** **Max Dayson Sabino Arostegui:** Realicé el sprint 1 en colaboración con los demás miembros del equipo, me conecté a las reuniones por Discord y fomenté el trabajo en equipo. **Elvia Arteaga Cruz:** Tuvimos reuniones mediante Discord de manera frecuente para coordinar los puntos a avanzar. Esto nos ayudó a organizarnos en las tareas individuales y grupales. **Jamutaq Ortega Vélez:** Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. *Gabriela Nomberto:* Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. **Dennis Quevedo Yucra:** Coordinamos como equipo y primero acordamos corregir las observaciones previas. Con Gabriela Nomberto nos pusimos de acuerdo para poder realizar los mockups de la landing page y demás apartados. **TB2:** **Elvia Arteaga Cruz:** Durante estos dos sprints el equipo optó por realizar reuniones presenciales una vez por semana para verificar avances y consolidar ideas. | Para este apartado, todos aportamos en la estructuración y llenado del reporte, trabajando así en grupo y entendiéndonos entre todos. |
 
 # CAPÍTULO I: INTRODUCTION
 ## 1.1 Startup Profile
@@ -44,12 +211,11 @@ Verysafe está abordando una necesidad crítica de mejorar la seguridad de inmue
 ### 1.1.2 Perfiles de integrantes del equipo
 | Integrante | Imagen |
 |----------------------|----------------------|
-| **Elvia Guadalupe Arteaga Cruz:** <br>Código: u201616507<br> Soy una estudiante de la carrera de ingeniería de software. Ingresé a la universidad para estudiar ingeniería mecatrónica, pero el mundo de la programación siempre me gustó más, es por ello que decidí cambiarme de carrera. Me gusta mucho la tecnología y las grandes cosas que se pueden hacer con ella. Tengo la ilusión de crear productos y servicios que ayuden a facilitar la vida de las personas y que nos ayuden a crecer como sociedad.| ![ElviaArteaga](src/images/photo-elvia.jpg) |
-| **Max Dayson Sabino Arostegui:** <br>Código: u20201a991<br> Soy estudiante de Ingeniería de Software y me interesa especialmente el machine learning y la ciberseguridad. Tengo experiencia con la metodología ágil SCRUM y estoy familiarizado con varios frameworks y lenguajes de programación, como Angular, Vue, C++ y Python. Además, poseo habilidades blandas importantes como el trabajo en equipo, asertividad y cooperación.| ![MaxSabino](src/images/perfil2.png)|
-| **Gabriela Soledad Nomberto Ramos:** <br>Código: u202113876<br> Soy estudiante de la carrera de Ingeniería de Software en el 9no ciclo. Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Además, soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión.|![GabrielaNomberto](src/images/foto-gaby.jpeg) |
-| **Dennis Piero Quevedo Yucra:** <br>Código: u201619823<br> Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 9no ciclo. Tengo conocimientos en múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible.| ![DennisQuevedo](src/images/quevedito-profile.jpeg)|
-| **Jamutaq Piero Ortega Vélez:** <br>Código: u201911703<br> Soy estudiante de la carrera de Ingeniería de Software, tengo 22 años y me encuentro en el 7mo ciclo. Me considero una persona honrada, respetuosa y responsable, siempre me gusta aportar y ayudar a mi equipo de trabajo. Poseo una gran experiencia en el desarrollo de soluciones backend con tecnologías que como Spring Boot con Java, .NET Core con C# y Node.js con JS y TS. Además, también me apasiona el mundo del DevOps y tecnologías cloud. Me gusta mucho la música y la meditación, y en mis tiempos libres me dedico a caminar y a reflexionar sobre la vida.| ![JamutaqOrtega](src/images/foto-jamutaq.jpeg)|
-
+| **Elvia Guadalupe Arteaga Cruz:** <br>Código: u201616507<br> Soy una estudiante de la carrera de ingeniería de software. Ingresé a la universidad para estudiar ingeniería mecatrónica, pero el mundo de la programación siempre me gustó más, es por ello que decidí cambiarme de carrera. Me gusta mucho la tecnología y las grandes cosas que se pueden hacer con ella. Tengo la ilusión de crear productos y servicios que ayuden a facilitar la vida de las personas y que nos ayuden a crecer como sociedad.| ![ElviaArteaga](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/photo-elvia.jpg) |
+| **Max Dayson Sabino Arostegui:** <br>Código: u20201a991<br> Soy estudiante de Ingeniería de Software y me interesa especialmente el machine learning y la ciberseguridad. Tengo experiencia con la metodología ágil SCRUM y estoy familiarizado con varios frameworks y lenguajes de programación, como Angular, Vue, C++ y Python. Además, poseo habilidades blandas importantes como el trabajo en equipo, asertividad y cooperación.| ![MaxSabino](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/perfil2.png)|
+| **Gabriela Soledad Nomberto Ramos:** <br>Código: u202113876<br> Soy estudiante de la carrera de Ingeniería de Software en el 9no ciclo. Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Además, soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión.|![GabrielaNomberto](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/foto-gaby.jpeg) |
+| **Dennis Piero Quevedo Yucra:** <br>Código: u201619823<br> Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 9no ciclo. Tengo conocimientos en múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible.| ![DennisQuevedo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20090246.png)|
+| **Jamutaq Piero Ortega Vélez:** <br>Código: u201911703<br> Soy estudiante de la carrera de Ingeniería de Software, tengo 22 años y me encuentro en el 7mo ciclo. Me considero una persona honrada, respetuosa y responsable, siempre me gusta aportar y ayudar a mi equipo de trabajo. Poseo una gran experiencia en el desarrollo de soluciones backend con tecnologías que como Spring Boot con Java, .NET Core con C# y Node.js con JS y TS. Además, también me apasiona el mundo del DevOps y tecnologías cloud. Me gusta mucho la música y la meditación, y en mis tiempos libres me dedico a caminar y a reflexionar sobre la vida.| ![JamutaqOrtega](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/foto-jamutaq.jpeg)|
 
 ## 1.2 Solution Profile
 
@@ -120,6 +286,7 @@ Nuestro producto/servicio abordará esta brecha mediante el desarrollo de una pl
 Nuestro enfoque inicial será los usuarios residenciales, ya que necesitan una experiencia de usuario simplificada que permita un control centralizado de sus dispositivos y una respuesta más rápida ante emergencias.
 
 Sabremos que tenemos éxito cuando veamos un aumento en la satisfacción del cliente, una mayor utilización diaria de la plataforma, una reducción en el tiempo de respuesta de emergencias y una mejora en la coordinación con empresas de seguridad y mantenimiento.
+
 #### 1.2.2.2 Lean UX Assumptions
 1. User Assumptions
 - Los usuarios residenciales prefieren una única plataforma centralizada para gestionar todos sus dispositivos de seguridad en lugar de utilizar múltiples aplicaciones.
@@ -169,33 +336,36 @@ Este canvas se centra en resolver el problema principal relacionado con la falta
 
 El Lean UX Canvas que a continuación se presenta detalla los problemas de negocio, los resultados esperados, los tipos de usuarios a enfocar, los beneficios para los usuarios, las soluciones propuestas, las hipótesis a validar, los riesgos críticos y los experimentos necesarios para aprender rápidamente y ajustar nuestra estrategia en función de los hallazgos. Esta estructura nos guiará en la creación de una solución eficaz y centrada en el usuario, maximizando nuestras oportunidades de éxito en el mercado.
 
-![LeanUxCanvas](src/images/lean-ux-canvas.jpg)
+![LeanUxCanvas](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/lean-ux-canvas.jpg)
 
 ## 1.3 Segmentos objetivo
 Según el Instituto Nacional de Estadística e Informática (INEI), cerca del 12% de las viviendas en áreas urbanas de Perú sufrieron robos o intentos de robo en años recientes. Sin embargo, solo el 17.9% de las víctimas denuncian estos delitos, lo que sugiere que el problema es más amplio de lo que reflejan las cifras oficiales​. Los métodos de los delincuentes son cada vez más variados. Entre las tácticas más comunes están el engaño a empleados domésticos, la simulación de ser trabajadores de empresas de servicios públicos, y los robos durante días feriados, cuando las casas suelen estar desocupadas​.
-![alt text](/src/images/estadistica-criminalidad-segmentos-objetivo.png)
+
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/estadistica-criminalidad-segmentos-objetivo.png)
 
 Por otro lado, los inmuebles a nivel de Lima Metropolitana y la Provincia Constitucional del Callao tambien fueron afectadas por robo o
 intento de robo en el año 2021. A nivel de ámbitos geográficos, el porcentaje de viviendas afectadas por robo o intento
 de robo fue mayor en la Provincia Constitucional del Callao (7,9%), que en Lima Metropolitana (7,2%).
 
-![alt text](/src/images/estadistica-criminalidad-lima-segmentos-objetivo.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/estadistica-criminalidad-lima-segmentos-objetivo.png)
 
 Por lo mencionado anteriormente es que hemos establecido 2 segmentos objetivos:
 
 ### Segmento objetivo 1: Dueños de Inmuebles
 Nuestro primer segmento objetivo son los propietarios de uno o varios inmuebles, tanto construidos como en proceso de construcción. Este grupo incluye personas que, al no contar con sistemas de seguridad adecuados, deben visitar o supervisar periódicamente sus propiedades para asegurarse de que no hayan sido vulneradas o víctimas de robos.
-![](/src/images/dueño-inmueble.jpg)
+
+![dueño-inmueble](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/due%C3%B1o-inmueble.jpg)
 
 ### Segmento objetivo 2: Empresas de Seguridad
 
 Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejorar y fortalecer sus servicios de videovigilancia mediante el uso de un software robusto y completo, diseñado para satisfacer plenamente las necesidades de sus clientes y optimizar la gestión de seguridad.
 
-![](/src/images/empresa-seguridad.jpg)
+![empresa-seguridad](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/empresa-seguridad.jpg)
 
 # CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
 ## 2.1 Competidores
 ### 2.1.1. Análisis competitivo
+### 2.1.2. Estrategias y tácticas frente a competidores
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
@@ -223,8 +393,10 @@ Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejor
 #### 4.1.1.3 Bounded Context Canvases
 ### 4.1.2. Context Mapping
 ### 4.1.3. Software Architecture
-#### 4.1.3.2. Software Architecture Container Level Diagrams
-#### 4.1.3.3. Software Architecture Deployment Diagrams
+#### 4.1.3.1. Software Architecture System Landscape Diagram
+#### 4.1.3.2. Software Architecture Context Level Diagram
+#### 4.1.3.3. Software Architecture Container Level Diagrams
+#### 4.1.3.4. Software Architecture Deployment Diagrams
 ## 4.2. Tactical-Level Domain-Driven Design
 ### 4.2.1. Bounded Context: Subscription & Payments context
 #### 4.2.1.1. Domain Layer
@@ -235,14 +407,16 @@ Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejor
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
-### 4.2.2. Bounded Context: Device
+### 4.2.2. Bounded Context: Device Context
 #### 4.2.2.1 Domain Layer
 #### 4.2.2.2 Interface Layer
 #### 4.2.2.3. Application Layer
+#### 4.2.2.4. Infrastructure Layer
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
-#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
-### 4.2.3. Bounded Context: Area
+#### 4.2.2.6.2. Bounded Context Database Design Diagram
+### 4.2.3. Bounded Context: Area Context
 #### 4.2.3.1. Domain Layer
 #### 4.2.3.2. Interface Layer
 #### 4.2.3.3. Application Layer
@@ -251,7 +425,7 @@ Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejor
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
-### 4.2.4. Bounded Context: User context
+### 4.2.4. Bounded Context: User Context
 #### 4.2.4.1. Domain Layer
 #### 4.2.4.2. Interface Layer
 #### 4.2.4.3. Application Layer
@@ -260,15 +434,24 @@ Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejor
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
-### 4.2.5. Bounded Context: Events context
-#### 4.2.4.1. Domain Layer
-#### 4.2.4.2. Interface Layer
-#### 4.2.4.3. Application Layer
-#### 4.2.4.4. Infrastructure Layer
-#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
-#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
-##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
-##### 4.2.4.6.2. Bounded Context Database Design Diagram
+### 4.2.5. Bounded Context: Events Context
+#### 4.2.5.1. Domain Layer
+#### 4.2.5.2. Interface Layer
+#### 4.2.5.3. Application Layer
+#### 4.2.5.4. Infrastructure Layer
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.5.6.2. Bounded Context Database Design Diagram
+### 4.2.6. Bounded Context: Notifications Context
+#### 4.2.6.1. Domain Layer
+#### 4.2.6.2. Interface Layer
+#### 4.2.6.3. Application Layer
+#### 4.2.6.4. Infrastructure Layer
+#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.6.6.2. Bounded Context Database Design Diagram
 
 # CAPÍTULO V: SOLUTION UI/UX DESIGN
 ## 5.1. Style Guidelines
@@ -289,6 +472,7 @@ Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejor
 ### 5.4.2. Applications Mock-ups
 ### 5.4.3. Applications User Flow Diagrams
 ## 5.5. Applications Prototyping
+
 # CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
 ## 6.1. Software Configuration Management
 ### 6.1.1. Software Development Environment Configuration
@@ -297,10 +481,29 @@ Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejor
 ### 6.1.4. Software Deployment Configuration
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
-#### 6.2.1.1. Sprint Planning 1
-#### 6.2.1.2. Sprint Backlog 1
+#### 6.2.1.1. Sprint Planning 3
+#### 6.2.1.2. Sprint Backlog 3
 #### 6.2.1.3. Development Evidence for Sprint Review
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 #### 6.2.1.5. Execution Evidence for Sprint Review
-#### 6.2.1.6. Software Deployment Evidence for Sprint Review
-#### 6.2.1.7. Team Collaboration Insights during Sprint
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review
+#### 6.2.1.8. Team Collaboration Insights during Sprint
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 3
+#### 6.2.2.2. Sprint Backlog 3
+#### 6.2.2.3. Development Evidence for Sprint Review
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review
+#### 6.2.2.5. Execution Evidence for Sprint Review
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+### 6.2.3. Sprint 3
+#### 6.2.3.1. Sprint Planning 3
+#### 6.2.3.2. Sprint Backlog 3
+#### 6.2.3.3. Development Evidence for Sprint Review
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review
+#### 6.2.3.5. Execution Evidence for Sprint Review
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review
+#### 6.2.3.8. Team Collaboration Insights during Sprint
