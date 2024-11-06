@@ -523,7 +523,8 @@ Las siguientes entidades representan los elementos fundamentales del contexto de
         - `registerStripeCustomer(): void` - Registra al cliente en Stripe.
     - **Relaciones**:
         - `1...n` con **Subscription**, ya que un cliente puede tener varias suscripciones activas.
-          ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customer-class-entity.png)
+          
+      ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customer-class-entity.png)
 
 2. **Subscription**
     - **Propósito**: Representa una suscripción de un cliente a un plan específico.
@@ -539,7 +540,8 @@ Las siguientes entidades representan los elementos fundamentales del contexto de
     - **Relaciones**:
         - `n...1` con **Customer**.
         - `1...n` con **Payment**.
-          ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscription-class-entity.png)
+      
+    ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscription-class-entity.png)
 
 3. **Payment**
     - **Propósito**: Esta entidad representa un pago asociado a una suscripción, aunque Stripe procesa los pagos, esta
@@ -582,32 +584,37 @@ Los siguientes objetos de valor encapsulan conceptos de negocio que se utilizan 
         - `name: string` - Nombre del plan.
         - `price: Money` - Precio del plan.
         - `durationInMonths: int` - Duración en meses.
-    - ![SubscriptionPlan Class](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionplan-class-vo.png)
+      
+   ![SubscriptionPlan Class](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionplan-class-vo.png)
 
 2. **Money**
     - **Propósito**: Encapsula el concepto de dinero, incluyendo el monto y la moneda.
     - **Atributos**:
         - `amount: double` - Monto de dinero.
         - `currency: Currency` - Moneda en la que se realiza el pago.
-    - ![Money Class](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/money-class-vo.png)
+      
+   ![Money Class](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/money-class-vo.png)
 
 3. **Currency (Enumeration)**
     - **Propósito**: Define las monedas permitidas en la aplicación.
     - **Valores**:
         - `USD`, `PEN`, `EUR`
-    - ![Currency Enumeration](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/currency-enum.png)
+      
+   ![Currency Enumeration](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/currency-enum.png)
 
 4. **SubscriptionStatus (Enumeration)**
     - **Propósito**: Define los posibles estados de una suscripción.
     - **Valores**:
         - `ACTIVE`, `CANCELED`, `PAST_DUE`, `INCOMPLETE`, `UNPAID`
-    - ![SubscriptionStatus Enumeration](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionstatus-enum.png)
+      
+   ![SubscriptionStatus Enumeration](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionstatus-enum.png)
 
 5. **PaymentStatus (Enumeration)**
     - **Propósito**: Define los posibles estados de un pago.
     - **Valores**:
         - `SUCCEEDED`, `FAILED`, `PENDING`, `CANCELED`
-    - ![PaymentStatus Enumeration](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/paymentstatus-enum.png)
+      
+   ![PaymentStatus Enumeration](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/paymentstatus-enum.png)
 
 ### Aggregates
 
@@ -624,7 +631,8 @@ permitiendo gestionar las operaciones de manera transaccional y coherente.
         - `cancelSubscription()`
         - `viewPayments()`
         - `createCustomerPortal()`
-    - ![CustomerAggregate Class](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customeraggregate.png)
+      
+   ![CustomerAggregate Class](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customeraggregate.png)
 
 ### Domain Services
 
@@ -637,7 +645,8 @@ creación, cancelación y renovación de las mismas.
         - `createSubscription()`
         - `cancelSubscription()`
         - `renewSubscription()`
-    - ![SubscriptionService](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionservice.png)
+      
+   ![SubscriptionService](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionservice.png)
 
 ## Reglas de Negocio
 
@@ -739,6 +748,7 @@ handlers y eventos identificados para este contexto:
     - **Métodos**:
         - `handle(ProcessPaymentCommand command): PaymentDto` - Procesa y guarda el pago.
     - **Diagrama**:
+   
       ![ProcessPaymentCommandHandler](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/processpayment-ch.png)
 
 3. **CancelSubscriptionCommandHandler**
@@ -749,6 +759,7 @@ handlers y eventos identificados para este contexto:
     - **Métodos**:
         - `handle(CancelSubscriptionCommand command): void` - Ejecuta la cancelación de la suscripción.
     - **Diagrama**:
+   
       ![CancelSubscriptionCommandHandler](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/cancelsubscription-ch.png)
 
 #### Event Handlers
@@ -761,6 +772,7 @@ handlers y eventos identificados para este contexto:
     - **Métodos**:
         - `handle(StripeEvent event): void` - Procesa los eventos de Stripe.
     - **Diagrama**:
+   
       ![StripeWebhookEventHandler](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/stripewebhook-eh.png)
 
 2. **SubscriptionExpiredEventHandler**
@@ -772,6 +784,7 @@ handlers y eventos identificados para este contexto:
         - `handle(SubscriptionExpiredEvent event): void` - Ejecuta las acciones necesarias ante la expiración de la
           suscripción.
     - **Diagrama**:
+   
       ![SubscriptionExpiredEventHandler](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscriptionexpired-eh.png)
 
 3. **PaymentFailedEventHandler**
@@ -782,6 +795,7 @@ handlers y eventos identificados para este contexto:
     - **Métodos**:
         - `handle(PaymentFailedEvent event): void` - Ejecuta la lógica ante el fallo de un pago.
     - **Diagrama**:
+   
       ![PaymentFailedEventHandler](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/paymentfailed-eh.png)
 
 #### Capabilities Cubiertos
