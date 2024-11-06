@@ -29,202 +29,202 @@ Mes y año: Noviembre 2024
 Ciclo: 2024-2
 
 ## Registro de Versiones del Informe
-| Versión | Autor            | Fecha       | Descripción de la modificación                                             |
-|---|---|---|---|
-| 1.0.    | Elvia Arteaga     | 18/08/2024  | Initial commit                                                             |
-| 1.0.    | Elvia Arteaga     | 18/08/2024  | Create report.md                                                           |
-| 1.0.    | Elvia Arteaga     | 18/08/2024  | Add Lean UX Process                                                        |
-| 1.1.    | Jamutaq Ortega    | 20/08/2024  | add: user persona for segment 1                                            |
-| 1.1.    | Jamutaq Ortega    | 22/08/2024  | add: empathy map for seg 1                                                 |
-| 1.1.    | Max Sabino        | 23/08/2024  | add profile                                                                |
-| 1.1.    | Max Sabino        | 23/08/2024  | Update interview design                                                    |
-| 1.1.    | Max Sabino        | 23/08/2024  | Add interview design                                                       |
-| 1.1.    | Jamutaq Ortega    | 27/08/2024  | add: needfinding section with user personas                                |
-| 1.1.    | Jamutaq Ortega    | 31/08/2024  | chore: reorder chapters of report                                          |
-| 1.2.    | Gabriela Nomberto | 01/09/2024  | Antecedentes y Problematica                                                |
-| 1.2.    | Gabriela Nomberto | 02/09/2024  | Estructura tb1                                                             |
-| 1.2.    | Gabriela Nomberto | 02/09/2024  | Analisis competitivo                                                       |
-| 1.3.    | Elvia Arteaga     | 05/09/2024  | Update Lean UX                                                             |
-| 1.4.    | Max Sabino        | 07/09/2024  | product-backlog                                                            |
-| 1.4.    | Max Sabino        | 07/09/2024  | UserStories fixed                                                          |
-| 1.4.    | Max Sabino        | 07/09/2024  | UserStories                                                                |
-| 1.4.    | Max Sabino        | 07/09/2024  | tacticas-estrategias                                                       |
-| 1.4.    | Max Sabino        | 07/09/2024  | entrevista3                                                                |
-| 1.4.    | Max Sabino        | 07/09/2024  | fixed images                                                               |
-| 1.4.    | Max Sabino        | 07/09/2024  | moved-images                                                               |
-| 1.4.    | Max Sabino        | 07/09/2024  | event_storming                                                             |
-| 1.4.    | Elvia Arteaga     | 07/09/2024  | Update Lean UX Canvas directory                                            |
-| 1.4.    | Elvia Arteaga     | 07/09/2024  | fix compatibility issues                                                   |
-| 1.4.    | Elvia Arteaga     | 07/09/2024  | add interview 1 and file reorganization                                    |
-| 1.4.    | Jamutaq Ortega    | 07/09/2024  | add: interview 1                                                           |
-| 1.4.    | Jamutaq Ortega    | 07/09/2024  | add: team member profiles in report.md                                     |
-| 1.4.    | Gabriela Nomberto | 07/09/2024  | Ubiquitous                                                                 |
-| 1.4.    | Dennis Quevedo    | 07/09/2024  | Perfil Quevedito                                                           |
-| 1.4.    | Dennis Quevedo    | 07/09/2024  | Descipcion de Startup 1.1                                                  |
-| 1.4.    | Dennis Quevedo    | 07/09/2024  | Descipcion de Startup                                                      |
-| 1.5.    | Elvia Arteaga     | 08/09/2024  | Update outcomes                                                            |
-| 1.5.    | Gabriela Nomberto | 08/09/2024  | tb1 final version                                                          |
-| 1.5.    | Dennis Quevedo    | 08/09/2024  | Notification                                                               |
-| 1.5.    | Gabriela Nomberto | 08/09/2024  | fix                                                                        |
-| 1.5.    | Dennis Quevedo    | 08/09/2024  | Impact map                                                                 |
-| 1.5.    | Gabriela Nomberto | 08/09/2024  | termino del tb1                                                            |
-| 1.5.    | Gabriela Nomberto | 08/09/2024  | bc-event                                                                   |
-| 1.5.    | Gabriela Nomberto | 08/09/2024  | fixed                                                                      |
-| 1.5.    | Max Sabino        | 08/09/2024  | diagram-db-contextdevices                                                  |
-| 1.5.    | Gabriela Nomberto | 08/09/2024  | bounded context user                                                       |
-| 1.5.    | Gabriela Nomberto | 08/09/2024  | fixed                                                                      |
-| 1.5.    | Gabriela Nomberto | 08/09/2024  | deployment: Mobile and IoT Style Guidelines                                |
-| 1.5.    | Gabriela Nomberto | 08/09/2024  | diagram                                                                    |
-| 1.5.    | Elvia Arteaga     | 08/09/2024  | Add Bounded Context Areas                                                  |
-| 1.5.    | Max Sabino        | 08/09/2024  | devices-context-final                                                      |
-| 1.5.    | Max Sabino        | 08/09/2024  | devices2                                                                   |
-| 1.5.    | Max Sabino        | 08/09/2024  | devices-fixed                                                              |
-| 1.5.    | Max Sabino        | 08/09/2024  | devices-context2                                                           |
-| 1.5.    | Max Sabino        | 08/09/2024  | devices-context1                                                           |
-| 1.5.    | Max Sabino        | 08/09/2024  | devices                                                                    |
-| 1.5.    | Dennis Quevedo    | 08/09/2024  | user-persona-empresa                                                       |
-| 1.5.    | Max Sabino        | 08/09/2024  | devices-context                                                            |
-| 1.5.    | Jamutaq Ortega    | 08/09/2024  | add: subscriptions bounded context                                         |
-| 1.5.    | Gabriela Nomberto | 08/09/2024  | context level diagram                                                      |
-| 1.5.    | Max Sabino        | 08/09/2024  | context-mapping                                                            |
-| 1.5.    | Gabriela Nomberto | 08/09/2024  | system landscape diagram                                                   |
-| 1.5.    | Elvia Arteaga     | 08/09/2024  | Add To Be                                                                  |
-| 1.5.    | Max Sabino        | 08/09/2024  | flow-messages                                                              |
-| 1.5.    | Dennis Quevedo    | 08/09/2024  | segmentos objetivo                                                         |
-| 1.5.    | Gabriela Nomberto | 08/09/2024  | entrevista 4 y 5                                                           |
-| 1.5.    | Jamutaq Ortega    | 08/09/2024  | add: context mapping diagrams                                              |
-| 2.0.    | Gabriela Nomberto | 09/09/2024  | estructura tp                                                              |
-| 2.0.    | Gabriela Nomberto | 09/09/2024  | Update report.md                                                           |
-| 2.1.    | Elvia Arteaga     | 17/09/2024  | add: photo elvia                                                           |
-| 2.1.    | Elvia Arteaga     | 17/09/2024  | fix: lean ux process                                                       |
-| 2.1.    | Jamutaq Ortega    | 17/09/2024  | add: photo                                                                 |
-| 2.1.    | Max Sabino        | 17/09/2024  | add:profileMax                                                             |
-| 2.1.    | Gabriela Nomberto | 17/09/2024  | Capitulo-VI                                                                |
-| 2.1.    | Gabriela Nomberto | 17/09/2024  | Capitulo-V                                                                 |
-| 2.1.    | Gabriela Nomberto | 17/09/2024  | Capitulo-IV                                                                |
-| 2.1.    | Gabriela Nomberto | 17/09/2024  | fix                                                                        |
-| 2.1.    | Elvia Arteaga     | 17/09/2024  | Update team profile structure                                              |
-| 2.1.    | Gabriela Nomberto | 17/09/2024  | Capitulo-III                                                               |
-| 2.1.    | Elvia Arteaga     | 17/09/2024  | Update team profile structure                                              |
-| 2.1.    | Gabriela Nomberto | 17/09/2024  | Capitulo-II                                                                |
-| 2.1.    | Gabriela Nomberto | 17/09/2024  | student outcome                                                            |
-| 2.1.    | Gabriela Nomberto | 17/09/2024  | Capitulo-I                                                                 |
-| 2.2.    | Elvia Arteaga     | 18/09/2024  | fix: to be for both target segments                                        |
-| 2.2.    | Elvia Arteaga     | 18/09/2024  | add: to be for both target segments                                        |
-| 2.2.    | Elvia Arteaga     | 18/09/2024  | fix: interview 2                                                           |
-| 2.2.    | Elvia Arteaga     | 18/09/2024  | add: interview 2                                                           |
-| 2.2.    | Elvia Arteaga     | 18/09/2024  | add: interview 2                                                           |
-| 2.2.    | Jamutaq Ortega    | 19/09/2024  | feat: Add user interviews and personas                                     |
-| 2.2.    | Jamutaq Ortega    | 19/09/2024  | add: user journey mapping and empathy mapping for user personas            |
-| 2.2.    | Jamutaq Ortega    | 19/09/2024  | add: user personas and user task matrix                                    |
-| 2.2.    | Gabriela Nomberto | 20/09/2024  | add:photo-gaby                                                             |
-| 2.3.    | Jamutaq Ortega    | 21/09/2024  | fix: enumeration                                                           |
-| 2.3.    | Jamutaq Ortega    | 21/09/2024  | refactor: Add application layer for subscriptions context and refactor...  |
-| 2.3.    | Jamutaq Ortega    | 21/09/2024  | add: application layer 4 subscriptions context                             |
-| 2.3.    | Jamutaq Ortega    | 21/09/2024  | refactor: interface layer 4 Subscription & Payments context                |
-| 2.3.    | Jamutaq Ortega    | 21/09/2024  | refactor: Subscription & Payments context                                  |
-| 2.3.    | Gabriela Nomberto | 21/09/2024  | fix:software architecture                                                  |
-| 2.3.    | Elvia Arteaga     | 21/09/2024  | add: organization systems & navigation systems                             |
-| 2.3.    | Elvia Arteaga     | 21/09/2024  | add: bounded contextx areas                                                |
-| 2.3.    | Gabriela Nomberto | 21/09/2024  | fix:competidores                                                           |
-| 2.3.    | Gabriela Nomberto | 21/09/2024  | fix: analisis competitivo                                                  |
-| 2.3.    | Gabriela Nomberto | 21/09/2024  | fix: antecedentes-problematica                                             |
-| 2.3.    | Gabriela Nomberto | 21/09/2024  | fix:solution-profile                                                       |
-| 2.3.    | Jamutaq Ortega    | 21/09/2024  | add: context mappings                                                      |
-| 2.4.    | Gabriela Nomberto | 22/09/2024  | fix: bc User                                                               |
-| 2.4.    | Jamutaq Ortega    | 22/09/2024  | refactor: Update image reference in PlanController                         |
-| 2.4.    | Gabriela Nomberto | 22/09/2024  | fix: ubiquitous                                                            |
-| 2.4.    | Gabriela Nomberto | 23/09/2024  | fix:entrevista 4                                                           |
-| 2.4.    | Gabriela Nomberto | 23/09/2024  | fix:entrevistas 4 y 5                                                      |
-| 2.4.    | Gabriela Nomberto | 23/09/2024  | fix: Bounded Context Events                                                |
-| 2.4.    | Jamutaq Ortega    | 24/09/2024  | refactor: Update EventStorming diagrams and message flow diagrams          |
-| 2.4.    | Dennis Quevedo    | 24/09/2024  | fix:segmentos objetivo                                                     |
-| 2.4.    | Dennis Quevedo    | 24/09/2024  | Segmentos Objetivo Update 2                                                |
-| 2.4.    | Dennis Quevedo    | 24/09/2024  | Segmentos Objetivo Update                                                  |
-| 2.4.    | Dennis Quevedo    | 24/09/2024  | Segmentos Objetivo                                                         |
-| 2.5.    | Elvia Arteaga     | 27/09/2024  | Update report.md                                                           |
-| 2.5.    | Elvia Arteaga     | 27/09/2024  | Update report.md                                                           |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: outcome                                                               |
-| 2.5.    | Jamutaq Ortega    | 27/09/2024  | add: s.o                                                                   |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add:sprint1                                                                |
-| 2.5.    | Elvia Arteaga     | 27/09/2024  | add: student outcomes                                                      |
-| 2.5.    | Jamutaq Ortega    | 27/09/2024  | chore: remove p.                                                           |
-| 2.5.    | Max Sabino        | 27/09/2024  | add: outcome Max                                                           |
-| 2.5.    | Max Sabino        | 27/09/2024  | add: web mock up                                                           |
-| 2.5.    | Elvia Arteaga     | 27/09/2024  | add intro                                                                  |
-| 2.5.    | Elvia Arteaga     | 27/09/2024  | fix: structure                                                             |
-| 2.5.    | Jamutaq Ortega    | 27/09/2024  | add: cap 6                                                                 |
-| 2.5.    | Elvia Arteaga     | 27/09/2024  | add: software development environment configuration                        |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | fix: image wireframe profile                                               |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | fix: user flow diagrams mobile                                             |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: user flow diagrams mobile                                             |
-| 2.5.    | Dennis Quevedo    | 27/09/2024  | fix:Mobile Application Wireflow                                            |
-| 2.5.    | Dennis Quevedo    | 27/09/2024  | fix:Mobile Application Wireflow                                            |
-| 2.5.    | Elvia Arteaga     | 27/09/2024  | add: c4 areas                                                              |
-| 2.5.    | Dennis Quevedo    | 27/09/2024  | add:Mobile Application Wireflow                                            |
-| 2.5.    | Max Sabino        | 27/09/2024  | add: webFrames                                                             |
-| 2.5.    | Max Sabino        | 27/09/2024  | add: wireframes web                                                        |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: software deployment configuration                                     |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: SEO Tags and Meta Tags                                                |
-| 2.5.    | Elvia Arteaga     | 27/09/2024  | add: intro to be                                                           |
-| 2.5.    | Dennis Quevedo    | 27/09/2024  | add:Labeling Systems                                                       |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: general style guidelines                                              |
-| 2.5.    | Dennis Quevedo    | 27/09/2024  | add:Web                                                                    |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: description style guidelines                                          |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: application mockup app movil                                          |
-| 2.5.    | Dennis Quevedo    | 27/09/2024  | fix:needfinding                                                            |
-| 2.5.    | Jamutaq Ortega    | 27/09/2024  | refactor: Update Bounded Context Subscription & Payments component diagrams|
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: mobile applications wireframes                                        |
-| 2.5.    | Max Sabino        | 27/09/2024  | add: context devices 3.0                                                   |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: description applications ux/ui design                                 |
-| 2.5.    | Max Sabino        | 27/09/2024  | add: c4-devices                                                            |
-| 2.5.    | Max Sabino        | 27/09/2024  | add: update impact maping                                                  |
-| 2.5.    | Max Sabino        | 27/09/2024  | add: product backlog 2.0                                                   |
-| 2.5.    | Max Sabino        | 27/09/2024  | add: user stories update                                                   |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: Landing Page Mockup                                                   |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: Landing Page Wireframe                                                |
-| 2.5.    | Gabriela Nomberto | 27/09/2024  | add: description Landing Page                                              |
-| 2.5.    | Jamutaq Ortega    | 27/09/2024  | add: 6.1.3                                                                 |
-| 2.5.    | Jamutaq Ortega    | 27/09/2024  | add: bc1 diagrams                                                          |
-| 2.5.    | Elvia Arteaga     | 28/09/2024  | Update README.md                                                           |
-| 2.5.    | Elvia Arteaga     | 28/09/2024  | Update report.md                                                           |
-| 2.5.    | Elvia Arteaga     | 28/09/2024  | Update report.md                                                           |
-| 2.5.    | Elvia Arteaga     | 28/09/2024  | Update report.md                                                           |
-| 3.0.    | Max Sabino        | 02/11/2024  | Update interview desing report.md                                          |
-| 3.0.    | Max Sabino        | 02/11/2024  | add interview desing report.md                                             |
-| 3.0.    | Max Sabino        | 02/11/2024  | add sprint 2 and sprint 3 report.md                                        |
-| 3.1.    | Max Sabino        | 02/11/2024  | Update user story and product backlog report.md                            |
-| 3.1.    | Dennis Quevedo    | 03/11/2024  | add: outcomes                                                              |
-| 3.1.    | Gabriela Nomberto | 03/11/2024  | add: about the product and the team                                        |
-| 3.1.    | Max Sabino        | 03/11/2024  | Update report.md                                                           |
-| 3.1.    | Elvia Arteaga     | 03/11/2024  | add image                                                                  |
-| 3.1.    | Elvia Arteaga     | 03/11/2024  | delete image                                                               |
-| 3.1.    | Dennis Quevedo    | 03/11/2024  | fix: sprint 3                                                              |
-| 3.1.    | Gabriela Nomberto | 03/11/2024  | add: spring 3                                                              |
-| 3.1.    | Elvia Arteaga     | 03/11/2024  | Student outcomes.md                                                        |
-| 3.1.    | Gabriela Nomberto | 03/11/2024  | add: conclusions                                                           |
-| 3.1.    | Max Sabino        | 03/11/2024  | Update report.md                                                           |
-| 3.1.    | Max Sabino        | 03/11/2024  | add: outcome max                                                           |
-| 3.1.    | Max Sabino        | 03/11/2024  | add picture trello                                                         |
-| 3.1.    | Max Sabino        | 03/11/2024  | add: update                                                                |
-| 3.1.    | Max Sabino        | 03/11/2024  | add testing and interview2                                                 |
-| 3.1.    | Max Sabino        | 03/11/2024  | Add sprint planing report.md                                               |
-| 3.1.    | Elvia Arteaga     | 03/11/2024  | add: validation interview 1                                                |
-| 3.1.    | Max Sabino        | 03/11/2024  | Add sprint planing report.md                                               |
-| 3.1.    | Max Sabino        | 03/11/2024  | add testing and interview2                                                 |
-| 3.1.    | Max Sabino        | 03/11/2024  | add: update                                                                |
-| 3.1.    | Max Sabino        | 03/11/2024  | add picture trello                                                         |
-| 3.1.    | Max Sabino        | 03/11/2024  | add: outcome max                                                           |
-| 3.1.    | Max Sabino        | 03/11/2024  | Update report.md                                                           |
-| 3.1.    | Gabriela Nomberto | 03/11/2024  | add: conclusions                                                           |
-| 3.1.    | Elvia Arteaga     | 03/11/2024  | Student outcomes.md                                                        |
-| 3.1.    | Gabriela Nomberto | 03/11/2024  | add: spring 3                                                              |
-| 3.1.    | Dennis Quevedo    | 03/11/2024  | fix: sprint 3                                                              |
-| 3.1.    | Elvia Arteaga     | 03/11/2024  | delete image                                                               |
-| 3.1.    | Elvia Arteaga     | 03/11/2024  | add image                                                                  |
-| 3.1.    | Max Sabino        | 03/11/2024  | Update report.md                                                           |
-| 3.1.    | Gabriela Nomberto | 03/11/2024  | add: about the product and the team                                        |
-| 3.1.    | Dennis Quevedo    | 03/11/2024  | add: outcomes                                                              |
+| Versión | Autor             | Fecha      | Descripción de la modificación                                             |
+|---------|-------------------|------------|----------------------------------------------------------------------------|
+| 1.0.    | Elvia Arteaga     | 18/08/2024 | Initial commit                                                             |
+| 1.0.    | Elvia Arteaga     | 18/08/2024 | Create report.md                                                           |
+| 1.0.    | Elvia Arteaga     | 18/08/2024 | Add Lean UX Process                                                        |
+| 1.1.    | Jamutaq Ortega    | 20/08/2024 | add: user persona for segment 1                                            |
+| 1.1.    | Jamutaq Ortega    | 22/08/2024 | add: empathy map for seg 1                                                 |
+| 1.1.    | Max Sabino        | 23/08/2024 | add profile                                                                |
+| 1.1.    | Max Sabino        | 23/08/2024 | Update interview design                                                    |
+| 1.1.    | Max Sabino        | 23/08/2024 | Add interview design                                                       |
+| 1.1.    | Jamutaq Ortega    | 27/08/2024 | add: needfinding section with user personas                                |
+| 1.1.    | Jamutaq Ortega    | 31/08/2024 | chore: reorder chapters of report                                          |
+| 1.2.    | Gabriela Nomberto | 01/09/2024 | Antecedentes y Problematica                                                |
+| 1.2.    | Gabriela Nomberto | 02/09/2024 | Estructura tb1                                                             |
+| 1.2.    | Gabriela Nomberto | 02/09/2024 | Analisis competitivo                                                       |
+| 1.3.    | Elvia Arteaga     | 05/09/2024 | Update Lean UX                                                             |
+| 1.4.    | Max Sabino        | 07/09/2024 | product-backlog                                                            |
+| 1.4.    | Max Sabino        | 07/09/2024 | UserStories fixed                                                          |
+| 1.4.    | Max Sabino        | 07/09/2024 | UserStories                                                                |
+| 1.4.    | Max Sabino        | 07/09/2024 | tacticas-estrategias                                                       |
+| 1.4.    | Max Sabino        | 07/09/2024 | entrevista3                                                                |
+| 1.4.    | Max Sabino        | 07/09/2024 | fixed images                                                               |
+| 1.4.    | Max Sabino        | 07/09/2024 | moved-images                                                               |
+| 1.4.    | Max Sabino        | 07/09/2024 | event_storming                                                             |
+| 1.4.    | Elvia Arteaga     | 07/09/2024 | Update Lean UX Canvas directory                                            |
+| 1.4.    | Elvia Arteaga     | 07/09/2024 | fix compatibility issues                                                   |
+| 1.4.    | Elvia Arteaga     | 07/09/2024 | add interview 1 and file reorganization                                    |
+| 1.4.    | Jamutaq Ortega    | 07/09/2024 | add: interview 1                                                           |
+| 1.4.    | Jamutaq Ortega    | 07/09/2024 | add: team member profiles in report.md                                     |
+| 1.4.    | Gabriela Nomberto | 07/09/2024 | Ubiquitous                                                                 |
+| 1.4.    | Dennis Quevedo    | 07/09/2024 | Perfil Quevedito                                                           |
+| 1.4.    | Dennis Quevedo    | 07/09/2024 | Descripción de Startup 1.1                                                 |
+| 1.4.    | Dennis Quevedo    | 07/09/2024 | Descripción de Startup                                                     |
+| 1.5.    | Elvia Arteaga     | 08/09/2024 | Update outcomes                                                            |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | tb1 final version                                                          |
+| 1.5.    | Dennis Quevedo    | 08/09/2024 | Notification                                                               |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | fix                                                                        |
+| 1.5.    | Dennis Quevedo    | 08/09/2024 | Impact map                                                                 |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | termino del tb1                                                            |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | bc-event                                                                   |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | fixed                                                                      |
+| 1.5.    | Max Sabino        | 08/09/2024 | diagram-db-contextdevices                                                  |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | bounded context user                                                       |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | fixed                                                                      |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | deployment: Mobile and IoT Style Guidelines                                |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | diagram                                                                    |
+| 1.5.    | Elvia Arteaga     | 08/09/2024 | Add Bounded Context Areas                                                  |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices-context-final                                                      |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices2                                                                   |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices-fixed                                                              |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices-context2                                                           |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices-context1                                                           |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices                                                                    |
+| 1.5.    | Dennis Quevedo    | 08/09/2024 | user-persona-empresa                                                       |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices-context                                                            |
+| 1.5.    | Jamutaq Ortega    | 08/09/2024 | add: subscriptions bounded context                                         |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | context level diagram                                                      |
+| 1.5.    | Max Sabino        | 08/09/2024 | context-mapping                                                            |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | system landscape diagram                                                   |
+| 1.5.    | Elvia Arteaga     | 08/09/2024 | Add To Be                                                                  |
+| 1.5.    | Max Sabino        | 08/09/2024 | flow-messages                                                              |
+| 1.5.    | Dennis Quevedo    | 08/09/2024 | segmentos objetivos                                                        |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | entrevista 4 y 5                                                           |
+| 1.5.    | Jamutaq Ortega    | 08/09/2024 | add: context mapping diagrams                                              |
+| 2.0.    | Gabriela Nomberto | 09/09/2024 | estructura tp                                                              |
+| 2.0.    | Gabriela Nomberto | 09/09/2024 | Update report.md                                                           |
+| 2.1.    | Elvia Arteaga     | 17/09/2024 | add: photo elvia                                                           |
+| 2.1.    | Elvia Arteaga     | 17/09/2024 | fix: lean ux process                                                       |
+| 2.1.    | Jamutaq Ortega    | 17/09/2024 | add: photo                                                                 |
+| 2.1.    | Max Sabino        | 17/09/2024 | add:profileMax                                                             |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-VI                                                                |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-V                                                                 |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-IV                                                                |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | fix                                                                        |
+| 2.1.    | Elvia Arteaga     | 17/09/2024 | Update team profile structure                                              |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-III                                                               |
+| 2.1.    | Elvia Arteaga     | 17/09/2024 | Update team profile structure                                              |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-II                                                                |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | student outcome                                                            |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-I                                                                 |
+| 2.2.    | Elvia Arteaga     | 18/09/2024 | fix: to be for both target segments                                        |
+| 2.2.    | Elvia Arteaga     | 18/09/2024 | add: to be for both target segments                                        |
+| 2.2.    | Elvia Arteaga     | 18/09/2024 | fix: interview 2                                                           |
+| 2.2.    | Elvia Arteaga     | 18/09/2024 | add: interview 2                                                           |
+| 2.2.    | Elvia Arteaga     | 18/09/2024 | add: interview 2                                                           |
+| 2.2.    | Jamutaq Ortega    | 19/09/2024 | feat: Add user interviews and personas                                     |
+| 2.2.    | Jamutaq Ortega    | 19/09/2024 | add: user journey mapping and empathy mapping for user personas            |
+| 2.2.    | Jamutaq Ortega    | 19/09/2024 | add: user personas and user task matrix                                    |
+| 2.2.    | Gabriela Nomberto | 20/09/2024 | add:photo-gaby                                                             |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024 | fix: enumeration                                                           |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024 | refactor: Add application layer for subscriptions context and refactor...  |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024 | add: application layer 4 subscriptions context                             |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024 | refactor: interface layer 4 Subscription & Payments context                |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024 | refactor: Subscription & Payments context                                  |
+| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix:software architecture                                                  |
+| 2.3.    | Elvia Arteaga     | 21/09/2024 | add: organization systems & navigation systems                             |
+| 2.3.    | Elvia Arteaga     | 21/09/2024 | add: bounded context areas                                                 |
+| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix:competidores                                                           |
+| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix: analisis competitivo                                                  |
+| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix: antecedentes-problematica                                             |
+| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix:solution-profile                                                       |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024 | add: context mappings                                                      |
+| 2.4.    | Gabriela Nomberto | 22/09/2024 | fix: bc User                                                               |
+| 2.4.    | Jamutaq Ortega    | 22/09/2024 | refactor: Update image reference in PlanController                         |
+| 2.4.    | Gabriela Nomberto | 22/09/2024 | fix: ubiquitous                                                            |
+| 2.4.    | Gabriela Nomberto | 23/09/2024 | fix:entrevista 4                                                           |
+| 2.4.    | Gabriela Nomberto | 23/09/2024 | fix:entrevistas 4 y 5                                                      |
+| 2.4.    | Gabriela Nomberto | 23/09/2024 | fix: Bounded Context Events                                                |
+| 2.4.    | Jamutaq Ortega    | 24/09/2024 | refactor: Update EventStorming diagrams and message flow diagrams          |
+| 2.4.    | Dennis Quevedo    | 24/09/2024 | fix:segmentos objetivo                                                     |
+| 2.4.    | Dennis Quevedo    | 24/09/2024 | Segmentos Objetivo Update 2                                                |
+| 2.4.    | Dennis Quevedo    | 24/09/2024 | Segmentos Objetivo Update                                                  |
+| 2.4.    | Dennis Quevedo    | 24/09/2024 | Segmentos Objetivo                                                         |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | Update report.md                                                           |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | Update report.md                                                           |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: outcome                                                               |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024 | add: s.o                                                                   |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add:sprint1                                                                |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | add: student outcomes                                                      |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024 | chore: remove p.                                                           |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: outcome Max                                                           |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: web mock up                                                           |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | add intro                                                                  |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | fix: structure                                                             |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024 | add: cap 6                                                                 |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | add: software development environment configuration                        |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | fix: image wireframe profile                                               |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | fix: user flow diagrams mobile                                             |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: user flow diagrams mobile                                             |
+| 2.5.    | Dennis Quevedo    | 27/09/2024 | fix:Mobile Application Wireflow                                            |
+| 2.5.    | Dennis Quevedo    | 27/09/2024 | fix:Mobile Application Wireflow                                            |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | add: c4 areas                                                              |
+| 2.5.    | Dennis Quevedo    | 27/09/2024 | add:Mobile Application Wireflow                                            |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: webFrames                                                             |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: wireframes web                                                        |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: software deployment configuration                                     |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: SEO Tags and Meta Tags                                                |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | add: intro to be                                                           |
+| 2.5.    | Dennis Quevedo    | 27/09/2024 | add:Labeling Systems                                                       |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: general style guidelines                                              |
+| 2.5.    | Dennis Quevedo    | 27/09/2024 | add:Web                                                                    |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: description style guidelines                                          |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: application mockup app movil                                          |
+| 2.5.    | Dennis Quevedo    | 27/09/2024 | fix:needfinding                                                            |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024 | refactor: Update Bounded Context Subscription & Payments component diagrams |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: mobile applications wireframes                                        |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: context devices 3.0                                                   |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: description applications ux/ui design                                 |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: c4-devices                                                            |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: update impact maping                                                  |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: product backlog 2.0                                                   |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: user stories update                                                   |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: Landing Page Mockup                                                   |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: Landing Page Wireframe                                                |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: description Landing Page                                              |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024 | add: 6.1.3                                                                 |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024 | add: bc1 diagrams                                                          |
+| 2.5.    | Elvia Arteaga     | 28/09/2024 | Update README.md                                                           |
+| 2.5.    | Elvia Arteaga     | 28/09/2024 | Update report.md                                                           |
+| 2.5.    | Elvia Arteaga     | 28/09/2024 | Update report.md                                                           |
+| 2.5.    | Elvia Arteaga     | 28/09/2024 | Update report.md                                                           |
+| 3.0.    | Max Sabino        | 02/11/2024 | Update interview desing report.md                                          |
+| 3.0.    | Max Sabino        | 02/11/2024 | add interview desing report.md                                             |
+| 3.0.    | Max Sabino        | 02/11/2024 | add sprint 2 and sprint 3 report.md                                        |
+| 3.1.    | Max Sabino        | 02/11/2024 | Update user story and product backlog report.md                            |
+| 3.1.    | Dennis Quevedo    | 03/11/2024 | add: outcomes                                                              |
+| 3.1.    | Gabriela Nomberto | 03/11/2024 | add: about the product and the team                                        |
+| 3.1.    | Max Sabino        | 03/11/2024 | Update report.md                                                           |
+| 3.1.    | Elvia Arteaga     | 03/11/2024 | add image                                                                  |
+| 3.1.    | Elvia Arteaga     | 03/11/2024 | delete image                                                               |
+| 3.1.    | Dennis Quevedo    | 03/11/2024 | fix: sprint 3                                                              |
+| 3.1.    | Gabriela Nomberto | 03/11/2024 | add: spring 3                                                              |
+| 3.1.    | Elvia Arteaga     | 03/11/2024 | Student outcomes.md                                                        |
+| 3.1.    | Gabriela Nomberto | 03/11/2024 | add: conclusions                                                           |
+| 3.1.    | Max Sabino        | 03/11/2024 | Update report.md                                                           |
+| 3.1.    | Max Sabino        | 03/11/2024 | add: outcome max                                                           |
+| 3.1.    | Max Sabino        | 03/11/2024 | add picture trello                                                         |
+| 3.1.    | Max Sabino        | 03/11/2024 | add: update                                                                |
+| 3.1.    | Max Sabino        | 03/11/2024 | add testing and interview2                                                 |
+| 3.1.    | Max Sabino        | 03/11/2024 | Add sprint planing report.md                                               |
+| 3.1.    | Elvia Arteaga     | 03/11/2024 | add: validation interview 1                                                |
+| 3.1.    | Max Sabino        | 03/11/2024 | Add sprint planing report.md                                               |
+| 3.1.    | Max Sabino        | 03/11/2024 | add testing and interview2                                                 |
+| 3.1.    | Max Sabino        | 03/11/2024 | add: update                                                                |
+| 3.1.    | Max Sabino        | 03/11/2024 | add picture trello                                                         |
+| 3.1.    | Max Sabino        | 03/11/2024 | add: outcome max                                                           |
+| 3.1.    | Max Sabino        | 03/11/2024 | Update report.md                                                           |
+| 3.1.    | Gabriela Nomberto | 03/11/2024 | add: conclusions                                                           |
+| 3.1.    | Elvia Arteaga     | 03/11/2024 | Student outcomes.md                                                        |
+| 3.1.    | Gabriela Nomberto | 03/11/2024 | add: spring 3                                                              |
+| 3.1.    | Dennis Quevedo    | 03/11/2024 | fix: sprint 3                                                              |
+| 3.1.    | Elvia Arteaga     | 03/11/2024 | delete image                                                               |
+| 3.1.    | Elvia Arteaga     | 03/11/2024 | add image                                                                  |
+| 3.1.    | Max Sabino        | 03/11/2024 | Update report.md                                                           |
+| 3.1.    | Gabriela Nomberto | 03/11/2024 | add: about the product and the team                                        |
+| 3.1.    | Dennis Quevedo    | 03/11/2024 | add: outcomes                                                              |
 
 ## Project Report Collaboration Insights
 
@@ -288,8 +288,6 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3 Segmentos objetivo](#13-segmentos-objetivo)
-    - [Segmento objetivo 1: Dueños de Inmuebles](#segmento-objetivo-1-dueños-de-inmuebles)
-    - [Segmento objetivo 2: Empresas de Seguridad](#segmento-objetivo-2-empresas-de-seguridad)
 - [CAPÍTULO II: REQUERIMENTS ELICITATION \& ANALYSIS](#capítulo-ii-requeriments-elicitation--analysis)
   - [2.1 Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -404,8 +402,8 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
   - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
     - [6.2.1. Sprint 1](#621-sprint-1)
-      - [6.2.1.1. Sprint Planning 3](#6211-sprint-planning-3)
-      - [6.2.1.2. Sprint Backlog 3](#6212-sprint-backlog-3)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-3)
+      - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-3)
       - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
       - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
       - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
@@ -413,8 +411,8 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
       - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
     - [6.2.2. Sprint 2](#622-sprint-2)
-      - [6.2.2.1. Sprint Planning 3](#6221-sprint-planning-3)
-      - [6.2.2.2. Sprint Backlog 3](#6222-sprint-backlog-3)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-3)
+      - [6.2.2.2. Sprint Backlog 2](#6222-sprint-backlog-3)
       - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
       - [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-evidence-for-sprint-review)
       - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
@@ -433,10 +431,10 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 
 
 # Student Outcome
-| Criterio específico | Acciones realizadas | Conclusiones |
-|----------------------|----------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **TB1:** **Max Dayson Sabino Arostegui:** Colabore en todos los capitulos con los puntos: estrategia y tácticas frente a competidores, product backlog, diseños de entrevista, registro de entrevista y con el bounded context devices. Todo esto me ayudó a fomentar el trabajo en equipo **Gabriela Nomberto Ramos** Colabore en todos los capitulos tanto como la definicion y focalziacion del alcance de nuestro producto asi como las arquitecturas, modelos y mejoras continuas **Elvia Arteaga Cruz** Con el equipo trabajamos de manera colaborativa para organizarnos y repartir equitativamente las tareas que podían realizarse de manera individual, pero también para juntarnos en tareas grupales, como el event storming. **Dennis Quevedo Yucra** Colaboré en todos los capitulos tanto como la definicion de los segmentos objetivos asi como las user person, impact map, y arquitecturas **Jamutaq Ortega Vélez** Colaboré en todos capítulos y la comunicación y organización con el equipo se mantuvo constante y buena durante todo el desarrollo del entregable. **TP1:** **Max Dayson Sabino Arostegui:** Colabore en la creación del diseño de la aplicación web, realize los wireframes y mockups, asimismo realize el sprint1 en la parte de creación para la sección eventos **Elvia Arteaga Cruz** Colaboré en la redacción de organization y navigation systems, así como en la recopilación de las herramientas utilizadas en el proyecto hasta esta entrega. En la parte de desarrollo, colaboré en la implementación del frontend de la página web y de la fake api con json server. **Jamutaq Ortega Vélez** Me encargué de elaborar y colaborar con mi equipo el desarrollo de la aplicación web junto con la implementación de componentes y vistas principales. **Dennis Quevedo Yucra** Me encargue de la creacion de mockups y Wireflow de la Aplicacion Mobile y tambien corregi los puntos que el profesor nos observo en la primera entrega **TB2:** **Max Dayson Sabino Arostegui:** Elabore el sprint planning 2 y 3 en conjunto con el profuct backlog 2 y 3. Asimismo apoye en la elaboración de los tableros en Trello, todo esto me ayudó a mejorar mis habilidades de liderazgo **Elvia Arteaga Cruz:** Colaboré principalmente con el desarrollo de la aplicación web, aunque también apoyé en los otros productos del proyecto. Esta entrega se centró en presentar un MVP con miras a mejoras futuras. **Jamutaq Ortega Vélez** --escribe aqui--. **Dennis Quevedo Yucra** Elabore el sprint planning 3 y colabore en conjunto con mi grupo a mejoras futuras **Gabriela Nomberto Ramos** Elabore el sprint planning 3 y colabore en conjunto con mi grupo a mejoras futuras | Concluimos que las reuniones y las mejoras continuas entre todos nos ayuda a mejorar el reporte de trabajo y poder colaborar todo de forma equitativa |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **TB1:** **Max Dayson Sabino Arostegui:** Durante las reuniones en el aula planificamos las tareas y definimos las metas. En cada reunión revisamos el avance para recalcar los objetivos **Gabriela Nomberto Ramos** Tuvimos reuniones en el salón de clase el cual nos ayudo mucho a definir lo que cada uno debe de hacer, asimismo por medio de un grupo de WhatsApp pudimos absolver algunas dudas **Elvia Arteaga Cruz** El tiempo brindado por el profesor durante las horas de clase para organizar el proyecto fue de mucha utilidad para el desarrollo del mismo. Ese tiempo fue aprovechado para organizar las tareas individuales y realizar las tareas grupales. Además, contamos con medios digitales para la comunicación continua, tales como Whatsapp y Discord. **Dennis Quevedo Yucra** Durante las reuniones en el salón de clase el cual nos definimos y consultamos al profesor muchas dudas que teniamos y tambien se definió lo que cada uno debe de hacer, asimismo por medio de un grupo de WhatsApp pudimos absolver algunas dudas como tambien en discord **Jamutaq Ortega Vélez** Trabajamos de manera colaborativa en todo momento. Planificamos nuestros avances y tuvimos tiempo de hacer correcciones también. **TP1:** **Max Dayson Sabino Arostegui:** Realize el sprint 1 en colaboración con los demás mientros del equipo, me conecte a las reuniones por discord y fomente el trabajo en equipo. **Elvia Arteaga Cruz** Tuvimos reunines mediante discord de manera frecuente para coordinar los puntos a avanzar. Esto nos ayudó a organizarnos en las tareas individuales y grupales. **Jamutaq Ortega Vélez** Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. **Gabriela Nomberto** Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. **Dennis Quevedo Yucra** Coordinamos como equipo y primero acordamos corregir las observaciones previas. Con Gabriela Nomberto nos pusimos de acuerdo para poder realizar los mockups de la landing page y demas apartados. **TB2:** **Max Dayson Sabino Arostegui:** Realice la elaboración de la vista eventos en el fronted y la elaboración de los end points para los events. Asimismo, estuve presente en las reuniones presenciales, esto nos ayudo a trabajar colaborativamente **Elvia Arteaga Cruz:** Durante estos dos sprints el equipo optó por realizar reuniones presenciales una vez por semana para verificar avances y consolidar ideas. **Jamutaq Ortega Vélez** --escribe aqui--. **Dennis Quevedo Yucra** Configure el app movil junto con partes del app web además hice mejoras en el documento **Gabriela Nomberto Ramos** Hice mejoras en el documento asi como en la landing page además ayude en avanzar el edge api y el wokwi | Para este apartado, todos aportamos en la estructuracion y llenado del reporte, trabajando asi en grupo y entendiendonos entre todos |
+| Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Conclusiones                                                                                                                                          |
+|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **TB1:** **Max Dayson Sabino Arostegui:** Colabore en todos los capitulos con los puntos: estrategia y tácticas frente a competidores, product backlog, diseños de entrevista, registro de entrevista y con el bounded context devices. Todo esto me ayudó a fomentar el trabajo en equipo **Gabriela Nomberto Ramos** Colabore en todos los capitulos tanto como la definicion y focalziacion del alcance de nuestro producto asi como las arquitecturas, modelos y mejoras continuas **Elvia Arteaga Cruz** Con el equipo trabajamos de manera colaborativa para organizarnos y repartir equitativamente las tareas que podían realizarse de manera individual, pero también para juntarnos en tareas grupales, como el event storming. **Dennis Quevedo Yucra** Colaboré en todos los capitulos tanto como la definicion de los segmentos objetivos asi como las user person, impact map, y arquitecturas **Jamutaq Ortega Vélez** Colaboré en todos capítulos y la comunicación y organización con el equipo se mantuvo constante y buena durante todo el desarrollo del entregable. **TP1:** **Max Dayson Sabino Arostegui:** Colabore en la creación del diseño de la aplicación web, realize los wireframes y mockups, asimismo realize el sprint1 en la parte de creación para la sección eventos **Elvia Arteaga Cruz** Colaboré en la redacción de organization y navigation systems, así como en la recopilación de las herramientas utilizadas en el proyecto hasta esta entrega. En la parte de desarrollo, colaboré en la implementación del frontend de la página web y de la fake api con json server. **Jamutaq Ortega Vélez** Me encargué de elaborar y colaborar con mi equipo el desarrollo de la aplicación web junto con la implementación de componentes y vistas principales. **Dennis Quevedo Yucra** Me encargue de la creacion de mockups y Wireflow de la Aplicacion Mobile y tambien corregi los puntos que el profesor nos observo en la primera entrega **TB2:** **Max Dayson Sabino Arostegui:** Elabore el sprint planning 2 y 3 en conjunto con el profuct backlog 2 y 3. Asimismo apoye en la elaboración de los tableros en Trello, todo esto me ayudó a mejorar mis habilidades de liderazgo **Elvia Arteaga Cruz:** Colaboré principalmente con el desarrollo de la aplicación web, aunque también apoyé en los otros productos del proyecto. Esta entrega se centró en presentar un MVP con miras a mejoras futuras. **Jamutaq Ortega Vélez** --escribe aqui--. **Dennis Quevedo Yucra** Elabore el sprint planning 3 y colabore en conjunto con mi grupo a mejoras futuras **Gabriela Nomberto Ramos** Elabore el sprint planning 3 y colabore en conjunto con mi grupo a mejoras futuras                                                                                                                            | Concluimos que las reuniones y las mejoras continuas entre todos nos ayuda a mejorar el reporte de trabajo y poder colaborar todo de forma equitativa |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **TB1:** **Max Dayson Sabino Arostegui:** Durante las reuniones en el aula planificamos las tareas y definimos las metas. En cada reunión revisamos el avance para recalcar los objetivos **Gabriela Nomberto Ramos** Tuvimos reuniones en el salón de clase el cual nos ayudo mucho a definir lo que cada uno debe de hacer, asimismo por medio de un grupo de WhatsApp pudimos absolver algunas dudas **Elvia Arteaga Cruz** El tiempo brindado por el profesor durante las horas de clase para organizar el proyecto fue de mucha utilidad para el desarrollo del mismo. Ese tiempo fue aprovechado para organizar las tareas individuales y realizar las tareas grupales. Además, contamos con medios digitales para la comunicación continua, tales como Whatsapp y Discord. **Dennis Quevedo Yucra** Durante las reuniones en el salón de clase el cual nos definimos y consultamos al profesor muchas dudas que teniamos y tambien se definió lo que cada uno debe de hacer, asimismo por medio de un grupo de WhatsApp pudimos absolver algunas dudas como tambien en discord **Jamutaq Ortega Vélez** Trabajamos de manera colaborativa en todo momento. Planificamos nuestros avances y tuvimos tiempo de hacer correcciones también. **TP1:** **Max Dayson Sabino Arostegui:** Realize el sprint 1 en colaboración con los demás mientros del equipo, me conecte a las reuniones por discord y fomente el trabajo en equipo. **Elvia Arteaga Cruz** Tuvimos reunines mediante discord de manera frecuente para coordinar los puntos a avanzar. Esto nos ayudó a organizarnos en las tareas individuales y grupales. **Jamutaq Ortega Vélez** Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. **Gabriela Nomberto** Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. **Dennis Quevedo Yucra** Coordinamos como equipo y primero acordamos corregir las observaciones previas. Con Gabriela Nomberto nos pusimos de acuerdo para poder realizar los mockups de la landing page y demas apartados. **TB2:** **Max Dayson Sabino Arostegui:** Realice la elaboración de la vista eventos en el fronted y la elaboración de los end points para los events. Asimismo, estuve presente en las reuniones presenciales, esto nos ayudo a trabajar colaborativamente **Elvia Arteaga Cruz:** Durante estos dos sprints el equipo optó por realizar reuniones presenciales una vez por semana para verificar avances y consolidar ideas. **Jamutaq Ortega Vélez** --escribe aqui--. **Dennis Quevedo Yucra** Configure el app movil junto con partes del app web además hice mejoras en el documento **Gabriela Nomberto Ramos** Hice mejoras en el documento asi como en la landing page además ayude en avanzar el edge api y el wokwi | Para este apartado, todos aportamos en la estructuracion y llenado del reporte, trabajando asi en grupo y entendiendonos entre todos                  |
 
 
 # CAPÍTULO I: INTRODUCTION
@@ -446,13 +444,13 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 Verysafe está abordando una necesidad crítica de mejorar la seguridad de inmuebles en Lima, Perú. Con el aumento de los delitos relacionados con propiedades en los últimos años, tanto los propietarios como las empresas de seguridad están buscando formas más eficientes de proteger sus bienes. Muchas empresas de seguridad enfrentan dificultades para mejorar sus servicios, lo que deja a las propiedades vulnerables a robos y otros crímenes, causando importantes pérdidas materiales y exponiéndolas a riesgos continuos. Para responder a esta creciente demanda, hemos fundado Verysafe, una empresa dedicada al desarrollo de dispositivos de seguridad innovadores que resuelvan estos problemas urgentes. Nuestra misión es brindar a los dueños de inmuebles y a las empresas de seguridad acceso rápido y confiable a la información sobre quién está ingresando a sus propiedades. Estamos aprovechando la tecnología avanzada, como sensores de movimiento y proximidad, para proporcionar datos en tiempo real que mejoran el monitoreo y la detección de amenazas. Nuestra visión es convertirnos en líderes en tecnología de seguridad, resolviendo los desafíos más críticos de la seguridad de inmuebles en Perú, y eventualmente, expandir nuestras soluciones a nivel mundial.
 
 ### 1.1.2 Perfiles de integrantes del equipo
-| Integrante | Imagen |
-|----------------------|----------------------|
-| **Elvia Guadalupe Arteaga Cruz:** <br>Código: u201616507<br> Soy una estudiante de la carrera de ingeniería de software. Ingresé a la universidad para estudiar ingeniería mecatrónica, pero el mundo de la programación siempre me gustó más, es por ello que decidí cambiarme de carrera. Me gusta mucho la tecnología y las grandes cosas que se pueden hacer con ella. Tengo la ilusión de crear productos y servicios que ayuden a facilitar la vida de las personas y que nos ayuden a crecer como sociedad.| ![ElviaArteaga](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/photo-elvia.jpg) |
-| **Max Dayson Sabino Arostegui:** <br>Código: u20201a991<br> Soy estudiante de Ingeniería de Software y me interesa especialmente el machine learning y la ciberseguridad. Tengo experiencia con la metodología ágil SCRUM y estoy familiarizado con varios frameworks y lenguajes de programación, como Angular, Vue, C++ y Python. Además, poseo habilidades blandas importantes como el trabajo en equipo, asertividad y cooperación.| ![MaxSabino](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/perfil2.png)|
-| **Gabriela Soledad Nomberto Ramos:** <br>Código: u202113876<br> Soy estudiante de la carrera de Ingeniería de Software en el 9no ciclo. Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Además, soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión.|![GabrielaNomberto](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/foto-gaby.jpeg) |
-| **Dennis Piero Quevedo Yucra:** <br>Código: u201619823<br> Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 9no ciclo. Tengo conocimientos en múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible.| ![DennisQuevedo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20090246.png)|
-| **Jamutaq Piero Ortega Vélez:** <br>Código: u201911703<br> Soy estudiante de la carrera de Ingeniería de Software, tengo 22 años y me encuentro en el 7mo ciclo. Me considero una persona honrada, respetuosa y responsable, siempre me gusta aportar y ayudar a mi equipo de trabajo. Poseo una gran experiencia en el desarrollo de soluciones backend con tecnologías que como Spring Boot con Java, .NET Core con C# y Node.js con JS y TS. Además, también me apasiona el mundo del DevOps y tecnologías cloud. Me gusta mucho la música y la meditación, y en mis tiempos libres me dedico a caminar y a reflexionar sobre la vida.| ![JamutaqOrtega](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/foto-jamutaq.jpeg)|
+| Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Imagen                                                                                                                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Elvia Guadalupe Arteaga Cruz:** <br>Código: u201616507<br> Soy una estudiante de la carrera de ingeniería de software. Ingresé a la universidad para estudiar ingeniería mecatrónica, pero el mundo de la programación siempre me gustó más, es por ello que decidí cambiarme de carrera. Me gusta mucho la tecnología y las grandes cosas que se pueden hacer con ella. Tengo la ilusión de crear productos y servicios que ayuden a facilitar la vida de las personas y que nos ayuden a crecer como sociedad.                                                                                                                        | ![ElviaArteaga](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/photo-elvia.jpg)                                    |
+| **Max Dayson Sabino Arostegui:** <br>Código: u20201a991<br> Soy estudiante de Ingeniería de Software y me interesa especialmente el machine learning y la ciberseguridad. Tengo experiencia con la metodología ágil SCRUM y estoy familiarizado con varios frameworks y lenguajes de programación, como Angular, Vue, C++ y Python. Además, poseo habilidades blandas importantes como el trabajo en equipo, asertividad y cooperación.                                                                                                                                                                                                   | ![MaxSabino](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/perfil2.png)                                           |
+| **Gabriela Soledad Nomberto Ramos:** <br>Código: u202113876<br> Soy estudiante de la carrera de Ingeniería de Software en el 9no ciclo. Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Además, soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión.                          | ![GabrielaNomberto](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/foto-gaby.jpeg)                                 |
+| **Dennis Piero Quevedo Yucra:** <br>Código: u201619823<br> Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 9no ciclo. Tengo conocimientos en múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible.                             | ![DennisQuevedo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20090246.png) |
+| **Jamutaq Piero Ortega Vélez:** <br>Código: u201911703<br> Soy estudiante de la carrera de Ingeniería de Software, tengo 22 años y me encuentro en el 7mo ciclo. Me considero una persona honrada, respetuosa y responsable, siempre me gusta aportar y ayudar a mi equipo de trabajo. Poseo una gran experiencia en el desarrollo de soluciones backend con tecnologías que como Spring Boot con Java, .NET Core con C# y Node.js con JS y TS. Además, también me apasiona el mundo del DevOps y tecnologías cloud. Me gusta mucho la música y la meditación, y en mis tiempos libres me dedico a caminar y a reflexionar sobre la vida. | ![JamutaqOrtega](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/foto-jamutaq.jpeg)                                 |
 
 ## 1.2 Solution Profile
 
