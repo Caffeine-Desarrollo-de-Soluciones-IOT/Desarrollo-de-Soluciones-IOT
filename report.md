@@ -288,8 +288,6 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3 Segmentos objetivo](#13-segmentos-objetivo)
-    - [Segmento objetivo 1: Dueños de Inmuebles](#segmento-objetivo-1-dueños-de-inmuebles)
-    - [Segmento objetivo 2: Empresas de Seguridad](#segmento-objetivo-2-empresas-de-seguridad)
 - [CAPÍTULO II: REQUERIMENTS ELICITATION \& ANALYSIS](#capítulo-ii-requeriments-elicitation--analysis)
   - [2.1 Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -309,8 +307,6 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
-    - [User: Dueño de Inmuebles](#user-dueño-de-inmuebles)
-    - [User: Empresa de seguridad](#user-empresa-de-seguridad)
   - [3.4. Product Backlog](#34-product-backlog)
 - [CAPÍTULO IV: SOLUTION SOFTWARE DESIGN](#capítulo-iv-solution-software-design)
   - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
@@ -383,26 +379,9 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
   - [5.1. Style Guidelines](#51-style-guidelines)
     - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
     - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
-    - [**Web Application**](#web-application)
-      - [**Patrón de Diseño**](#patrón-de-diseño)
-      - [**Estructura del Contenido**](#estructura-del-contenido)
-      - [**Interacciones y Feedback**](#interacciones-y-feedback)
-    - [**Mobile Application**](#mobile-application)
-      - [**Diseño Responsive**](#diseño-responsive)
-      - [**Interfaz de Usuario**](#interfaz-de-usuario)
-      - [**Interacciones**](#interacciones)
-    - [**IoT Device**](#iot-device)
-      - [**Diseño de la Pantalla del Dispositivo IoT**](#diseño-de-la-pantalla-del-dispositivo-iot)
-      - [**Interacciones**](#interacciones-1)
-      - [**Color**](#color)
   - [5.2. Information Architecture](#52-information-architecture)
     - [5.2.1. Organization Systems](#521-organization-systems)
     - [5.2.2. Labeling Systems](#522-labeling-systems)
-    - [**Landing Page**](#landing-page)
-    - [**Aplicación Web y Móvil**](#aplicación-web-y-móvil)
-      - [**Para propietarios de inmuebles:**](#para-propietarios-de-inmuebles)
-      - [**Para empresas de seguridad:**](#para-empresas-de-seguridad)
-    - [**IoT Devices**](#iot-devices)
     - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
     - [5.2.4. Searching Systems](#524-searching-systems)
     - [5.2.5. Navigation Systems](#525-navigation-systems)
@@ -450,15 +429,6 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
     - [6.3. Validation Interviews.](#63-validation-interviews)
       - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
-    - [User Flows para el Proceso de Validación de VerySafe](#user-flows-para-el-proceso-de-validación-de-verysafe)
-      - [Segmento: Dueños de Inmueble](#segmento-dueños-de-inmueble)
-      - [Segmento: Empresas de Seguridad](#segmento-empresas-de-seguridad)
-    - [Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Dueños de Inmueble”](#elementos-a-incluir-en-la-sesión-de-validación-para-el-segmento-objetivo-dueños-de-inmueble)
-      - [1. Landing Page de VerySafe](#1-landing-page-de-verysafe)
-      - [2. Aplicación Móvil de VerySafe](#2-aplicación-móvil-de-verysafe)
-    - [Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Empresas de Seguridad”](#elementos-a-incluir-en-la-sesión-de-validación-para-el-segmento-objetivo-empresas-de-seguridad)
-      - [1. Landing Page de VerySafe](#1-landing-page-de-verysafe-1)
-      - [2. Aplicación Móvil de VerySafe para Gestión Corporativa](#2-aplicación-móvil-de-verysafe-para-gestión-corporativa)
     - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
     - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product.](#64-video-about-the-product)
@@ -625,12 +595,13 @@ de robo fue mayor en la Provincia Constitucional del Callao (7,9%), que en Lima 
 
 Por lo mencionado anteriormente es que hemos establecido 2 segmentos objetivos:
 
-### Segmento objetivo 1: Dueños de Inmuebles
+**Segmento objetivo 1: Dueños de Inmuebles**
+
 Nuestro primer segmento objetivo son los propietarios de uno o varios inmuebles, tanto construidos como en proceso de construcción. Este grupo incluye personas que, al no contar con sistemas de seguridad adecuados, deben visitar o supervisar periódicamente sus propiedades para asegurarse de que no hayan sido vulneradas o víctimas de robos.
 
 ![dueño-inmueble](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/due%C3%B1o-inmueble.jpg)
 
-### Segmento objetivo 2: Empresas de Seguridad
+**Segmento objetivo 2: Empresas de Seguridad**
 
 Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejorar y fortalecer sus servicios de videovigilancia mediante el uso de un software robusto y completo, diseñado para satisfacer plenamente las necesidades de sus clientes y optimizar la gestión de seguridad.
 
@@ -1008,12 +979,12 @@ En esta sección se presentan las historias de usuario correspondientes a nuestr
 ## 3.3. Impact Mapping
 La herramienta denominada Impact Mapping consiste en una forma visual de representar las metas que nos plasmamos para llegar a cada sector de nuestro público. Por esta razón, el equipo utilizó este artefacto con el fin de definir nuestro camino para alcanzar a los segmentos objetivos. De este modo, al final del mapa mental identificamos las acciones y funcionalidades que debemos llevar a cabo para formar el proyecto de manera eficiente.
 
-### User: Dueño de Inmuebles
+**User: Dueño de Inmuebles**
 
 A continuación, se presenta el Impact Map en el usuario, dueño de inmuebles; para la cual nos basamos en las User Stories de nuestro proyecto, brindando las alternativas con las que dispone los aplicativos para solucionar y satisfacer las necesidades del usuario.
 ![Impact Mapping Owner](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/impact-map-dueño-inmueble.png)
 
-### User: Empresa de seguridad
+**User: Empresa de seguridad**
 Este mapa de impacto incluye los objetivos empresariales, los efectos deseados en la organización de seguridad y las historias de usuario relacionadas. El enfoque es en mejorar la eficiencia operativa y la satisfacción del cliente mediante el uso de tecnología IoT para vigilancia en tiempo real y respuestas automatizadas a amenazas.
 ![Impact Mapping Business](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/impact-map-seguridad.png)
 
@@ -1221,53 +1192,65 @@ Las decisiones de diseño se basan en los principios de Diseño Responsivo y Dis
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
-### **Web Application**
+**Web Application**
+
 La plataforma web será un punto de control principal para los usuarios, tanto propietarios de inmuebles como empresas de seguridad, que gestionarán sus sistemas de seguridad de manera remota. El diseño web será completamente responsive, adaptándose a cualquier tamaño de pantalla sin comprometer la claridad de la información ni la facilidad de uso. Se tendrá en cuenta una variedad de resoluciones, asegurando que tanto en dispositivos móviles como en pantallas de escritorio, los elementos clave sean accesibles y fáciles de interactuar.
 
-#### **Patrón de Diseño**
+**Patrón de Diseño**
+
 Utilizaremos el patrón Z, ya que este patrón guía naturalmente la vista del usuario de izquierda a derecha y luego en diagonal, formando un trayecto en "Z". Este recorrido visual es ideal para resaltar la información más importante. 
 
-#### **Estructura del Contenido**
+**Estructura del Contenido**
+
 - **Logo y Menú**: El logo de la empresa en la esquina superior izquierda y el menú de navegación en la parte superior derecha garantizan un acceso rápido a las secciones más importantes.
 - **Panel de Control**: Justo debajo del menú, se mostrará el panel de control principal, donde el usuario podrá visualizar el estado general del sistema en tiempo real.
 - **Uso de Espacios**: Los espacios serán generosos entre secciones para evitar la saturación de información, y los gráficos e íconos ayudarán a los usuarios a navegar de manera intuitiva.
 - **Color y Tipografía**: Se utilizarán colores neutros con acentos en colores vivos para destacar elementos importantes (verde para seguridad, rojo para alertas). La tipografía será clara y legible, priorizando la simplicidad.
 
-#### **Interacciones y Feedback**
+**Interacciones y Feedback**
+
 - Los botones y formularios proporcionarán un feedback visual claro mediante cambios de color o animaciones sutiles, de modo que el usuario sepa que su acción fue reconocida.
 - **Microinteracciones** como notificaciones emergentes se mostrarán cuando se detecten eventos importantes, como alertas de seguridad.
 ![web-guidelines](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/web-guidelines.png)
 
-### **Mobile Application**
+**Mobile Application**
+
 La app móvil se diseñará para ofrecer a los usuarios la capacidad de gestionar y monitorear sus sistemas de seguridad de manera eficiente desde cualquier lugar, con un enfoque en la accesibilidad y facilidad de uso en pantallas más pequeñas.
 
-#### **Diseño Responsive**
+**Diseño Responsive**
+
 El diseño de la app seguirá el patrón Z para guiar intuitivamente la atención del usuario. Los elementos más importantes, como el estado del sistema y las alertas, se mostrarán en la parte superior, mientras que el menú principal se encontrará en la parte inferior, facilitando la navegación con el pulgar.
 
-#### **Interfaz de Usuario**
+**Interfaz de Usuario**
+
 - **Pantalla de inicio**: Presentará un resumen visual del estado actual de los dispositivos (cámaras, sensores, alarmas) con íconos grandes e interactivos.
 - **Gestión de cámaras**: Al seleccionar una cámara, se abrirá la transmisión en vivo y se ofrecerán botones destacados para revisar el historial o capturar imágenes.
 - **Alertas**: Las alertas y notificaciones se mostrarán en tiempo real y serán accesibles mediante deslizamientos, con la posibilidad de personalizar las notificaciones push.
 
-#### **Interacciones**
+**Interacciones**
+
 - Los gestos de deslizamiento permitirán a los usuarios navegar entre cámaras y alertas con facilidad.
 - Botones flotantes estarán presentes para activar o desactivar funciones clave como alarmas o tomar capturas rápidas desde las cámaras.
 ![web-guidelines](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/patron-z.png)
 
-### **IoT Device**
+**IoT Device**
+
 Los dispositivos IoT, como las cámaras y sensores, son fundamentales para la experiencia del usuario. Las interfaces de estos dispositivos deben ser claras, minimalistas y fácilmente accesibles tanto para profesionales como para usuarios novatos.
 
-#### **Diseño de la Pantalla del Dispositivo IoT**
+**Diseño de la Pantalla del Dispositivo IoT**
+
 - **Prioridad en los datos críticos**: Los datos más importantes, como el estado de las cámaras, la batería de los sensores y las alertas activas, se mostrarán de manera prominente en la pantalla principal del dispositivo IoT.
   
 - **Interfaz minimalista**: El diseño de la pantalla será simple y sin distracciones, mostrando solo la información esencial con opciones para acceder a más detalles si es necesario.
 
-#### **Interacciones**
+**Interacciones**
+
 - **Iconografía intuitiva**: Se utilizarán íconos claros y reconocibles para representar el estado del sistema. Por ejemplo, un ícono de cámara indicará el estado de videovigilancia, un triángulo de advertencia mostrará alertas activas, y un candado indicará el estado de las alarmas.
   
 - **Controles táctiles**: Los dispositivos tendrán botones físicos y táctiles para facilitar su uso, y permitirán la interacción remota mediante la aplicación móvil o web.
 
-#### **Color**
+**Color**
+
 - Los colores seguirán un esquema similar a las interfaces web y móvil, con colores brillantes para alertas importantes (rojo, amarillo).
 ![web-guidelines](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/iot-devices.png)
 
@@ -1286,7 +1269,7 @@ Los dispositivos IoT, como las cámaras y sensores, son fundamentales para la ex
 
 A continuación, el equipo mostrará el sistema de etiquetado que otorgará una descripción breve y clara de la información brindada por nuestra plataforma de seguridad IoT, tanto para la Landing Page como para las interfaces web y móvil.
 
-### **Landing Page**
+**Landing Page**
 
 Presentamos los encabezados con los que contará esta página:
 
@@ -1296,28 +1279,28 @@ Presentamos los encabezados con los que contará esta página:
 - **Planes/Plans**: Sección donde se presentarán los distintos planes de servicio (Básico, Premium, Gold) con sus respectivas características y precios.
 - **Contáctanos/Contact Us**: Sección donde se muestran los canales de comunicación para que los usuarios puedan contactarse con el equipo de soporte o realizar consultas.
 
-### **Aplicación Web y Móvil**
+**Aplicación Web y Móvil**
 
 Presentamos las etiquetas que se utilizarán en las interfaces web y móvil para que los usuarios puedan navegar fácilmente entre las funciones y características del sistema de seguridad IoT.
 
-#### **Para propietarios de inmuebles:**
+- **Para propietarios de inmuebles:**
 
-- **Inicio/Home**: Pantalla principal donde se muestra un resumen general del estado de seguridad de la propiedad, incluyendo alertas recientes, cámaras activas y el estado de los sensores.
-- **Cámaras/Cameras**: Pantalla que permite a los usuarios ver la transmisión en vivo de las cámaras de seguridad, revisar grabaciones pasadas y gestionar la configuración de las cámaras.
-- **Sensores/Sensors**: Pantalla que muestra el estado de los sensores instalados (como sensores de movimiento, de apertura de puertas, etc.) y el historial de activaciones.
-- **Alarmas/Alarms**: Pantalla para gestionar el sistema de alarmas, incluyendo activar o desactivar las alarmas, y ver el historial de activaciones.
-- **Historial/History**: Sección donde el usuario puede revisar el historial de eventos del sistema, como la activación de alarmas, movimientos detectados por los sensores, o cualquier evento relacionado con las cámaras.
-- **Configuración/Settings**: Sección donde los usuarios pueden ajustar las configuraciones del sistema, agregar nuevos dispositivos, personalizar notificaciones y actualizar la información de la cuenta.
+  - **Inicio/Home**: Pantalla principal donde se muestra un resumen general del estado de seguridad de la propiedad, incluyendo alertas recientes, cámaras activas y el estado de los sensores.
+  - **Cámaras/Cameras**: Pantalla que permite a los usuarios ver la transmisión en vivo de las cámaras de seguridad, revisar grabaciones pasadas y gestionar la configuración de las cámaras.
+  - **Sensores/Sensors**: Pantalla que muestra el estado de los sensores instalados (como sensores de movimiento, de apertura de puertas, etc.) y el historial de activaciones.
+  - **Alarmas/Alarms**: Pantalla para gestionar el sistema de alarmas, incluyendo activar o desactivar las alarmas, y ver el historial de activaciones.
+  - **Historial/History**: Sección donde el usuario puede revisar el historial de eventos del sistema, como la activación de alarmas, movimientos detectados por los sensores, o cualquier evento relacionado con las cámaras.
+  - **Configuración/Settings**: Sección donde los usuarios pueden ajustar las configuraciones del sistema, agregar nuevos dispositivos, personalizar notificaciones y actualizar la información de la cuenta.
 
-#### **Para empresas de seguridad:**
+- **Para empresas de seguridad:**
 
-- **Panel de Control/Dashboard**: Pantalla que presenta un resumen de las propiedades que la empresa monitorea, mostrando las alertas más recientes, cámaras activas y sensores conectados.
-- **Cámaras/Cameras**: Pantalla que permite acceder a la transmisión en vivo de las cámaras instaladas en las propiedades de los clientes, así como gestionar el almacenamiento de video y programar grabaciones.
-- **Sensores/Sensors**: Pantalla que muestra el estado de los sensores instalados en todas las propiedades que monitorea la empresa, con la capacidad de activar o desactivar sensores específicos de manera remota.
-- **Alarmas/Alarms**: Sección para controlar y gestionar las alarmas de todas las propiedades monitoreadas. Se puede configurar la respuesta ante alertas y coordinar con los equipos de emergencia.
-- **Configuración/Settings**: Página donde los administradores pueden agregar nuevos dispositivos, gestionar usuarios y permisos, así como ajustar las configuraciones del sistema y personalizar alertas.
+  - **Panel de Control/Dashboard**: Pantalla que presenta un resumen de las propiedades que la empresa monitorea, mostrando las alertas más recientes, cámaras activas y sensores conectados.
+  - **Cámaras/Cameras**: Pantalla que permite acceder a la transmisión en vivo de las cámaras instaladas en las propiedades de los clientes, así como gestionar el almacenamiento de video y programar grabaciones.
+  - **Sensores/Sensors**: Pantalla que muestra el estado de los sensores instalados en todas las propiedades que monitorea la empresa, con la capacidad de activar o desactivar sensores específicos de manera remota.
+  - **Alarmas/Alarms**: Sección para controlar y gestionar las alarmas de todas las propiedades monitoreadas. Se puede configurar la respuesta ante alertas y coordinar con los equipos de emergencia.
+  - **Configuración/Settings**: Página donde los administradores pueden agregar nuevos dispositivos, gestionar usuarios y permisos, así como ajustar las configuraciones del sistema y personalizar alertas.
 
-### **IoT Devices**
+**IoT Devices**
 
 Para los dispositivos IoT que forman parte del sistema de seguridad (cámaras, sensores, alarmas), utilizaremos etiquetas simples que representen claramente su función:
 
@@ -1325,7 +1308,6 @@ Para los dispositivos IoT que forman parte del sistema de seguridad (cámaras, s
 - **Alertas/Alerts**: Muestra cualquier alerta relacionada con el dispositivo, como fallos, detecciones de movimiento o intentos de sabotaje.
 - **Configuración/Settings**: Opción para ajustar la configuración del dispositivo, como la sensibilidad del sensor o la calidad de grabación de la cámara.
 - **Historial/History**: Registra los eventos recientes capturados por el dispositivo, como activaciones de sensores o grabaciones de video.
-
 
 ### 5.2.3. SEO Tags and Meta Tags
 
@@ -2339,38 +2321,39 @@ Para evidenciar la colaboración de todos integrantes del equipo FalconShield en
 
 #### 6.3.1. Diseño de Entrevistas.
 
-### User Flows para el Proceso de Validación de VerySafe
+**User Flows para el Proceso de Validación de VerySafe**
 
-#### Segmento: Dueños de Inmueble
-1. Exploración del Landing Page y Comprensión del Valor Propuesto
-2. Recepción y Configuración de Notificaciones de Seguridad
-3. Consulta del Historial de Eventos de Seguridad
-4. Activación y Desactivación de Alertas
+1. **Segmento: Dueños de Inmueble**
+   1. Exploración del Landing Page y Comprensión del Valor Propuesto
+   2. Recepción y Configuración de Notificaciones de Seguridad
+   3. Consulta del Historial de Eventos de Seguridad
+   4. Activación y Desactivación de Alertas
 
-#### Segmento: Empresas de Seguridad
-1. Exploración Corporativa del Landing Page
-2. Monitoreo de Múltiples Propiedades y Recepción de Alertas
-3. Configuración de Notificaciones y Personalización por Propiedad
-4. Consulta de Historial Corporativo y Filtrado de Eventos
-5. Interacción Remota con las Propiedades (Activación/Desactivación de Alarmas)
+2.  **Segmento: Empresas de Seguridad**
+    1. Exploración Corporativa del Landing Page
+    2. Monitoreo de Múltiples Propiedades y Recepción de Alertas
+    3. Configuración de Notificaciones y Personalización por Propiedad
+    4. Consulta de Historial Corporativo y Filtrado de Eventos
+    5. Interacción Remota con las Propiedades (Activación/Desactivación de Alarmas)
 
+**Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Dueños de Inmueble”**
 
-### Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Dueños de Inmueble”
+**1. Landing Page de VerySafe**
 
-#### 1. Landing Page de VerySafe
-- **Presentación del Landing Page**  
-  - Pregunta: ¿Cómo describirías la manera en que se presenta la información en la página de inicio? ¿Es clara y atractiva?
+  - **Presentación del Landing Page**  
+      - Pregunta: ¿Cómo describirías la manera en que se presenta la información en la página de inicio? ¿Es clara y atractiva?
 
-- **Navegación y Usabilidad**  
-  - Pregunta: ¿Encuentras que la navegación en el sitio es intuitiva y fácil de entender?
+  - **Navegación y Usabilidad**
+      - Pregunta: ¿Encuentras que la navegación en el sitio es intuitiva y fácil de entender?
 
-- **Valor Propuesto**  
-  - Pregunta: ¿Entiendes claramente cuál es el valor de VerySafe para la seguridad de tu propiedad?
+  - **Valor Propuesto** 
+      - Pregunta: ¿Entiendes claramente cuál es el valor de VerySafe para la seguridad de tu propiedad?
 
-- **Planes de Suscripción**  
-  - Pregunta: ¿Consideras que la sección de planes de suscripción comunica bien las opciones y beneficios?
+  - **Planes de Suscripción**
+      - Pregunta: ¿Consideras que la sección de planes de suscripción comunica bien las opciones y beneficios?
 
-#### 2. Aplicación Móvil de VerySafe
+**2. Aplicación Móvil de VerySafe**
+
 - **Recepción de Alertas de Seguridad (Funcionalidad Clave)**  
   - Pregunta: ¿Recibes las alertas de movimiento, humo o cambios de temperatura de manera clara y oportuna? ¿Te sientes más seguro con estas alertas?
 
@@ -2383,33 +2366,35 @@ Para evidenciar la colaboración de todos integrantes del equipo FalconShield en
 - **Interacción y Diseño de la Aplicación**  
   - Pregunta: ¿Te parece que el diseño y la interacción de la app son intuitivos y claros para la gestión de seguridad?
 
-### Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Empresas de Seguridad”
+**Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Empresas de Seguridad”**
 
-#### 1. Landing Page de VerySafe
-- **Presentación del Landing Page**  
-  - Pregunta: ¿Cómo describirías la forma en que se presenta la información y los servicios de VerySafe? ¿Es adecuada para una empresa de seguridad?
+**1. Landing Page de VerySafe**
 
-- **Navegación y Usabilidad desde una Perspectiva Corporativa**  
-  - Pregunta: ¿Es intuitivo y fácil de usar el sitio para un uso corporativo, donde necesitas gestionar múltiples propiedades?
+  - **Presentación del Landing Page**  
+    - Pregunta: ¿Cómo describirías la forma en que se presenta la información y los servicios de VerySafe? ¿Es adecuada para una empresa de seguridad?
 
-- **Valor Propuesto para Empresas de Seguridad**  
-  - Pregunta: ¿Percibes claramente cuál es el valor de VerySafe para facilitar la seguridad y monitoreo de varias propiedades?
+  - **Navegación y Usabilidad desde una Perspectiva Corporativa**  
+    - Pregunta: ¿Es intuitivo y fácil de usar el sitio para un uso corporativo, donde necesitas gestionar múltiples propiedades?
 
-- **Opciones de Suscripción**  
-  - Pregunta: ¿Consideras que las opciones de suscripción son claras y adecuadas para un uso a gran escala?
+  - **Valor Propuesto para Empresas de Seguridad**  
+    - Pregunta: ¿Percibes claramente cuál es el valor de VerySafe para facilitar la seguridad y monitoreo de varias propiedades?
 
-#### 2. Aplicación Móvil de VerySafe para Gestión Corporativa
-- **Monitoreo de Alertas en Múltiples Propiedades**  
-  - Pregunta: ¿Te parece útil y fácil de usar la función de monitoreo de alertas en diferentes propiedades? ¿Te ayuda a responder rápidamente a eventos críticos?
+  - **Opciones de Suscripción**  
+    - Pregunta: ¿Consideras que las opciones de suscripción son claras y adecuadas para un uso a gran escala?
 
-- **Acceso y Filtros en el Historial de Seguridad**  
-  - Pregunta: ¿Encuentras práctico el historial de seguridad para revisar y filtrar eventos por cada propiedad?
+**2. Aplicación Móvil de VerySafe para Gestión Corporativa**
 
-- **Configuración y Personalización de Notificaciones**  
-  - Pregunta: ¿Es fácil para tu empresa personalizar las notificaciones para distintos tipos de eventos? ¿Te permite esta opción un control efectivo?
+  - **Monitoreo de Alertas en Múltiples Propiedades**  
+    - Pregunta: ¿Te parece útil y fácil de usar la función de monitoreo de alertas en diferentes propiedades? ¿Te ayuda a responder rápidamente a eventos críticos?
 
-- **Interacción con el Sistema para la Activación y Desactivación de Alarmas**  
-  - Pregunta: ¿Te resulta intuitiva la funcionalidad de activar o desactivar alarmas de forma remota en distintas propiedades?
+  - **Acceso y Filtros en el Historial de Seguridad**  
+    - Pregunta: ¿Encuentras práctico el historial de seguridad para revisar y filtrar eventos por cada propiedad?
+
+  - **Configuración y Personalización de Notificaciones**  
+    - Pregunta: ¿Es fácil para tu empresa personalizar las notificaciones para distintos tipos de eventos? ¿Te permite esta opción un control efectivo?
+
+  - **Interacción con el Sistema para la Activación y Desactivación de Alarmas**  
+    - Pregunta: ¿Te resulta intuitiva la funcionalidad de activar o desactivar alarmas de forma remota en distintas propiedades?
 
 
 ### 6.3.2. Registro de Entrevistas.
