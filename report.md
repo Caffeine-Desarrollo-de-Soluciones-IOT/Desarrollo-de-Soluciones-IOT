@@ -1912,9 +1912,6 @@ Enlace para una mejor visualización: https://overflow.io/s/3C8AFWFU
 | **USER GOAL:** Como usuario, deseo agregar un nuevo dispositivo para que pueda tener control de otra area de mi inmueble. | ![flow4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow4.jpg)     |
 | **USER GOAL:** Como usuario, deseo agregar una nueva area para tener control con los dispositivos IoT.                    | ![flow5](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/folw5.jpg)     |
 
-
-## 5.5. Applications Prototyping
-=======
 ## 5.5. Applications Prototyping
 
 # CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
@@ -1922,25 +1919,25 @@ Enlace para una mejor visualización: https://overflow.io/s/3C8AFWFU
 ### 6.1.1. Software Development Environment Configuration
 En esta sección se presenta la configuración del entorno de desarrollo de software utilizado por el equipo en el proyecto de IoT. A continuación, se detallan las herramientas seleccionadas, junto con sus descripciones y propósitos específicos, así como los enlaces para acceder a cada una de ellas. Estas herramientas son fundamentales para colaborar eficazmente en las diversas etapas del ciclo de vida de los productos digitales, incluyendo la gestión de proyectos, la gestión de requisitos, el diseño UX/UI, el desarrollo de software, las pruebas, el despliegue y la documentación.
 
-| Herramienta | Descripción y propósito | Enlace |
-|-------------|-------------------------|--------|
-| UX Pressia         | Herramienta para crear mapas de experiencia del usuario, permitiendo visualizar y documentar la experiencia del usuario en un formato colaborativo. Se utilizará para desarrollar y comunicar la experiencia del usuario en las soluciones de IoT.                                         | [https://uxpressia.com](https://uxpressia.com)     |
-| Miro               | Pizarra colaborativa en línea ideal para la lluvia de ideas y la planificación de proyectos. Se utilizará para la colaboración en la definición de requisitos y la creación de diagramas de flujo que guiarán el desarrollo del software.                                                            | [https://miro.com](https://miro.com)                 |
-| Figma              | Herramienta de diseño de interfaces y prototipado colaborativo que permite trabajar juntos en tiempo real. Se utilizará para diseñar la interfaz de usuario (UI) y crear prototipos interactivos que se validarán con los usuarios finales.                                                        | [https://www.figma.com](https://www.figma.com)      |
-| Overflow           | Herramienta de diagramación de flujos de usuario que permite crear recorridos visuales de las interacciones del usuario. Se utilizará para ilustrar cómo los usuarios interactuarán con la solución de IoT.                                                                                     | [https://overflow.io](https://overflow.io)          |
-| Structurizr        | Herramienta para crear diagramas de arquitectura de software utilizando el lenguaje C4. Se utilizará para definir y comunicar la arquitectura de la solución IoT.                                                                                                                                              | [https://structurizr.com](https://structurizr.com)  |
-| LucidChart         | Herramienta de diagramación en línea que permite crear diagramas de flujo y organigramas. Se utilizará para documentar visualmente los procesos y flujos de trabajo asociados con el desarrollo de la solución de IoT.                                                                           | [https://www.lucidchart.com](https://www.lucidchart.com) |
-| Vertabelo          | Herramienta de diseño de bases de datos que permite crear y documentar esquemas de bases de datos. Se utilizará para el modelado de datos en el proyecto, asegurando que la estructura de la base de datos se alinee con los requisitos del sistema IoT.                                             | [https://www.vertabelo.com](https://www.vertabelo.com) |
-| HTML5              | Lenguaje de marcado estándar para crear páginas web. Se utilizará para estructurar el contenido de las aplicaciones web del proyecto, asegurando una base sólida para la interfaz de usuario.                                                                                                            | No dispone |
-| CSS3               | Hoja de estilo utilizada para diseñar la presentación de las aplicaciones web. Se utilizará para estilizar las interfaces de usuario y garantizar una experiencia visual atractiva y coherente.                                                                                                         | No dispone   |
-| JavaScript         | Lenguaje de programación utilizado para desarrollar aplicaciones web interactivas. Se utilizará para implementar la lógica de negocio y las interacciones en la aplicación de IoT.                                                                                                         | No dispone   |
-| Angular Framework   | Framework de desarrollo web para construir aplicaciones web de una sola página. Se utilizará para crear la interfaz del usuario y gestionar el estado de la aplicación IoT.                                                                                                                        | [https://angular.io](https://angular.io)          |
-| Angular Material    | Biblioteca de componentes de UI para Angular que sigue las pautas de diseño de Material Design. Se utilizará para implementar componentes de interfaz de usuario coherentes y responsivos en la aplicación.                                                                                 | [https://material.angular.io](https://material.angular.io)  |
-| TypeScript         | Superset de JavaScript que añade tipado estático. Se utilizará en el proyecto para mejorar la calidad del código y facilitar el desarrollo al proporcionar herramientas de desarrollo más robustas.                                                                                                   | [https://www.typescriptlang.org](https://www.typescriptlang.org)  |
-| Trello             | Herramienta de gestión de proyectos que utiliza tableros para organizar tareas y proyectos. Se utilizará para gestionar el progreso del proyecto, asignar tareas y hacer seguimiento del trabajo del equipo.                                                                                             | [https://trello.com](https://trello.com)           |
-| GIT                | Sistema de control de versiones distribuido que permite gestionar el código fuente del proyecto. Se utilizará para llevar un seguimiento de los cambios en el código y colaborar eficientemente entre los miembros del equipo.                                                                               | [https://git-scm.com](https://git-scm.com)         |
-| GitHub             | Plataforma de desarrollo colaborativo que permite almacenar y gestionar repositorios de código usando Git. Se utilizará para alojar el código del proyecto y facilitar la colaboración entre los miembros del equipo.                                                                                   | [https://github.com](https://github.com)           |
-| GitFlow            | Flujo de trabajo para Git que define un modelo de ramificación para gestionar el desarrollo. Se utilizará para organizar el trabajo en el proyecto, facilitando la integración de nuevas características y la gestión de lanzamientos.                                                                     | No dispone |
+| Herramienta       | Descripción y propósito                                                                                                                                                                                                                                  | Enlace                                                           |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| UX Pressia        | Herramienta para crear mapas de experiencia del usuario, permitiendo visualizar y documentar la experiencia del usuario en un formato colaborativo. Se utilizará para desarrollar y comunicar la experiencia del usuario en las soluciones de IoT.       | [https://uxpressia.com](https://uxpressia.com)                   |
+| Miro              | Pizarra colaborativa en línea ideal para la lluvia de ideas y la planificación de proyectos. Se utilizará para la colaboración en la definición de requisitos y la creación de diagramas de flujo que guiarán el desarrollo del software.                | [https://miro.com](https://miro.com)                             |
+| Figma             | Herramienta de diseño de interfaces y prototipado colaborativo que permite trabajar juntos en tiempo real. Se utilizará para diseñar la interfaz de usuario (UI) y crear prototipos interactivos que se validarán con los usuarios finales.              | [https://www.figma.com](https://www.figma.com)                   |
+| Overflow          | Herramienta de diagramación de flujos de usuario que permite crear recorridos visuales de las interacciones del usuario. Se utilizará para ilustrar cómo los usuarios interactuarán con la solución de IoT.                                              | [https://overflow.io](https://overflow.io)                       |
+| Structurizr       | Herramienta para crear diagramas de arquitectura de software utilizando el lenguaje C4. Se utilizará para definir y comunicar la arquitectura de la solución IoT.                                                                                        | [https://structurizr.com](https://structurizr.com)               |
+| LucidChart        | Herramienta de diagramación en línea que permite crear diagramas de flujo y organigramas. Se utilizará para documentar visualmente los procesos y flujos de trabajo asociados con el desarrollo de la solución de IoT.                                   | [https://www.lucidchart.com](https://www.lucidchart.com)         |
+| Vertabelo         | Herramienta de diseño de bases de datos que permite crear y documentar esquemas de bases de datos. Se utilizará para el modelado de datos en el proyecto, asegurando que la estructura de la base de datos se alinee con los requisitos del sistema IoT. | [https://www.vertabelo.com](https://www.vertabelo.com)           |
+| HTML5             | Lenguaje de marcado estándar para crear páginas web. Se utilizará para estructurar el contenido de las aplicaciones web del proyecto, asegurando una base sólida para la interfaz de usuario.                                                            | No dispone                                                       |
+| CSS3              | Hoja de estilo utilizada para diseñar la presentación de las aplicaciones web. Se utilizará para estilizar las interfaces de usuario y garantizar una experiencia visual atractiva y coherente.                                                          | No dispone                                                       |
+| JavaScript        | Lenguaje de programación utilizado para desarrollar aplicaciones web interactivas. Se utilizará para implementar la lógica de negocio y las interacciones en la aplicación de IoT.                                                                       | No dispone                                                       |
+| Angular Framework | Framework de desarrollo web para construir aplicaciones web de una sola página. Se utilizará para crear la interfaz del usuario y gestionar el estado de la aplicación IoT.                                                                              | [https://angular.io](https://angular.io)                         |
+| Angular Material  | Biblioteca de componentes de UI para Angular que sigue las pautas de diseño de Material Design. Se utilizará para implementar componentes de interfaz de usuario coherentes y responsivos en la aplicación.                                              | [https://material.angular.io](https://material.angular.io)       |
+| TypeScript        | Superset de JavaScript que añade tipado estático. Se utilizará en el proyecto para mejorar la calidad del código y facilitar el desarrollo al proporcionar herramientas de desarrollo más robustas.                                                      | [https://www.typescriptlang.org](https://www.typescriptlang.org) |
+| Trello            | Herramienta de gestión de proyectos que utiliza tableros para organizar tareas y proyectos. Se utilizará para gestionar el progreso del proyecto, asignar tareas y hacer seguimiento del trabajo del equipo.                                             | [https://trello.com](https://trello.com)                         |
+| GIT               | Sistema de control de versiones distribuido que permite gestionar el código fuente del proyecto. Se utilizará para llevar un seguimiento de los cambios en el código y colaborar eficientemente entre los miembros del equipo.                           | [https://git-scm.com](https://git-scm.com)                       |
+| GitHub            | Plataforma de desarrollo colaborativo que permite almacenar y gestionar repositorios de código usando Git. Se utilizará para alojar el código del proyecto y facilitar la colaboración entre los miembros del equipo.                                    | [https://github.com](https://github.com)                         |
+| GitFlow           | Flujo de trabajo para Git que define un modelo de ramificación para gestionar el desarrollo. Se utilizará para organizar el trabajo en el proyecto, facilitando la integración de nuevas características y la gestión de lanzamientos.                   | No dispone                                                       |
 
 
 ### 6.1.2. Source Code Management
@@ -2054,8 +2051,8 @@ En esta sección especificaremos los pasos necesarios para realizar el despliegu
 **Pasos para el Despliegue:**
 
 1. Preparación del Proyecto:
-  * Asegúrate de que el proyecto esté correctamente configurado en tu entorno local.
-  * Genera una versión de producción del proyecto con el comando adecuado (ejemplo: npm run build si usas React).
+   * Asegúrate de que el proyecto esté correctamente configurado en tu entorno local.
+   * Genera una versión de producción del proyecto con el comando adecuado (ejemplo: npm run build si usas React).
 
 2. Conexión con Netlify:
    * Inicia sesión en tu cuenta de Netlify.
@@ -2069,13 +2066,14 @@ En esta sección especificaremos los pasos necesarios para realizar el despliegu
 4. Publicación:
    * Netlify construirá y desplegará automáticamente la aplicación. Una vez que el despliegue esté completo, recibirás una URL para acceder a la aplicación.
    * Puedes personalizar la URL o usar un dominio personalizado en la configuración de Netlify.
+
 5. Actualizaciones:
    * Para actualizar la Web Application, realiza cambios en el código, haz commits y push. Netlify detectará automáticamente los cambios y reconstruirá el sitio.
 
 **Deployment Diagram (C4 Model)**
-Para esta parte como es una etapa inicial contamos unicamente con nuestra Landing Page y nuestra primera versión de la aplicación Web
+Para esta parte como es una etapa inicial contamos únicamente con nuestra Landing Page y nuestra primera versión de la aplicación Web
 
-![deployment C4 1er sprint](src/images/deploymentc4.jpg)
+![deployment C4 1er sprint](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploymentc4.jpg)
 
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
@@ -2118,7 +2116,7 @@ Para esta parte como es una etapa inicial contamos unicamente con nuestra Landin
             Canal de voz en Discord      
         </td>
     </tr>
-     </tr>
+     <tr>
        <tr align="left">
         <td>
             <b>Prepared By</b>
@@ -2127,7 +2125,7 @@ Para esta parte como es una etapa inicial contamos unicamente con nuestra Landin
             Integrantes del equipo  
         </td>
     </tr>
-    </tr>
+    <tr>
        <tr align="left">
         <td>
             <b>Attendess (to planning meeting)</b>
@@ -2140,7 +2138,7 @@ Para esta parte como es una etapa inicial contamos unicamente con nuestra Landin
             - Jamutaq Piero Ortega Vélez <br/> 
         </td>
     </tr>
-      </tr>
+      <tr>
        <tr align="left">
         <td>
             <b>Sprint n - 1</b>
@@ -2289,57 +2287,54 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
 #### 6.2.1.3. Development Evidence for Sprint Review
 
 Para el despliegue de la aplicación web utilizamos Netlify: 
-Enlace de la aplicacion web: https://verysafe.netlify.app/
+Enlace de la aplicación web: https://verysafe.netlify.app/
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
 Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro iot device.
 
-![team](src/images/team.jpg)
+![team](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/team.jpg)
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
 #### 6.2.1.6. Software Deployment Evidence for Sprint Review
 
-Enlace de aplicacion web: https://verysafe.netlify.app/
+Enlace de aplicación web: https://verysafe.netlify.app/
 
 #### 6.2.1.7. Team Collaboration Insights during Sprint
 Las actividades de implementación se han desarrollado de acuerdo a lo planificado en el Sprint Planning, donde se han asignado tareas a cada miembro del equipo y se han realizado reuniones grupales para realizar el despliegue. A continuación, se presentan los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 1:
 
-![network](src/images/network.jpg)
+![network](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/network.jpg)
 
-Capitulo-VI
+### 6.2.2. Sprint 2
 
-
-### 6\.2.2. Sprint 2
-
-### 6\.2.2.1. Sprint Planning 2.
+#### 6.2.2.1. Sprint Planning 2.
 
 En esta sesión de planificación para el Sprint 2, nos enfocaremos en los desarrollos clave del frontend y backend de nuestro producto VerySafe, que busca ofrecer una solución de seguridad integral para propietarios de propiedades y empresas de seguridad. Durante el Sprint 1, logramos sentar las bases del producto al definir los componentes esenciales y avanzar en algunos elementos básicos en el frontend Ahora, el objetivo del Sprint 2 es dar un paso adelante, desarrollando las interfaces de usuario y los servicios backend necesarios para ofrecer una experiencia coherente y funcional.
 
-|**Sprint #**|Sprint 2|
-| :- | :- |
-|**Sprint Planning Background**||
-|Date|15/10/2024|
-|Time|11:30 pm|
-|Location|Cubículo de la Universidad UPC sede Villa|
-|Prepared By|Gabriela Nomberto|
-|Attendees (to planning meeting)|Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo|
-|Sprint n – 1 Review Summary|Se realizó el tablero del Sprint 1 en el Trello y creo las tareas relacionados a los user stories.|
-|Sprint n – 1 Retrospective Summary  |Dos tareas no lograron completarse.|
-|**Sprint Goal & User Stories**||
-|Sprint 1 Goal|Crear la página web que permita a los usuarios registrarse, iniciar sesión y acceder a un dashboard donde puedan gestionar sus dispositivos y propiedades  asegurando una interfaz atractiva y funcional con un backend sólido para manejar la autenticación, operaciones CRUD de dispositivos y consulta de datos en tiempo real.|
-|Sprint 1 Velocity|34|
-|Sum of Story Points|38|
+| **Sprint #**                       | Sprint 2                                                                                                                                                                                                                                                                                                                           |
+|:-----------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                    |
+| Date                               | 15/10/2024                                                                                                                                                                                                                                                                                                                         |
+| Time                               | 11:30 pm                                                                                                                                                                                                                                                                                                                           |
+| Location                           | Cubículo de la Universidad UPC sede Villa                                                                                                                                                                                                                                                                                          |
+| Prepared By                        | Gabriela Nomberto                                                                                                                                                                                                                                                                                                                  |
+| Attendees (to planning meeting)    | Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo                                                                                                                                                                                                                                                                         |
+| Sprint n – 1 Review Summary        | Se realizó el tablero del Sprint 1 en el Trello y creo las tareas relacionados a los user stories.                                                                                                                                                                                                                                 |
+| Sprint n – 1 Retrospective Summary | Dos tareas no lograron completarse.                                                                                                                                                                                                                                                                                                |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 1 Goal                      | Crear la página web que permita a los usuarios registrarse, iniciar sesión y acceder a un dashboard donde puedan gestionar sus dispositivos y propiedades  asegurando una interfaz atractiva y funcional con un backend sólido para manejar la autenticación, operaciones CRUD de dispositivos y consulta de datos en tiempo real. |
+| Sprint 1 Velocity                  | 34                                                                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points                | 38                                                                                                                                                                                                                                                                                                                                 |
 
-### 6\.2.2.2. Sprint Backlog 2. 
+#### 6.2.2.2. Sprint Backlog 2. 
 
 En este Sprint 2, el objetivo principal es desarrollar la página web de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional en el frontend, complementada con un backend sólido que gestione la autenticación y soporte las operaciones CRUD para dispositivos, así como consultas de datos en tiempo real. Al finalizar este sprint, buscamos tener una versión funcional de estas funcionalidades clave, lista para pruebas iniciales y validación.
 
 A continuación se muestra el tablero del Sprint2 en Trello. 
 
 
-![alt text](src/images/trello2.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/trello2.png)
 
 Link del trello: https://trello.com/b/F9HDJVzc/sprint-2
 
@@ -2373,9 +2368,9 @@ Link del trello: https://trello.com/b/F9HDJVzc/sprint-2
 </table>
 
 
-### 6\.2.2.3. Development Evidence for Sprint Review.
+#### 6.2.2.3. Development Evidence for Sprint Review.
 
-A continuación, se presenta la lista de commis realiados en los repositorios para este sprint 2.
+A continuación, se presenta la lista de commits realizados en los repositorios para este sprint 2.
 
 <table><tr><th valign="top">Repository</th><th valign="top">Branch</th><th valign="top">Commit Id</th><th valign="top">Commit Message</th><th valign="top">Commit Message Body</th><th valign="top">Commited on (Date)</th></tr>
 <tr><td rowspan="5" valign="top"><p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web.git</p><p></p></td><td valign="top"><p>feat/areas</p><p></p></td><td valign="top">01871a0a</td><td valign="top">add: ()</td><td valign="top">properties crud</td><td valign="top">Oct 07 2024</td></tr>
@@ -2390,67 +2385,61 @@ A continuación, se presenta la lista de commis realiados en los repositorios pa
 <tr><td valign="top">development</td><td valign="top">a4376074</td><td valign="top">add ()</td><td valign="top"><p>add</p><p>controller</p></td><td valign="top">Nov 02 2024</td></tr>
 </table>
 
-
-
-
-### 6\.2.2.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
 
 En esta sección, presentamos el conjunto de Acceptance Tests relacionados con las User Stories seleccionadas para el desarrollo del Sprint 3. Para estos criterios de aceptación, se utilizó el lenguaje Gherkin bajo el enfoque BDD.
-|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
-| :- | :- | :- | :- | :- | :- |
-|<p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git</p><p></p>|<p>main</p><p></p>|<p>ef745cd</p><p></p>|<p>feat(testing)</p><p></p>|<p>create hu40 feature</p><p></p>|<p>03/11/2024</p><p></p>|
-|||||||
 
+| Repository                                                                                      | Branch             | Commit Id             | Commit Message              | Commit Message Body               | Commited on (Date)       |
+|-------------------------------------------------------------------------------------------------|--------------------|-----------------------|-----------------------------|-----------------------------------|--------------------------|
+| <p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git</p><p></p> | <p>main</p><p></p> | <p>ef745cd</p><p></p> | <p>feat(testing)</p><p></p> | <p>create hu40 feature</p><p></p> | <p>03/11/2024</p><p></p> |
 
-### 6\.2.2.5. Execution Evidence for Sprint Review.
+#### 6.2.2.5. Execution Evidence for Sprint Review.
 
-### 6\.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
 
-#### 6\.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
 
-### 6\.2.2.8. Team Collaboration Insights during Sprint.
+#### 6.2.2.8. Team Collaboration Insights during Sprint.
 
 Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro Aplicación Web.
 
-![alt text](/src/images/sprint2_insight.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint2_insight.png)
 
 Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestra Web Services.
-![alt text](/src/images/sprint2_insight2.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint2_insight2.png)
 
-### 6\.2.3. Sprint 3
+### 6.2.3. Sprint 3
 
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint n. Incluye como secciones internas: Sprint Planning n, Sprint Backlog n, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, junto con Team Collaboration Insights during Sprint.
 
-### 6\.2.3.1. Sprint Planning 3.
+#### 6.2.3.1. Sprint Planning 3.
 
 En esta sesión de planificación para el Sprint 3, nos enfocaremos en los desarrollos clave del Aplicación Móvil  de nuestro producto VerySafe y del el IoT Device Embedded Application. Durante el Sprint 2, logramos implementar el fronted y backend para la aplicación web de VerySafe.
 
-|**Sprint #**|Sprint 3|
-| :- | :- |
-|**Sprint Planning Background**||
-|Date|22/10/2024|
-|Time|11:30 pm|
-|Location|Cubículo de la Universidad UPC sede Villa|
-|Prepared By|Gabriela Nomberto|
-|Attendees (to planning meeting)|Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo|
-|Sprint n – 1 Review Summary|Se realizó el tablero del Sprint 2 en el Trello y creo las tareas relacionados a los user stories.|
-|Sprint n – 1 Retrospective Summary  |Se ha logrado avanzar con 18 task de las 43.|
-|**Sprint Goal & User Stories**||
-|Sprint 1 Goal|El objetivo principal es desarrollar la aplicación móvil de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional. De la misma manera se creará el IoT Device Embedded Application. en Wokwi para simular su funcionamiento|
-|Sprint 1 Velocity|26|
-|Sum of Story Points|38|
+| **Sprint #**                       | Sprint 3                                                                                                                                                                                                                                                                                                                                                                     |
+|:-----------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                              |
+| Date                               | 22/10/2024                                                                                                                                                                                                                                                                                                                                                                   |
+| Time                               | 11:30 pm                                                                                                                                                                                                                                                                                                                                                                     |
+| Location                           | Cubículo de la Universidad UPC sede Villa                                                                                                                                                                                                                                                                                                                                    |
+| Prepared By                        | Gabriela Nomberto                                                                                                                                                                                                                                                                                                                                                            |
+| Attendees (to planning meeting)    | Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo                                                                                                                                                                                                                                                                                                                   |
+| Sprint n – 1 Review Summary        | Se realizó el tablero del Sprint 2 en el Trello y creo las tareas relacionados a los user stories.                                                                                                                                                                                                                                                                           |
+| Sprint n – 1 Retrospective Summary | Se ha logrado avanzar con 18 task de las 43.                                                                                                                                                                                                                                                                                                                                 |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint 1 Goal                      | El objetivo principal es desarrollar la aplicación móvil de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional. De la misma manera se creará el IoT Device Embedded Application. en Wokwi para simular su funcionamiento |
+| Sprint 1 Velocity                  | 26                                                                                                                                                                                                                                                                                                                                                                           |
+| Sum of Story Points                | 38                                                                                                                                                                                                                                                                                                                                                                           |
 
-### 6\.2.2.2. Sprint Backlog 3. 
+#### 6.2.2.2. Sprint Backlog 3. 
 
 En este Sprint 3, el objetivo principal es desarrollar la aplicación móvil de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional. De la misma manera se creara el IoT Device Embedded Application. en Wokwi para simular su funcionamiento.  Al finalizar este sprint, buscamos tener una versión funcional de estas funcionalidades clave, lista para pruebas iniciales y validación.
 
 A continuación se muestra el tablero del Sprint 3 en Trello: 
 
-![alt text](src/images/trello3.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/trello3.png)
 
 Link: https://trello.com/b/VzbK516w/sprint-3
-
-
 
 <table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task </td></tr>
@@ -2494,55 +2483,54 @@ Link: https://trello.com/b/VzbK516w/sprint-3
 <tr><td colspan="1" valign="top">HU-50</td><td colspan="1" valign="top">Configuración del Módulo RFID</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Configurar módulo RFID</td><td colspan="1" valign="top">Configurar el módulo RFID para habilitar la autenticación.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Done</td></tr>
 </table>
 
-
-
-### 6\.2.2.3. Development Evidence for Sprint Review.
+#### 6.2.2.3. Development Evidence for Sprint Review.
 
 El repositorio FalconShield-EdgeApi ha tenido avances significativos, incluyendo la implementación de la base de la API, CRUD para actuadores, documentación Swagger, y API de sensores. Estos cambios refuerzan la infraestructura de la Edge API, garantizando que sea robusta, bien documentada, y funcional para manejar sensores y actuadores en un entorno IoT.
 
-|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
-| :- | :- | :- | :- | :- | :- |
-|<p>GabySol26/FalconShield-EdgeApi</p><p></p>|<p>add base repository </p><p></p>|<p>07ca48a23cff0b23290ba10e62f72edddd664bcc</p><p></p>|<p>add base repository</p><p></p>|<p>add base repository </p><p></p>|<p>02/10/2024</p><p></p>|
-| GabySol26/FalconShield-EdgeApi| add: base edge api | 07ca48a23cff0b23290ba10e62f72edddd664bcc| add: base edge api | add: base edge api | 02/10/2024 |
-| quevedito2/FalconShield-EdgeApi | add: crud actuator | b6ce930efd3921dbe112e803aa5dc133246bba46 | add: crud actuator |add: crud actuator | 02/10/2024 |
-| deyson63/FalconShield-EdgeApi | add: documentation swagger |  158591609b2863f8289f88f23b67b7493be6ab66 | add: documentation swagger | add: documentation swagger | 02/10/2024 | 
-| miikuru002/FalconShield-EdgeApi | add: snesor api | 19153ed38e046d50adf2ca72f853d8690e43f4bb | add: snesor api | add: snesor api |  02/10/2024 | 
-| elvi98/FalconShield-EdgeApi | fix: swagger actuators | bc790e496d9bfbaa47f16cb06dd257959b05ef62 | fix: swagger actuators | fix: swagger actuators | 02/10/2024 |
-| GabySol26/FalconShield-EdgeApi  | add: descriptions sensors swagger api | 54607743a414bbc7b0a64013eb70b9badba9435a | add: descriptions sensors swagger api | add: descriptions sensors swagger api | 02/10/2024 | 
+| Repository                                   | Branch                                | Commit Id                                              | Commit Message                        | Commit Message Body                   | Commited on (Date)       |
+|----------------------------------------------|---------------------------------------|--------------------------------------------------------|---------------------------------------|---------------------------------------|--------------------------|
+| <p>GabySol26/FalconShield-EdgeApi</p><p></p> | <p>add base repository </p><p></p>    | <p>07ca48a23cff0b23290ba10e62f72edddd664bcc</p><p></p> | <p>add base repository</p><p></p>     | <p>add base repository </p><p></p>    | <p>02/10/2024</p><p></p> |
+| GabySol26/FalconShield-EdgeApi               | add: base edge api                    | 07ca48a23cff0b23290ba10e62f72edddd664bcc               | add: base edge api                    | add: base edge api                    | 02/10/2024               |
+| quevedito2/FalconShield-EdgeApi              | add: crud actuator                    | b6ce930efd3921dbe112e803aa5dc133246bba46               | add: crud actuator                    | add: crud actuator                    | 02/10/2024               |
+| deyson63/FalconShield-EdgeApi                | add: documentation swagger            | 158591609b2863f8289f88f23b67b7493be6ab66               | add: documentation swagger            | add: documentation swagger            | 02/10/2024               | 
+| miikuru002/FalconShield-EdgeApi              | add: snesor api                       | 19153ed38e046d50adf2ca72f853d8690e43f4bb               | add: snesor api                       | add: snesor api                       | 02/10/2024               | 
+| elvi98/FalconShield-EdgeApi                  | fix: swagger actuators                | bc790e496d9bfbaa47f16cb06dd257959b05ef62               | fix: swagger actuators                | fix: swagger actuators                | 02/10/2024               |
+| GabySol26/FalconShield-EdgeApi               | add: descriptions sensors swagger api | 54607743a414bbc7b0a64013eb70b9badba9435a               | add: descriptions sensors swagger api | add: descriptions sensors swagger api | 02/10/2024               | 
 
 
-### 6\.2.3.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review.
 
 En esta sección, presentamos el conjunto de Acceptance Tests relacionados con las User Stories seleccionadas para el desarrollo del Sprint 3. Para estos criterios de aceptación, se utilizó el lenguaje Gherkin bajo el enfoque BDD.
-|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
-| :- | :- | :- | :- | :- | :- |
-|<p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git</p><p></p>|<p>main</p><p></p>|<p>ef745cd</p><p></p>|<p>feat(testing)</p><p></p>|<p>create hu40 feature</p><p></p>|<p>03/11/2024</p><p></p>|
-|||||||
+
+| Repository                                                                        | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|-----------------------------------------------------------------------------------|--------|-----------|----------------|---------------------|--------------------|
+| https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git | main   | ef745cd   | feat(testing)  | create hu40 feature | 03/11/2024         |
 
 
-### 6\.2.3.5. Execution Evidence for Sprint Review.
+#### 6.2.3.5. Execution Evidence for Sprint Review.
 
 Para esta seccion mostraremos las evidencias correspondientes al sprint 3 que se encarga de la aplicación Movil, Edge API y IoT Device.
+
 **Mobile Application**
 **Edge API**
 Para esta parte mostramos los endpoints utilizados y creados que se manejaran para la conexión a wokwi
-![alt text](src/images/Captura%20de%20pantalla%202024-11-03%20042016.png)
-![alt text](src/images/Captura%20de%20pantalla%202024-11-03%20083545.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20042016.png)
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20083545.png)
 
 
-### 6\.2.3.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review.
 A continuación, se detallan los nuevos endpoints implementados y las operaciones asociadas:
 
-| Endpoint                  | Http Verb | Acción                                   | Descripción                                   |
-|---------------------------|-----------|------------------------------------------|-----------------------------------------------|
-| `api/actuators/register`  | POST      | Controlar el actuador y sus lecturas     | Registra y controla el estado de un actuador  |
-| `api/actuators/{id}/status` | GET     | Obtener el status de los actuadores      | Obtiene el estado actual de un actuador específico |
-| `api/sensors/readings`    | GET       | Obtener los datos de los sensores        | Recupera las lecturas actuales de los sensores |
-| `api/sensors/reading`     | POST      | Procesar la lectura de datos de los sensores | Envía y procesa una nueva lectura de un sensor |
-| `api/sensors/mac-address` | POST      | Registro de MAC Address de los sensores  | Registra la dirección MAC de un sensor        |
+| Endpoint                    | Http Verb | Acción                                       | Descripción                                        |
+|-----------------------------|-----------|----------------------------------------------|----------------------------------------------------|
+| `api/actuators/register`    | POST      | Controlar el actuador y sus lecturas         | Registra y controla el estado de un actuador       |
+| `api/actuators/{id}/status` | GET       | Obtener el status de los actuadores          | Obtiene el estado actual de un actuador específico |
+| `api/sensors/readings`      | GET       | Obtener los datos de los sensores            | Recupera las lecturas actuales de los sensores     |
+| `api/sensors/reading`       | POST      | Procesar la lectura de datos de los sensores | Envía y procesa una nueva lectura de un sensor     |
+| `api/sensors/mac-address`   | POST      | Registro de MAC Address de los sensores      | Registra la dirección MAC de un sensor             |
 
 
-### 6\.2.3.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review.
  
 Para el despliegue de la Mobile App empleamos Firebase
 
@@ -2557,15 +2545,15 @@ Para el despliegue de la Edge API
 Link de la API desplegada: (http://localhost:8080/swagger-ui/index.html#/)
 
 
-#### 6\.2.3.8. Team Collaboration Insights during Sprint.
+#### 6.2.3.8. Team Collaboration Insights during Sprint.
 
 Para evidenciar la colaboración de todos integrantes del equipo FalconShield en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro Edge api.
 
-![alt](src/images/Captura%20de%20pantalla%202024-11-03%20043719.png)
+![alt](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20043719.png)
 
-### 6\.3. Validation Interviews.
+### 6.3. Validation Interviews.
 
-### 6\.3.1. Diseño de Entrevistas.
+#### 6.3.1. Diseño de Entrevistas.
 
 ### User Flows para el Proceso de Validación de VerySafe
 
@@ -2581,7 +2569,6 @@ Para evidenciar la colaboración de todos integrantes del equipo FalconShield en
 3. Configuración de Notificaciones y Personalización por Propiedad
 4. Consulta de Historial Corporativo y Filtrado de Eventos
 5. Interacción Remota con las Propiedades (Activación/Desactivación de Alarmas)
-
 
 
 ### Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Dueños de Inmueble”
@@ -2612,8 +2599,6 @@ Para evidenciar la colaboración de todos integrantes del equipo FalconShield en
 - **Interacción y Diseño de la Aplicación**  
   - Pregunta: ¿Te parece que el diseño y la interacción de la app son intuitivos y claros para la gestión de seguridad?
 
-
-
 ### Elementos a Incluir en la Sesión de Validación para el Segmento Objetivo “Empresas de Seguridad”
 
 #### 1. Landing Page de VerySafe
@@ -2643,7 +2628,7 @@ Para evidenciar la colaboración de todos integrantes del equipo FalconShield en
   - Pregunta: ¿Te resulta intuitiva la funcionalidad de activar o desactivar alarmas de forma remota en distintas propiedades?
 
 
-6\.3.2. Registro de Entrevistas.
+### 6.3.2. Registro de Entrevistas.
 
 * **Segmento 1: Dueños de inmuebles**
 
@@ -2655,7 +2640,7 @@ Para evidenciar la colaboración de todos integrantes del equipo FalconShield en
   - Duración:
   - Link: [Enlace entrevista 1]()
 
-    ![Validation Interview 1](/src/images/validation-interview-1.png)
+    ![Validation Interview 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-1.png)
 
 Antes de la entrevista Diana me comentó que le pareció interesante el tener 3 idiomas en la landing page, esto debido a que no era algo común para ella. Durante la entrevista se pudo apreciar que la sección que más llamó su atención en la landing page fue la de los planes, ya que indicó que tener la información de los planes a la mano le facilita el poder seleccionar cuál desea adquirir y poder comparar sus características. En cuanto al prototipo de la aplicación web, lo que más le agradó fue la sección de dispositivos por áreas, esto debido a que le encontró utilidad al hecho de tener los dispositivos filtrados mediante áreas correspondientes. Finalmente, ella comentó que le parece importante el recibir notificaciones sobre eventos que puedan sucitarse en su propiedad, debido a que toma mucho en cuanta su seguridad al vivir sola. Es así que Diana indicó que le gustaría mucho el poder recibir estas notificaciones mediante una aplicación móvil, ya que es el dispositivo que tiene a su mano con mayor frecuencia.
 
@@ -2668,17 +2653,17 @@ Antes de la entrevista Diana me comentó que le pareció interesante el tener 3 
   - Duración: 07:04 minutos
   - Link: https://youtu.be/NO6eZs-q9hM
      
-    ![Validation Interview2](/src/images/validation-interview-2.png)
+    ![Validation Interview2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-2.png)
 
 En la entrevista, Aldahir menciona que la landing page es intuitiva y fácil de navegar. Además, destaca que los planes se muestran de manera clara y que las imágenes ayudan a comprender los beneficios que obtendrá el usuario. Con respecto al prototipo de la aplicación móvil, le agrada la funcionalidad para agregar una nueva propiedad y asignar áreas a estas, así como la opción de activar y desactivar dispositivos. También resalta la utilidad de recibir notificaciones cuando se genera un evento en los dispositivos, aunque advierte que podría ser molesto si el dispositivo genera alertas por eventos que no son de emergencia. En cuanto a las mejoras sugeridas, propone ajustar la imagen de fondo en el inicio de la landing page, ya que actualmente no tiene suficiente contraste con el texto del eslogan, lo cual dificulta su lectura.
 
-6\.3.3. Evaluaciones según heurísticas. 
+### 6.3.3. Evaluaciones según heurísticas. 
 
 Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta. Para esto la sección debe contener la estructura del formato para evaluaciones de heurísticas indicado en el Anexo D. Formato para Evaluación de User Experience según Heurísticas. 
 
-6\.4. Video About-the-Product.
+## 6.4. Video About-the-Product.
 
-**Conclusiones**
+# Conclusiones
 
 En esta sección se incluye como secciones internas Conclusiones y recomendaciones, así como Video About-The-Team.
 
@@ -2688,13 +2673,12 @@ Conclusiones y recomendaciones.
 * La Edge API facilita la comunicación y el procesamiento de datos en dispositivos de borde (como ESP32). Es crucial para aplicaciones IoT que requieren decisiones en tiempo real.
 * La aplicación móvil está progresando bien con características implementadas como la navegación mediante BottomNavBar y la gestión de propiedades. La UI es intuitiva y sigue el diseño previsto.
 
-Video About-the-Team.
+# Video About-the-Team.
 
 En esta sección el equipo elabora un resumen de los aspectos más relevantes del video About-The-Team, la pauta de secuencias de contenido (secciones con el timing de inicio de cada una, es decir hh:mm:ss de cada sección dentro del video) incluyendo además un cuadro de video representativo del mismo, junto con el URL de la versión publicada en Microsoft Stream (y además, el URL de la versión publicada en YouTube utilizada para incrustarse en el Landing Page). Este video resume el proceso de trabajo realizado, incluyendo escenas con imágenes o video de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. Ver otras indicaciones importantes en el Anexo C. Indicaciones para secciones que incluyen Videos
 
-Bibliografía
+# Bibliografía
 
 En esta sección el equipo especifica todas las referencias bibliográficas en formato APA, utilizadas como base para el desarrollo del trabajo o referenciadas en secciones del informe. 
 
-
-Anexos
+# Anexos
