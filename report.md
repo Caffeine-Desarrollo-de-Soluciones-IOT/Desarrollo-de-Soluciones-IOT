@@ -118,8 +118,7 @@ clasificando según criterios, tales como frecuencia, relevancia, etc.
 
    El primer paso consistió en realizar una exploración sin estructura para identificar posibles eventos en el dominio
    de FalconShield. Durante esta etapa, se analizaron criterios como la frecuencia y relevancia de eventos,
-   identificando una variedad de situaciones que los usuarios pueden experimentar, tales como "User registered", "
-   Subscription purchased" y "Notification enabled"
+   identificando una variedad de situaciones que los usuarios pueden experimentar, tales como "User registered", "Subscription purchased" y "Notification enabled"
 
    ![event](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/event-1.png)
 
@@ -164,8 +163,7 @@ Una vez identificados los eventos clave, se procedió a seguir los otros pasos p
 delimitados, que representan áreas de interés o responsabilidades dentro del sistema. Estos contextos se definen en
 función de la cohesión de los eventos y las reglas de negocio asociadas. Para descubrir los contextos candidatos,
 aplicamos una combinación de análisis de eventos clave y puntos de pivote dentro del EventStorm. Esto permitió una
-identificación estructurada de los Bounded Contexts al analizar aquellos eventos con mayor relevancia para el negocio (
-look-for-pivotal-events). Así, el equipo fue capaz de definir contextos delimitados en función de la cohesión de eventos
+identificación estructurada de los Bounded Contexts al analizar aquellos eventos con mayor relevancia para el negocio (look-for-pivotal-events). Así, el equipo fue capaz de definir contextos delimitados en función de la cohesión de eventos
 y reglas de negocio compartidas.
 
 1. **Sexto paso: Policies**
@@ -268,8 +266,7 @@ A continuación, se presentan ejemplos de los bounded contexts con los patrones 
 - **Events Management Context - Notification Management Context (Customer/Supplier)**: La relación entre estos dos
   bounded contexts sigue el patrón Customer/Supplier. El Events Management Context es el proveedor que genera eventos
   críticos como alertas de seguridad o cambios en el estado de los dispositivos IoT. El Notification Management Context,
-  como cliente, consume estos eventos y se encarga de enviar notificaciones al usuario a través de distintos canales (
-  correo, SMS, etc.).
+  como cliente, consume estos eventos y se encarga de enviar notificaciones al usuario a través de distintos canales (correo, SMS, etc.).
 
 - **IoT Asset Management Context - Software Update Context (Conformist)**: El IoT Asset Management Context, encargado de
   gestionar los dispositivos IoT, depende del Software Update Context para implementar actualizaciones y parches. En
@@ -738,7 +735,7 @@ handlers y eventos identificados para este contexto:
         - `handle(CreateSubscriptionCommand command): SubscriptionDto` - Ejecuta la creación de suscripción.
     - **Diagrama**:
 
-![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/createsubscription-ch.png)
+   ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/createsubscription-ch.png)
 
 2. **ProcessPaymentCommandHandler**
     - **Descripción**: Registra el pago procesado por Stripe en la base de datos y mantiene la consistencia entre el
@@ -834,35 +831,35 @@ sistema:
 1. **StripePaymentGateway**: Es la clase encargada de la integración con el sistema de pagos de Stripe. Implementa las
    operaciones necesarias para gestionar pagos, suscripciones y facturación a través de la API de Stripe.
 
-![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/stripepaymentgateway.png)
+   ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/stripepaymentgateway.png)
 
 2. **NotificationService**: Se encarga de enviar notificaciones a los usuarios, ya sea por correo electrónico, SMS o
    cualquier otro medio configurado. Es utilizada para notificar eventos importantes, como pagos fallidos, renovaciones
    de suscripción o vencimientos.
 
-![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/notificationservice.png)
+   ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/notificationservice.png)
 
 3. **StripeWebhookService**: Se encarga de procesar las notificaciones recibidas desde Stripe a través de webhooks. Esta
    clase recibe los eventos de Stripe y los transforma en eventos internos del dominio que los Event Handlers procesan.
 
-![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/stripewebhookservice.png)
+   ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/stripewebhookservice.png)
 
 4. **PaymentRepository**: Esta clase maneja las operaciones de almacenamiento y recuperación de información relacionada
    con
    los pagos realizados por los clientes.
 
-![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/payment-repo.png)
+   ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/payment-repo.png)
 
 5. **SubscriptionRepository**: Esta clase se encarga de manejar las operaciones de persistencia de las suscripciones en
    la
    base de datos.
 
-![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscription-repo.png)
+   ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/subscription-repo.png)
 
 6. **CustomerRepository**: Se encarga de gestionar la persistencia de la información de los clientes, incluyendo la
    sincronización con el sistema de Stripe.
 
-![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customer-repo.png)
+   ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/customer-repo.png)
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -870,7 +867,7 @@ En esta sección, se presenta el diagrama de componentes para el Bounded Context
 la estructura interna de los contenedores y sus interacciones principales. Este diagrama, creado siguiendo el modelo C4,
 descompone cada contenedor en componentes específicos, explicando sus responsabilidades y las tecnologías utilizadas.
 
-![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/c4-component-bc-subscriptions.png)
+   ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/c4-component-bc-subscriptions.png)
 
 ##### Componentes Identificados
 
@@ -1304,8 +1301,7 @@ componentes y sus interacciones
 
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 
-En el diagrama de base de datos de usuario podemos ver la relación existente de las tablas dentro del bounded context "
-User". Aquí definimos la tabla usuario, en el cual almacenamos información importante del usuario para que pueda
+En el diagrama de base de datos de usuario podemos ver la relación existente de las tablas dentro del bounded context "User". Aquí definimos la tabla usuario, en el cual almacenamos información importante del usuario para que pueda
 registrarse en la aplicación que a su vez está relacionada con un rol de usuario el cual asigna los permisos al sistema
 dependiendo el rol que desempeñen dentro de nuestra aplicación dando conocer asi que un rol lo puede desempeñar varios
 usuarios, pero un usuario tiene un único rol. Los atributos los cuales manejamos incluyen identificadores unicos para
@@ -1420,8 +1416,7 @@ componentes y sus interacciones
 
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 
-En el diagrama de base de datos de usuario podemos ver la relación existente de las tablas dentro del bounded context "
-Event". Aquí definimos la tabla event, en el cual almacenamos información importante del evento o suceso que suceda en
+En el diagrama de base de datos de usuario podemos ver la relación existente de las tablas dentro del bounded context "Event". Aquí definimos la tabla event, en el cual almacenamos información importante del evento o suceso que suceda en
 el momento que pueda activarse una alarma, además esta está relacionado con un tipo de evento para una mejor gestión al
 momento de registrar el evento ocurrido. Los atributos los cuales manejamos incluyen identificadores unicos para cada
 entidad asi como detalles principales que debemos tener para la aplicación.
