@@ -1028,7 +1028,7 @@ instancias.
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/devices-diagram.png)
 
-#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.2.6.2. Bounded Context Domain Layer Class Diagrams
 
 Este diagrama de base de datos representa las tablas y las relaciones dentro del bounded context "Devices". Se define la
 entidad devices, que almacena información sobre ek tipo y la descripción del dispositivo de seguridad. La entidad
@@ -1377,49 +1377,57 @@ entidad asi como detalles principales que debemos tener para la aplicación.
 #### 4.2.6.1. Domain Layer
 
 **Entidades de dominio**
-- **Notification:** Representa una notificación en el sistema.
--	**NotificationType:** Representa el tipo de notificación en el sistema.
-     Agregados
--	**NotificationManager:** Maneja la creación y gestión de notificaciones.
--	**NotificationTypeManager:** Maneja la creación y gestión de tipos de notificaciones.
-     Repositorios
--	**NotificationRepository:** Maneja la persistencia de las notificaciones.
--	**NotificationTypeRepository:** Maneja la persistencia de los tipos de notificaciones.
+- **Notification:** Representa una notificación en el sistema. Contiene los atributos `id`, `typeId`, `content`, `isRead`, `createdAt`, y `userId`, necesarios para identificar y manejar la notificación.
+- **NotificationType:** Define los diferentes tipos de notificaciones en el sistema. Contiene `id` y `type` para clasificar y administrar las notificaciones.
+
+**Agregados**
+- **NotificationManager:** Agregado raíz encargado de gestionar la creación, actualización y eliminación de notificaciones en el sistema.
+- **NotificationTypeManager:** Agregado que gestiona los tipos de notificación, permitiendo la creación y actualización de estos tipos.
+
+**Repositorios**
+- **NotificationRepository:** Proporciona operaciones de persistencia para notificaciones, tales como guardado, actualización y eliminación.
+- **NotificationTypeRepository:** Maneja la persistencia de tipos de notificación, permitiendo almacenar y recuperar tipos definidos en el sistema.
 
 #### 4.2.6.2. Interface Layer
 
--	**NotificationController:** Maneja las operaciones relacionadas con la gestión de notificaciones, como la creación, actualización y eliminación de notificaciones.
--	**NotificationTypeController:** Maneja las operaciones relacionadas con la gestión de tipos de notificaciones, como la creación, actualización y eliminación de tipos de notificaciones.
+**Controllers**
+- **NotificationController:** Controlador responsable de manejar las operaciones relacionadas con notificaciones. Expone los endpoints necesarios para crear, actualizar, eliminar y obtener detalles de notificaciones.
+- **NotificationTypeController:** Controlador que gestiona los tipos de notificación, proporcionando endpoints para crear, actualizar y eliminar estos tipos.
 
 #### 4.2.6.3. Application Layer
 
-En el contexto de “Notifications,” el Application Layer se enfoca en la creación y gestión de notificaciones y sus tipos. Proporciona una interfaz para que los usuarios puedan crear, actualizar y eliminar notificaciones y tipos de notificaciones.
-**Command Handlers:**
--	**CreateNotificationCommandHandler:** Procesa la creación de nuevas notificaciones en el sistema.
--	**UpdateNotificationCommandHandler:** Procesa la actualización de notificaciones existentes.
--	**DeleteNotificationCommandHandler:** Procesa la eliminación de notificaciones.
-     **Event Handlers:**
--	**NotificationCreatedEventHandler:** Responde a eventos que indican la creación exitosa de una notificación.
--	**NotificationUpdatedEventHandler:** Responde a eventos que indican la actualización exitosa de una notificación.
--	**NotificationDeletedEventHandler:** Responde a eventos que indican la eliminación exitosa de una notificación.
+**Command Handlers**
+- **CreateNotificationCommandHandler:** Procesa el comando de creación de notificaciones, validando los datos y llamando al servicio de notificaciones para su persistencia.
+- **UpdateNotificationCommandHandler:** Maneja la actualización de notificaciones existentes en el sistema.
+- **DeleteNotificationCommandHandler:** Gestiona la eliminación de notificaciones, validando permisos y ejecutando la operación en el repositorio.
+
+**Event Handlers**
+- **NotificationCreatedEventHandler:** Maneja eventos relacionados con la creación exitosa de notificaciones, para realizar acciones posteriores si es necesario.
+- **NotificationUpdatedEventHandler:** Procesa eventos que indican que una notificación ha sido actualizada correctamente.
+- **NotificationDeletedEventHandler:** Maneja eventos relacionados con la eliminación de notificaciones, permitiendo realizar acciones de limpieza u otras operaciones.
 
 #### 4.2.6.4. Infrastructure Layer
 
-Integración con servicios externos: Se configurarán conexiones y se desarrollarán adaptadores para interactuar con servicios externos para el envío de notificaciones. Esto implicará la configuración de servicios de mensajería y la gestión de credenciales de acceso.
+En esta capa se implementan las integraciones con servicios externos para el envío de notificaciones. Los servicios externos podrían incluir proveedores de mensajería o correo electrónico. Las configuraciones incluyen la gestión de credenciales y la configuración de los adaptadores para conectar con los servicios.
+
+**External Services**
+- **NotificationService:** Clase encargada de enviar notificaciones a través de servicios externos, como correos electrónicos o SMS. Implementa métodos como `sendEmail` y `sendSms` para manejar el envío de mensajes de manera segura.
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-El diagrama de nivel de componentes muestra cómo interactúan los diferentes componentes del sistema:
-
-![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/bd-component-notification.jpg)
+El diagrama de componentes muestra cómo los diferentes módulos del sistema interactúan entre sí para gestionar notificaciones, desde los controladores hasta los servicios externos.
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 
-El diagrama de nivel de código muestra la estructura del código y las relaciones entre las clases:
+**Bounded Context Domain Layer Class Diagram**
+
+El diagrama UML de clases para el contexto de "Notifications" muestra las relaciones y responsabilidades de las entidades y servicios dentro del dominio. Las clases incluyen `Notification`, `NotificationType`, `NotificationService`, y `NotificationRepository`, todas interconectadas para manejar las notificaciones en el sistema.
 
 ![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/class-diagram-notification.jpeg)
 
 #### 4.2.6.7. Bounded Context Database Design Diagram
+
+El diseño de la base de datos incluye las tablas `notifications` y `notifications_type`, que representan la estructura de datos para persistir las notificaciones y sus tipos, con claves primarias y foráneas para mantener la integridad referencial.
 
 ![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/bd-notification.jpeg)
 
