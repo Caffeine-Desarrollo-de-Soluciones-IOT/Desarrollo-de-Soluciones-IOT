@@ -613,7 +613,9 @@ Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejor
 Como grupo, investigamos a nuestros principales competidores de los cuales ofrezcan servicios similares o parecidos a los nuestros. Llegamos a la conclusion de comparar con tres empresas las cuales son las siguiente:
 
 **1. Verisure**: Es una empresa de seguridad que ofrece como servicios primero la inspeccion del inmueble del cual solicitan sus productos para ofrecer mejor seguridad. Además, cuenta con una central de monitoreo para poder recepcionar las alarmas los siete días de las semanas y las 24 horas del día. Estos cuentan con dispositivos de seguridad como sensores para las puertes, camaras de video, camaras de foto, etc.
+
 **2. Prosegur**: Es una empresa que brinda Alarmas monitoreadas y seguridad a cualquier tipo de persona. Ofrecen kits de seguridad para que el cliente decida cual es de su mejor agrado y prosegur acude a la instalacion, asimismo no solo se dedica en la seguridad del inmueble sino tambien de vehiculos. Todo ello esta monitoreado por una central de alertas para que al activarse pueda acudir un motorizado a corroborar la alerta dada.
+
 **3. Securitas**: Empresa de seguridad que se basa en comprender al cliente para poder ofrecer sus servicios de los cuales el mas conocido es la camara de videovigilancia, además de brindar seguridad en muchos aspectos como seguridad remota o seguridad electrónica, tambien ofrece servicios de proteccion contra incendios para sus clientes ofreciendoles asi un reporte anual desde su compra
 
 Teniendo estos competidores mejor descritos, podremos hacer nuestro análisis competitivo a continuación.
@@ -631,7 +633,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 
 | Startup | VerySafe | Verisure | Prosegur | Securitas |
 | -- | -- | -- | -- | -- |
-| Logo | ![VerySafe](/src/images/logo.jpg) | ![Verisure](/src/images/verisure.jpg) | ![Prosegur](/src/images/prosegur.jpg) | ![Securitas](/src/images/securitas.png) |
+| Logo | ![VerySafe](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/logo.jpg) | ![Verisure](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/verisure.jpg) | ![Prosegur](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/prosegur.jpg) | ![Securitas](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/securitas.png) |
 | **Overview** | Ofrece soluciones de seguridad accesibles y personalizadas para inmuebles. Se enfoca en integrar tecnología avanzada con un enfoque en la accesibilidad, buscando proteger hogares y pequeñas empresas con productos innovadores y servicios flexibles que se adaptan a las necesidades de sus clientes. | Ofrece sistemas de alarmas conectadas y monitoreo remoto 24/7. Con una fuerte presencia en el mercado peruano, Verisure ofrece soluciones de alta tecnología que combinan la seguridad física y digital, destacándose por su fiabilidad y servicio al cliente. | Ofrece una amplia gama de servicios que incluyen desde alarmas y videovigilancia hasta servicios de seguridad física y logística de valores, adaptándose tanto a clientes residenciales como corporativos con soluciones integradas. | Ofrece soluciones personalizadas que combinan seguridad física y digital, dirigidas principalmente a grandes empresas e instituciones. Su enfoque está en la integración de tecnologías innovadoras y la adaptación a las necesidades específicas de cada cliente. | 
 |**Ventaja competitiva ¿Qué valor ofrece a los clientes?** | Ofrecer soluciones tecnológicas avanzadas IoT a precios accesibles, con un enfoque en personalización y accesibilidad para un público amplio. | Alta tecnología en sistemas de monitoreo remoto y servicio al cliente eficiente. | Amplia gama de servicios de seguridad integrados con una fuerte presencia en el mercado local e internacional | Tecnología avanzada y un enfoque en la integración de soluciones de seguridad física y digital. | 
 
@@ -660,8 +662,87 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 | **Amenazas** | Competencia fuerte de marcas establecidas | Competencia en precios de empresas locales y nuevas tecnologías. | Innovaciones tecnológicas y nuevos competidores más ágiles. | Innovación tecnológica de startups más ágiles y económicas. |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+### Estrategias y Tácticas frente a Competidores
+
+ **Fortalezas de VerySafe**
+1. **Accesibilidad en precios**:
+  - **Estrategia**: Posicionarse como la opción más asequible para propietarios de inmuebles de clase media y pequeña empresa en Lima Metropolitana.
+  - **Táctica**: Ofrecer precios competitivos con un modelo flexible de suscripción o alquiler, además de promociones y descuentos para primeros clientes o contratos anuales.
+
+2. **Personalización de productos**:
+  - **Estrategia**: Destacar la flexibilidad en las soluciones de seguridad para adaptarse a las necesidades específicas de cada cliente.
+  - **Táctica**: Implementar una plataforma de asesoría en línea que permita a los clientes elegir y personalizar sus kits de seguridad, junto con soporte técnico personalizado.
+
+3. **Enfoque local**:
+  - **Estrategia**: Aprovechar el conocimiento del mercado local y su cercanía con el cliente para ofrecer un servicio ágil y eficiente.
+  - **Táctica**: Implementar un servicio de instalación rápida y soporte técnico local, con personal entrenado para responder rápidamente a los clientes de Lima Metropolitana.
+
+ **Debilidades de VerySafe**
+1. **Menor reconocimiento de la empresa y marca**:
+  - **Estrategia**: Aumentar la visibilidad de la marca mediante campañas de marketing digital y presencia en eventos del sector de la seguridad.
+  - **Táctica**: Realizar campañas en redes sociales y Google Ads, además de buscar alianzas con empresas locales para aumentar la exposición en Lima Metropolitana.
+
+2. **Recursos limitados frente a competidores establecidos**:
+  - **Estrategia**: Colaborar con otras startups tecnológicas o pequeñas empresas para incrementar los recursos de desarrollo y promoción sin requerir grandes inversiones.
+  - **Táctica**: Buscar asociaciones estratégicas con empresas tecnológicas locales para integrar soluciones innovadoras a precios accesibles, y hacer uso de marketing colaborativo.
+
+ **Oportunidades**
+1. **Creciente demanda de seguridad avanzada**:
+  - **Estrategia**: Aprovechar la demanda de soluciones de seguridad más sofisticadas, ofreciendo sistemas IoT avanzados a precios competitivos.
+  - **Táctica**: Desarrollar e implementar nuevas funcionalidades en los dispositivos IoT, como monitoreo en tiempo real a través de la app móvil y alertas automáticas por geolocalización.
+
+2. **Expansión a nuevos segmentos de mercado**:
+  - **Estrategia**: Expandir el alcance a nuevos segmentos de clientes como pequeñas empresas o áreas fuera de Lima Metropolitana.
+  - **Táctica**: Crear planes y precios personalizados para pequeñas empresas y ofrecer instalaciones en regiones cercanas a Lima, fortaleciendo la presencia local.
+
+ **Amenazas**
+1. **Competencia en precios de empresas locales y nuevas tecnologías**:
+  - **Estrategia**: Diferenciarse por la accesibilidad, pero con un enfoque en tecnología de calidad y servicio al cliente.
+  - **Táctica**: Resaltar la fiabilidad y la atención personalizada en las campañas de marketing, mostrando la rapidez en la respuesta ante emergencias y el soporte técnico especializado.
+
+2. **Innovaciones tecnológicas de competidores más grandes**:
+  - **Estrategia**: Estar a la vanguardia en términos de tecnología mediante alianzas y la constante actualización de los productos.
+  - **Táctica**: Desarrollar un plan de innovación continua con actualizaciones periódicas del software y hardware, manteniendo la competitividad frente a competidores más grandes. Implementar pruebas beta de nuevos dispositivos para generar interés y feedback temprano de los usuarios.
+
+
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+Preguntas generales 
+1.	¿Cuáles son su nombre y apellido?
+2.	¿Qué edad tiene usted?
+3.	¿Cuál es su ocupación?
+
+Para Dueños de Inmuebles
+1.	¿Qué desafíos de seguridad ha enfrentado en su propiedad anteriormente?
+
+2.	¿Qué características considera esenciales en un sistema de seguridad para su hogar?
+
+3.	¿Cómo maneja actualmente la seguridad de su hogar y qué le gustaría mejorar?
+
+4.	¿Qué tan cómodo se sentiría al recibir notificaciones y alertas de seguridad en su dispositivo móvil?
+
+5.	¿Qué nivel de automatización está dispuesto a aceptar en su sistema de seguridad?
+
+6.	¿Qué tipo de alertas le gustaría recibir en caso de una intrusión o emergencia?
+
+7.	¿Qué tan relevante es para usted que el sistema de seguridad pueda integrarse con futuros dispositivos inteligentes que adquiera para su hogar?
+
+8.	¿Cómo prefiere que se gestione el acceso a su sistema de seguridad: a través de una app, un panel de control, o de otra manera?
+
+Para Empresas de Seguridad
+1.	¿Qué protocolos siguen cuando se recibe una alerta de alarma desde un sistema IoT?
+2.	¿Cómo capacitan a su personal para responder a alertas provenientes de dispositivos IoT?
+3.	¿Qué tipo de formación y equipo reciben sus empleados para garantizar una respuesta rápida y efectiva?
+4.	¿Qué tipo de integración ofrecen con sistemas de seguridad basados en IoT?
+5.	¿Cómo manejan la comunicación con los propietarios de las viviendas durante una respuesta a emergencia?
+6.	¿Qué procedimientos siguen para verificar la autenticidad de una alarma antes de desplegar personal?
+7.	¿Cuál es el tiempo promedio de respuesta de su equipo en caso de una alarma de seguridad?
+8.	¿Cómo se coordina su empresa con los servicios de emergencia locales en caso de una alarma?
+9.	¿Qué tipo de informes o retroalimentación proporcionan a los clientes después de una respuesta a emergencia?
+10.	¿Qué mejoras están considerando implementar para adaptarse a la creciente integración de tecnología IoT en los sistemas de seguridad?
+
 ### 2.2.2. Registro de entrevistas
 
 * **Segmento 1: Dueños de inmuebles**
@@ -673,8 +754,8 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
     - Timing: 0:00
     - Duración: 9:35
     - Link: [Enlace entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=WkDqqD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-    
-    ![Interview 1](/src/images/interview-1.png)
+
+    ![Interview 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/interview-1.png)
     Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble ya que actualmente lo maneja de forma manual con cercos. Además destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
 
   - Entrevista N°2:
@@ -684,14 +765,15 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
     - Timing: 9:35
     - Duración: 5:22
     - Link: [Enlace entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=Hh8QaG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTc0Ljc0fX0%3D)
-    
-    ![Interview 2](/src/images/interview-2.png)
+
+    ![Interview 2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/interview-2.png)
+  
     Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
-
-    Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más importantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. Por último, mencionó que ella prefiere gestionar el sistema de seguridd de su hogar mediante una aplicación, ya que de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
-
+    Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más importantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. 
+    Por último, mencionó que ella prefiere gestionar el sistema de seguridad de su hogar mediante una aplicación, ya que de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
     También pude notar que Diana utiliza un celular con android y una laptop con Windows. Además, sus canales de comunicación son principalmente WhatsApp e Instagram. Su relación con la tecnología es bastante buena, debido a que en su trabajo están en constante capacitación, sobretodo para el uso de pc. Asimismo, está acostumbrada a utilizar browsers basados en chromium, tales como Chrome y Brave.
 
+    
 
 - Entrevista N°4:
     - Nombres y apellidos: Aaron Alva Moreno
@@ -700,10 +782,10 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
     - Timing: 23:37
     - Duración: 5:00
     - Link: [Enlace entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=WkDqqD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-    
-    ![interview 4](src/images/entrevista-4.png)
-    Aaron compartió que recientemente ha comenzado un proceso de mudanza en una zona algo conflictiva de San Juan de Lurigancho. Al iniciar la entrevista, su preocupación por la seguridad se hizo evidente, ya que mencionó que en su vecindario hay un aumento alarmante en los robos de inmuebles y hogares. Esta situación lo ha llevado a buscar soluciones efectivas que le brinden mayor tranquilidad y protección. La sensación de inseguridad en su nuevo entorno es algo que le preocupa profundamente, lo que ha intensificado su interés por encontrar un sistema de seguridad que se adapte a sus necesidades.
 
+    ![interview 4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/entrevista-4.png)
+    
+    Aaron compartió que recientemente ha comenzado un proceso de mudanza en una zona algo conflictiva de San Juan de Lurigancho. Al iniciar la entrevista, su preocupación por la seguridad se hizo evidente, ya que mencionó que en su vecindario hay un aumento alarmante en los robos de inmuebles y hogares. Esta situación lo ha llevado a buscar soluciones efectivas que le brinden mayor tranquilidad y protección. La sensación de inseguridad en su nuevo entorno es algo que le preocupa profundamente, lo que ha intensificado su interés por encontrar un sistema de seguridad que se adapte a sus necesidades.
     En su búsqueda de una solución, Aaron se mostró abierto a explorar tecnologías de Internet de las Cosas (IoT) que puedan mejorar la seguridad de su hogar. Está interesado en sistemas que no solo ofrezcan protección, sino que también permitan una gestión eficiente a través de notificaciones en tiempo real. Esta funcionalidad podría ayudarlo a sentirse más seguro y al tanto de cualquier situación inusual en su entorno. La posibilidad de monitorear su hogar de manera remota y recibir alertas inmediatas sobre posibles amenazas es una característica que considera fundamental para tomar decisiones informadas y reaccionar rápidamente ante cualquier eventualidad. Asimismo, nos comento que el en sistemas operativos es fanático de windows y android.
 
 * **Segmento 2: Empresas de Seguridad**
@@ -714,12 +796,12 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
     - Timing: 26:31
     - Duración: 4:00
     - Link: [Enlace entrevista 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=WkDqqD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-    
-    ![interview 5](src/images/entrevista-5.png)
-    
-    En esta ocasión, entrevistamos a Diego, quien dirige una compañía de seguridad. Durante la conversación, Diego expresó su deseo de mejorar gradualmente la eficiencia de su servicio, ya que actualmente sus tiempos de respuesta ante emergencias pueden llegar a ser de hasta 10 minutos, dependiendo de la zona donde se active la alarma. Esta situación lo preocupa, ya que en muchas ocasiones el tiempo es crucial para garantizar la seguridad de sus clientes. Además, mencionó que, aunque está familiarizado con los dispositivos IoT, ha enfrentado problemas con algunos de ellos, como fallos en la conectividad que retrasan las notificaciones.
 
+    ![interview 5](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/entrevista-5.png)
+
+    En esta ocasión, entrevistamos a Diego, quien dirige una compañía de seguridad. Durante la conversación, Diego expresó su deseo de mejorar gradualmente la eficiencia de su servicio, ya que actualmente sus tiempos de respuesta ante emergencias pueden llegar a ser de hasta 10 minutos, dependiendo de la zona donde se active la alarma. Esta situación lo preocupa, ya que en muchas ocasiones el tiempo es crucial para garantizar la seguridad de sus clientes. Además, mencionó que, aunque está familiarizado con los dispositivos IoT, ha enfrentado problemas con algunos de ellos, como fallos en la conectividad que retrasan las notificaciones.
     Diego está decidido a explorar nuevas opciones y tecnologías que puedan optimizar su sistema de seguridad. Está dispuesto a investigar otros tipos de dispositivos que ofrezcan mayor fiabilidad y rapidez en la comunicación de alertas. Su enfoque proactivo refleja su compromiso con la mejora continua de su empresa, buscando siempre proporcionar un servicio más eficiente y efectivo a sus clientes. La incorporación de soluciones innovadoras podría no solo disminuir los tiempos de respuesta, sino también aumentar la confianza de sus clientes en la seguridad que brinda. Nos comenta además que en su compañía, utilizan mejor el sistema Windows para el monitoreo de las alarmas.
+
 
 - Entrevista N°6:
     - Nombres y apellidos: Jorge Luis Quevedo Yucra
@@ -728,98 +810,74 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
     - Timing: 23:37
     - Duración: 5:00
     - Link: [Enlace entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=WkDqqD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+    ![interview 6](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/interview-6.png)
     
-    ![entrevista 5](src/images/interview-6.png)
-Las respuestas de Jorge revelan un enfoque sólido y flexible en la gestión de seguridad mediante tecnologías IoT, demostrando una profunda comprensión de las necesidades actuales del sector. Su empresa se distingue por un firme compromiso con la capacitación constante de su equipo, asegurando que el personal esté altamente preparado para enfrentar los desafíos de un entorno tecnológico en evolución. Además, han adoptado una estrategia proactiva en la integración de soluciones tecnológicas avanzadas, lo que les permite optimizar la eficiencia operativa y mejorar la detección y respuesta ante cualquier posible amenaza. La combinación de estos factores, junto con un enfoque en la mejora continua de sus procesos internos, garantiza que la empresa no solo reaccione rápidamente ante incidentes, sino que también se mantenga a la vanguardia en la protección de activos y la seguridad integral de sus clientes.
+    Las respuestas de Jorge revelan un enfoque sólido y flexible en la gestión de seguridad mediante tecnologías IoT, demostrando una profunda comprensión de las necesidades actuales del sector. Su empresa se distingue por un firme compromiso con la capacitación constante de su equipo, asegurando que el personal esté altamente preparado para enfrentar los desafíos de un entorno tecnológico en evolución. Además, han adoptado una estrategia proactiva en la integración de soluciones tecnológicas avanzadas, lo que les permite optimizar la eficiencia operativa y mejorar la detección y respuesta ante cualquier posible amenaza. La combinación de estos factores, junto con un enfoque en la mejora continua de sus procesos internos, garantiza que la empresa no solo reaccione rápidamente ante incidentes, sino que también se mantenga a la vanguardia en la protección de activos y la seguridad integral de sus clientes.
 
 ### 2.2.3. Análisis de entrevistas
-## 2.3 Needfinding
+
+ **Análisis de entrevistas - Dueños de inmuebles:**
+
+1. **Preocupación por la inseguridad y aumento de robos**:
+  - 100% mencionaron la inseguridad como factor decisivo para buscar soluciones de seguridad.
+
+2. **Interés en soluciones tecnológicas (IoT y monitoreo remoto)**:
+  - 66% valoraron la gestión remota y notificaciones en tiempo real.
+
+3. **Preferencia por alertas rápidas (llamadas vs. notificaciones)**:
+  - 33% prefieren recibir alertas por llamada, 66% no tienen preferencia pero aceptan notificaciones.
+
+4. **Importancia de la confianza en la empresa y servicio al cliente**:
+  - 33% destacó la necesidad de confianza y buen servicio al cliente.
+
+5. **Uso de tecnología y plataformas específicas**:
+  - 66% usan Android y Windows, sugiriendo la necesidad de compatibilidad multiplataforma.
+
+   **Análisis de entrevistas -  Empresas de seguridad:**
+
+1. **Preocupación por tiempos de respuesta ante emergencias**:
+  - 100% de los entrevistados expresaron que los tiempos de respuesta ante emergencias son una preocupación crítica. Diego mencionó tiempos de hasta 10 minutos, lo cual afecta la eficiencia del servicio.
+
+2. **Interés en mejorar la fiabilidad de dispositivos IoT**:
+  - 100% manifestaron problemas con la conectividad de los dispositivos IoT y su deseo de explorar opciones más fiables para mejorar la comunicación de alertas.
+
+3. **Enfoque proactivo en la integración de soluciones tecnológicas**:
+  - 100% destacaron su disposición a adoptar nuevas tecnologías para optimizar los sistemas de seguridad y mejorar la eficiencia operativa.
+
+4. **Capacitación constante del personal**:
+  - 50% mencionaron la importancia de la capacitación constante para garantizar un servicio eficiente y adaptado a las nuevas tecnologías.
+
+5. **Uso de Windows para monitoreo de alarmas**:
+  - 50% de las empresas entrevistadas utilizan Windows como sistema para monitoreo de alarmas, destacando la necesidad de compatibilidad con este sistema.
+ 
+
+
+##  2.3 Needfinding
 ### 2.3.1. User Personas
 Las personas que se presentan a continuación son una representación de los segmentos de usuarios definidos, se han tomado en cuenta las características más relevantes de las entrevistas realizadas y el análisis de la competencia las cuales incluyen: edad, distrito, dispositivos tecnológicos que utilizan, canales de comunicación, relación con la tecnología, necesidades y preferencias.
 
 - **Segmento 1: Dueños de inmuebles**
-![user persona seg 1](/src/images/user-persona-seg1.png)
+![user persona seg 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/user-persona-seg1.png)
 
 - **Segmento 2: Empresas de seguridad**
-![user persona seg 2](/src/images/user-persona-empresa.png)
+![user persona seg 2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/user-persona-empresa.png)
 
 ### 2.3.2. User Task Matrix
 
 Los User Personas que se han definido son Seele Vollerei el cual representa al primer segmento, dueño de inmueble y José Ramirez para el segundo segmento, empresa de seguridad. A continuación, se presenta la matriz de tareas de los User Personas.
 
-<table border="1">
-  <thead>
-    <tr>
-      <th rowspan="2">Task</th>
-      <th colspan="2">Seele Vollerei <br> (Dueño de inmueble)</th>
-      <th colspan="2">José Ramirez <br> (Empresa de seguridad)</th>
-    </tr>
-    <tr>
-      <th>Frecuencia</th>
-      <th>Importancia</th>
-      <th>Frecuencia</th>
-      <th>Importancia</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Monitorización de cámaras en tiempo real</td>
-      <td>Casi siempre</td>
-      <td>Alta</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Revisión de grabaciones de las cámaras</td>
-      <td>A veces</td>
-      <td>Media alta</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Recepción de alertas en tiempo real</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Respuesta ante incidentes</td>
-      <td>Rara vez</td>
-      <td>Alta</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Análisis de patrones de seguridad</td>
-      <td>Pocas veces</td>
-      <td>Alta</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Realización de informes de actividad</td>
-      <td>Casi nunca</td>
-      <td>Baja</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Instalación de nuevas cámaras y/o dispositivos IoT</td>
-      <td>A veces</td>
-      <td>Alta</td>
-      <td>Rara vez (no es su rubro)</td>
-      <td>Baja</td>
-    </tr>
-    <tr>
-      <td>Configuración y mantenimiento de los dispositivos IoT y cámaras</td>
-      <td>Casi siempre</td>
-      <td>Alta</td>
-      <td>Casi nunca</td>
-      <td>Baja</td>
-    </tr>
-  </tbody>
-</table>
+| Task                                             | Frecuencia (Seele Vollerei)      | Importancia (Seele Vollerei) | Frecuencia (José Ramirez)           | Importancia (José Ramirez)       |
+|--------------------------------------------------|----------------------------------|-----------------------------|-------------------------------------|----------------------------------|
+| Monitorización de cámaras en tiempo real         | Casi siempre                     | Alta                        | Siempre                             | Alta                             |
+| Revisión de grabaciones de las cámaras           | A veces                          | Media alta                  | Siempre                             | Alta                             |
+| Recepción de alertas en tiempo real              | Siempre                          | Alta                        | Siempre                             | Alta                             |
+| Respuesta ante incidentes                        | Rara vez                         | Alta                        | Siempre                             | Alta                             |
+| Análisis de patrones de seguridad                | Pocas veces                      | Alta                        | Siempre                             | Alta                             |
+| Realización de informes de actividad             | Casi nunca                       | Baja                        | Siempre                             | Alta                             |
+| Instalación de nuevas cámaras y/o dispositivos IoT | A veces                        | Alta                        | Rara vez (no es su rubro)           | Baja                             |
+| Configuración y mantenimiento de los dispositivos IoT y cámaras | Casi siempre           | Alta                        | Casi nunca                          | Baja                             |
+
 
 Las tareas que se realizan con mayor frecuencia e importancia por parte de los User Personas son la monitorización de cámaras en tiempo real, la recepción de alertas en tiempo real y la revisión de las grabaciones. En cuanto a las diferencias, se puede observar que Seele Vollerei realiza la instalación de nuevas cámaras y/o dispositivos IoT, mientras que José Ramirez no lo hace, ya que no es su rubro. Por otro lado, las demás tareas coinciden en su importancia y frecuencia, aunque José Ramirez realiza la mayoría de tareas con mayor frecuencia que Seele Vollerei debido a que es su trabajo.
 
@@ -828,10 +886,10 @@ Las tareas que se realizan con mayor frecuencia e importancia por parte de los U
 En esta sección se realiza la demostración de la experiencia del usuario con el producto o servicio (como está actualmente). En este caso, se ha realizado el mapeo del viaje del usuario desde el momento en que se plantea la necesidad de adquirir un sistema de seguridad hasta que se instala y se configura el sistema en su hogar (Dueño de inmueble) y desde que se recibe la solicitud o alerta de un cliente hasta que se resuelve el incidente (Empresa de seguridad).
 
 - **User Journey Mapping (Seele Vollerei - Dueño de inmueble)**
-![user journey seg 1](/src/images/user-journey-mapping-seg1.png)
+![user journey seg 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/user-journey-mapping-seg1.png)
 
 - **User Journey Mapping (José Ramirez - Empresa de seguridad)**
-![user journey seg 2](/src/images/user-journey-mapping(josé-ramirez-empresa-de-seguridad).png)
+![user journey seg 2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/user-journey-mapping(josé-ramirez-empresa-de-seguridad).png)
 
 Se presenta el User Journey Map para el segmento de Empresa de Seguridad, en el cual se establecen las distintas etapas por las que pasa este usuario durante el uso de la aplicación.
 
@@ -840,10 +898,10 @@ Se presenta el User Journey Map para el segmento de Empresa de Seguridad, en el 
 El proceso de elaboración del Empathy Mapping se ha realizado tomando en cuenta las entrevistas realizadas a los usuarios de cada segmento y en base a la información recopilada en las mismas. A continuación, se presentan los Empathy Mapping de los User Personas definidos.
 
 - **Empathy Mapping (Seele Vollerei - Dueño de inmueble)**
-![empathy mapping seg 1](/src/images/empathy-mapping-seg1.png)
+![empathy mapping seg 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/empathy-mapping-seg1.png)
 
 - **Empathy Mapping (José Ramirez - Empresa de seguridad)**
-![empathy mapping seg 2](/src/images/empaty-mapping(jose-ramirez-empresa-de-seguridad).png)
+![empathy mapping seg 2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/empaty-mapping(jose-ramirez-empresa-de-seguridad).png)
 
 José Ramírez se encuentra en una posición de búsqueda activa de soluciones tecnológicas que mejoren los servicios de seguridad que su empresa ofrece. Su principal desafío es integrar de manera efectiva nuevas tecnologías de videovigilancia IoT sin sacrificar la calidad del servicio ni incrementar demasiado los costos operativos. Está motivado por mantenerse a la vanguardia en un sector altamente competitivo, pero también está preocupado por la complejidad técnica y la compatibilidad de las nuevas soluciones. Su decisión de adoptar un nuevo sistema de seguridad depende en gran medida de la facilidad de implementación, la fiabilidad, y la capacidad para mejorar la experiencia de sus clientes.
 
@@ -852,15 +910,14 @@ José Ramírez se encuentra en una posición de búsqueda activa de soluciones t
 Para la elaboración del As-Is Scenario Mapping se ha seguido el proceso de mapeo de escenarios actuales de los User Personas definidos y una lluvia de ideas tomando en cuenta su situación actual, necesidades, preferencias y el mercado actual. A continuación, se presentan los As-Is Scenario Mapping de los User Personas definidos.
 
 - **As-Is Scenario Mapping (Seele Vollerei - Dueño de inmueble)**
-![as-is scenario seg 1](/src/images/as-is-scenario-mapping-seg1.png)
+![as-is scenario seg 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/as-is-scenario-mapping-seg1.png)
 
 - **As-Is Scenario Mapping (José Ramirez - Empresa de seguridad)**
-![as-is scenario seg 1](/src/images/as-is-scenario-mapping-seguridad.png)
+![as-is scenario seg 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/as-is-scenario-mapping-seguridad.png)
 Este As-Is Scenario Mapping refleja el viaje de José Ramírez desde la investigación inicial hasta el uso diario y el mantenimiento de un sistema de videovigilancia IoT, destacando tanto los puntos positivos como los desafíos que enfrenta.
 
 ## 2.4. Ubiquitous Language
-Para el desarrollo de esta sección, como grupo debemos estar alineados con los términos y conceptos claves que son necesarios para la realización del proyecto. Además, nos ayuda a tener un lenguaje en común para entender nuestros objetivos, funcionalidades y benerfios.
-
+Para el desarrollo de esta sección, como grupo debemos estar alineados con los términos y conceptos claves que son necesarios para la realización del proyecto. Además, nos ayuda a tener un lenguaje en común para entender nuestros objetivos, funcionalidades y benerfios. 
 Para VerySafe tenemos los siguientes términos:
 
 1. Property Owner (Propietario de Inmueble): Persona o entidad que posee un inmueble y tiene la responsabilidad de protegerlo.
