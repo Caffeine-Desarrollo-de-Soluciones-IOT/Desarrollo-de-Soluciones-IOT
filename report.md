@@ -292,6 +292,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
   - [2.1 Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [Estrategias y Tácticas frente a Competidores](#estrategias-y-tácticas-frente-a-competidores)
   - [2.2 Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
@@ -1702,7 +1703,7 @@ Tenemos también nuestras pantallas para que el usuario agregue los dispositivos
 
 | Wireframe                                                                                                  | Descripción                                                                                                                                                                    |
 |------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![pantalla inicial de dispositivos](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MADD%20DEVICE.png) | **Pantalla principal de los Dispositivos:** En esta pantalla le presentaremos al usuario los dispositivos adquiridos, asi como un botón que puede agregar luego de obtener más |
+| ![pantalla inicial de dispositivos](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MADD%20DEVICE%7D.png) | **Pantalla principal de los Dispositivos:** En esta pantalla le presentaremos al usuario los dispositivos adquiridos, asi como un botón que puede agregar luego de obtener más |
 | ![seleccion de conexion](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%203.png)                  | **Selección tipo de conexión con el dispositivo nuevo:** En esta pantalla el usuario podrá elegir el tipo de conexión con su nuevo dispositivo en este caso Bluetooth          |
 | ![tipo de nuevo dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%204.png)              | **Selección del nuevo dispositivo:** En esta pantalla el usuario podrá seleccionar el nuevo dispositivo adquirido para poder agregarlo.                                        |
 | ![seleccion de ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%205.png)                  | **Selección de ambiente:** En esta pantalla el usuario podrá elegir en que ambiente de su inmueble fue colocado el nuevo dispositivo                                           |
