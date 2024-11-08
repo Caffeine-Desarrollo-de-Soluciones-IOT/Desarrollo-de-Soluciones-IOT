@@ -1748,34 +1748,167 @@ Enlace para una mejor visualización: https://overflow.io/s/3C8AFWFU
 | **UG09:** Agregar una nueva área para gestionar dispositivos IoT en distintas zonas del inmueble.<br/><br/> Facilita la organización de los dispositivos IoT, permitiendo al usuario definir diferentes áreas y asignar dispositivos a cada una para un control más ordenado. | ![flow5](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/folw5.jpg)     |
 
 ## 5.5. Applications Prototyping
+En esta sección se detalla el proceso de creación de prototipos para las aplicaciones web y móvil (wireframes y mockups) que permitieron validar tanto el diseño como la estructura de la información, garantizando una navegación fluida y una experiencia de usuario de alta calidad. En la aplicación web se priorizó un flujo de funciones lógico y bien estructurado, mientras que en la versión móvil se aplicaron principios de diseño adaptable y usabilidad para pantallas más pequeñas. Este enfoque aseguró que ambas aplicaciones fueran no solo atractivas visualmente, sino también funcionales y accesibles, alineándose con las expectativas del cliente y las necesidades del usuario final.
+
+[//]: # (TODO Agregar los videos)
 
 # CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
 ## 6.1. Software Configuration Management
 ### 6.1.1. Software Development Environment Configuration
 En esta sección se presenta la configuración del entorno de desarrollo de software utilizado por el equipo en el proyecto de IoT. A continuación, se detallan las herramientas seleccionadas, junto con sus descripciones y propósitos específicos, así como los enlaces para acceder a cada una de ellas. Estas herramientas son fundamentales para colaborar eficazmente en las diversas etapas del ciclo de vida de los productos digitales, incluyendo la gestión de proyectos, la gestión de requisitos, el diseño UX/UI, el desarrollo de software, las pruebas, el despliegue y la documentación.
 
-| Herramienta       | Descripción y propósito                                                                                                                                                                                                                                  | Enlace                                                           |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-| UX Pressia        | Herramienta para crear mapas de experiencia del usuario, permitiendo visualizar y documentar la experiencia del usuario en un formato colaborativo. Se utilizará para desarrollar y comunicar la experiencia del usuario en las soluciones de IoT.       | [https://uxpressia.com](https://uxpressia.com)                   |
-| Miro              | Pizarra colaborativa en línea ideal para la lluvia de ideas y la planificación de proyectos. Se utilizará para la colaboración en la definición de requisitos y la creación de diagramas de flujo que guiarán el desarrollo del software.                | [https://miro.com](https://miro.com)                             |
-| Figma             | Herramienta de diseño de interfaces y prototipado colaborativo que permite trabajar juntos en tiempo real. Se utilizará para diseñar la interfaz de usuario (UI) y crear prototipos interactivos que se validarán con los usuarios finales.              | [https://www.figma.com](https://www.figma.com)                   |
-| Overflow          | Herramienta de diagramación de flujos de usuario que permite crear recorridos visuales de las interacciones del usuario. Se utilizará para ilustrar cómo los usuarios interactuarán con la solución de IoT.                                              | [https://overflow.io](https://overflow.io)                       |
-| Structurizr       | Herramienta para crear diagramas de arquitectura de software utilizando el lenguaje C4. Se utilizará para definir y comunicar la arquitectura de la solución IoT.                                                                                        | [https://structurizr.com](https://structurizr.com)               |
-| LucidChart        | Herramienta de diagramación en línea que permite crear diagramas de flujo y organigramas. Se utilizará para documentar visualmente los procesos y flujos de trabajo asociados con el desarrollo de la solución de IoT.                                   | [https://www.lucidchart.com](https://www.lucidchart.com)         |
-| Vertabelo         | Herramienta de diseño de bases de datos que permite crear y documentar esquemas de bases de datos. Se utilizará para el modelado de datos en el proyecto, asegurando que la estructura de la base de datos se alinee con los requisitos del sistema IoT. | [https://www.vertabelo.com](https://www.vertabelo.com)           |
-| HTML5             | Lenguaje de marcado estándar para crear páginas web. Se utilizará para estructurar el contenido de las aplicaciones web del proyecto, asegurando una base sólida para la interfaz de usuario.                                                            | No dispone                                                       |
-| CSS3              | Hoja de estilo utilizada para diseñar la presentación de las aplicaciones web. Se utilizará para estilizar las interfaces de usuario y garantizar una experiencia visual atractiva y coherente.                                                          | No dispone                                                       |
-| JavaScript        | Lenguaje de programación utilizado para desarrollar aplicaciones web interactivas. Se utilizará para implementar la lógica de negocio y las interacciones en la aplicación de IoT.                                                                       | No dispone                                                       |
-| Angular Framework | Framework de desarrollo web para construir aplicaciones web de una sola página. Se utilizará para crear la interfaz del usuario y gestionar el estado de la aplicación IoT.                                                                              | [https://angular.io](https://angular.io)                         |
-| Angular Material  | Biblioteca de componentes de UI para Angular que sigue las pautas de diseño de Material Design. Se utilizará para implementar componentes de interfaz de usuario coherentes y responsivos en la aplicación.                                              | [https://material.angular.io](https://material.angular.io)       |
-| TypeScript        | Superset de JavaScript que añade tipado estático. Se utilizará en el proyecto para mejorar la calidad del código y facilitar el desarrollo al proporcionar herramientas de desarrollo más robustas.                                                      | [https://www.typescriptlang.org](https://www.typescriptlang.org) |
-| Trello            | Herramienta de gestión de proyectos que utiliza tableros para organizar tareas y proyectos. Se utilizará para gestionar el progreso del proyecto, asignar tareas y hacer seguimiento del trabajo del equipo.                                             | [https://trello.com](https://trello.com)                         |
-| GIT               | Sistema de control de versiones distribuido que permite gestionar el código fuente del proyecto. Se utilizará para llevar un seguimiento de los cambios en el código y colaborar eficientemente entre los miembros del equipo.                           | [https://git-scm.com](https://git-scm.com)                       |
-| GitHub            | Plataforma de desarrollo colaborativo que permite almacenar y gestionar repositorios de código usando Git. Se utilizará para alojar el código del proyecto y facilitar la colaboración entre los miembros del equipo.                                    | [https://github.com](https://github.com)                         |
-| GitFlow           | Flujo de trabajo para Git que define un modelo de ramificación para gestionar el desarrollo. Se utilizará para organizar el trabajo en el proyecto, facilitando la integración de nuevas características y la gestión de lanzamientos.                   | No dispone                                                       |
+#### Project Management
+1. Trello
+    - Propósito: Gestionar tareas, organizar proyectos y colaborar en equipo mediante tableros visuales.
+    - Ruta de acceso: https://trello.com
 
+#### Requirements Management
+1. Miro
+    - Propósito: Pizarra colaborativa en línea para la creación de diagramas, mapas mentales y prototipos interactivos.
+    - Ruta de acceso: https://miro.com
+
+2. Structurizr
+    - Propósito: Crear modelos de arquitectura de software y documentar la estructura de sistemas de software.
+    - Ruta de acceso: https://structurizr.com
+
+3. LucidChart
+    - Propósito: Crear diagramas de flujo, organigramas y mapas conceptuales para visualizar y compartir ideas.
+    - Ruta de acceso: https://www.lucidchart.com
+
+4. Vertabelo
+    - Propósito: Modelar y diseñar bases de datos relacionales para definir la estructura de datos de la aplicación.
+    - Ruta de acceso: https://www.vertabelo.com
+
+#### Product UX/UI Design
+1. UX Pressia
+    - Propósito: Creación de mapas de experiencia del usuario para visualizar y documentar la experiencia del usuario.
+    - Ruta de acceso: https://uxpressia.com
+
+2. Figma
+    - Propósito: Prototipado de interfaces de usuario y diseño colaborativo para crear experiencias de usuario interactivas.
+    - Ruta de acceso: https://www.figma.com
+
+3. Overflow
+    - Propósito: Diagramación de flujos de usuario para ilustrar las interacciones del usuario con la solución de IoT.
+    - Ruta de acceso: https://overflow.io
+   
+#### Software Development
+1. Visual Studio Code
+    - Propósito: Editor de código fuente ligero y potente para el desarrollo de aplicaciones web y móviles.
+    - Ruta de descarga: https://code.visualstudio.com
+
+2. IntelliJ IDEA
+    - Propósito: Entorno de desarrollo integrado (IDE) para el desarrollo del backend y la lógica de negocio de la aplicación IoT.
+    - Ruta de descarga: https://www.jetbrains.com/idea
+   
+3. Postman
+    - Propósito: Colaboración para el desarrollo de APIs y pruebas de software.
+    - Ruta de acceso: https://www.postman.com
+
+4. Git
+    - Propósito: Sistema de control de versiones distribuido para gestionar el código fuente del proyecto.
+    - Ruta de descarga: https://git-scm.com
+
+5. GitHub
+    - Propósito: Plataforma de alojamiento de código fuente y colaboración para el desarrollo de software.
+    - Ruta de acceso: https://github.com
+
+6. Vue Framework
+    - Propósito: Framework de desarrollo web para construir la interfaz de usuario de la aplicación web.
+    - Ruta de acceso: https://vuejs.org
+
+7. Spring Boot
+    - Propósito: Framework de desarrollo de aplicaciones Java para crear el backend de la aplicación.
+    - Ruta de acceso: https://spring.io/projects/spring-boot
+
+8. Flutter
+    - Propósito: SDK de código abierto para desarrollar la aplicación móvil multiplataforma.
+    - Ruta de acceso: https://flutter.dev
+
+9. PostgreSQL
+    - Propósito: Sistema de gestión de bases de datos relacional para almacenar los datos de la aplicación.
+    - Ruta de acceso: https://www.postgresql.org
+
+#### Software Deployment
+1. Amazon Web Services (AWS)
+    - Propósito: Plataforma de servicios en la nube para alojar y desplegar bases de datos, servidores y aplicaciones web.
+    - Ruta de acceso: https://aws.amazon.com
+   
+2. Vercel
+    - Propósito: Plataforma de alojamiento web para la aplicación web y landing page de FalconShield.
+    - Ruta de acceso: https://vercel.com
+
+3. Render
+    - Propósito: Plataforma de alojamiento para los servicios de backend y API de la aplicación IoT.
+    - Ruta de acceso: https://render.com
+
+#### Software Documentation
+1. Markdown
+    - Propósito: Lenguaje de marcado ligero para escribir documentación técnica y colaborar en el proyecto.
+    - Ruta de acceso: https://www.markdownguide.org
+
+2. Swagger
+    - Propósito: Herramienta de documentación de API para describir y visualizar las API RESTful del backend.
+    - Ruta de acceso: https://swagger.io
 
 ### 6.1.2. Source Code Management
+En esta sección se presenta la configuración del control de versiones del código fuente del proyecto de IoT, utilizando Git como sistema de control de versiones distribuido. A continuación, se detallan las herramientas y plataformas seleccionadas para la gestión del código fuente, así como las prácticas y convenciones de desarrollo de software aplicadas en el proyecto.
+
+#### Repositorios de Código Fuente
+Cada proyecto de software de FalconShield se encuentra en una organización donde esta a su vez cuenta con diversos repositorios en GitHub, donde se almacenan y gestionan los archivos de código fuente, documentación y recursos del proyecto.
+
+- Organización: 
+  - Enlace: [Caffeine IoT](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT)
+
+- Reporte: Repositorio donde se almacena la documentación de todo el proyecto.
+  - Enlace: [Reporte](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/Desarrollo-de-Soluciones-IOT)
+
+- Landing Page: Repositorio donde se almacena el código fuente de la landing page de FalconShield desarrollada en HTML, CSS y JavaScript.
+  - Enlace: [Landing Page](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page)
+
+- Aplicación Web: Repositorio donde se almacena el código fuente de la aplicación web de FalconShield desarrollada en Vue.js
+  - Enlace: [Aplicación Web](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web)
+
+- Aplicación Móvil: Repositorio donde se almacena el código fuente de la aplicación móvil de FalconShield desarrollada en Flutter.
+  - Enlace: [Aplicación Móvil](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot)
+
+- Web API (backend): Repositorio donde se almacena el código fuente de los servicios principales para las apps de FalconShield desarrollado en Java con Spring Boot.
+  - Enlace: [Web API](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield)
+
+- Edge API: Repositorio donde se almacena el código fuente de la edge API para los dispositivos IoT de FalconShield desarrollada en Java con Spring Boot.
+  - Enlace: [Edge API](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi)
+
+#### GitFlow Workflow
+Se trabajó con el flujo de trabajo GitFlow, un modelo de ramificación para Git que se centra en la colaboración y la liberación de software. Este flujo de trabajo define una estructura de ramificación estricta diseñada en torno a la publicación de versiones del software. A continuación, se describen las ramas principales utilizadas en el proyecto:
+
+- **Ramas principales:**
+  - `main`: Rama principal que contiene el código fuente de producción estable y se actualiza con las versiones finales del software.
+  - `develop`: Rama de desarrollo que contiene el código fuente en desarrollo y se actualiza con las nuevas características y correcciones de errores.
+
+- **Rama de características:** 
+  - `feature/{nombre}`: Ramas de características que se crean a partir de develop para desarrollar nuevas funcionalidades y se fusionan de nuevo en develop.
+
+- **Rama de lanzamientos:**
+  - `release/{version}`: Ramas de lanzamiento que se crean a partir de develop para preparar la versión de producción y se fusionan en develop y main.
+
+- **Rama de correcciones:**
+    - `hotfix/{nombre}`: Ramas de corrección de errores que se crean a partir de main para solucionar problemas críticos y se fusionan en develop y main.
+
+#### Semantic Versioning
+Se aplicó el versionado semántico para la numeración de versiones del software, siguiendo un esquema de tres números (X.Y.Z) que representan los siguientes elementos:
+
+- `X`: Versión principal (major) que se incrementa cuando se realizan cambios incompatibles (ej. cambios en la API) o se agregan nuevas funcionalidades.
+- `Y`: Versión secundaria (minor) que se incrementa cuando se agregan funcionalidades compatibles con versiones anteriores.
+- `Z`: Versión de corrección (patch) que se incrementa cuando se corrigen errores y se realizan mejoras compatibles.
+
+#### Conventional Commits
+Se adoptó el estándar de mensajes de confirmación convencionales para estructurar y normalizar los mensajes de confirmación del código fuente. Este enfoque facilita la generación de registros de cambios automáticos y la comunicación efectiva entre los miembros del equipo. A continuación, se presentan los tipos de mensajes de commit utilizados en el proyecto:
+
+- `feat`: Nueva funcionalidad (ej. "feat: add login page")
+- `fix`: Corrección de errores (ej. "fix: resolve login issue")
+- `docs`: Cambios en la documentación (ej. "docs: update README")
+- `refactor`: Refactorización del código (ej. "refactor: improve code structure")
+
 ### 6.1.3. Source Code Style Guide & Conventions
 A continuación, se darán a conocer las convenciones, formatos, estilos y entre otras propiedades de los lenguajes trabajados en la presente solución las cuales son: HTML, JavaScript/TypeScript, Java y CSS. Además, por el lado de las pruebas de aceptación también se darán a conocer dichos temas para el lenguaje Gherkin.
 
@@ -1863,49 +1996,79 @@ A continuación, se darán a conocer las convenciones, formatos, estilos y entre
 
 En esta sección especificaremos los pasos necesarios para realizar el despliegue de los productos digitales actuales de la solución. En la fase inicial, se despliega la Landing Page utilizando GitHub Pages y la aplicación Web en Netlify.
 
-**Landing Page - Despliegue en GitHub Pages**
+#### Landing Page - Despliegue en GitHub Pages
+La landing page de FalconShield se desplegó utilizando GitHub Pages, una función de GitHub que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. A continuación, se detallan los pasos para desplegar la Landing Page en GitHub Pages:
 
-**Pasos para el Despliegue:**
 1. Preparación del Repositorio:
-   * Asegúrate de tener el repositorio de GitHub creado para la Landing Page.
+   * Asegurarse de tener el repositorio de GitHub creado para la Landing Page.
    * Todos los archivos de la Landing Page (HTML, CSS, JavaScript y activos estáticos) deben estar en el directorio raíz o en una carpeta llamada docs.
   
 2. Configurar GitHub Pages:
-   * Ve a la sección de Settings en tu repositorio de GitHub.
-   * Desplázate hasta GitHub Pages y selecciona la rama desde la que deseas desplegar tu página (generalmente main o master).
-   * Si los archivos de tu Landing Page están en una carpeta específica, como docs, selecciona esa carpeta en el desplegable.
+   * Ir a la sección de Settings en tu repositorio de GitHub.
+   * Desplazarse hasta GitHub Pages y seleccionar la rama desde la que se desea desplegar la página (generalmente main o master).
+   * Si los archivos de la Landing Page están en una carpeta específica, como docs, selecciona esa carpeta en el desplegable.
 
 3. Publicación:
-     * Guarda los cambios. GitHub Pages generará automáticamente una URL donde tu Landing Page estará disponible.
-     * Verifica que la Landing Page sea accesible desde la URL proporcionada por GitHub Pages.
+     * Guardar los cambios. GitHub Pages generará automáticamente una URL donde la Landing Page estará disponible.
+     * Verificar que la Landing Page sea accesible desde la URL proporcionada por GitHub Pages.
 
 4. Actualizaciones:
-   * Para hacer cambios en la Landing Page, realiza commits y push en el repositorio. GitHub Pages actualizará automáticamente el sitio con los cambios subidos.
+   * Para hacer cambios en la Landing Page, realizar commits y push en el repositorio. GitHub Pages actualizará automáticamente el sitio con los cambios subidos.
 
-**Web Application - Despliegue en Netlify**
-**Pasos para el Despliegue:**
+#### Web Application - Despliegue en Vercel
+La aplicación web de FalconShield se desplegó utilizando Vercel, una plataforma de alojamiento web que permite desplegar aplicaciones web estáticas y dinámicas de forma sencilla y rápida. A continuación, se detallan los pasos para desplegar la Aplicación Web en Vercel:
 
 1. Preparación del Proyecto:
-   * Asegúrate de que el proyecto esté correctamente configurado en tu entorno local.
-   * Genera una versión de producción del proyecto con el comando adecuado (ejemplo: npm run build si usas React).
+   * Asegurarse de que el proyecto esté correctamente configurado en el entorno local
+   * Generar una versión de producción del proyecto con el comando adecuado (por ejemplo, npm run build si se utiliza Vite)
 
-2. Conexión con Netlify:
-   * Inicia sesión en tu cuenta de Netlify.
-   * En el panel de control, selecciona "New site from Git".
-   * Conecta tu repositorio de GitHub donde está alojada la Web Application.
+2. Conexión con Vercel:
+   * Iniciar sesión en la cuenta de Vercel.
+   * En el panel de control de Vercel, seleccionar “New Project”.
+   * Conectar el repositorio de GitHub donde está alojada la Web Application.
 
 3. Configuración de Despliegue:
-   * Selecciona la rama que deseas desplegar (generalmente main o master).
-   * Especifica el comando de construcción (por ejemplo, npm run build) y la carpeta donde se encuentra la salida (build o dist, dependiendo de tu configuración).
+   * Seleccionar la rama que se desea desplegar (generalmente main o master)
+   * Configurar el comando de construcción (por ejemplo, npm run build) y especificar la carpeta donde se encuentra la salida de la compilación (build o dist, dependiendo de la configuración)
   
 4. Publicación:
-   * Netlify construirá y desplegará automáticamente la aplicación. Una vez que el despliegue esté completo, recibirás una URL para acceder a la aplicación.
-   * Puedes personalizar la URL o usar un dominio personalizado en la configuración de Netlify.
+   * Vercel construirá y desplegará automáticamente la aplicación. Una vez completado el despliegue, se proporcionará una URL para acceder a la aplicación
+   * Se puede personalizar la URL o utilizar un dominio personalizado en la configuración de Vercel
 
 5. Actualizaciones:
-   * Para actualizar la Web Application, realiza cambios en el código, haz commits y push. Netlify detectará automáticamente los cambios y reconstruirá el sitio.
+   * Para actualizar la Web Application, realizar cambios en el código, hacer commits y push. Vercel detectará automáticamente los cambios y reconstruirá el sitio
 
-**Deployment Diagram (C4 Model)**
+#### Web API - Despliegue en Render
+La Web API de FalconShield se desplegó utilizando Render, una plataforma de alojamiento que permite desplegar aplicaciones web y servicios de backend de forma sencilla y escalable. A continuación, se detallan los pasos para desplegar la Web API en Render:
+
+1. Preparación del Proyecto:
+   * Asegurarse de que el proyecto backend esté correctamente configurado en el entorno local
+   * Crear un archivo `Dockerfile` en la raíz del proyecto para especificar el entorno y las configuraciones necesarias para ejecutar la aplicación
+
+2. Configuración del Repositorio:
+   * Hacer push del código junto con el Dockerfile a la rama principal del repositorio (generalmente main o master)
+
+3. Conexión con Render:
+   * Iniciar sesión en la cuenta de Render.
+   * Crear un nuevo servicio de backend y seleccionar la opción de conectar con un repositorio de GitHub
+
+4. Configuración del Despliegue:
+   - En la configuración del servicio:
+      - Name: Asignar un nombre al servicio
+      - Region: Seleccionar la región en la que se desea desplegar el backend
+      - Branch: Seleccionar la rama que se desea desplegar (generalmente main o master)
+      - Runtime: Seleccionar “Docker” como el entorno de ejecución
+      - Render detectará automáticamente el Dockerfile en el repositorio y lo usará para construir y ejecutar el servicio
+      - Environment Variables: Agregar cualquier variable de entorno necesaria (como API keys o configuraciones específicas) en la sección de Environment de Render
+
+5. Publicación:
+   * Render iniciará el proceso de construcción y despliegue. Una vez completado el despliegue, se proporcionará una URL para acceder al backend
+   * Comprobar que el backend esté funcionando correctamente accediendo a la URL proporcionada y probando los endpoints
+
+6. Actualizaciones:
+   * Para actualizar el backend, realizar cambios en el código, hacer commits y push en el repositorio. Render detectará automáticamente los cambios, reconstruirá y desplegará nuevamente el servicio
+
+#### Deployment Diagram (C4 Model)
 Para esta parte como es una etapa inicial contamos únicamente con nuestra Landing Page y nuestra primera versión de la aplicación Web
 
 ![deployment C4 1er sprint](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploymentc4.jpg)
@@ -2386,9 +2549,8 @@ Para evidenciar la colaboración de todos integrantes del equipo FalconShield en
 
 ![alt](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20043719.png)
 
-### 6.3. Validation Interviews.
-
-#### 6.3.1. Diseño de Entrevistas.
+## 6.3. Validation Interviews.
+### 6.3.1. Diseño de Entrevistas.
 
 **User Flows para el Proceso de Validación de VerySafe**
 
@@ -2464,7 +2626,6 @@ Para evidenciar la colaboración de todos integrantes del equipo FalconShield en
 
   - **Interacción con el Sistema para la Activación y Desactivación de Alarmas**  
     - Pregunta: ¿Te resulta intuitiva la funcionalidad de activar o desactivar alarmas de forma remota en distintas propiedades?
-
 
 ### 6.3.2. Registro de Entrevistas.
 
