@@ -232,7 +232,7 @@ Enlace del Project Report: https://github.com/Caffeine-Desarrollo-de-Soluciones-
 
 **ENTREGA N°1: TB1**
 
-Para esta entrega, en conjunto creamos una organizacion en GitHub agregando así a cada miembro del equipo, adicionalmente creamos la primera estructura del reporte a entregar en el cuál junto al documento de statement seguimos las descripciones para poder tener una entrega exitosa.
+Para esta entrega, en conjunto creamos una organizacion en GitHub agregando así a cada miembro del equipo, adicionalmente creamos la primera estructura del reporte a entregar en el cual junto al documento de statement seguimos las descripciones para poder tener una entrega exitosa.
 
 - **Evidencias:**
 ![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/tb1.1.png)
@@ -244,7 +244,7 @@ Para esta entrega, en conjunto creamos una organizacion en GitHub agregando así
 
 **ENTREGA N°2: TP**
 
-Para esta entrega, dentro de la organización creamos los repositorios para el desarrollo del landing page, backend y aplicación web. Asimismo, creamos nuestra presentación dónde mostramos las principales funcionalidades de nuestro trabajo quedando pendiente algunos arreglos.
+Para esta entrega, dentro de la organización creamos los repositorios para el desarrollo de la landing page, backend y aplicación web. Asimismo, creamos nuestra presentación dónde mostramos las principales funcionalidades de nuestro trabajo quedando pendiente algunos arreglos.
 
 - **Evidencias:**
 ![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/tb2.png)
@@ -258,7 +258,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 
 **ENTREGA N°3: TB2**
 
-Para esta entrega, dentro de la organización creamos los repositorios para el desarrollo de las bases de datos, el edge api y el app mobile asimismo mejorando los repositorios anteriores como lo es el landing page, la aplicación web y el backend.
+Para esta entrega, dentro de la organización creamos los repositorios para el desarrollo de las bases de datos, el edge api y el app mobile asimismo mejorando los repositorios anteriores como lo es la landing page, la aplicación web y el backend.
 
 - **Evidencias**
 ![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/tb2.png)
@@ -281,8 +281,8 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
     - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2 Solution Profile](#12-solution-profile)
-    - [1.2.1  Antecedentes y problemática](#121--antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2, Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
@@ -482,7 +482,7 @@ Monetización
 
 VerySafe generará ingresos de forma en subscripciones y/o alquileres de nuestros productos
 
-### 1.2.1  Antecedentes y problemática
+### 1.2.1. Antecedentes y problemática
 
 Para la realizacion de este segmento utilizaremos la técnica de las 5W y 2H
 
@@ -504,7 +504,7 @@ Where - ¿Dónde surge el problema?
 
 El problema surge principalmente en zonas urbanas de Lima Metropolitana, donde la densidad de población y la disparidad económica generan áreas con altos índices de delincuencia. Tanto en barrios residenciales como en zonas comerciales, la vulnerabilidad a estos actos es significativa.
 
-Who - ¿Quienes son afectados por el problema?
+Who - ¿Quiénes son afectados por el problema?
 
 Los principales afectados son los propietarios de viviendas que carecen de un sistema de seguridad de calidad.
 
@@ -588,7 +588,7 @@ Según el Instituto Nacional de Estadística e Informática (INEI), cerca del 12
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/estadistica-criminalidad-segmentos-objetivo.png)
 
-Por otro lado, los inmuebles a nivel de Lima Metropolitana y la Provincia Constitucional del Callao tambien fueron afectadas por robo o
+Por otro lado, los inmuebles a nivel de Lima Metropolitana y la Provincia Constitucional del Callao también fueron afectadas por robo o
 intento de robo en el año 2021. A nivel de ámbitos geográficos, el porcentaje de viviendas afectadas por robo o intento
 de robo fue mayor en la Provincia Constitucional del Callao (7,9%), que en Lima Metropolitana (7,2%).
 
@@ -611,13 +611,13 @@ Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejor
 # CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
 ## 2.1 Competidores
 
-Como grupo, investigamos a nuestros principales competidores de los cuales ofrezcan servicios similares o parecidos a los nuestros. Llegamos a la conclusion de comparar con tres empresas las cuales son las siguiente:
+Como grupo, investigamos a nuestros principales competidores de los cuales ofrezcan servicios similares o parecidos a los nuestros. Llegamos a la conclusion de comparar con tres empresas las cuales son las siguientes:
 
-**1. Verisure**: Es una empresa de seguridad que ofrece como servicios primero la inspeccion del inmueble del cual solicitan sus productos para ofrecer mejor seguridad. Además, cuenta con una central de monitoreo para poder recepcionar las alarmas los siete días de las semanas y las 24 horas del día. Estos cuentan con dispositivos de seguridad como sensores para las puertes, camaras de video, camaras de foto, etc.
+**1. Verisure**: Es una empresa de seguridad que ofrece como servicios primero la inspeccion del inmueble del cual solicitan sus productos para ofrecer mejor seguridad. Además, cuenta con una central de monitoreo para poder recepcionar las alarmas los siete días de las semanas y las 24 horas del día. Estos cuentan con dispositivos de seguridad como sensores para las puertas, cámaras de video, cámaras de foto, etc.
 
-**2. Prosegur**: Es una empresa que brinda Alarmas monitoreadas y seguridad a cualquier tipo de persona. Ofrecen kits de seguridad para que el cliente decida cual es de su mejor agrado y prosegur acude a la instalacion, asimismo no solo se dedica en la seguridad del inmueble sino tambien de vehiculos. Todo ello esta monitoreado por una central de alertas para que al activarse pueda acudir un motorizado a corroborar la alerta dada.
+**2. Prosegur**: Es una empresa que brinda Alarmas monitoreadas y seguridad a cualquier tipo de persona. Ofrecen kits de seguridad para que el cliente decida cuál es de su mejor agrado y Prosegur acude a la instalación, asimismo no solo se dedica en la seguridad del inmueble sino también de vehículos. Todo ello está monitoreado por una central de alertas para que al activarse pueda acudir un motorizado a corroborar la alerta dada.
 
-**3. Securitas**: Empresa de seguridad que se basa en comprender al cliente para poder ofrecer sus servicios de los cuales el mas conocido es la camara de videovigilancia, además de brindar seguridad en muchos aspectos como seguridad remota o seguridad electrónica, tambien ofrece servicios de proteccion contra incendios para sus clientes ofreciendoles asi un reporte anual desde su compra
+**3. Securitas**: Empresa de seguridad que se basa en comprender al cliente para poder ofrecer sus servicios de los cuales el más conocido es la camara de videovigilancia, además de brindar seguridad en muchos aspectos como seguridad remota o seguridad electrónica, también ofrece servicios de protección contra incendios para sus clientes ofreciéndoles asi un reporte anual desde su compra
 
 Teniendo estos competidores mejor descritos, podremos hacer nuestro análisis competitivo a continuación.
 
@@ -756,7 +756,7 @@ Para Empresas de Seguridad
     - Link: [Enlace entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=WkDqqD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
     ![Interview 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/interview-1.png)
-    Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble ya que actualmente lo maneja de forma manual con cercos. Además destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
+    Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble, ya que actualmente lo maneja de forma manual con cercos. Además, destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
 
   - Entrevista N°2:
     - Nombres y apellidos: Diana Gomez Oré
@@ -768,10 +768,10 @@ Para Empresas de Seguridad
 
     ![Interview 2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/interview-2.png)
   
-    Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
-    Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más importantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. 
-    Por último, mencionó que ella prefiere gestionar el sistema de seguridad de su hogar mediante una aplicación, ya que de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
-    También pude notar que Diana utiliza un celular con android y una laptop con Windows. Además, sus canales de comunicación son principalmente WhatsApp e Instagram. Su relación con la tecnología es bastante buena, debido a que en su trabajo están en constante capacitación, sobretodo para el uso de pc. Asimismo, está acostumbrada a utilizar browsers basados en chromium, tales como Chrome y Brave.
+    Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además, me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
+    Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más relevantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. 
+    Por último, mencionó que ella prefiere gestionar el sistema de seguridad de su hogar mediante una aplicación, porque de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
+    También pude notar que Diana utiliza un celular con android y una laptop con Windows. Además, sus canales de comunicación son principalmente WhatsApp e Instagram. Su relación con la tecnología es bastante buena, debido a que en su trabajo están en constante capacitación, sobre todo para el uso de pc. Asimismo, está acostumbrada a utilizar browsers basados en chromium, tales como Chrome y Brave.
 
     
 
@@ -786,7 +786,7 @@ Para Empresas de Seguridad
     ![interview 4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/entrevista-4.png)
     
     Aaron compartió que recientemente ha comenzado un proceso de mudanza en una zona algo conflictiva de San Juan de Lurigancho. Al iniciar la entrevista, su preocupación por la seguridad se hizo evidente, ya que mencionó que en su vecindario hay un aumento alarmante en los robos de inmuebles y hogares. Esta situación lo ha llevado a buscar soluciones efectivas que le brinden mayor tranquilidad y protección. La sensación de inseguridad en su nuevo entorno es algo que le preocupa profundamente, lo que ha intensificado su interés por encontrar un sistema de seguridad que se adapte a sus necesidades.
-    En su búsqueda de una solución, Aaron se mostró abierto a explorar tecnologías de Internet de las Cosas (IoT) que puedan mejorar la seguridad de su hogar. Está interesado en sistemas que no solo ofrezcan protección, sino que también permitan una gestión eficiente a través de notificaciones en tiempo real. Esta funcionalidad podría ayudarlo a sentirse más seguro y al tanto de cualquier situación inusual en su entorno. La posibilidad de monitorear su hogar de manera remota y recibir alertas inmediatas sobre posibles amenazas es una característica que considera fundamental para tomar decisiones informadas y reaccionar rápidamente ante cualquier eventualidad. Asimismo, nos comento que el en sistemas operativos es fanático de windows y android.
+    En su búsqueda de una solución, Aaron se mostró abierto a explorar tecnologías de Internet de las Cosas (IoT) que puedan mejorar la seguridad de su hogar. Está interesado en sistemas que no solo ofrezcan protección, sino que también permitan una gestión eficiente a través de notificaciones en tiempo real. Esta funcionalidad podría ayudarlo a sentirse más seguro y al tanto de cualquier situación inusual en su entorno. La posibilidad de monitorear su hogar de manera remota y recibir alertas inmediatas sobre posibles amenazas es una característica que considera fundamental para tomar decisiones informadas y reaccionar rápidamente ante cualquier eventualidad. Asimismo, nos comentó que él en sistemas operativos es fanático de windows y android.
 
 * **Segmento 2: Empresas de Seguridad**
 - Entrevista N°5:
@@ -799,7 +799,7 @@ Para Empresas de Seguridad
 
     ![interview 5](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/entrevista-5.png)
 
-    En esta ocasión, entrevistamos a Diego, quien dirige una compañía de seguridad. Durante la conversación, Diego expresó su deseo de mejorar gradualmente la eficiencia de su servicio, ya que actualmente sus tiempos de respuesta ante emergencias pueden llegar a ser de hasta 10 minutos, dependiendo de la zona donde se active la alarma. Esta situación lo preocupa, ya que en muchas ocasiones el tiempo es crucial para garantizar la seguridad de sus clientes. Además, mencionó que, aunque está familiarizado con los dispositivos IoT, ha enfrentado problemas con algunos de ellos, como fallos en la conectividad que retrasan las notificaciones.
+    En esta ocasión, entrevistamos a Diego, quien dirige una compañía de seguridad. Durante la conversación, Diego expresó su deseo de mejorar gradualmente la eficiencia de su servicio, ya que actualmente sus tiempos de respuesta ante emergencias pueden llegar a ser de hasta 10 minutos, dependiendo de la zona donde se active la alarma. Esta situación lo preocupa, porque en muchas ocasiones el tiempo es crucial para garantizar la seguridad de sus clientes. Además, mencionó que, aunque está familiarizado con los dispositivos IoT, ha enfrentado problemas con algunos de ellos, como fallos en la conectividad que retrasan las notificaciones.
     Diego está decidido a explorar nuevas opciones y tecnologías que puedan optimizar su sistema de seguridad. Está dispuesto a investigar otros tipos de dispositivos que ofrezcan mayor fiabilidad y rapidez en la comunicación de alertas. Su enfoque proactivo refleja su compromiso con la mejora continua de su empresa, buscando siempre proporcionar un servicio más eficiente y efectivo a sus clientes. La incorporación de soluciones innovadoras podría no solo disminuir los tiempos de respuesta, sino también aumentar la confianza de sus clientes en la seguridad que brinda. Nos comenta además que en su compañía, utilizan mejor el sistema Windows para el monitoreo de las alarmas.
 
 
@@ -895,7 +895,7 @@ Se presenta el User Journey Map para el segmento de Empresa de Seguridad, en el 
 
 ### 2.3.4. Empathy Mapping
 
-El proceso de elaboración del Empathy Mapping se ha realizado tomando en cuenta las entrevistas realizadas a los usuarios de cada segmento y en base a la información recopilada en las mismas. A continuación, se presentan los Empathy Mapping de los User Personas definidos.
+El proceso de elaboración del Empathy Mapping se ha realizado tomando en cuenta las entrevistas realizadas a los usuarios de cada segmento y con base en la información recopilada en las mismas. A continuación, se presentan los Empathy Mapping de los User Personas definidos.
 
 - **Empathy Mapping (Seele Vollerei - Dueño de inmueble)**
 ![empathy mapping seg 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/empathy-mapping-seg1.png)
@@ -984,7 +984,7 @@ El enfoque está en los desafíos que enfrentan las empresas de seguridad al val
 
 ## 3.2. User Stories
 
-En esta sección se presentan las historias de usuario correspondientes a nuestra aplicación móvil, sitio web estático y dispositivos edge. Estas historias describen las características necesarias para nuestros dos segmentos objetivo. Además, se especifican los criterios de aceptación que nos permitirán verificar si las funcionalidades cumplen con las necesidades de los usuarios.
+En esta sección se presentan las historias de usuario correspondientes a nuestra aplicación móvil, sitio web estático y dispositivos edge. Estas historias describen las características necesarias para nuestros dos segmentos objetivos. Además, se especifican los criterios de aceptación que nos permitirán verificar si las funcionalidades cumplen con las necesidades de los usuarios.
 
 | **ID**    | **Título**                                                              | **Descripción**                                                                                                                                                               | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                                 | **Relacionado con (Epic ID)** |
 |-----------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
@@ -1309,7 +1309,7 @@ Los dispositivos IoT, como las cámaras y sensores, son fundamentales para la ex
 En nuestras aplicaciones web y móvil, utilizaremos los siguientes sistemas de organización de la información para describir de manera clara y concisa la información proporcionada por nuestra plataforma de seguridad IoT:
 1. **Jerarquía Visual (Visual Hierarchy):** La jerarquía visual destacará herramientas y reportes críticos en tiempo real, con un enfoque principal en alertas, notificaciones y opciones de respuesta rápida. Esto garantiza que los usuarios puedan identificar de inmediato la información más relevante para una acción rápida y efectiva.
 2. **Secuencial (Step-by-step to accomplish):** Este sistema se aplica en formularios como los de registro, inicio de sesión y registro de dispositivos, donde los usuarios deben seguir una secuencia de pasos para completar una tarea específica. Cada paso se presenta de forma clara y concisa, con indicaciones visuales para guiar al usuario.
-3. **Matricial:** Este sistema se aplica principalmente en datos agrupados como la vista de propiedades de un usuario, donde en cada tarjeta agrupa información esencial para poder tomar decisiones de qué acciones realizar de forma rápida. Ademá permite una mejor visualización cuando hay muchos datos.
+3. **Matricial:** Este sistema se aplica principalmente en datos agrupados como la vista de propiedades de un usuario, donde en cada tarjeta agrupa información esencial para poder tomar decisiones de qué acciones realizar de forma rápida. Además, permite una mejor visualización cuando hay muchos datos.
 
 Además, se utilizarán los siguientes esquemas de categorización de contenido para organizar la información de manera efectiva y facilitar la navegación de los usuarios:
 - **Alfabético:** Se aplica en las diversas listas presentes en la aplicación con el fin de facilitar la búsqueda de elementos específicos (por ejemplo, dispositivos, usuarios, propiedades).
@@ -1788,7 +1788,7 @@ En esta sección se presenta la configuración del entorno de desarrollo de soft
     - Ruta de acceso: https://www.figma.com
 
 3. Overflow
-    - Propósito: Diagramación de flujos de usuario para ilustrar las interacciones del usuario con la solución de IoT.
+    - Propósito: Diagramación de flujos de usuarios para ilustrar las interacciones del usuario con la solución de IoT.
     - Ruta de acceso: https://overflow.io
    
 #### Software Development
@@ -1928,7 +1928,7 @@ A continuación, se darán a conocer las convenciones, formatos, estilos y entre
 - _Evitar los selectores de ID:_ No se recomienda implementar este tipo de selectores, por la razón de que estos deben ser únicos en toda la página y en proyectos grandes que tengan muchos componentes es difícil de garantizar esa unicidad, es preferible usar selectores de clase.
 - _Usar propiedades abreviadas:_ Es muy recomendable usar propiedades que soporten ser declarados de forma abreviada (por ejemplo, la propiedad padding, margin, border, etc.) por la razón de que reduce de forma significativa la cantidad de líneas de código, y es más legible para el programador o diseñador.
 
-**JavaScript:** Se consideró importante seguir una guía de buenas prácticas para un mejor desarrollo del código, para este caso se eligió la guía de la wiki “JavaScript best practices“ del World Wide Web (W3C). Lo cual se destaca lo siguiente:
+**JavaScript:** Se consideró importante seguir una guía de buenas prácticas para un mejor desarrollo del código, para este caso se eligió la guía de la wiki "JavaScript best practices" del World Wide Web (W3C). Lo cual se destaca lo siguiente:
 
 - _Usar nombres cortos y fáciles de leer:_ Es recomendable nombrar adecuadamente las variables, clases, funciones y otros elementos para que sea más sencillo de leer y comprender.
 - _Evitar el uso de variables globales (keyword “var”):_ No se recomienda el uso de este tipo de variables en un proyecto, porque pueden generar muchos errores a medida que el proyecto crece y estas pueden sobrescribirse fácilmente afectando el valor y se pueden declarar otros elementos como funciones con el mismo nombre de la variable y generar errores.
@@ -1971,7 +1971,7 @@ A continuación, se darán a conocer las convenciones, formatos, estilos y entre
 - _Logging con SLF4J:_ Realizar el registro de eventos y seguimiento de la aplicación utilizando la interfaz SLF4J (Simple Logging Facade for Java). 
 - _Seguridad con Spring Security:_ Implementar la seguridad en la aplicación utilizando Spring Security para autenticación y autorización. 
 
-**Java:** Se siguieron las convenciones y guías de estilo de código de " Java Style Guide” de Google y se destaca lo siguiente: 
+**Java:** Se siguieron las convenciones y guías de estilo de código de "Java Style Guide" de Google y se destaca lo siguiente: 
 
 - _Nombres de Clases en CamelCase:_ Los nombres de clases en Java deben seguir la convención CamelCase, donde cada palabra comienza con mayúscula. Ejemplo: MiClase. 
 - _Nombres de Paquetes en minúsculas:_ Los nombres de paquetes en Java se escriben en minúsculas y generalmente reflejan la estructura del proyecto. Ejemplo: com.miproyecto. 
@@ -2142,7 +2142,7 @@ Para esta parte como es una etapa inicial contamos únicamente con nuestra Landi
             <b>Review Summary</b>
         </td>
         <td>
-            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo del Landing Page y la lógica de negocio de la plataforma. Se desplegó el landing page de forma exitosa.
+            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo de la Landing Page y la lógica de negocio de la plataforma. Se desplegó la landing page de forma exitosa.
         </td>
     </tr>
     <tr align="left">
@@ -2346,7 +2346,7 @@ Link del trello: https://trello.com/b/F9HDJVzc/sprint-2
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Diseño responsivo del dashboard</td><td colspan="1" valign="top">Diseñar la interfaz para que el resumen y el timeline sean responsivos y accesibles en diferentes dispositivos.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">API de resumen de dispositivos y eventos</td><td colspan="1" valign="top">Implementar una API para obtener los datos de la cantidad de dispositivos y el historial de eventos</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Process</td></tr>
 <tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Filtrado y orden de eventos para timeline</td><td colspan="1" valign="top">Crear lógica de negocio para filtrar y ordenar los eventos relevantes para el timeline.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Process</td></tr>
-<tr><td colspan="1" rowspan="4" valign="top">HU-39</td><td colspan="1" rowspan="4" valign="top">Gestión  de Dispositivos  (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Componente de tabla interactiva</td><td colspan="1" valign="top">Crear un componente de tabla interactiva para mostrar los dispositivos y permitir opciones CRUD.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU-39</td><td colspan="1" rowspan="4" valign="top">Gestión de Dispositivos (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Componente de tabla interactiva</td><td colspan="1" valign="top">Crear un componente de tabla interactiva para mostrar los dispositivos y permitir opciones CRUD.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Modales para CRUD de dispositivos</td><td colspan="1" valign="top">Agregar formularios modales para crear y actualizar la información de cada dispositivo.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Endpoints CRUD de dispositivos</td><td colspan="1" valign="top">Implementar endpoints para operaciones CRUD en los dispositivos</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Validaciones y permisos de usuario</td><td colspan="1" valign="top">Crear validaciones y control de permisos para asegurar que solo el usuario propietario pueda modificar sus dispositivos.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
@@ -2411,7 +2411,7 @@ En esta sección se registra y explica el avance en términos de producto y trab
 
 #### 6.2.3.1. Sprint Planning 3.
 
-En esta sesión de planificación para el Sprint 3, nos enfocaremos en los desarrollos clave del Aplicación Móvil  de nuestro producto VerySafe y del el IoT Device Embedded Application. Durante el Sprint 2, logramos implementar el fronted y backend para la aplicación web de VerySafe.
+En esta sesión de planificación para el Sprint 3, nos enfocaremos en los desarrollos clave de la Aplicación Móvil de nuestro producto VerySafe y del el IoT Device Embedded Application. Durante el Sprint 2, logramos implementar el fronted y backend para la aplicación web de VerySafe.
 
 | **Sprint #**                       | Sprint 3                                                                                                                                                                                                                                                                                                                                                                     |
 |:-----------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2430,7 +2430,7 @@ En esta sesión de planificación para el Sprint 3, nos enfocaremos en los desar
 
 #### 6.2.3.2. Sprint Backlog 3.
 
-En este Sprint 3, el objetivo principal es desarrollar la aplicación móvil de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional. De la misma manera se creara el IoT Device Embedded Application. en Wokwi para simular su funcionamiento.  Al finalizar este sprint, buscamos tener una versión funcional de estas funcionalidades clave, lista para pruebas iniciales y validación.
+En este Sprint 3, el objetivo principal es desarrollar la aplicación móvil de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional. De la misma manera se creará el IoT Device Embedded Application. En Wokwi para simular su funcionamiento.  Al finalizar este sprint, buscamos tener una versión funcional de estas funcionalidades clave, lista para pruebas iniciales y validación.
 
 A continuación se muestra el tablero del Sprint 3 en Trello: 
 
@@ -2441,21 +2441,21 @@ Link: https://trello.com/b/VzbK516w/sprint-3
 <table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task </td></tr>
 <tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation (Hours)</td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-do / InProcess / ToReview / Done)</td></tr>
-<tr><td colspan="1" rowspan="4" valign="top">HU-37</td><td colspan="1" rowspan="4" valign="top">Registro y Login de Perfil</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Formularios de registro y login</td><td colspan="1" valign="top">Diseñar pantallas de login adaptada a dispositivos móviles, con validación de datos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU-37</td><td colspan="1" rowspan="4" valign="top">Registro y Login de Perfil</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Formularios de registro y login</td><td colspan="1" valign="top">Diseñar pantallas de login adaptado a dispositivos móviles, con validación de datos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Formularios de registro y login</td><td colspan="1" valign="top">Diseñar pantallas de registro adaptada a dispositivos móviles, con validación de datos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Ver perfil</td><td colspan="1" valign="top">Implementar seccion de Perfil de App Mobile</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
-<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Persistencia de datos</td><td colspan="1" valign="top">Configurar la gestión de sesión y persistencia de datos en el dispositivo móvil para mantener al usuario autenticado. .</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Persistencia de datos</td><td colspan="1" valign="top">Configurar la gestión de sesión y persistencia de datos en el dispositivo móvil para mantener al usuario autenticado.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" rowspan="2" valign="top">HU-38</td><td colspan="1" rowspan="2" valign="top">Dashboard de Resumen</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Diseño responsivo del dashboard</td><td colspan="1" valign="top">Diseñar gráficos y tablas adaptados a pantallas móviles para el resumen y timeline</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Notificaciones de eventos</td><td colspan="1" valign="top">Integrar notificaciones push para eventos importantes en tiempo real.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">InProcess</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">HU-39</td><td colspan="1" rowspan="3" valign="top">Gestión  de Dispositivos  (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Conectar dispositivos</td><td colspan="1" valign="top">Implementar conexión de nuevo dispositivo en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU-39</td><td colspan="1" rowspan="3" valign="top">Gestión de Dispositivos (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Conectar dispositivos</td><td colspan="1" valign="top">Implementar conexión de nuevo dispositivo en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Sección dispositivos</td><td colspan="1" valign="top">Implementar seccion de dispositivos en App mobile</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Gestión de dispositivos</td><td colspan="1" valign="top">Implementar formularios emergentes para añadir y editar dispositivos de manera intuitiva.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">InProcess</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">HU-40</td><td colspan="1" rowspan="3" valign="top">Visualización de Propiedades, Áreas y Dispositivos (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Pantalla Areas</td><td colspan="1" valign="top">Implementar Areas en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU-40</td><td colspan="1" rowspan="3" valign="top">Visualización de Propiedades, Áreas y Dispositivos (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Pantalla Áreas</td><td colspan="1" valign="top">Implementar Areas en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Registro de propiedad</td><td colspan="1" valign="top"><p>Implementar Registro de Propiedad en App Mobile</p><p></p></td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Navegación entre propiedades y áreas</td><td colspan="1" valign="top">Crear una vista de tarjetas para cada propiedad, mostrando áreas y dispositivos asociados.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" rowspan="4" valign="top">HU-41</td><td colspan="1" rowspan="4" valign="top">Sección de Asistencia, Manuales y Soporte</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Asistencia para los usuarios</td><td colspan="1" valign="top">Implementar Assistance en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Botones de redirección a soporte</td><td colspan="1" valign="top">Diseñar botones de redirección claros para soporte y manuales adicionales.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">InProcess</td></tr>
-<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Enlace a soporte tecnico</td><td colspan="1" valign="top">Implementar un  enlace directo a soporte técnico en caso de dudas.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Enlace a soporte tecnico</td><td colspan="1" valign="top">Implementar un enlace directo a soporte técnico en caso de dudas.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Resolver dudas</td><td colspan="1" valign="top">Crear una sección de preguntas frecuentes.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" rowspan="2" valign="top">HU-42</td><td colspan="1" rowspan="2" valign="top">Información de Contacto y Colaboradores de la Empresa</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Pantalla para los contactos</td><td colspan="1" valign="top">Crear una pantalla que muestre la información de contacto (teléfono, correo y dirección) de manera clara.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Botón de acceso directo a colaboradores</td><td colspan="1" valign="top">Agregar un botón de acceso directo a los colaboradores de la empresa.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
