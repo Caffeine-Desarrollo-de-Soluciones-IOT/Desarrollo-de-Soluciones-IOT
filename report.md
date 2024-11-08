@@ -1157,30 +1157,24 @@ Para esta sección, acordamos como equipo ciertos diseños, fuentes, colores, et
 
 Para esta parte mostraremos nuestra guía organizada de los estilos y herramientas que se estarán utilizando para la construcción del diseño.
 
-**Brand Overview**
+#### 5.1.1.1. Branding
 
-La seguridad es una preocupación creciente en Lima, Perú, debido al aumento de robos e intrusiones en propiedades residenciales y comerciales. Los propietarios buscan soluciones efectivas que no solo sean accesibles, sino también confiables y tecnológicamente avanzadas para proteger lo que más valoran. Sin embargo, las soluciones de seguridad tradicionales tienden a ser costosas y, en muchos casos, ineficientes en ofrecer respuestas rápidas o integrarse con la tecnología moderna.
+FalconShield nace para ofrecer soluciones de seguridad IoT accesibles y efectivas, especialmente en Lima, Perú, donde el aumento de robos e intrusiones ha creado una demanda urgente de sistemas de seguridad modernos y asequibles. Nuestra plataforma integra sensores avanzados, cámaras inteligentes y sistemas de alarmas en una interfaz centralizada que permite monitorear en tiempo real y coordinar respuestas rápidas en caso de emergencia, en colaboración con empresas de seguridad.
 
-Nuestra solución, FalconShield, responde a esta necesidad crítica al ofrecer un ecosistema de seguridad IoT (Internet de las Cosas) que incluye sensores avanzados, cámaras inteligentes y sistemas de alarmas, todos integrados en una plataforma centralizada y fácil de usar. Este producto no solo permite monitorear y controlar el estado de seguridad en tiempo real, sino que también se asocia con empresas de seguridad para proporcionar una respuesta rápida y coordinada en caso de emergencias. VerySafe, nuestra empresa, se compromete a garantizar que la seguridad de nuestros usuarios sea accesible, eficaz y moderna.
-
-**Brand Name**
-
-El nombre de nuestra solución es FalconShield. Este surgió de la combinación de dos palabras que simbolizan nuestros valores fundamentales. Falcon, que representa agudeza y vigilancia, alude a la capacidad de nuestro sistema para detectar intrusiones y amenazas de manera precisa y rápida. Shield, que significa escudo, refuerza el concepto de protección y defensa contra cualquier peligro que pueda afectar las propiedades de nuestros usuarios.
-
-Elegimos el nombre en inglés para que sea comercialmente atractivo a nivel global y fácil de recordar en el mercado local. Este enfoque hace que el producto sea accesible y entendible no solo en Perú, sino también para una posible expansión en el futuro. VerySafe, el nombre de nuestra empresa, refleja nuestro compromiso de brindar soluciones que vayan más allá de las expectativas, asegurando una protección "muy segura" para todos nuestros clientes.
+El nombre “FalconShield” simboliza nuestros valores fundamentales: “Falcon” representa agudeza y vigilancia, mientras que “Shield” alude a protección y defensa. Este enfoque no solo refuerza nuestro compromiso con la seguridad, sino que también permite una expansión futura a mercados globales. Como empresa, VerySafe está comprometida con brindar una solución de seguridad que supere las expectativas y garantice protección confiable para nuestros clientes.
 
 A continuación, presentaremos nuestro logo: 
 
 ![logo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/logo1.jpg)
 
-**Typography**
+#### 5.1.1.2. Typography
 
 La tipografía debe ser clara y fácilmente legible, reflejando profesionalismo y modernidad. Aquí algunas recomendaciones:
 
 * **Fuente primaria:** Lato u Open Sans son excelentes opciones para reflejar tecnología avanzada y claridad. Son fuentes sans-serif modernas y versátiles.
 
-![lato](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/lato.png)
-![open sans](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/open%20sans.png)
+  ![lato](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/lato.png)
+  ![open sans](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/open%20sans.png)
 
 * **Jerarquía de texto:**
   
@@ -1189,8 +1183,7 @@ La tipografía debe ser clara y fácilmente legible, reflejando profesionalismo 
 Botones y CTA (Call to Action): El texto debe ser claro y conciso, con tamaños de entre 14px-16px.
     ![tipografia](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Typpgraphy.png)
 
-
-**Colors**
+#### 5.1.1.3. Colors
 
 Los colores juegan un papel clave en el diseño de VerySafe y FalconShield, y deben reflejar seguridad, confianza y tecnología. Basado en el análisis, tenemos estos colores
 
@@ -1222,7 +1215,7 @@ Para equilibrar los colores primarios y secundarios, utilizamos el gris claro y 
 
 ![gris](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/gris.jpg)
 
-**Spacing**
+#### 5.1.1.4. Spacing
 
 El espaciado es crucial para mejorar la experiencia del usuario y mantener un diseño limpio y fácil de navegar.
 
@@ -1314,14 +1307,15 @@ Los dispositivos IoT, como las cámaras y sensores, son fundamentales para la ex
 
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems
-**1. Dueños de inmuebles**
+En nuestras aplicaciones web y móvil, utilizaremos los siguientes sistemas de organización de la información para describir de manera clara y concisa la información proporcionada por nuestra plataforma de seguridad IoT:
+1. **Jerarquía Visual (Visual Hierarchy):** La jerarquía visual destacará herramientas y reportes críticos en tiempo real, con un enfoque principal en alertas, notificaciones y opciones de respuesta rápida. Esto garantiza que los usuarios puedan identificar de inmediato la información más relevante para una acción rápida y efectiva.
+2. **Secuencial (Step-by-step to accomplish):** Este sistema se aplica en formularios como los de registro, inicio de sesión y registro de dispositivos, donde los usuarios deben seguir una secuencia de pasos para completar una tarea específica. Cada paso se presenta de forma clara y concisa, con indicaciones visuales para guiar al usuario.
+3. **Matricial:** Este sistema se aplica principalmente en datos agrupados como la vista de propiedades de un usuario, donde en cada tarjeta agrupa información esencial para poder tomar decisiones de qué acciones realizar de forma rápida. Ademá permite una mejor visualización cuando hay muchos datos.
 
-**2. Empresas de seguridad**
-**Jerarquía Visual:** Se utilizará para resaltar herramientas y reportes críticos en tiempo real. Las alertas, notificaciones y opciones de respuesta rápida serán el foco principal.
-**Organización Matricial:** Para las tareas complejas como la coordinación de respuestas ante incidentes, se utilizará una organización matricial que permita acceder a diferentes funciones y recursos de manera rápida y paralela, manteniendo la flexibilidad en la navegación.
-**Esquemas de Categorización:**
- - **Cronológico:** Las alertas y eventos de seguridad se organizarán cronológicamente, permitiendo un monitoreo eficaz de situaciones en curso y el acceso a históricos de incidentes.
- - **Por Audiencia:** Diferentes tipos de usuarios dentro de las empresas de seguridad, como operadores o técnicos de campo, tendrán acceso a contenidos específicos según sus roles.
+Además, se utilizarán los siguientes esquemas de categorización de contenido para organizar la información de manera efectiva y facilitar la navegación de los usuarios:
+- **Alfabético:** Se aplica en las diversas listas presentes en la aplicación con el fin de facilitar la búsqueda de elementos específicos (por ejemplo, dispositivos, usuarios, propiedades).
+- **Cronológico:** Las secciones de eventos y notificaciones se organizan de forma cronológica, resaltando los datos más recientes.
+- **Por tópicos:** Los datos se clasifican según categorías, en este caso se usa a la hora de seleccionar un dispositivo IoT, se clasifican por tipo de dispositivo, como cámaras, sensores, alarmas, etc.
 
 ### 5.2.2. Labeling Systems
 
@@ -1420,6 +1414,7 @@ Presentaremos las etiquetas que identificarán y diferenciarán a nuestro sitio 
 
 1. App Title:
    1. FalconShield: Seguridad Inteligente en Tiempo Real
+
 2. App Subtitle: 
    1. Protege tu hogar y negocio con monitoreo avanzado IoT
 
@@ -1432,8 +1427,13 @@ Presentaremos las etiquetas que identificarán y diferenciarán a nuestro sitio 
 5. App Store Screenshots and Media:
    1. Asegúrate de incluir capturas de pantalla que muestren la interfaz de usuario, la funcionalidad de monitoreo en tiempo real, el control de dispositivos IoT, y las alertas en acción. Estas imágenes deben reflejar la facilidad de uso y el nivel avanzado de tecnología ofrecido.
 
-
 ### 5.2.4. Searching Systems
+El sistema de búsqueda en las aplicaciones de FalconShield está diseñado para permitir a los usuarios localizar información relevante de forma rápida y efectiva, optimizando la experiencia de usuario, incluso con grandes volúmenes de datos.
+
+Utilizaremos los siguientes sistemas de búsqueda para facilitar la navegación y la localización de información en la plataforma:
+- Barras de búsqueda: Se incluirán barras de búsqueda en las interfaces web y móvil, permitiendo a los usuarios buscar dispositivos específicos, alertas, eventos o propiedades.
+- Visualización de resultados: Los resultados de la búsqueda se presentarán de forma clara y organizada, con opciones de filtrado y ordenamiento para facilitar la selección de la información deseada.
+
 ### 5.2.5. Navigation Systems
 **1. Propietarios de inmuebles**
 - **Navegación Basada en Menús Desplegables:** La Landing Page incluirá un menú principal en la parte superior, con opciones desplegables que permitirán a los usuarios acceder a categorías de productos (cámaras, sensores, alarmas) y servicios (instalación, mantenimiento). Esto simplificará la búsqueda y permitirá que encuentren fácilmente lo que necesitan.
@@ -1633,30 +1633,41 @@ Tenemos también nuestras pantallas para que el usuario agregue los nuevos ambie
 | ![especificaciones del nuevo ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Room%20Especification.png) | **Detalles del ambiente:** En esta pantalla el usuario verá que dispositivos se encuentran en el ambiente seleccionado.                             |
 
 ### 5.4.2. Applications Wireflow Diagrams
-En esta sección se presentará los flujos de navegación entre pantallas de nuestra aplicación que visualizará el usuario y la interacción que tendrá con los elementos que presenta cada sección.
+A continuación, presentamos los diagramas de flujo de nuestra aplicación web y móvil, diseñados para representar cómo responde la aplicación a las interacciones de los usuarios. Cada diagrama refleja un objetivo del usuario vinculado a las distintas funcionalidades, con un único flujo que considera variaciones de acciones según los privilegios del usuario. Antes de crear estos diagramas, establecimos flujos de tareas para definir las rutas de navegación típicas en la aplicación.
+
+**TaskFlow**
+- Iniciar sesión
+- Crear el perfil del usuario
+- Agregar una nueva propiedad
+- Agregar un nuevo ambiente
+- Ver los detalles del ambiente
+- Registrar un nuevo dispositivo para el ambiente
+- Ver los detalles del dispositivo
+- Ver el resumen de eventos de los dispositivos
+- Solicitar asistencia técnica
 
 **WEB APPLICATION WIREFLOWS:**
 
-| **User Goal:** Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación.                                 | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow.png)  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| **User Goal:** Como usuario, quiero controlar mis dispositivos de seguridad desde la aplicación web para armar o desarmar la alarma..             | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow1.png) |
-| **User Goal:** Como usuario, quiero un resumen de todos los eventos desde una única interfaz para gestionar los dispositivos de manera eficiente. | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow2.png) |
-| **User Goal:** Como usuario, quiero tener una asistencia técnica para solucionar problemas con el dispositivo.                                    | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow3.png) |
-| **User Goal:** Como usuario, quiero ver las eventos registrados por los dispositivos.                                                             | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow4.png) |
+| User Goal                                                                                                                                                                                                                                                                                      | WifeFlow                                                                   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| **UG01:** Iniciar sesión en la aplicación con una cuenta previamente creada.<br/><br/> Permite al usuario autenticarse con su cuenta existente para acceder a todas las funcionalidades y configuraciones personalizadas en la aplicación.                                                     | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow.png)  |
+| **UG02:** Controlar dispositivos de seguridad para armar o desarmar la alarma desde la aplicación web.<br/><br/> Facilita al usuario la gestión remota de sus dispositivos de seguridad, permitiéndole activar o desactivar el sistema de alarma según sea necesario.                          | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow1.png) |
+| **UG03:** Visualizar un resumen de todos los eventos en una única interfaz para gestionar dispositivos de manera eficiente.<br/><br/> Proporciona al usuario una vista centralizada de todos los eventos registrados, permitiendo una rápida supervisión y administración de los dispositivos. | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow2.png) |
+| **UG04:** Acceder a asistencia técnica para resolver problemas con el dispositivo.<br/><br/> Ofrece al usuario una opción para recibir soporte técnico, ayudándole a resolver inconvenientes o fallas en sus dispositivos de manera rápida y eficaz.                                           | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow3.png) |
+| **UG05:** Consultar los eventos registrados por los dispositivos.<br/><br/> Permite al usuario revisar el historial de eventos capturados por sus dispositivos de seguridad, facilitando el seguimiento de actividades y análisis de incidencias.                                              | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow4.png) |
 
 **MOBILE APPLICATION WIREFLOWS:**
 
-Segmento objetivo Dueños de Inmuebles
+| User Goal                                                                                                                                                                                                                                                                     | WifeFlow                                                                                     |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| **UG06:** Crear una cuenta para registrarse en la aplicación.<br/><br/> Permite al usuario establecer una cuenta personal para acceder a las funciones de la aplicación y gestionar dispositivos de seguridad.                                                                | ![wireflow-register](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-register.png)     |
+| **UG01:** Iniciar sesión con una cuenta previamente creada para acceder a la aplicación.<br/><br/> Facilita al usuario el ingreso a la aplicación mediante sus credenciales, permitiéndole acceder a sus configuraciones y dispositivos.                                      | ![wireflow-login](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-login.png)           |
+| **UG07:** Acceder al perfil para visualizar los datos personales registrados en la aplicación.<br/><br/> Brinda al usuario la posibilidad de revisar y actualizar la información personal registrada en su perfil dentro de la aplicación.                                    | ![wireflow-profile](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-profile.png)       |
+| **UG08:** Agregar un nuevo dispositivo para controlar otra área del inmueble.<br/><br/> Permite al usuario ampliar su red de seguridad al añadir dispositivos adicionales para monitorear nuevas áreas en su inmueble.                                                        | ![wireflow-add-device](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-add-device.png) |
+| **UG09:** Agregar una nueva área para gestionar dispositivos IoT en distintas zonas del inmueble.<br/><br/> Facilita la organización de los dispositivos IoT, permitiendo al usuario definir diferentes áreas y asignar dispositivos a cada una para un control más ordenado. | ![wireflow-add-area](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-create-area.png)  |
+| **UG11:** Consultar los detalles de los dispositivos para conocer sus capacidades y ubicaciones en el inmueble.<br/><br/> Ofrece al usuario una descripción detallada de cada dispositivo, ayudándole a comprender sus características y la ubicación exacta en el inmueble.  | ![wireflow-add-area](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-device.png)       |
 
-| **User Goal:** Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación.                                                      | ![wireflow-register](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-register.png)     |
-|----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| **User Goal:** Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación.                                  | ![wireflow-login](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-login.png)           |
-| **User Goal:** Como usuario, deseo ingresar a mi perfil para visualizar los datos que presento en la aplicación.                                   | ![wireflow-profile](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-profile.png)       |
-| **User Goal:** Como usuario, deseo agregar un nuevo dispositivo para que pueda tener control de otra area de mi inmueble.                          | ![wireflow-add-device](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-add-device.png) |
-| **User Goal:** Como usuario, deseo agregar una nueva area para tener control con los dispositivos IoT.                                             | ![wireflow-add-area](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-create-area.png)  |
-| **User Goal:** Como usuario, deseo ver los detalles de los dispositivos para conocer más acerca de sus capacidades e instalaciones en el inmueble. | ![wireflow-add-area](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-device.png)       |
-
-### 5.4.2. Applications Mock-ups
+### 5.4.3. Applications Mock-ups
 
 **WEB APPLICATION MOCK-UP**
 
@@ -1664,7 +1675,7 @@ Segmento objetivo Dueños de Inmuebles
 |----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/mweb1.png) | **Inicio de Sesión:** En esta pantalla le mostramos al usuario los campos que tiene que llenar para que ingrese a nuestra aplicación. Utilizamos botones para que el usuario pueda diferenciar |
 | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/mweb2.png) | **Registrar una cuenta:** En esta pantalla le mostramos al usuario los campos que tiene que llenar para poder crearse una cuenta.                                                              |
-|
+
 
 | Wireframe                                                                  | Descripción                                                                                                          |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -1701,16 +1712,16 @@ Tenemos también nuestra pantalla donde el usuario podrá ver su información pe
 
 Tenemos también nuestras pantallas para que el usuario agregue los dispositivos luego de ser instalados.
 
-| Wireframe                                                                                                  | Descripción                                                                                                                                                                    |
-|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Wireframe                                                                                                     | Descripción                                                                                                                                                                    |
+|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![pantalla inicial de dispositivos](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MADD%20DEVICE%7D.png) | **Pantalla principal de los Dispositivos:** En esta pantalla le presentaremos al usuario los dispositivos adquiridos, asi como un botón que puede agregar luego de obtener más |
-| ![seleccion de conexion](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%203.png)                  | **Selección tipo de conexión con el dispositivo nuevo:** En esta pantalla el usuario podrá elegir el tipo de conexión con su nuevo dispositivo en este caso Bluetooth          |
-| ![tipo de nuevo dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%204.png)              | **Selección del nuevo dispositivo:** En esta pantalla el usuario podrá seleccionar el nuevo dispositivo adquirido para poder agregarlo.                                        |
-| ![seleccion de ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%205.png)                  | **Selección de ambiente:** En esta pantalla el usuario podrá elegir en que ambiente de su inmueble fue colocado el nuevo dispositivo                                           |
-| ![nombre de dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%206.png)                  | **Ingreso de nombre del dispositivo nuevo:** En esta pantalla el usuario podrá ingresar como quiere que se llame su nuevo dispositivo.                                         |
-| ![dispositivo nuevo agregado exitoso](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%207.png)     | **Registro de dispositivo nuevo exitoso:** En esta pantalla el usuario podrá ver que agrego su dispositivo nuevo de forma exitosa en la aplicación                             |
-| ![nuevo dispositvo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%208.png)                       | **Ver nuevo dispositivo:** En esta pantalla el usuario podrá verificar el nuevo dispositivo que ha agregado.                                                                   |
-| ![detalles del dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MA%202.png)                | **Detalles del dispositivo:** En esta pantalla el usuario verá los detalles del dispositivo ya sea su descripción, el tipo de dispositivo, etc.                                |
+| ![seleccion de conexion](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%203.png)                     | **Selección tipo de conexión con el dispositivo nuevo:** En esta pantalla el usuario podrá elegir el tipo de conexión con su nuevo dispositivo en este caso Bluetooth          |
+| ![tipo de nuevo dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%204.png)                 | **Selección del nuevo dispositivo:** En esta pantalla el usuario podrá seleccionar el nuevo dispositivo adquirido para poder agregarlo.                                        |
+| ![seleccion de ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%205.png)                     | **Selección de ambiente:** En esta pantalla el usuario podrá elegir en que ambiente de su inmueble fue colocado el nuevo dispositivo                                           |
+| ![nombre de dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%206.png)                     | **Ingreso de nombre del dispositivo nuevo:** En esta pantalla el usuario podrá ingresar como quiere que se llame su nuevo dispositivo.                                         |
+| ![dispositivo nuevo agregado exitoso](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%207.png)        | **Registro de dispositivo nuevo exitoso:** En esta pantalla el usuario podrá ver que agrego su dispositivo nuevo de forma exitosa en la aplicación                             |
+| ![nuevo dispositvo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%208.png)                          | **Ver nuevo dispositivo:** En esta pantalla el usuario podrá verificar el nuevo dispositivo que ha agregado.                                                                   |
+| ![detalles del dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MA%202.png)                   | **Detalles del dispositivo:** En esta pantalla el usuario verá los detalles del dispositivo ya sea su descripción, el tipo de dispositivo, etc.                                |
 
 Tenemos también nuestras pantallas para que el usuario agregue los nuevos ambientes que desea un dispositivo.
 
@@ -1723,18 +1734,18 @@ Tenemos también nuestras pantallas para que el usuario agregue los nuevos ambie
 | ![visualizacion del nuevo ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MCR%204.png)          | **Nuevo ambiente visualizado:** En esta pantalla el usuario verá que se agrego el ambiente en la aplicación móvil.                                  |
 | ![especificaciones del nuevo ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Living%20Room.png) | **Detalles del ambiente:** En esta pantalla el usuario verá que dispositivos se encuentran en el ambiente seleccionado.                             |
 
-### 5.4.3. Applications User Flow Diagrams
+### 5.4.4. Applications User Flow Diagrams
 
 **MOBILE APPLICATION USERFLOWS:**
 Enlace para una mejor visualización: https://overflow.io/s/3C8AFWFU
 
-| --                                                                                                                        | --                                                                          |
-|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| **USER GOAL:** Como usuario deseo crear una cuenta                                                                        | ![flow1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/userflow2.jpg) |
-| **USER GOAL:** Como usuario deseo iniciar sesión con mi cuenta previamente creada                                         | ![flow2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/userflow1.jpg) |
-| **USER GOAL:** Como usuario deseo poder visualizar mi perfil                                                              | ![flow3](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/FLOW3.jpg)     |
-| **USER GOAL:** Como usuario, deseo agregar un nuevo dispositivo para que pueda tener control de otra area de mi inmueble. | ![flow4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow4.jpg)     |
-| **USER GOAL:** Como usuario, deseo agregar una nueva area para tener control con los dispositivos IoT.                    | ![flow5](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/folw5.jpg)     |
+| User Goal                                                                                                                                                                                                                                                                     | WireFlow                                                                    |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| **UG06:** Crear una cuenta para registrarse en la aplicación.<br/><br/> Permite al usuario establecer una cuenta personal para acceder a las funciones de la aplicación y gestionar dispositivos de seguridad.                                                                | ![flow1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/userflow2.jpg) |
+| **UG01:** Iniciar sesión en la aplicación con una cuenta previamente creada.<br/><br/> Permite al usuario autenticarse con su cuenta existente para acceder a todas las funcionalidades y configuraciones personalizadas en la aplicación.                                    | ![flow2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/userflow1.jpg) |
+| **UG07:** Acceder al perfil para visualizar los datos personales registrados en la aplicación.<br/><br/> Brinda al usuario la posibilidad de revisar y actualizar la información personal registrada en su perfil dentro de la aplicación.                                    | ![flow3](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/FLOW3.jpg)     |
+| **UG08:** Agregar un nuevo dispositivo para controlar otra área del inmueble.<br/><br/> Permite al usuario ampliar su red de seguridad al añadir dispositivos adicionales para monitorear nuevas áreas en su inmueble.                                                        | ![flow4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow4.jpg)     |
+| **UG09:** Agregar una nueva área para gestionar dispositivos IoT en distintas zonas del inmueble.<br/><br/> Facilita la organización de los dispositivos IoT, permitiendo al usuario definir diferentes áreas y asignar dispositivos a cada una para un control más ordenado. | ![flow5](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/folw5.jpg)     |
 
 ## 5.5. Applications Prototyping
 
