@@ -184,7 +184,8 @@ Ciclo: 2024-2
 | 2.5.    | Gabriela Nomberto | 27/09/2024 | add: Landing Page Mockup                                                   |
 | 2.5.    | Gabriela Nomberto | 27/09/2024 | add: Landing Page Wireframe                                                |
 | 2.5.    | Gabriela Nomberto | 27/09/2024 | add: description Landing Page                                              |
-| 2.5.    | Jamutaq Ortega    | 27/09/2024 | add: 6.1.3                                                                 |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024 | add: 6.1.
+3                                                                 |
 | 2.5.    | Jamutaq Ortega    | 27/09/2024 | add: bc1 diagrams                                                          |
 | 2.5.    | Elvia Arteaga     | 28/09/2024 | Update README.md                                                           |
 | 2.5.    | Elvia Arteaga     | 28/09/2024 | Update report.md                                                           |
@@ -2052,6 +2053,46 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
 
 #### 6.2.1.3. Development Evidence for Sprint Review
 
+En esta sección se presentan los avances en la implementación relacionados con los productos de la solución según el alcance de Sprint 1, que incluye tanto la Landing Page como la Aplicación Web de FalconShield. Durante este sprint, hemos avanzado en la implementación de la Landing Page, destacando los elementos centrales de nuestra empresa, y en el desarrollo de la Aplicación Web, donde se han integrado funcionalidades esenciales para los usuarios, como el inicio de sesión (login), el registro de usuarios y el registro de dispositivos.
+
+A continuación, se detallan los commits realizados en este sprint, reflejando los progresos en la implementación de estos componentes:
+
+**Landing Page**
+
+| Repository | Branch | Commit id | Commit Message | Commit Message Body | Commit on (Date) |
+|------------|--------|-----------|----------------|----------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 3b6e8ad01acb7600f5ce1b41b84176f638c8008b | Create README.md | Create README.md | 28/09/2024 |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | ca316adb88750537c2df64d23db2eda6e4949014 | add: plantilla | add: plantilla | 28/09/2024 |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 60724c918f7bdb4429cd46d04d8d5863913f18f3 | fix: navbar | fix: navbar | 28/09/2024 |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | cacbe6a28990f605aafb93ca5ceaefec2f1bdcfe | add: FalconShield | add: FalconShield | 28/09/2024 |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 15738e098ca2c1888bf562dbcf06f7f283d576eb | Merge branch 'main' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | Merge branch 'main' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | 28/09/2024 |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 40874702d5333c279c0ffb7dfd96ce9ffa888501 | add: solutions, subscription | add: solutions, subscription | 28/09/2024 |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 93b608c79ff581fee49598265495f90143a0436e | fix: FalconShield Landing Page | fix: FalconShield Landing Page | 28/09/2024 |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 995542e2e3f30bc5b6723699ee8bd505b76e3bcf | fix: FalconShield Landing Page | fix: FalconShield Landing Page | 28/09/2024 |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | c4e23e852db014feb08ae88b66007aa233dd0f8d | fix: Landing Page | fix: Landing Page | 28/09/2024 |
+
+**Web Application**
+
+| Repository | Branch           | Commit id                              | Commit Message                          | Commit Message Body                        | Commit on (Date) |
+|------------|------------------|----------------------------------------|-----------------------------------------|--------------------------------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | 8b3ae99a6edcb3d3f574b654e5320f98486f440d | add: areas crud                           | add: areas crud                             | 28/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | de032e1c8282e4817cbd784b787f026eaf3e4201 | fix: close delete dialog                  | fix: close delete dialog                    | 28/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | 01871a0a6f0a873731fbcdda53c5e5456666ae5d | add: properties crud                      | add: properties crud                        | 28/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | d9141fb74d0df89861bab00226704cf27771fb3a | feature: create new area                  | feature: create new area                    | 28/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | cf7a0a87e9e0e13df196ba4c8738bb16949544ab | fix: grid & list properties               | fix: grid & list properties                 | 28/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | 7ecaf6a73b10cece659a9711ccf608675046145b | feature: upload image when creating a property | feature: upload image when creating a property | 28/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | df34592da6d420bee19d04c651b130b8d224de4a | Merge pull request #4 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/devices | Merge pull request #4 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/devices | 28/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | c8ef2a1bde836542bde01199f2738848f417a645 | Merge branch 'develop' into feat/devices  | Merge branch 'develop' into feat/devices    | 28/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/properties   | 17d88bc1db44c4939e4bcf8a75ccc67374fb5854 | Merge pull request #3 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/properties | Merge pull request #3 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/properties | 28/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | areas and devices | f0caa485003661ac5184902c44646e09fd62a2df | add: properties                           | add: properties                             | 25/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | areas and devices | 8ba68733afad8e25abb6042e00e48b8f34a5c770 | add: my devices page                      | add: my devices page                        | 25/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Develop           | dab9bcd9c9aed28f48d2bcf218c6a9c0c28e9203 | Merge pull request #2 from Caffeine-Desarrollo-de-Soluciones-IOT/develop | Merge pull request #2 from Caffeine-Desarrollo-de-Soluciones-IOT/develop | 25/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices      | eef9970f5deb98e2d5ceb400c429fe338de6dea2 | Merge pull request #1 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/devices | Merge pull request #1 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/devices | 25/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices      | 5aaba24e97c91286cfcdab5314007cb4963f4bac | add: devices view                         | add: devices view                           | 25/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices      | 0d456bbdf35afa928e483f27503f0b797908e013 | add: httpClient & typings                 | add: httpClient & typings                   | 25/09/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/master     | 60b468358143a67127cf806539258fae282848ad | 1st commit                                | 1st commit                                  | 25/09/2024       |
+
+
 Para el despliegue de la aplicación web utilizamos Netlify: 
 Enlace de la aplicación web: https://verysafe.netlify.app/
 
@@ -2062,6 +2103,8 @@ Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el 
 ![team](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/team.jpg)
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
+
+
 
 #### 6.2.1.6. Software Deployment Evidence for Sprint Review
 
@@ -2136,20 +2179,171 @@ Link del trello: https://trello.com/b/F9HDJVzc/sprint-2
 
 #### 6.2.2.3. Development Evidence for Sprint Review.
 
-A continuación, se presenta la lista de commits realizados en los repositorios para este sprint 2.
+Para este sprint nos centramos en tener una entrega final de nuestro landing page, asimismo rehicimos la aplicación web usando vue y dejando de lado angular por un problema de formato. Además, empezamos la construcción de la base de datos junto con el backend correspondiente para cada aplicación.
 
-<table><tr><th valign="top">Repository</th><th valign="top">Branch</th><th valign="top">Commit Id</th><th valign="top">Commit Message</th><th valign="top">Commit Message Body</th><th valign="top">Commited on (Date)</th></tr>
-<tr><td rowspan="5" valign="top"><p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web.git</p><p></p></td><td valign="top"><p>feat/areas</p><p></p></td><td valign="top">01871a0a</td><td valign="top">add: ()</td><td valign="top">properties crud</td><td valign="top">Oct 07 2024</td></tr>
-<tr><td valign="top">feat/areas</td><td valign="top">8ba68733</td><td valign="top">add: ()</td><td valign="top">my devices page</td><td valign="top">Oct 05 202</td></tr>
-<tr><td valign="top">feat/events</td><td valign="top">3eb0165b</td><td valign="top">add: ()</td><td valign="top">Créate and delete properties</td><td valign="top">Oct 13 2024</td></tr>
-<tr><td valign="top">Feat/events</td><td valign="top">570d3898</td><td valign="top">add: ()</td><td valign="top">Update events</td><td valign="top">Nov 02 2024</td></tr>
-<tr><td valign="top">develop</td><td valign="top">1dcc1490</td><td valign="top">refactor: ()</td><td valign="top">update area interfaces and service methods for improved data handling</td><td valign="top">Nov 03 2024</td></tr>
-<tr><td rowspan="5" valign="top"><p> https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield.git </p><p></p></td><td valign="top">Feat/notifications</td><td valign="top">8bf251c9</td><td valign="top">Add: ()</td><td valign="top">User profile context</td><td valign="top">Oct 07 2024</td></tr>
-<tr><td valign="top">Feat/notifications</td><td valign="top">81f6af96</td><td valign="top">add: ()</td><td valign="top">get, getById, post & delete property</td><td valign="top">Oct 13 2024</td></tr>
-<tr><td valign="top">Feat/notifications</td><td valign="top">93ea9db4</td><td valign="top">add: ()</td><td valign="top">base documents notifications</td><td valign="top">Oct 28 2024</td></tr>
-<tr><td valign="top">development</td><td valign="top">fd5b57fb</td><td valign="top">add: ()</td><td valign="top">documents java into notification</td><td valign="top">` `Oct 30 202</td></tr>
-<tr><td valign="top">development</td><td valign="top">a4376074</td><td valign="top">add ()</td><td valign="top"><p>add</p><p>controller</p></td><td valign="top">Nov 02 2024</td></tr>
-</table>
+A continuación, se detallan los commits realizados en este sprint, reflejando los progresos en la implementación de estos componentes:
+
+**Landing Page**
+
+| Repository | Branch       | Commit id                              | Commit Message                         | Commit Message Body                         | Commit on (Date) |
+|------------|--------------|----------------------------------------|----------------------------------------|---------------------------------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | bf773aec587b7ff844bd19ea1c1f959e85119dae | fix: responsive                           | fix: responsive                               | 05/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 8ed3879e3b4fd1fde4cb04fd578de4b0bafe9335 | fix: responsive logos and video           | fix: responsive logos and video               | 14/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | c915e3f105f6115b81293b078a3d4c8738667cff | fix: responsive                           | fix: responsive                               | 14/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | dad3c6185edb530d2308d9fb2a75160ef4fd0956 | add: language switch and first section language change | add: language switch and first section language change | 15/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | a6caa88e720b9ba5179df33913b496497aa12db9 | add: language change on phrase            | add: language change on phrase               | 15/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 7b01ea40a54018bbc264f728acf125b82a663353 | add: switch language spanish              | add: switch language spanish                 | 16/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 990202b2888d8a12f0578c3248e72dda3d8c2677 | add: change language portugues            | add: change language portugues               | 16/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 18782f470fb9329db613f55af174cd6103aca3fc | fix: team photo gaby                      | fix: team photo gaby                         | 16/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | bb952cb1cbce9992f83d597f8e4cde5be8abed18 | fix: language icon                        | fix: language icon                           | 22/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 21aee306d82411f02f63eca1b56282ee1486b9ad | fix: languages button                     | fix: languages button                        | 22/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | f9957997e69e22e5ce640c52232025d2de038080 | fix: language button                      | fix: language button                         | 22/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 64ba219d5e7d0ca006535b921a7144dfe46003c1 | fix: image plan basico portugues          | fix: image plan basico portugues             | 23/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 440f3727732832b1e82a43325a0110a45d248756 | fix: responsive title                     | fix: responsive title                        | 23/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 47f313df0d418a79e1cbff0a069dc29a8b196914 | fix: carrousel followers                  | fix: carrousel followers                     | 23/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | f115d775d218f81c5a7fbaf011bb197eba9456ae | fix: phrase color                         | fix: phrase color                            | 23/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 7d6213e8dc2d899d6f90fd3df11f7cb65fad1bff | fix: image portada                        | fix: image portada                           | 24/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | e8f9bbf0ee3971220fb1c0c2905f63f46d980806 | fix: portada                              | fix: portada                                 | 24/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | cc38d0068407df9fd706cc3b9a076a219adea5c4 | fix: portada                              | fix: portada                                 | 24/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | fa20353eeaa04d502b705497b8b946d6a80c13ce | Merge branch 'main' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | Merge branch 'main' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | 24/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | a21aeb31ae8790d0ff781ce03c8016520bfb9098 | fix: colors                               | fix: colors                                  | 24/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | c9aa82bd29593980a9ec3b991d6c8e0e7573d1d4 | Merge branch 'main' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | Merge branch 'main' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | 24/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 2260513ab9322c1b986c5d7dfbc64adb521ae6e6 | fix: font                                 | fix: font                                    | 24/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | origin/main | 1ce9d3772ab52c72460010503d13a6126a4ffefe | Merge branch 'main' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | Merge branch 'main' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page | 24/10/2024       |
+
+
+**Aplicación Web**
+| Repository | Branch             | Commit id                              | Commit Message                                             | Commit Message Body                                       | Commit on (Date) |
+|------------|--------------------|----------------------------------------|------------------------------------------------------------|-----------------------------------------------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/master     | 60b468358143a67127cf806539258fae282848ad | 1st commit                                                | 1st commit                                            | 03/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices      | 0d456bbdf35afa928e483f27503f0b797908e013 | add: httpClient & typings                                 | add: httpClient & typings                               | 03/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices      | 5aaba24e97c91286cfcdab5314007cb4963f4bac | add: devices view                                         | add: devices view                                       | 04/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices      | eef9970f5deb98e2d5ceb400c429fe338de6dea2 | Merge pull request #1 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/devices | Merge pull request #1 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/devices | 04/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Develop           | dab9bcd9c9aed28f48d2bcf218c6a9c0c28e9203 | Merge pull request #2 from Caffeine-Desarrollo-de-Soluciones-IOT/develop     | Merge pull request #2 from Caffeine-Desarrollo-de-Soluciones-IOT/develop     | 04/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | areas and devices | f0caa485003661ac5184902c44646e09fd62a2df | add: properties                                           | add: properties                                         | 05/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | areas and devices | 8ba68733afad8e25abb6042e00e48b8f34a5c770 | add: my devices page                                      | add: my devices page                                    | 05/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/properties   | 17d88bc1db44c4939e4bcf8a75ccc67374fb5854 | Merge pull request #3 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/properties | Merge pull request #3 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/properties | 05/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | c8ef2a1bde836542bde01199f2738848f417a645 | Merge branch 'develop' into feat/devices                  | Merge branch 'develop' into feat/devices                 | 05/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | df34592da6d420bee19d04c651b130b8d224de4a | Merge pull request #4 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/devices | Merge pull request #4 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/devices | 05/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | 7ecaf6a73b10cece659a9711ccf608675046145b | feature: upload image when creating a property            | feature: upload image when creating a property           | 06/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | cf7a0a87e9e0e13df196ba4c8738bb16949544ab | fix: grid & list properties                               | fix: grid & list properties                              | 06/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | d9141fb74d0df89861bab00226704cf27771fb3a | feature: create new area                                  | feature: create new area                                 | 06/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | 01871a0a6f0a873731fbcdda53c5e5456666ae5d | add: properties crud                                      | add: properties crud                                    | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | de032e1c8282e4817cbd784b787f026eaf3e4201 | fix: close delete dialog                                  | fix: close delete dialog                                | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/areas        | 8b3ae99a6edcb3d3f574b654e5320f98486f440d | add: areas crud                                           | add: areas crud                                         | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/area-devices | fbd7901be82d0a457e43c34b2dd89de1d7198c6a | Merge pull request #5 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/areas | Merge pull request #5 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/areas | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/area-devices | 02acd561b7b04adff4896a8cacbfffb4409e5dad | fix: removing images in firebase                           | fix: removing images in firebase                         | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/area-devices | f29f8d622822e066da0710737b2799538bc3da28 | fix: devicesXarea view                                    | fix: devicesXarea view                                  | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | feat/area-devices | 252e60aa3952ab4fb4641e2e197b7ca26f0b6378 | Merge pull request #6 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/area-devices | Merge pull request #6 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/area-devices | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/properties   | 116174ad0b5307bad977335712db99ce4ecc8332 | Merge branch 'develop' into feat/properties               | Merge branch 'develop' into feat/properties              | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/properties   | 8c290524d0df872fdb1574ff5ba69c5535bebf0e | Merge pull request #7 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/properties | Merge pull request #7 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/properties | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/auth         | d28e06a6050eb0a75730772c962be35c126543cb | fix: remove unused import                                 | fix: remove unused import                               | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/auth         | d31cf0f222b6842d44722dab1eb430febca24021 | update: auth config & add auth service                    | update: auth config & add auth service                   | 08/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/auth         | 999c901c3748470f2256a5b88fa721dbf6d3b207 | refactor: routes & add guards                             | refactor: routes & add guards                           | 08/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/auth         | f163aa2951cedb20ea38f2245bac0ac3e57cc016 | add: login                                                | add: login                                              | 08/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/auth         | f0fa58bf2d0fce075242c80e921956987b81142c | refactor: improve user greeting and add smooth scroll function type | refactor: improve user greeting and add smooth scroll function type | 09/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/auth         | 9c056892facb434e5a168bf07f840a0bffbd0dae | Merge pull request #8 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/auth | Merge pull request #8 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/auth | 09/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/auth         | dce5b44e7732c32f07e707a6056ae0fec6113da6 | refactor: httpClient to handle user authentication and token | refactor: httpClient to handle user authentication and token | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices v11  | f1e81443b8549faf8d6f9f2407b512fed8bdde62 | add: services for devices with api                        | add: services for devices with api                      | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices v10  | 2af4acbf86fa40d86c3f86bd2675dfff6c337aa1 | add: implement services in component                      | add: implement services in component                    | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices v9   | 542364b6e9dda3fa41310180e7efacf0dd5af985 | add: loading indicators for the login action              | add: loading indicators for the login action            | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices v8   | b74c15e8eb58b6cd36a10852581069b4932a7662 | refactor: authService name to upper camel case            | refactor: authService name to upper camel case          | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices v7   | 02ed287efa9648fd4402480e79cd72f22898d3cf | refactor: Update device interfaces data types             | refactor: Update device interfaces data types           | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices v6   | 24894f49294d60f3f93d607f356c2fa6c245a9dd | refactor: interceptors for error handling                 | refactor: interceptors for error handling               | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices v5   | 4b6fb8807dc157ba6061af718afadbae40f6befc | add: user profile creation                                | add: user profile creation                              | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices v4   | ac1989fe3be522b187f08e3cfa487b1599b6c57a | refactor: Add pinia store for user profile creation       | refactor: Add pinia store for user profile creation     | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices v3   | 2520d3fb0b50f9c7ba087ee1473c4c755c8085d6 | refactor: Add unregisterDevice method to DeviceService    | refactor: Add unregisterDevice method to DeviceService  | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/devices v2   | 36b8f26f93a34ee829877111f94070909f5d3c3c | Merge pull request #9 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/devices-v2 | Merge pull request #9 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/devices-v2 | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Develop           | 233e5d5f604aa238e2a4f39366eb42b14d283d6c | refactor: footer link change & typing usage               | refactor: footer link change & typing usage             | 13/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Develop           | ed28083a6407a7c0317478170e30df2116d0af8e | Merge branch 'feat/properties' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web into feat/properties | Merge branch 'feat/properties' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web into feat/properties | 13/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Develop           | 13e9b8901fd09c98c4638cc13a61e14fed19688e | Merge pull request #10 from Caffeine-Desarrollo-de-Soluciones-IOT/develop     | Merge pull request #10 from Caffeine-Desarrollo-de-Soluciones-IOT/develop     | 13/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/feat/properties | 3eb0165b0dbbe5fbd8510056a60133e6eda57085 | add: create and delete properties                         | add: create and delete properties                       | 13/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | develop           | 8073f3218f09182a22a55cff6689e6fc6bf92ee3 | add: assistance                                          | add: assistance                                         | 25/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | develop           | 25246baa0add48218bed5000e41c76abf22b7413 | add: Assistance                                          | add: Assistance                                         | 26/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | develop           | fcb69fa1b63460d6581e551887e4927da5ac9e72 | fix: package and main                                    | fix: package and main                                   | 26/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/feat/events | 0254d6fdf20a9b01f506fd91e39de4f10c8c9a5b | add: Contact                                             | add: Contact                                           | 28/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/feat/events | ec048f2b79a120e3c6f47b7455edf962efc1d2bb | add: dashboard options                                   | add: dashboard options                                 | 29/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/feat/events | 0a43c9f9750ca28bff5d62d182fae9864b63140f | fix: dashboard                                           | fix: dashboard                                         | 29/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/properties   | 3b1f4eb92ebf996da74956933e835ff4d9313509 | refactor: Simplify error handling in HTTP client interceptor | refactor: Simplify error handling in HTTP client interceptor | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/properties   | 9e82a98564366e26dcf15d61657d3614ac9cdaee | Merge branch 'develop' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web into develop | Merge branch 'develop' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web into develop | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/properties   | 4371a569febd2f7c57bf03f571ac9e8ac27b83a2 | Merge branch 'develop' into feat/properties               | Merge branch 'develop' into feat/properties             | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/properties   | 9bcf2c5fab60f1e295cfc839714a20722e3c1def | Merge pull request #11 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/properties | Merge pull request #11 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/properties | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop    | 5f0a2da0c0b71ce65e62d61980a54b7b4fe62aff | update: MyProperties.vue                                 | update: MyProperties.vue                               | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop    | d434a5a2962db2a4af44bf9d6323414819d1e7ec | add events                                               | add events                                             | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop    | cc417e9f363750bc275906e580af8ae1bd98f2df | Merge branch 'develop' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web into develop | Merge branch 'develop' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web into develop | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop    | 570d3898bc5bd671764606becafda68005baf73b | add update events                                        | add update events                                      | 02/11/2024       |
+
+**Base de Datos Aplicación Web y Móvil**
+
+| Repository                                   | Branch      | Commit id                              | Commit Message  | Commit Message Body | Commit on (Date) |
+|----------------------------------------------|-------------|----------------------------------------|-----------------|---------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/Base-de-Datos | origin/main | 43bf9a4d751fa05d0c18cade372f74ce10374758 | add: database   | add: database       | 06/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/Base-de-Datos | origin/main | e882d8523cc550e813f85b56a27ee38ce05592bd | add: new migration | add: new migration | 06/10/2024       |
+
+**Backend Aplicación Web y Móvil**
+
+| Repository                                   | Branch               | Commit id                              | Commit Message                                      | Commit Message Body                                  | Commit on (Date) |
+|----------------------------------------------|----------------------|----------------------------------------|-----------------------------------------------------|------------------------------------------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | master               | 7c09cf274abedc622ff856a6b0713a3185b2b932 | add: base project                                   | add: base project                                    | 31/08/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | master               | 904c7570d693d1cdb30b0fd130a4b91a00cc3903 | add: base structure for the api                     | add: base structure for the api                      | 31/08/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | feat/devices         | 77b12398555a9b551dec8968d30ba15c14e0d3ea | add: project files                                  | add: project files                                   | 05/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | feat/devices         | acc38fb49a40b176f42a53cc1a3b95e67cbb68de | add: device entities & repos                        | add: device entities & repos                         | 05/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | feat/devices         | e38a7d3707d39d37413462ad9abf6b5f6a5af169 | add: device commands, queries & controllers         | add: device commands, queries & controllers          | 05/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | 8f9c9318dbc3467b6c5645ebee4531d637398bb1 | add: security config & docs                         | add: security config & docs                          | 06/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | 8bf251c9342ae7414ff575aecb1ef6f49444f0fc | add: user profile context                           | add: user profile context                            | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | c1584e3d7c28f51a578ab683d43374308bdcd9b5 | add: custom mappers for user profile                | add: custom mappers for user profile                 | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | 66c89b8666f1c3d523f2ecf1c8db19ac10ccc825 | add: entities for device registration               | add: entities for device registration                | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | 84f17405ec2419a39034da3c5557b52c05f488ed | add: device registration feature                    | add: device registration feature                     | 07/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | 33297139911992495fb4fbd28f204dee2f54ecef | fix: change pk data type to long                    | fix: change pk data type to long                     | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | 447747cf8145de850f21b90e2e8ac0e6edd6e864 | update: data types in dtos & queries                | update: data types in dtos & queries                 | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | 67baf6d4366113188142c64c5b5421f905ce38c7 | add: unregister a device                            | add: unregister a device                             | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | b2f2a758698b60c7302d6f1a6d8336fa4d38fac4 | add: startup.sql script                             | add: startup.sql script                              | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | 11b27fad55ea09cc88af57d2e096c0974b44acfe | Merge pull request #2 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/user-profile | Merge pull request #2 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/user-profile | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | 359efd4971591ce8d77ec62e986eb148c90e6c15 | fix: mapping error @ UserAccountMappers             | fix: mapping error @ UserAccountMappers              | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | ce4f00faa374500f32f8786cc4a047ec4e3f1593 | fix: dni unique validation                          | fix: dni unique validation                           | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | fd758bd8a7a8fcf57234b2c135ec69494837264d | fix: user picture                                   | fix: user picture                                    | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | 0128223f639043a9909f3c854d8868b803b51e43 | docs: update docs                                   | docs: update docs                                    | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/events   | 49209f2b9b976e8d662905ef755838ed3b155859 | Merge branch 'development' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield into development | Merge branch 'development' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield into development | 10/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | feat/properties      | 81f6af9673d0860a26da07671b899d3ce8dd0294 | add: get, getById/post & delete property            | add: get, getById/post & delete property             | 13/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/areas    | d988ed972ed41d3228b46e2b0e6c45794018d829 | add: stripe service & controller                    | add: stripe service & controller                     | 20/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/areas    | d1f9da5c8204d7201131928320426dca5c63962c | add: stripe customer util                           | add: stripe customer util                            | 20/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/areas    | b0a04378ad48d635f6e4070da16d99b1fe759e4c | add: base documents area                            | add: base documents area                             | 28/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/areas    | 93ea9db447fb2f3b315d4b91a4828181be19fcdc | add: base documents notifications                   | add: base documents notifications                    | 28/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/areas    | ac605e0fb4fc2557a4f3b99b9217968452d1ab89 | add: entities area                                  | add: entities area                                   | 28/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/areas    | adc7db97edded07dc0cc25d955547cddb3b16f46 | add: area repository                                | add: area repository                                 | 28/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/areas    | 85e02f51962147b6b88b680a185b39c5b4e8cee3 | add: area services                                  | add: area services                                   | 28/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/areas    | 61483eb2b910ecd457944b03b0ddad2424036a50 | fix: bc areas                                       | fix: bc areas                                        | 29/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/areas    | 1cf47e7a8d3b662689ed26a71ba8467fe522f8e7 | add: controller areas                               | add: controller areas                                | 29/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/areas    | 937b0fd1d7900e9344889a4352bcc8736099060f | fix: api area                                       | fix: api area                                        | 30/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/areas    | 311ff2357963f7d474f5eb56b7a038a00105186e | fix: api area v.1.1                                 | fix: api area v.1.1                                  | 30/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/feat/areas    | ac340423253c317b3f1a013e666af4c5fdcc925d | fix: Endpoint areas completed                       | fix: Endpoint areas completed                        | 30/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | feat/notifications   | fd5b57fbc9ff878a991f4085f8120930eedf2eac | add: documents java into notification               | add: documents java into notification                | 30/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | feat/notifications   | a2ea1c05c13693801142c31e8e4283c44e5ef796 | add: post notification                              | add: post notification                               | 31/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | feat/notifications   | b69fe1a51d305eeef2ca3bad921ed391dbe5536b | add: post, getById Notification                     | add: post, getById Notification                      | 01/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | feat/notifications   | d7ed07d7693594e7b23f96b1871873a8951e0b9a | fix: api notifications                              | fix: api notifications                               | 01/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | Feat/subscriptions   | 62ca9e16abe949e025760aeae4f993ebf3ba9197 | refactor: stripe gateway                            | refactor: stripe gateway                             | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | Feat/subscriptions   | 3918debe6e2c2727e024719a4601c50d132099f5 | refactor: stripe gateway                            | refactor: stripe gateway                             | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | Feat/subscriptions   | 1bea67da57f761b7dcf25bcce8e33eaa504a46db | Merge branch 'feat/subscriptions' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield into feat/subscriptions | Merge branch 'feat/subscriptions' of https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield into feat/subscriptions | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | Feat/subscriptions   | df7cbbb857a71efd2bf44838c1e9dac5577709b0 | Merge pull request #3 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/subscriptions | Merge pull request #3 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/subscriptions | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | 2f043716009d6695c5f93fc3dde00ccb7385c4de | add: kafka config                                   | add: kafka config                                    | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | c3b691e87bb3f4cd047dc37bc9d23236180f0b9e | add: entity commands & queries                      | add: entity commands & queries                       | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | fd62b8f039a76e4d4095b5417176de1581bd7560 | add: command handler                                | add: command handler                                 | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | 0d04399d4968c31ad0c067feedd48b4e6e596cbb | add: query handler                                  | add: query handler                                   | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | f483971f8955ec393fe773ca24b8ba528569969a | add: repository                                     | add: repository                                      | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | ab105a9c7a493cec6c09ae19c9908143012b0b67 | add: kafka listener                                 | add: kafka listener                                  | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | 19ec3348c288e043471f60f6b4e6030302c04c7d | add: request dto                                    | add: request dto                                     | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | 0ed4a1f11cd744180c4aabd51d8b2a43baa8acbc | add: response dto                                   | add: response dto                                    | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | a4376074dced8d616b46f438ecbfa2ea65a2ac8c | add: controller                                     | add: controller                                      | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | 11d357c26d9de8fc9ab251a628d54dd7135702e3 | Merge pull request #4 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/events | Merge pull request #4 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/events | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | 09feef8400b0e6c6ce955d826b2fdf7fcb0dd90c | add: docker                                         | add: docker                                          | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | 39ac1a6ff935297c8e06834758d2b5ba763e5ec2 | Merge pull request #5 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/events | Merge pull request #5 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/events | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | ac16bc71a0982f76b4dadf3c5123965c08d72bd5 | Merge pull request #6 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/properties | getById, post & delete property | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | 35b493d7bac8be24f6aa89843e3dd14dfdd9e5fb | Merge pull request #7 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/areas | Merge pull request #7 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/areas | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | 0be4e0c9cd4eff1d3b39ea63d65b00effd65c669 | fix: Property module                                | fix: Property module                                 | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | 304c774e570ece8b2d0312dda7b070bc7eec5c00 | fix: add relationships                              | fix: add relationships                               | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | 5ca7c0971567cc1442a2ba8ed20035bd04bc7c43 | fix: area v1                                        | fix: area v1                                         | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development   | bd29630e9917186854ab12b86e5baa07ced6690c | fix: areas v2                                       | fix: areas v2                                        | 02/11/2024       |
+
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review.
 
@@ -2251,17 +2445,46 @@ Link: https://trello.com/b/VzbK516w/sprint-3
 
 #### 6.2.3.3. Development Evidence for Sprint Review.
 
-El repositorio FalconShield-EdgeApi ha tenido avances significativos, incluyendo la implementación de la base de la API, CRUD para actuadores, documentación Swagger, y API de sensores. Estos cambios refuerzan la infraestructura de la Edge API, garantizando que sea robusta, bien documentada, y funcional para manejar sensores y actuadores en un entorno IoT.
+El repositorio FalconShield-EdgeApi ha tenido avances significativos, incluyendo la implementación de la base de datos para el dispositivo IoT, asimismo se implemento la lógica CRUD para sensores y actuadoress; y documentación con Swagger. Estos cambios refuerzan la infraestructura del Edge API, garantizando que sea robusta, documentada, y funcional para manejar sensores y actuadores en un entorno IoT. Asismismo, empezamos con la primera versión de nuestra aplicación móvil implementando la parte principal de nuestro negocio.
 
-| Repository                                   | Branch                                | Commit Id                                              | Commit Message                        | Commit Message Body                   | Commited on (Date)       |
-|----------------------------------------------|---------------------------------------|--------------------------------------------------------|---------------------------------------|---------------------------------------|--------------------------|
-| <p>GabySol26/FalconShield-EdgeApi</p><p></p> | <p>add base repository </p><p></p>    | <p>07ca48a23cff0b23290ba10e62f72edddd664bcc</p><p></p> | <p>add base repository</p><p></p>     | <p>add base repository </p><p></p>    | <p>02/10/2024</p><p></p> |
-| GabySol26/FalconShield-EdgeApi               | add: base edge api                    | 07ca48a23cff0b23290ba10e62f72edddd664bcc               | add: base edge api                    | add: base edge api                    | 02/10/2024               |
-| quevedito2/FalconShield-EdgeApi              | add: crud actuator                    | b6ce930efd3921dbe112e803aa5dc133246bba46               | add: crud actuator                    | add: crud actuator                    | 02/10/2024               |
-| deyson63/FalconShield-EdgeApi                | add: documentation swagger            | 158591609b2863f8289f88f23b67b7493be6ab66               | add: documentation swagger            | add: documentation swagger            | 02/10/2024               | 
-| miikuru002/FalconShield-EdgeApi              | add: snesor api                       | 19153ed38e046d50adf2ca72f853d8690e43f4bb               | add: snesor api                       | add: snesor api                       | 02/10/2024               | 
-| elvi98/FalconShield-EdgeApi                  | fix: swagger actuators                | bc790e496d9bfbaa47f16cb06dd257959b05ef62               | fix: swagger actuators                | fix: swagger actuators                | 02/10/2024               |
-| GabySol26/FalconShield-EdgeApi               | add: descriptions sensors swagger api | 54607743a414bbc7b0a64013eb70b9badba9435a               | add: descriptions sensors swagger api | add: descriptions sensors swagger api | 02/10/2024               | 
+**Aplicación Móvil**
+
+| Repository                                   | Branch         | Commit id                              | Commit Message          | Commit Message Body     | Commit on (Date) |
+|----------------------------------------------|----------------|----------------------------------------|-------------------------|-------------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/main    | da79afff76dd46c4e7762627fde96bb5cbe8a63b | first commit            | first commit            | 19/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | f86b18605eb96c47a4c9712387f20b3b3900a6f3 | second commit           | second commit           | 22/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | 8d68ed6b9173b2adafa809d823e75710c225f422 | add: Bottom NavBar      | add: Bottom NavBar      | 31/10/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | 0a5edcd285a422840dacb44e96d12f9a23ba2388 | add: login              | add: login              | 01/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | 49417ea68c3fb068123bdc76e607fd825a758468 | fix: loggin             | fix: loggin             | 01/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | bfd446ab82e78f066c0fd94a11467ae42c3a8fb8 | fix: loggin             | fix: loggin             | 01/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | 7ae55b95e9ffd7ddb62861ce7a9ded40107acbbe | fix: loggin bug         | fix: loggin bug         | 01/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | 96ab6a5dcb80ef8d6d84d7b01e0463cd1752cdde | add: home page          | add: home page          | 01/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | 867f2bb64b8b6adce145e2b0076a11e04a105dbb | add character: home page | add character: home page | 01/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | 0ab41b56ea7fa12d2ecb29457a3513d03cce5c82 | add: properties         | add: properties         | 01/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | 793cebf4d0db828210e44eb32b11f0fd9067952c | fix: properties navbar  | fix: properties navbar  | 01/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | b4321ace6f944df4ca6975a2ac280629b184df93 | add: properties form    | add: properties form    | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | aa89915a108c0cab443501e23036eef86fe9daff | add: property_modal     | add: property_modal     | 02/11/2024       |
+
+**Base de datos IoT**
+
+| Repository                                   | Branch      | Commit id                              | Commit Message            | Commit Message Body       | Commit on (Date) |
+|----------------------------------------------|-------------|----------------------------------------|---------------------------|---------------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/Database-Wokwi | origin/main | 0c4b5826120886127a2d0f79ae0b0c821337bf56 | add: iot devices database | add: iot devices database | 01/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/Database-Wokwi | origin/main | 594d464cf86e7e62e39c7902fdd094ae3016f218 | fix: bd wokiw              | fix: bd wokiw              | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/Database-Wokwi | origin/main | 7053d99a341dc3968bd9a11b7cd5be3c0b8abeda | fix: names bd              | fix: names bd              | 02/11/2024       |
+
+
+**Backend de dispositivos IoT**
+
+| Repository                                   | Branch      | Commit id                              | Commit Message                     | Commit Message Body               | Commit on (Date) |
+|----------------------------------------------|-------------|----------------------------------------|------------------------------------|-----------------------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | 07ca48a23cff0b23290ba10e62f72edddd664bcc | Create README.md                   | Create README.md                  | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | b6ce930efd3921dbe112e803aa5dc133246bba46 | add: base edge api                 | add: base edge api                | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | 158591609b2863f8289f88f23b67b7493be6ab66 | add: crud actuator                 | add: crud actuator                | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | 4eed6947942b0d5d313d1db03536a10acd4f6f1f | add: documentation swagger         | add: documentation swagger        | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | 19153ed38e046d50adf2ca72f853d8690e43f4bb | add: snesor api                    | add: snesor api                   | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | bc790e496d9bfbaa47f16cb06dd257959b05ef62 | fix: swagger actuators             | fix: swagger actuators            | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | 54607743a414bbc7b0a64013eb70b9badba9435a | add: descriptions sensors swagger api | add: descriptions sensors swagger api | 02/11/2024       |
 
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review.
