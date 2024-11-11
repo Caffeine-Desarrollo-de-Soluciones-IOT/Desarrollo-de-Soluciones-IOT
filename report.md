@@ -29,150 +29,150 @@ Mes y año: Noviembre 2024
 Ciclo: 2024-2
 
 ## Registro de Versiones del Informe
-| Versión | Autor             | Fecha      | Descripción de la modificación                                             |
-|---------|-------------------|------------|----------------------------------------------------------------------------|
-| 1.0.    | Elvia Arteaga     | 18/08/2024 | Initial commit                                                             |
-| 1.0.    | Elvia Arteaga     | 18/08/2024 | Create report.md                                                           |
-| 1.0.    | Elvia Arteaga     | 18/08/2024 | Add Lean UX Process                                                        |
-| 1.1.    | Jamutaq Ortega    | 20/08/2024 | add: user persona for segment 1                                            |
-| 1.1.    | Jamutaq Ortega    | 22/08/2024 | add: empathy map for seg 1                                                 |
-| 1.1.    | Max Sabino        | 23/08/2024 | add profile                                                                |
-| 1.1.    | Max Sabino        | 23/08/2024 | Update interview design                                                    |
-| 1.1.    | Max Sabino        | 23/08/2024 | Add interview design                                                       |
-| 1.1.    | Jamutaq Ortega    | 27/08/2024 | add: needfinding section with user personas                                |
-| 1.1.    | Jamutaq Ortega    | 31/08/2024 | chore: reorder chapters of report                                          |
-| 1.2.    | Gabriela Nomberto | 01/09/2024 | Antecedentes y Problematica                                                |
-| 1.2.    | Gabriela Nomberto | 02/09/2024 | Estructura tb1                                                             |
-| 1.2.    | Gabriela Nomberto | 02/09/2024 | Analisis competitivo                                                       |
-| 1.3.    | Elvia Arteaga     | 05/09/2024 | Update Lean UX                                                             |
-| 1.4.    | Max Sabino        | 07/09/2024 | product-backlog                                                            |
-| 1.4.    | Max Sabino        | 07/09/2024 | UserStories fixed                                                          |
-| 1.4.    | Max Sabino        | 07/09/2024 | UserStories                                                                |
-| 1.4.    | Max Sabino        | 07/09/2024 | tacticas-estrategias                                                       |
-| 1.4.    | Max Sabino        | 07/09/2024 | entrevista3                                                                |
-| 1.4.    | Max Sabino        | 07/09/2024 | fixed images                                                               |
-| 1.4.    | Max Sabino        | 07/09/2024 | moved-images                                                               |
-| 1.4.    | Max Sabino        | 07/09/2024 | event_storming                                                             |
-| 1.4.    | Elvia Arteaga     | 07/09/2024 | Update Lean UX Canvas directory                                            |
-| 1.4.    | Elvia Arteaga     | 07/09/2024 | fix compatibility issues                                                   |
-| 1.4.    | Elvia Arteaga     | 07/09/2024 | add interview 1 and file reorganization                                    |
-| 1.4.    | Jamutaq Ortega    | 07/09/2024 | add: interview 1                                                           |
-| 1.4.    | Jamutaq Ortega    | 07/09/2024 | add: team member profiles in report.md                                     |
-| 1.4.    | Gabriela Nomberto | 07/09/2024 | Ubiquitous                                                                 |
-| 1.4.    | Dennis Quevedo    | 07/09/2024 | Perfil Quevedito                                                           |
-| 1.4.    | Dennis Quevedo    | 07/09/2024 | Descripción de Startup 1.1                                                 |
-| 1.4.    | Dennis Quevedo    | 07/09/2024 | Descripción de Startup                                                     |
-| 1.5.    | Elvia Arteaga     | 08/09/2024 | Update outcomes                                                            |
-| 1.5.    | Gabriela Nomberto | 08/09/2024 | tb1 final version                                                          |
-| 1.5.    | Dennis Quevedo    | 08/09/2024 | Notification                                                               |
-| 1.5.    | Gabriela Nomberto | 08/09/2024 | fix                                                                        |
-| 1.5.    | Dennis Quevedo    | 08/09/2024 | Impact map                                                                 |
-| 1.5.    | Gabriela Nomberto | 08/09/2024 | termino del tb1                                                            |
-| 1.5.    | Gabriela Nomberto | 08/09/2024 | bc-event                                                                   |
-| 1.5.    | Gabriela Nomberto | 08/09/2024 | fixed                                                                      |
-| 1.5.    | Max Sabino        | 08/09/2024 | diagram-db-contextdevices                                                  |
-| 1.5.    | Gabriela Nomberto | 08/09/2024 | bounded context user                                                       |
-| 1.5.    | Gabriela Nomberto | 08/09/2024 | fixed                                                                      |
-| 1.5.    | Gabriela Nomberto | 08/09/2024 | deployment: Mobile and IoT Style Guidelines                                |
-| 1.5.    | Gabriela Nomberto | 08/09/2024 | diagram                                                                    |
-| 1.5.    | Elvia Arteaga     | 08/09/2024 | Add Bounded Context Areas                                                  |
-| 1.5.    | Max Sabino        | 08/09/2024 | devices-context-final                                                      |
-| 1.5.    | Max Sabino        | 08/09/2024 | devices2                                                                   |
-| 1.5.    | Max Sabino        | 08/09/2024 | devices-fixed                                                              |
-| 1.5.    | Max Sabino        | 08/09/2024 | devices-context2                                                           |
-| 1.5.    | Max Sabino        | 08/09/2024 | devices-context1                                                           |
-| 1.5.    | Max Sabino        | 08/09/2024 | devices                                                                    |
-| 1.5.    | Dennis Quevedo    | 08/09/2024 | user-persona-empresa                                                       |
-| 1.5.    | Max Sabino        | 08/09/2024 | devices-context                                                            |
-| 1.5.    | Jamutaq Ortega    | 08/09/2024 | add: subscriptions bounded context                                         |
-| 1.5.    | Gabriela Nomberto | 08/09/2024 | context level diagram                                                      |
-| 1.5.    | Max Sabino        | 08/09/2024 | context-mapping                                                            |
-| 1.5.    | Gabriela Nomberto | 08/09/2024 | system landscape diagram                                                   |
-| 1.5.    | Elvia Arteaga     | 08/09/2024 | Add To Be                                                                  |
-| 1.5.    | Max Sabino        | 08/09/2024 | flow-messages                                                              |
-| 1.5.    | Dennis Quevedo    | 08/09/2024 | segmentos objetivos                                                        |
-| 1.5.    | Gabriela Nomberto | 08/09/2024 | entrevista 4 y 5                                                           |
-| 1.5.    | Jamutaq Ortega    | 08/09/2024 | add: context mapping diagrams                                              |
-| 2.0.    | Gabriela Nomberto | 09/09/2024 | estructura tp                                                              |
-| 2.0.    | Gabriela Nomberto | 09/09/2024 | Update report.md                                                           |
-| 2.1.    | Elvia Arteaga     | 17/09/2024 | add: photo elvia                                                           |
-| 2.1.    | Elvia Arteaga     | 17/09/2024 | fix: lean ux process                                                       |
-| 2.1.    | Jamutaq Ortega    | 17/09/2024 | add: photo                                                                 |
-| 2.1.    | Max Sabino        | 17/09/2024 | add:profileMax                                                             |
-| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-VI                                                                |
-| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-V                                                                 |
-| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-IV                                                                |
-| 2.1.    | Gabriela Nomberto | 17/09/2024 | fix                                                                        |
-| 2.1.    | Elvia Arteaga     | 17/09/2024 | Update team profile structure                                              |
-| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-III                                                               |
-| 2.1.    | Elvia Arteaga     | 17/09/2024 | Update team profile structure                                              |
-| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-II                                                                |
-| 2.1.    | Gabriela Nomberto | 17/09/2024 | student outcome                                                            |
-| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-I                                                                 |
-| 2.2.    | Elvia Arteaga     | 18/09/2024 | fix: to be for both target segments                                        |
-| 2.2.    | Elvia Arteaga     | 18/09/2024 | add: to be for both target segments                                        |
-| 2.2.    | Elvia Arteaga     | 18/09/2024 | fix: interview 2                                                           |
-| 2.2.    | Elvia Arteaga     | 18/09/2024 | add: interview 2                                                           |
-| 2.2.    | Elvia Arteaga     | 18/09/2024 | add: interview 2                                                           |
-| 2.2.    | Jamutaq Ortega    | 19/09/2024 | feat: Add user interviews and personas                                     |
-| 2.2.    | Jamutaq Ortega    | 19/09/2024 | add: user journey mapping and empathy mapping for user personas            |
-| 2.2.    | Jamutaq Ortega    | 19/09/2024 | add: user personas and user task matrix                                    |
-| 2.2.    | Gabriela Nomberto | 20/09/2024 | add:photo-gaby                                                             |
-| 2.3.    | Jamutaq Ortega    | 21/09/2024 | fix: enumeration                                                           |
-| 2.3.    | Jamutaq Ortega    | 21/09/2024 | refactor: Add application layer for subscriptions context and refactor...  |
-| 2.3.    | Jamutaq Ortega    | 21/09/2024 | add: application layer 4 subscriptions context                             |
-| 2.3.    | Jamutaq Ortega    | 21/09/2024 | refactor: interface layer 4 Subscription & Payments context                |
-| 2.3.    | Jamutaq Ortega    | 21/09/2024 | refactor: Subscription & Payments context                                  |
-| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix:software architecture                                                  |
-| 2.3.    | Elvia Arteaga     | 21/09/2024 | add: organization systems & navigation systems                             |
-| 2.3.    | Elvia Arteaga     | 21/09/2024 | add: bounded context areas                                                 |
-| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix:competidores                                                           |
-| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix: analisis competitivo                                                  |
-| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix: antecedentes-problematica                                             |
-| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix:solution-profile                                                       |
-| 2.3.    | Jamutaq Ortega    | 21/09/2024 | add: context mappings                                                      |
-| 2.4.    | Gabriela Nomberto | 22/09/2024 | fix: bc User                                                               |
-| 2.4.    | Jamutaq Ortega    | 22/09/2024 | refactor: Update image reference in PlanController                         |
-| 2.4.    | Gabriela Nomberto | 22/09/2024 | fix: ubiquitous                                                            |
-| 2.4.    | Gabriela Nomberto | 23/09/2024 | fix:entrevista 4                                                           |
-| 2.4.    | Gabriela Nomberto | 23/09/2024 | fix:entrevistas 4 y 5                                                      |
-| 2.4.    | Gabriela Nomberto | 23/09/2024 | fix: Bounded Context Events                                                |
-| 2.4.    | Jamutaq Ortega    | 24/09/2024 | refactor: Update EventStorming diagrams and message flow diagrams          |
-| 2.4.    | Dennis Quevedo    | 24/09/2024 | fix:segmentos objetivo                                                     |
-| 2.4.    | Dennis Quevedo    | 24/09/2024 | Segmentos Objetivo Update 2                                                |
-| 2.4.    | Dennis Quevedo    | 24/09/2024 | Segmentos Objetivo Update                                                  |
-| 2.4.    | Dennis Quevedo    | 24/09/2024 | Segmentos Objetivo                                                         |
-| 2.5.    | Elvia Arteaga     | 27/09/2024 | Update report.md                                                           |
-| 2.5.    | Elvia Arteaga     | 27/09/2024 | Update report.md                                                           |
-| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: outcome                                                               |
-| 2.5.    | Jamutaq Ortega    | 27/09/2024 | add: s.o                                                                   |
-| 2.5.    | Gabriela Nomberto | 27/09/2024 | add:sprint1                                                                |
-| 2.5.    | Elvia Arteaga     | 27/09/2024 | add: student outcomes                                                      |
-| 2.5.    | Jamutaq Ortega    | 27/09/2024 | chore: remove p.                                                           |
-| 2.5.    | Max Sabino        | 27/09/2024 | add: outcome Max                                                           |
-| 2.5.    | Max Sabino        | 27/09/2024 | add: web mock up                                                           |
-| 2.5.    | Elvia Arteaga     | 27/09/2024 | add intro                                                                  |
-| 2.5.    | Elvia Arteaga     | 27/09/2024 | fix: structure                                                             |
-| 2.5.    | Jamutaq Ortega    | 27/09/2024 | add: cap 6                                                                 |
-| 2.5.    | Elvia Arteaga     | 27/09/2024 | add: software development environment configuration                        |
-| 2.5.    | Gabriela Nomberto | 27/09/2024 | fix: image wireframe profile                                               |
-| 2.5.    | Gabriela Nomberto | 27/09/2024 | fix: user flow diagrams mobile                                             |
-| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: user flow diagrams mobile                                             |
-| 2.5.    | Dennis Quevedo    | 27/09/2024 | fix:Mobile Application Wireflow                                            |
-| 2.5.    | Dennis Quevedo    | 27/09/2024 | fix:Mobile Application Wireflow                                            |
-| 2.5.    | Elvia Arteaga     | 27/09/2024 | add: c4 areas                                                              |
-| 2.5.    | Dennis Quevedo    | 27/09/2024 | add:Mobile Application Wireflow                                            |
-| 2.5.    | Max Sabino        | 27/09/2024 | add: webFrames                                                             |
-| 2.5.    | Max Sabino        | 27/09/2024 | add: wireframes web                                                        |
-| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: software deployment configuration                                     |
-| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: SEO Tags and Meta Tags                                                |
-| 2.5.    | Elvia Arteaga     | 27/09/2024 | add: intro to be                                                           |
-| 2.5.    | Dennis Quevedo    | 27/09/2024 | add:Labeling Systems                                                       |
-| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: general style guidelines                                              |
-| 2.5.    | Dennis Quevedo    | 27/09/2024 | add:Web                                                                    |
-| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: description style guidelines                                          |
-| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: application mockup app movil                                          |
-| 2.5.    | Dennis Quevedo    | 27/09/2024 | fix:needfinding                                                            |
+| Versión | Autor             | Fecha      | Descripción de la modificación                                              |
+|---------|-------------------|------------|-----------------------------------------------------------------------------|
+| 1.0.    | Elvia Arteaga     | 18/08/2024 | Initial commit                                                              |
+| 1.0.    | Elvia Arteaga     | 18/08/2024 | Create report.md                                                            |
+| 1.0.    | Elvia Arteaga     | 18/08/2024 | Add Lean UX Process                                                         |
+| 1.1.    | Jamutaq Ortega    | 20/08/2024 | add: user persona for segment 1                                             |
+| 1.1.    | Jamutaq Ortega    | 22/08/2024 | add: empathy map for seg 1                                                  |
+| 1.1.    | Max Sabino        | 23/08/2024 | add profile                                                                 |
+| 1.1.    | Max Sabino        | 23/08/2024 | Update interview design                                                     |
+| 1.1.    | Max Sabino        | 23/08/2024 | Add interview design                                                        |
+| 1.1.    | Jamutaq Ortega    | 27/08/2024 | add: needfinding section with user personas                                 |
+| 1.1.    | Jamutaq Ortega    | 31/08/2024 | chore: reorder chapters of report                                           |
+| 1.2.    | Gabriela Nomberto | 01/09/2024 | Antecedentes y Problematica                                                 |
+| 1.2.    | Gabriela Nomberto | 02/09/2024 | Estructura tb1                                                              |
+| 1.2.    | Gabriela Nomberto | 02/09/2024 | Analisis competitivo                                                        |
+| 1.3.    | Elvia Arteaga     | 05/09/2024 | Update Lean UX                                                              |
+| 1.4.    | Max Sabino        | 07/09/2024 | product-backlog                                                             |
+| 1.4.    | Max Sabino        | 07/09/2024 | UserStories fixed                                                           |
+| 1.4.    | Max Sabino        | 07/09/2024 | UserStories                                                                 |
+| 1.4.    | Max Sabino        | 07/09/2024 | tacticas-estrategias                                                        |
+| 1.4.    | Max Sabino        | 07/09/2024 | entrevista3                                                                 |
+| 1.4.    | Max Sabino        | 07/09/2024 | fixed images                                                                |
+| 1.4.    | Max Sabino        | 07/09/2024 | moved-images                                                                |
+| 1.4.    | Max Sabino        | 07/09/2024 | event_storming                                                              |
+| 1.4.    | Elvia Arteaga     | 07/09/2024 | Update Lean UX Canvas directory                                             |
+| 1.4.    | Elvia Arteaga     | 07/09/2024 | fix compatibility issues                                                    |
+| 1.4.    | Elvia Arteaga     | 07/09/2024 | add interview 1 and file reorganization                                     |
+| 1.4.    | Jamutaq Ortega    | 07/09/2024 | add: interview 1                                                            |
+| 1.4.    | Jamutaq Ortega    | 07/09/2024 | add: team member profiles in report.md                                      |
+| 1.4.    | Gabriela Nomberto | 07/09/2024 | Ubiquitous                                                                  |
+| 1.4.    | Dennis Quevedo    | 07/09/2024 | Perfil Quevedito                                                            |
+| 1.4.    | Dennis Quevedo    | 07/09/2024 | Descripción de Startup 1.1                                                  |
+| 1.4.    | Dennis Quevedo    | 07/09/2024 | Descripción de Startup                                                      |
+| 1.5.    | Elvia Arteaga     | 08/09/2024 | Update outcomes                                                             |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | tb1 final version                                                           |
+| 1.5.    | Dennis Quevedo    | 08/09/2024 | Notification                                                                |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | fix                                                                         |
+| 1.5.    | Dennis Quevedo    | 08/09/2024 | Impact map                                                                  |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | termino del tb1                                                             |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | bc-event                                                                    |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | fixed                                                                       |
+| 1.5.    | Max Sabino        | 08/09/2024 | diagram-db-contextdevices                                                   |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | bounded context user                                                        |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | fixed                                                                       |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | deployment: Mobile and IoT Style Guidelines                                 |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | diagram                                                                     |
+| 1.5.    | Elvia Arteaga     | 08/09/2024 | Add Bounded Context Areas                                                   |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices-context-final                                                       |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices2                                                                    |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices-fixed                                                               |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices-context2                                                            |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices-context1                                                            |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices                                                                     |
+| 1.5.    | Dennis Quevedo    | 08/09/2024 | user-persona-empresa                                                        |
+| 1.5.    | Max Sabino        | 08/09/2024 | devices-context                                                             |
+| 1.5.    | Jamutaq Ortega    | 08/09/2024 | add: subscriptions bounded context                                          |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | context level diagram                                                       |
+| 1.5.    | Max Sabino        | 08/09/2024 | context-mapping                                                             |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | system landscape diagram                                                    |
+| 1.5.    | Elvia Arteaga     | 08/09/2024 | Add To Be                                                                   |
+| 1.5.    | Max Sabino        | 08/09/2024 | flow-messages                                                               |
+| 1.5.    | Dennis Quevedo    | 08/09/2024 | segmentos objetivos                                                         |
+| 1.5.    | Gabriela Nomberto | 08/09/2024 | entrevista 4 y 5                                                            |
+| 1.5.    | Jamutaq Ortega    | 08/09/2024 | add: context mapping diagrams                                               |
+| 2.0.    | Gabriela Nomberto | 09/09/2024 | estructura tp                                                               |
+| 2.0.    | Gabriela Nomberto | 09/09/2024 | Update report.md                                                            |
+| 2.1.    | Elvia Arteaga     | 17/09/2024 | add: photo elvia                                                            |
+| 2.1.    | Elvia Arteaga     | 17/09/2024 | fix: lean ux process                                                        |
+| 2.1.    | Jamutaq Ortega    | 17/09/2024 | add: photo                                                                  |
+| 2.1.    | Max Sabino        | 17/09/2024 | add:profileMax                                                              |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-VI                                                                 |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-V                                                                  |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-IV                                                                 |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | fix                                                                         |
+| 2.1.    | Elvia Arteaga     | 17/09/2024 | Update team profile structure                                               |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-III                                                                |
+| 2.1.    | Elvia Arteaga     | 17/09/2024 | Update team profile structure                                               |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-II                                                                 |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | student outcome                                                             |
+| 2.1.    | Gabriela Nomberto | 17/09/2024 | Capitulo-I                                                                  |
+| 2.2.    | Elvia Arteaga     | 18/09/2024 | fix: to be for both target segments                                         |
+| 2.2.    | Elvia Arteaga     | 18/09/2024 | add: to be for both target segments                                         |
+| 2.2.    | Elvia Arteaga     | 18/09/2024 | fix: interview 2                                                            |
+| 2.2.    | Elvia Arteaga     | 18/09/2024 | add: interview 2                                                            |
+| 2.2.    | Elvia Arteaga     | 18/09/2024 | add: interview 2                                                            |
+| 2.2.    | Jamutaq Ortega    | 19/09/2024 | feat: Add user interviews and personas                                      |
+| 2.2.    | Jamutaq Ortega    | 19/09/2024 | add: user journey mapping and empathy mapping for user personas             |
+| 2.2.    | Jamutaq Ortega    | 19/09/2024 | add: user personas and user task matrix                                     |
+| 2.2.    | Gabriela Nomberto | 20/09/2024 | add:photo-gaby                                                              |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024 | fix: enumeration                                                            |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024 | refactor: Add application layer for subscriptions context and refactor...   |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024 | add: application layer 4 subscriptions context                              |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024 | refactor: interface layer 4 Subscription & Payments context                 |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024 | refactor: Subscription & Payments context                                   |
+| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix:software architecture                                                   |
+| 2.3.    | Elvia Arteaga     | 21/09/2024 | add: organization systems & navigation systems                              |
+| 2.3.    | Elvia Arteaga     | 21/09/2024 | add: bounded context areas                                                  |
+| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix:competidores                                                            |
+| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix: analisis competitivo                                                   |
+| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix: antecedentes-problematica                                              |
+| 2.3.    | Gabriela Nomberto | 21/09/2024 | fix:solution-profile                                                        |
+| 2.3.    | Jamutaq Ortega    | 21/09/2024 | add: context mappings                                                       |
+| 2.4.    | Gabriela Nomberto | 22/09/2024 | fix: bc User                                                                |
+| 2.4.    | Jamutaq Ortega    | 22/09/2024 | refactor: Update image reference in PlanController                          |
+| 2.4.    | Gabriela Nomberto | 22/09/2024 | fix: ubiquitous                                                             |
+| 2.4.    | Gabriela Nomberto | 23/09/2024 | fix:entrevista 4                                                            |
+| 2.4.    | Gabriela Nomberto | 23/09/2024 | fix:entrevistas 4 y 5                                                       |
+| 2.4.    | Gabriela Nomberto | 23/09/2024 | fix: Bounded Context Events                                                 |
+| 2.4.    | Jamutaq Ortega    | 24/09/2024 | refactor: Update EventStorming diagrams and message flow diagrams           |
+| 2.4.    | Dennis Quevedo    | 24/09/2024 | fix:segmentos objetivo                                                      |
+| 2.4.    | Dennis Quevedo    | 24/09/2024 | Segmentos Objetivo Update 2                                                 |
+| 2.4.    | Dennis Quevedo    | 24/09/2024 | Segmentos Objetivo Update                                                   |
+| 2.4.    | Dennis Quevedo    | 24/09/2024 | Segmentos Objetivo                                                          |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | Update report.md                                                            |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | Update report.md                                                            |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: outcome                                                                |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024 | add: s.o                                                                    |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add:sprint1                                                                 |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | add: student outcomes                                                       |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024 | chore: remove p.                                                            |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: outcome Max                                                            |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: web mock up                                                            |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | add intro                                                                   |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | fix: structure                                                              |
+| 2.5.    | Jamutaq Ortega    | 27/09/2024 | add: cap 6                                                                  |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | add: software development environment configuration                         |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | fix: image wireframe profile                                                |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | fix: user flow diagrams mobile                                              |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: user flow diagrams mobile                                              |
+| 2.5.    | Dennis Quevedo    | 27/09/2024 | fix:Mobile Application Wireflow                                             |
+| 2.5.    | Dennis Quevedo    | 27/09/2024 | fix:Mobile Application Wireflow                                             |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | add: c4 areas                                                               |
+| 2.5.    | Dennis Quevedo    | 27/09/2024 | add:Mobile Application Wireflow                                             |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: webFrames                                                              |
+| 2.5.    | Max Sabino        | 27/09/2024 | add: wireframes web                                                         |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: software deployment configuration                                      |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: SEO Tags and Meta Tags                                                 |
+| 2.5.    | Elvia Arteaga     | 27/09/2024 | add: intro to be                                                            |
+| 2.5.    | Dennis Quevedo    | 27/09/2024 | add:Labeling Systems                                                        |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: general style guidelines                                               |
+| 2.5.    | Dennis Quevedo    | 27/09/2024 | add:Web                                                                     |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: description style guidelines                                           |
+| 2.5.    | Gabriela Nomberto | 27/09/2024 | add: application mockup app movil                                           |
+| 2.5.    | Dennis Quevedo    | 27/09/2024 | fix:needfinding                                                             |
 | 2.5.    | Jamutaq Ortega    | 27/09/2024 | refactor: Update Bounded Context Subscription & Payments component diagrams |
 | 2.5.    | Gabriela Nomberto | 27/09/2024 | add: mobile applications wireframes                                        |
 | 2.5.    | Max Sabino        | 27/09/2024 | add: context devices 3.0                                                   |
@@ -233,7 +233,7 @@ Enlace del Project Report: https://github.com/Caffeine-Desarrollo-de-Soluciones-
 
 **ENTREGA N°1: TB1**
 
-Para esta entrega, en conjunto creamos una organizacion en GitHub agregando así a cada miembro del equipo, adicionalmente creamos la primera estructura del reporte a entregar en el cuál junto al documento de statement seguimos las descripciones para poder tener una entrega exitosa.
+Para esta entrega, en conjunto creamos una organizacion en GitHub agregando así a cada miembro del equipo, adicionalmente creamos la primera estructura del reporte a entregar en el cual junto al documento de statement seguimos las descripciones para poder tener una entrega exitosa.
 
 - **Evidencias:**
 ![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/tb1.1.png)
@@ -245,7 +245,7 @@ Para esta entrega, en conjunto creamos una organizacion en GitHub agregando así
 
 **ENTREGA N°2: TP**
 
-Para esta entrega, dentro de la organización creamos los repositorios para el desarrollo del landing page, backend y aplicación web. Asimismo, creamos nuestra presentación dónde mostramos las principales funcionalidades de nuestro trabajo quedando pendiente algunos arreglos.
+Para esta entrega, dentro de la organización creamos los repositorios para el desarrollo de la landing page, backend y aplicación web. Asimismo, creamos nuestra presentación dónde mostramos las principales funcionalidades de nuestro trabajo quedando pendiente algunos arreglos.
 
 - **Evidencias:**
 ![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/tb2.png)
@@ -259,7 +259,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 
 **ENTREGA N°3: TB2**
 
-Para esta entrega, dentro de la organización creamos los repositorios para el desarrollo de las bases de datos, el edge api y el app mobile asimismo mejorando los repositorios anteriores como lo es el landing page, la aplicación web y el backend.
+Para esta entrega, dentro de la organización creamos los repositorios para el desarrollo de las bases de datos, el edge api y el app mobile asimismo mejorando los repositorios anteriores como lo es la landing page, la aplicación web y el backend.
 
 - **Evidencias**
 ![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/tb2.png)
@@ -282,7 +282,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
     - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2 Solution Profile](#12-solution-profile)
-    - [1.2.1  Antecedentes y problemática](#121--antecedentes-y-problemática)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
@@ -293,6 +293,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
   - [2.1 Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [Estrategias y Tácticas frente a Competidores](#estrategias-y-tácticas-frente-a-competidores)
   - [2.2 Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
@@ -379,6 +380,10 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 - [CAPÍTULO V: SOLUTION UI/UX DESIGN](#capítulo-v-solution-uiux-design)
   - [5.1. Style Guidelines](#51-style-guidelines)
     - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+      - [5.1.1.1. Branding](#5111-branding)
+      - [5.1.1.2. Typography](#5112-typography)
+      - [5.1.1.3. Colors](#5113-colors)
+      - [5.1.1.4. Spacing](#5114-spacing)
     - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
   - [5.2. Information Architecture](#52-information-architecture)
     - [5.2.1. Organization Systems](#521-organization-systems)
@@ -392,15 +397,29 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
   - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
     - [5.4.1. Applications Wireframes](#541-applications-wireframes)
     - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
-    - [5.4.2. Applications Mock-ups](#542-applications-mock-ups)
-    - [5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams)
+    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
   - [5.5. Applications Prototyping](#55-applications-prototyping)
 - [CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION \& DEPLOYMENT](#capítulo-vi-product-implementation-validation--deployment)
   - [6.1. Software Configuration Management](#61-software-configuration-management)
     - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+      - [Project Management](#project-management)
+      - [Requirements Management](#requirements-management)
+      - [Product UX/UI Design](#product-uxui-design)
+      - [Software Development](#software-development)
+      - [Software Deployment](#software-deployment)
+      - [Software Documentation](#software-documentation)
     - [6.1.2. Source Code Management](#612-source-code-management)
+      - [Repositorios de Código Fuente](#repositorios-de-código-fuente)
+      - [GitFlow Workflow](#gitflow-workflow)
+      - [Semantic Versioning](#semantic-versioning)
+      - [Conventional Commits](#conventional-commits)
     - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+      - [Landing Page - Despliegue en GitHub Pages](#landing-page---despliegue-en-github-pages)
+      - [Web Application - Despliegue en Vercel](#web-application---despliegue-en-vercel)
+      - [Web API - Despliegue en Render](#web-api---despliegue-en-render)
+      - [Deployment Diagram (C4 Model)](#deployment-diagram-c4-model)
   - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
     - [6.2.1. Sprint 1](#621-sprint-1)
       - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
@@ -428,8 +447,8 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
       - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
       - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
-    - [6.3. Validation Interviews.](#63-validation-interviews)
-      - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
+  - [6.3. Validation Interviews.](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
     - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product.](#64-video-about-the-product)
@@ -482,7 +501,7 @@ Monetización
 
 VerySafe generará ingresos de forma en subscripciones y/o alquileres de nuestros productos
 
-### 1.2.1  Antecedentes y problemática
+### 1.2.1. Antecedentes y problemática
 
 Para la realizacion de este segmento utilizaremos la técnica de las 5W y 2H
 
@@ -504,7 +523,7 @@ Where - ¿Dónde surge el problema?
 
 El problema surge principalmente en zonas urbanas de Lima Metropolitana, donde la densidad de población y la disparidad económica generan áreas con altos índices de delincuencia. Tanto en barrios residenciales como en zonas comerciales, la vulnerabilidad a estos actos es significativa.
 
-Who - ¿Quienes son afectados por el problema?
+Who - ¿Quiénes son afectados por el problema?
 
 Los principales afectados son los propietarios de viviendas que carecen de un sistema de seguridad de calidad.
 
@@ -534,30 +553,30 @@ Sabremos que tenemos éxito cuando veamos un aumento en la satisfacción del cli
 
 #### 1.2.2.2 Lean UX Assumptions
 1. User Assumptions
-- Los usuarios residenciales prefieren una única plataforma centralizada para gestionar todos sus dispositivos de seguridad en lugar de utilizar múltiples aplicaciones.
-- Los usuarios valoran la capacidad de recibir notificaciones en tiempo real sobre el estado de sus dispositivos y eventos de seguridad.
-- Los usuarios se sienten más seguros al saber que existe una alianza con una empresa de seguridad para responder rápidamente a emergencias.
-- Los usuarios tienen conocimientos básicos de tecnología IoT y son capaces de interactuar con interfaces sencillas.
+    - Los usuarios residenciales prefieren una única plataforma centralizada para gestionar todos sus dispositivos de seguridad en lugar de utilizar múltiples aplicaciones.
+    - Los usuarios valoran la capacidad de recibir notificaciones en tiempo real sobre el estado de sus dispositivos y eventos de seguridad.
+    - Los usuarios se sienten más seguros al saber que existe una alianza con una empresa de seguridad para responder rápidamente a emergencias.
+    - Los usuarios tienen conocimientos básicos de tecnología IoT y son capaces de interactuar con interfaces sencillas.
 
 2. Business Assumptions
-- Las empresas de seguridad están interesadas en formar alianzas para integrar sus servicios con plataformas de seguridad IoT, ya que esto mejora su capacidad de respuesta.
-- Las empresas de instalación y mantenimiento ven un valor en poder gestionar el estado de los dispositivos y coordinar las tareas de mantenimiento a través de una única plataforma.
-- La implementación de una solución de seguridad IoT que optimice la gestión de dispositivos y emergencias atraerá tanto a nuevos clientes residenciales como a empresas de seguridad y mantenimiento.
+    - Las empresas de seguridad están interesadas en formar alianzas para integrar sus servicios con plataformas de seguridad IoT, ya que esto mejora su capacidad de respuesta.
+    - Las empresas de instalación y mantenimiento ven un valor en poder gestionar el estado de los dispositivos y coordinar las tareas de mantenimiento a través de una única plataforma.
+    - La implementación de una solución de seguridad IoT que optimice la gestión de dispositivos y emergencias atraerá tanto a nuevos clientes residenciales como a empresas de seguridad y mantenimiento.
 
 3. User Outcomes Assumptions
-- Los usuarios residenciales utilizarán la plataforma de forma recurrente para monitorear su hogar y gestionar sus dispositivos de seguridad.
-- Los usuarios se sentirán más satisfechos y seguros al poder recibir asistencia inmediata en caso de emergencia, reduciendo la ansiedad relacionada con la seguridad del hogar.
-- Los usuarios adoptarán la plataforma y recomendarán el servicio a otros propietarios de viviendas una vez que experimenten su efectividad.
+    - Los usuarios residenciales utilizarán la plataforma de forma recurrente para monitorear su hogar y gestionar sus dispositivos de seguridad.
+    - Los usuarios se sentirán más satisfechos y seguros al poder recibir asistencia inmediata en caso de emergencia, reduciendo la ansiedad relacionada con la seguridad del hogar.
+    - Los usuarios adoptarán la plataforma y recomendarán el servicio a otros propietarios de viviendas una vez que experimenten su efectividad.
 
 4. Business Outcomes Assumptions
-- Las empresas de seguridad mejorarán sus tiempos de respuesta en emergencias gracias a la integración en tiempo real con la plataforma.
-- La plataforma permitirá a las empresas de instalación y mantenimiento reducir los costos operativos al automatizar el monitoreo y la notificación de fallos o necesidades de mantenimiento.
-- El éxito de la plataforma en el segmento residencial facilitará la expansión hacia otros mercados, como empresas comerciales y oficinas.
+    - Las empresas de seguridad mejorarán sus tiempos de respuesta en emergencias gracias a la integración en tiempo real con la plataforma.
+    - La plataforma permitirá a las empresas de instalación y mantenimiento reducir los costos operativos al automatizar el monitoreo y la notificación de fallos o necesidades de mantenimiento.
+    - El éxito de la plataforma en el segmento residencial facilitará la expansión hacia otros mercados, como empresas comerciales y oficinas.
 
 5. Features Assumptions
-- Una interfaz intuitiva y centralizada para el control de todos los dispositivos IoT será clave para que los usuarios residenciales adopten la plataforma.
-- La integración en tiempo real con empresas de seguridad, permitiendo la comunicación inmediata y el envío de datos críticos durante una emergencia, será una característica fundamental para diferenciarse de la competencia.
-- La plataforma necesitará incluir funcionalidades de mantenimiento automatizado, como notificaciones de fallos en los dispositivos, para atraer a las empresas de instalación y mantenimiento.
+    - Una interfaz intuitiva y centralizada para el control de todos los dispositivos IoT será clave para que los usuarios residenciales adopten la plataforma.
+    - La integración en tiempo real con empresas de seguridad, permitiendo la comunicación inmediata y el envío de datos críticos durante una emergencia, será una característica fundamental para diferenciarse de la competencia.
+    - La plataforma necesitará incluir funcionalidades de mantenimiento automatizado, como notificaciones de fallos en los dispositivos, para atraer a las empresas de instalación y mantenimiento.
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 - Creemos que lograremos una mejora significativa en la satisfacción y retención de los usuarios para nuestra plataforma IoT de seguridad. Si los usuarios residenciales tienen acceso a una plataforma centralizada que integra monitoreo en tiempo real, coordinación de respuesta a emergencias y gestión del mantenimiento, alcanzarán una experiencia de usuario fluida y una mayor sensación de seguridad, con notificaciones oportunas, gestión simplificada de dispositivos y respuestas eficaces a emergencias. Con una interfaz unificada que conecta todos los dispositivos de seguridad, alertas en tiempo real y la integración con empresas de seguridad para una respuesta rápida ante emergencias.
@@ -588,7 +607,7 @@ Según el Instituto Nacional de Estadística e Informática (INEI), cerca del 12
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/estadistica-criminalidad-segmentos-objetivo.png)
 
-Por otro lado, los inmuebles a nivel de Lima Metropolitana y la Provincia Constitucional del Callao tambien fueron afectadas por robo o
+Por otro lado, los inmuebles a nivel de Lima Metropolitana y la Provincia Constitucional del Callao también fueron afectadas por robo o
 intento de robo en el año 2021. A nivel de ámbitos geográficos, el porcentaje de viviendas afectadas por robo o intento
 de robo fue mayor en la Provincia Constitucional del Callao (7,9%), que en Lima Metropolitana (7,2%).
 
@@ -611,11 +630,13 @@ Nuestro segundo segmento objetivo son las empresas de seguridad que buscan mejor
 # CAPÍTULO II: REQUERIMENTS ELICITATION & ANALYSIS
 ## 2.1 Competidores
 
-Como grupo, investigamos a nuestros principales competidores de los cuales ofrezcan servicios similares o parecidos a los nuestros. Llegamos a la conclusion de comparar con tres empresas las cuales son las siguiente:
+Como grupo, investigamos a nuestros principales competidores de los cuales ofrezcan servicios similares o parecidos a los nuestros. Llegamos a la conclusion de comparar con tres empresas las cuales son las siguientes:
 
-**1. Verisure**: Es una empresa de seguridad que ofrece como servicios primero la inspeccion del inmueble del cual solicitan sus productos para ofrecer mejor seguridad. Además, cuenta con una central de monitoreo para poder recepcionar las alarmas los siete días de las semanas y las 24 horas del día. Estos cuentan con dispositivos de seguridad como sensores para las puertes, camaras de video, camaras de foto, etc.
-**2. Prosegur**: Es una empresa que brinda Alarmas monitoreadas y seguridad a cualquier tipo de persona. Ofrecen kits de seguridad para que el cliente decida cual es de su mejor agrado y prosegur acude a la instalacion, asimismo no solo se dedica en la seguridad del inmueble sino tambien de vehiculos. Todo ello esta monitoreado por una central de alertas para que al activarse pueda acudir un motorizado a corroborar la alerta dada.
-**3. Securitas**: Empresa de seguridad que se basa en comprender al cliente para poder ofrecer sus servicios de los cuales el mas conocido es la camara de videovigilancia, además de brindar seguridad en muchos aspectos como seguridad remota o seguridad electrónica, tambien ofrece servicios de proteccion contra incendios para sus clientes ofreciendoles asi un reporte anual desde su compra
+**1. Verisure**: Es una empresa de seguridad que ofrece como servicios primero la inspeccion del inmueble del cual solicitan sus productos para ofrecer mejor seguridad. Además, cuenta con una central de monitoreo para poder recepcionar las alarmas los siete días de las semanas y las 24 horas del día. Estos cuentan con dispositivos de seguridad como sensores para las puertas, cámaras de video, cámaras de foto, etc.
+
+**2. Prosegur**: Es una empresa que brinda Alarmas monitoreadas y seguridad a cualquier tipo de persona. Ofrecen kits de seguridad para que el cliente decida cuál es de su mejor agrado y Prosegur acude a la instalación, asimismo no solo se dedica en la seguridad del inmueble sino también de vehículos. Todo ello está monitoreado por una central de alertas para que al activarse pueda acudir un motorizado a corroborar la alerta dada.
+
+**3. Securitas**: Empresa de seguridad que se basa en comprender al cliente para poder ofrecer sus servicios de los cuales el más conocido es la camara de videovigilancia, además de brindar seguridad en muchos aspectos como seguridad remota o seguridad electrónica, también ofrece servicios de protección contra incendios para sus clientes ofreciéndoles asi un reporte anual desde su compra
 
 Teniendo estos competidores mejor descritos, podremos hacer nuestro análisis competitivo a continuación.
 
@@ -623,46 +644,124 @@ Teniendo estos competidores mejor descritos, podremos hacer nuestro análisis co
 
 Para el análisis competitivo, observamos a tres empresas que se encuentran en el mercado que ofrecen una similitud y estos son los siguientes: 
 
-| Competitive Analysis Landscape |
-| -- |
-| ¿Por qué llevar a cabo este análisis? |
+| Competitive Analysis Landscape                                                                                                                              |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ¿Por qué llevar a cabo este análisis?                                                                                                                       |
 | ¿Cómo se posiciona VerySafe en comparación con sus principales competidores por los clientes en el mercado de seguridad de inmuebles en Lima Metropolitana? |
 
 **Perfil del Startup**
 
-| Startup | VerySafe | Verisure | Prosegur | Securitas |
-| -- | -- | -- | -- | -- |
-| Logo | ![VerySafe](/src/images/logo.jpg) | ![Verisure](/src/images/verisure.jpg) | ![Prosegur](/src/images/prosegur.jpg) | ![Securitas](/src/images/securitas.png) |
-| **Overview** | Ofrece soluciones de seguridad accesibles y personalizadas para inmuebles. Se enfoca en integrar tecnología avanzada con un enfoque en la accesibilidad, buscando proteger hogares y pequeñas empresas con productos innovadores y servicios flexibles que se adaptan a las necesidades de sus clientes. | Ofrece sistemas de alarmas conectadas y monitoreo remoto 24/7. Con una fuerte presencia en el mercado peruano, Verisure ofrece soluciones de alta tecnología que combinan la seguridad física y digital, destacándose por su fiabilidad y servicio al cliente. | Ofrece una amplia gama de servicios que incluyen desde alarmas y videovigilancia hasta servicios de seguridad física y logística de valores, adaptándose tanto a clientes residenciales como corporativos con soluciones integradas. | Ofrece soluciones personalizadas que combinan seguridad física y digital, dirigidas principalmente a grandes empresas e instituciones. Su enfoque está en la integración de tecnologías innovadoras y la adaptación a las necesidades específicas de cada cliente. | 
-|**Ventaja competitiva ¿Qué valor ofrece a los clientes?** | Ofrecer soluciones tecnológicas avanzadas IoT a precios accesibles, con un enfoque en personalización y accesibilidad para un público amplio. | Alta tecnología en sistemas de monitoreo remoto y servicio al cliente eficiente. | Amplia gama de servicios de seguridad integrados con una fuerte presencia en el mercado local e internacional | Tecnología avanzada y un enfoque en la integración de soluciones de seguridad física y digital. | 
+| Startup                                                   | VerySafe                                                                                                                                                                                                                                                                                                 | Verisure                                                                                                                                                                                                                                                       | Prosegur                                                                                                                                                                                                                             | Securitas                                                                                                                                                                                                                                                          |
+|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Logo                                                      | ![VerySafe](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/logo.jpg)                                                                                                                                                                                                                                | ![Verisure](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/verisure.jpg)                                                                                                                                                                                  | ![Prosegur](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/prosegur.jpg)                                                                                                                                                        | ![Securitas](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/securitas.png)                                                                                                                                                                                    |
+| **Overview**                                              | Ofrece soluciones de seguridad accesibles y personalizadas para inmuebles. Se enfoca en integrar tecnología avanzada con un enfoque en la accesibilidad, buscando proteger hogares y pequeñas empresas con productos innovadores y servicios flexibles que se adaptan a las necesidades de sus clientes. | Ofrece sistemas de alarmas conectadas y monitoreo remoto 24/7. Con una fuerte presencia en el mercado peruano, Verisure ofrece soluciones de alta tecnología que combinan la seguridad física y digital, destacándose por su fiabilidad y servicio al cliente. | Ofrece una amplia gama de servicios que incluyen desde alarmas y videovigilancia hasta servicios de seguridad física y logística de valores, adaptándose tanto a clientes residenciales como corporativos con soluciones integradas. | Ofrece soluciones personalizadas que combinan seguridad física y digital, dirigidas principalmente a grandes empresas e instituciones. Su enfoque está en la integración de tecnologías innovadoras y la adaptación a las necesidades específicas de cada cliente. | 
+| **Ventaja competitiva ¿Qué valor ofrece a los clientes?** | Ofrecer soluciones tecnológicas avanzadas IoT a precios accesibles, con un enfoque en personalización y accesibilidad para un público amplio.                                                                                                                                                            | Alta tecnología en sistemas de monitoreo remoto y servicio al cliente eficiente.                                                                                                                                                                               | Amplia gama de servicios de seguridad integrados con una fuerte presencia en el mercado local e internacional                                                                                                                        | Tecnología avanzada y un enfoque en la integración de soluciones de seguridad física y digital.                                                                                                                                                                    | 
 
 **Perfil de Marketing**
 
-| Startup | VerySafe | Verisure | Prosegur | Securitas |
-| -- | -- | -- | -- | -- |
-| **Mercado Objetivo** | Propietarios de Inmuebles que se encuentren en Lima Metropolitana | Hogares y pequeñas empresas que buscan sistemas de alarma conectados de alta gama. | Grandes empresas, instituciones y hogares de clase media-alta. | Grandes empresas, instituciones gubernamentales y hogares de clase media-alta. |
+| Startup                      | VerySafe                                                                                                           | Verisure                                                                                                                     | Prosegur                                                                             | Securitas                                                                             |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| **Mercado Objetivo**         | Propietarios de Inmuebles que se encuentren en Lima Metropolitana                                                  | Hogares y pequeñas empresas que buscan sistemas de alarma conectados de alta gama.                                           | Grandes empresas, instituciones y hogares de clase media-alta.                       | Grandes empresas, instituciones gubernamentales y hogares de clase media-alta.        |
 | **Estrategias de Marketing** | Campañas digitales enfocadas en el costo-beneficio y accesibilidad de los productos. Publicidad en medios locales. | Marketing enfocado en la tecnología avanzada y la confiabilidad. Campañas en redes sociales y medios de comunicación masiva. | Marketing tradicional y digital enfocado en la solidez de la marca y la experiencia. | Estrategias de marketing centradas en la seguridad integral y la tecnología de punta. |
 
 **Perfil de Producto**
 
-| Startup | VerySafe | Verisure | Prosegur | Securitas |
-| -- | -- | -- | -- | -- |
-| **Productos & Servicios** | Sistemas de sensores, cámaras y alarmas inteligentes, integrados con una plataforma digital para monitoreo y control remoto 24/7. | Alarmas conectadas, sensores de movimiento, y monitoreo remoto 24/7. | Alarmas, cámaras de vigilancia, control de accesos, monitoreo, y guardias de seguridad | Sistemas de seguridad integrados, alarmas, cámaras, monitoreo, y servicios de guardias.|
-| **Precios & Costos** | Modelo de precios accesible, con opciones de suscripción o alquiler. | Precios medios-altos, con modelos de suscripción. | Variedad de precios según los servicios, generalmente en un rango medio-alto. Y dependiendo del kit elegido. | Variedad de precios, con un enfoque en soluciones a medida para clientes corporativos. |
-| **Canales de distribución (Web y/o Móvil)** | Venta y distribución a través de web y aplicación móvil, con opciones de instalación y soporte técnico. | Distribución a través de web, móvil, y red de instaladores locales. | Distribución a través de web, puntos de venta físicos y contacto directo con clientes. | Distribución a través de web, móvil, y ventas directas a través de representantes.|
+| Startup                                     | VerySafe                                                                                                                          | Verisure                                                             | Prosegur                                                                                                     | Securitas                                                                               |
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| **Productos & Servicios**                   | Sistemas de sensores, cámaras y alarmas inteligentes, integrados con una plataforma digital para monitoreo y control remoto 24/7. | Alarmas conectadas, sensores de movimiento, y monitoreo remoto 24/7. | Alarmas, cámaras de vigilancia, control de accesos, monitoreo, y guardias de seguridad                       | Sistemas de seguridad integrados, alarmas, cámaras, monitoreo, y servicios de guardias. |
+| **Precios & Costos**                        | Modelo de precios accesible, con opciones de suscripción o alquiler.                                                              | Precios medios-altos, con modelos de suscripción.                    | Variedad de precios según los servicios, generalmente en un rango medio-alto. Y dependiendo del kit elegido. | Variedad de precios, con un enfoque en soluciones a medida para clientes corporativos.  |
+| **Canales de distribución (Web y/o Móvil)** | Venta y distribución a través de web y aplicación móvil, con opciones de instalación y soporte técnico.                           | Distribución a través de web, móvil, y red de instaladores locales.  | Distribución a través de web, puntos de venta físicos y contacto directo con clientes.                       | Distribución a través de web, móvil, y ventas directas a través de representantes.      |
 
 **Analisis SWOT**
 
-| Startup | VerySafe | Verisure | Prosegur | Securitas |
-| -- | -- | -- | -- | -- |
-| **Fortalezas** | Accesibilidad en precios, personalización de productos, enfoque local. | Tecnología avanzada, reputación global, servicio al cliente robusto. | Amplia gama de servicios, presencia fuerte en el mercado, reconocimiento de marca. | Integración de servicios, tecnología avanzada, capacidad de adaptación |
-| **Debilidades** | Menor reconocimiento de la empresa y marca | Precio elevado, menos accesible para clientes de clase media-baja. | Alto costo de los servicios, enfoque más en clientes corporativos que en residenciales. | Alto costo, enfoque más en grandes empresas e instituciones. | 
-| **Oportunidades** | Expandirse a nuevos segmentos de mercado, como pequeñas empresas y hogares de clase media. | Creciente demanda de seguridad avanzada en hogares y empresas. | Crecimiento del mercado de seguridad en hogares y negocios. | Expansión en servicios digitales y mercados emergentes. | 
-| **Amenazas** | Competencia fuerte de marcas establecidas | Competencia en precios de empresas locales y nuevas tecnologías. | Innovaciones tecnológicas y nuevos competidores más ágiles. | Innovación tecnológica de startups más ágiles y económicas. |
+| Startup           | VerySafe                                                                                   | Verisure                                                             | Prosegur                                                                                | Securitas                                                              |
+|-------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| **Fortalezas**    | Accesibilidad en precios, personalización de productos, enfoque local.                     | Tecnología avanzada, reputación global, servicio al cliente robusto. | Amplia gama de servicios, presencia fuerte en el mercado, reconocimiento de marca.      | Integración de servicios, tecnología avanzada, capacidad de adaptación |
+| **Debilidades**   | Menor reconocimiento de la empresa y marca                                                 | Precio elevado, menos accesible para clientes de clase media-baja.   | Alto costo de los servicios, enfoque más en clientes corporativos que en residenciales. | Alto costo, enfoque más en grandes empresas e instituciones.           | 
+| **Oportunidades** | Expandirse a nuevos segmentos de mercado, como pequeñas empresas y hogares de clase media. | Creciente demanda de seguridad avanzada en hogares y empresas.       | Crecimiento del mercado de seguridad en hogares y negocios.                             | Expansión en servicios digitales y mercados emergentes.                | 
+| **Amenazas**      | Competencia fuerte de marcas establecidas                                                  | Competencia en precios de empresas locales y nuevas tecnologías.     | Innovaciones tecnológicas y nuevos competidores más ágiles.                             | Innovación tecnológica de startups más ágiles y económicas.            |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+### Estrategias y Tácticas frente a Competidores
+
+ **Fortalezas de VerySafe**
+1. **Accesibilidad en precios**:
+    - **Estrategia**: Posicionarse como la opción más asequible para propietarios de inmuebles de clase media y pequeña empresa en Lima Metropolitana.
+    - **Táctica**: Ofrecer precios competitivos con un modelo flexible de suscripción o alquiler, además de promociones y descuentos para primeros clientes o contratos anuales.
+
+2. **Personalización de productos**:
+    - **Estrategia**: Destacar la flexibilidad en las soluciones de seguridad para adaptarse a las necesidades específicas de cada cliente.
+    - **Táctica**: Implementar una plataforma de asesoría en línea que permita a los clientes elegir y personalizar sus kits de seguridad, junto con soporte técnico personalizado.
+
+3. **Enfoque local**:
+    - **Estrategia**: Aprovechar el conocimiento del mercado local y su cercanía con el cliente para ofrecer un servicio ágil y eficiente.
+    - **Táctica**: Implementar un servicio de instalación rápida y soporte técnico local, con personal entrenado para responder rápidamente a los clientes de Lima Metropolitana.
+
+ **Debilidades de VerySafe**
+1. **Menor reconocimiento de la empresa y marca**:
+    - **Estrategia**: Aumentar la visibilidad de la marca mediante campañas de marketing digital y presencia en eventos del sector de la seguridad.
+    - **Táctica**: Realizar campañas en redes sociales y Google Ads, además de buscar alianzas con empresas locales para aumentar la exposición en Lima Metropolitana.
+
+2. **Recursos limitados frente a competidores establecidos**:
+    - **Estrategia**: Colaborar con otras startups tecnológicas o pequeñas empresas para incrementar los recursos de desarrollo y promoción sin requerir grandes inversiones.
+    - **Táctica**: Buscar asociaciones estratégicas con empresas tecnológicas locales para integrar soluciones innovadoras a precios accesibles, y hacer uso de marketing colaborativo.
+
+ **Oportunidades**
+1. **Creciente demanda de seguridad avanzada**:
+    - **Estrategia**: Aprovechar la demanda de soluciones de seguridad más sofisticadas, ofreciendo sistemas IoT avanzados a precios competitivos.
+    - **Táctica**: Desarrollar e implementar nuevas funcionalidades en los dispositivos IoT, como monitoreo en tiempo real a través de la app móvil y alertas automáticas por geolocalización.
+
+2. **Expansión a nuevos segmentos de mercado**:
+    - **Estrategia**: Expandir el alcance a nuevos segmentos de clientes como pequeñas empresas o áreas fuera de Lima Metropolitana.
+    - **Táctica**: Crear planes y precios personalizados para pequeñas empresas y ofrecer instalaciones en regiones cercanas a Lima, fortaleciendo la presencia local.
+
+ **Amenazas**
+1. **Competencia en precios de empresas locales y nuevas tecnologías**:
+    - **Estrategia**: Diferenciarse por la accesibilidad, pero con un enfoque en tecnología de calidad y servicio al cliente.
+    - **Táctica**: Resaltar la fiabilidad y la atención personalizada en las campañas de marketing, mostrando la rapidez en la respuesta ante emergencias y el soporte técnico especializado.
+
+2. **Innovaciones tecnológicas de competidores más grandes**:
+    - **Estrategia**: Estar a la vanguardia en términos de tecnología mediante alianzas y la constante actualización de los productos.
+    - **Táctica**: Desarrollar un plan de innovación continua con actualizaciones periódicas del software y hardware, manteniendo la competitividad frente a competidores más grandes. Implementar pruebas beta de nuevos dispositivos para generar interés y feedback temprano de los usuarios.
+
 ## 2.2 Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+Preguntas generales 
+1.	¿Cuáles son su nombre y apellido?
+2.	¿Qué edad tiene usted?
+3.	¿Cuál es su ocupación?
+
+Para Dueños de Inmuebles
+1.	¿Qué desafíos de seguridad ha enfrentado en su propiedad anteriormente?
+
+2.	¿Qué características considera esenciales en un sistema de seguridad para su hogar?
+
+3.	¿Cómo maneja actualmente la seguridad de su hogar y qué le gustaría mejorar?
+
+4.	¿Qué tan cómodo se sentiría al recibir notificaciones y alertas de seguridad en su dispositivo móvil?
+
+5.	¿Qué nivel de automatización está dispuesto a aceptar en su sistema de seguridad?
+
+6.	¿Qué tipo de alertas le gustaría recibir en caso de una intrusión o emergencia?
+
+7.	¿Qué tan relevante es para usted que el sistema de seguridad pueda integrarse con futuros dispositivos inteligentes que adquiera para su hogar?
+
+8.	¿Cómo prefiere que se gestione el acceso a su sistema de seguridad: a través de una app, un panel de control, o de otra manera?
+
+Para Empresas de Seguridad
+1.	¿Qué protocolos siguen cuando se recibe una alerta de alarma desde un sistema IoT?
+2.	¿Cómo capacitan a su personal para responder a alertas provenientes de dispositivos IoT?
+3.	¿Qué tipo de formación y equipo reciben sus empleados para garantizar una respuesta rápida y efectiva?
+4.	¿Qué tipo de integración ofrecen con sistemas de seguridad basados en IoT?
+5.	¿Cómo manejan la comunicación con los propietarios de las viviendas durante una respuesta a emergencia?
+6.	¿Qué procedimientos siguen para verificar la autenticidad de una alarma antes de desplegar personal?
+7.	¿Cuál es el tiempo promedio de respuesta de su equipo en caso de una alarma de seguridad?
+8.	¿Cómo se coordina su empresa con los servicios de emergencia locales en caso de una alarma?
+9.	¿Qué tipo de informes o retroalimentación proporcionan a los clientes después de una respuesta a emergencia?
+10.	¿Qué mejoras están considerando implementar para adaptarse a la creciente integración de tecnología IoT en los sistemas de seguridad?
+
 ### 2.2.2. Registro de entrevistas
 
 * **Segmento 1: Dueños de inmuebles**
@@ -674,9 +773,9 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
     - Timing: 0:00
     - Duración: 9:35
     - Link: [Enlace entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=WkDqqD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-    
-    ![Interview 1](/src/images/interview-1.png)
-    Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble ya que actualmente lo maneja de forma manual con cercos. Además destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
+
+    ![Interview 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/interview-1.png)
+    Jesús manifiesta que la inseguridad ha incrementado significativamente estos últimos años, por lo cual comenta que una solución de un sistema de seguridad sería muy valiosa para su inmueble, ya que actualmente lo maneja de forma manual con cercos. Además, destaca que para un mejor manejo, dicha solución debe tener una aplicación móvil y un sistema de alertas para varias personas, así las personas encargadas puedan saber lo que está pasando en tiempo real.
 
   - Entrevista N°2:
     - Nombres y apellidos: Diana Gomez Oré
@@ -685,14 +784,15 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
     - Timing: 9:35
     - Duración: 5:22
     - Link: [Enlace entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=Hh8QaG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTc0Ljc0fX0%3D)
+
+    ![Interview 2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/interview-2.png)
+  
+    Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además, me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
+    Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más relevantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. 
+    Por último, mencionó que ella prefiere gestionar el sistema de seguridad de su hogar mediante una aplicación, porque de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
+    También pude notar que Diana utiliza un celular con android y una laptop con Windows. Además, sus canales de comunicación son principalmente WhatsApp e Instagram. Su relación con la tecnología es bastante buena, debido a que en su trabajo están en constante capacitación, sobre todo para el uso de pc. Asimismo, está acostumbrada a utilizar browsers basados en chromium, tales como Chrome y Brave.
+
     
-    ![Interview 2](/src/images/interview-2.png)
-    Antes de la entrevista, Diana me comentó que se acaba de mudar sola hace aproximadamente 6 meses, por lo que el tema de seguridad es algo que le preocupa, debido a que deja su hogar solo cuando se va al trabajo. Además me comentó que ha investigado un poco sobre algunas opciones de empresas de seguridad, pero aún no se decide por alguna de ellas.
-
-    Durante la entrevista, Diana mencionó que no ha tenido problemas de seguridad aún, pero que toda la seguridad que tiene en su hogar es colocar llave al cerrar la puerta. Es por ello que le parece interesante y ve como opción a futuro el adquirir un sistema de seguridad. Para ella es muy importante que la empresa de seguridad le brinde la confianza y seguridad que requiere un servicio de esta índole, además de que se realicen mantenimientos cada cierto tiempo y que la atención al cliente en caso de dudas o fallos sea rápida. Ella considera que los dispositivos más importantes serían cámaras, sensores y un pinpad. Además, mencionó que ella preferiría ser alertada de algún intruso mediante una llamada, ya que la atendería con mayor rapidez que un mensaje o notificación. Sin embargo, dijo que no le molestaría recibir notificaciones referentes a la seguridad de su hogar. Por último, mencionó que ella prefiere gestionar el sistema de seguridd de su hogar mediante una aplicación, ya que de esa manera podría visualizar sus cámaras y estar al tanto de la situación de su hogar en todo momento.
-
-    También pude notar que Diana utiliza un celular con android y una laptop con Windows. Además, sus canales de comunicación son principalmente WhatsApp e Instagram. Su relación con la tecnología es bastante buena, debido a que en su trabajo están en constante capacitación, sobretodo para el uso de pc. Asimismo, está acostumbrada a utilizar browsers basados en chromium, tales como Chrome y Brave.
-
 
 - Entrevista N°4:
     - Nombres y apellidos: Aaron Alva Moreno
@@ -701,11 +801,11 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
     - Timing: 23:37
     - Duración: 5:00
     - Link: [Enlace entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=WkDqqD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-    
-    ![interview 4](src/images/entrevista-4.png)
-    Aaron compartió que recientemente ha comenzado un proceso de mudanza en una zona algo conflictiva de San Juan de Lurigancho. Al iniciar la entrevista, su preocupación por la seguridad se hizo evidente, ya que mencionó que en su vecindario hay un aumento alarmante en los robos de inmuebles y hogares. Esta situación lo ha llevado a buscar soluciones efectivas que le brinden mayor tranquilidad y protección. La sensación de inseguridad en su nuevo entorno es algo que le preocupa profundamente, lo que ha intensificado su interés por encontrar un sistema de seguridad que se adapte a sus necesidades.
 
-    En su búsqueda de una solución, Aaron se mostró abierto a explorar tecnologías de Internet de las Cosas (IoT) que puedan mejorar la seguridad de su hogar. Está interesado en sistemas que no solo ofrezcan protección, sino que también permitan una gestión eficiente a través de notificaciones en tiempo real. Esta funcionalidad podría ayudarlo a sentirse más seguro y al tanto de cualquier situación inusual en su entorno. La posibilidad de monitorear su hogar de manera remota y recibir alertas inmediatas sobre posibles amenazas es una característica que considera fundamental para tomar decisiones informadas y reaccionar rápidamente ante cualquier eventualidad. Asimismo, nos comento que el en sistemas operativos es fanático de windows y android.
+    ![interview 4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/entrevista-4.png)
+    
+    Aaron compartió que recientemente ha comenzado un proceso de mudanza en una zona algo conflictiva de San Juan de Lurigancho. Al iniciar la entrevista, su preocupación por la seguridad se hizo evidente, ya que mencionó que en su vecindario hay un aumento alarmante en los robos de inmuebles y hogares. Esta situación lo ha llevado a buscar soluciones efectivas que le brinden mayor tranquilidad y protección. La sensación de inseguridad en su nuevo entorno es algo que le preocupa profundamente, lo que ha intensificado su interés por encontrar un sistema de seguridad que se adapte a sus necesidades.
+    En su búsqueda de una solución, Aaron se mostró abierto a explorar tecnologías de Internet de las Cosas (IoT) que puedan mejorar la seguridad de su hogar. Está interesado en sistemas que no solo ofrezcan protección, sino que también permitan una gestión eficiente a través de notificaciones en tiempo real. Esta funcionalidad podría ayudarlo a sentirse más seguro y al tanto de cualquier situación inusual en su entorno. La posibilidad de monitorear su hogar de manera remota y recibir alertas inmediatas sobre posibles amenazas es una característica que considera fundamental para tomar decisiones informadas y reaccionar rápidamente ante cualquier eventualidad. Asimismo, nos comentó que él en sistemas operativos es fanático de windows y android.
 
 * **Segmento 2: Empresas de Seguridad**
 - Entrevista N°5:
@@ -715,12 +815,12 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
     - Timing: 26:31
     - Duración: 4:00
     - Link: [Enlace entrevista 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=WkDqqD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-    
-    ![interview 5](src/images/entrevista-5.png)
-    
-    En esta ocasión, entrevistamos a Diego, quien dirige una compañía de seguridad. Durante la conversación, Diego expresó su deseo de mejorar gradualmente la eficiencia de su servicio, ya que actualmente sus tiempos de respuesta ante emergencias pueden llegar a ser de hasta 10 minutos, dependiendo de la zona donde se active la alarma. Esta situación lo preocupa, ya que en muchas ocasiones el tiempo es crucial para garantizar la seguridad de sus clientes. Además, mencionó que, aunque está familiarizado con los dispositivos IoT, ha enfrentado problemas con algunos de ellos, como fallos en la conectividad que retrasan las notificaciones.
 
+    ![interview 5](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/entrevista-5.png)
+
+    En esta ocasión, entrevistamos a Diego, quien dirige una compañía de seguridad. Durante la conversación, Diego expresó su deseo de mejorar gradualmente la eficiencia de su servicio, ya que actualmente sus tiempos de respuesta ante emergencias pueden llegar a ser de hasta 10 minutos, dependiendo de la zona donde se active la alarma. Esta situación lo preocupa, porque en muchas ocasiones el tiempo es crucial para garantizar la seguridad de sus clientes. Además, mencionó que, aunque está familiarizado con los dispositivos IoT, ha enfrentado problemas con algunos de ellos, como fallos en la conectividad que retrasan las notificaciones.
     Diego está decidido a explorar nuevas opciones y tecnologías que puedan optimizar su sistema de seguridad. Está dispuesto a investigar otros tipos de dispositivos que ofrezcan mayor fiabilidad y rapidez en la comunicación de alertas. Su enfoque proactivo refleja su compromiso con la mejora continua de su empresa, buscando siempre proporcionar un servicio más eficiente y efectivo a sus clientes. La incorporación de soluciones innovadoras podría no solo disminuir los tiempos de respuesta, sino también aumentar la confianza de sus clientes en la seguridad que brinda. Nos comenta además que en su compañía, utilizan mejor el sistema Windows para el monitoreo de las alarmas.
+
 
 - Entrevista N°6:
     - Nombres y apellidos: Jorge Luis Quevedo Yucra
@@ -729,98 +829,74 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
     - Timing: 23:37
     - Duración: 5:00
     - Link: [Enlace entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EXHqrhK5ujRBmGwX9MkluJUBF2d1Zprer7bJl0F41fEX1g?e=WkDqqD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+    ![interview 6](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/interview-6.png)
     
-    ![entrevista 5](src/images/interview-6.png)
-Las respuestas de Jorge revelan un enfoque sólido y flexible en la gestión de seguridad mediante tecnologías IoT, demostrando una profunda comprensión de las necesidades actuales del sector. Su empresa se distingue por un firme compromiso con la capacitación constante de su equipo, asegurando que el personal esté altamente preparado para enfrentar los desafíos de un entorno tecnológico en evolución. Además, han adoptado una estrategia proactiva en la integración de soluciones tecnológicas avanzadas, lo que les permite optimizar la eficiencia operativa y mejorar la detección y respuesta ante cualquier posible amenaza. La combinación de estos factores, junto con un enfoque en la mejora continua de sus procesos internos, garantiza que la empresa no solo reaccione rápidamente ante incidentes, sino que también se mantenga a la vanguardia en la protección de activos y la seguridad integral de sus clientes.
+    Las respuestas de Jorge revelan un enfoque sólido y flexible en la gestión de seguridad mediante tecnologías IoT, demostrando una profunda comprensión de las necesidades actuales del sector. Su empresa se distingue por un firme compromiso con la capacitación constante de su equipo, asegurando que el personal esté altamente preparado para enfrentar los desafíos de un entorno tecnológico en evolución. Además, han adoptado una estrategia proactiva en la integración de soluciones tecnológicas avanzadas, lo que les permite optimizar la eficiencia operativa y mejorar la detección y respuesta ante cualquier posible amenaza. La combinación de estos factores, junto con un enfoque en la mejora continua de sus procesos internos, garantiza que la empresa no solo reaccione rápidamente ante incidentes, sino que también se mantenga a la vanguardia en la protección de activos y la seguridad integral de sus clientes.
 
 ### 2.2.3. Análisis de entrevistas
-## 2.3 Needfinding
+
+**Análisis de entrevistas - Dueños de inmuebles:**
+
+1. **Preocupación por la inseguridad y aumento de robos**:
+    - 100% mencionaron la inseguridad como factor decisivo para buscar soluciones de seguridad.
+
+2. **Interés en soluciones tecnológicas (IoT y monitoreo remoto)**:
+    - 66% valoraron la gestión remota y notificaciones en tiempo real.
+
+3. **Preferencia por alertas rápidas (llamadas vs. notificaciones)**:
+    - 33% prefieren recibir alertas por llamada, 66% no tienen preferencia pero aceptan notificaciones.
+
+4. **Importancia de la confianza en la empresa y servicio al cliente**:
+    - 33% destacó la necesidad de confianza y buen servicio al cliente.
+
+5. **Uso de tecnología y plataformas específicas**:
+    - 66% usan Android y Windows, sugiriendo la necesidad de compatibilidad multiplataforma.
+
+**Análisis de entrevistas -  Empresas de seguridad:**
+
+1. **Preocupación por tiempos de respuesta ante emergencias**:
+    - 100% de los entrevistados expresaron que los tiempos de respuesta ante emergencias son una preocupación crítica. Diego mencionó tiempos de hasta 10 minutos, lo cual afecta la eficiencia del servicio.
+
+2. **Interés en mejorar la fiabilidad de dispositivos IoT**:
+    - 100% manifestaron problemas con la conectividad de los dispositivos IoT y su deseo de explorar opciones más fiables para mejorar la comunicación de alertas.
+
+3. **Enfoque proactivo en la integración de soluciones tecnológicas**:
+    - 100% destacaron su disposición a adoptar nuevas tecnologías para optimizar los sistemas de seguridad y mejorar la eficiencia operativa.
+
+4. **Capacitación constante del personal**:
+    - 50% mencionaron la importancia de la capacitación constante para garantizar un servicio eficiente y adaptado a las nuevas tecnologías.
+
+5. **Uso de Windows para monitoreo de alarmas**:
+    - 50% de las empresas entrevistadas utilizan Windows como sistema para monitoreo de alarmas, destacando la necesidad de compatibilidad con este sistema.
+ 
+
+
+##  2.3 Needfinding
 ### 2.3.1. User Personas
 Las personas que se presentan a continuación son una representación de los segmentos de usuarios definidos, se han tomado en cuenta las características más relevantes de las entrevistas realizadas y el análisis de la competencia las cuales incluyen: edad, distrito, dispositivos tecnológicos que utilizan, canales de comunicación, relación con la tecnología, necesidades y preferencias.
 
 - **Segmento 1: Dueños de inmuebles**
-![user persona seg 1](/src/images/user-persona-seg1.png)
+![user persona seg 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/user-persona-seg1.png)
 
 - **Segmento 2: Empresas de seguridad**
-![user persona seg 2](/src/images/user-persona-empresa.png)
+![user persona seg 2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/user-persona-empresa.png)
 
 ### 2.3.2. User Task Matrix
 
 Los User Personas que se han definido son Seele Vollerei el cual representa al primer segmento, dueño de inmueble y José Ramirez para el segundo segmento, empresa de seguridad. A continuación, se presenta la matriz de tareas de los User Personas.
 
-<table border="1">
-  <thead>
-    <tr>
-      <th rowspan="2">Task</th>
-      <th colspan="2">Seele Vollerei <br> (Dueño de inmueble)</th>
-      <th colspan="2">José Ramirez <br> (Empresa de seguridad)</th>
-    </tr>
-    <tr>
-      <th>Frecuencia</th>
-      <th>Importancia</th>
-      <th>Frecuencia</th>
-      <th>Importancia</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Monitorización de cámaras en tiempo real</td>
-      <td>Casi siempre</td>
-      <td>Alta</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Revisión de grabaciones de las cámaras</td>
-      <td>A veces</td>
-      <td>Media alta</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Recepción de alertas en tiempo real</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Respuesta ante incidentes</td>
-      <td>Rara vez</td>
-      <td>Alta</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Análisis de patrones de seguridad</td>
-      <td>Pocas veces</td>
-      <td>Alta</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Realización de informes de actividad</td>
-      <td>Casi nunca</td>
-      <td>Baja</td>
-      <td>Siempre</td>
-      <td>Alta</td>
-    </tr>
-    <tr>
-      <td>Instalación de nuevas cámaras y/o dispositivos IoT</td>
-      <td>A veces</td>
-      <td>Alta</td>
-      <td>Rara vez (no es su rubro)</td>
-      <td>Baja</td>
-    </tr>
-    <tr>
-      <td>Configuración y mantenimiento de los dispositivos IoT y cámaras</td>
-      <td>Casi siempre</td>
-      <td>Alta</td>
-      <td>Casi nunca</td>
-      <td>Baja</td>
-    </tr>
-  </tbody>
-</table>
+| Task                                                            | Frecuencia (Seele Vollerei) | Importancia (Seele Vollerei) | Frecuencia (José Ramirez) | Importancia (José Ramirez) |
+|-----------------------------------------------------------------|-----------------------------|------------------------------|---------------------------|----------------------------|
+| Monitorización de cámaras en tiempo real                        | Casi siempre                | Alta                         | Siempre                   | Alta                       |
+| Revisión de grabaciones de las cámaras                          | A veces                     | Media alta                   | Siempre                   | Alta                       |
+| Recepción de alertas en tiempo real                             | Siempre                     | Alta                         | Siempre                   | Alta                       |
+| Respuesta ante incidentes                                       | Rara vez                    | Alta                         | Siempre                   | Alta                       |
+| Análisis de patrones de seguridad                               | Pocas veces                 | Alta                         | Siempre                   | Alta                       |
+| Realización de informes de actividad                            | Casi nunca                  | Baja                         | Siempre                   | Alta                       |
+| Instalación de nuevas cámaras y/o dispositivos IoT              | A veces                     | Alta                         | Rara vez (no es su rubro) | Baja                       |
+| Configuración y mantenimiento de los dispositivos IoT y cámaras | Casi siempre                | Alta                         | Casi nunca                | Baja                       |
+
 
 Las tareas que se realizan con mayor frecuencia e importancia por parte de los User Personas son la monitorización de cámaras en tiempo real, la recepción de alertas en tiempo real y la revisión de las grabaciones. En cuanto a las diferencias, se puede observar que Seele Vollerei realiza la instalación de nuevas cámaras y/o dispositivos IoT, mientras que José Ramirez no lo hace, ya que no es su rubro. Por otro lado, las demás tareas coinciden en su importancia y frecuencia, aunque José Ramirez realiza la mayoría de tareas con mayor frecuencia que Seele Vollerei debido a que es su trabajo.
 
@@ -829,22 +905,22 @@ Las tareas que se realizan con mayor frecuencia e importancia por parte de los U
 En esta sección se realiza la demostración de la experiencia del usuario con el producto o servicio (como está actualmente). En este caso, se ha realizado el mapeo del viaje del usuario desde el momento en que se plantea la necesidad de adquirir un sistema de seguridad hasta que se instala y se configura el sistema en su hogar (Dueño de inmueble) y desde que se recibe la solicitud o alerta de un cliente hasta que se resuelve el incidente (Empresa de seguridad).
 
 - **User Journey Mapping (Seele Vollerei - Dueño de inmueble)**
-![user journey seg 1](/src/images/user-journey-mapping-seg1.png)
+![user journey seg 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/user-journey-mapping-seg1.png)
 
 - **User Journey Mapping (José Ramirez - Empresa de seguridad)**
-![user journey seg 2](/src/images/user-journey-mapping(josé-ramirez-empresa-de-seguridad).png)
+![user journey seg 2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/user-journey-mapping(josé-ramirez-empresa-de-seguridad).png)
 
 Se presenta el User Journey Map para el segmento de Empresa de Seguridad, en el cual se establecen las distintas etapas por las que pasa este usuario durante el uso de la aplicación.
 
 ### 2.3.4. Empathy Mapping
 
-El proceso de elaboración del Empathy Mapping se ha realizado tomando en cuenta las entrevistas realizadas a los usuarios de cada segmento y en base a la información recopilada en las mismas. A continuación, se presentan los Empathy Mapping de los User Personas definidos.
+El proceso de elaboración del Empathy Mapping se ha realizado tomando en cuenta las entrevistas realizadas a los usuarios de cada segmento y con base en la información recopilada en las mismas. A continuación, se presentan los Empathy Mapping de los User Personas definidos.
 
 - **Empathy Mapping (Seele Vollerei - Dueño de inmueble)**
-![empathy mapping seg 1](/src/images/empathy-mapping-seg1.png)
+![empathy mapping seg 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/empathy-mapping-seg1.png)
 
 - **Empathy Mapping (José Ramirez - Empresa de seguridad)**
-![empathy mapping seg 2](/src/images/empaty-mapping(jose-ramirez-empresa-de-seguridad).png)
+![empathy mapping seg 2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/empaty-mapping(jose-ramirez-empresa-de-seguridad).png)
 
 José Ramírez se encuentra en una posición de búsqueda activa de soluciones tecnológicas que mejoren los servicios de seguridad que su empresa ofrece. Su principal desafío es integrar de manera efectiva nuevas tecnologías de videovigilancia IoT sin sacrificar la calidad del servicio ni incrementar demasiado los costos operativos. Está motivado por mantenerse a la vanguardia en un sector altamente competitivo, pero también está preocupado por la complejidad técnica y la compatibilidad de las nuevas soluciones. Su decisión de adoptar un nuevo sistema de seguridad depende en gran medida de la facilidad de implementación, la fiabilidad, y la capacidad para mejorar la experiencia de sus clientes.
 
@@ -853,15 +929,14 @@ José Ramírez se encuentra en una posición de búsqueda activa de soluciones t
 Para la elaboración del As-Is Scenario Mapping se ha seguido el proceso de mapeo de escenarios actuales de los User Personas definidos y una lluvia de ideas tomando en cuenta su situación actual, necesidades, preferencias y el mercado actual. A continuación, se presentan los As-Is Scenario Mapping de los User Personas definidos.
 
 - **As-Is Scenario Mapping (Seele Vollerei - Dueño de inmueble)**
-![as-is scenario seg 1](/src/images/as-is-scenario-mapping-seg1.png)
+![as-is scenario seg 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/as-is-scenario-mapping-seg1.png)
 
 - **As-Is Scenario Mapping (José Ramirez - Empresa de seguridad)**
-![as-is scenario seg 1](/src/images/as-is-scenario-mapping-seguridad.png)
+![as-is scenario seg 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/as-is-scenario-mapping-seguridad.png)
 Este As-Is Scenario Mapping refleja el viaje de José Ramírez desde la investigación inicial hasta el uso diario y el mantenimiento de un sistema de videovigilancia IoT, destacando tanto los puntos positivos como los desafíos que enfrenta.
 
 ## 2.4. Ubiquitous Language
-Para el desarrollo de esta sección, como grupo debemos estar alineados con los términos y conceptos claves que son necesarios para la realización del proyecto. Además, nos ayuda a tener un lenguaje en común para entender nuestros objetivos, funcionalidades y benerfios.
-
+Para el desarrollo de esta sección, como grupo debemos estar alineados con los términos y conceptos claves que son necesarios para la realización del proyecto. Además, nos ayuda a tener un lenguaje en común para entender nuestros objetivos, funcionalidades y benerfios. 
 Para VerySafe tenemos los siguientes términos:
 
 1. Property Owner (Propietario de Inmueble): Persona o entidad que posee un inmueble y tiene la responsabilidad de protegerlo.
@@ -928,54 +1003,54 @@ El enfoque está en los desafíos que enfrentan las empresas de seguridad al val
 
 ## 3.2. User Stories
 
-En esta sección se presentan las historias de usuario correspondientes a nuestra aplicación móvil, sitio web estático y dispositivos edge. Estas historias describen las características necesarias para nuestros dos segmentos objetivo. Además, se especifican los criterios de aceptación que nos permitirán verificar si las funcionalidades cumplen con las necesidades de los usuarios.
+En esta sección se presentan las historias de usuario correspondientes a nuestra aplicación móvil, sitio web estático y dispositivos edge. Estas historias describen las características necesarias para nuestros dos segmentos objetivos. Además, se especifican los criterios de aceptación que nos permitirán verificar si las funcionalidades cumplen con las necesidades de los usuarios.
 
-| **ID**  | **Título**                                                        | **Descripción**                                                                                                   | **Criterios de Aceptación**                                                                                                                                          | **Relacionado con (Epic ID)** |
-|---------|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| **HU-01** | Ver historial de eventos                                          | Como propietario de un inmueble, quiero poder ver el historial de los eventos para revisar incidentes pasados. | **Given** que el propietario está en la página Events **When** selecciona el evento **Then** puede ver todas las notificaciones en base al evento. <br><br> **Given** que no hay notificaciones en el evento seleccionado **When** selecciona la fila **Then** se muestra un mensaje indicando que no hay notificaciones para ese evento.           | Epic 1                        |
-| **HU-02** | Configurar notificaciones personalizadas                          | Como empresa de seguridad, quiero configurar las alertas para recibir notificaciones específicas según los tipos de eventos en cada propiedad. | **Given** que el usuario está en la sección de configuraciones **When** crea una nueva alerta personalizada **Then** recibe notificaciones solo para los eventos configurados. <br><br> **Given** que hay varias alertas personalizadas creadas **When** elimina una alerta personalizada **Then** la alerta se elimina y ya no recibe notificaciones de ese tipo.            | Epic 1                        |
-| **HU-03** | Controlar dispositivos de seguridad                               | Como propietario de un inmueble, quiero controlar mis dispositivos de seguridad desde la aplicación web para armar o desarmar la alarma. | **Given** que el propietario está en el panel de control de dispositivos **When** selecciona un dispositivo y una acción (armar/desarmar) **Then** el dispositivo realiza la acción y se muestra una notificación de confirmación. <br><br> **Given** que un dispositivo no responde **When** intenta armar o desarmar el dispositivo **Then** se muestra un mensaje de error indicando que no se pudo completar la acción. | Epic 2                        |
-| **HU-04** | Resumen de eventos                                               | Como usuario, quiero un resumen de todos los eventos desde una única interfaz para gestionar los dispositivos de manera eficiente. | **Given** que el usuario está en el dashboard **When** selecciona una propiedad **Then** puede ver un resumen en tiempo real de todos los dispositivos y alertas de esa propiedad. <br><br> **Given** que hay una alerta activa en una propiedad **When** selecciona la propiedad **Then** se muestra la alerta en la parte superior del resumen con opciones para gestionarla.       | Epic 2                        |
-| **HU-05** | Reportar un incidente                                             | Como propietario de un inmueble, quiero reportar un incidente directamente desde la aplicación web para que la empresa de seguridad lo gestione. | **Given** que el propietario está en la sección de reportes **When** llena el formulario de incidente y lo envía **Then** la empresa de seguridad recibe una notificación con los detalles del reporte. <br><br> **Given** que el formulario de reporte tiene campos obligatorios vacíos **When** intenta enviarlo **Then** se muestra un mensaje de error indicando que debe completar los campos obligatorios. | Epic 3                        |
-| **HU-06** | Recibir notificaciones en tiempo real                             | Como propietario de un inmueble, quiero recibir notificaciones en tiempo real en mi móvil sobre cualquier alerta de seguridad para tomar acciones inmediatas. | **Given** que el propietario tiene la aplicación móvil instalada **When** se activa una alerta **Then** recibe una notificación push con la descripción del evento. <br><br> **Given** que la alerta no ha sido atendida en 5 minutos **When** la aplicación verifica el tiempo transcurrido **Then** envía una notificación de recordatorio al propietario. | Epic 4                        |
-| **HU-07** | Acceso remoto a cámaras                                          | Como empresa de seguridad, quiero acceder a las cámaras de las propiedades desde mi dispositivo móvil para verificar en tiempo real cualquier alerta. | **Given** que la empresa de seguridad tiene acceso a la propiedad en la aplicación **When** selecciona la opción de cámaras **Then** puede ver las imágenes en vivo de todas las cámaras instaladas. <br><br> **Given** que una cámara está fuera de servicio **When** intenta acceder a las imágenes **Then** se muestra un mensaje indicando que la cámara no está disponible. | Epic 4                        |
-| **HU-08** | Control de acceso remoto                                         | Como propietario de un inmueble, quiero controlar el acceso a mi propiedad desde mi móvil para abrir o cerrar puertas de manera remota. | **Given** que el propietario tiene la aplicación instalada **When** selecciona la opción de control de acceso **Then** puede abrir o cerrar puertas conectadas con un solo clic. <br><br> **Given** que una puerta está bloqueada **When** el propietario intenta abrirla desde la app **Then** se muestra un mensaje de error indicando que no se puede completar la acción. | Epic 5                      |
-| **HU-09** | Crear y gestionar alertas desde la app                          | Como empresa de seguridad, quiero poder crear y gestionar alertas desde mi móvil para estar siempre en control, incluso cuando no estoy en la oficina. | **Given** que la empresa de seguridad está en la aplicación **When** crea una nueva alerta personalizada **Then** esta se activa y puede recibir notificaciones basadas en esa configuración. <br><br> **Given** que la empresa desea modificar una alerta activa **When** edita los parámetros de la alerta **Then** los cambios se reflejan de inmediato en la app. | Epic 5                       |
-| **HU-10** | Ver grabaciones de seguridad                                      | Como propietario de un inmueble, quiero ver las grabaciones de seguridad desde mi móvil para revisar eventos pasados mientras estoy fuera de casa. | **Given** que el propietario está en la app **When** selecciona una fecha y hora **Then** puede ver la grabación correspondiente directamente desde su dispositivo móvil. <br><br> **Given** que no hay grabaciones disponibles para la fecha seleccionada **When** el propietario intenta visualizarla **Then** se muestra un mensaje indicando que no hay grabaciones para ese periodo. | Epic 6                       |
-| **HU-11** | Gestión de usuarios                                              | Como administrador, quiero poder gestionar todos los usuarios desde el backend para controlar el acceso y los permisos de la plataforma. | **Given** que el administrador está en el panel de administración **When** agrega, edita o elimina un usuario **Then** los cambios se reflejan en la aplicación web y móvil. <br><br> **Given** que un usuario ha sido eliminado **When** el administrador revisa la lista de usuarios **Then** el usuario eliminado ya no aparece en la lista. | Epic 7                        |
-| **HU-12** | Gestión de dispositivos conectados                                 | Como administrador, quiero poder gestionar todos los dispositivos conectados para monitorear su estado y funcionamiento. | **Given** que el administrador está en el panel de administración **When** visualiza el listado de dispositivos **Then** puede actualizar su estado, ver logs y desconectar dispositivos si es necesario. <br><br> **Given** que un dispositivo no responde **When** el administrador intenta actualizar su estado **Then** se muestra un mensaje de error indicando que el dispositivo está desconectado. | Epic 7                        |
-| **HU-13** | Integración con sistemas de terceros                               | Como administrador, quiero integrar la plataforma con sistemas de seguridad de terceros para ampliar las capacidades del sistema. | **Given** que el administrador está en el panel de integraciones **When** configura una integración nueva **Then** los dispositivos y datos del sistema de terceros se sincronizan con la plataforma. <br><br> **Given** que la integración ha fallado **When** el administrador revisa los logs de la integración **Then** se muestra el motivo del fallo y las posibles soluciones. | Epic 7                        |
-| **HU-14** | Gestión de logs y auditoría                                       | Como administrador, quiero poder acceder a los logs y realizar auditorías para monitorear la actividad del sistema y detectar anomalías. | **Given** que el administrador está en la sección de logs **When** selecciona un rango de fechas **Then** puede ver todas las actividades registradas en ese periodo. <br><br> **Given** que el administrador necesita exportar los logs **When** selecciona la opción de exportación **Then** los logs se descargan en un archivo CSV. | Epic 8                        |
-| **HU-15** | Configuración de políticas de seguridad                            | Como administrador, quiero poder configurar políticas de seguridad para asegurar que todos los dispositivos y datos cumplan con los estándares requeridos. | **Given** que el administrador está en la sección de políticas **When** establece una nueva política de seguridad **Then** se aplica a todos los dispositivos y usuarios de la plataforma. <br><br> **Given** que una política de seguridad no cumple con los estándares **When** el administrador intenta guardarla **Then** se muestra un mensaje de advertencia y la política no se guarda. | Epic 8                        |
-| **HU-16** | Detección de anomalías en tiempo real                             | Como propietario de un inmueble, quiero que los dispositivos en el edge detecten anomalías en tiempo real para reaccionar de inmediato ante posibles amenazas. | **Given** que tengo dispositivos edge instalados **When** ocurre una anomalía **Then** el dispositivo envía una alerta inmediata a la app móvil y web. <br><br> **Given** que la anomalía se ha solucionado **When** el dispositivo envía un informe de la resolución **Then** se notifica al propietario. | Epic 9                       |
-| **HU-17** | Actualización remota de firmware                                    | Como administrador, quiero poder actualizar remotamente el firmware de los dispositivos en el edge para asegurar su correcto funcionamiento y seguridad. | **Given** que estoy en el panel de dispositivos **When** selecciono actualizar el firmware de un dispositivo **Then** el dispositivo se actualiza automáticamente y se reinicia. <br><br> **Given** que la actualización falla **When** el sistema intenta de nuevo **Then** se envía una notificación al administrador sobre el error. | Epic 9                       |
-| **HU-18** | Autonomía operativa de dispositivos edge                           | Como empresa de seguridad, quiero que los dispositivos en el edge funcionen de manera autónoma si pierden conexión con el servidor para asegurar la continuidad del servicio. | **Given** que un dispositivo edge pierde conexión **When** continúa operando de manera autónoma **Then** las alertas y registros se guardan localmente hasta que se restablezca la conexión. <br><br> **Given** que la conexión se restablece **When** se sincronizan los datos almacenados **Then** el servidor muestra el historial completo de alertas. | Epic 9                       |
-| **HU-19** | Monitoreo de alertas en dispositivos edge                          | Como propietario de un inmueble, quiero monitorear las alertas de mis dispositivos edge.                              | **Given** que estoy en el dashboard de alertas **When** le doy click a un dispositivo **Then** puedo ver un historial de alertas del dispositivo y recibir sugerencias de optimización. <br><br> **Given** que un dispositivo ha tenido múltiples alertas **When** reviso el historial **Then** se muestran estadísticas de frecuencia y tipo de alertas. | Epic 10                       |
-| **HU-20** | Reinicio remoto de dispositivos edge                               | Como administrador, quiero poder reiniciar remotamente los dispositivos en el edge para solucionar problemas de manera eficiente. | **Given** que estoy en el panel de dispositivos **When** selecciono la opción de reinicio **Then** el dispositivo se reinicia automáticamente y notifica al usuario. <br><br> **Given** que el dispositivo no responde **When** intento reiniciarlo **Then** se envía una alerta al administrador indicando que el dispositivo está inoperativo. | Epic 10                      |
-| **HU-21** | Control de luces inteligentes                                       | Como propietario de un inmueble, quiero controlar las luces inteligentes de mi propiedad desde la app para encender o apagar según necesidad. | **Given** que estoy en la app móvil **When** selecciono una luz que quiero modificar **Then** puedo encenderla, apagarla o ajustar la intensidad. <br><br> **Given** que la luz está encendida **When** la apago **Then** se refleja el cambio en la app inmediatamente. | Epic 11                       |
-| **HU-22** | Monitoreo de sensores de movimiento                                 | Como empresa de seguridad, quiero monitorear en tiempo real los sensores de movimiento de los dispositivos IoT para detectar intrusos. | **Given** que estoy en el dashboard de sensores **When** un sensor detecta movimiento **Then** recibo una alerta inmediata en la app. <br><br> **Given** que la alerta se activa **When** reviso el registro de eventos **Then** se muestra la hora y la ubicación del movimiento detectado. | Epic 11                       |
-| **HU-23** | Monitorización de baterías en dispositivos IoT                      | Como empresa de seguridad, quiero monitorear el nivel de batería de los dispositivos IoT para asegurar que siempre estén operativos. | **Given** que estoy en el dashboard de energía **When** el nivel de batería es bajo **Then** recibo una alerta para reemplazar o recargar el dispositivo. <br><br> **Given** que el nivel de batería se ha recuperado **When** recargo el dispositivo **Then** se notifica el estado actualizado de la batería. | Epic 12                       |
-| **HU-24** | Automatización de escenarios                                        | Como propietario de un inmueble, quiero crear escenarios automatizados en mi app para que los dispositivos IoT actúen en conjunto según la hora o eventos específicos. | **Given** que estoy en la app **When** configuro un escenario **Then** los dispositivos correspondientes se activan o desactivan automáticamente según lo programado. <br><br> **Given** que un escenario está activo **When** ocurre el evento programado **Then** se notifica al usuario de la acción realizada. | Epic 12                       |
-| **HU-25** | Respuesta automatizada ante amenazas                                 | Como empresa de seguridad, quiero que el sistema responda automáticamente ante amenazas identificadas por los dispositivos de seguridad para minimizar el tiempo de reacción. | **Given** que una amenaza es detectada **When** el sistema la confirma **Then** se activan las medidas de seguridad preconfiguradas (alarma, bloqueo de puertas, notificación a autoridades). <br><br> **Given** que las medidas de seguridad están activadas **When** se recibe una nueva alerta **Then** el sistema registra la acción y notifica a los usuarios autorizados. | Epic 13                       |
-| **HU-26** | Uso compartido de dispositivos                                       | Como propietario de un inmueble, quiero compartir el control de ciertos dispositivos con otros usuarios desde la app para que también puedan manejarlos. | **Given** que estoy en la sección de dispositivos **When** configuro el uso compartido **Then** el otro usuario tiene acceso limitado o completo según lo configurado. <br><br> **Given** que el acceso está compartido **When** el otro usuario intenta acceder **Then** se registra la actividad y se notifica al propietario. | Epic 14                       |
-| **HU-27** | Alertas de mantenimiento preventivo                                  | Como propietario de un inmueble, quiero recibir alertas de mantenimiento preventivo de los dispositivos para evitar fallos y asegurar su operación continua. | **Given** que tengo dispositivos operando **When** alguno necesita mantenimiento **Then** recibo una alerta en la app y el email con los pasos a seguir para realizar el mantenimiento. <br><br> **Given** que he realizado el mantenimiento **When** actualizo el estado en la app **Then** se registra la acción y se confirma la operación continua del dispositivo. | Epic 15                       |
-| **HU-28** | Sección de "Hero" con slogan y mensaje de bienvenida               | Como visitante, quiero ver una sección de "Hero" con un slogan atractivo y un mensaje de bienvenida al acceder a la landing page. | **Given** que el usuario accede a la landing page **When** se muestra la sección de "Hero" **Then** debe incluir un slogan y un mensaje de bienvenida visualmente atractivos. | Epic 16                       |
-| **HU-29** | Sección de "Solutions" para mostrar tecnologías y beneficios       | Como visitante, quiero ver una sección de "Solutions" que muestre las tecnologías y beneficios del sistema. | **Given** que el usuario está en la landing page **When** accede a la sección de "Solutions" **Then** debe ver las tecnologías y beneficios destacados de manera clara y concisa. | Epic 16                        |
-| **HU-30** | Sección de "Followers" con experiencias positivas de usuarios      | Como visitante, quiero ver una sección de "Followers" que presente experiencias positivas de usuarios previos. | **Given** que el usuario está en la landing page **When** accede a la sección de "Followers" **Then** debe visualizar testimonios o experiencias positivas de usuarios. | Epic 16                        |
-| **HU-31** | Sección de "Learn more about us" con explicación visual del sistema | Como visitante, quiero ver una sección que explique visualmente el sistema y sus características. | **Given** que el usuario está en la landing page **When** accede a la sección "Learn more about us" **Then** debe encontrar una explicación visual clara del sistema. | Epic 17                        |
-| **HU-32** | Sección de "Política de Privacidad" o "Protección de Datos"      | Como visitante, quiero acceder a la sección de "Política de Privacidad" para entender cómo se protegen mis datos. | **Given** que el usuario está en la landing page **When** accede a la sección de "Política de Privacidad" **Then** debe visualizar la información relevante sobre la protección de datos. | Epic 1                        |
-| **HU-33** | Sección de "Llamada a la Acción" para descarga en Google Play/App Store | Como visitante, quiero ver una sección de "Llamada a la Acción" que me invite a descargar la aplicación. | **Given** que el usuario está en la landing page **When** accede a la sección de "Llamada a la Acción" **Then** debe ver los botones para descargar en Google Play y App Store. | Epic 17                        |
-| **HU-34** | Sección de "Subscription Plans" con diferentes opciones de planes  | Como visitante, quiero ver una sección de "Subscription Plans" que muestre las diferentes opciones de suscripción. | **Given** que el usuario está en la landing page **When** accede a la sección de "Subscription Plans" **Then** debe visualizar las diferentes opciones de planes y precios. | Epic 17                        |
-| **HU-35** | Diseño responsivo para usuarios móviles                             | Como usuario móvil, quiero que la landing page se vea bien en mi dispositivo para una mejor experiencia de usuario. | **Given** que un usuario accede a la landing page desde un dispositivo móvil **When** carga la página **Then** debe mostrarse un diseño responsivo y optimizado para móviles. | Epic 18                        |
-| **HU-36** | Cambio de idioma en la landing page                            | Como visitante, quiero poder seleccionar mi idioma en el sitio web para comprender toda la información y navegar de manera más efectiva | **Given** que el usuario está en la landing page **When** selecciona un idioma de la opción de idiomas disponible **Then** el contenido de la página se actualiza al idioma seleccionado. <br><br> **Given** que el usuario cambia el idioma **When** navega a diferentes secciones de la página **Then** el contenido se muestra en el idioma elegido en todas las secciones. | Epic 18                        |
-| **HU-37**| Monitoreo y almacenamiento de datos de sensores de movimiento | Como usuario, quiero que el sistema detecte movimientos dentro de mi propiedad y registre estos eventos para monitorear posibles intrusos. | **Given** que un sensor de movimiento se activa **When** el sistema recibe la señal **Then** se almacenan los datos en el backend con fecha, hora y ubicación. <br><br> **Given** que se detecta movimiento inusual **When** el sistema lo verifica **Then** se envía una notificación inmediata al usuario.                                              | Epic 19                        |
-| **HU-38**| Detección de humo y alerta de emergencia               | Como usuario, quiero que el sistema detecte la presencia de humo en mi propiedad y me alerte inmediatamente para poder tomar acción. | **Given** que el detector de humo activa **When** el sistema recibe la señal **Then** se envía una alerta de emergencia al dispositivo del usuario. <br><br> **Given** que se detecta humo **When** el sistema activa la alarma **Then** se registra el evento en el historial.                                                                 | Epic 19                        |
-| **HU-39**| Alerta por cambios de temperatura inesperados           | Como usuario, quiero que el sistema monitoree la temperatura de mi propiedad y me notifique en caso de cambios bruscos, para poder identificar riesgos como incendios. | **Given** que el sistema recibe una lectura de temperatura **When** verifica que está fuera de rango **Then** activa una alerta para el usuario. <br><br> **Given** que se registra un cambio brusco de temperatura **When** el sistema guarda la información **Then** se incluye fecha, hora y temperatura exacta en el registro.                              | Epic 19                        |
-| **HU-40**| Activación y desactivación de alarmas                  | Como usuario, quiero poder activar o desactivar la alarma desde la aplicación para tener control sobre la seguridad de mi propiedad. | **Given** que el usuario está en la aplicación **When** activa o desactiva la alarma **Then** el estado se actualiza en el backend en tiempo real. <br><br> **Given** que se intenta desactivar la alarma sin autorización **When** el sistema lo bloquea **Then** se envía una notificación de intento no autorizado.                                        | Epic 19                        |
-| **HU-41**| Historial de eventos de seguridad                       | Como usuario, quiero poder acceder al historial de eventos de seguridad para revisar la actividad en mi propiedad.  | **Given** que el usuario accede al historial **When** solicita ver eventos de seguridad **Then** se muestra un registro detallado de activaciones y cambios. <br><br> **Given** que el usuario desea filtrar el historial **When** selecciona las opciones de filtro **Then** se muestran los eventos según los criterios seleccionados.                       | Epic 20                        |
-| **HU-42**| Configuración de notificaciones personalizadas          | Como usuario, quiero configurar qué tipo de notificaciones recibir para que el sistema me alerte solo en situaciones específicas. | **Given** que el usuario está en la sección de configuraciones **When** activa o desactiva notificaciones por tipo de sensor **Then** los cambios se aplican en tiempo real. <br><br> **Given** que el usuario guarda sus preferencias **When** el sistema envía notificaciones según la configuración establecida **Then** se registra el tipo de notificación. | Epic 20                        |
-| **HU-43**| Pruebas periódicas de dispositivos                      | Como usuario, quiero recibir notificaciones para realizar pruebas periódicas de los dispositivos IoT para asegurar que funcionan correctamente. | **Given** que el backend genera un recordatorio **When** el usuario recibe una notificación para realizar una prueba **Then** se registra la fecha y hora de la prueba en el sistema. <br><br> **Given** que un dispositivo falla durante la prueba **When** el sistema envía una notificación **Then** se recomienda realizar una revisión del dispositivo. | Epic 20                        |
-| **HU-44**| Integración con servicios de emergencia                 | Como usuario, quiero que el sistema notifique a los servicios de emergencia automáticamente en caso de eventos críticos para una respuesta rápida. | **Given** que se detecta un evento crítico **When** el sistema está configurado para alertar a servicios de emergencia **Then** se envían los datos específicos del evento y la ubicación. <br><br> **Given** que la notificación se ha enviado **When** el sistema registra la hora del envío **Then** se confirma la acción en el registro.                        | Epic 20                       |
+| **ID**    | **Título**                                                              | **Descripción**                                                                                                                                                               | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                                 | **Relacionado con (Epic ID)** |
+|-----------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| **HU-01** | Ver historial de eventos                                                | Como propietario de un inmueble, quiero poder ver el historial de los eventos para revisar incidentes pasados.                                                                | **Given** que el propietario está en la página Events **When** selecciona el evento **Then** puede ver todas las notificaciones en base al evento. <br><br> **Given** que no hay notificaciones en el evento seleccionado **When** selecciona la fila **Then** se muestra un mensaje indicando que no hay notificaciones para ese evento.                                                                                   | Epic 1                        |
+| **HU-02** | Configurar notificaciones personalizadas                                | Como empresa de seguridad, quiero configurar las alertas para recibir notificaciones específicas según los tipos de eventos en cada propiedad.                                | **Given** que el usuario está en la sección de configuraciones **When** crea una nueva alerta personalizada **Then** recibe notificaciones solo para los eventos configurados. <br><br> **Given** que hay varias alertas personalizadas creadas **When** elimina una alerta personalizada **Then** la alerta se elimina y ya no recibe notificaciones de ese tipo.                                                          | Epic 1                        |
+| **HU-03** | Controlar dispositivos de seguridad                                     | Como propietario de un inmueble, quiero controlar mis dispositivos de seguridad desde la aplicación web para armar o desarmar la alarma.                                      | **Given** que el propietario está en el panel de control de dispositivos **When** selecciona un dispositivo y una acción (armar/desarmar) **Then** el dispositivo realiza la acción y se muestra una notificación de confirmación. <br><br> **Given** que un dispositivo no responde **When** intenta armar o desarmar el dispositivo **Then** se muestra un mensaje de error indicando que no se pudo completar la acción. | Epic 2                        |
+| **HU-04** | Resumen de eventos                                                      | Como usuario, quiero un resumen de todos los eventos desde una única interfaz para gestionar los dispositivos de manera eficiente.                                            | **Given** que el usuario está en el dashboard **When** selecciona una propiedad **Then** puede ver un resumen en tiempo real de todos los dispositivos y alertas de esa propiedad. <br><br> **Given** que hay una alerta activa en una propiedad **When** selecciona la propiedad **Then** se muestra la alerta en la parte superior del resumen con opciones para gestionarla.                                             | Epic 2                        |
+| **HU-05** | Reportar un incidente                                                   | Como propietario de un inmueble, quiero reportar un incidente directamente desde la aplicación web para que la empresa de seguridad lo gestione.                              | **Given** que el propietario está en la sección de reportes **When** llena el formulario de incidente y lo envía **Then** la empresa de seguridad recibe una notificación con los detalles del reporte. <br><br> **Given** que el formulario de reporte tiene campos obligatorios vacíos **When** intenta enviarlo **Then** se muestra un mensaje de error indicando que debe completar los campos obligatorios.            | Epic 3                        |
+| **HU-06** | Recibir notificaciones en tiempo real                                   | Como propietario de un inmueble, quiero recibir notificaciones en tiempo real en mi móvil sobre cualquier alerta de seguridad para tomar acciones inmediatas.                 | **Given** que el propietario tiene la aplicación móvil instalada **When** se activa una alerta **Then** recibe una notificación push con la descripción del evento. <br><br> **Given** que la alerta no ha sido atendida en 5 minutos **When** la aplicación verifica el tiempo transcurrido **Then** envía una notificación de recordatorio al propietario.                                                                | Epic 4                        |
+| **HU-07** | Acceso remoto a cámaras                                                 | Como empresa de seguridad, quiero acceder a las cámaras de las propiedades desde mi dispositivo móvil para verificar en tiempo real cualquier alerta.                         | **Given** que la empresa de seguridad tiene acceso a la propiedad en la aplicación **When** selecciona la opción de cámaras **Then** puede ver las imágenes en vivo de todas las cámaras instaladas. <br><br> **Given** que una cámara está fuera de servicio **When** intenta acceder a las imágenes **Then** se muestra un mensaje indicando que la cámara no está disponible.                                            | Epic 4                        |
+| **HU-08** | Control de acceso remoto                                                | Como propietario de un inmueble, quiero controlar el acceso a mi propiedad desde mi móvil para abrir o cerrar puertas de manera remota.                                       | **Given** que el propietario tiene la aplicación instalada **When** selecciona la opción de control de acceso **Then** puede abrir o cerrar puertas conectadas con un solo clic. <br><br> **Given** que una puerta está bloqueada **When** el propietario intenta abrirla desde la app **Then** se muestra un mensaje de error indicando que no se puede completar la acción.                                               | Epic 5                        |
+| **HU-09** | Crear y gestionar alertas desde la app                                  | Como empresa de seguridad, quiero poder crear y gestionar alertas desde mi móvil para estar siempre en control, incluso cuando no estoy en la oficina.                        | **Given** que la empresa de seguridad está en la aplicación **When** crea una nueva alerta personalizada **Then** esta se activa y puede recibir notificaciones basadas en esa configuración. <br><br> **Given** que la empresa desea modificar una alerta activa **When** edita los parámetros de la alerta **Then** los cambios se reflejan de inmediato en la app.                                                       | Epic 5                        |
+| **HU-10** | Ver grabaciones de seguridad                                            | Como propietario de un inmueble, quiero ver las grabaciones de seguridad desde mi móvil para revisar eventos pasados mientras estoy fuera de casa.                            | **Given** que el propietario está en la app **When** selecciona una fecha y hora **Then** puede ver la grabación correspondiente directamente desde su dispositivo móvil. <br><br> **Given** que no hay grabaciones disponibles para la fecha seleccionada **When** el propietario intenta visualizarla **Then** se muestra un mensaje indicando que no hay grabaciones para ese periodo.                                   | Epic 6                        |
+| **HU-11** | Gestión de usuarios                                                     | Como administrador, quiero poder gestionar todos los usuarios desde el backend para controlar el acceso y los permisos de la plataforma.                                      | **Given** que el administrador está en el panel de administración **When** agrega, edita o elimina un usuario **Then** los cambios se reflejan en la aplicación web y móvil. <br><br> **Given** que un usuario ha sido eliminado **When** el administrador revisa la lista de usuarios **Then** el usuario eliminado ya no aparece en la lista.                                                                             | Epic 7                        |
+| **HU-12** | Gestión de dispositivos conectados                                      | Como administrador, quiero poder gestionar todos los dispositivos conectados para monitorear su estado y funcionamiento.                                                      | **Given** que el administrador está en el panel de administración **When** visualiza el listado de dispositivos **Then** puede actualizar su estado, ver logs y desconectar dispositivos si es necesario. <br><br> **Given** que un dispositivo no responde **When** el administrador intenta actualizar su estado **Then** se muestra un mensaje de error indicando que el dispositivo está desconectado.                  | Epic 7                        |
+| **HU-13** | Integración con sistemas de terceros                                    | Como administrador, quiero integrar la plataforma con sistemas de seguridad de terceros para ampliar las capacidades del sistema.                                             | **Given** que el administrador está en el panel de integraciones **When** configura una integración nueva **Then** los dispositivos y datos del sistema de terceros se sincronizan con la plataforma. <br><br> **Given** que la integración ha fallado **When** el administrador revisa los logs de la integración **Then** se muestra el motivo del fallo y las posibles soluciones.                                       | Epic 7                        |
+| **HU-14** | Gestión de logs y auditoría                                             | Como administrador, quiero poder acceder a los logs y realizar auditorías para monitorear la actividad del sistema y detectar anomalías.                                      | **Given** que el administrador está en la sección de logs **When** selecciona un rango de fechas **Then** puede ver todas las actividades registradas en ese periodo. <br><br> **Given** que el administrador necesita exportar los logs **When** selecciona la opción de exportación **Then** los logs se descargan en un archivo CSV.                                                                                     | Epic 8                        |
+| **HU-15** | Configuración de políticas de seguridad                                 | Como administrador, quiero poder configurar políticas de seguridad para asegurar que todos los dispositivos y datos cumplan con los estándares requeridos.                    | **Given** que el administrador está en la sección de políticas **When** establece una nueva política de seguridad **Then** se aplica a todos los dispositivos y usuarios de la plataforma. <br><br> **Given** que una política de seguridad no cumple con los estándares **When** el administrador intenta guardarla **Then** se muestra un mensaje de advertencia y la política no se guarda.                              | Epic 8                        |
+| **HU-16** | Detección de anomalías en tiempo real                                   | Como propietario de un inmueble, quiero que los dispositivos en el edge detecten anomalías en tiempo real para reaccionar de inmediato ante posibles amenazas.                | **Given** que tengo dispositivos edge instalados **When** ocurre una anomalía **Then** el dispositivo envía una alerta inmediata a la app móvil y web. <br><br> **Given** que la anomalía se ha solucionado **When** el dispositivo envía un informe de la resolución **Then** se notifica al propietario.                                                                                                                  | Epic 9                        |
+| **HU-17** | Actualización remota de firmware                                        | Como administrador, quiero poder actualizar remotamente el firmware de los dispositivos en el edge para asegurar su correcto funcionamiento y seguridad.                      | **Given** que estoy en el panel de dispositivos **When** selecciono actualizar el firmware de un dispositivo **Then** el dispositivo se actualiza automáticamente y se reinicia. <br><br> **Given** que la actualización falla **When** el sistema intenta de nuevo **Then** se envía una notificación al administrador sobre el error.                                                                                     | Epic 9                        |
+| **HU-18** | Autonomía operativa de dispositivos edge                                | Como empresa de seguridad, quiero que los dispositivos en el edge funcionen de manera autónoma si pierden conexión con el servidor para asegurar la continuidad del servicio. | **Given** que un dispositivo edge pierde conexión **When** continúa operando de manera autónoma **Then** las alertas y registros se guardan localmente hasta que se restablezca la conexión. <br><br> **Given** que la conexión se restablece **When** se sincronizan los datos almacenados **Then** el servidor muestra el historial completo de alertas.                                                                  | Epic 9                        |
+| **HU-19** | Monitoreo de alertas en dispositivos edge                               | Como propietario de un inmueble, quiero monitorear las alertas de mis dispositivos edge.                                                                                      | **Given** que estoy en el dashboard de alertas **When** le doy click a un dispositivo **Then** puedo ver un historial de alertas del dispositivo y recibir sugerencias de optimización. <br><br> **Given** que un dispositivo ha tenido múltiples alertas **When** reviso el historial **Then** se muestran estadísticas de frecuencia y tipo de alertas.                                                                   | Epic 10                       |
+| **HU-20** | Reinicio remoto de dispositivos edge                                    | Como administrador, quiero poder reiniciar remotamente los dispositivos en el edge para solucionar problemas de manera eficiente.                                             | **Given** que estoy en el panel de dispositivos **When** selecciono la opción de reinicio **Then** el dispositivo se reinicia automáticamente y notifica al usuario. <br><br> **Given** que el dispositivo no responde **When** intento reiniciarlo **Then** se envía una alerta al administrador indicando que el dispositivo está inoperativo.                                                                            | Epic 10                       |
+| **HU-21** | Control de luces inteligentes                                           | Como propietario de un inmueble, quiero controlar las luces inteligentes de mi propiedad desde la app para encender o apagar según necesidad.                                 | **Given** que estoy en la app móvil **When** selecciono una luz que quiero modificar **Then** puedo encenderla, apagarla o ajustar la intensidad. <br><br> **Given** que la luz está encendida **When** la apago **Then** se refleja el cambio en la app inmediatamente.                                                                                                                                                    | Epic 11                       |
+| **HU-22** | Monitoreo de sensores de movimiento                                     | Como empresa de seguridad, quiero monitorear en tiempo real los sensores de movimiento de los dispositivos IoT para detectar intrusos.                                        | **Given** que estoy en el dashboard de sensores **When** un sensor detecta movimiento **Then** recibo una alerta inmediata en la app. <br><br> **Given** que la alerta se activa **When** reviso el registro de eventos **Then** se muestra la hora y la ubicación del movimiento detectado.                                                                                                                                | Epic 11                       |
+| **HU-23** | Monitorización de baterías en dispositivos IoT                          | Como empresa de seguridad, quiero monitorear el nivel de batería de los dispositivos IoT para asegurar que siempre estén operativos.                                          | **Given** que estoy en el dashboard de energía **When** el nivel de batería es bajo **Then** recibo una alerta para reemplazar o recargar el dispositivo. <br><br> **Given** que el nivel de batería se ha recuperado **When** recargo el dispositivo **Then** se notifica el estado actualizado de la batería.                                                                                                             | Epic 12                       |
+| **HU-24** | Automatización de escenarios                                            | Como propietario de un inmueble, quiero crear escenarios automatizados en mi app para que los dispositivos IoT actúen en conjunto según la hora o eventos específicos.        | **Given** que estoy en la app **When** configuro un escenario **Then** los dispositivos correspondientes se activan o desactivan automáticamente según lo programado. <br><br> **Given** que un escenario está activo **When** ocurre el evento programado **Then** se notifica al usuario de la acción realizada.                                                                                                          | Epic 12                       |
+| **HU-25** | Respuesta automatizada ante amenazas                                    | Como empresa de seguridad, quiero que el sistema responda automáticamente ante amenazas identificadas por los dispositivos de seguridad para minimizar el tiempo de reacción. | **Given** que una amenaza es detectada **When** el sistema la confirma **Then** se activan las medidas de seguridad preconfiguradas (alarma, bloqueo de puertas, notificación a autoridades). <br><br> **Given** que las medidas de seguridad están activadas **When** se recibe una nueva alerta **Then** el sistema registra la acción y notifica a los usuarios autorizados.                                             | Epic 13                       |
+| **HU-26** | Uso compartido de dispositivos                                          | Como propietario de un inmueble, quiero compartir el control de ciertos dispositivos con otros usuarios desde la app para que también puedan manejarlos.                      | **Given** que estoy en la sección de dispositivos **When** configuro el uso compartido **Then** el otro usuario tiene acceso limitado o completo según lo configurado. <br><br> **Given** que el acceso está compartido **When** el otro usuario intenta acceder **Then** se registra la actividad y se notifica al propietario.                                                                                            | Epic 14                       |
+| **HU-27** | Alertas de mantenimiento preventivo                                     | Como propietario de un inmueble, quiero recibir alertas de mantenimiento preventivo de los dispositivos para evitar fallos y asegurar su operación continua.                  | **Given** que tengo dispositivos operando **When** alguno necesita mantenimiento **Then** recibo una alerta en la app y el email con los pasos a seguir para realizar el mantenimiento. <br><br> **Given** que he realizado el mantenimiento **When** actualizo el estado en la app **Then** se registra la acción y se confirma la operación continua del dispositivo.                                                     | Epic 15                       |
+| **HU-28** | Sección de "Hero" con slogan y mensaje de bienvenida                    | Como visitante, quiero ver una sección de "Hero" con un slogan atractivo y un mensaje de bienvenida al acceder a la landing page.                                             | **Given** que el usuario accede a la landing page **When** se muestra la sección de "Hero" **Then** debe incluir un slogan y un mensaje de bienvenida visualmente atractivos.                                                                                                                                                                                                                                               | Epic 16                       |
+| **HU-29** | Sección de "Solutions" para mostrar tecnologías y beneficios            | Como visitante, quiero ver una sección de "Solutions" que muestre las tecnologías y beneficios del sistema.                                                                   | **Given** que el usuario está en la landing page **When** accede a la sección de "Solutions" **Then** debe ver las tecnologías y beneficios destacados de manera clara y concisa.                                                                                                                                                                                                                                           | Epic 16                       |
+| **HU-30** | Sección de "Followers" con experiencias positivas de usuarios           | Como visitante, quiero ver una sección de "Followers" que presente experiencias positivas de usuarios previos.                                                                | **Given** que el usuario está en la landing page **When** accede a la sección de "Followers" **Then** debe visualizar testimonios o experiencias positivas de usuarios.                                                                                                                                                                                                                                                     | Epic 16                       |
+| **HU-31** | Sección de "Learn more about us" con explicación visual del sistema     | Como visitante, quiero ver una sección que explique visualmente el sistema y sus características.                                                                             | **Given** que el usuario está en la landing page **When** accede a la sección "Learn more about us" **Then** debe encontrar una explicación visual clara del sistema.                                                                                                                                                                                                                                                       | Epic 17                       |
+| **HU-32** | Sección de "Política de Privacidad" o "Protección de Datos"             | Como visitante, quiero acceder a la sección de "Política de Privacidad" para entender cómo se protegen mis datos.                                                             | **Given** que el usuario está en la landing page **When** accede a la sección de "Política de Privacidad" **Then** debe visualizar la información relevante sobre la protección de datos.                                                                                                                                                                                                                                   | Epic 1                        |
+| **HU-33** | Sección de "Llamada a la Acción" para descarga en Google Play/App Store | Como visitante, quiero ver una sección de "Llamada a la Acción" que me invite a descargar la aplicación.                                                                      | **Given** que el usuario está en la landing page **When** accede a la sección de "Llamada a la Acción" **Then** debe ver los botones para descargar en Google Play y App Store.                                                                                                                                                                                                                                             | Epic 17                       |
+| **HU-34** | Sección de "Subscription Plans" con diferentes opciones de planes       | Como visitante, quiero ver una sección de "Subscription Plans" que muestre las diferentes opciones de suscripción.                                                            | **Given** que el usuario está en la landing page **When** accede a la sección de "Subscription Plans" **Then** debe visualizar las diferentes opciones de planes y precios.                                                                                                                                                                                                                                                 | Epic 17                       |
+| **HU-35** | Diseño responsivo para usuarios móviles                                 | Como usuario móvil, quiero que la landing page se vea bien en mi dispositivo para una mejor experiencia de usuario.                                                           | **Given** que un usuario accede a la landing page desde un dispositivo móvil **When** carga la página **Then** debe mostrarse un diseño responsivo y optimizado para móviles.                                                                                                                                                                                                                                               | Epic 18                       |
+| **HU-36** | Cambio de idioma en la landing page                                     | Como visitante, quiero poder seleccionar mi idioma en el sitio web para comprender toda la información y navegar de manera más efectiva                                       | **Given** que el usuario está en la landing page **When** selecciona un idioma de la opción de idiomas disponible **Then** el contenido de la página se actualiza al idioma seleccionado. <br><br> **Given** que el usuario cambia el idioma **When** navega a diferentes secciones de la página **Then** el contenido se muestra en el idioma elegido en todas las secciones.                                              | Epic 18                       |
+| **HU-37** | Monitoreo y almacenamiento de datos de sensores de movimiento           | Como usuario, quiero que el sistema detecte movimientos dentro de mi propiedad y registre estos eventos para monitorear posibles intrusos.                                    | **Given** que un sensor de movimiento se activa **When** el sistema recibe la señal **Then** se almacenan los datos en el backend con fecha, hora y ubicación. <br><br> **Given** que se detecta movimiento inusual **When** el sistema lo verifica **Then** se envía una notificación inmediata al usuario.                                                                                                                | Epic 19                       |
+| **HU-38** | Detección de humo y alerta de emergencia                                | Como usuario, quiero que el sistema detecte la presencia de humo en mi propiedad y me alerte inmediatamente para poder tomar acción.                                          | **Given** que el detector de humo activa **When** el sistema recibe la señal **Then** se envía una alerta de emergencia al dispositivo del usuario. <br><br> **Given** que se detecta humo **When** el sistema activa la alarma **Then** se registra el evento en el historial.                                                                                                                                             | Epic 19                       |
+| **HU-39** | Alerta por cambios de temperatura inesperados                           | Como usuario, quiero que el sistema monitoree la temperatura de mi propiedad y me notifique en caso de cambios bruscos, para poder identificar riesgos como incendios.        | **Given** que el sistema recibe una lectura de temperatura **When** verifica que está fuera de rango **Then** activa una alerta para el usuario. <br><br> **Given** que se registra un cambio brusco de temperatura **When** el sistema guarda la información **Then** se incluye fecha, hora y temperatura exacta en el registro.                                                                                          | Epic 19                       |
+| **HU-40** | Activación y desactivación de alarmas                                   | Como usuario, quiero poder activar o desactivar la alarma desde la aplicación para tener control sobre la seguridad de mi propiedad.                                          | **Given** que el usuario está en la aplicación **When** activa o desactiva la alarma **Then** el estado se actualiza en el backend en tiempo real. <br><br> **Given** que se intenta desactivar la alarma sin autorización **When** el sistema lo bloquea **Then** se envía una notificación de intento no autorizado.                                                                                                      | Epic 19                       |
+| **HU-41** | Historial de eventos de seguridad                                       | Como usuario, quiero poder acceder al historial de eventos de seguridad para revisar la actividad en mi propiedad.                                                            | **Given** que el usuario accede al historial **When** solicita ver eventos de seguridad **Then** se muestra un registro detallado de activaciones y cambios. <br><br> **Given** que el usuario desea filtrar el historial **When** selecciona las opciones de filtro **Then** se muestran los eventos según los criterios seleccionados.                                                                                    | Epic 20                       |
+| **HU-42** | Configuración de notificaciones personalizadas                          | Como usuario, quiero configurar qué tipo de notificaciones recibir para que el sistema me alerte solo en situaciones específicas.                                             | **Given** que el usuario está en la sección de configuraciones **When** activa o desactiva notificaciones por tipo de sensor **Then** los cambios se aplican en tiempo real. <br><br> **Given** que el usuario guarda sus preferencias **When** el sistema envía notificaciones según la configuración establecida **Then** se registra el tipo de notificación.                                                            | Epic 20                       |
+| **HU-43** | Pruebas periódicas de dispositivos                                      | Como usuario, quiero recibir notificaciones para realizar pruebas periódicas de los dispositivos IoT para asegurar que funcionan correctamente.                               | **Given** que el backend genera un recordatorio **When** el usuario recibe una notificación para realizar una prueba **Then** se registra la fecha y hora de la prueba en el sistema. <br><br> **Given** que un dispositivo falla durante la prueba **When** el sistema envía una notificación **Then** se recomienda realizar una revisión del dispositivo.                                                                | Epic 20                       |
+| **HU-44** | Integración con servicios de emergencia                                 | Como usuario, quiero que el sistema notifique a los servicios de emergencia automáticamente en caso de eventos críticos para una respuesta rápida.                            | **Given** que se detecta un evento crítico **When** el sistema está configurado para alertar a servicios de emergencia **Then** se envían los datos específicos del evento y la ubicación. <br><br> **Given** que la notificación se ha enviado **When** el sistema registra la hora del envío **Then** se confirma la acción en el registro.                                                                               | Epic 20                       |
 
 ## 3.3. Impact Mapping
 La herramienta denominada Impact Mapping consiste en una forma visual de representar las metas que nos plasmamos para llegar a cada sector de nuestro público. Por esta razón, el equipo utilizó este artefacto con el fin de definir nuestro camino para alcanzar a los segmentos objetivos. De este modo, al final del mapa mental identificamos las acciones y funcionalidades que debemos llevar a cabo para formar el proyecto de manera eficiente.
@@ -993,35 +1068,35 @@ Este mapa de impacto incluye los objetivos empresariales, los efectos deseados e
 
 Una vez que todas las User Stories están redactadas, es necesario priorizarlas. El Product Backlog se encarga de establecer un orden de relevancia entre todas las historias de usuario. Además, se incluirán los Story Points asignados a cada historia, que representan el esfuerzo requerido para completar exitosamente la User Story correspondiente.
 
-| **Orden** | **User Story ID** | **Título**                                          | **Descripción**                                                                                         | **Story Points** |
-|-----------|-------------------|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------|
-| 1         | HU-25             | Respuesta automatizada ante amenazas                | Como empresa de seguridad, quiero que el sistema responda automáticamente ante amenazas identificadas por los dispositivos de seguridad para minimizar el tiempo de reacción. | 5                |
-| 2         | HU-6              | Recibir notificaciones en tiempo real               | Como propietario de un inmueble, quiero recibir notificaciones en tiempo real en mi móvil sobre cualquier alerta de seguridad para tomar acciones inmediatas. | 3                |
-| 3         | HU-4              | Configurar notificaciones personalizadas            | Como empresa de seguridad, quiero configurar las alertas para recibir notificaciones específicas según los tipos de eventos en cada propiedad. | 3                |
-| 4         | HU-2              | Controlar dispositivos de seguridad                 | Como propietario de un inmueble, quiero controlar mis dispositivos de seguridad desde la aplicación web para armar o desarmar la alarma. | 3                |
-| 5         | HU-8              | Control de acceso remoto                            | Como propietario de un inmueble, quiero controlar el acceso a mi propiedad desde mi móvil para abrir o cerrar puertas de manera remota. | 3                |
-| 6         | HU-7              | Acceso remoto a cámaras                             | Como empresa de seguridad, quiero acceder a las cámaras de las propiedades desde mi dispositivo móvil para verificar en tiempo real cualquier alerta. | 5                |
-| 7         | HU-10             | Ver grabaciones de seguridad                        | Como propietario de un inmueble, quiero ver las grabaciones de seguridad desde mi móvil para revisar eventos pasados mientras estoy fuera de casa. | 5                |
-| 8         | HU-5              | Reportar un incidente                               | Como propietario de un inmueble, quiero reportar un incidente directamente desde la aplicación web para que la empresa de seguridad lo gestione. | 3                |
-| 9         | HU-1              | Ver historial de eventos                            | Como propietario de un inmueble, quiero poder ver el historial de los eventos para revisar incidentes pasados. | 2                |
-| 10        | HU-3              | Resumen de eventos                                  | Como usuario, quiero un resumen de todos los eventos desde una única interfaz para gestionar los dispositivos de manera eficiente. | 3                |
-| 11        | HU-26             | Uso compartido de dispositivos                      | Como propietario de un inmueble, quiero compartir el control de ciertos dispositivos con otros usuarios desde la app para que también puedan manejarlos. | 2                |
-| 12        | HU-27             | Alertas de mantenimiento preventivo                 | Como propietario de un inmueble, quiero recibir alertas de mantenimiento preventivo de los dispositivos para evitar fallos y asegurar su operación continua. | 3                |
-| 13        | HU-12             | Gestión de dispositivos conectados                  | Como administrador, quiero poder gestionar todos los dispositivos conectados para monitorear su estado y funcionamiento. | 3                |
-| 14        | HU-11             | Gestión de usuarios                                 | Como administrador, quiero poder gestionar todos los usuarios desde el backend para controlar el acceso y los permisos de la plataforma. | 3                |
-| 15        | HU-14             | Gestión de logs y auditoría                         | Como administrador, quiero poder acceder a los logs y realizar auditorías para monitorear la actividad del sistema y detectar anomalías. | 3                |
-| 16        | HU-9              | Crear y gestionar alertas desde la app             | Como empresa de seguridad, quiero poder crear y gestionar alertas desde mi móvil para estar siempre en control, incluso cuando no estoy en la oficina. | 3                |
-| 17        | HU-19             | Monitoreo de alertas en dispositivos edge          | Como propietario de un inmueble, quiero monitorear las alertas de mis dispositivos edge. | 3                |
-| 18        | HU-22             | Monitoreo de sensores de movimiento                 | Como empresa de seguridad, quiero monitorear en tiempo real los sensores de movimiento de los dispositivos IoT para detectar intrusos. | 3                |
-| 19        | HU-23             | Monitorización de baterías en dispositivos IoT      | Como empresa de seguridad, quiero monitorear el nivel de batería de los dispositivos IoT para asegurar que siempre estén operativos. | 2                |
-| 20        | HU-24             | Automatización de escenarios                         | Como propietario de un inmueble, quiero crear escenarios automatizados en mi app para que los dispositivos IoT actúen en conjunto según la hora o eventos específicos. | 5                |
-| 21        | HU-13             | Integración con sistemas de terceros                | Como administrador, quiero integrar la plataforma con sistemas de seguridad de terceros para ampliar las capacidades del sistema. | 3                |
-| 22        | HU-20             | Reinicio remoto de dispositivos edge                 | Como administrador, quiero poder reiniciar remotamente los dispositivos en el edge para solucionar problemas de manera eficiente. | 2                |
-| 23        | HU-16             | Detección de anomalías en tiempo real               | Como propietario de un inmueble, quiero que los dispositivos en el edge detecten anomalías en tiempo real para reaccionar de inmediato ante posibles amenazas. | 5                |
-| 24        | HU-18             | Autonomía operativa de dispositivos edge            | Como empresa de seguridad, quiero que los dispositivos en el edge funcionen de manera autónoma si pierden conexión con el servidor para asegurar la continuidad del servicio. | 5                |
-| 25        | HU-17             | Actualización remota de firmware                    | Como administrador, quiero poder actualizar remotamente el firmware de los dispositivos en el edge para asegurar su correcto funcionamiento y seguridad. | 3                |
-| 26        | HU-21             | Control de luces inteligentes                        | Como propietario de un inmueble, quiero controlar las luces inteligentes de mi propiedad desde la app para encender o apagar según necesidad. | 3                |
-| 27        | HU-15             | Configuración de políticas de seguridad              | Como administrador, quiero poder configurar políticas de seguridad para asegurar que todos los dispositivos y datos cumplan con los estándares requeridos. | 3                |
+| **Orden** | **User Story ID** | **Título**                                     | **Descripción**                                                                                                                                                               | **Story Points** |
+|-----------|-------------------|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| 1         | HU-25             | Respuesta automatizada ante amenazas           | Como empresa de seguridad, quiero que el sistema responda automáticamente ante amenazas identificadas por los dispositivos de seguridad para minimizar el tiempo de reacción. | 5                |
+| 2         | HU-6              | Recibir notificaciones en tiempo real          | Como propietario de un inmueble, quiero recibir notificaciones en tiempo real en mi móvil sobre cualquier alerta de seguridad para tomar acciones inmediatas.                 | 3                |
+| 3         | HU-4              | Configurar notificaciones personalizadas       | Como empresa de seguridad, quiero configurar las alertas para recibir notificaciones específicas según los tipos de eventos en cada propiedad.                                | 3                |
+| 4         | HU-2              | Controlar dispositivos de seguridad            | Como propietario de un inmueble, quiero controlar mis dispositivos de seguridad desde la aplicación web para armar o desarmar la alarma.                                      | 3                |
+| 5         | HU-8              | Control de acceso remoto                       | Como propietario de un inmueble, quiero controlar el acceso a mi propiedad desde mi móvil para abrir o cerrar puertas de manera remota.                                       | 3                |
+| 6         | HU-7              | Acceso remoto a cámaras                        | Como empresa de seguridad, quiero acceder a las cámaras de las propiedades desde mi dispositivo móvil para verificar en tiempo real cualquier alerta.                         | 5                |
+| 7         | HU-10             | Ver grabaciones de seguridad                   | Como propietario de un inmueble, quiero ver las grabaciones de seguridad desde mi móvil para revisar eventos pasados mientras estoy fuera de casa.                            | 5                |
+| 8         | HU-5              | Reportar un incidente                          | Como propietario de un inmueble, quiero reportar un incidente directamente desde la aplicación web para que la empresa de seguridad lo gestione.                              | 3                |
+| 9         | HU-1              | Ver historial de eventos                       | Como propietario de un inmueble, quiero poder ver el historial de los eventos para revisar incidentes pasados.                                                                | 2                |
+| 10        | HU-3              | Resumen de eventos                             | Como usuario, quiero un resumen de todos los eventos desde una única interfaz para gestionar los dispositivos de manera eficiente.                                            | 3                |
+| 11        | HU-26             | Uso compartido de dispositivos                 | Como propietario de un inmueble, quiero compartir el control de ciertos dispositivos con otros usuarios desde la app para que también puedan manejarlos.                      | 2                |
+| 12        | HU-27             | Alertas de mantenimiento preventivo            | Como propietario de un inmueble, quiero recibir alertas de mantenimiento preventivo de los dispositivos para evitar fallos y asegurar su operación continua.                  | 3                |
+| 13        | HU-12             | Gestión de dispositivos conectados             | Como administrador, quiero poder gestionar todos los dispositivos conectados para monitorear su estado y funcionamiento.                                                      | 3                |
+| 14        | HU-11             | Gestión de usuarios                            | Como administrador, quiero poder gestionar todos los usuarios desde el backend para controlar el acceso y los permisos de la plataforma.                                      | 3                |
+| 15        | HU-14             | Gestión de logs y auditoría                    | Como administrador, quiero poder acceder a los logs y realizar auditorías para monitorear la actividad del sistema y detectar anomalías.                                      | 3                |
+| 16        | HU-9              | Crear y gestionar alertas desde la app         | Como empresa de seguridad, quiero poder crear y gestionar alertas desde mi móvil para estar siempre en control, incluso cuando no estoy en la oficina.                        | 3                |
+| 17        | HU-19             | Monitoreo de alertas en dispositivos edge      | Como propietario de un inmueble, quiero monitorear las alertas de mis dispositivos edge.                                                                                      | 3                |
+| 18        | HU-22             | Monitoreo de sensores de movimiento            | Como empresa de seguridad, quiero monitorear en tiempo real los sensores de movimiento de los dispositivos IoT para detectar intrusos.                                        | 3                |
+| 19        | HU-23             | Monitorización de baterías en dispositivos IoT | Como empresa de seguridad, quiero monitorear el nivel de batería de los dispositivos IoT para asegurar que siempre estén operativos.                                          | 2                |
+| 20        | HU-24             | Automatización de escenarios                   | Como propietario de un inmueble, quiero crear escenarios automatizados en mi app para que los dispositivos IoT actúen en conjunto según la hora o eventos específicos.        | 5                |
+| 21        | HU-13             | Integración con sistemas de terceros           | Como administrador, quiero integrar la plataforma con sistemas de seguridad de terceros para ampliar las capacidades del sistema.                                             | 3                |
+| 22        | HU-20             | Reinicio remoto de dispositivos edge           | Como administrador, quiero poder reiniciar remotamente los dispositivos en el edge para solucionar problemas de manera eficiente.                                             | 2                |
+| 23        | HU-16             | Detección de anomalías en tiempo real          | Como propietario de un inmueble, quiero que los dispositivos en el edge detecten anomalías en tiempo real para reaccionar de inmediato ante posibles amenazas.                | 5                |
+| 24        | HU-18             | Autonomía operativa de dispositivos edge       | Como empresa de seguridad, quiero que los dispositivos en el edge funcionen de manera autónoma si pierden conexión con el servidor para asegurar la continuidad del servicio. | 5                |
+| 25        | HU-17             | Actualización remota de firmware               | Como administrador, quiero poder actualizar remotamente el firmware de los dispositivos en el edge para asegurar su correcto funcionamiento y seguridad.                      | 3                |
+| 26        | HU-21             | Control de luces inteligentes                  | Como propietario de un inmueble, quiero controlar las luces inteligentes de mi propiedad desde la app para encender o apagar según necesidad.                                 | 3                |
+| 27        | HU-15             | Configuración de políticas de seguridad        | Como administrador, quiero poder configurar políticas de seguridad para asegurar que todos los dispositivos y datos cumplan con los estándares requeridos.                    | 3                |
 
 # CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
 ## 4.1. Strategic-Level Domain-Driven Design
@@ -1100,30 +1175,24 @@ Para esta sección, acordamos como equipo ciertos diseños, fuentes, colores, et
 
 Para esta parte mostraremos nuestra guía organizada de los estilos y herramientas que se estarán utilizando para la construcción del diseño.
 
-**Brand Overview**
+#### 5.1.1.1. Branding
 
-La seguridad es una preocupación creciente en Lima, Perú, debido al aumento de robos e intrusiones en propiedades residenciales y comerciales. Los propietarios buscan soluciones efectivas que no solo sean accesibles, sino también confiables y tecnológicamente avanzadas para proteger lo que más valoran. Sin embargo, las soluciones de seguridad tradicionales tienden a ser costosas y, en muchos casos, ineficientes en ofrecer respuestas rápidas o integrarse con la tecnología moderna.
+FalconShield nace para ofrecer soluciones de seguridad IoT accesibles y efectivas, especialmente en Lima, Perú, donde el aumento de robos e intrusiones ha creado una demanda urgente de sistemas de seguridad modernos y asequibles. Nuestra plataforma integra sensores avanzados, cámaras inteligentes y sistemas de alarmas en una interfaz centralizada que permite monitorear en tiempo real y coordinar respuestas rápidas en caso de emergencia, en colaboración con empresas de seguridad.
 
-Nuestra solución, FalconShield, responde a esta necesidad crítica al ofrecer un ecosistema de seguridad IoT (Internet de las Cosas) que incluye sensores avanzados, cámaras inteligentes y sistemas de alarmas, todos integrados en una plataforma centralizada y fácil de usar. Este producto no solo permite monitorear y controlar el estado de seguridad en tiempo real, sino que también se asocia con empresas de seguridad para proporcionar una respuesta rápida y coordinada en caso de emergencias. VerySafe, nuestra empresa, se compromete a garantizar que la seguridad de nuestros usuarios sea accesible, eficaz y moderna.
-
-**Brand Name**
-
-El nombre de nuestra solución es FalconShield. Este surgió de la combinación de dos palabras que simbolizan nuestros valores fundamentales. Falcon, que representa agudeza y vigilancia, alude a la capacidad de nuestro sistema para detectar intrusiones y amenazas de manera precisa y rápida. Shield, que significa escudo, refuerza el concepto de protección y defensa contra cualquier peligro que pueda afectar las propiedades de nuestros usuarios.
-
-Elegimos el nombre en inglés para que sea comercialmente atractivo a nivel global y fácil de recordar en el mercado local. Este enfoque hace que el producto sea accesible y entendible no solo en Perú, sino también para una posible expansión en el futuro. VerySafe, el nombre de nuestra empresa, refleja nuestro compromiso de brindar soluciones que vayan más allá de las expectativas, asegurando una protección "muy segura" para todos nuestros clientes.
+El nombre “FalconShield” simboliza nuestros valores fundamentales: “Falcon” representa agudeza y vigilancia, mientras que “Shield” alude a protección y defensa. Este enfoque no solo refuerza nuestro compromiso con la seguridad, sino que también permite una expansión futura a mercados globales. Como empresa, VerySafe está comprometida con brindar una solución de seguridad que supere las expectativas y garantice protección confiable para nuestros clientes.
 
 A continuación, presentaremos nuestro logo: 
 
 ![logo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/logo1.jpg)
 
-**Typography**
+#### 5.1.1.2. Typography
 
 La tipografía debe ser clara y fácilmente legible, reflejando profesionalismo y modernidad. Aquí algunas recomendaciones:
 
 * **Fuente primaria:** Lato u Open Sans son excelentes opciones para reflejar tecnología avanzada y claridad. Son fuentes sans-serif modernas y versátiles.
 
-![lato](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/lato.png)
-![open sans](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/open%20sans.png)
+  ![lato](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/lato.png)
+  ![open sans](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/open%20sans.png)
 
 * **Jerarquía de texto:**
   
@@ -1132,8 +1201,7 @@ La tipografía debe ser clara y fácilmente legible, reflejando profesionalismo 
 Botones y CTA (Call to Action): El texto debe ser claro y conciso, con tamaños de entre 14px-16px.
     ![tipografia](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Typpgraphy.png)
 
-
-**Colors**
+#### 5.1.1.3. Colors
 
 Los colores juegan un papel clave en el diseño de VerySafe y FalconShield, y deben reflejar seguridad, confianza y tecnología. Basado en el análisis, tenemos estos colores
 
@@ -1165,7 +1233,7 @@ Para equilibrar los colores primarios y secundarios, utilizamos el gris claro y 
 
 ![gris](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/gris.jpg)
 
-**Spacing**
+#### 5.1.1.4. Spacing
 
 El espaciado es crucial para mejorar la experiencia del usuario y mantener un diseño limpio y fácil de navegar.
 
@@ -1257,14 +1325,15 @@ Los dispositivos IoT, como las cámaras y sensores, son fundamentales para la ex
 
 ## 5.2. Information Architecture
 ### 5.2.1. Organization Systems
-**1. Dueños de inmuebles**
+En nuestras aplicaciones web y móvil, utilizaremos los siguientes sistemas de organización de la información para describir de manera clara y concisa la información proporcionada por nuestra plataforma de seguridad IoT:
+1. **Jerarquía Visual (Visual Hierarchy):** La jerarquía visual destacará herramientas y reportes críticos en tiempo real, con un enfoque principal en alertas, notificaciones y opciones de respuesta rápida. Esto garantiza que los usuarios puedan identificar de inmediato la información más relevante para una acción rápida y efectiva.
+2. **Secuencial (Step-by-step to accomplish):** Este sistema se aplica en formularios como los de registro, inicio de sesión y registro de dispositivos, donde los usuarios deben seguir una secuencia de pasos para completar una tarea específica. Cada paso se presenta de forma clara y concisa, con indicaciones visuales para guiar al usuario.
+3. **Matricial:** Este sistema se aplica principalmente en datos agrupados como la vista de propiedades de un usuario, donde en cada tarjeta agrupa información esencial para poder tomar decisiones de qué acciones realizar de forma rápida. Además, permite una mejor visualización cuando hay muchos datos.
 
-**2. Empresas de seguridad**
-**Jerarquía Visual:** Se utilizará para resaltar herramientas y reportes críticos en tiempo real. Las alertas, notificaciones y opciones de respuesta rápida serán el foco principal.
-**Organización Matricial:** Para las tareas complejas como la coordinación de respuestas ante incidentes, se utilizará una organización matricial que permita acceder a diferentes funciones y recursos de manera rápida y paralela, manteniendo la flexibilidad en la navegación.
-**Esquemas de Categorización:**
- - **Cronológico:** Las alertas y eventos de seguridad se organizarán cronológicamente, permitiendo un monitoreo eficaz de situaciones en curso y el acceso a históricos de incidentes.
- - **Por Audiencia:** Diferentes tipos de usuarios dentro de las empresas de seguridad, como operadores o técnicos de campo, tendrán acceso a contenidos específicos según sus roles.
+Además, se utilizarán los siguientes esquemas de categorización de contenido para organizar la información de manera efectiva y facilitar la navegación de los usuarios:
+- **Alfabético:** Se aplica en las diversas listas presentes en la aplicación con el fin de facilitar la búsqueda de elementos específicos (por ejemplo, dispositivos, usuarios, propiedades).
+- **Cronológico:** Las secciones de eventos y notificaciones se organizan de forma cronológica, resaltando los datos más recientes.
+- **Por tópicos:** Los datos se clasifican según categorías, en este caso se usa a la hora de seleccionar un dispositivo IoT, se clasifican por tipo de dispositivo, como cámaras, sensores, alarmas, etc.
 
 ### 5.2.2. Labeling Systems
 
@@ -1363,6 +1432,7 @@ Presentaremos las etiquetas que identificarán y diferenciarán a nuestro sitio 
 
 1. App Title:
    1. FalconShield: Seguridad Inteligente en Tiempo Real
+
 2. App Subtitle: 
    1. Protege tu hogar y negocio con monitoreo avanzado IoT
 
@@ -1375,8 +1445,13 @@ Presentaremos las etiquetas que identificarán y diferenciarán a nuestro sitio 
 5. App Store Screenshots and Media:
    1. Asegúrate de incluir capturas de pantalla que muestren la interfaz de usuario, la funcionalidad de monitoreo en tiempo real, el control de dispositivos IoT, y las alertas en acción. Estas imágenes deben reflejar la facilidad de uso y el nivel avanzado de tecnología ofrecido.
 
-
 ### 5.2.4. Searching Systems
+El sistema de búsqueda en las aplicaciones de FalconShield está diseñado para permitir a los usuarios localizar información relevante de forma rápida y efectiva, optimizando la experiencia de usuario, incluso con grandes volúmenes de datos.
+
+Utilizaremos los siguientes sistemas de búsqueda para facilitar la navegación y la localización de información en la plataforma:
+- Barras de búsqueda: Se incluirán barras de búsqueda en las interfaces web y móvil, permitiendo a los usuarios buscar dispositivos específicos, alertas, eventos o propiedades.
+- Visualización de resultados: Los resultados de la búsqueda se presentarán de forma clara y organizada, con opciones de filtrado y ordenamiento para facilitar la selección de la información deseada.
+
 ### 5.2.5. Navigation Systems
 **1. Propietarios de inmuebles**
 - **Navegación Basada en Menús Desplegables:** La Landing Page incluirá un menú principal en la parte superior, con opciones desplegables que permitirán a los usuarios acceder a categorías de productos (cámaras, sensores, alarmas) y servicios (instalación, mantenimiento). Esto simplificará la búsqueda y permitirá que encuentren fácilmente lo que necesitan.
@@ -1576,30 +1651,41 @@ Tenemos también nuestras pantallas para que el usuario agregue los nuevos ambie
 | ![especificaciones del nuevo ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Room%20Especification.png) | **Detalles del ambiente:** En esta pantalla el usuario verá que dispositivos se encuentran en el ambiente seleccionado.                             |
 
 ### 5.4.2. Applications Wireflow Diagrams
-En esta sección se presentará los flujos de navegación entre pantallas de nuestra aplicación que visualizará el usuario y la interacción que tendrá con los elementos que presenta cada sección.
+A continuación, presentamos los diagramas de flujo de nuestra aplicación web y móvil, diseñados para representar cómo responde la aplicación a las interacciones de los usuarios. Cada diagrama refleja un objetivo del usuario vinculado a las distintas funcionalidades, con un único flujo que considera variaciones de acciones según los privilegios del usuario. Antes de crear estos diagramas, establecimos flujos de tareas para definir las rutas de navegación típicas en la aplicación.
+
+**TaskFlow**
+- Iniciar sesión
+- Crear el perfil del usuario
+- Agregar una nueva propiedad
+- Agregar un nuevo ambiente
+- Ver los detalles del ambiente
+- Registrar un nuevo dispositivo para el ambiente
+- Ver los detalles del dispositivo
+- Ver el resumen de eventos de los dispositivos
+- Solicitar asistencia técnica
 
 **WEB APPLICATION WIREFLOWS:**
 
-| **User Goal:** Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación.                                 | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow.png)  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| **User Goal:** Como usuario, quiero controlar mis dispositivos de seguridad desde la aplicación web para armar o desarmar la alarma..             | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow1.png) |
-| **User Goal:** Como usuario, quiero un resumen de todos los eventos desde una única interfaz para gestionar los dispositivos de manera eficiente. | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow2.png) |
-| **User Goal:** Como usuario, quiero tener una asistencia técnica para solucionar problemas con el dispositivo.                                    | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow3.png) |
-| **User Goal:** Como usuario, quiero ver las eventos registrados por los dispositivos.                                                             | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow4.png) |
+| User Goal                                                                                                                                                                                                                                                                                      | WifeFlow                                                                   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| **UG01:** Iniciar sesión en la aplicación con una cuenta previamente creada.<br/><br/> Permite al usuario autenticarse con su cuenta existente para acceder a todas las funcionalidades y configuraciones personalizadas en la aplicación.                                                     | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow.png)  |
+| **UG02:** Controlar dispositivos de seguridad para armar o desarmar la alarma desde la aplicación web.<br/><br/> Facilita al usuario la gestión remota de sus dispositivos de seguridad, permitiéndole activar o desactivar el sistema de alarma según sea necesario.                          | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow1.png) |
+| **UG03:** Visualizar un resumen de todos los eventos en una única interfaz para gestionar dispositivos de manera eficiente.<br/><br/> Proporciona al usuario una vista centralizada de todos los eventos registrados, permitiendo una rápida supervisión y administración de los dispositivos. | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow2.png) |
+| **UG04:** Acceder a asistencia técnica para resolver problemas con el dispositivo.<br/><br/> Ofrece al usuario una opción para recibir soporte técnico, ayudándole a resolver inconvenientes o fallas en sus dispositivos de manera rápida y eficaz.                                           | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow3.png) |
+| **UG05:** Consultar los eventos registrados por los dispositivos.<br/><br/> Permite al usuario revisar el historial de eventos capturados por sus dispositivos de seguridad, facilitando el seguimiento de actividades y análisis de incidencias.                                              | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow4.png) |
 
 **MOBILE APPLICATION WIREFLOWS:**
 
-Segmento objetivo Dueños de Inmuebles
+| User Goal                                                                                                                                                                                                                                                                     | WifeFlow                                                                                     |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| **UG06:** Crear una cuenta para registrarse en la aplicación.<br/><br/> Permite al usuario establecer una cuenta personal para acceder a las funciones de la aplicación y gestionar dispositivos de seguridad.                                                                | ![wireflow-register](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-register.png)     |
+| **UG01:** Iniciar sesión con una cuenta previamente creada para acceder a la aplicación.<br/><br/> Facilita al usuario el ingreso a la aplicación mediante sus credenciales, permitiéndole acceder a sus configuraciones y dispositivos.                                      | ![wireflow-login](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-login.png)           |
+| **UG07:** Acceder al perfil para visualizar los datos personales registrados en la aplicación.<br/><br/> Brinda al usuario la posibilidad de revisar y actualizar la información personal registrada en su perfil dentro de la aplicación.                                    | ![wireflow-profile](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-profile.png)       |
+| **UG08:** Agregar un nuevo dispositivo para controlar otra área del inmueble.<br/><br/> Permite al usuario ampliar su red de seguridad al añadir dispositivos adicionales para monitorear nuevas áreas en su inmueble.                                                        | ![wireflow-add-device](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-add-device.png) |
+| **UG09:** Agregar una nueva área para gestionar dispositivos IoT en distintas zonas del inmueble.<br/><br/> Facilita la organización de los dispositivos IoT, permitiendo al usuario definir diferentes áreas y asignar dispositivos a cada una para un control más ordenado. | ![wireflow-add-area](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-create-area.png)  |
+| **UG11:** Consultar los detalles de los dispositivos para conocer sus capacidades y ubicaciones en el inmueble.<br/><br/> Ofrece al usuario una descripción detallada de cada dispositivo, ayudándole a comprender sus características y la ubicación exacta en el inmueble.  | ![wireflow-add-area](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-device.png)       |
 
-| **User Goal:** Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación.                                                      | ![wireflow-register](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-register.png)     |
-|----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| **User Goal:** Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación.                                  | ![wireflow-login](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-login.png)           |
-| **User Goal:** Como usuario, deseo ingresar a mi perfil para visualizar los datos que presento en la aplicación.                                   | ![wireflow-profile](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-profile.png)       |
-| **User Goal:** Como usuario, deseo agregar un nuevo dispositivo para que pueda tener control de otra area de mi inmueble.                          | ![wireflow-add-device](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-add-device.png) |
-| **User Goal:** Como usuario, deseo agregar una nueva area para tener control con los dispositivos IoT.                                             | ![wireflow-add-area](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-create-area.png)  |
-| **User Goal:** Como usuario, deseo ver los detalles de los dispositivos para conocer más acerca de sus capacidades e instalaciones en el inmueble. | ![wireflow-add-area](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/w-device.png)       |
-
-### 5.4.2. Applications Mock-ups
+### 5.4.3. Applications Mock-ups
 
 **WEB APPLICATION MOCK-UP**
 
@@ -1607,7 +1693,7 @@ Segmento objetivo Dueños de Inmuebles
 |----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/mweb1.png) | **Inicio de Sesión:** En esta pantalla le mostramos al usuario los campos que tiene que llenar para que ingrese a nuestra aplicación. Utilizamos botones para que el usuario pueda diferenciar |
 | ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/mweb2.png) | **Registrar una cuenta:** En esta pantalla le mostramos al usuario los campos que tiene que llenar para poder crearse una cuenta.                                                              |
-|
+
 
 | Wireframe                                                                  | Descripción                                                                                                          |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -1644,16 +1730,16 @@ Tenemos también nuestra pantalla donde el usuario podrá ver su información pe
 
 Tenemos también nuestras pantallas para que el usuario agregue los dispositivos luego de ser instalados.
 
-| Wireframe                                                                                                  | Descripción                                                                                                                                                                    |
-|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![pantalla inicial de dispositivos](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MADD%20DEVICE.png) | **Pantalla principal de los Dispositivos:** En esta pantalla le presentaremos al usuario los dispositivos adquiridos, asi como un botón que puede agregar luego de obtener más |
-| ![seleccion de conexion](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%203.png)                  | **Selección tipo de conexión con el dispositivo nuevo:** En esta pantalla el usuario podrá elegir el tipo de conexión con su nuevo dispositivo en este caso Bluetooth          |
-| ![tipo de nuevo dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%204.png)              | **Selección del nuevo dispositivo:** En esta pantalla el usuario podrá seleccionar el nuevo dispositivo adquirido para poder agregarlo.                                        |
-| ![seleccion de ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%205.png)                  | **Selección de ambiente:** En esta pantalla el usuario podrá elegir en que ambiente de su inmueble fue colocado el nuevo dispositivo                                           |
-| ![nombre de dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%206.png)                  | **Ingreso de nombre del dispositivo nuevo:** En esta pantalla el usuario podrá ingresar como quiere que se llame su nuevo dispositivo.                                         |
-| ![dispositivo nuevo agregado exitoso](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%207.png)     | **Registro de dispositivo nuevo exitoso:** En esta pantalla el usuario podrá ver que agrego su dispositivo nuevo de forma exitosa en la aplicación                             |
-| ![nuevo dispositvo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%208.png)                       | **Ver nuevo dispositivo:** En esta pantalla el usuario podrá verificar el nuevo dispositivo que ha agregado.                                                                   |
-| ![detalles del dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MA%202.png)                | **Detalles del dispositivo:** En esta pantalla el usuario verá los detalles del dispositivo ya sea su descripción, el tipo de dispositivo, etc.                                |
+| Wireframe                                                                                                     | Descripción                                                                                                                                                                    |
+|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![pantalla inicial de dispositivos](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MADD%20DEVICE%7D.png) | **Pantalla principal de los Dispositivos:** En esta pantalla le presentaremos al usuario los dispositivos adquiridos, asi como un botón que puede agregar luego de obtener más |
+| ![seleccion de conexion](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%203.png)                     | **Selección tipo de conexión con el dispositivo nuevo:** En esta pantalla el usuario podrá elegir el tipo de conexión con su nuevo dispositivo en este caso Bluetooth          |
+| ![tipo de nuevo dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%204.png)                 | **Selección del nuevo dispositivo:** En esta pantalla el usuario podrá seleccionar el nuevo dispositivo adquirido para poder agregarlo.                                        |
+| ![seleccion de ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%205.png)                     | **Selección de ambiente:** En esta pantalla el usuario podrá elegir en que ambiente de su inmueble fue colocado el nuevo dispositivo                                           |
+| ![nombre de dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%206.png)                     | **Ingreso de nombre del dispositivo nuevo:** En esta pantalla el usuario podrá ingresar como quiere que se llame su nuevo dispositivo.                                         |
+| ![dispositivo nuevo agregado exitoso](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%207.png)        | **Registro de dispositivo nuevo exitoso:** En esta pantalla el usuario podrá ver que agrego su dispositivo nuevo de forma exitosa en la aplicación                             |
+| ![nuevo dispositvo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MAD%208.png)                          | **Ver nuevo dispositivo:** En esta pantalla el usuario podrá verificar el nuevo dispositivo que ha agregado.                                                                   |
+| ![detalles del dispositivo](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MA%202.png)                   | **Detalles del dispositivo:** En esta pantalla el usuario verá los detalles del dispositivo ya sea su descripción, el tipo de dispositivo, etc.                                |
 
 Tenemos también nuestras pantallas para que el usuario agregue los nuevos ambientes que desea un dispositivo.
 
@@ -1666,48 +1752,181 @@ Tenemos también nuestras pantallas para que el usuario agregue los nuevos ambie
 | ![visualizacion del nuevo ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/MCR%204.png)          | **Nuevo ambiente visualizado:** En esta pantalla el usuario verá que se agrego el ambiente en la aplicación móvil.                                  |
 | ![especificaciones del nuevo ambiente](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Living%20Room.png) | **Detalles del ambiente:** En esta pantalla el usuario verá que dispositivos se encuentran en el ambiente seleccionado.                             |
 
-### 5.4.3. Applications User Flow Diagrams
+### 5.4.4. Applications User Flow Diagrams
 
 **MOBILE APPLICATION USERFLOWS:**
 Enlace para una mejor visualización: https://overflow.io/s/3C8AFWFU
 
-| --                                                                                                                        | --                                                                          |
-|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| **USER GOAL:** Como usuario deseo crear una cuenta                                                                        | ![flow1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/userflow2.jpg) |
-| **USER GOAL:** Como usuario deseo iniciar sesión con mi cuenta previamente creada                                         | ![flow2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/userflow1.jpg) |
-| **USER GOAL:** Como usuario deseo poder visualizar mi perfil                                                              | ![flow3](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/FLOW3.jpg)     |
-| **USER GOAL:** Como usuario, deseo agregar un nuevo dispositivo para que pueda tener control de otra area de mi inmueble. | ![flow4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow4.jpg)     |
-| **USER GOAL:** Como usuario, deseo agregar una nueva area para tener control con los dispositivos IoT.                    | ![flow5](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/folw5.jpg)     |
+| User Goal                                                                                                                                                                                                                                                                     | WireFlow                                                                    |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| **UG06:** Crear una cuenta para registrarse en la aplicación.<br/><br/> Permite al usuario establecer una cuenta personal para acceder a las funciones de la aplicación y gestionar dispositivos de seguridad.                                                                | ![flow1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/userflow2.jpg) |
+| **UG01:** Iniciar sesión en la aplicación con una cuenta previamente creada.<br/><br/> Permite al usuario autenticarse con su cuenta existente para acceder a todas las funcionalidades y configuraciones personalizadas en la aplicación.                                    | ![flow2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/userflow1.jpg) |
+| **UG07:** Acceder al perfil para visualizar los datos personales registrados en la aplicación.<br/><br/> Brinda al usuario la posibilidad de revisar y actualizar la información personal registrada en su perfil dentro de la aplicación.                                    | ![flow3](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/FLOW3.jpg)     |
+| **UG08:** Agregar un nuevo dispositivo para controlar otra área del inmueble.<br/><br/> Permite al usuario ampliar su red de seguridad al añadir dispositivos adicionales para monitorear nuevas áreas en su inmueble.                                                        | ![flow4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/flow4.jpg)     |
+| **UG09:** Agregar una nueva área para gestionar dispositivos IoT en distintas zonas del inmueble.<br/><br/> Facilita la organización de los dispositivos IoT, permitiendo al usuario definir diferentes áreas y asignar dispositivos a cada una para un control más ordenado. | ![flow5](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/folw5.jpg)     |
 
 ## 5.5. Applications Prototyping
+En esta sección se detalla el proceso de creación de prototipos para las aplicaciones web y móvil (wireframes y mockups) que permitieron validar tanto el diseño como la estructura de la información, garantizando una navegación fluida y una experiencia de usuario de alta calidad. En la aplicación web se priorizó un flujo de funciones lógico y bien estructurado, mientras que en la versión móvil se aplicaron principios de diseño adaptable y usabilidad para pantallas más pequeñas. Este enfoque aseguró que ambas aplicaciones fueran no solo atractivas visualmente, sino también funcionales y accesibles, alineándose con las expectativas del cliente y las necesidades del usuario final.
+
+[//]: # (TODO Agregar los videos)
 
 # CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
 ## 6.1. Software Configuration Management
 ### 6.1.1. Software Development Environment Configuration
 En esta sección se presenta la configuración del entorno de desarrollo de software utilizado por el equipo en el proyecto de IoT. A continuación, se detallan las herramientas seleccionadas, junto con sus descripciones y propósitos específicos, así como los enlaces para acceder a cada una de ellas. Estas herramientas son fundamentales para colaborar eficazmente en las diversas etapas del ciclo de vida de los productos digitales, incluyendo la gestión de proyectos, la gestión de requisitos, el diseño UX/UI, el desarrollo de software, las pruebas, el despliegue y la documentación.
 
-| Herramienta       | Descripción y propósito                                                                                                                                                                                                                                  | Enlace                                                           |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-| UX Pressia        | Herramienta para crear mapas de experiencia del usuario, permitiendo visualizar y documentar la experiencia del usuario en un formato colaborativo. Se utilizará para desarrollar y comunicar la experiencia del usuario en las soluciones de IoT.       | [https://uxpressia.com](https://uxpressia.com)                   |
-| Miro              | Pizarra colaborativa en línea ideal para la lluvia de ideas y la planificación de proyectos. Se utilizará para la colaboración en la definición de requisitos y la creación de diagramas de flujo que guiarán el desarrollo del software.                | [https://miro.com](https://miro.com)                             |
-| Figma             | Herramienta de diseño de interfaces y prototipado colaborativo que permite trabajar juntos en tiempo real. Se utilizará para diseñar la interfaz de usuario (UI) y crear prototipos interactivos que se validarán con los usuarios finales.              | [https://www.figma.com](https://www.figma.com)                   |
-| Overflow          | Herramienta de diagramación de flujos de usuario que permite crear recorridos visuales de las interacciones del usuario. Se utilizará para ilustrar cómo los usuarios interactuarán con la solución de IoT.                                              | [https://overflow.io](https://overflow.io)                       |
-| Structurizr       | Herramienta para crear diagramas de arquitectura de software utilizando el lenguaje C4. Se utilizará para definir y comunicar la arquitectura de la solución IoT.                                                                                        | [https://structurizr.com](https://structurizr.com)               |
-| LucidChart        | Herramienta de diagramación en línea que permite crear diagramas de flujo y organigramas. Se utilizará para documentar visualmente los procesos y flujos de trabajo asociados con el desarrollo de la solución de IoT.                                   | [https://www.lucidchart.com](https://www.lucidchart.com)         |
-| Vertabelo         | Herramienta de diseño de bases de datos que permite crear y documentar esquemas de bases de datos. Se utilizará para el modelado de datos en el proyecto, asegurando que la estructura de la base de datos se alinee con los requisitos del sistema IoT. | [https://www.vertabelo.com](https://www.vertabelo.com)           |
-| HTML5             | Lenguaje de marcado estándar para crear páginas web. Se utilizará para estructurar el contenido de las aplicaciones web del proyecto, asegurando una base sólida para la interfaz de usuario.                                                            | No dispone                                                       |
-| CSS3              | Hoja de estilo utilizada para diseñar la presentación de las aplicaciones web. Se utilizará para estilizar las interfaces de usuario y garantizar una experiencia visual atractiva y coherente.                                                          | No dispone                                                       |
-| JavaScript        | Lenguaje de programación utilizado para desarrollar aplicaciones web interactivas. Se utilizará para implementar la lógica de negocio y las interacciones en la aplicación de IoT.                                                                       | No dispone                                                       |
-| Angular Framework | Framework de desarrollo web para construir aplicaciones web de una sola página. Se utilizará para crear la interfaz del usuario y gestionar el estado de la aplicación IoT.                                                                              | [https://angular.io](https://angular.io)                         |
-| Angular Material  | Biblioteca de componentes de UI para Angular que sigue las pautas de diseño de Material Design. Se utilizará para implementar componentes de interfaz de usuario coherentes y responsivos en la aplicación.                                              | [https://material.angular.io](https://material.angular.io)       |
-| TypeScript        | Superset de JavaScript que añade tipado estático. Se utilizará en el proyecto para mejorar la calidad del código y facilitar el desarrollo al proporcionar herramientas de desarrollo más robustas.                                                      | [https://www.typescriptlang.org](https://www.typescriptlang.org) |
-| Trello            | Herramienta de gestión de proyectos que utiliza tableros para organizar tareas y proyectos. Se utilizará para gestionar el progreso del proyecto, asignar tareas y hacer seguimiento del trabajo del equipo.                                             | [https://trello.com](https://trello.com)                         |
-| GIT               | Sistema de control de versiones distribuido que permite gestionar el código fuente del proyecto. Se utilizará para llevar un seguimiento de los cambios en el código y colaborar eficientemente entre los miembros del equipo.                           | [https://git-scm.com](https://git-scm.com)                       |
-| GitHub            | Plataforma de desarrollo colaborativo que permite almacenar y gestionar repositorios de código usando Git. Se utilizará para alojar el código del proyecto y facilitar la colaboración entre los miembros del equipo.                                    | [https://github.com](https://github.com)                         |
-| GitFlow           | Flujo de trabajo para Git que define un modelo de ramificación para gestionar el desarrollo. Se utilizará para organizar el trabajo en el proyecto, facilitando la integración de nuevas características y la gestión de lanzamientos.                   | No dispone                                                       |
+#### Project Management
+1. Trello
+    - Propósito: Gestionar tareas, organizar proyectos y colaborar en equipo mediante tableros visuales.
+    - Ruta de acceso: https://trello.com
 
+#### Requirements Management
+1. Miro
+    - Propósito: Pizarra colaborativa en línea para la creación de diagramas, mapas mentales y prototipos interactivos.
+    - Ruta de acceso: https://miro.com
+
+2. Structurizr
+    - Propósito: Crear modelos de arquitectura de software y documentar la estructura de sistemas de software.
+    - Ruta de acceso: https://structurizr.com
+
+3. LucidChart
+    - Propósito: Crear diagramas de flujo, organigramas y mapas conceptuales para visualizar y compartir ideas.
+    - Ruta de acceso: https://www.lucidchart.com
+
+4. Vertabelo
+    - Propósito: Modelar y diseñar bases de datos relacionales para definir la estructura de datos de la aplicación.
+    - Ruta de acceso: https://www.vertabelo.com
+
+#### Product UX/UI Design
+1. UX Pressia
+    - Propósito: Creación de mapas de experiencia del usuario para visualizar y documentar la experiencia del usuario.
+    - Ruta de acceso: https://uxpressia.com
+
+2. Figma
+    - Propósito: Prototipado de interfaces de usuario y diseño colaborativo para crear experiencias de usuario interactivas.
+    - Ruta de acceso: https://www.figma.com
+
+3. Overflow
+    - Propósito: Diagramación de flujos de usuarios para ilustrar las interacciones del usuario con la solución de IoT.
+    - Ruta de acceso: https://overflow.io
+   
+#### Software Development
+1. Visual Studio Code
+    - Propósito: Editor de código fuente ligero y potente para el desarrollo de aplicaciones web y móviles.
+    - Ruta de descarga: https://code.visualstudio.com
+
+2. IntelliJ IDEA
+    - Propósito: Entorno de desarrollo integrado (IDE) para el desarrollo del backend y la lógica de negocio de la aplicación IoT.
+    - Ruta de descarga: https://www.jetbrains.com/idea
+   
+3. Postman
+    - Propósito: Colaboración para el desarrollo de APIs y pruebas de software.
+    - Ruta de acceso: https://www.postman.com
+
+4. Git
+    - Propósito: Sistema de control de versiones distribuido para gestionar el código fuente del proyecto.
+    - Ruta de descarga: https://git-scm.com
+
+5. GitHub
+    - Propósito: Plataforma de alojamiento de código fuente y colaboración para el desarrollo de software.
+    - Ruta de acceso: https://github.com
+
+6. Vue Framework
+    - Propósito: Framework de desarrollo web para construir la interfaz de usuario de la aplicación web.
+    - Ruta de acceso: https://vuejs.org
+
+7. Spring Boot
+    - Propósito: Framework de desarrollo de aplicaciones Java para crear el backend de la aplicación.
+    - Ruta de acceso: https://spring.io/projects/spring-boot
+
+8. Flutter
+    - Propósito: SDK de código abierto para desarrollar la aplicación móvil multiplataforma.
+    - Ruta de acceso: https://flutter.dev
+
+9. PostgreSQL
+    - Propósito: Sistema de gestión de bases de datos relacional para almacenar los datos de la aplicación.
+    - Ruta de acceso: https://www.postgresql.org
+
+#### Software Deployment
+1. Amazon Web Services (AWS)
+    - Propósito: Plataforma de servicios en la nube para alojar y desplegar bases de datos, servidores y aplicaciones web.
+    - Ruta de acceso: https://aws.amazon.com
+   
+2. Vercel
+    - Propósito: Plataforma de alojamiento web para la aplicación web y landing page de FalconShield.
+    - Ruta de acceso: https://vercel.com
+
+3. Render
+    - Propósito: Plataforma de alojamiento para los servicios de backend y API de la aplicación IoT.
+    - Ruta de acceso: https://render.com
+
+#### Software Documentation
+1. Markdown
+    - Propósito: Lenguaje de marcado ligero para escribir documentación técnica y colaborar en el proyecto.
+    - Ruta de acceso: https://www.markdownguide.org
+
+2. Swagger
+    - Propósito: Herramienta de documentación de API para describir y visualizar las API RESTful del backend.
+    - Ruta de acceso: https://swagger.io
 
 ### 6.1.2. Source Code Management
+En esta sección se presenta la configuración del control de versiones del código fuente del proyecto de IoT, utilizando Git como sistema de control de versiones distribuido. A continuación, se detallan las herramientas y plataformas seleccionadas para la gestión del código fuente, así como las prácticas y convenciones de desarrollo de software aplicadas en el proyecto.
+
+#### Repositorios de Código Fuente
+Cada proyecto de software de FalconShield se encuentra en una organización donde esta a su vez cuenta con diversos repositorios en GitHub, donde se almacenan y gestionan los archivos de código fuente, documentación y recursos del proyecto.
+
+- Organización: 
+  - Enlace: [Caffeine IoT](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT)
+
+- Reporte: Repositorio donde se almacena la documentación de todo el proyecto.
+  - Enlace: [Reporte](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/Desarrollo-de-Soluciones-IOT)
+
+- Landing Page: Repositorio donde se almacena el código fuente de la landing page de FalconShield desarrollada en HTML, CSS y JavaScript.
+  - Enlace: [Landing Page](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Landing-Page)
+
+- Aplicación Web: Repositorio donde se almacena el código fuente de la aplicación web de FalconShield desarrollada en Vue.js
+  - Enlace: [Aplicación Web](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web)
+
+- Aplicación Móvil: Repositorio donde se almacena el código fuente de la aplicación móvil de FalconShield desarrollada en Flutter.
+  - Enlace: [Aplicación Móvil](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot)
+
+- Web API (backend): Repositorio donde se almacena el código fuente de los servicios principales para las apps de FalconShield desarrollado en Java con Spring Boot.
+  - Enlace: [Web API](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield)
+
+- Edge API: Repositorio donde se almacena el código fuente de la edge API para los dispositivos IoT de FalconShield desarrollada en Java con Spring Boot.
+  - Enlace: [Edge API](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi)
+
+#### GitFlow Workflow
+Se trabajó con el flujo de trabajo GitFlow, un modelo de ramificación para Git que se centra en la colaboración y la liberación de software. Este flujo de trabajo define una estructura de ramificación estricta diseñada en torno a la publicación de versiones del software. A continuación, se describen las ramas principales utilizadas en el proyecto:
+
+- **Ramas principales:**
+  - `main`: Rama principal que contiene el código fuente de producción estable y se actualiza con las versiones finales del software.
+  - `develop`: Rama de desarrollo que contiene el código fuente en desarrollo y se actualiza con las nuevas características y correcciones de errores.
+
+- **Rama de características:** 
+  - `feature/{nombre}`: Ramas de características que se crean a partir de develop para desarrollar nuevas funcionalidades y se fusionan de nuevo en develop.
+
+- **Rama de lanzamientos:**
+  - `release/{version}`: Ramas de lanzamiento que se crean a partir de develop para preparar la versión de producción y se fusionan en develop y main.
+
+- **Rama de correcciones:**
+    - `hotfix/{nombre}`: Ramas de corrección de errores que se crean a partir de main para solucionar problemas críticos y se fusionan en develop y main.
+
+#### Semantic Versioning
+Se aplicó el versionado semántico para la numeración de versiones del software, siguiendo un esquema de tres números (X.Y.Z) que representan los siguientes elementos:
+
+- `X`: Versión principal (major) que se incrementa cuando se realizan cambios incompatibles (ej. cambios en la API) o se agregan nuevas funcionalidades.
+- `Y`: Versión secundaria (minor) que se incrementa cuando se agregan funcionalidades compatibles con versiones anteriores.
+- `Z`: Versión de corrección (patch) que se incrementa cuando se corrigen errores y se realizan mejoras compatibles.
+
+#### Conventional Commits
+Se adoptó el estándar de mensajes de confirmación convencionales para estructurar y normalizar los mensajes de confirmación del código fuente. Este enfoque facilita la generación de registros de cambios automáticos y la comunicación efectiva entre los miembros del equipo. A continuación, se presentan los tipos de mensajes de commit utilizados en el proyecto:
+
+- `feat`: Nueva funcionalidad (ej. "feat: add login page")
+- `fix`: Corrección de errores (ej. "fix: resolve login issue")
+- `docs`: Cambios en la documentación (ej. "docs: update README")
+- `refactor`: Refactorización del código (ej. "refactor: improve code structure")
+
 ### 6.1.3. Source Code Style Guide & Conventions
 A continuación, se darán a conocer las convenciones, formatos, estilos y entre otras propiedades de los lenguajes trabajados en la presente solución las cuales son: HTML, JavaScript/TypeScript, Java y CSS. Además, por el lado de las pruebas de aceptación también se darán a conocer dichos temas para el lenguaje Gherkin.
 
@@ -1728,7 +1947,7 @@ A continuación, se darán a conocer las convenciones, formatos, estilos y entre
 - _Evitar los selectores de ID:_ No se recomienda implementar este tipo de selectores, por la razón de que estos deben ser únicos en toda la página y en proyectos grandes que tengan muchos componentes es difícil de garantizar esa unicidad, es preferible usar selectores de clase.
 - _Usar propiedades abreviadas:_ Es muy recomendable usar propiedades que soporten ser declarados de forma abreviada (por ejemplo, la propiedad padding, margin, border, etc.) por la razón de que reduce de forma significativa la cantidad de líneas de código, y es más legible para el programador o diseñador.
 
-**JavaScript:** Se consideró importante seguir una guía de buenas prácticas para un mejor desarrollo del código, para este caso se eligió la guía de la wiki “JavaScript best practices“ del World Wide Web (W3C). Lo cual se destaca lo siguiente:
+**JavaScript:** Se consideró importante seguir una guía de buenas prácticas para un mejor desarrollo del código, para este caso se eligió la guía de la wiki "JavaScript best practices" del World Wide Web (W3C). Lo cual se destaca lo siguiente:
 
 - _Usar nombres cortos y fáciles de leer:_ Es recomendable nombrar adecuadamente las variables, clases, funciones y otros elementos para que sea más sencillo de leer y comprender.
 - _Evitar el uso de variables globales (keyword “var”):_ No se recomienda el uso de este tipo de variables en un proyecto, porque pueden generar muchos errores a medida que el proyecto crece y estas pueden sobrescribirse fácilmente afectando el valor y se pueden declarar otros elementos como funciones con el mismo nombre de la variable y generar errores.
@@ -1771,7 +1990,7 @@ A continuación, se darán a conocer las convenciones, formatos, estilos y entre
 - _Logging con SLF4J:_ Realizar el registro de eventos y seguimiento de la aplicación utilizando la interfaz SLF4J (Simple Logging Facade for Java). 
 - _Seguridad con Spring Security:_ Implementar la seguridad en la aplicación utilizando Spring Security para autenticación y autorización. 
 
-**Java:** Se siguieron las convenciones y guías de estilo de código de " Java Style Guide” de Google y se destaca lo siguiente: 
+**Java:** Se siguieron las convenciones y guías de estilo de código de "Java Style Guide" de Google y se destaca lo siguiente: 
 
 - _Nombres de Clases en CamelCase:_ Los nombres de clases en Java deben seguir la convención CamelCase, donde cada palabra comienza con mayúscula. Ejemplo: MiClase. 
 - _Nombres de Paquetes en minúsculas:_ Los nombres de paquetes en Java se escriben en minúsculas y generalmente reflejan la estructura del proyecto. Ejemplo: com.miproyecto. 
@@ -1795,49 +2014,79 @@ A continuación, se darán a conocer las convenciones, formatos, estilos y entre
 
 En esta sección especificaremos los pasos necesarios para realizar el despliegue de los productos digitales actuales de la solución. En la fase inicial, se despliega la Landing Page utilizando GitHub Pages y la aplicación Web en Netlify.
 
-**Landing Page - Despliegue en GitHub Pages**
+#### Landing Page - Despliegue en GitHub Pages
+La landing page de FalconShield se desplegó utilizando GitHub Pages, una función de GitHub que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. A continuación, se detallan los pasos para desplegar la Landing Page en GitHub Pages:
 
-**Pasos para el Despliegue:**
 1. Preparación del Repositorio:
-   * Asegúrate de tener el repositorio de GitHub creado para la Landing Page.
+   * Asegurarse de tener el repositorio de GitHub creado para la Landing Page.
    * Todos los archivos de la Landing Page (HTML, CSS, JavaScript y activos estáticos) deben estar en el directorio raíz o en una carpeta llamada docs.
   
 2. Configurar GitHub Pages:
-   * Ve a la sección de Settings en tu repositorio de GitHub.
-   * Desplázate hasta GitHub Pages y selecciona la rama desde la que deseas desplegar tu página (generalmente main o master).
-   * Si los archivos de tu Landing Page están en una carpeta específica, como docs, selecciona esa carpeta en el desplegable.
+   * Ir a la sección de Settings en tu repositorio de GitHub.
+   * Desplazarse hasta GitHub Pages y seleccionar la rama desde la que se desea desplegar la página (generalmente main o master).
+   * Si los archivos de la Landing Page están en una carpeta específica, como docs, selecciona esa carpeta en el desplegable.
 
 3. Publicación:
-     * Guarda los cambios. GitHub Pages generará automáticamente una URL donde tu Landing Page estará disponible.
-     * Verifica que la Landing Page sea accesible desde la URL proporcionada por GitHub Pages.
+     * Guardar los cambios. GitHub Pages generará automáticamente una URL donde la Landing Page estará disponible.
+     * Verificar que la Landing Page sea accesible desde la URL proporcionada por GitHub Pages.
 
 4. Actualizaciones:
-   * Para hacer cambios en la Landing Page, realiza commits y push en el repositorio. GitHub Pages actualizará automáticamente el sitio con los cambios subidos.
+   * Para hacer cambios en la Landing Page, realizar commits y push en el repositorio. GitHub Pages actualizará automáticamente el sitio con los cambios subidos.
 
-**Web Application - Despliegue en Netlify**
-**Pasos para el Despliegue:**
+#### Web Application - Despliegue en Vercel
+La aplicación web de FalconShield se desplegó utilizando Vercel, una plataforma de alojamiento web que permite desplegar aplicaciones web estáticas y dinámicas de forma sencilla y rápida. A continuación, se detallan los pasos para desplegar la Aplicación Web en Vercel:
 
 1. Preparación del Proyecto:
-   * Asegúrate de que el proyecto esté correctamente configurado en tu entorno local.
-   * Genera una versión de producción del proyecto con el comando adecuado (ejemplo: npm run build si usas React).
+   * Asegurarse de que el proyecto esté correctamente configurado en el entorno local
+   * Generar una versión de producción del proyecto con el comando adecuado (por ejemplo, npm run build si se utiliza Vite)
 
-2. Conexión con Netlify:
-   * Inicia sesión en tu cuenta de Netlify.
-   * En el panel de control, selecciona "New site from Git".
-   * Conecta tu repositorio de GitHub donde está alojada la Web Application.
+2. Conexión con Vercel:
+   * Iniciar sesión en la cuenta de Vercel.
+   * En el panel de control de Vercel, seleccionar “New Project”.
+   * Conectar el repositorio de GitHub donde está alojada la Web Application.
 
 3. Configuración de Despliegue:
-   * Selecciona la rama que deseas desplegar (generalmente main o master).
-   * Especifica el comando de construcción (por ejemplo, npm run build) y la carpeta donde se encuentra la salida (build o dist, dependiendo de tu configuración).
+   * Seleccionar la rama que se desea desplegar (generalmente main o master)
+   * Configurar el comando de construcción (por ejemplo, npm run build) y especificar la carpeta donde se encuentra la salida de la compilación (build o dist, dependiendo de la configuración)
   
 4. Publicación:
-   * Netlify construirá y desplegará automáticamente la aplicación. Una vez que el despliegue esté completo, recibirás una URL para acceder a la aplicación.
-   * Puedes personalizar la URL o usar un dominio personalizado en la configuración de Netlify.
+   * Vercel construirá y desplegará automáticamente la aplicación. Una vez completado el despliegue, se proporcionará una URL para acceder a la aplicación
+   * Se puede personalizar la URL o utilizar un dominio personalizado en la configuración de Vercel
 
 5. Actualizaciones:
-   * Para actualizar la Web Application, realiza cambios en el código, haz commits y push. Netlify detectará automáticamente los cambios y reconstruirá el sitio.
+   * Para actualizar la Web Application, realizar cambios en el código, hacer commits y push. Vercel detectará automáticamente los cambios y reconstruirá el sitio
 
-**Deployment Diagram (C4 Model)**
+#### Web API - Despliegue en Render
+La Web API de FalconShield se desplegó utilizando Render, una plataforma de alojamiento que permite desplegar aplicaciones web y servicios de backend de forma sencilla y escalable. A continuación, se detallan los pasos para desplegar la Web API en Render:
+
+1. Preparación del Proyecto:
+   * Asegurarse de que el proyecto backend esté correctamente configurado en el entorno local
+   * Crear un archivo `Dockerfile` en la raíz del proyecto para especificar el entorno y las configuraciones necesarias para ejecutar la aplicación
+
+2. Configuración del Repositorio:
+   * Hacer push del código junto con el Dockerfile a la rama principal del repositorio (generalmente main o master)
+
+3. Conexión con Render:
+   * Iniciar sesión en la cuenta de Render.
+   * Crear un nuevo servicio de backend y seleccionar la opción de conectar con un repositorio de GitHub
+
+4. Configuración del Despliegue:
+   - En la configuración del servicio:
+      - Name: Asignar un nombre al servicio
+      - Region: Seleccionar la región en la que se desea desplegar el backend
+      - Branch: Seleccionar la rama que se desea desplegar (generalmente main o master)
+      - Runtime: Seleccionar “Docker” como el entorno de ejecución
+      - Render detectará automáticamente el Dockerfile en el repositorio y lo usará para construir y ejecutar el servicio
+      - Environment Variables: Agregar cualquier variable de entorno necesaria (como API keys o configuraciones específicas) en la sección de Environment de Render
+
+5. Publicación:
+   * Render iniciará el proceso de construcción y despliegue. Una vez completado el despliegue, se proporcionará una URL para acceder al backend
+   * Comprobar que el backend esté funcionando correctamente accediendo a la URL proporcionada y probando los endpoints
+
+6. Actualizaciones:
+   * Para actualizar el backend, realizar cambios en el código, hacer commits y push en el repositorio. Render detectará automáticamente los cambios, reconstruirá y desplegará nuevamente el servicio
+
+#### Deployment Diagram (C4 Model)
 Para esta parte como es una etapa inicial contamos únicamente con nuestra Landing Page y nuestra primera versión de la aplicación Web
 
 ![deployment C4 1er sprint](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploymentc4.jpg)
@@ -1912,7 +2161,7 @@ Para esta parte como es una etapa inicial contamos únicamente con nuestra Landi
             <b>Review Summary</b>
         </td>
         <td>
-            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo del Landing Page y la lógica de negocio de la plataforma. Se desplegó el landing page de forma exitosa.
+            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo de la Landing Page y la lógica de negocio de la plataforma. Se desplegó la landing page de forma exitosa.
         </td>
     </tr>
     <tr align="left">
@@ -2136,7 +2385,7 @@ En esta sesión de planificación para el Sprint 2, nos enfocaremos en los desar
 | Sprint 1 Velocity                  | 34                                                                                                                                                                                                                                                                                                                                 |
 | Sum of Story Points                | 38                                                                                                                                                                                                                                                                                                                                 |
 
-#### 6.2.2.2. Sprint Backlog 2. 
+#### 6.2.2.2. Sprint Backlog 2.
 
 En este Sprint 2, el objetivo principal es desarrollar la página web de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional en el frontend, complementada con un backend sólido que gestione la autenticación y soporte las operaciones CRUD para dispositivos, así como consultas de datos en tiempo real. Al finalizar este sprint, buscamos tener una versión funcional de estas funcionalidades clave, lista para pruebas iniciales y validación.
 
@@ -2158,7 +2407,7 @@ Link del trello: https://trello.com/b/F9HDJVzc/sprint-2
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Diseño responsivo del dashboard</td><td colspan="1" valign="top">Diseñar la interfaz para que el resumen y el timeline sean responsivos y accesibles en diferentes dispositivos.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">API de resumen de dispositivos y eventos</td><td colspan="1" valign="top">Implementar una API para obtener los datos de la cantidad de dispositivos y el historial de eventos</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Process</td></tr>
 <tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Filtrado y orden de eventos para timeline</td><td colspan="1" valign="top">Crear lógica de negocio para filtrar y ordenar los eventos relevantes para el timeline.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Process</td></tr>
-<tr><td colspan="1" rowspan="4" valign="top">HU-39</td><td colspan="1" rowspan="4" valign="top">Gestión  de Dispositivos  (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Componente de tabla interactiva</td><td colspan="1" valign="top">Crear un componente de tabla interactiva para mostrar los dispositivos y permitir opciones CRUD.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU-39</td><td colspan="1" rowspan="4" valign="top">Gestión de Dispositivos (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Componente de tabla interactiva</td><td colspan="1" valign="top">Crear un componente de tabla interactiva para mostrar los dispositivos y permitir opciones CRUD.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Modales para CRUD de dispositivos</td><td colspan="1" valign="top">Agregar formularios modales para crear y actualizar la información de cada dispositivo.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Endpoints CRUD de dispositivos</td><td colspan="1" valign="top">Implementar endpoints para operaciones CRUD en los dispositivos</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Validaciones y permisos de usuario</td><td colspan="1" valign="top">Crear validaciones y control de permisos para asegurar que solo el usuario propietario pueda modificar sus dispositivos.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
@@ -2374,7 +2623,7 @@ En esta sección se registra y explica el avance en términos de producto y trab
 
 #### 6.2.3.1. Sprint Planning 3.
 
-En esta sesión de planificación para el Sprint 3, nos enfocaremos en los desarrollos clave del Aplicación Móvil  de nuestro producto VerySafe y del el IoT Device Embedded Application. Durante el Sprint 2, logramos implementar el fronted y backend para la aplicación web de VerySafe.
+En esta sesión de planificación para el Sprint 3, nos enfocaremos en los desarrollos clave de la Aplicación Móvil de nuestro producto VerySafe y del el IoT Device Embedded Application. Durante el Sprint 2, logramos implementar el fronted y backend para la aplicación web de VerySafe.
 
 | **Sprint #**                       | Sprint 3                                                                                                                                                                                                                                                                                                                                                                     |
 |:-----------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2391,9 +2640,9 @@ En esta sesión de planificación para el Sprint 3, nos enfocaremos en los desar
 | Sprint 1 Velocity                  | 26                                                                                                                                                                                                                                                                                                                                                                           |
 | Sum of Story Points                | 38                                                                                                                                                                                                                                                                                                                                                                           |
 
-#### 6.2.3.2. Sprint Backlog 3. 
+#### 6.2.3.2. Sprint Backlog 3.
 
-En este Sprint 3, el objetivo principal es desarrollar la aplicación móvil de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional. De la misma manera se creara el IoT Device Embedded Application. en Wokwi para simular su funcionamiento.  Al finalizar este sprint, buscamos tener una versión funcional de estas funcionalidades clave, lista para pruebas iniciales y validación.
+En este Sprint 3, el objetivo principal es desarrollar la aplicación móvil de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional. De la misma manera se creará el IoT Device Embedded Application. En Wokwi para simular su funcionamiento.  Al finalizar este sprint, buscamos tener una versión funcional de estas funcionalidades clave, lista para pruebas iniciales y validación.
 
 A continuación se muestra el tablero del Sprint 3 en Trello: 
 
@@ -2404,21 +2653,21 @@ Link: https://trello.com/b/VzbK516w/sprint-3
 <table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task </td></tr>
 <tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation (Hours)</td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-do / InProcess / ToReview / Done)</td></tr>
-<tr><td colspan="1" rowspan="4" valign="top">HU-37</td><td colspan="1" rowspan="4" valign="top">Registro y Login de Perfil</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Formularios de registro y login</td><td colspan="1" valign="top">Diseñar pantallas de login adaptada a dispositivos móviles, con validación de datos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="4" valign="top">HU-37</td><td colspan="1" rowspan="4" valign="top">Registro y Login de Perfil</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Formularios de registro y login</td><td colspan="1" valign="top">Diseñar pantallas de login adaptado a dispositivos móviles, con validación de datos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Formularios de registro y login</td><td colspan="1" valign="top">Diseñar pantallas de registro adaptada a dispositivos móviles, con validación de datos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Ver perfil</td><td colspan="1" valign="top">Implementar seccion de Perfil de App Mobile</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
-<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Persistencia de datos</td><td colspan="1" valign="top">Configurar la gestión de sesión y persistencia de datos en el dispositivo móvil para mantener al usuario autenticado. .</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Persistencia de datos</td><td colspan="1" valign="top">Configurar la gestión de sesión y persistencia de datos en el dispositivo móvil para mantener al usuario autenticado.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" rowspan="2" valign="top">HU-38</td><td colspan="1" rowspan="2" valign="top">Dashboard de Resumen</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Diseño responsivo del dashboard</td><td colspan="1" valign="top">Diseñar gráficos y tablas adaptados a pantallas móviles para el resumen y timeline</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Notificaciones de eventos</td><td colspan="1" valign="top">Integrar notificaciones push para eventos importantes en tiempo real.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">InProcess</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">HU-39</td><td colspan="1" rowspan="3" valign="top">Gestión  de Dispositivos  (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Conectar dispositivos</td><td colspan="1" valign="top">Implementar conexión de nuevo dispositivo en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU-39</td><td colspan="1" rowspan="3" valign="top">Gestión de Dispositivos (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Conectar dispositivos</td><td colspan="1" valign="top">Implementar conexión de nuevo dispositivo en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Sección dispositivos</td><td colspan="1" valign="top">Implementar seccion de dispositivos en App mobile</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Gestión de dispositivos</td><td colspan="1" valign="top">Implementar formularios emergentes para añadir y editar dispositivos de manera intuitiva.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">InProcess</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">HU-40</td><td colspan="1" rowspan="3" valign="top">Visualización de Propiedades, Áreas y Dispositivos (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Pantalla Areas</td><td colspan="1" valign="top">Implementar Areas en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU-40</td><td colspan="1" rowspan="3" valign="top">Visualización de Propiedades, Áreas y Dispositivos (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Pantalla Áreas</td><td colspan="1" valign="top">Implementar Areas en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Registro de propiedad</td><td colspan="1" valign="top"><p>Implementar Registro de Propiedad en App Mobile</p><p></p></td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Navegación entre propiedades y áreas</td><td colspan="1" valign="top">Crear una vista de tarjetas para cada propiedad, mostrando áreas y dispositivos asociados.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" rowspan="4" valign="top">HU-41</td><td colspan="1" rowspan="4" valign="top">Sección de Asistencia, Manuales y Soporte</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Asistencia para los usuarios</td><td colspan="1" valign="top">Implementar Assistance en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Botones de redirección a soporte</td><td colspan="1" valign="top">Diseñar botones de redirección claros para soporte y manuales adicionales.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">InProcess</td></tr>
-<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Enlace a soporte tecnico</td><td colspan="1" valign="top">Implementar un  enlace directo a soporte técnico en caso de dudas.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Enlace a soporte tecnico</td><td colspan="1" valign="top">Implementar un enlace directo a soporte técnico en caso de dudas.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Resolver dudas</td><td colspan="1" valign="top">Crear una sección de preguntas frecuentes.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" rowspan="2" valign="top">HU-42</td><td colspan="1" rowspan="2" valign="top">Información de Contacto y Colaboradores de la Empresa</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Pantalla para los contactos</td><td colspan="1" valign="top">Crear una pantalla que muestre la información de contacto (teléfono, correo y dirección) de manera clara.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
 <tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Botón de acceso directo a colaboradores</td><td colspan="1" valign="top">Agregar un botón de acceso directo a los colaboradores de la empresa.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">InProcess</td></tr>
@@ -2540,9 +2789,8 @@ Para evidenciar la colaboración de todos integrantes del equipo FalconShield en
 
 ![alt](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20043719.png)
 
-### 6.3. Validation Interviews.
-
-#### 6.3.1. Diseño de Entrevistas.
+## 6.3. Validation Interviews.
+### 6.3.1. Diseño de Entrevistas.
 
 **User Flows para el Proceso de Validación de VerySafe**
 
@@ -2619,7 +2867,6 @@ Para evidenciar la colaboración de todos integrantes del equipo FalconShield en
   - **Interacción con el Sistema para la Activación y Desactivación de Alarmas**  
     - Pregunta: ¿Te resulta intuitiva la funcionalidad de activar o desactivar alarmas de forma remota en distintas propiedades?
 
-
 ### 6.3.2. Registro de Entrevistas.
 
 * **Segmento 1: Dueños de inmuebles**
@@ -2649,7 +2896,7 @@ Antes de la entrevista Diana me comentó que le pareció interesante el tener 3 
 
 En la entrevista, Aldahir menciona que la landing page es intuitiva y fácil de navegar. Además, destaca que los planes se muestran de manera clara y que las imágenes ayudan a comprender los beneficios que obtendrá el usuario. Con respecto al prototipo de la aplicación móvil, le agrada la funcionalidad para agregar una nueva propiedad y asignar áreas a estas, así como la opción de activar y desactivar dispositivos. También resalta la utilidad de recibir notificaciones cuando se genera un evento en los dispositivos, aunque advierte que podría ser molesto si el dispositivo genera alertas por eventos que no son de emergencia. En cuanto a las mejoras sugeridas, propone ajustar la imagen de fondo en el inicio de la landing page, ya que actualmente no tiene suficiente contraste con el texto del eslogan, lo cual dificulta su lectura.
 
-### 6.3.3. Evaluaciones según heurísticas. 
+### 6.3.3. Evaluaciones según heurísticas.
 
 Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta. Para esto la sección debe contener la estructura del formato para evaluaciones de heurísticas indicado en el Anexo D. Formato para Evaluación de User Experience según Heurísticas. 
 
