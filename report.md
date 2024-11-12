@@ -282,7 +282,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
     - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2 Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2, Lean UX Process](#122-lean-ux-process)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
@@ -379,6 +379,10 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 - [CAPÍTULO V: SOLUTION UI/UX DESIGN](#capítulo-v-solution-uiux-design)
   - [5.1. Style Guidelines](#51-style-guidelines)
     - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+      - [5.1.1.1. Branding](#5111-branding)
+      - [5.1.1.2. Typography](#5112-typography)
+      - [5.1.1.3. Colors](#5113-colors)
+      - [5.1.1.4. Spacing](#5114-spacing)
     - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
   - [5.2. Information Architecture](#52-information-architecture)
     - [5.2.1. Organization Systems](#521-organization-systems)
@@ -398,9 +402,23 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 - [CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION \& DEPLOYMENT](#capítulo-vi-product-implementation-validation--deployment)
   - [6.1. Software Configuration Management](#61-software-configuration-management)
     - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+      - [Project Management](#project-management)
+      - [Requirements Management](#requirements-management)
+      - [Product UX/UI Design](#product-uxui-design)
+      - [Software Development](#software-development)
+      - [Software Deployment](#software-deployment)
+      - [Software Documentation](#software-documentation)
     - [6.1.2. Source Code Management](#612-source-code-management)
+      - [Repositorios de Código Fuente](#repositorios-de-código-fuente)
+      - [GitFlow Workflow](#gitflow-workflow)
+      - [Semantic Versioning](#semantic-versioning)
+      - [Conventional Commits](#conventional-commits)
     - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+      - [Landing Page - Despliegue en GitHub Pages](#landing-page---despliegue-en-github-pages)
+      - [Web Application - Despliegue en Vercel](#web-application---despliegue-en-vercel)
+      - [Web API - Despliegue en Render](#web-api---despliegue-en-render)
+      - [Deployment Diagram (C4 Model)](#deployment-diagram-c4-model)
   - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
     - [6.2.1. Sprint 1](#621-sprint-1)
       - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
@@ -408,8 +426,9 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
       - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
       - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
-      - [6.2.1.6. Software Deployment Evidence for Sprint Review](#6216-software-deployment-evidence-for-sprint-review)
-      - [6.2.1.7. Team Collaboration Insights during Sprint](#6217-team-collaboration-insights-during-sprint)
+      - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.7.Software Deployment Evidence for Sprint Review](#6217software-deployment-evidence-for-sprint-review)
+      - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
     - [6.2.2. Sprint 2](#622-sprint-2)
       - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
       - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
@@ -428,10 +447,10 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
       - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
       - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
-    - [6.3. Validation Interviews.](#63-validation-interviews)
-      - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
-      - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
-      - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
+  - [6.3. Validation Interviews.](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product.](#64-video-about-the-product)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
@@ -2283,22 +2302,40 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
 
 #### 6.2.1.3. Development Evidence for Sprint Review
 
-Para el despliegue de la aplicación web utilizamos Netlify: 
-Enlace de la aplicación web: https://verysafe.netlify.app/
-
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
-
-Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro iot device.
-
-![team](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/team.jpg)
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
-#### 6.2.1.6. Software Deployment Evidence for Sprint Review
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
-Enlace de aplicación web: https://verysafe.netlify.app/
+#### 6.2.1.7.Software Deployment Evidence for Sprint Review
 
-#### 6.2.1.7. Team Collaboration Insights during Sprint
+Durante el Sprint 1, el enfoque principal fue el despliegue de la Landing Page del proyecto. Para este Sprint, el proceso de Deployment consistió en la creación de un entorno accesible públicamente para la presentación del producto inicial. La Landing Page se desplegó utilizando GitHub Pages, una plataforma que permite alojar aplicaciones web estáticas de manera sencilla y eficiente.
+
+**Actividades Realizadas**
+- **Creación de Cuenta y Configuración en GitHub:**
+El primer paso fue la creación de la cuenta del proyecto en GitHub, si no estaba previamente configurada, y la creación de un repositorio para el código fuente de la Landing Page. Luego, se configuraron los permisos y accesos necesarios para los miembros del equipo, permitiendo que todos pudieran colaborar en el desarrollo y despliegue de la página.
+
+![Landing Page Repository](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_1.png)
+
+- **Despliegue en GitHub Pages:**
+El despliegue de la Landing Page se realizó directamente desde el repositorio de GitHub utilizando la funcionalidad de GitHub Pages. Esta opción permitió publicar de manera inmediata la página de aterrizaje, generando una URL pública para que los interesados pudieran acceder al producto. Se configuraron las opciones necesarias para apuntar a la rama correcta del repositorio, que contenía los archivos estáticos de la página.
+
+![Landing Page GitHub Pages](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_2.png)
+
+- **Verificación y Pruebas del Despliegue:**
+Una vez desplegada la Landing Page, se realizaron pruebas para verificar que el contenido estuviera accesible correctamente y que no existieran errores de visualización o funcionalidad. Estas pruebas incluyeron la comprobación de la carga de imágenes, el correcto funcionamiento de los enlaces, y la adecuación del diseño en distintos dispositivos.
+
+![Landing Page](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_3.png)
+
+**Análisis del Proceso de Deployment**
+El despliegue de la Landing Page a través de GitHub Pages fue un proceso ágil y eficiente, adecuado para un producto inicial estático. La facilidad de uso de la plataforma permitió un despliegue rápido, y la verificación de la página en distintos dispositivos y navegadores mostró una implementación exitosa.
+
+El equipo colaboró en tiempo real durante la configuración, con una participación activa para resolver cualquier incidencia que surgiera en el proceso. Esta actividad proporcionó la base para futuras implementaciones en entornos más complejos, como el backend y los servicios web, que se abordarán en los siguientes sprints.
+
+![Landing Page GT Metrix](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_4.png)
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint
 Las actividades de implementación se han desarrollado de acuerdo a lo planificado en el Sprint Planning, donde se han asignado tareas a cada miembro del equipo y se han realizado reuniones grupales para realizar el despliegue. A continuación, se presentan los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 1:
 
 ![network](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/network.jpg)
@@ -2396,14 +2433,83 @@ En esta sección, presentamos el conjunto de Acceptance Tests relacionados con l
 
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review.
 
+Durante el Sprint 2, el equipo se enfocó en el despliegue de dos productos clave del proyecto: el frontend de la aplicación web y el backend. Estos productos fueron desplegados utilizando Vercel para el frontend y OnRender para el backend. Ambos servicios de despliegue en la nube permitieron una integración eficiente, facilitando la disponibilidad y escalabilidad de los servicios.
+
+**Actividades Realizadas**
+
+**1. Despliegue del Frontend en Vercel**
+
+- **Creación de cuenta y configuración en Vercel:**
+Se comenzó creando una cuenta en Vercel, una plataforma que permite la implementación y el alojamiento de aplicaciones frontend de manera fácil y rápida. Posteriormente, se vinculó el repositorio del frontend del proyecto a la cuenta de Vercel, permitiendo una integración continua con el repositorio de GitHub, de modo que cualquier cambio en el código fuente se desplegara automáticamente en el entorno de producción.
+
+![App Web Vercel Github](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint2_app-web_1.png)
+
+- **Despliegue del frontend:**
+Con la cuenta configurada y el repositorio conectado, se desplegó el frontend. Vercel proporcionó una URL pública automáticamente, que permitió visualizar el frontend en producción. Además, se configuraron las variables de entorno necesarias para la correcta ejecución de la aplicación en el entorno de despliegue.
+
+![App Web Vercel Configuration](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint2_app-web_2.png)
+
+- **Pruebas de funcionamiento:**
+Después del despliegue, se realizaron pruebas exhaustivas en la URL generada para garantizar que todas las funcionalidades del frontend, como la carga de imágenes, interactividad de la página y enlaces, se comportaran según lo esperado.
+
+![App Web Deployed](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint2_app-web_3.png)
+
+- **Anális de Resultados de las métricas de rendimiento:**
+Los resultados obtenidos de GTmetrix indicaron que el tiempo de carga del frontend se encuentra dentro de los parámetros ideales para una experiencia de usuario óptima. Además, se identificaron áreas de mejora relacionadas con la optimización de imágenes y la reducción de peticiones HTTP. Con base en estos resultados, se planificaron ajustes en la optimización de los recursos estáticos para reducir aún más el tiempo de carga.
+
+![App Web GT Metrix](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint2_app-web_4.png)
+
+**2. Despliegue del Backend en OnRender**
+
+- **Creación de cuenta y configuración en OnRender:**
+Para el backend, se utilizó OnRender, una plataforma de hosting para aplicaciones y servicios backend. Se creó una cuenta en OnRender y se configuró el entorno para recibir el repositorio del backend, configurando el acceso al código fuente desde GitHub. Este paso permitió automatizar el despliegue del backend a medida que se realizaban actualizaciones en el repositorio.
+
+![Web Services OnRender Github](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint2_web-services_1.png)
+
+- **Despliegue del backend:**
+Después de la configuración, se desplegó el backend en OnRender. Al igual que con Vercel, OnRender proporcionó una URL pública para acceder al servicio, lo que facilitó la integración con el frontend y permitió probar las API expuestas por el backend.
+
+![Web Services OnRender Configuration](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint2_web-services_2.png)
+
+- **Verificación y pruebas del backend:**
+Se realizaron pruebas del backend para verificar el correcto funcionamiento de las API, la gestión de bases de datos y la conectividad con el frontend. También se comprobó que las variables de entorno, como las credenciales de acceso a bases de datos, estuvieran correctamente configuradas y funcionando.
+
+![Web Services Deployed](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint2_web-services_3.png)
+
+**Análisis del Proceso de Deployment**
+
+El despliegue de ambos productos fue eficiente gracias a la integración continua proporcionada por Vercel y OnRender. El equipo logró implementar tanto el frontend como el backend en entornos de producción, asegurando que la aplicación estuviera disponible para su uso.
+
+Las pruebas realizadas en ambos entornos confirmaron que tanto el frontend como el backend se desplegaron correctamente y funcionaron como se esperaba. El uso de servicios en la nube como Vercel y OnRender permitió una implementación ágil y escalable, y su integración con GitHub facilitó el flujo de trabajo de desarrollo.
+
+Además, el análisis de rendimiento realizado con GTmetrix proporcionó datos valiosos que permitieron identificar áreas de mejora en la optimización de recursos. Estos hallazgos servirán como base para las mejoras continuas en el rendimiento de la aplicación.
+
 #### 6.2.2.8. Team Collaboration Insights during Sprint.
 
-Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro Aplicación Web.
+Durante el Sprint 2, el equipo se enfocó en realizar mejoras y ajustes en tres componentes clave del proyecto de software: la página de aterrizaje (Landing Page), el frontend de la aplicación web y el backend. A continuación, se detalla el desarrollo de actividades en cada uno de estos productos y la colaboración del equipo para lograr los objetivos del Sprint.
 
-![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint2_insight.png)
+**Landing Page:**
+
+La Landing Page fue mejorada en este Sprint con el objetivo de optimizar la experiencia del usuario y aumentar el atractivo visual para captar la atención de nuevos visitantes. Se realizaron modificaciones en el diseño de interfaz y estructura de contenido, aplicando principios de jerarquía visual y mejorando la navegación. Estas modificaciones fueron discutidas y refinadas en conjunto por el equipo, donde cada miembro contribuyó con sugerencias y ajustes en base a las pruebas previas y la retroalimentación recibida. El resultado es una Landing Page más alineada con los objetivos del proyecto y más efectiva en su propósito de presentar los servicios a los usuarios de manera clara y atractiva.
+
+![Landing Page Sprint2 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint2_insight3.jpeg)
+
+**Frontend de la Aplicación Web:**
+
+En el frontend de la aplicación web, el equipo se concentró en implementar nuevas funcionalidades y ajustar componentes existentes para mejorar la interacción del usuario con la plataforma. Los desarrolladores trabajaron en el diseño y estructura de varias vistas, asegurando que la interfaz sea intuitiva y accesible. Además, se realizaron pruebas de usabilidad para identificar posibles mejoras. La colaboración fue clave en este proceso, con una fuerte participación de cada miembro en el desarrollo de módulos, revisiones de código y sesiones de feedback. Las contribuciones individuales se reflejan en los commits de GitHub, donde se evidencia el progreso y los ajustes continuos realizados durante el Sprint.
+
+![Frontend Sprint2 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint2_insight.png)
+
+**Backend:**
+
+En el backend, el equipo implementó mejoras significativas en los servicios web, centrándose en la optimización de las APIs y en la corrección de errores detectados en sprints anteriores. Se agregaron nuevos endpoints y se refinaron las funcionalidades existentes para garantizar un rendimiento óptimo y mejorar la integración con el frontend. Además, se trabajó en la seguridad y escalabilidad del sistema, considerando los requisitos futuros del proyecto. La colaboración se reflejó en la interacción constante entre los miembros para solucionar problemas y en la revisión compartida de cada cambio en el repositorio de GitHub.
 
 Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestra Web Services.
-![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint2_insight2.png)
+![Backend Sprint2 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint2_insight2.png)
+
+**Interpretación de Analíticos:**
+
+Para este Sprint, se llevó a cabo un seguimiento exhaustivo de las contribuciones de cada miembro del equipo a través de los commits y métricas de colaboración en GitHub. Estas métricas reflejan el compromiso y la participación de cada integrante en el desarrollo de la Landing Page, el frontend y el backend. La revisión y análisis de estos datos permiten evaluar la efectividad del equipo en términos de coordinación y productividad en cada uno de los productos trabajados en el Sprint.
 
 ### 6.2.3. Sprint 3
 
