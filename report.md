@@ -402,23 +402,9 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 - [CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION \& DEPLOYMENT](#capítulo-vi-product-implementation-validation--deployment)
   - [6.1. Software Configuration Management](#61-software-configuration-management)
     - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-      - [Project Management](#project-management)
-      - [Requirements Management](#requirements-management)
-      - [Product UX/UI Design](#product-uxui-design)
-      - [Software Development](#software-development)
-      - [Software Deployment](#software-deployment)
-      - [Software Documentation](#software-documentation)
     - [6.1.2. Source Code Management](#612-source-code-management)
-      - [Repositorios de Código Fuente](#repositorios-de-código-fuente)
-      - [GitFlow Workflow](#gitflow-workflow)
-      - [Semantic Versioning](#semantic-versioning)
-      - [Conventional Commits](#conventional-commits)
     - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-      - [Landing Page - Despliegue en GitHub Pages](#landing-page---despliegue-en-github-pages)
-      - [Web Application - Despliegue en Vercel](#web-application---despliegue-en-vercel)
-      - [Web API - Despliegue en Render](#web-api---despliegue-en-render)
-      - [Deployment Diagram (C4 Model)](#deployment-diagram-c4-model)
   - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
     - [6.2.1. Sprint 1](#621-sprint-1)
       - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
@@ -1775,12 +1761,12 @@ En esta sección se detalla el proceso de creación de prototipos para las aplic
 ### 6.1.1. Software Development Environment Configuration
 En esta sección se presenta la configuración del entorno de desarrollo de software utilizado por el equipo en el proyecto de IoT. A continuación, se detallan las herramientas seleccionadas, junto con sus descripciones y propósitos específicos, así como los enlaces para acceder a cada una de ellas. Estas herramientas son fundamentales para colaborar eficazmente en las diversas etapas del ciclo de vida de los productos digitales, incluyendo la gestión de proyectos, la gestión de requisitos, el diseño UX/UI, el desarrollo de software, las pruebas, el despliegue y la documentación.
 
-#### Project Management
+**Project Management**
 1. Trello
     - Propósito: Gestionar tareas, organizar proyectos y colaborar en equipo mediante tableros visuales.
     - Ruta de acceso: https://trello.com
 
-#### Requirements Management
+**Requirements Management**
 1. Miro
     - Propósito: Pizarra colaborativa en línea para la creación de diagramas, mapas mentales y prototipos interactivos.
     - Ruta de acceso: https://miro.com
@@ -1797,7 +1783,7 @@ En esta sección se presenta la configuración del entorno de desarrollo de soft
     - Propósito: Modelar y diseñar bases de datos relacionales para definir la estructura de datos de la aplicación.
     - Ruta de acceso: https://www.vertabelo.com
 
-#### Product UX/UI Design
+**Product UX/UI Design**
 1. UX Pressia
     - Propósito: Creación de mapas de experiencia del usuario para visualizar y documentar la experiencia del usuario.
     - Ruta de acceso: https://uxpressia.com
@@ -1810,7 +1796,7 @@ En esta sección se presenta la configuración del entorno de desarrollo de soft
     - Propósito: Diagramación de flujos de usuarios para ilustrar las interacciones del usuario con la solución de IoT.
     - Ruta de acceso: https://overflow.io
    
-#### Software Development
+**Software Development**
 1. Visual Studio Code
     - Propósito: Editor de código fuente ligero y potente para el desarrollo de aplicaciones web y móviles.
     - Ruta de descarga: https://code.visualstudio.com
@@ -1847,7 +1833,7 @@ En esta sección se presenta la configuración del entorno de desarrollo de soft
     - Propósito: Sistema de gestión de bases de datos relacional para almacenar los datos de la aplicación.
     - Ruta de acceso: https://www.postgresql.org
 
-#### Software Deployment
+**Software Deployment**
 1. Amazon Web Services (AWS)
     - Propósito: Plataforma de servicios en la nube para alojar y desplegar bases de datos, servidores y aplicaciones web.
     - Ruta de acceso: https://aws.amazon.com
@@ -1860,7 +1846,7 @@ En esta sección se presenta la configuración del entorno de desarrollo de soft
     - Propósito: Plataforma de alojamiento para los servicios de backend y API de la aplicación IoT.
     - Ruta de acceso: https://render.com
 
-#### Software Documentation
+**Software Documentation**
 1. Markdown
     - Propósito: Lenguaje de marcado ligero para escribir documentación técnica y colaborar en el proyecto.
     - Ruta de acceso: https://www.markdownguide.org
@@ -1872,7 +1858,8 @@ En esta sección se presenta la configuración del entorno de desarrollo de soft
 ### 6.1.2. Source Code Management
 En esta sección se presenta la configuración del control de versiones del código fuente del proyecto de IoT, utilizando Git como sistema de control de versiones distribuido. A continuación, se detallan las herramientas y plataformas seleccionadas para la gestión del código fuente, así como las prácticas y convenciones de desarrollo de software aplicadas en el proyecto.
 
-#### Repositorios de Código Fuente
+**Repositorios de Código Fuente**
+
 Cada proyecto de software de FalconShield se encuentra en una organización donde esta a su vez cuenta con diversos repositorios en GitHub, donde se almacenan y gestionan los archivos de código fuente, documentación y recursos del proyecto.
 
 - Organización: 
@@ -1896,7 +1883,8 @@ Cada proyecto de software de FalconShield se encuentra en una organización dond
 - Edge API: Repositorio donde se almacena el código fuente de la edge API para los dispositivos IoT de FalconShield desarrollada en Java con Spring Boot.
   - Enlace: [Edge API](https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi)
 
-#### GitFlow Workflow
+**GitFlow Workflow**
+
 Se trabajó con el flujo de trabajo GitFlow, un modelo de ramificación para Git que se centra en la colaboración y la liberación de software. Este flujo de trabajo define una estructura de ramificación estricta diseñada en torno a la publicación de versiones del software. A continuación, se describen las ramas principales utilizadas en el proyecto:
 
 - **Ramas principales:**
@@ -1912,14 +1900,16 @@ Se trabajó con el flujo de trabajo GitFlow, un modelo de ramificación para Git
 - **Rama de correcciones:**
     - `hotfix/{nombre}`: Ramas de corrección de errores que se crean a partir de main para solucionar problemas críticos y se fusionan en develop y main.
 
-#### Semantic Versioning
+**Semantic Versioning**
+
 Se aplicó el versionado semántico para la numeración de versiones del software, siguiendo un esquema de tres números (X.Y.Z) que representan los siguientes elementos:
 
 - `X`: Versión principal (major) que se incrementa cuando se realizan cambios incompatibles (ej. cambios en la API) o se agregan nuevas funcionalidades.
 - `Y`: Versión secundaria (minor) que se incrementa cuando se agregan funcionalidades compatibles con versiones anteriores.
 - `Z`: Versión de corrección (patch) que se incrementa cuando se corrigen errores y se realizan mejoras compatibles.
 
-#### Conventional Commits
+**Conventional Commits**
+
 Se adoptó el estándar de mensajes de confirmación convencionales para estructurar y normalizar los mensajes de confirmación del código fuente. Este enfoque facilita la generación de registros de cambios automáticos y la comunicación efectiva entre los miembros del equipo. A continuación, se presentan los tipos de mensajes de commit utilizados en el proyecto:
 
 - `feat`: Nueva funcionalidad (ej. "feat: add login page")
@@ -2014,7 +2004,8 @@ A continuación, se darán a conocer las convenciones, formatos, estilos y entre
 
 En esta sección especificaremos los pasos necesarios para realizar el despliegue de los productos digitales actuales de la solución. En la fase inicial, se despliega la Landing Page utilizando GitHub Pages y la aplicación Web en Netlify.
 
-#### Landing Page - Despliegue en GitHub Pages
+**Landing Page - Despliegue en GitHub Pages**
+
 La landing page de FalconShield se desplegó utilizando GitHub Pages, una función de GitHub que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. A continuación, se detallan los pasos para desplegar la Landing Page en GitHub Pages:
 
 1. Preparación del Repositorio:
@@ -2033,7 +2024,8 @@ La landing page de FalconShield se desplegó utilizando GitHub Pages, una funci�
 4. Actualizaciones:
    * Para hacer cambios en la Landing Page, realizar commits y push en el repositorio. GitHub Pages actualizará automáticamente el sitio con los cambios subidos.
 
-#### Web Application - Despliegue en Vercel
+**Web Application - Despliegue en Vercel**
+
 La aplicación web de FalconShield se desplegó utilizando Vercel, una plataforma de alojamiento web que permite desplegar aplicaciones web estáticas y dinámicas de forma sencilla y rápida. A continuación, se detallan los pasos para desplegar la Aplicación Web en Vercel:
 
 1. Preparación del Proyecto:
@@ -2056,7 +2048,8 @@ La aplicación web de FalconShield se desplegó utilizando Vercel, una plataform
 5. Actualizaciones:
    * Para actualizar la Web Application, realizar cambios en el código, hacer commits y push. Vercel detectará automáticamente los cambios y reconstruirá el sitio
 
-#### Web API - Despliegue en Render
+**Web API - Despliegue en Render**
+
 La Web API de FalconShield se desplegó utilizando Render, una plataforma de alojamiento que permite desplegar aplicaciones web y servicios de backend de forma sencilla y escalable. A continuación, se detallan los pasos para desplegar la Web API en Render:
 
 1. Preparación del Proyecto:
@@ -2086,7 +2079,8 @@ La Web API de FalconShield se desplegó utilizando Render, una plataforma de alo
 6. Actualizaciones:
    * Para actualizar el backend, realizar cambios en el código, hacer commits y push en el repositorio. Render detectará automáticamente los cambios, reconstruirá y desplegará nuevamente el servicio
 
-#### Deployment Diagram (C4 Model)
+**Deployment Diagram (C4 Model)**
+
 Para esta parte como es una etapa inicial contamos únicamente con nuestra Landing Page y nuestra primera versión de la aplicación Web
 
 ![deployment C4 1er sprint](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploymentc4.jpg)
