@@ -2353,7 +2353,12 @@ Para evidenciar la colaboración de todos integrantes del equipo Caffeine en el 
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
+Para este sprint logramos tener una parte escencial de la aplicación web como lo es registrar un dispositivo IoT presentándolo como primer avance. Además, presentamos nuestra 1era versión de nuestra Landing Page quedándonos pendiente la internacionalización. 
+Todo esto lo explicamos en el siguiente video:
 
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/vsprint1.png)
+
+Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdXzlvaFEUZPninPofeTnR8Be26xB9ZqRzhp3jGEeBKrcw?e=2Yvgc4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
 #### 6.2.1.6. Software Deployment Evidence for Sprint Review
 
@@ -2462,6 +2467,7 @@ A continuación, se detallan los commits realizados en este sprint, reflejando l
 
 
 **Aplicación Web**
+
 | Repository | Branch             | Commit id                              | Commit Message                                             | Commit Message Body                                       | Commit on (Date) |
 |------------|--------------------|----------------------------------------|------------------------------------------------------------|-----------------------------------------------------------|-------------------|
 | Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/master     | 60b468358143a67127cf806539258fae282848ad | 1st commit                                                | 1st commit                                            | 03/10/2024       |
@@ -2603,6 +2609,10 @@ En esta sección, presentamos el conjunto de Acceptance Tests relacionados con l
 | <p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git</p><p></p> | <p>main</p><p></p> | <p>ef745cd</p><p></p> | <p>feat(testing)</p><p></p> | <p>create hu40 feature</p><p></p> | <p>03/11/2024</p><p></p> |
 
 #### 6.2.2.5. Execution Evidence for Sprint Review.
+
+Para este sprint logramos la internacionalización en nuestra landing page donde podemos cambiar de idioma tanto en español cómo portugés e ingles. Asimismo, mejoramos nuestra aplicación web teniendo una base de datos y API propio y desplegado en nuestro servidor de AWS. A continuación se detalla lo siguiente en un video:
+
+
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -2750,6 +2760,11 @@ En esta sección, presentamos el conjunto de Acceptance Tests relacionados con l
 Para esta seccion mostraremos las evidencias correspondientes al sprint 3 que se encarga de la aplicación Movil, Edge API y IoT Device.
 
 **Mobile Application**
+
+En esta parte mostramos el primer avance de nuestra aplicación móvil
+
+
+
 **Edge API**
 Para esta parte mostramos los endpoints utilizados y creados que se manejaran para la conexión a wokwi
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20042016.png)
@@ -2921,3 +2936,7 @@ En esta sección el equipo elabora un resumen de los aspectos más relevantes de
 En esta sección el equipo especifica todas las referencias bibliográficas en formato APA, utilizadas como base para el desarrollo del trabajo o referenciadas en secciones del informe. 
 
 # Anexos
+
+| Sección  | Características del Video | Sobre el contenido  |
+| -- | -- | -- |
+| Sprint 1 | upc-pre-202402-si572-wv71-VerySafe-execution evidence-sprint1  <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdXzlvaFEUZPninPofeTnR8Be26xB9ZqRzhp3jGEeBKrcw?e=2Yvgc4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  | Consolida los avances hechos en el sprint 1 iniciando con el Landing Page asi como la Aplicación Web |  
