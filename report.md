@@ -488,6 +488,8 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
         <strong>TF:</strong> <br/>
         <strong>Max Dayson Sabino Arostegui:</strong> Colaboré en la implementación de i18n en la aplicación web, implementación de los eventos, configuración de la tarjeta RFID en el wokwi.
         <strong>Jamutaq Ortega Vélez:</strong> Colaboré con mi equipo en el desarrollo del feature de autenticación y flujos OAuth2 en la aplicación mobile para garantizar la seguridad del usuario. Además de apoyar en el desarrollo del prototipo físico.
+        <strong>Gabriela Nomberto Ramos:</strong> Colaboré con la implementación del dispositivo IoT con las aplicaciones tanto web como móvil.
+        <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar correctamente los sistemas de notificaciones que se mostrarán cada vez pase un evento.
       </td>
       <td>Concluimos que las reuniones y las mejoras continuas entre todos nos ayudan a mejorar el reporte de trabajo y poder colaborar de forma equitativa.</td>
     </tr>
@@ -505,7 +507,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
         <strong>Elvia Arteaga Cruz:</strong> Tuvimos reuniones mediante Discord de manera frecuente para coordinar los puntos a avanzar. Esto nos ayudó a organizarnos en las tareas individuales y grupales. <br/>
         <strong>Jamutaq Ortega Vélez:</strong> Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. <br/>
         <strong>Gabriela Nomberto:</strong> Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. <br/>
-        <strong>Dennis Quevedo Yucra:</strong> Coordinamos como equipo y primero acordamos corregir las observaciones previas. Con Gabriela Nomberto nos pusimos de acuerdo para poder realizar los mockups de la landing page y demás secciones. <br/>
+        <strong>Dennis Quevedo Yucra:</strong> Coordinamos como equipo y primero acordamos corregir las observaciones previas. Con Gabriela Nomberto nos pusimos de acuerdo para poder realizar los mockups de la landing page y demás apartados. <br/>
         <strong>TB2:</strong> <br/>
         <strong>Max Dayson Sabino Arostegui:</strong> Realicé la elaboración de la vista eventos en el frontend y la elaboración de los endpoints para los eventos. También estuve presente en las reuniones presenciales, lo que nos ayudó a trabajar colaborativamente. <br/>
         <strong>Elvia Arteaga Cruz:</strong> Durante estos dos sprints el equipo optó por realizar reuniones presenciales una vez por semana para verificar avances y consolidar ideas. <br/>
@@ -515,8 +517,10 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
         <strong>TF:</strong> <br/>
         <strong>Max Dayson Sabino Arostegui:</strong> Realicé en conjunto con mis compañeros el sprint backlog 4 en Trello y el sprint planning. Además, ayudé a mejorar el sprint goal de los sprints 1, 2, 3 y 4. <br/>
         <strong>Jamutaq Ortega Vélez:</strong> Me encargué de implementar el sistema de pagos en la aplicación web, además de agregar la internacionalización y verificar otros detalles pendientes de las aplicaciones.
+        <strong>Gabriela Nomberto Ramos:</strong> Me encargué de implementar y arreglar el dispositivo IoT junto con los componentes que hemos acordado en grupo.
+        <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar el sistema de propiedades y notificaciones en la aplicación móvil que estaba pendientes.
       </td>
-      <td>Para esta sección, todos aportamos en la estructuración y llenado del reporte, trabajando así en grupo y entendiéndonos entre todos.</td>
+      <td>Para este apartado, todos aportamos en la estructuración y llenado del reporte, trabajando así en grupo y entendiéndonos entre todos.</td>
     </tr>
   </tbody>
 </table>
@@ -538,7 +542,7 @@ Verysafe está abordando una necesidad crítica de mejorar la seguridad de inmue
 
 ## 1.2 Solution Profile
 
-En esta sección daremos una explicación detallada del producto de software que presentaremos como factor innovador y la forma de monetización
+En este apartado daremos una explicación detallada del producto de software que presentaremos como factor innovador y la forma de monetización
 
 Company Name
 
