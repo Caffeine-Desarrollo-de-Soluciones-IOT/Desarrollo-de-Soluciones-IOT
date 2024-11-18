@@ -2935,6 +2935,16 @@ A continuación, se presenta una imagen del dispositivo IoT físico con los comp
 #### 6.2.4.6. Services Documentation Evidence for Sprint Review.
 #### 6.2.4.7. Software Deployment Evidence for Sprint Review.
 
+En este sprint se realizaron nuevos despliegues de los productos desarrollados agregando las mejoras implementadas. A continuación, se visualizan pantallazos de las aplicaciones y servicios desplegados.
+
+**Frontend de la Aplicación Web:**
+
+![Frontend Deployment Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment1.jpg)
+
+**Backend:**
+
+![Backend Deployment Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment2.png)
+
 #### 6.2.4.8. Team Collaboration Insights during Sprint.
 
 Durante el Sprint 4, el equipo se centró en implementar nuevas funcionalidades y optimizaciones en cuatro componentes esenciales del proyecto: la página de aterrizaje (Landing Page), el frontend y backend de las aplicaciones web y móvil, el dispositivo IoT físico y la Embedded API. A continuación, se detalla el desarrollo de actividades en cada uno de estos productos y la colaboración del equipo para alcanzar los objetivos del Sprint.
