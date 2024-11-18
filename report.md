@@ -2874,14 +2874,10 @@ A continuación, se detallan los nuevos endpoints implementados y las operacione
 
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review.
- 
-Para el despliegue de la Mobile App empleamos Firebase
-
-Link de la Mobile App desplegada: ()
 
 Para el dispositivo IoT utilizamos Wokwi
 
-Link de la dispositivo IoT: ()
+Link de la dispositivo IoT: (https://wokwi.com/projects/414901082933918721)
 
 Para el despliegue de la Edge API
 
@@ -2961,7 +2957,7 @@ La Embedded API fue actualizada para gestionar nuevos tipos de sensores, optimiz
 
 El equipo colaboró en la implementación del dispositivo que incluye un sensor de proximidad y un RFID. Esto se logró a través de un enfoque iterativo que incluyó pruebas y ajustes necesarios. La simulación fue desarrollada en Wokwi.
 
-![Physical IOT Sprint4 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_insight4.png)
+![Physical IOT Sprint4 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/physical-iot-execution.jpg)
 
 **Interpretación de Analíticos:**
 
@@ -3081,6 +3077,12 @@ Esta sección contiene el proceso de evaluación de las sesiones de validación 
 
 ## 6.4. Video About-the-Product.
 
+En el about the product mostramos las aplicaciones como tal y se muestran con todo el flujo realizado hasta la entrega actual tanto para la aplicación web como la aplicación móvil.
+
+![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/abouttheproduct1.0.png)
+
+Enlace del Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EbGBfmDvLEpKoQ--m0teykEB1_yhDntwWxbsaBvRonlheQ?e=0dEcJd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 # Conclusiones
 
 En esta sección se incluye como secciones internas Conclusiones y recomendaciones, así como Video About-The-Team.
@@ -3093,7 +3095,11 @@ En esta sección se incluye como secciones internas Conclusiones y recomendacion
 
 ## Video About-the-Team.
 
-En esta sección el equipo elabora un resumen de los aspectos más relevantes del video About-The-Team, la pauta de secuencias de contenido (secciones con el timing de inicio de cada una, es decir hh:mm:ss de cada sección dentro del video) incluyendo además un cuadro de video representativo del mismo, junto con el URL de la versión publicada en Microsoft Stream (y además, el URL de la versión publicada en YouTube utilizada para incrustarse en el Landing Page). Este video resume el proceso de trabajo realizado, incluyendo escenas con imágenes o video de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. Ver otras indicaciones importantes en el Anexo C. Indicaciones para secciones que incluyen Videos
+Como equipo mejoramos cada vez en cada entrega para cumplir satisfactoriamente todas las entregas mejorando y cumpliendo según las pautas dads por nuestro profesor. Además, recalcamos que el hecho de este curso es importante para nosotros para obtener una visión más general de nuestro futuro profesional.
+
+![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/abouttheteam1.0.png)
+
+Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdEitl--UlVBkTOSJ94vqkkBvXwkCotEE6LfRx-5FURKOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iUVGTf
 
 # Bibliografía
 
@@ -3106,3 +3112,5 @@ En esta sección el equipo especifica todas las referencias bibliográficas en f
 | Sprint 1 | upc-pre-202402-si572-wv71-VerySafe-execution evidence-sprint1  <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdXzlvaFEUZPninPofeTnR8Be26xB9ZqRzhp3jGEeBKrcw?e=2Yvgc4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  | Consolida los avances hechos en el sprint 1 iniciando con el Landing Page asi como la Aplicación Web |  
 | Sprint 2 | upc-pre-202402-si572-wv71-VerySafe-execution evidence-sprint2  <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/ES0WpK_khnRCgmLHG5VgrI0BPY-I0MCNOVxiGaoyehXymQ?e=H5507R | Consolida los avances hechos en el sprint 2 iniciando con las mejoras del Landing Page asi como la Aplicación Web y el inicio de la creación del edge api, app mobile and wokwi |
 | Sprint 3 | upc-pre-202402-si572-wv71-VerySafe-execution evidence-sprint3  <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/Eae1ILKyY9BIqQejChcuyWkBZvEh31NmGHL7NVaAUDmQDg?e=lshgiQ | Consolida los avances hechos en el sprint 3 iniciando con las mejoras del Landing Page asi como la Aplicación Web y el inicio de la creación del edge api, app mobile and wokwi | 
+| About the team | upc-pre-202402-si572-wv71-VerySafe-aboutthe-team <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdEitl--UlVBkTOSJ94vqkkBvXwkCotEE6LfRx-5FURKOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iUVGTf | Consolidamos los avances de cada uno y nuestras mejoras aplicadas asimismo mencionamos la importancia del curso |
+| About the product | upc-pre-202402-si572-wv71-VerySafe-aboutthe-product <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EbGBfmDvLEpKoQ--m0teykEB1_yhDntwWxbsaBvRonlheQ?e=0dEcJd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D | Consolidamos el flujo de nuestras aplicaciones web y móvil presentando casi la totalidad de los flujos que se pueden ejecutar |
