@@ -284,7 +284,6 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
   - [1.2 Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process](#122-lean-ux-process)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
@@ -385,10 +384,6 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [5.1.1.2. Typography](#5112-typography)
       - [5.1.1.3. Colors](#5113-colors)
       - [5.1.1.4. Spacing](#5114-spacing)
-      - [5.1.1.1. Branding](#5111-branding)
-      - [5.1.1.2. Typography](#5112-typography)
-      - [5.1.1.3. Colors](#5113-colors)
-      - [5.1.1.4. Spacing](#5114-spacing)
     - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
   - [5.2. Information Architecture](#52-information-architecture)
     - [5.2.1. Organization Systems](#521-organization-systems)
@@ -408,23 +403,9 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 - [CAPÍTULO VI: PRODUCT IMPLEMENTATION, VALIDATION \& DEPLOYMENT](#capítulo-vi-product-implementation-validation--deployment)
   - [6.1. Software Configuration Management](#61-software-configuration-management)
     - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-      - [Project Management](#project-management)
-      - [Requirements Management](#requirements-management)
-      - [Product UX/UI Design](#product-uxui-design)
-      - [Software Development](#software-development)
-      - [Software Deployment](#software-deployment)
-      - [Software Documentation](#software-documentation)
     - [6.1.2. Source Code Management](#612-source-code-management)
-      - [Repositorios de Código Fuente](#repositorios-de-código-fuente)
-      - [GitFlow Workflow](#gitflow-workflow)
-      - [Semantic Versioning](#semantic-versioning)
-      - [Conventional Commits](#conventional-commits)
     - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-      - [Landing Page - Despliegue en GitHub Pages](#landing-page---despliegue-en-github-pages)
-      - [Web Application - Despliegue en Vercel](#web-application---despliegue-en-vercel)
-      - [Web API - Despliegue en Render](#web-api---despliegue-en-render)
-      - [Deployment Diagram (C4 Model)](#deployment-diagram-c4-model)
   - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
     - [6.2.1. Sprint 1](#621-sprint-1)
       - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
@@ -434,7 +415,9 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
       - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
       - [6.2.1.7.Software Deployment Evidence for Sprint Review](#6217software-deployment-evidence-for-sprint-review)
-      - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+      - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review-1)
+      - [6.2.1.6. Software Deployment Evidence for Sprint Review](#6216-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.7. Team Collaboration Insights during Sprint](#6217-team-collaboration-insights-during-sprint)
     - [6.2.2. Sprint 2](#622-sprint-2)
       - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
       - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
@@ -453,10 +436,6 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
       - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
       - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
-  - [6.3. Validation Interviews.](#63-validation-interviews)
-    - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
-    - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
-    - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
   - [6.3. Validation Interviews.](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
@@ -2645,7 +2624,9 @@ En esta sección, presentamos el conjunto de Acceptance Tests relacionados con l
 
 Para este sprint logramos la internacionalización en nuestra landing page donde podemos cambiar de idioma tanto en español cómo portugés e ingles. Asimismo, mejoramos nuestra aplicación web teniendo una base de datos y API propio y desplegado en nuestro servidor de AWS. A continuación se detalla lo siguiente en un video:
 
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint2evidence.png)
 
+Enlace del Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/ES0WpK_khnRCgmLHG5VgrI0BPY-I0MCNOVxiGaoyehXymQ?e=ZezhXH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -2861,16 +2842,18 @@ En esta sección, presentamos el conjunto de Acceptance Tests relacionados con l
 
 Para esta seccion mostraremos las evidencias correspondientes al sprint 3 que se encarga de la aplicación Movil, Edge API y IoT Device.
 
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint3evidence.png)
+
 **Mobile Application**
 
 En esta parte mostramos el primer avance de nuestra aplicación móvil
-
-
 
 **Edge API**
 Para esta parte mostramos los endpoints utilizados y creados que se manejaran para la conexión a wokwi
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20042016.png)
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20083545.png)
+
+Enlace del Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/Eae1ILKyY9BIqQejChcuyWkB2CjOvMqTl4-UTPZZDLmUqA?e=vqRaPZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review.
