@@ -438,7 +438,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.4.1. Sprint Planning 4.](#6241-sprint-planning-4)
       - [6.2.4.2. Sprint Backlog 4.](#6242-sprint-backlog-4)
       - [6.2.4.3. Development Evidence for Sprint Review.](#6243-development-evidence-for-sprint-review)
-      - [6.2.4.4. Testing Suite Evidence for Sprint Review.](#6244-testing-suite-evidence-for-sprint-review)
+      - [6.2.4.4. Testing Suite Evidence for Sprint Review](#6244-testing-suite-evidence-for-sprint-review)
       - [6.2.4.5. Execution Evidence for Sprint Review.](#6245-execution-evidence-for-sprint-review)
       - [6.2.4.6. Services Documentation Evidence for Sprint Review.](#6246-services-documentation-evidence-for-sprint-review)
       - [6.2.4.7. Software Deployment Evidence for Sprint Review.](#6247-software-deployment-evidence-for-sprint-review)
@@ -2331,6 +2331,11 @@ Enlace de la aplicación web: https://verysafe.netlify.app/
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
+En esta sección, presentamos el conjunto de Acceptance Tests relacionados con las User Stories seleccionadas para el desarrollo del Sprint 1. Para estos criterios de aceptación, se utilizó el lenguaje Gherkin bajo el enfoque BDD.
+
+| Repository                                                                                      | Branch             | Commit Id             | Commit Message              | Commit Message Body               | Commited on (Date)       |
+|-------------------------------------------------------------------------------------------------|--------------------|-----------------------|-----------------------------|-----------------------------------|--------------------------|
+| <p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git</p><p></p> | <p>main</p><p></p> | <p>ef745cd</p><p></p> | <p>feat(testing)</p><p></p> | <p>create hu40 feature</p><p></p> | <p>03/11/2024</p><p></p> |
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
@@ -3065,7 +3070,14 @@ Link del sprint4 : https://trello.com/invite/b/673687b204a2009c1334004b/ATTI62fe
 | Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | 54607743a414bbc7b0a64013eb70b9badba9435a | add: descriptions sensors swagger api | add: descriptions sensors swagger api | 02/11/2024       |
 
 
-#### 6.2.4.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.4.4. Testing Suite Evidence for Sprint Review
+
+En esta sección, presentamos el conjunto de Acceptance Tests relacionados con las User Stories seleccionadas para el desarrollo del Sprint 3. Para estos criterios de aceptación, se utilizó el lenguaje Gherkin bajo el enfoque BDD.
+
+| Repository                                                                                      | Branch             | Commit Id             | Commit Message              | Commit Message Body               | Commited on (Date)       |
+|-------------------------------------------------------------------------------------------------|--------------------|-----------------------|-----------------------------|-----------------------------------|--------------------------|
+| <p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git</p><p></p> | <p>main</p><p></p> | <p>ef745cd</p><p></p> | <p>feat(testing)</p><p></p> | <p>create hu40 feature</p><p></p> | <p>03/11/2024</p><p></p> |
+
 #### 6.2.4.5. Execution Evidence for Sprint Review.
 
 En este Sprint 4, logramos integrar y desarrollar nuevas funcionalidades clave en nuestra aplicación web, aplicación móvil, dispositivo IoT físico y la Embedded API. Estas mejoras se alinean con los objetivos trazados en el Sprint Planning y buscan ofrecer una experiencia de usuario más robusta y funcionalidades que fortalezcan nuestro ecosistema de seguridad IoT.
