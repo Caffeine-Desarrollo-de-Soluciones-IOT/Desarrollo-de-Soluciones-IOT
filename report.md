@@ -293,7 +293,6 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
   - [2.1 Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [Estrategias y Tácticas frente a Competidores](#estrategias-y-tácticas-frente-a-competidores)
   - [2.2 Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
@@ -414,10 +413,6 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
       - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
       - [6.2.1.6. Services Documentation Evidence for Sprint Review.](#6216-services-documentation-evidence-for-sprint-review)
-        - [Property](#property)
-        - [Area](#area)
-        - [User Profile](#user-profile)
-        - [Device](#device)
       - [6.2.1.7.Software Deployment Evidence for Sprint Review](#6217software-deployment-evidence-for-sprint-review)
       - [6.2.1.8. Team Collaboration Insights during Sprint.](#6218-team-collaboration-insights-during-sprint)
     - [6.2.2. Sprint 2](#622-sprint-2)
@@ -427,11 +422,6 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review)
       - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review)
       - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review)
-        - [Property](#property-1)
-        - [Area](#area-1)
-        - [User Profile](#user-profile-1)
-        - [Device Events](#device-events)
-        - [Device](#device-1)
       - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review)
       - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
     - [6.2.3. Sprint 3](#623-sprint-3)
@@ -450,12 +440,6 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.4.4. Testing Suite Evidence for Sprint Review](#6244-testing-suite-evidence-for-sprint-review)
       - [6.2.4.5. Execution Evidence for Sprint Review.](#6245-execution-evidence-for-sprint-review)
       - [6.2.4.6. Services Documentation Evidence for Sprint Review.](#6246-services-documentation-evidence-for-sprint-review)
-        - [Property](#property-2)
-        - [Area](#area-2)
-        - [User Profile](#user-profile-2)
-        - [Payments](#payments)
-        - [Device Events](#device-events-1)
-        - [Device](#device-2)
       - [6.2.4.7. Software Deployment Evidence for Sprint Review.](#6247-software-deployment-evidence-for-sprint-review)
       - [6.2.4.8. Team Collaboration Insights during Sprint.](#6248-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews.](#63-validation-interviews)
@@ -758,7 +742,7 @@ Para el análisis competitivo, observamos a tres empresas que se encuentran en e
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-### Estrategias y Tácticas frente a Competidores
+Estrategias y Tácticas frente a Competidores
 
  **Fortalezas de VerySafe**
 1. **Accesibilidad en precios**:
@@ -2364,7 +2348,7 @@ Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_u
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 A continuación se presenta la documentación de los servicios de la aplicación web y móvil, incluyendo la descripción de los endpoints, los parámetros de entrada y salida, y ejemplos de uso.
 
-##### Property
+Property
 
 | Endpoint                            | Http Verb | Acción                              | Descripción                                                                 |
 |-------------------------------------|-----------|-------------------------------------|-----------------------------------------------------------------------------|
@@ -2374,7 +2358,7 @@ A continuación se presenta la documentación de los servicios de la aplicación
 | `/api/properties/registered`        | GET       | Lista propiedades registradas      | Devuelve una lista de todas las propiedades registradas.                   |
 | `/api/properties/unregister/{id}`   | DELETE    | Elimina una propiedad registrada   | Elimina una propiedad específica del sistema según su ID.                  |
 
-##### Area
+Area
 
 | Endpoint                            | Http Verb | Acción                              | Descripción                                                                 |
 |-------------------------------------|-----------|-------------------------------------|-----------------------------------------------------------------------------|
@@ -2385,14 +2369,14 @@ A continuación se presenta la documentación de los servicios de la aplicación
 | `/api/areas/all/{propertyId}`       | GET       | Lista áreas de una propiedad       | Devuelve todas las áreas asociadas a una propiedad específica.             |
 | `/api/areas/unregister/{areaId}`    | DELETE    | Elimina un área registrada         | Elimina un área específica del sistema según su ID.                        |
 
-##### User Profile
+User Profile
 
 | Endpoint              | Http Verb | Acción                       | Descripción                                                    |
 |-----------------------|-----------|------------------------------|----------------------------------------------------------------|
 | `/api/profile/create` | POST      | Crea un perfil de usuario    | Crea un nuevo perfil de usuario en el sistema.                 |
 | `/api/profile`        | GET       | Obtiene el perfil del usuario| Recupera los datos del perfil de usuario actualmente logueado. |
 
-##### Device
+Device
 
 | Endpoint                            | Http Verb | Acción                            | Descripción                                                             |
 |-------------------------------------|-----------|-----------------------------------|-------------------------------------------------------------------------|
@@ -2685,7 +2669,7 @@ Enlace del Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_u
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
 A continuación se presenta la documentación de los servicios de la aplicación web y móvil, incluyendo la descripción de los endpoints, los parámetros de entrada y salida, y ejemplos de uso.
 
-##### Property
+Property
 
 | Endpoint                            | Http Verb | Acción                              | Descripción                                                                 |
 |-------------------------------------|-----------|-------------------------------------|-----------------------------------------------------------------------------|
@@ -2695,7 +2679,7 @@ A continuación se presenta la documentación de los servicios de la aplicación
 | `/api/properties/registered`        | GET       | Lista propiedades registradas      | Devuelve una lista de todas las propiedades registradas.                   |
 | `/api/properties/unregister/{id}`   | DELETE    | Elimina una propiedad registrada   | Elimina una propiedad específica del sistema según su ID.                  |
 
-##### Area
+Area
 
 | Endpoint                            | Http Verb | Acción                              | Descripción                                                                 |
 |-------------------------------------|-----------|-------------------------------------|-----------------------------------------------------------------------------|
@@ -2706,15 +2690,14 @@ A continuación se presenta la documentación de los servicios de la aplicación
 | `/api/areas/all/{propertyId}`       | GET       | Lista áreas de una propiedad       | Devuelve todas las áreas asociadas a una propiedad específica.             |
 | `/api/areas/unregister/{areaId}`    | DELETE    | Elimina un área registrada         | Elimina un área específica del sistema según su ID.                        |
 
-##### User Profile
+User Profile
 
 | Endpoint              | Http Verb | Acción                       | Descripción                                                    |
 |-----------------------|-----------|------------------------------|----------------------------------------------------------------|
 | `/api/profile/create` | POST      | Crea un perfil de usuario    | Crea un nuevo perfil de usuario en el sistema.                 |
 | `/api/profile`        | GET       | Obtiene el perfil del usuario| Recupera los datos del perfil de usuario actualmente logueado. |
 
-
-##### Device Events
+Device Events
 
 | Endpoint                      | Http Verb | Acción                     | Descripción                                               |
 |-------------------------------|-----------|----------------------------|-----------------------------------------------------------|
@@ -2722,7 +2705,7 @@ A continuación se presenta la documentación de los servicios de la aplicación
 | `/api/events/all`             | GET       | Lista todos los eventos    | Devuelve una lista de todos los eventos registrados.      |
 | `/api/events/all/{propertyId}`| GET       | Lista eventos de propiedad | Devuelve todos los eventos asociados a una propiedad.     |
 
-##### Device
+Device
 
 | Endpoint                            | Http Verb | Acción                            | Descripción                                                             |
 |-------------------------------------|-----------|-----------------------------------|-------------------------------------------------------------------------|
@@ -3259,7 +3242,7 @@ A continuación, se presenta una imagen del dispositivo IoT físico con los comp
 #### 6.2.4.6. Services Documentation Evidence for Sprint Review.
 A continuación se presenta la documentación de los servicios de la aplicación web y móvil, incluyendo la descripción de los endpoints, los parámetros de entrada y salida, y ejemplos de uso.
 
-##### Property
+Property
 
 | Endpoint                            | Http Verb | Acción                              | Descripción                                                                 |
 |-------------------------------------|-----------|-------------------------------------|-----------------------------------------------------------------------------|
@@ -3269,7 +3252,7 @@ A continuación se presenta la documentación de los servicios de la aplicación
 | `/api/properties/registered`        | GET       | Lista propiedades registradas      | Devuelve una lista de todas las propiedades registradas.                   |
 | `/api/properties/unregister/{id}`   | DELETE    | Elimina una propiedad registrada   | Elimina una propiedad específica del sistema según su ID.                  |
 
-##### Area
+Area
 
 | Endpoint                            | Http Verb | Acción                              | Descripción                                                                 |
 |-------------------------------------|-----------|-------------------------------------|-----------------------------------------------------------------------------|
@@ -3280,21 +3263,21 @@ A continuación se presenta la documentación de los servicios de la aplicación
 | `/api/areas/all/{propertyId}`       | GET       | Lista áreas de una propiedad       | Devuelve todas las áreas asociadas a una propiedad específica.             |
 | `/api/areas/unregister/{areaId}`    | DELETE    | Elimina un área registrada         | Elimina un área específica del sistema según su ID.                        |
 
-##### User Profile
+User Profile
 
 | Endpoint              | Http Verb | Acción                       | Descripción                                                    |
 |-----------------------|-----------|------------------------------|----------------------------------------------------------------|
 | `/api/profile/create` | POST      | Crea un perfil de usuario    | Crea un nuevo perfil de usuario en el sistema.                 |
 | `/api/profile`        | GET       | Obtiene el perfil del usuario| Recupera los datos del perfil de usuario actualmente logueado. |
 
-##### Payments
+Payments
 
 | Endpoint                                     | Http Verb | Acción                              | Descripción                                                                     |
 |----------------------------------------------|-----------|-------------------------------------|---------------------------------------------------------------------------------|
 | `/api/payments/subscription/new/{priceId}`   | POST      | Crea una nueva suscripción         | Genera una nueva suscripción basada en el ID del precio seleccionado.          |
 | `/api/payments/subscription/detail`          | GET       | Obtiene detalles de la suscripción | Recupera los detalles de la suscripción activa del usuario.                    |
 
-##### Device Events
+Device Events
 
 | Endpoint                      | Http Verb | Acción                     | Descripción                                               |
 |-------------------------------|-----------|----------------------------|-----------------------------------------------------------|
@@ -3302,7 +3285,7 @@ A continuación se presenta la documentación de los servicios de la aplicación
 | `/api/events/all`             | GET       | Lista todos los eventos    | Devuelve una lista de todos los eventos registrados.      |
 | `/api/events/all/{propertyId}`| GET       | Lista eventos de propiedad | Devuelve todos los eventos asociados a una propiedad.     |
 
-##### Device
+Device
 
 | Endpoint                            | Http Verb | Acción                            | Descripción                                                             |
 |-------------------------------------|-----------|-----------------------------------|-------------------------------------------------------------------------|
