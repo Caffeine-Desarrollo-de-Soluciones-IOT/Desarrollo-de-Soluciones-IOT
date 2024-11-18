@@ -433,6 +433,15 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
       - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
       - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 4](#623-sprint-4)
+      - [6.2.4.1. Sprint Planning 4.](#6241-sprint-planning-4)
+      - [6.2.4.2. Sprint Backlog 4.](#6242-sprint-backlog-4)
+      - [6.2.4.3. Development Evidence for Sprint Review.](#6243-development-evidence-for-sprint-review)
+      - [6.2.4.4. Testing Suite Evidence for Sprint Review.](#6244-testing-suite-evidence-for-sprint-review)
+      - [6.2.4.5. Execution Evidence for Sprint Review.](#6245-execution-evidence-for-sprint-review)
+      - [6.2.4.6. Services Documentation Evidence for Sprint Review.](#6246-services-documentation-evidence-for-sprint-review)
+      - [6.2.4.7. Software Deployment Evidence for Sprint Review.](#6247-software-deployment-evidence-for-sprint-review)
+      - [6.2.4.8. Team Collaboration Insights during Sprint.](#6248-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews.](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
@@ -2647,6 +2656,16 @@ Link de la API desplegada: (http://localhost:8080/swagger-ui/index.html#/)
 Para evidenciar la colaboración de todos integrantes del equipo FalconShield en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro Edge api.
 
 ![alt](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20043719.png)
+
+### 6.2.3. Sprint 4
+#### 6.2.4.1. Sprint Planning 4.
+#### 6.2.4.2. Sprint Backlog 4.
+#### 6.2.4.3. Development Evidence for Sprint Review.
+#### 6.2.4.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.4.5. Execution Evidence for Sprint Review.
+#### 6.2.4.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.4.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.4.8. Team Collaboration Insights during Sprint.
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
