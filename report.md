@@ -436,6 +436,15 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
       - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
       - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 4](#623-sprint-4)
+      - [6.2.4.1. Sprint Planning 4.](#6241-sprint-planning-4)
+      - [6.2.4.2. Sprint Backlog 4.](#6242-sprint-backlog-4)
+      - [6.2.4.3. Development Evidence for Sprint Review.](#6243-development-evidence-for-sprint-review)
+      - [6.2.4.4. Testing Suite Evidence for Sprint Review.](#6244-testing-suite-evidence-for-sprint-review)
+      - [6.2.4.5. Execution Evidence for Sprint Review.](#6245-execution-evidence-for-sprint-review)
+      - [6.2.4.6. Services Documentation Evidence for Sprint Review.](#6246-services-documentation-evidence-for-sprint-review)
+      - [6.2.4.7. Software Deployment Evidence for Sprint Review.](#6247-software-deployment-evidence-for-sprint-review)
+      - [6.2.4.8. Team Collaboration Insights during Sprint.](#6248-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews.](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
@@ -1958,17 +1967,13 @@ A continuación, se darán a conocer las convenciones, formatos, estilos y entre
 - _Uso de Modificadores de Acceso:_ Utilizar modificadores de acceso como public, private y protected para controlar la visibilidad y el acceso a propiedades y métodos de una clase. 
 - _Nombrar Funciones según su Propósito:_ Dar nombres descriptivos a las funciones que reflejen su propósito y su acción. 
 
-**Angular:** Se siguieron las convenciones y guías de estilo de código de “Angular coding style guide” de la página oficial de Angular.io. Lo cual se destaca lo siguiente: 
+**Vue.js:** Se siguieron las convenciones y guías de estilo de código de la “Vue Style Guide” de la documentación oficial de Vue.js. Los puntos destacados incluyen:
 
-- _Nombres de Archivos en kebab-case:_ Los nombres de los archivos de componentes, módulos y servicios deben usar la convención kebab-case, donde las palabras se separan con guiones. Ejemplo: mi-componente.component.ts. 
-- _Uso de Decoradores:_ Utilizar decoradores como @Component y @Injectable para anotar componentes, servicios y otros elementos de Angular. 
-- _Convención de Carpetas:_ Organizar los archivos de Angular en carpetas según su tipo, como componentes, servicios, módulos, etc. 
-- _Uso de Módulos:_ Utilizar módulos para organizar y encapsular funcionalidades relacionadas en la aplicación. 
-- _Uso de RxJS:_ Emplear RxJS para gestionar flujos de datos asíncronos y observables en la aplicación. 
-- _Uso de Directivas Personalizadas:_ Crear directivas personalizadas cuando sea necesario para agregar funcionalidad específica a elementos del DOM. 
-- _Uso de Servicios:_ Separar la lógica de negocio y la comunicación con el servidor en servicios reutilizables. 
-- _Evitar Lógica en Plantillas:_ Evitar lógica compleja en las plantillas de componentes y, en su lugar, moverla a los métodos del componente. 
-- _Gestión de Rutas:_ Utilizar el enrutamiento de Angular para gestionar las rutas y la navegación entre páginas de la aplicación. 
+- _Nombres de Archivos en PascalCase:_ Los componentes deben tener nombres de archivo en PascalCase (Ejemplo: MiComponente.vue)
+- _Estructura de Componentes en formato SFC (Single File Component):_ Utilizar archivos .vue con secciones bien definidas (<template>, <script>, <style>) para separar lógica, diseño y estilos de manera clara y modular.
+- _Convención de Carpetas:_ Organizar los componentes en carpetas lógicas según su propósito, como components/, views/, store/, y services/.
+- _Gestión de Rutas:_ Configurar las rutas de la aplicación utilizando Vue Router. Definir rutas de manera jerárquica y utilizar alias o nombres de rutas para facilitar la navegación.
+- _Reutilización de Componentes:_ Identificar patrones comunes y refactorizarlos en componentes reutilizables y configurables.
 
 **Spring:** Se siguieron las convenciones y guías de estilo de código de la documentación oficial de Spring Boot y se destaca lo siguiente: 
 
@@ -2236,7 +2241,7 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
     <tr>
        <td>T03</td>
        <td>Estilado del componente</td>
-       <td>Agregar los estilos correspondientes (desde una archivo SCSS o de Angular Material)</td>
+       <td>Agregar los estilos correspondientes (desde una archivo SCSS o de PrimeVue)</td>
        <td>2</td>
        <td>Jamutaq O.</td>
        <td>Done</td>
@@ -2882,12 +2887,86 @@ Para el despliegue de la Edge API
 
 Link de la API desplegada: (http://localhost:8080/swagger-ui/index.html#/)
 
-
 #### 6.2.3.8. Team Collaboration Insights during Sprint.
 
 Para evidenciar la colaboración de todos integrantes del equipo FalconShield en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro Edge api.
 
 ![alt](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20043719.png)
+
+### 6.2.3. Sprint 4
+#### 6.2.4.1. Sprint Planning 4.
+#### 6.2.4.2. Sprint Backlog 4.
+#### 6.2.4.3. Development Evidence for Sprint Review.
+#### 6.2.4.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.4.5. Execution Evidence for Sprint Review.
+
+En este Sprint 4, logramos integrar y desarrollar nuevas funcionalidades clave en nuestra aplicación web, aplicación móvil, dispositivo IoT físico y la Embedded API. Estas mejoras se alinean con los objetivos trazados en el Sprint Planning y buscan ofrecer una experiencia de usuario más robusta y funcionalidades que fortalezcan nuestro ecosistema de seguridad IoT.
+
+1. Aplicación Web:
+
+Se implementó una nueva vista para gestionar dispositivos IoT, permitiendo a los usuarios visualizar y administrar todos los dispositivos vinculados a su cuenta. Se añadieron 2 idiomas para la traducción de la aplicación.
+
+![Web App Dashboard](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/dashboard_web-app.png)
+
+Además, se modificó la vista de los dispositivos por áreas.
+
+![Devices Per Area View](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/my-areas_web-app.png)
+
+Y se agregó la vista de planes de suscripción para los usuarios.
+
+![Subscription Plans View](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/plans_web-app.png)
+
+1. Aplicación Móvil:
+
+
+2. Embedded API:
+
+
+3. Dispositivo IoT físico:
+
+En este Sprint, se avanzó significativamente en el desarrollo del dispositivo IoT físico, que ahora integra un sensor de aproximación y un lector RFID.
+
+Se realizaron pruebas de campo en las que se verificó la correcta detección de proximidad por el sensor y la fiabilidad de la lectura de las etiquetas RFID en diferentes condiciones de uso. Las pruebas resultaron exitosas, y los componentes demostraron una integración eficiente con las aplicaciones web y móvil.
+
+A continuación, se presenta una imagen del dispositivo IoT físico con los componentes de sensor de aproximación y lector RFID instalados, ilustrando los avances realizados en este Sprint.
+
+![Physical IOT Execution](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/physical-iot-execution.jpg)
+
+#### 6.2.4.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.4.7. Software Deployment Evidence for Sprint Review.
+
+#### 6.2.4.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 4, el equipo se centró en implementar nuevas funcionalidades y optimizaciones en cuatro componentes esenciales del proyecto: la página de aterrizaje (Landing Page), el frontend y backend de las aplicaciones web y móvil, el dispositivo IoT físico y la Embedded API. A continuación, se detalla el desarrollo de actividades en cada uno de estos productos y la colaboración del equipo para alcanzar los objetivos del Sprint.
+
+**Frontend de la Aplicación Web:**
+
+El frontend de la aplicación web se amplió para incluir nuevas vistas y funcionalidades orientadas a la gestión de dispositivos IoT y la visualización de alertas en tiempo real. Se diseñó una vista dashboard para visualizar información importante centralizada de múltiples dispositivos. El equipo colaboró estrechamente en las pruebas de usabilidad, asegurando que la interfaz fuera accesible y funcional. Los avances se evidencian en la sección de commits del repositorio de GitHub, con contribuciones constantes de todos los integrantes.
+
+![Frontend Sprint4 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_insight1.png)
+
+**Backend:**
+
+En este Sprint, el backend fue optimizado con la creación de nuevos endpoints REST que permiten la comunicación en tiempo real entre las aplicaciones y el dispositivo IoT. También se corrigieron errores menores y se mejoraron las estrategias de autenticación y seguridad. Para reflejar la colaboración en el desarrollo del backend, se incluye la sección Insights del repositorio correspondiente:
+
+![Backend Sprint4 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_insight2.png)
+
+**Embedded API:**
+
+La Embedded API fue actualizada para gestionar nuevos tipos de sensores, optimizando la transmisión de datos hacia la nube y reduciendo la latencia de respuesta. El equipo trabajó en sincronía, revisando cada funcionalidad implementada y asegurándose de cumplir con los requisitos establecidos.
+
+![Embedded API Sprint4 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_insight3.png)
+
+**Dispositivo IoT Físico**
+
+El equipo colaboró en la implementación del dispositivo que incluye un sensor de proximidad y un RFID. Esto se logró a través de un enfoque iterativo que incluyó pruebas y ajustes necesarios. La simulación fue desarrollada en Wokwi.
+
+![Physical IOT Sprint4 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_insight4.png)
+
+**Interpretación de Analíticos:**
+
+En este Sprint, se analizó la actividad del equipo utilizando las métricas de GitHub, lo que permitió identificar un incremento en los commits durante los momentos clave de desarrollo e integración. Los datos muestran una participación equitativa, destacando el compromiso y la efectividad del equipo en todas las áreas del proyecto.
+Este análisis también refleja un enfoque colaborativo en la resolución de problemas y en las revisiones de código, lo que contribuyó significativamente al éxito de las implementaciones de este Sprint.
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
