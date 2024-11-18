@@ -3044,15 +3044,13 @@ La Embedded API fue actualizada para gestionar nuevos tipos de sensores, optimiz
 
 ![Embedded API Sprint4 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_insight3.png)
 
-<<<<<<< HEAD
+
 **Dispositivo IoT Físico**
 
 El equipo colaboró en la implementación del dispositivo que incluye un sensor de proximidad y un RFID. Esto se logró a través de un enfoque iterativo que incluyó pruebas y ajustes necesarios. La simulación fue desarrollada en Wokwi.
 
 ![Physical IOT Sprint4 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/physical-iot-execution.jpg)
 
-=======
->>>>>>> 81e1093889bf0079a56e25a2c9ba6026e650bdaf
 **Interpretación de Analíticos:**
 
 En este Sprint, se analizó la actividad del equipo utilizando las métricas de GitHub, lo que permitió identificar un incremento en los commits durante los momentos clave de desarrollo e integración. Los datos muestran una participación equitativa, destacando el compromiso y la efectividad del equipo en todas las áreas del proyecto.
