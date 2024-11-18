@@ -2093,110 +2093,30 @@ Para esta parte como es una etapa inicial contamos únicamente con nuestra Landi
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
 #### 6.2.1.1. Sprint Planning 1
-<table align="center"  border="1" width="90%" style="text-align:center;">
-    <tr align="left">
-        <td>
-            <b>Sprint #</b>
-        </td>
-        <td>
-            <b>Sprint 1</b>           
-        </td>
-    </tr>
-    <tr align="left">
-        <td colspan="2">
-            <b>Sprint Planning Background</b>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Date</b>
-        </td>
-        <td>
-            20/09/24         
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Time</b>
-        </td>
-        <td>
-            16:00         
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Location</b>
-        </td>
-        <td>
-            Canal de voz en Discord      
-        </td>
-    </tr>
-     <tr>
-       <tr align="left">
-        <td>
-            <b>Prepared By</b>
-        </td>
-        <td>
-            Integrantes del equipo  
-        </td>
-    </tr>
-    <tr>
-       <tr align="left">
-        <td>
-            <b>Attendess (to planning meeting)</b>
-        </td>
-        <td>
-            - Gabriela Soledad Nomberto Ramos <br/>
-            - Dennis Piero Quevedo Yucra <br/>
-            - Max Dayson Sabino Arostegui  <br/>
-            - Elvia Guadalupe Arteaga Cruz <br/>    
-            - Jamutaq Piero Ortega Vélez <br/> 
-        </td>
-    </tr>
-      <tr>
-       <tr align="left">
-        <td>
-            <b>Sprint n - 1</b>
-            <b>Review Summary</b>
-        </td>
-        <td>
-            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo de la Landing Page y la lógica de negocio de la plataforma. Se desplegó la landing page de forma exitosa.
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 1</b>
-            <b>Retrospective Summary</b>
-        </td>
-        <td>
-        Se logró cumplir con los objetivos planteados en el Sprint 1, sin embargo, se identificaron oportunidades de mejora en la comunicación y coordinación del equipo.
-        </td>
-    </tr>
-     <tr align="left">
-        <td colspan="2">
-            <b>Sprint Goal & User Stories</b>
-        </td>
-    </tr>
-      <tr align="left">
-        <td>
-            <b>Sprint 1 Velocity</b>
-        </td>
-        <td>
-            -
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Sum of Story Points</b>
-        </td>
-        <td>
-            -
-        </td>
-    </tr>
-</table> 
+En esta sesión de planificación para el Sprint 1, nos enfocaremos en los desarrollos clave del landing page
+
+| **Sprint #**                       |Sprint 1|
+|:-----------------------------------| :- |
+| **Sprint Planning Background**     ||
+| Date                               |20/04/2024|
+| Time                               |4:00 pm|
+| Location                           |Canal de voz en discord|
+| Prepared By                        |Gabriela Nomberto|
+| Attendees (to planning meeting)    |Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo|
+| Sprint n – 1 Review Summary        |Se realizó el tablero del Sprint 4 en  Trello y se asignaron nuevas tareas. Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo de la Landing Page y la lógica de negocio de la plataforma. Se desplegó la landing page de forma exitosa.|
+| Sprint n – 1 Retrospective Summary |Se logró cumplir con los objetivos planteados en el Sprint 1, sin embargo, se identificaron oportunidades de mejora en la comunicación y coordinación del equipo|
+| **Sprint Goal & User Stories**     ||
+| Sprint 1 Goal                      |<p>El objetivo de este Sprint es proporcionar información sobre las principales características de VerySafe, mostrar testimonios de clientes, detallar los planes de pago e incluir un llamado a la acción en la landing page para los visitantes. Estas acciones están orientadas a captar la atención de los usuarios y guiarlos de manera efectiva hacia la descarga de la aplicación y la elección de un plan que se ajuste a sus necesidades.  </p><p>Este enfoque busca que los visitantes comprendan claramente los servicios que ofrecemos, ganen confianza a través de los testimonios de clientes satisfechos y puedan seleccionar un plan con facilidad. Además, se incentivará la descarga de la aplicación mediante un llamado a la acción destacado, mientras que el equipo de desarrollo trabajará en sentar las bases para la incorporación de nuevas características en futuros sprints.  </p><p>El éxito del Sprint se definirá por dos indicadores principales: que los usuarios puedan acceder a la aplicación web y completar exitosamente su suscripción a uno de los planes, y que los desarrolladores implementen de forma eficiente los endpoints necesarios para habilitar las funcionalidades previstas en la aplicación web.  </p><p></p>|
+| Sprint 1 Velocity                  ||
+| Sum of Story Points                |26|
 
 #### 6.2.1.2. Sprint Backlog 1
-En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+En este Sprint 1, el objetivo principal es desarrollar el Landing page de VerySafe, que permitirá a los visitantes conocer los servicios, planes, testimonios y video about the producto para que puedan suscribirse y usar nuestro producto.
+
+Se muestra el tablero del sprint1 en trello:
+![trello1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint1_trello.jpg)
+
 
 <table align="center" border="1" width="90%" style="text-align:center">
     <tr>
@@ -2345,21 +2265,20 @@ Las actividades de implementación se han desarrollado de acuerdo a lo planifica
 
 En esta sesión de planificación para el Sprint 2, nos enfocaremos en los desarrollos clave del frontend y backend de nuestro producto VerySafe, que busca ofrecer una solución de seguridad integral para propietarios de propiedades y empresas de seguridad. Durante el Sprint 1, logramos sentar las bases del producto al definir los componentes esenciales y avanzar en algunos elementos básicos en el frontend Ahora, el objetivo del Sprint 2 es dar un paso adelante, desarrollando las interfaces de usuario y los servicios backend necesarios para ofrecer una experiencia coherente y funcional.
 
-| **Sprint #**                       | Sprint 2                                                                                                                                                                                                                                                                                                                           |
-|:-----------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                    |
-| Date                               | 15/10/2024                                                                                                                                                                                                                                                                                                                         |
-| Time                               | 11:30 pm                                                                                                                                                                                                                                                                                                                           |
-| Location                           | Cubículo de la Universidad UPC sede Villa                                                                                                                                                                                                                                                                                          |
-| Prepared By                        | Gabriela Nomberto                                                                                                                                                                                                                                                                                                                  |
-| Attendees (to planning meeting)    | Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo                                                                                                                                                                                                                                                                         |
-| Sprint n – 1 Review Summary        | Se realizó el tablero del Sprint 1 en el Trello y creo las tareas relacionados a los user stories.                                                                                                                                                                                                                                 |
-| Sprint n – 1 Retrospective Summary | Dos tareas no lograron completarse.                                                                                                                                                                                                                                                                                                |
-| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                    |
-| Sprint 1 Goal                      | Crear la página web que permita a los usuarios registrarse, iniciar sesión y acceder a un dashboard donde puedan gestionar sus dispositivos y propiedades  asegurando una interfaz atractiva y funcional con un backend sólido para manejar la autenticación, operaciones CRUD de dispositivos y consulta de datos en tiempo real. |
-| Sprint 1 Velocity                  | 34                                                                                                                                                                                                                                                                                                                                 |
-| Sum of Story Points                | 38                                                                                                                                                                                                                                                                                                                                 |
-
+| **Sprint #**                       | Sprint 2                                                                                           |
+|:-----------------------------------|:---------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                    |
+| Date                               | 15/10/2024                                                                                         |
+| Time                               | 11:30 pm                                                                                           |
+| Location                           | Cubículo de la Universidad UPC sede Villa                                                          |
+| Prepared By                        | Gabriela Nomberto                                                                                  |
+| Attendees (to planning meeting)    | Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo                                         |
+| Sprint n – 2 Review Summary        | Se realizó el tablero del Sprint 1 en el Trello y creo las tareas relacionados a los user stories. |
+| Sprint n – 2 Retrospective Summary | Dos tareas no lograron completarse.                                                                |
+| **Sprint Goal & User Stories**     |                                                                                                    |
+| Sprint 2 Goal                      | <p> El objetivo de este Sprint es diseñar los formularios para agregar propiedades y áreas en la vista “My Properties”, crear un formulario para añadir dispositivos y diseñar una tabla que muestre los dispositivos registrados en la vista “My Devices” de la aplicación web. Además, se desarrollarán los endpoints en el Cloud Service para almacenar propiedades y obtener información sobre los dispositivos asociados a las propiedades previamente registradas en el sistema.   </p><p> Este enfoque está orientado a brindar a los dueños de los inmuebles una herramienta que les permita organizar de manera eficiente sus propiedades, áreas y dispositivos IoT, fortaleciendo así la gestión y seguridad de sus inmuebles. La funcionalidad busca facilitar la visualización y el control de cada elemento relacionado con las propiedades, asegurando una experiencia práctica y confiable para los usuarios.   </p><p> El éxito del Sprint se medirá cuando los dueños de inmueble puedan registrar propiedades con diferentes áreas, como cocina, sala y dormitorio, y asignar dispositivos IoT a esas áreas de forma efectiva. Esto garantizará no solo la correcta organización, sino también la integración fluida de dispositivos en las propiedades registradas. </p><p></p>                                                                 |
+| Sprint 2 Velocity                  | 34                                                                                                 |
+| Sum of Story Points                | 38                                                                                                 |
 #### 6.2.2.2. Sprint Backlog 2.
 
 En este Sprint 2, el objetivo principal es desarrollar la página web de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional en el frontend, complementada con un backend sólido que gestione la autenticación y soporte las operaciones CRUD para dispositivos, así como consultas de datos en tiempo real. Al finalizar este sprint, buscamos tener una versión funcional de estas funcionalidades clave, lista para pruebas iniciales y validación.
