@@ -413,11 +413,9 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
       - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
       - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
-      - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
-      - [6.2.1.7.Software Deployment Evidence for Sprint Review](#6217software-deployment-evidence-for-sprint-review)
-      - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review-1)
       - [6.2.1.6. Software Deployment Evidence for Sprint Review](#6216-software-deployment-evidence-for-sprint-review)
-      - [6.2.1.7. Team Collaboration Insights during Sprint](#6217-team-collaboration-insights-during-sprint)
+      - [6.2.1.7.Software Deployment Evidence for Sprint Review](#6217software-deployment-evidence-for-sprint-review)
+      - [6.2.1.8. Team Collaboration Insights during Sprint.](#6218-team-collaboration-insights-during-sprint)
     - [6.2.2. Sprint 2](#622-sprint-2)
       - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
       - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
@@ -458,11 +456,74 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 
 
 # Student Outcome
-| Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Conclusiones                                                                                                                                          |
-|-----------------------------  --------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **TB1:** **Max Dayson Sabino Arostegui:** Colabore en todos los capitulos con los puntos: estrategia y tácticas frente a competidores, product backlog, diseños de entrevista, registro de entrevista y con el bounded context devices. Todo esto me ayudó a fomentar el trabajo en equipo **Gabriela Nomberto Ramos** Colabore en todos los capitulos tanto como la definicion y focalziacion del alcance de nuestro producto asi como las arquitecturas, modelos y mejoras continuas **Elvia Arteaga Cruz** Con el equipo trabajamos de manera colaborativa para organizarnos y repartir equitativamente las tareas que podían realizarse de manera individual, pero también para juntarnos en tareas grupales, como el event storming. **Dennis Quevedo Yucra** Colaboré en todos los capitulos tanto como la definicion de los segmentos objetivos asi como las user person, impact map, y arquitecturas **Jamutaq Ortega Vélez** Colaboré en todos capítulos y la comunicación y organización con el equipo se mantuvo constante y buena durante todo el desarrollo del entregable. **TP1:** **Max Dayson Sabino Arostegui:** Colabore en la creación del diseño de la aplicación web, realize los wireframes y mockups, asimismo realize el sprint1 en la parte de creación para la sección eventos **Elvia Arteaga Cruz** Colaboré en la redacción de organization y navigation systems, así como en la recopilación de las herramientas utilizadas en el proyecto hasta esta entrega. En la parte de desarrollo, colaboré en la implementación del frontend de la página web y de la fake api con json server. **Jamutaq Ortega Vélez** Me encargué de elaborar y colaborar con mi equipo el desarrollo de la aplicación web junto con la implementación de componentes y vistas principales. **Dennis Quevedo Yucra** Me encargue de la creacion de mockups y Wireflow de la Aplicacion Mobile y tambien corregi los puntos que el profesor nos observo en la primera entrega **TB2:** **Max Dayson Sabino Arostegui:** Elabore el sprint planning 2 y 3 en conjunto con el profuct backlog 2 y 3. Asimismo apoye en la elaboración de los tableros en Trello, todo esto me ayudó a mejorar mis habilidades de liderazgo **Elvia Arteaga Cruz:** Colaboré principalmente con el desarrollo de la aplicación web, aunque también apoyé en los otros productos del proyecto. Esta entrega se centró en presentar un MVP con miras a mejoras futuras. **Jamutaq Ortega Vélez** --escribe aqui--. **Dennis Quevedo Yucra** Elabore el sprint planning 3 y colabore en conjunto con mi grupo a mejoras futuras **Gabriela Nomberto Ramos** Elabore el sprint planning 3 y colabore en conjunto con mi grupo a mejoras futuras **TF:** **Max Dayson Sabino Arostegui:** Colabore en la implementación de i18n en la aplicación web, implementaconfión de los eventos, configuración de la tarjeta RFID en el wokwi                                                                                                                         | Concluimos que las reuniones y las mejoras continuas entre todos nos ayuda a mejorar el reporte de trabajo y poder colaborar todo de forma equitativa |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **TB1:** **Max Dayson Sabino Arostegui:** Durante las reuniones en el aula planificamos las tareas y definimos las metas. En cada reunión revisamos el avance para recalcar los objetivos **Gabriela Nomberto Ramos** Tuvimos reuniones en el salón de clase el cual nos ayudo mucho a definir lo que cada uno debe de hacer, asimismo por medio de un grupo de WhatsApp pudimos absolver algunas dudas **Elvia Arteaga Cruz** El tiempo brindado por el profesor durante las horas de clase para organizar el proyecto fue de mucha utilidad para el desarrollo del mismo. Ese tiempo fue aprovechado para organizar las tareas individuales y realizar las tareas grupales. Además, contamos con medios digitales para la comunicación continua, tales como Whatsapp y Discord. **Dennis Quevedo Yucra** Durante las reuniones en el salón de clase el cual nos definimos y consultamos al profesor muchas dudas que teniamos y tambien se definió lo que cada uno debe de hacer, asimismo por medio de un grupo de WhatsApp pudimos absolver algunas dudas como tambien en discord **Jamutaq Ortega Vélez** Trabajamos de manera colaborativa en todo momento. Planificamos nuestros avances y tuvimos tiempo de hacer correcciones también. **TP1:** **Max Dayson Sabino Arostegui:** Realize el sprint 1 en colaboración con los demás mientros del equipo, me conecte a las reuniones por discord y fomente el trabajo en equipo. **Elvia Arteaga Cruz** Tuvimos reunines mediante discord de manera frecuente para coordinar los puntos a avanzar. Esto nos ayudó a organizarnos en las tareas individuales y grupales. **Jamutaq Ortega Vélez** Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. **Gabriela Nomberto** Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. **Dennis Quevedo Yucra** Coordinamos como equipo y primero acordamos corregir las observaciones previas. Con Gabriela Nomberto nos pusimos de acuerdo para poder realizar los mockups de la landing page y demas apartados. **TB2:** **Max Dayson Sabino Arostegui:** Realice la elaboración de la vista eventos en el fronted y la elaboración de los end points para los events. Asimismo, estuve presente en las reuniones presenciales, esto nos ayudo a trabajar colaborativamente **Elvia Arteaga Cruz:** Durante estos dos sprints el equipo optó por realizar reuniones presenciales una vez por semana para verificar avances y consolidar ideas. **Jamutaq Ortega Vélez** Durante el desarrollo de los psrints, se hizo un feedback y mejora continua de los puntos evaluados y también se procedió con la mejora de las aplicaciones. **Dennis Quevedo Yucra** Configure el app movil junto con partes del app web además hice mejoras en el documento **Gabriela Nomberto Ramos** Hice mejoras en el documento asi como en la landing page además ayude en avanzar el edge api y el wokwi **TF:** **Max Dayson Sabino Arostegui:** Realice en conjunto con mis compañeros el sprint backlog 4 en trello y el sprint planing, asimismo ayude en mejorar el sprint goal de los sprint 1,2,3 y 4 **Jamutaq Ortega Vélez:** Me encargué de implementar el sistema de pagos en la aplicación web. Además, de agregar la internacionalización y verificación de otros detalles pendientes de las aplicaciones. | Para este apartado, todos aportamos en la estructuracion y llenado del reporte, trabajando asi en grupo y entendiendonos entre todos                  |
-
+<table border="1">
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+      <td>
+        <strong>TB1:</strong> <br/>
+        <strong>Max Dayson Sabino Arostegui:</strong> Colaboré en todos los capítulos con los puntos: estrategia y tácticas frente a competidores, product backlog, diseños de entrevista, registro de entrevista y con el bounded context devices. Todo esto me ayudó a fomentar el trabajo en equipo. <br/>
+        <strong>Gabriela Nomberto Ramos:</strong> Colaboré en todos los capítulos tanto en la definición y focalización del alcance de nuestro producto como en las arquitecturas, modelos y mejoras continuas. <br/>
+        <strong>Elvia Arteaga Cruz:</strong> Con el equipo trabajamos de manera colaborativa para organizarnos y repartir equitativamente las tareas que podían realizarse de manera individual, pero también para juntarnos en tareas grupales, como el event storming. <br/>
+        <strong>Dennis Quevedo Yucra:</strong> Colaboré en todos los capítulos tanto en la definición de los segmentos objetivos como en las user personas, impact map y arquitecturas. <br/>
+        <strong>Jamutaq Ortega Vélez:</strong> Colaboré en todos los capítulos, y la comunicación y organización con el equipo se mantuvo constante y buena durante todo el desarrollo del entregable. <br/>
+        <strong>TP1:</strong> <br/>
+        <strong>Max Dayson Sabino Arostegui:</strong> Colaboré en la creación del diseño de la aplicación web, realicé los wireframes y mockups, así como el sprint 1 en la parte de creación para la sección eventos. <br/>
+        <strong>Elvia Arteaga Cruz:</strong> Colaboré en la redacción de organization y navigation systems, así como en la recopilación de las herramientas utilizadas en el proyecto hasta esta entrega. En la parte de desarrollo, colaboré en la implementación del frontend de la página web y de la fake API con json server. <br/>
+        <strong>Jamutaq Ortega Vélez:</strong> Me encargué de elaborar y colaborar con mi equipo en el desarrollo de la aplicación web junto con la implementación de componentes y vistas principales. <br/>
+        <strong>Dennis Quevedo Yucra:</strong> Me encargué de la creación de mockups y Wireflow de la Aplicación Mobile y también corregí los puntos que el profesor nos observó en la primera entrega. <br/>
+        <strong>TB2:</strong> <br/>
+        <strong>Max Dayson Sabino Arostegui:</strong> Elaboré el sprint planning 2 y 3 en conjunto con el product backlog 2 y 3. Asimismo, apoyé en la elaboración de los tableros en Trello; todo esto me ayudó a mejorar mis habilidades de liderazgo. <br/>
+        <strong>Elvia Arteaga Cruz:</strong> Colaboré principalmente con el desarrollo de la aplicación web, aunque también apoyé en los otros productos del proyecto. Esta entrega se centró en presentar un MVP con miras a mejoras futuras. <br/>
+        <strong>Jamutaq Ortega Vélez:</strong> Colabré activamente en la implementación de los endpoints necesarios para al backend cloud de la solución. Además de brindar ayuda y apoyo a los demás proyectos como la app mobile y app web. <br/>
+        <strong>Dennis Quevedo Yucra:</strong> Elaboré el sprint planning 3 y colaboré en conjunto con mi grupo a mejoras futuras. <br/>
+        <strong>Gabriela Nomberto Ramos:</strong> Elaboré el sprint planning 3 y colaboré en conjunto con mi grupo a mejoras futuras. <br/>
+        <strong>TF:</strong> <br/>
+        <strong>Max Dayson Sabino Arostegui:</strong> Colaboré en la implementación de i18n en la aplicación web, implementación de los eventos, configuración de la tarjeta RFID en el wokwi.
+        <strong>Jamutaq Ortega Vélez:</strong> Colaboré con mi equipo en el desarrollo del feature de autenticación y flujos OAuth2 en la aplicación mobile para garantizar la seguridad del usuario. Además de apoyar en el desarrollo del prototipo físico.
+        <strong>Gabriela Nomberto Ramos:</strong> Colaboré con la implementación del dispositivo IoT con las aplicaciones tanto web como móvil.
+        <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar correctamente los sistemas de notificaciones que se mostrarán cada vez pase un evento.
+      </td>
+      <td>Concluimos que las reuniones y las mejoras continuas entre todos nos ayudan a mejorar el reporte de trabajo y poder colaborar de forma equitativa.</td>
+    </tr>
+    <tr>
+      <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+      <td>
+        <strong>TB1:</strong> <br/>
+        <strong>Max Dayson Sabino Arostegui:</strong> Durante las reuniones en el aula planificamos las tareas y definimos las metas. En cada reunión revisamos el avance para recalcar los objetivos. <br/>
+        <strong>Gabriela Nomberto Ramos:</strong> Tuvimos reuniones en el salón de clase, lo cual nos ayudó mucho a definir lo que cada uno debía hacer. Además, por medio de un grupo de WhatsApp pudimos resolver dudas. <br/>
+        <strong>Elvia Arteaga Cruz:</strong> El tiempo brindado por el profesor durante las horas de clase para organizar el proyecto fue de mucha utilidad para el desarrollo del mismo. Ese tiempo fue aprovechado para organizar las tareas individuales y realizar las tareas grupales. También contamos con medios digitales como WhatsApp y Discord para la comunicación continua. <br/>
+        <strong>Dennis Quevedo Yucra:</strong> Durante las reuniones en el salón de clase definimos las tareas y consultamos al profesor dudas que teníamos. Además, utilizamos WhatsApp y Discord para resolver dudas y coordinar. <br/>
+        <strong>Jamutaq Ortega Vélez:</strong> Trabajamos de manera colaborativa en todo momento. Planificamos nuestros avances y tuvimos tiempo de hacer correcciones también. <br/>
+        <strong>TP1:</strong> <br/>
+        <strong>Max Dayson Sabino Arostegui:</strong> Realicé el sprint 1 en colaboración con los demás miembros del equipo, participé en reuniones por Discord y fomenté el trabajo en equipo. <br/>
+        <strong>Elvia Arteaga Cruz:</strong> Tuvimos reuniones mediante Discord de manera frecuente para coordinar los puntos a avanzar. Esto nos ayudó a organizarnos en las tareas individuales y grupales. <br/>
+        <strong>Jamutaq Ortega Vélez:</strong> Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. <br/>
+        <strong>Gabriela Nomberto:</strong> Coordiné con mi equipo las reuniones para el desarrollo y feedback de los puntos realizados y a corregir. <br/>
+        <strong>Dennis Quevedo Yucra:</strong> Coordinamos como equipo y primero acordamos corregir las observaciones previas. Con Gabriela Nomberto nos pusimos de acuerdo para poder realizar los mockups de la landing page y demás apartados. <br/>
+        <strong>TB2:</strong> <br/>
+        <strong>Max Dayson Sabino Arostegui:</strong> Realicé la elaboración de la vista eventos en el frontend y la elaboración de los endpoints para los eventos. También estuve presente en las reuniones presenciales, lo que nos ayudó a trabajar colaborativamente. <br/>
+        <strong>Elvia Arteaga Cruz:</strong> Durante estos dos sprints el equipo optó por realizar reuniones presenciales una vez por semana para verificar avances y consolidar ideas. <br/>
+        <strong>Jamutaq Ortega Vélez:</strong> Durante el desarrollo de los sprints, se realizó feedback y mejora continua de los puntos evaluados y también se procedió con la mejora de las aplicaciones. <br/>
+        <strong>Dennis Quevedo Yucra:</strong> Configuré la app móvil junto con partes de la app web; además, hice mejoras en el documento. <br/>
+        <strong>Gabriela Nomberto Ramos:</strong> Hice mejoras en el documento, así como en la landing page, y ayudé a avanzar el edge API y el wokwi. <br/>
+        <strong>TF:</strong> <br/>
+        <strong>Max Dayson Sabino Arostegui:</strong> Realicé en conjunto con mis compañeros el sprint backlog 4 en Trello y el sprint planning. Además, ayudé a mejorar el sprint goal de los sprints 1, 2, 3 y 4. <br/>
+        <strong>Jamutaq Ortega Vélez:</strong> Me encargué de implementar el sistema de pagos en la aplicación web, además de agregar la internacionalización y verificar otros detalles pendientes de las aplicaciones.
+        <strong>Gabriela Nomberto Ramos:</strong> Me encargué de implementar y arreglar el dispositivo IoT junto con los componentes que hemos acordado en grupo.
+        <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar el sistema de propiedades y notificaciones en la aplicación móvil que estaba pendientes.
+      </td>
+      <td>Para este apartado, todos aportamos en la estructuración y llenado del reporte, trabajando así en grupo y entendiéndonos entre todos.</td>
+    </tr>
+  </tbody>
+</table>
 
 # CAPÍTULO I: INTRODUCTION
 ## 1.1 Startup Profile
@@ -2269,24 +2330,6 @@ Enlace de la aplicación web: https://verysafe.netlify.app/
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
-#### 6.2.1.5. Execution Evidence for Sprint Review
-
-#### 6.2.1.6. Services Documentation Evidence for Sprint Review
-
-#### 6.2.1.7.Software Deployment Evidence for Sprint Review
-
-Durante el Sprint 1, el enfoque principal fue el despliegue de la Landing Page del proyecto. Para este Sprint, el proceso de Deployment consistió en la creación de un entorno accesible públicamente para la presentación del producto inicial. La Landing Page se desplegó utilizando GitHub Pages, una plataforma que permite alojar aplicaciones web estáticas de manera sencilla y eficiente.
-
-**Actividades Realizadas**
-- **Creación de Cuenta y Configuración en GitHub:**
-El primer paso fue la creación de la cuenta del proyecto en GitHub, si no estaba previamente configurada, y la creación de un repositorio para el código fuente de la Landing Page. Luego, se configuraron los permisos y accesos necesarios para los miembros del equipo, permitiendo que todos pudieran colaborar en el desarrollo y despliegue de la página.
-
-![Landing Page Repository](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_1.png)
-
-- **Despliegue en GitHub Pages:**
-El despliegue de la Landing Page se realizó directamente desde el repositorio de GitHub utilizando la funcionalidad de GitHub Pages. Esta opción permitió publicar de manera inmediata la página de aterrizaje, generando una URL pública para que los interesados pudieran acceder al producto. Se configuraron las opciones necesarias para apuntar a la rama correcta del repositorio, que contenía los archivos estáticos de la página.
-
-![team](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/team.jpg)
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
@@ -2299,12 +2342,38 @@ Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_u
 
 #### 6.2.1.6. Software Deployment Evidence for Sprint Review
 
-Enlace de aplicación web: https://verysafe.netlify.app/
 
-#### 6.2.1.7. Team Collaboration Insights during Sprint
+#### 6.2.1.7.Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 1, el enfoque principal fue el despliegue de la Landing Page del proyecto. Para este Sprint, el proceso de Deployment consistió en la creación de un entorno accesible públicamente para la presentación del producto inicial. La Landing Page se desplegó utilizando GitHub Pages, una plataforma que permite alojar aplicaciones web estáticas de manera sencilla y eficiente.
+
+**Actividades Realizadas**
+- **Creación de Cuenta y Configuración en GitHub:**
+El primer paso fue la creación de la cuenta del proyecto en GitHub, si no estaba previamente configurada, y la creación de un repositorio para el código fuente de la Landing Page. Luego, se configuraron los permisos y accesos necesarios para los miembros del equipo, permitiendo que todos pudieran colaborar en el desarrollo y despliegue de la página.
+
+  - _Repositorio de Landing Page:_
+
+![Landing Page Repository](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_1.png)
+
+  - _Configuración de Repositorio de Landing Page:_
+
+![Landing Page Repository Config](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_2.png)
+
+- **Despliegue en GitHub Pages:**
+El despliegue de la Landing Page se realizó directamente desde el repositorio de GitHub utilizando la funcionalidad de GitHub Pages. Esta opción permitió publicar de manera inmediata la página de aterrizaje, generando una URL pública para que los interesados pudieran acceder al producto. Se configuraron las opciones necesarias para apuntar a la rama correcta del repositorio, que contenía los archivos estáticos de la página.
+
+![Landing Page Deployed](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_3.png)
+
+- **Anális de Resultados de las métricas de rendimiento:**
+Los resultados obtenidos de GTmetrix indicaron que el tiempo de carga de la landing page se encuentra dentro de los parámetros ideales para una experiencia de usuario óptima. Además, se identificaron áreas de mejora relacionadas con la optimización de imágenes. Con base en estos resultados, se planificaron ajustes en la optimización de los recursos estáticos para reducir aún más el tiempo de carga.
+
+![Landing Page GT Metrix](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_4.png)
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint.
+
 Las actividades de implementación se han desarrollado de acuerdo a lo planificado en el Sprint Planning, donde se han asignado tareas a cada miembro del equipo y se han realizado reuniones grupales para realizar el despliegue. A continuación, se presentan los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 1:
 
-![network](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/network.jpg)
+![team](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/team.jpg)
 
 ### 6.2.2. Sprint 2
 
@@ -2326,14 +2395,14 @@ En esta sesión de planificación para el Sprint 2, nos enfocaremos en los desar
 | Sprint 2 Goal                      | <p> El objetivo de este Sprint es diseñar los formularios para agregar propiedades y áreas en la vista “My Properties”, crear un formulario para añadir dispositivos y diseñar una tabla que muestre los dispositivos registrados en la vista “My Devices” de la aplicación web. Además, se desarrollarán los endpoints en el Cloud Service para almacenar propiedades y obtener información sobre los dispositivos asociados a las propiedades previamente registradas en el sistema.   </p><p> Este enfoque está orientado a brindar a los dueños de los inmuebles una herramienta que les permita organizar de manera eficiente sus propiedades, áreas y dispositivos IoT, fortaleciendo así la gestión y seguridad de sus inmuebles. La funcionalidad busca facilitar la visualización y el control de cada elemento relacionado con las propiedades, asegurando una experiencia práctica y confiable para los usuarios.   </p><p> El éxito del Sprint se medirá cuando los dueños de inmueble puedan registrar propiedades con diferentes áreas, como cocina, sala y dormitorio, y asignar dispositivos IoT a esas áreas de forma efectiva. Esto garantizará no solo la correcta organización, sino también la integración fluida de dispositivos en las propiedades registradas. </p><p></p>                                                                 |
 | Sprint 2 Velocity                  | 34                                                                                                 |
 | Sum of Story Points                | 38                                                                                                 |
+
 #### 6.2.2.2. Sprint Backlog 2.
 
-### Introducción al Sprint Backlog
+**Introducción al Sprint Backlog**
 
 En este Sprint, el equipo trabajará en el diseño de formularios para agregar propiedades y áreas en la vista "My Properties", así como en la creación de un formulario para añadir dispositivos y una tabla que permita visualizar los dispositivos registrados en la vista "My Devices" de la aplicación web. También se desarrollarán los endpoints necesarios en el Cloud Service para almacenar propiedades y vincular dispositivos con las propiedades registradas previamente. Estas actividades tienen como objetivo proporcionar a los propietarios una herramienta práctica y confiable para organizar y gestionar sus inmuebles, áreas y dispositivos IoT de manera eficiente, mejorando la experiencia de usuario y fortaleciendo la seguridad de sus propiedades.
 
 A continuación se muestra el tablero del Sprint2 en Trello. 
-
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/trello2.png)
 
@@ -2367,7 +2436,6 @@ Link del trello: https://trello.com/b/F9HDJVzc/sprint-2
 <tr><td colspan="1" rowspan="2" valign="top"></td><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">API de información de contacto</td><td colspan="1" valign="top">Implementar una API que permita almacenar y recuperar información de contacto de la empresa.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Permisos de edición para administración</td><td colspan="1" valign="top">Configurar permisos de edición para el equipo de administración que pueda actualizar esta información.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
 </table>
-
 
 #### 6.2.2.3. Development Evidence for Sprint Review.
 
@@ -2796,10 +2864,14 @@ A continuación, se detallan los nuevos endpoints implementados y las operacione
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review.
 
-**1. Despliegue de Edge API en OnRender**
+Durante el Sprint 3, el equipo se enfocó en el despliegue de el Edge API. Este producto fue desplegado utilizando OnRender, al igual que fue para el backend. Ambos servicios de despliegue en la nube permitieron una integración eficiente, facilitando la disponibilidad y escalabilidad de los servicios.
+
+**Despliegue de Edge API en OnRender**
 
 - **Creación de cuenta y configuración en OnRender:**
 Para el Edge API, se utilizó OnRender al igual que para el backend. Se utilizó la misma cuenta y se configuró el entorno para recibir el repositorio del Edge API, configurando el acceso al código fuente desde GitHub. Este paso permitió automatizar el despliegue del backend a medida que se realizaban actualizaciones en el repositorio.
+
+Link de la dispositivo IoT: (https://wokwi.com/projects/414901082933918721)
 
 ![Edge API OnRender Github](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint2_web-services_1.png)
 
@@ -2813,14 +2885,6 @@ Se realizaron pruebas del backend para verificar el correcto funcionamiento de l
 
 ![Web Services Deployed](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20042016.png)
 
-**2. Despliegue de Aplicación móvil**
-
-- **Creación de cuenta y configuración**
-
-- **Verificación y pruebas:**
-
-
-
 **Análisis del Proceso de Deployment**
 
 El despliegue del Edge API se realizó de manera eficiente utilizando OnRender, aprovechando su capacidad para gestionar entornos escalables y de alto rendimiento. El equipo implementó la API en producción, garantizando su disponibilidad y estableciendo una integración fluida con los demás componentes del sistema IoT.
@@ -2832,6 +2896,10 @@ Las pruebas posteriores al despliegue confirmaron el correcto funcionamiento de 
 Para evidenciar la colaboración de todos integrantes del equipo FalconShield en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro Edge api.
 
 ![alt](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20043719.png)
+
+**Interpretación de Analíticos:**
+
+Para este Sprint, se llevó a cabo un seguimiento exhaustivo de las contribuciones de cada miembro del equipo a través de los commits y métricas de colaboración en GitHub. Estas métricas reflejan el compromiso y la participación de cada integrante en el desarrollo del Edge API. La revisión y análisis de estos datos permiten evaluar la efectividad del equipo en términos de coordinación y productividad en cada uno de los productos trabajados en el Sprint.
 
 ### 6.2.3. Sprint 4
 #### 6.2.4.1. Sprint Planning 4.
@@ -2983,6 +3051,7 @@ A continuación, se presenta una imagen del dispositivo IoT físico con los comp
 ![Physical IOT Execution](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/physical-iot-execution.jpg)
 
 #### 6.2.4.6. Services Documentation Evidence for Sprint Review.
+
 #### 6.2.4.7. Software Deployment Evidence for Sprint Review.
 
 En este sprint se realizaron nuevos despliegues de los productos desarrollados agregando las mejoras implementadas. A continuación, se visualizan pantallazos de las aplicaciones y servicios desplegados.
@@ -3135,6 +3204,12 @@ Esta sección contiene el proceso de evaluación de las sesiones de validación 
 
 ## 6.4. Video About-the-Product.
 
+En el about the product mostramos las aplicaciones como tal y se muestran con todo el flujo realizado hasta la entrega actual tanto para la aplicación web como la aplicación móvil.
+
+![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/abouttheproduct1.0.png)
+
+Enlace del Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EbGBfmDvLEpKoQ--m0teykEB1_yhDntwWxbsaBvRonlheQ?e=0dEcJd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 # Conclusiones
 
 En esta sección se incluye como secciones internas Conclusiones y recomendaciones, así como Video About-The-Team.
@@ -3147,7 +3222,11 @@ En esta sección se incluye como secciones internas Conclusiones y recomendacion
 
 ## Video About-the-Team.
 
-En esta sección el equipo elabora un resumen de los aspectos más relevantes del video About-The-Team, la pauta de secuencias de contenido (secciones con el timing de inicio de cada una, es decir hh:mm:ss de cada sección dentro del video) incluyendo además un cuadro de video representativo del mismo, junto con el URL de la versión publicada en Microsoft Stream (y además, el URL de la versión publicada en YouTube utilizada para incrustarse en el Landing Page). Este video resume el proceso de trabajo realizado, incluyendo escenas con imágenes o video de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. Ver otras indicaciones importantes en el Anexo C. Indicaciones para secciones que incluyen Videos
+Como equipo mejoramos cada vez en cada entrega para cumplir satisfactoriamente todas las entregas mejorando y cumpliendo según las pautas dads por nuestro profesor. Además, recalcamos que el hecho de este curso es importante para nosotros para obtener una visión más general de nuestro futuro profesional.
+
+![](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/abouttheteam1.0.png)
+
+Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdEitl--UlVBkTOSJ94vqkkBvXwkCotEE6LfRx-5FURKOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iUVGTf
 
 # Bibliografía
 
@@ -3160,3 +3239,5 @@ En esta sección el equipo especifica todas las referencias bibliográficas en f
 | Sprint 1 | upc-pre-202402-si572-wv71-VerySafe-execution evidence-sprint1  <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdXzlvaFEUZPninPofeTnR8Be26xB9ZqRzhp3jGEeBKrcw?e=2Yvgc4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  | Consolida los avances hechos en el sprint 1 iniciando con el Landing Page asi como la Aplicación Web |  
 | Sprint 2 | upc-pre-202402-si572-wv71-VerySafe-execution evidence-sprint2  <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/ES0WpK_khnRCgmLHG5VgrI0BPY-I0MCNOVxiGaoyehXymQ?e=H5507R | Consolida los avances hechos en el sprint 2 iniciando con las mejoras del Landing Page asi como la Aplicación Web y el inicio de la creación del edge api, app mobile and wokwi |
 | Sprint 3 | upc-pre-202402-si572-wv71-VerySafe-execution evidence-sprint3  <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/Eae1ILKyY9BIqQejChcuyWkBZvEh31NmGHL7NVaAUDmQDg?e=lshgiQ | Consolida los avances hechos en el sprint 3 iniciando con las mejoras del Landing Page asi como la Aplicación Web y el inicio de la creación del edge api, app mobile and wokwi | 
+| About the team | upc-pre-202402-si572-wv71-VerySafe-aboutthe-team <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdEitl--UlVBkTOSJ94vqkkBvXwkCotEE6LfRx-5FURKOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iUVGTf | Consolidamos los avances de cada uno y nuestras mejoras aplicadas asimismo mencionamos la importancia del curso |
+| About the product | upc-pre-202402-si572-wv71-VerySafe-aboutthe-product <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EbGBfmDvLEpKoQ--m0teykEB1_yhDntwWxbsaBvRonlheQ?e=0dEcJd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D | Consolidamos el flujo de nuestras aplicaciones web y móvil presentando casi la totalidad de los flujos que se pueden ejecutar |
