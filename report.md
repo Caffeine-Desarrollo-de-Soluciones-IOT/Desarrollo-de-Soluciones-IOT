@@ -2347,7 +2347,46 @@ Todo esto lo explicamos en el siguiente video:
 Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdXzlvaFEUZPninPofeTnR8Be26xB9ZqRzhp3jGEeBKrcw?e=2Yvgc4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+A continuación se presenta la documentación de los servicios de la aplicación web y móvil, incluyendo la descripción de los endpoints, los parámetros de entrada y salida, y ejemplos de uso.
 
+##### Property
+
+| Endpoint                            | Http Verb | Acción                              | Descripción                                                                 |
+|-------------------------------------|-----------|-------------------------------------|-----------------------------------------------------------------------------|
+| `/api/properties/update/{id}`       | PUT       | Actualiza una propiedad            | Actualiza los datos de una propiedad específica en la base de datos.       |
+| `/api/properties/register`          | POST      | Registra una nueva propiedad       | Crea y guarda una nueva propiedad en el sistema.                           |
+| `/api/properties/{id}`              | GET       | Obtiene los datos de una propiedad | Recupera la información de una propiedad específica según su ID.           |
+| `/api/properties/registered`        | GET       | Lista propiedades registradas      | Devuelve una lista de todas las propiedades registradas.                   |
+| `/api/properties/unregister/{id}`   | DELETE    | Elimina una propiedad registrada   | Elimina una propiedad específica del sistema según su ID.                  |
+
+##### Area
+
+| Endpoint                            | Http Verb | Acción                              | Descripción                                                                 |
+|-------------------------------------|-----------|-------------------------------------|-----------------------------------------------------------------------------|
+| `/api/areas/update/{areaId}`        | PUT       | Actualiza un área                  | Actualiza los datos de un área específica en la base de datos.             |
+| `/api/areas/register/{propertyId}`  | POST      | Registra un área                   | Crea y guarda un área asociada a una propiedad específica.                 |
+| `/api/areas/{id}`                   | GET       | Obtiene los datos de un área       | Recupera la información de un área específica según su ID.                 |
+| `/api/areas/all`                    | GET       | Lista todas las áreas              | Devuelve una lista de todas las áreas registradas en el sistema.           |
+| `/api/areas/all/{propertyId}`       | GET       | Lista áreas de una propiedad       | Devuelve todas las áreas asociadas a una propiedad específica.             |
+| `/api/areas/unregister/{areaId}`    | DELETE    | Elimina un área registrada         | Elimina un área específica del sistema según su ID.                        |
+
+##### User Profile
+
+| Endpoint              | Http Verb | Acción                       | Descripción                                                    |
+|-----------------------|-----------|------------------------------|----------------------------------------------------------------|
+| `/api/profile/create` | POST      | Crea un perfil de usuario    | Crea un nuevo perfil de usuario en el sistema.                 |
+| `/api/profile`        | GET       | Obtiene el perfil del usuario| Recupera los datos del perfil de usuario actualmente logueado. |
+
+##### Device
+
+| Endpoint                            | Http Verb | Acción                            | Descripción                                                             |
+|-------------------------------------|-----------|-----------------------------------|-------------------------------------------------------------------------|
+| `/api/devices/register`             | POST      | Registra un dispositivo          | Registra un nuevo dispositivo en el sistema.                           |
+| `/api/devices/{id}`                 | GET       | Obtiene datos de un dispositivo  | Recupera la información de un dispositivo específico según su ID.       |
+| `/api/devices/registered`           | GET       | Lista dispositivos registrados   | Devuelve una lista de todos los dispositivos registrados.               |
+| `/api/devices/registered/{areaId}`  | GET       | Lista dispositivos de un área    | Devuelve todos los dispositivos asociados a un área específica.         |
+| `/api/devices/catalog`              | GET       | Obtiene el catálogo de dispositivos | Devuelve una lista de dispositivos disponibles en el catálogo.         |
+| `/api/devices/unregister/{id}`      | DELETE    | Elimina un dispositivo registrado | Elimina un dispositivo específico del sistema según su ID.              |
 
 #### 6.2.1.7.Software Deployment Evidence for Sprint Review
 
@@ -2629,6 +2668,55 @@ Para este sprint logramos la internacionalización en nuestra landing page donde
 Enlace del Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/ES0WpK_khnRCgmLHG5VgrI0BPY-I0MCNOVxiGaoyehXymQ?e=ZezhXH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+A continuación se presenta la documentación de los servicios de la aplicación web y móvil, incluyendo la descripción de los endpoints, los parámetros de entrada y salida, y ejemplos de uso.
+
+##### Property
+
+| Endpoint                            | Http Verb | Acción                              | Descripción                                                                 |
+|-------------------------------------|-----------|-------------------------------------|-----------------------------------------------------------------------------|
+| `/api/properties/update/{id}`       | PUT       | Actualiza una propiedad            | Actualiza los datos de una propiedad específica en la base de datos.       |
+| `/api/properties/register`          | POST      | Registra una nueva propiedad       | Crea y guarda una nueva propiedad en el sistema.                           |
+| `/api/properties/{id}`              | GET       | Obtiene los datos de una propiedad | Recupera la información de una propiedad específica según su ID.           |
+| `/api/properties/registered`        | GET       | Lista propiedades registradas      | Devuelve una lista de todas las propiedades registradas.                   |
+| `/api/properties/unregister/{id}`   | DELETE    | Elimina una propiedad registrada   | Elimina una propiedad específica del sistema según su ID.                  |
+
+##### Area
+
+| Endpoint                            | Http Verb | Acción                              | Descripción                                                                 |
+|-------------------------------------|-----------|-------------------------------------|-----------------------------------------------------------------------------|
+| `/api/areas/update/{areaId}`        | PUT       | Actualiza un área                  | Actualiza los datos de un área específica en la base de datos.             |
+| `/api/areas/register/{propertyId}`  | POST      | Registra un área                   | Crea y guarda un área asociada a una propiedad específica.                 |
+| `/api/areas/{id}`                   | GET       | Obtiene los datos de un área       | Recupera la información de un área específica según su ID.                 |
+| `/api/areas/all`                    | GET       | Lista todas las áreas              | Devuelve una lista de todas las áreas registradas en el sistema.           |
+| `/api/areas/all/{propertyId}`       | GET       | Lista áreas de una propiedad       | Devuelve todas las áreas asociadas a una propiedad específica.             |
+| `/api/areas/unregister/{areaId}`    | DELETE    | Elimina un área registrada         | Elimina un área específica del sistema según su ID.                        |
+
+##### User Profile
+
+| Endpoint              | Http Verb | Acción                       | Descripción                                                    |
+|-----------------------|-----------|------------------------------|----------------------------------------------------------------|
+| `/api/profile/create` | POST      | Crea un perfil de usuario    | Crea un nuevo perfil de usuario en el sistema.                 |
+| `/api/profile`        | GET       | Obtiene el perfil del usuario| Recupera los datos del perfil de usuario actualmente logueado. |
+
+
+##### Device Events
+
+| Endpoint                      | Http Verb | Acción                     | Descripción                                               |
+|-------------------------------|-----------|----------------------------|-----------------------------------------------------------|
+| `/api/events/create`          | POST      | Crea un evento             | Registra un nuevo evento relacionado con dispositivos.    |
+| `/api/events/all`             | GET       | Lista todos los eventos    | Devuelve una lista de todos los eventos registrados.      |
+| `/api/events/all/{propertyId}`| GET       | Lista eventos de propiedad | Devuelve todos los eventos asociados a una propiedad.     |
+
+##### Device
+
+| Endpoint                            | Http Verb | Acción                            | Descripción                                                             |
+|-------------------------------------|-----------|-----------------------------------|-------------------------------------------------------------------------|
+| `/api/devices/register`             | POST      | Registra un dispositivo          | Registra un nuevo dispositivo en el sistema.                           |
+| `/api/devices/{id}`                 | GET       | Obtiene datos de un dispositivo  | Recupera la información de un dispositivo específico según su ID.       |
+| `/api/devices/registered`           | GET       | Lista dispositivos registrados   | Devuelve una lista de todos los dispositivos registrados.               |
+| `/api/devices/registered/{areaId}`  | GET       | Lista dispositivos de un área    | Devuelve todos los dispositivos asociados a un área específica.         |
+| `/api/devices/catalog`              | GET       | Obtiene el catálogo de dispositivos | Devuelve una lista de dispositivos disponibles en el catálogo.         |
+| `/api/devices/unregister/{id}`      | DELETE    | Elimina un dispositivo registrado | Elimina un dispositivo específico del sistema según su ID.              |
 
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review.
 
@@ -3154,6 +3242,61 @@ A continuación, se presenta una imagen del dispositivo IoT físico con los comp
 ![Physical IOT Execution](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/physical-iot-execution.jpg)
 
 #### 6.2.4.6. Services Documentation Evidence for Sprint Review.
+A continuación se presenta la documentación de los servicios de la aplicación web y móvil, incluyendo la descripción de los endpoints, los parámetros de entrada y salida, y ejemplos de uso.
+
+##### Property
+
+| Endpoint                            | Http Verb | Acción                              | Descripción                                                                 |
+|-------------------------------------|-----------|-------------------------------------|-----------------------------------------------------------------------------|
+| `/api/properties/update/{id}`       | PUT       | Actualiza una propiedad            | Actualiza los datos de una propiedad específica en la base de datos.       |
+| `/api/properties/register`          | POST      | Registra una nueva propiedad       | Crea y guarda una nueva propiedad en el sistema.                           |
+| `/api/properties/{id}`              | GET       | Obtiene los datos de una propiedad | Recupera la información de una propiedad específica según su ID.           |
+| `/api/properties/registered`        | GET       | Lista propiedades registradas      | Devuelve una lista de todas las propiedades registradas.                   |
+| `/api/properties/unregister/{id}`   | DELETE    | Elimina una propiedad registrada   | Elimina una propiedad específica del sistema según su ID.                  |
+
+##### Area
+
+| Endpoint                            | Http Verb | Acción                              | Descripción                                                                 |
+|-------------------------------------|-----------|-------------------------------------|-----------------------------------------------------------------------------|
+| `/api/areas/update/{areaId}`        | PUT       | Actualiza un área                  | Actualiza los datos de un área específica en la base de datos.             |
+| `/api/areas/register/{propertyId}`  | POST      | Registra un área                   | Crea y guarda un área asociada a una propiedad específica.                 |
+| `/api/areas/{id}`                   | GET       | Obtiene los datos de un área       | Recupera la información de un área específica según su ID.                 |
+| `/api/areas/all`                    | GET       | Lista todas las áreas              | Devuelve una lista de todas las áreas registradas en el sistema.           |
+| `/api/areas/all/{propertyId}`       | GET       | Lista áreas de una propiedad       | Devuelve todas las áreas asociadas a una propiedad específica.             |
+| `/api/areas/unregister/{areaId}`    | DELETE    | Elimina un área registrada         | Elimina un área específica del sistema según su ID.                        |
+
+##### User Profile
+
+| Endpoint              | Http Verb | Acción                       | Descripción                                                    |
+|-----------------------|-----------|------------------------------|----------------------------------------------------------------|
+| `/api/profile/create` | POST      | Crea un perfil de usuario    | Crea un nuevo perfil de usuario en el sistema.                 |
+| `/api/profile`        | GET       | Obtiene el perfil del usuario| Recupera los datos del perfil de usuario actualmente logueado. |
+
+##### Payments
+
+| Endpoint                                     | Http Verb | Acción                              | Descripción                                                                     |
+|----------------------------------------------|-----------|-------------------------------------|---------------------------------------------------------------------------------|
+| `/api/payments/subscription/new/{priceId}`   | POST      | Crea una nueva suscripción         | Genera una nueva suscripción basada en el ID del precio seleccionado.          |
+| `/api/payments/subscription/detail`          | GET       | Obtiene detalles de la suscripción | Recupera los detalles de la suscripción activa del usuario.                    |
+
+##### Device Events
+
+| Endpoint                      | Http Verb | Acción                     | Descripción                                               |
+|-------------------------------|-----------|----------------------------|-----------------------------------------------------------|
+| `/api/events/create`          | POST      | Crea un evento             | Registra un nuevo evento relacionado con dispositivos.    |
+| `/api/events/all`             | GET       | Lista todos los eventos    | Devuelve una lista de todos los eventos registrados.      |
+| `/api/events/all/{propertyId}`| GET       | Lista eventos de propiedad | Devuelve todos los eventos asociados a una propiedad.     |
+
+##### Device
+
+| Endpoint                            | Http Verb | Acción                            | Descripción                                                             |
+|-------------------------------------|-----------|-----------------------------------|-------------------------------------------------------------------------|
+| `/api/devices/register`             | POST      | Registra un dispositivo          | Registra un nuevo dispositivo en el sistema.                           |
+| `/api/devices/{id}`                 | GET       | Obtiene datos de un dispositivo  | Recupera la información de un dispositivo específico según su ID.       |
+| `/api/devices/registered`           | GET       | Lista dispositivos registrados   | Devuelve una lista de todos los dispositivos registrados.               |
+| `/api/devices/registered/{areaId}`  | GET       | Lista dispositivos de un área    | Devuelve todos los dispositivos asociados a un área específica.         |
+| `/api/devices/catalog`              | GET       | Obtiene el catálogo de dispositivos | Devuelve una lista de dispositivos disponibles en el catálogo.         |
+| `/api/devices/unregister/{id}`      | DELETE    | Elimina un dispositivo registrado | Elimina un dispositivo específico del sistema según su ID.              |
 
 #### 6.2.4.7. Software Deployment Evidence for Sprint Review.
 
