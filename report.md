@@ -1970,7 +1970,7 @@ A continuación, se darán a conocer las convenciones, formatos, estilos y entre
 **Vue.js:** Se siguieron las convenciones y guías de estilo de código de la “Vue Style Guide” de la documentación oficial de Vue.js. Los puntos destacados incluyen:
 
 - _Nombres de Archivos en PascalCase:_ Los componentes deben tener nombres de archivo en PascalCase (Ejemplo: MiComponente.vue)
-- _Estructura de Componentes en formato SFC (Single File Component):_ Utilizar archivos .vue con secciones bien definidas (<template>, <script>, <style>) para separar lógica, diseño y estilos de manera clara y modular.
+- _Estructura de Componentes en formato SFC (Single File Component)- _Utilizar archivos .vue_ con secciones bien definidas (template, script, style) para separar lógica, diseño y estilos de manera clara y modular.
 - _Convención de Carpetas:_ Organizar los componentes en carpetas lógicas según su propósito, como components/, views/, store/, y services/.
 - _Gestión de Rutas:_ Configurar las rutas de la aplicación utilizando Vue Router. Definir rutas de manera jerárquica y utilizar alias o nombres de rutas para facilitar la navegación.
 - _Reutilización de Componentes:_ Identificar patrones comunes y refactorizarlos en componentes reutilizables y configurables.
