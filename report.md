@@ -276,7 +276,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Tabla de Contenido](#tabla-de-contenido)
-- [Student Outcome](#student-outcome)
+- [Student Outcomes](#student-outcomes)
 - [CAPÍTULO I: INTRODUCTION](#capítulo-i-introduction)
   - [1.1 Startup Profile](#11-startup-profile)
     - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
@@ -413,7 +413,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
       - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
       - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
-      - [6.2.1.6. Software Deployment Evidence for Sprint Review](#6216-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.6. Services Documentation Evidence for Sprint Review.](#6216-services-documentation-evidence-for-sprint-review)
       - [6.2.1.7.Software Deployment Evidence for Sprint Review](#6217software-deployment-evidence-for-sprint-review)
       - [6.2.1.8. Team Collaboration Insights during Sprint.](#6218-team-collaboration-insights-during-sprint)
     - [6.2.2. Sprint 2](#622-sprint-2)
@@ -455,7 +455,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 - [Anexos](#anexos)
 
 
-# Student Outcome
+# Student Outcomes
 <table border="1">
   <thead>
     <tr>
@@ -489,7 +489,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
         <strong>TF:</strong> <br/>
         <strong>Max Dayson Sabino Arostegui:</strong> Colaboré en la implementación de i18n en la aplicación web, implementación de los eventos, configuración de la tarjeta RFID en el wokwi.
         <strong>Jamutaq Ortega Vélez:</strong> Colaboré con mi equipo en el desarrollo del feature de autenticación y flujos OAuth2 en la aplicación mobile para garantizar la seguridad del usuario. Además de apoyar en el desarrollo del prototipo físico.
-        <strong>Gabriela Nomberto Ramos:</strong> Colaboré con la implementación del dispositivo IoT con las aplicaciones tanto web como móvil.
+        <strong>Gabriela Nomberto Ramos:</strong> Colaboré con la implementación del dispositivo IoT con las aplicaciones tanto web como móvil. <strong>Elvia Arteaga Cruz:</strong> Colaboré en la implementación del dashboard de la aplicación web. Así como también en la traducción de la web utilizando i18n.
         <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar correctamente los sistemas de notificaciones que se mostrarán cada vez pase un evento.
       </td>
       <td>Concluimos que las reuniones y las mejoras continuas entre todos nos ayudan a mejorar el reporte de trabajo y poder colaborar de forma equitativa.</td>
@@ -519,7 +519,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
         <strong>Max Dayson Sabino Arostegui:</strong> Realicé en conjunto con mis compañeros el sprint backlog 4 en Trello y el sprint planning. Además, ayudé a mejorar el sprint goal de los sprints 1, 2, 3 y 4. <br/>
         <strong>Jamutaq Ortega Vélez:</strong> Me encargué de implementar el sistema de pagos en la aplicación web, además de agregar la internacionalización y verificar otros detalles pendientes de las aplicaciones.
         <strong>Gabriela Nomberto Ramos:</strong> Me encargué de implementar y arreglar el dispositivo IoT junto con los componentes que hemos acordado en grupo.
-        <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar el sistema de propiedades y notificaciones en la aplicación móvil que estaba pendientes.
+        <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar el sistema de propiedades y notificaciones en la aplicación móvil que estaba pendientes. <strong>Elvia Arteaga Cruz:</strong> Realicé, junto con el equipo, la documentación del sprint 4 y las correcciones a secciones anteriores del documento. 
       </td>
       <td>Para este apartado, todos aportamos en la estructuración y llenado del reporte, trabajando así en grupo y entendiéndonos entre todos.</td>
     </tr>
@@ -2341,7 +2341,7 @@ Todo esto lo explicamos en el siguiente video:
 
 Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdXzlvaFEUZPninPofeTnR8Be26xB9ZqRzhp3jGEeBKrcw?e=2Yvgc4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
-#### 6.2.1.6. Software Deployment Evidence for Sprint Review
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 
 
 #### 6.2.1.7.Software Deployment Evidence for Sprint Review
@@ -3145,15 +3145,29 @@ A continuación, se presenta una imagen del dispositivo IoT físico con los comp
 
 #### 6.2.4.7. Software Deployment Evidence for Sprint Review.
 
-En este sprint se realizaron nuevos despliegues de los productos desarrollados agregando las mejoras implementadas. A continuación, se visualizan pantallazos de las aplicaciones y servicios desplegados.
+**Despliegue de Aplicación Móvil**
+
+
+
+
+
+También se realizaron nuevos despliegues de los productos desarrollados agregando las mejoras implementadas. A continuación, se visualizan pantallazos de las aplicaciones y servicios desplegados.
+
+**Landing Page:**
+
+![Landing Page Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment.jpg)
 
 **Frontend de la Aplicación Web:**
 
-![Frontend Deployment Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment1.jpg)
+![Frontend Deployment Sprivnt4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment1.jpg)
 
 **Backend:**
 
 ![Backend Deployment Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment2.png)
+
+**Edge API:**
+
+![Edge API Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment3.png)
 
 #### 6.2.4.8. Team Collaboration Insights during Sprint.
 
@@ -3268,11 +3282,10 @@ Este análisis también refleja un enfoque colaborativo en la resolución de pro
   - Nombres y apellidos: Diana Gomez Oré
   - Edad: 25 años
   - Distrito: Chorrillos
-  - Timing:
-  - Duración:
-  - Link: [Enlace entrevista 1]()
+  - Duración:14:05
+  - Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a991_upc_edu_pe/EfF4wSQxCz9FqleS1IBnyKIBcwfT2uiQUInFm2xDdbegbA?e=400yow&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
 
-    ![Validation Interview 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-1.png)
+![Validation Interview 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-1.png)
 
 Antes de la entrevista Diana me comentó que le pareció interesante el tener 3 idiomas en la landing page, esto debido a que no era algo común para ella. Durante la entrevista se pudo apreciar que la sección que más llamó su atención en la landing page fue la de los planes, ya que indicó que tener la información de los planes a la mano le facilita el poder seleccionar cuál desea adquirir y poder comparar sus características. En cuanto al prototipo de la aplicación web, lo que más le agradó fue la sección de dispositivos por áreas, esto debido a que le encontró utilidad al hecho de tener los dispositivos filtrados mediante áreas correspondientes. Finalmente, ella comentó que le parece importante el recibir notificaciones sobre eventos que puedan sucitarse en su propiedad, debido a que toma mucho en cuanta su seguridad al vivir sola. Es así que Diana indicó que le gustaría mucho el poder recibir estas notificaciones mediante una aplicación móvil, ya que es el dispositivo que tiene a su mano con mayor frecuencia.
 
@@ -3281,11 +3294,10 @@ Antes de la entrevista Diana me comentó que le pareció interesante el tener 3 
   - Nombres y apellidos: Aldahir Valenzuela
   - Edad: 23 años
   - Distrito: San Borja
-  - Timing: 
-  - Duración: 07:04 minutos
-  - Link: https://youtu.be/NO6eZs-q9hM
+  - Duración:14:05
+  - Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a991_upc_edu_pe/EfF4wSQxCz9FqleS1IBnyKIBcwfT2uiQUInFm2xDdbegbA?e=400yow&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
      
-    ![Validation Interview2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-2.png)
+![Validation Interview2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-2.png)
 
 En la entrevista, Aldahir menciona que la landing page es intuitiva y fácil de navegar. Además, destaca que los planes se muestran de manera clara y que las imágenes ayudan a comprender los beneficios que obtendrá el usuario. Con respecto al prototipo de la aplicación móvil, le agrada la funcionalidad para agregar una nueva propiedad y asignar áreas a estas, así como la opción de activar y desactivar dispositivos. También resalta la utilidad de recibir notificaciones cuando se genera un evento en los dispositivos, aunque advierte que podría ser molesto si el dispositivo genera alertas por eventos que no son de emergencia. En cuanto a las mejoras sugeridas, propone ajustar la imagen de fondo en el inicio de la landing page, ya que actualmente no tiene suficiente contraste con el texto del eslogan, lo cual dificulta su lectura.
 
