@@ -276,7 +276,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Tabla de Contenido](#tabla-de-contenido)
-- [Student Outcome](#student-outcome)
+- [Student Outcomes](#student-outcomes)
 - [CAPÍTULO I: INTRODUCTION](#capítulo-i-introduction)
   - [1.1 Startup Profile](#11-startup-profile)
     - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
@@ -438,7 +438,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.4.1. Sprint Planning 4.](#6241-sprint-planning-4)
       - [6.2.4.2. Sprint Backlog 4.](#6242-sprint-backlog-4)
       - [6.2.4.3. Development Evidence for Sprint Review.](#6243-development-evidence-for-sprint-review)
-      - [6.2.4.4. Testing Suite Evidence for Sprint Review.](#6244-testing-suite-evidence-for-sprint-review)
+      - [6.2.4.4. Testing Suite Evidence for Sprint Review](#6244-testing-suite-evidence-for-sprint-review)
       - [6.2.4.5. Execution Evidence for Sprint Review.](#6245-execution-evidence-for-sprint-review)
       - [6.2.4.6. Services Documentation Evidence for Sprint Review.](#6246-services-documentation-evidence-for-sprint-review)
       - [6.2.4.7. Software Deployment Evidence for Sprint Review.](#6247-software-deployment-evidence-for-sprint-review)
@@ -455,7 +455,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 - [Anexos](#anexos)
 
 
-# Student Outcome
+# Student Outcomes
 <table border="1">
   <thead>
     <tr>
@@ -479,6 +479,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
         <strong>Elvia Arteaga Cruz:</strong> Colaboré en la redacción de organization y navigation systems, así como en la recopilación de las herramientas utilizadas en el proyecto hasta esta entrega. En la parte de desarrollo, colaboré en la implementación del frontend de la página web y de la fake API con json server. <br/>
         <strong>Jamutaq Ortega Vélez:</strong> Me encargué de elaborar y colaborar con mi equipo en el desarrollo de la aplicación web junto con la implementación de componentes y vistas principales. <br/>
         <strong>Dennis Quevedo Yucra:</strong> Me encargué de la creación de mockups y Wireflow de la Aplicación Mobile y también corregí los puntos que el profesor nos observó en la primera entrega. <br/>
+        <strong>Gabriela Nomberto:</strong> Me encargué de la creación de mockups y Wireflow de la Aplicación Mobile y también corregí los puntos que el profesor nos observó en la primera entrega. <br/>
         <strong>TB2:</strong> <br/>
         <strong>Max Dayson Sabino Arostegui:</strong> Elaboré el sprint planning 2 y 3 en conjunto con el product backlog 2 y 3. Asimismo, apoyé en la elaboración de los tableros en Trello; todo esto me ayudó a mejorar mis habilidades de liderazgo. <br/>
         <strong>Elvia Arteaga Cruz:</strong> Colaboré principalmente con el desarrollo de la aplicación web, aunque también apoyé en los otros productos del proyecto. Esta entrega se centró en presentar un MVP con miras a mejoras futuras. <br/>
@@ -488,7 +489,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
         <strong>TF:</strong> <br/>
         <strong>Max Dayson Sabino Arostegui:</strong> Colaboré en la implementación de i18n en la aplicación web, implementación de los eventos, configuración de la tarjeta RFID en el wokwi.
         <strong>Jamutaq Ortega Vélez:</strong> Colaboré con mi equipo en el desarrollo del feature de autenticación y flujos OAuth2 en la aplicación mobile para garantizar la seguridad del usuario. Además de apoyar en el desarrollo del prototipo físico.
-        <strong>Gabriela Nomberto Ramos:</strong> Colaboré con la implementación del dispositivo IoT con las aplicaciones tanto web como móvil.
+        <strong>Gabriela Nomberto Ramos:</strong> Colaboré con la implementación del dispositivo IoT con las aplicaciones tanto web como móvil. <strong>Elvia Arteaga Cruz:</strong> Colaboré en la implementación del dashboard de la aplicación web. Así como también en la traducción de la web utilizando i18n.
         <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar correctamente los sistemas de notificaciones que se mostrarán cada vez pase un evento.
       </td>
       <td>Concluimos que las reuniones y las mejoras continuas entre todos nos ayudan a mejorar el reporte de trabajo y poder colaborar de forma equitativa.</td>
@@ -518,7 +519,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
         <strong>Max Dayson Sabino Arostegui:</strong> Realicé en conjunto con mis compañeros el sprint backlog 4 en Trello y el sprint planning. Además, ayudé a mejorar el sprint goal de los sprints 1, 2, 3 y 4. <br/>
         <strong>Jamutaq Ortega Vélez:</strong> Me encargué de implementar el sistema de pagos en la aplicación web, además de agregar la internacionalización y verificar otros detalles pendientes de las aplicaciones.
         <strong>Gabriela Nomberto Ramos:</strong> Me encargué de implementar y arreglar el dispositivo IoT junto con los componentes que hemos acordado en grupo.
-        <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar el sistema de propiedades y notificaciones en la aplicación móvil que estaba pendientes.
+        <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar el sistema de propiedades y notificaciones en la aplicación móvil que estaba pendientes. <strong>Elvia Arteaga Cruz:</strong> Realicé, junto con el equipo, la documentación del sprint 4 y las correcciones a secciones anteriores del documento. 
       </td>
       <td>Para este apartado, todos aportamos en la estructuración y llenado del reporte, trabajando así en grupo y entendiéndonos entre todos.</td>
     </tr>
@@ -2330,6 +2331,11 @@ Enlace de la aplicación web: https://verysafe.netlify.app/
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
+En esta sección, presentamos el conjunto de Acceptance Tests relacionados con las User Stories seleccionadas para el desarrollo del Sprint 1. Para estos criterios de aceptación, se utilizó el lenguaje Gherkin bajo el enfoque BDD.
+
+| Repository                                                                                      | Branch             | Commit Id             | Commit Message              | Commit Message Body               | Commited on (Date)       |
+|-------------------------------------------------------------------------------------------------|--------------------|-----------------------|-----------------------------|-----------------------------------|--------------------------|
+| <p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git</p><p></p> | <p>main</p><p></p> | <p>ef745cd</p><p></p> | <p>feat(testing)</p><p></p> | <p>create hu40 feature</p><p></p> | <p>03/11/2024</p><p></p> |
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
@@ -3065,7 +3071,101 @@ Link del sprint4 : https://trello.com/invite/b/673687b204a2009c1334004b/ATTI62fe
 </table>
 
 #### 6.2.4.3. Development Evidence for Sprint Review.
-#### 6.2.4.4. Testing Suite Evidence for Sprint Review.
+
+**Aplicacion Móvil**
+
+| Repository                                   | Branch         | Commit id                              | Commit Message                     | Commit Message Body               | Commit on (Date) |
+|----------------------------------------------|----------------|----------------------------------------|------------------------------------|-----------------------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | 690dfa540f52ddd5222dcf60b2d9a0d60353e53c | add: areas form                    | add: areas form                   | 04/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | f32f6ef9dd6c11e3b888aa444068b05e94db2a3f | add: areas form confirmation        | add: areas form confirmation       | 04/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | 0d0115ebdbe1d5e9547a94c0ee66879286d1b2b8 | add: areas page                    | add: areas page                   | 05/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | a7f942c986c28c4516c03513d000f37cecec4ba7 | add Device Details                 | add Device Details                | 17/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | d02f7f560174a5fe26412ae68143576e0a801a57 | add Device Details                 | add Device Details                | 17/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | b490b689c309e0077100db51e49b8d4135a9ede4 | add: login and properties service  | add: login and properties service | 18/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | 12bd5e12bb91f1771e1e84ebb4fb64447eb0eb22 | add: login and properties service  | add: login and properties service | 18/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | bef7c60576f1e09ebe75040a611505af7867abe6 | add: devices                       | add: devices                      | 18/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/app-mobile-iot | origin/develop | 1d4db0096428ae0f2df01b5393d65a265fbb18ee | add: notifications                 | add: notifications                | 18/11/2024       |
+
+**Aplicacion Web**
+
+| Repository                                   | Branch             | Commit id                              | Commit Message                                                       | Commit Message Body                                                   | Commit on (Date) |
+|----------------------------------------------|--------------------|----------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | Feat/properties     | 6d43d41019f7690f4a10f2fd9b7fe6c2d04aea7e | Merge pull request #12 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/properties | Merge pull request #12 from Caffeine-Desarrollo-de-Soluciones-IOT/feat/properties | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | 35504fac3a389876971a81a225fa2a4c127cdc08 | refactor: update property interfaces and service methods             | refactor: update property interfaces and service methods              | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | 1dcc1490bcdaead414a3c6d0c469e48c6e34dd99 | refactor: update area interfaces and service methods for improved data handling | refactor: update area interfaces and service methods for improved data handling | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | 3e32a7b1f19ef2dba8111a4e144b9366e7c409eb | fix                                                                 | fix                                                                    | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | 27d2853a262f46b6b4c2cdf5e7babef735ad9361 | Merge pull request #13 from Caffeine-Desarrollo-de-Soluciones-IOT/develop | Merge pull request #13 from Caffeine-Desarrollo-de-Soluciones-IOT/develop | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | 4ddc747bd2bad5280f6484924c955c4c14c710ba | commit                                                              | commit                                                                 | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | 3ae72f39313aa3b44954c7a1446654ba079dfc6b | Update Dashboard.vue                                                | Update Dashboard.vue                                                   | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | d1051d6fe8bbc6a0e31bd0bdfd94056a3e77d2ac | Merge pull request #14 from Caffeine-Desarrollo-de-Soluciones-IOT/develop | Merge pull request #14 from Caffeine-Desarrollo-de-Soluciones-IOT/develop | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | 93eaedb97b9e37ba2c99ee36e15592814c7e397c | refactor: errors & axios interceptors                               | refactor: errors & axios interceptors                                  | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | b800b5bb8666a089235a75e946c6bf553500b936 | fix: create profile error                                           | fix: create profile error                                              | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | d3aa22a77e541399f27d3984153bdda28563be12 | refactor: update error handling and change API response structure    | refactor: update error handling and change API response structure       | 04/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | aa9baa63b41a7c259251943937ca29f3dfb62dce | refactor: devices                                                   | refactor: devices                                                      | 04/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | 641659b23dd7230ddf8fe095a1d681777dff5801 | refactor: properties                                                | refactor: properties                                                   | 05/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | 4ffd67fb073d1e0fb451acc9eb7141a47a54745d | refactor: update Events page layout and improve headings             | refactor: update Events page layout and improve headings              | 05/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/develop      | 53c25e39a67efca53bc69a5a9851f06a8a4cd47b | refactor: comment out UI Components section in AppMenu               | refactor: comment out UI Components section in AppMenu                | 05/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/master       | 73790db532f7337591d0ca9d0dd978ec2a9a75ca | Merge pull request #15 from Caffeine-Desarrollo-de-Soluciones-IOT/develop | Merge pull request #15 from Caffeine-Desarrollo-de-Soluciones-IOT/develop | 05/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/master       | 8c5a9c69399194944107d6f8cc2aa3476b7acb3e | update: vite.config.ts                                              | update: vite.config.ts                                                 | 05/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/master       | 2f533d841087bce3a0e2c2031c608eea6f26b9ba | untracked files on develop: fcb69fa fix: package and main            | untracked files on develop: fcb69fa fix: package and main             | 07/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/master       | 6ecbe624e44e7e1bd39dc385ee4a22a3a03ef1d6 | index on develop: fcb69fa fix: package and main                     | index on develop: fcb69fa fix: package and main                        | 07/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/falcon-shield-web | origin/master       | e5f09731ec6781726870f4855f8ff9b84ead6709 | WIP on develop: fcb69fa fix: package and main                       | WIP on develop: fcb69fa fix: package and main                         | 07/11/2024       |
+
+**BACKEND API WEB AND MOBILE**
+
+| Repository                                   | Branch             | Commit id                              | Commit Message                              | Commit Message Body                          | Commit on (Date) |
+|----------------------------------------------|--------------------|----------------------------------------|--------------------------------------------|----------------------------------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | aa42a2013fa4cf3649e8425d4482a86b290a10b1 | fix: register area dto                      | fix: register area dto                       | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | c4f7da3c08ce80032774c2f1d59723e604444b34 | Merge pull request #8 from development      | Merge pull request #8 from development       | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 307ffeeb1fdc66e44a68015c2a3a91c2ea32d514 | refactor: add problem details               | refactor: add problem details                | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | e40beb938baf9b56fc9a8ee16b395b5e30167f48 | Merge pull request #9 from development      | Merge pull request #9 from development       | 03/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 348f10cf656ffb4a44c185c97000ad74d76bc541 | refactor: remove kafka                      | refactor: remove kafka                       | 04/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 99c3780aaf0ef63372ac2e41efc57d5d0f7ba6cf | refactor: add controller for events         | refactor: add controller for events          | 04/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | daa4b55126fda3315111cd9d8979160e4b8ba79d | Merge pull request #10 from development     | Merge pull request #10 from development      | 04/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | fc4adfe29a4196d9b498fa65b270a971e4dd7d58 | fix: cors                                   | fix: cors                                    | 04/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 4d20047cb924e5eb069191b3a211c1444e882908 | Merge pull request #11 from development     | Merge pull request #11 from development      | 04/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | ded8d729cfeed33a2d71681107d2f34534c7a9c0 | fix: swagger servers                        | fix: swagger servers                         | 04/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 952ad7a7848fc4bcddfc378f1e30c1ac6415df2d | Merge pull request #12 from development     | Merge pull request #12 from development      | 04/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | bddea12b315e86b6e2f8415a7773d9502519cc18 | fix: dto param                              | fix: dto param                               | 05/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 62277339bdb6c2b35bfe03a23609acf3e91578ce | Merge pull request #13 from development     | Merge pull request #13 from development      | 05/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | e0ec2a48d2981cb4dac97a41655a2e67c9bfb882 | update: WebMvcConfig.java                   | update: WebMvcConfig.java                    | 05/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/master       | d51039775f9d576b7a0c58e9900bb8bbfe85c4bf | Merge pull request #14 from development     | update: WebMvcConfig.java                    | 05/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 6ecdb16ab079ae1591927ede02d23e91118d5784 | update: frontend domain in stripe gateway   | update: frontend domain in stripe gateway    | 14/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 594bfb16659baf92d023d2e93abbd31c8185172b | Merge pull request #16 from development     | Merge pull request #16 from development      | 14/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | c41fe91f4cd34f6447bc13bb66c37706d97fce39 | fix: area & property dtos                   | fix: area & property dtos                    | 16/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 2d70e8cfc85ac6105a4c221ec5c7d26d6da371f4 | Merge pull request #17 from development     | Merge pull request #17 from development      | 16/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 1e3c9e47b200347c604e3504ce624ec2b5089fd4 | add: new endpoint to get devices for area   | add: new endpoint to get devices for area    | 17/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 14c74a51443c0974024c4608fb734e5b1d9ca364 | Merge pull request #18 from development     | Merge pull request #18 from development      | 17/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 982e0fa0395ed60541f5f5768441bf1754e62fee | add: new endpoint to get all events from user | add: new endpoint to get all events from user | 17/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | b54311a274ba70aa3d62bcf403e3d510daa5928c | add: new endpoint to update areas           | add: new endpoint to update areas            | 17/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | 100181660e4f2518388186536dea0918ccbf2eca | add: new endpoint to update properties      | add: new endpoint to update properties       | 17/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | dbba975ede5b15775ee297212d2608f5ec45e176 | Merge pull request #19 from development     | Merge pull request #19 from development      | 17/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/development | a153c2d5204a6848ba5e19ad81a98c0487ce4e6b | add: new endpoint to get all areas          | add: new endpoint to get all areas           | 18/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield | origin/master       | 822e8c2dad8a9adafb44f0c44cb888a5f849f089 | Merge pull request #20 from development     | add: new endpoint to get all areas           | 18/11/2024       |
+
+**EDGE API**
+
+**Backend de dispositivos IoT**
+
+| Repository                                   | Branch      | Commit id                              | Commit Message                     | Commit Message Body               | Commit on (Date) |
+|----------------------------------------------|-------------|----------------------------------------|------------------------------------|-----------------------------------|-------------------|
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | 07ca48a23cff0b23290ba10e62f72edddd664bcc | Create README.md                   | Create README.md                  | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | b6ce930efd3921dbe112e803aa5dc133246bba46 | add: base edge api                 | add: base edge api                | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | 158591609b2863f8289f88f23b67b7493be6ab66 | add: crud actuator                 | add: crud actuator                | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | 4eed6947942b0d5d313d1db03536a10acd4f6f1f | add: documentation swagger         | add: documentation swagger        | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | 19153ed38e046d50adf2ca72f853d8690e43f4bb | add: snesor api                    | add: snesor api                   | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | bc790e496d9bfbaa47f16cb06dd257959b05ef62 | fix: swagger actuators             | fix: swagger actuators            | 02/11/2024       |
+| Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-EdgeApi | origin/main | 54607743a414bbc7b0a64013eb70b9badba9435a | add: descriptions sensors swagger api | add: descriptions sensors swagger api | 02/11/2024       |
+
+
+#### 6.2.4.4. Testing Suite Evidence for Sprint Review
+
+En esta sección, presentamos el conjunto de Acceptance Tests relacionados con las User Stories seleccionadas para el desarrollo del Sprint 3. Para estos criterios de aceptación, se utilizó el lenguaje Gherkin bajo el enfoque BDD.
+
+| Repository                                                                                      | Branch             | Commit Id             | Commit Message              | Commit Message Body               | Commited on (Date)       |
+|-------------------------------------------------------------------------------------------------|--------------------|-----------------------|-----------------------------|-----------------------------------|--------------------------|
+| <p>https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/FalconShield-Testing.git</p><p></p> | <p>main</p><p></p> | <p>ef745cd</p><p></p> | <p>feat(testing)</p><p></p> | <p>create hu40 feature</p><p></p> | <p>03/11/2024</p><p></p> |
+
 #### 6.2.4.5. Execution Evidence for Sprint Review.
 
 En este Sprint 4, logramos integrar y desarrollar nuevas funcionalidades clave en nuestra aplicación web, aplicación móvil, dispositivo IoT físico y la Embedded API. Estas mejoras se alinean con los objetivos trazados en el Sprint Planning y buscan ofrecer una experiencia de usuario más robusta y funcionalidades que fortalezcan nuestro ecosistema de seguridad IoT.
@@ -3337,11 +3437,10 @@ Este análisis también refleja un enfoque colaborativo en la resolución de pro
   - Nombres y apellidos: Diana Gomez Oré
   - Edad: 25 años
   - Distrito: Chorrillos
-  - Timing:
-  - Duración:
-  - Link: [Enlace entrevista 1]()
+  - Duración:14:05
+  - Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a991_upc_edu_pe/EfF4wSQxCz9FqleS1IBnyKIBcwfT2uiQUInFm2xDdbegbA?e=400yow&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
 
-    ![Validation Interview 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-1.png)
+![Validation Interview 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-1.png)
 
 Antes de la entrevista Diana me comentó que le pareció interesante el tener 3 idiomas en la landing page, esto debido a que no era algo común para ella. Durante la entrevista se pudo apreciar que la sección que más llamó su atención en la landing page fue la de los planes, ya que indicó que tener la información de los planes a la mano le facilita el poder seleccionar cuál desea adquirir y poder comparar sus características. En cuanto al prototipo de la aplicación web, lo que más le agradó fue la sección de dispositivos por áreas, esto debido a que le encontró utilidad al hecho de tener los dispositivos filtrados mediante áreas correspondientes. Finalmente, ella comentó que le parece importante el recibir notificaciones sobre eventos que puedan sucitarse en su propiedad, debido a que toma mucho en cuanta su seguridad al vivir sola. Es así que Diana indicó que le gustaría mucho el poder recibir estas notificaciones mediante una aplicación móvil, ya que es el dispositivo que tiene a su mano con mayor frecuencia.
 
@@ -3350,11 +3449,10 @@ Antes de la entrevista Diana me comentó que le pareció interesante el tener 3 
   - Nombres y apellidos: Aldahir Valenzuela
   - Edad: 23 años
   - Distrito: San Borja
-  - Timing: 
-  - Duración: 07:04 minutos
-  - Link: https://youtu.be/NO6eZs-q9hM
+  - Duración:14:05
+  - Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a991_upc_edu_pe/EfF4wSQxCz9FqleS1IBnyKIBcwfT2uiQUInFm2xDdbegbA?e=400yow&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
      
-    ![Validation Interview2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-2.png)
+![Validation Interview2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-2.png)
 
 En la entrevista, Aldahir menciona que la landing page es intuitiva y fácil de navegar. Además, destaca que los planes se muestran de manera clara y que las imágenes ayudan a comprender los beneficios que obtendrá el usuario. Con respecto al prototipo de la aplicación móvil, le agrada la funcionalidad para agregar una nueva propiedad y asignar áreas a estas, así como la opción de activar y desactivar dispositivos. También resalta la utilidad de recibir notificaciones cuando se genera un evento en los dispositivos, aunque advierte que podría ser molesto si el dispositivo genera alertas por eventos que no son de emergencia. En cuanto a las mejoras sugeridas, propone ajustar la imagen de fondo en el inicio de la landing page, ya que actualmente no tiene suficiente contraste con el texto del eslogan, lo cual dificulta su lectura.
 
