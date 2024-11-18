@@ -413,7 +413,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
       - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
       - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
-      - [6.2.1.6. Software Deployment Evidence for Sprint Review](#6216-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.6. Services Documentation Evidence for Sprint Review.](#6216-services-documentation-evidence-for-sprint-review)
       - [6.2.1.7.Software Deployment Evidence for Sprint Review](#6217software-deployment-evidence-for-sprint-review)
       - [6.2.1.8. Team Collaboration Insights during Sprint.](#6218-team-collaboration-insights-during-sprint)
     - [6.2.2. Sprint 2](#622-sprint-2)
@@ -2340,7 +2340,7 @@ Todo esto lo explicamos en el siguiente video:
 
 Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdXzlvaFEUZPninPofeTnR8Be26xB9ZqRzhp3jGEeBKrcw?e=2Yvgc4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
-#### 6.2.1.6. Software Deployment Evidence for Sprint Review
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 
 
 #### 6.2.1.7.Software Deployment Evidence for Sprint Review
@@ -3057,15 +3057,29 @@ A continuación, se presenta una imagen del dispositivo IoT físico con los comp
 
 #### 6.2.4.7. Software Deployment Evidence for Sprint Review.
 
-En este sprint se realizaron nuevos despliegues de los productos desarrollados agregando las mejoras implementadas. A continuación, se visualizan pantallazos de las aplicaciones y servicios desplegados.
+**Despliegue de Aplicación Móvil**
+
+
+
+
+
+También se realizaron nuevos despliegues de los productos desarrollados agregando las mejoras implementadas. A continuación, se visualizan pantallazos de las aplicaciones y servicios desplegados.
+
+**Landing Page:**
+
+![Landing Page Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment.jpg)
 
 **Frontend de la Aplicación Web:**
 
-![Frontend Deployment Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment1.jpg)
+![Frontend Deployment Sprivnt4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment1.jpg)
 
 **Backend:**
 
 ![Backend Deployment Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment2.png)
+
+**Edge API:**
+
+![Edge API Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment3.png)
 
 #### 6.2.4.8. Team Collaboration Insights during Sprint.
 
