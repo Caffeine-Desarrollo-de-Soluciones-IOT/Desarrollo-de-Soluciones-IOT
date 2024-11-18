@@ -413,11 +413,9 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
       - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
       - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
-      - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
-      - [6.2.1.7.Software Deployment Evidence for Sprint Review](#6217software-deployment-evidence-for-sprint-review)
-      - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review-1)
       - [6.2.1.6. Software Deployment Evidence for Sprint Review](#6216-software-deployment-evidence-for-sprint-review)
-      - [6.2.1.7. Team Collaboration Insights during Sprint](#6217-team-collaboration-insights-during-sprint)
+      - [6.2.1.7.Software Deployment Evidence for Sprint Review](#6217software-deployment-evidence-for-sprint-review)
+      - [6.2.1.8. Team Collaboration Insights during Sprint.](#6218-team-collaboration-insights-during-sprint)
     - [6.2.2. Sprint 2](#622-sprint-2)
       - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
       - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
@@ -2327,24 +2325,6 @@ Enlace de la aplicación web: https://verysafe.netlify.app/
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
-#### 6.2.1.5. Execution Evidence for Sprint Review
-
-#### 6.2.1.6. Services Documentation Evidence for Sprint Review
-
-#### 6.2.1.7.Software Deployment Evidence for Sprint Review
-
-Durante el Sprint 1, el enfoque principal fue el despliegue de la Landing Page del proyecto. Para este Sprint, el proceso de Deployment consistió en la creación de un entorno accesible públicamente para la presentación del producto inicial. La Landing Page se desplegó utilizando GitHub Pages, una plataforma que permite alojar aplicaciones web estáticas de manera sencilla y eficiente.
-
-**Actividades Realizadas**
-- **Creación de Cuenta y Configuración en GitHub:**
-El primer paso fue la creación de la cuenta del proyecto en GitHub, si no estaba previamente configurada, y la creación de un repositorio para el código fuente de la Landing Page. Luego, se configuraron los permisos y accesos necesarios para los miembros del equipo, permitiendo que todos pudieran colaborar en el desarrollo y despliegue de la página.
-
-![Landing Page Repository](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_1.png)
-
-- **Despliegue en GitHub Pages:**
-El despliegue de la Landing Page se realizó directamente desde el repositorio de GitHub utilizando la funcionalidad de GitHub Pages. Esta opción permitió publicar de manera inmediata la página de aterrizaje, generando una URL pública para que los interesados pudieran acceder al producto. Se configuraron las opciones necesarias para apuntar a la rama correcta del repositorio, que contenía los archivos estáticos de la página.
-
-![team](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/team.jpg)
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
@@ -2357,12 +2337,38 @@ Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_u
 
 #### 6.2.1.6. Software Deployment Evidence for Sprint Review
 
-Enlace de aplicación web: https://verysafe.netlify.app/
 
-#### 6.2.1.7. Team Collaboration Insights during Sprint
-Las actividades de implementación se han desarrollado de acuerdo a lo planificado en el Sprint Planning, donde se han asignado tareas a cada miembro del equipo y se han realizado reuniones grupales para realizar el despliegue. A continuación, se presentan los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 1:
+#### 6.2.1.7.Software Deployment Evidence for Sprint Review
 
-![network](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/network.jpg)
+Durante el Sprint 1, el enfoque principal fue el despliegue de la Landing Page del proyecto. Para este Sprint, el proceso de Deployment consistió en la creación de un entorno accesible públicamente para la presentación del producto inicial. La Landing Page se desplegó utilizando GitHub Pages, una plataforma que permite alojar aplicaciones web estáticas de manera sencilla y eficiente.
+
+**Actividades Realizadas**
+- **Creación de Cuenta y Configuración en GitHub:**
+El primer paso fue la creación de la cuenta del proyecto en GitHub, si no estaba previamente configurada, y la creación de un repositorio para el código fuente de la Landing Page. Luego, se configuraron los permisos y accesos necesarios para los miembros del equipo, permitiendo que todos pudieran colaborar en el desarrollo y despliegue de la página.
+
+  - _Repositorio de Landing Page_
+
+![Landing Page Repository](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_1.png)
+
+  - _Configuración de Repositorio de Landing Page_
+
+![Landing Page Repository Config](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_2.png)
+
+- **Despliegue en GitHub Pages:**
+El despliegue de la Landing Page se realizó directamente desde el repositorio de GitHub utilizando la funcionalidad de GitHub Pages. Esta opción permitió publicar de manera inmediata la página de aterrizaje, generando una URL pública para que los interesados pudieran acceder al producto. Se configuraron las opciones necesarias para apuntar a la rama correcta del repositorio, que contenía los archivos estáticos de la página.
+
+![Landing Page Deployed](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_3.png)
+
+- **Anális de Resultados de las métricas de rendimiento:**
+Los resultados obtenidos de GTmetrix indicaron que el tiempo de carga de la landing page se encuentra dentro de los parámetros ideales para una experiencia de usuario óptima. Además, se identificaron áreas de mejora relacionadas con la optimización de imágenes. Con base en estos resultados, se planificaron ajustes en la optimización de los recursos estáticos para reducir aún más el tiempo de carga.
+
+![Landing Page GT Metrix](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_4.png)
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint.
+
+
+
+![team](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/team.jpg)
 
 ### 6.2.2. Sprint 2
 
@@ -2384,14 +2390,14 @@ En esta sesión de planificación para el Sprint 2, nos enfocaremos en los desar
 | Sprint 2 Goal                      | <p> El objetivo de este Sprint es diseñar los formularios para agregar propiedades y áreas en la vista “My Properties”, crear un formulario para añadir dispositivos y diseñar una tabla que muestre los dispositivos registrados en la vista “My Devices” de la aplicación web. Además, se desarrollarán los endpoints en el Cloud Service para almacenar propiedades y obtener información sobre los dispositivos asociados a las propiedades previamente registradas en el sistema.   </p><p> Este enfoque está orientado a brindar a los dueños de los inmuebles una herramienta que les permita organizar de manera eficiente sus propiedades, áreas y dispositivos IoT, fortaleciendo así la gestión y seguridad de sus inmuebles. La funcionalidad busca facilitar la visualización y el control de cada elemento relacionado con las propiedades, asegurando una experiencia práctica y confiable para los usuarios.   </p><p> El éxito del Sprint se medirá cuando los dueños de inmueble puedan registrar propiedades con diferentes áreas, como cocina, sala y dormitorio, y asignar dispositivos IoT a esas áreas de forma efectiva. Esto garantizará no solo la correcta organización, sino también la integración fluida de dispositivos en las propiedades registradas. </p><p></p>                                                                 |
 | Sprint 2 Velocity                  | 34                                                                                                 |
 | Sum of Story Points                | 38                                                                                                 |
+
 #### 6.2.2.2. Sprint Backlog 2.
 
-### Introducción al Sprint Backlog
+**Introducción al Sprint Backlog**
 
 En este Sprint, el equipo trabajará en el diseño de formularios para agregar propiedades y áreas en la vista "My Properties", así como en la creación de un formulario para añadir dispositivos y una tabla que permita visualizar los dispositivos registrados en la vista "My Devices" de la aplicación web. También se desarrollarán los endpoints necesarios en el Cloud Service para almacenar propiedades y vincular dispositivos con las propiedades registradas previamente. Estas actividades tienen como objetivo proporcionar a los propietarios una herramienta práctica y confiable para organizar y gestionar sus inmuebles, áreas y dispositivos IoT de manera eficiente, mejorando la experiencia de usuario y fortaleciendo la seguridad de sus propiedades.
 
 A continuación se muestra el tablero del Sprint2 en Trello. 
-
 
 ![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/trello2.png)
 
@@ -2425,7 +2431,6 @@ Link del trello: https://trello.com/b/F9HDJVzc/sprint-2
 <tr><td colspan="1" rowspan="2" valign="top"></td><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">API de información de contacto</td><td colspan="1" valign="top">Implementar una API que permita almacenar y recuperar información de contacto de la empresa.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Permisos de edición para administración</td><td colspan="1" valign="top">Configurar permisos de edición para el equipo de administración que pueda actualizar esta información.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
 </table>
-
 
 #### 6.2.2.3. Development Evidence for Sprint Review.
 
@@ -2853,20 +2858,15 @@ A continuación, se detallan los nuevos endpoints implementados y las operacione
 
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review.
-<<<<<<< HEAD
-=======
 
 **1. Despliegue de Edge API en OnRender**
->>>>>>> 81e1093889bf0079a56e25a2c9ba6026e650bdaf
 
 - **Creación de cuenta y configuración en OnRender:**
 Para el Edge API, se utilizó OnRender al igual que para el backend. Se utilizó la misma cuenta y se configuró el entorno para recibir el repositorio del Edge API, configurando el acceso al código fuente desde GitHub. Este paso permitió automatizar el despliegue del backend a medida que se realizaban actualizaciones en el repositorio.
 
-<<<<<<< HEAD
 Link de la dispositivo IoT: (https://wokwi.com/projects/414901082933918721)
-=======
+
 ![Edge API OnRender Github](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint2_web-services_1.png)
->>>>>>> 81e1093889bf0079a56e25a2c9ba6026e650bdaf
 
 - **Despliegue de Edge API:**
 Después de la configuración, se desplegó el Edge API en OnRender. OnRender proporcionó una URL pública para acceder al servicio.
@@ -3206,8 +3206,5 @@ En esta sección el equipo especifica todas las referencias bibliográficas en f
 | Sprint 1 | upc-pre-202402-si572-wv71-VerySafe-execution evidence-sprint1  <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdXzlvaFEUZPninPofeTnR8Be26xB9ZqRzhp3jGEeBKrcw?e=2Yvgc4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  | Consolida los avances hechos en el sprint 1 iniciando con el Landing Page asi como la Aplicación Web |  
 | Sprint 2 | upc-pre-202402-si572-wv71-VerySafe-execution evidence-sprint2  <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/ES0WpK_khnRCgmLHG5VgrI0BPY-I0MCNOVxiGaoyehXymQ?e=H5507R | Consolida los avances hechos en el sprint 2 iniciando con las mejoras del Landing Page asi como la Aplicación Web y el inicio de la creación del edge api, app mobile and wokwi |
 | Sprint 3 | upc-pre-202402-si572-wv71-VerySafe-execution evidence-sprint3  <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/Eae1ILKyY9BIqQejChcuyWkBZvEh31NmGHL7NVaAUDmQDg?e=lshgiQ | Consolida los avances hechos en el sprint 3 iniciando con las mejoras del Landing Page asi como la Aplicación Web y el inicio de la creación del edge api, app mobile and wokwi | 
-<<<<<<< HEAD
 | About the team | upc-pre-202402-si572-wv71-VerySafe-aboutthe-team <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EdEitl--UlVBkTOSJ94vqkkBvXwkCotEE6LfRx-5FURKOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iUVGTf | Consolidamos los avances de cada uno y nuestras mejoras aplicadas asimismo mencionamos la importancia del curso |
 | About the product | upc-pre-202402-si572-wv71-VerySafe-aboutthe-product <br> Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_upc_edu_pe/EbGBfmDvLEpKoQ--m0teykEB1_yhDntwWxbsaBvRonlheQ?e=0dEcJd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D | Consolidamos el flujo de nuestras aplicaciones web y móvil presentando casi la totalidad de los flujos que se pueden ejecutar |
-=======
->>>>>>> 81e1093889bf0079a56e25a2c9ba6026e650bdaf
