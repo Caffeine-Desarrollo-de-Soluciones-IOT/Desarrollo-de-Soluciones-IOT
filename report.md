@@ -2795,18 +2795,37 @@ A continuación, se detallan los nuevos endpoints implementados y las operacione
 
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review.
- 
-Para el despliegue de la Mobile App empleamos Firebase
 
-Link de la Mobile App desplegada: ()
+**1. Despliegue de Edge API en OnRender**
 
-Para el dispositivo IoT utilizamos Wokwi
+- **Creación de cuenta y configuración en OnRender:**
+Para el Edge API, se utilizó OnRender al igual que para el backend. Se utilizó la misma cuenta y se configuró el entorno para recibir el repositorio del Edge API, configurando el acceso al código fuente desde GitHub. Este paso permitió automatizar el despliegue del backend a medida que se realizaban actualizaciones en el repositorio.
 
-Link de la dispositivo IoT: ()
+![Edge API OnRender Github](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint2_web-services_1.png)
 
-Para el despliegue de la Edge API
+- **Despliegue de Edge API:**
+Después de la configuración, se desplegó el Edge API en OnRender. OnRender proporcionó una URL pública para acceder al servicio.
 
-Link de la API desplegada: (http://localhost:8080/swagger-ui/index.html#/)
+![Edge API OnRender Configuration](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint2_web-services_2.png)
+
+- **Verificación y pruebas de Edge API:**
+Se realizaron pruebas del backend para verificar el correcto funcionamiento de las API, la gestión de bases de datos y la conectividad con el frontend. También se comprobó que las variables de entorno, como las credenciales de acceso a bases de datos, estuvieran correctamente configuradas y funcionando.
+
+![Web Services Deployed](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20042016.png)
+
+**2. Despliegue de Aplicación móvil**
+
+- **Creación de cuenta y configuración**
+
+- **Verificación y pruebas:**
+
+
+
+**Análisis del Proceso de Deployment**
+
+El despliegue del Edge API se realizó de manera eficiente utilizando OnRender, aprovechando su capacidad para gestionar entornos escalables y de alto rendimiento. El equipo implementó la API en producción, garantizando su disponibilidad y estableciendo una integración fluida con los demás componentes del sistema IoT.
+
+Las pruebas posteriores al despliegue confirmaron el correcto funcionamiento de los endpoints y la comunicación en tiempo real con los dispositivos físicos y las aplicaciones. OnRender demostró ser una solución robusta para soportar las cargas previstas, mientras que su integración con GitHub facilitó un flujo continuo y ágil en el proceso de desarrollo y despliegue.
 
 #### 6.2.3.8. Team Collaboration Insights during Sprint.
 
@@ -2889,9 +2908,6 @@ Link del sprint4 : https://trello.com/invite/b/673687b204a2009c1334004b/ATTI62fe
 <tr><td colspan="1" valign="top">HU-44</td><td colspan="1" valign="top">Implementación de Traducción Multilingüe en la Aplicación Web</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Implementación de 3 idiomas</td><td colspan="1" valign="top">Agregar traducción de idiomas en la Aplicación Web</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Done</td></tr>
 </table>
 
-
-
-
 #### 6.2.4.3. Development Evidence for Sprint Review.
 #### 6.2.4.4. Testing Suite Evidence for Sprint Review.
 #### 6.2.4.5. Execution Evidence for Sprint Review.
@@ -2935,7 +2951,7 @@ En este sprint se realizaron nuevos despliegues de los productos desarrollados a
 
 **Frontend de la Aplicación Web:**
 
-![Frontend Deployment Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment1.png)
+![Frontend Deployment Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment1.jpg)
 
 **Backend:**
 
@@ -2962,12 +2978,6 @@ En este Sprint, el backend fue optimizado con la creación de nuevos endpoints R
 La Embedded API fue actualizada para gestionar nuevos tipos de sensores, optimizando la transmisión de datos hacia la nube y reduciendo la latencia de respuesta. El equipo trabajó en sincronía, revisando cada funcionalidad implementada y asegurándose de cumplir con los requisitos establecidos.
 
 ![Embedded API Sprint4 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_insight3.png)
-
-**Dispositivo IoT Físico**
-
-El equipo colaboró en la implementación del dispositivo que incluye un sensor de proximidad y un RFID. Esto se logró a través de un enfoque iterativo que incluyó pruebas y ajustes necesarios. La simulación fue desarrollada en Wokwi.
-
-![Physical IOT Sprint4 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_insight4.png)
 
 **Interpretación de Analíticos:**
 
