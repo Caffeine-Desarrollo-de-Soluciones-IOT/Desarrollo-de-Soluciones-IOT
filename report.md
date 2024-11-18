@@ -1970,7 +1970,7 @@ A continuación, se darán a conocer las convenciones, formatos, estilos y entre
 **Vue.js:** Se siguieron las convenciones y guías de estilo de código de la “Vue Style Guide” de la documentación oficial de Vue.js. Los puntos destacados incluyen:
 
 - _Nombres de Archivos en PascalCase:_ Los componentes deben tener nombres de archivo en PascalCase (Ejemplo: MiComponente.vue)
-- _Estructura de Componentes en formato SFC (Single File Component):_ Utilizar archivos .vue con secciones bien definidas (<template>, <script>, <style>) para separar lógica, diseño y estilos de manera clara y modular.
+- _Estructura de Componentes en formato SFC (Single File Component)- _Utilizar archivos .vue_ con secciones bien definidas (template, script, style) para separar lógica, diseño y estilos de manera clara y modular.
 - _Convención de Carpetas:_ Organizar los componentes en carpetas lógicas según su propósito, como components/, views/, store/, y services/.
 - _Gestión de Rutas:_ Configurar las rutas de la aplicación utilizando Vue Router. Definir rutas de manera jerárquica y utilizar alias o nombres de rutas para facilitar la navegación.
 - _Reutilización de Componentes:_ Identificar patrones comunes y refactorizarlos en componentes reutilizables y configurables.
@@ -2096,110 +2096,30 @@ Para esta parte como es una etapa inicial contamos únicamente con nuestra Landi
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
 #### 6.2.1.1. Sprint Planning 1
-<table align="center"  border="1" width="90%" style="text-align:center;">
-    <tr align="left">
-        <td>
-            <b>Sprint #</b>
-        </td>
-        <td>
-            <b>Sprint 1</b>           
-        </td>
-    </tr>
-    <tr align="left">
-        <td colspan="2">
-            <b>Sprint Planning Background</b>
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Date</b>
-        </td>
-        <td>
-            20/09/24         
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Time</b>
-        </td>
-        <td>
-            16:00         
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Location</b>
-        </td>
-        <td>
-            Canal de voz en Discord      
-        </td>
-    </tr>
-     <tr>
-       <tr align="left">
-        <td>
-            <b>Prepared By</b>
-        </td>
-        <td>
-            Integrantes del equipo  
-        </td>
-    </tr>
-    <tr>
-       <tr align="left">
-        <td>
-            <b>Attendess (to planning meeting)</b>
-        </td>
-        <td>
-            - Gabriela Soledad Nomberto Ramos <br/>
-            - Dennis Piero Quevedo Yucra <br/>
-            - Max Dayson Sabino Arostegui  <br/>
-            - Elvia Guadalupe Arteaga Cruz <br/>    
-            - Jamutaq Piero Ortega Vélez <br/> 
-        </td>
-    </tr>
-      <tr>
-       <tr align="left">
-        <td>
-            <b>Sprint n - 1</b>
-            <b>Review Summary</b>
-        </td>
-        <td>
-            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo de la Landing Page y la lógica de negocio de la plataforma. Se desplegó la landing page de forma exitosa.
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 1</b>
-            <b>Retrospective Summary</b>
-        </td>
-        <td>
-        Se logró cumplir con los objetivos planteados en el Sprint 1, sin embargo, se identificaron oportunidades de mejora en la comunicación y coordinación del equipo.
-        </td>
-    </tr>
-     <tr align="left">
-        <td colspan="2">
-            <b>Sprint Goal & User Stories</b>
-        </td>
-    </tr>
-      <tr align="left">
-        <td>
-            <b>Sprint 1 Velocity</b>
-        </td>
-        <td>
-            -
-        </td>
-    </tr>
-       <tr align="left">
-        <td>
-            <b>Sum of Story Points</b>
-        </td>
-        <td>
-            -
-        </td>
-    </tr>
-</table> 
+En esta sesión de planificación para el Sprint 1, nos enfocaremos en los desarrollos clave del landing page
+
+| **Sprint #**                       |Sprint 1|
+|:-----------------------------------| :- |
+| **Sprint Planning Background**     ||
+| Date                               |20/04/2024|
+| Time                               |4:00 pm|
+| Location                           |Canal de voz en discord|
+| Prepared By                        |Gabriela Nomberto|
+| Attendees (to planning meeting)    |Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo|
+| Sprint n – 1 Review Summary        |Se realizó el tablero del Sprint 4 en  Trello y se asignaron nuevas tareas. Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo de la Landing Page y la lógica de negocio de la plataforma. Se desplegó la landing page de forma exitosa.|
+| Sprint n – 1 Retrospective Summary |Se logró cumplir con los objetivos planteados en el Sprint 1, sin embargo, se identificaron oportunidades de mejora en la comunicación y coordinación del equipo|
+| **Sprint Goal & User Stories**     ||
+| Sprint 1 Goal                      |<p>El objetivo de este Sprint es proporcionar información sobre las principales características de VerySafe, mostrar testimonios de clientes, detallar los planes de pago e incluir un llamado a la acción en la landing page para los visitantes. Estas acciones están orientadas a captar la atención de los usuarios y guiarlos de manera efectiva hacia la descarga de la aplicación y la elección de un plan que se ajuste a sus necesidades.  </p><p>Este enfoque busca que los visitantes comprendan claramente los servicios que ofrecemos, ganen confianza a través de los testimonios de clientes satisfechos y puedan seleccionar un plan con facilidad. Además, se incentivará la descarga de la aplicación mediante un llamado a la acción destacado, mientras que el equipo de desarrollo trabajará en sentar las bases para la incorporación de nuevas características en futuros sprints.  </p><p>El éxito del Sprint se definirá por dos indicadores principales: que los usuarios puedan acceder a la aplicación web y completar exitosamente su suscripción a uno de los planes, y que los desarrolladores implementen de forma eficiente los endpoints necesarios para habilitar las funcionalidades previstas en la aplicación web.  </p><p></p>|
+| Sprint 1 Velocity                  ||
+| Sum of Story Points                |26|
 
 #### 6.2.1.2. Sprint Backlog 1
-En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+En este Sprint 1, el objetivo principal es desarrollar el Landing page de VerySafe, que permitirá a los visitantes conocer los servicios, planes, testimonios y video about the producto para que puedan suscribirse y usar nuestro producto.
+
+Se muestra el tablero del sprint1 en trello:
+![trello1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint1_trello.png)
+
 
 <table align="center" border="1" width="90%" style="text-align:center">
     <tr>
@@ -2392,21 +2312,20 @@ Las actividades de implementación se han desarrollado de acuerdo a lo planifica
 
 En esta sesión de planificación para el Sprint 2, nos enfocaremos en los desarrollos clave del frontend y backend de nuestro producto VerySafe, que busca ofrecer una solución de seguridad integral para propietarios de propiedades y empresas de seguridad. Durante el Sprint 1, logramos sentar las bases del producto al definir los componentes esenciales y avanzar en algunos elementos básicos en el frontend Ahora, el objetivo del Sprint 2 es dar un paso adelante, desarrollando las interfaces de usuario y los servicios backend necesarios para ofrecer una experiencia coherente y funcional.
 
-| **Sprint #**                       | Sprint 2                                                                                                                                                                                                                                                                                                                           |
-|:-----------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                    |
-| Date                               | 15/10/2024                                                                                                                                                                                                                                                                                                                         |
-| Time                               | 11:30 pm                                                                                                                                                                                                                                                                                                                           |
-| Location                           | Cubículo de la Universidad UPC sede Villa                                                                                                                                                                                                                                                                                          |
-| Prepared By                        | Gabriela Nomberto                                                                                                                                                                                                                                                                                                                  |
-| Attendees (to planning meeting)    | Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo                                                                                                                                                                                                                                                                         |
-| Sprint n – 1 Review Summary        | Se realizó el tablero del Sprint 1 en el Trello y creo las tareas relacionados a los user stories.                                                                                                                                                                                                                                 |
-| Sprint n – 1 Retrospective Summary | Dos tareas no lograron completarse.                                                                                                                                                                                                                                                                                                |
-| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                    |
-| Sprint 1 Goal                      | Crear la página web que permita a los usuarios registrarse, iniciar sesión y acceder a un dashboard donde puedan gestionar sus dispositivos y propiedades  asegurando una interfaz atractiva y funcional con un backend sólido para manejar la autenticación, operaciones CRUD de dispositivos y consulta de datos en tiempo real. |
-| Sprint 1 Velocity                  | 34                                                                                                                                                                                                                                                                                                                                 |
-| Sum of Story Points                | 38                                                                                                                                                                                                                                                                                                                                 |
-
+| **Sprint #**                       | Sprint 2                                                                                           |
+|:-----------------------------------|:---------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                    |
+| Date                               | 15/10/2024                                                                                         |
+| Time                               | 11:30 pm                                                                                           |
+| Location                           | Cubículo de la Universidad UPC sede Villa                                                          |
+| Prepared By                        | Gabriela Nomberto                                                                                  |
+| Attendees (to planning meeting)    | Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo                                         |
+| Sprint n – 2 Review Summary        | Se realizó el tablero del Sprint 1 en el Trello y creo las tareas relacionados a los user stories. |
+| Sprint n – 2 Retrospective Summary | Dos tareas no lograron completarse.                                                                |
+| **Sprint Goal & User Stories**     |                                                                                                    |
+| Sprint 2 Goal                      | <p> El objetivo de este Sprint es diseñar los formularios para agregar propiedades y áreas en la vista “My Properties”, crear un formulario para añadir dispositivos y diseñar una tabla que muestre los dispositivos registrados en la vista “My Devices” de la aplicación web. Además, se desarrollarán los endpoints en el Cloud Service para almacenar propiedades y obtener información sobre los dispositivos asociados a las propiedades previamente registradas en el sistema.   </p><p> Este enfoque está orientado a brindar a los dueños de los inmuebles una herramienta que les permita organizar de manera eficiente sus propiedades, áreas y dispositivos IoT, fortaleciendo así la gestión y seguridad de sus inmuebles. La funcionalidad busca facilitar la visualización y el control de cada elemento relacionado con las propiedades, asegurando una experiencia práctica y confiable para los usuarios.   </p><p> El éxito del Sprint se medirá cuando los dueños de inmueble puedan registrar propiedades con diferentes áreas, como cocina, sala y dormitorio, y asignar dispositivos IoT a esas áreas de forma efectiva. Esto garantizará no solo la correcta organización, sino también la integración fluida de dispositivos en las propiedades registradas. </p><p></p>                                                                 |
+| Sprint 2 Velocity                  | 34                                                                                                 |
+| Sum of Story Points                | 38                                                                                                 |
 #### 6.2.2.2. Sprint Backlog 2.
 
 En este Sprint 2, el objetivo principal es desarrollar la página web de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional en el frontend, complementada con un backend sólido que gestione la autenticación y soporte las operaciones CRUD para dispositivos, así como consultas de datos en tiempo real. Al finalizar este sprint, buscamos tener una versión funcional de estas funcionalidades clave, lista para pruebas iniciales y validación.
@@ -2723,20 +2642,20 @@ En esta sección se registra y explica el avance en términos de producto y trab
 
 En esta sesión de planificación para el Sprint 3, nos enfocaremos en los desarrollos clave de la Aplicación Móvil de nuestro producto VerySafe y del el IoT Device Embedded Application. Durante el Sprint 2, logramos implementar el fronted y backend para la aplicación web de VerySafe.
 
-| **Sprint #**                       | Sprint 3                                                                                                                                                                                                                                                                                                                                                                     |
-|:-----------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                              |
-| Date                               | 22/10/2024                                                                                                                                                                                                                                                                                                                                                                   |
-| Time                               | 11:30 pm                                                                                                                                                                                                                                                                                                                                                                     |
-| Location                           | Cubículo de la Universidad UPC sede Villa                                                                                                                                                                                                                                                                                                                                    |
-| Prepared By                        | Gabriela Nomberto                                                                                                                                                                                                                                                                                                                                                            |
-| Attendees (to planning meeting)    | Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo                                                                                                                                                                                                                                                                                                                   |
-| Sprint n – 1 Review Summary        | Se realizó el tablero del Sprint 2 en el Trello y creo las tareas relacionados a los user stories.                                                                                                                                                                                                                                                                           |
-| Sprint n – 1 Retrospective Summary | Se ha logrado avanzar con 18 task de las 43.                                                                                                                                                                                                                                                                                                                                 |
-| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                              |
-| Sprint 1 Goal                      | El objetivo principal es desarrollar la aplicación móvil de VerySafe, que permitirá a los usuarios registrarse, iniciar sesión y acceder a un dashboard para gestionar sus dispositivos y propiedades. Nos enfocaremos en crear una interfaz atractiva y funcional. De la misma manera se creará el IoT Device Embedded Application. en Wokwi para simular su funcionamiento |
-| Sprint 1 Velocity                  | 26                                                                                                                                                                                                                                                                                                                                                                           |
-| Sum of Story Points                | 38                                                                                                                                                                                                                                                                                                                                                                           |
+| **Sprint #**                       | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|:-----------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Date                               | 22/10/2024                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Time                               | 11:30 pm                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Location                           | Cubículo de la Universidad UPC sede Villa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Prepared By                        | Gabriela Nomberto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Attendees (to planning meeting)    | Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Sprint n – 1 Review Summary        | Se realizó el tablero del Sprint 2 en el Trello y creo las tareas relacionados a los user stories.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint n – 1 Retrospective Summary | Se ha logrado avanzar con 18 task de las 43.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Sprint 1 Goal                      | <p> El objetivo de este Sprint es diseñar las vistas de propiedades, áreas y dispositivos en la aplicación móvil, desarrollar los endpoints necesarios para las aplicaciones embebidas en el Cloud Service IoT y probar la funcionalidad de los actuadores y sensores integrados en estas aplicaciones. Estas acciones garantizarán una base sólida para la interacción entre la aplicación móvil y los dispositivos IoT conectados. </p><p> Este enfoque está dirigido a ofrecer a los propietarios una aplicación móvil que les permita gestionar de manera eficiente sus propiedades, áreas y dispositivos IoT, además de brindarles control sobre los actuadores y sensores de las aplicaciones embebidas. Con esta funcionalidad, los usuarios podrán supervisar los dispositivos vinculados a sus inmuebles, mejorando la experiencia y la seguridad.  </p><p> El éxito del Sprint se medirá cuando los propietarios puedan registrar propiedades, áreas y dispositivos en la aplicación móvil de forma efectiva. Adicionalmente, se validará el correcto funcionamiento de los sensores al verificar que emiten una luz LED de color rojo al detectar un evento, asegurando así su operatividad y precisión en la gestión de alertas.  </p><p></p> |
+| Sprint 1 Velocity                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Sum of Story Points                | 26                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                       |
 
 #### 6.2.3.2. Sprint Backlog 3.
 
@@ -2895,7 +2814,82 @@ Para evidenciar la colaboración de todos integrantes del equipo FalconShield en
 
 ### 6.2.3. Sprint 4
 #### 6.2.4.1. Sprint Planning 4.
+
+En esta sesión de planificación para el Sprint 4, nos enfocaremos en los desarrollos clave de on the cloud server, edge server, web application, mobile application and embedded application de nuestro producto VerySafe.
+
+|**Sprint #**|Sprint 4|
+| :- | :- |
+|**Sprint Planning Background**||
+|Date|05/11/2024|
+|Time|11:30 pm|
+|Location|Cubículo de la Universidad UPC sede Villa|
+|Prepared By|Gabriela Nomberto|
+|Attendees (to planning meeting)|Max Sabino, Elvia Arteaga, Jamutaq Ortega y Dennis Quevedo|
+|Sprint n – 4 Review Summary|Se realizó el tablero del Sprint 4 en  Trello y se asignaron nuevas tareas.|
+|Sprint n – 4 Retrospective Summary  |Se ha logrado completar 28 task de las 36.|
+|**Sprint Goal & User Stories**||
+|Sprint 4 Goal|<p>El objetivo de este Sprint es optimizar la aplicación web de VerySafe mediante la implementación de un dashboard, visualización de eventos y soporte de internacionalización. Además, se implementarán los endpoints para la gestión de eventos en los servidores en la nube y en el borde. En paralelo, se mejorará la funcionalidad de las aplicaciones embebidas integrando sensores de movimiento, proximidad y RFID, así como el control del LED para una respuesta coordinada. También se añadirá la vista de propiedades, áreas, dispositivos y los detalles de los dispositivos en la aplicación móvil.</p><p>Este enfoque permitirá a los dueños de inmuebles tener un mayor control sobre la seguridad de sus propiedades, áreas y dispositivos, lo que aumentará su confianza en el sistema VerySafe. La integración de estas funcionalidades brindará una experiencia más completa y accesible, tanto en la plataforma web como en la aplicación móvil, asegurando una gestión eficiente de los dispositivos IoT.</p><p>El éxito se confirmará cuando los dueños de inmuebles puedan acceder a un resumen gráfico de sus dispositivos, visualizar los eventos registrados por los mismos en la aplicación web, y consultar las  propiedades, áreas y dispositivos bajo su gestión en la aplicación móvil. Además, la integración de los sensores y el control de los LEDs en las aplicaciones embebidas se comprobará con pruebas de funcionalidad y estabilidad.</p><p></p>|
+|Sprint 4 Velocity|30|
+|Sum of Story Points|44|
+
 #### 6.2.4.2. Sprint Backlog 4.
+
+En este Sprint, nuestro enfoque principal será mejorar tanto la funcionalidad de la aplicación web como la de las aplicaciones móviles y embebidas de VerySafe. 
+Nos centraremos en la implementación de un dashboard interactivo y en la visualización de eventos, además de integrar el soporte de internacionalización en la plataforma web. 
+A nivel de servidor, desarrollaremos los endpoints para la gestión de eventos en la nube y en el servidor en el borde, lo que permitirá una mejor respuesta y eficiencia del sistema.
+Simultáneamente, trabajaremos en la mejora de las aplicaciones embebidas con la integración de sensores de movimiento, proximidad y RFID, junto con el control del LED para una respuesta coordinada y más precisa.
+Finalmente, en la aplicación móvil, se incluirán vistas detalladas de propiedades, áreas y dispositivos, proporcionando a los usuarios una experiencia más completa y accesible para la gestión de sus dispositivos de seguridad.
+
+A continuación se muestra el tablero del Sprint 4 en Trello:
+
+![alt](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_trello.png)
+
+Link del sprint4 : https://trello.com/invite/b/673687b204a2009c1334004b/ATTI62fe8d8ac81787cd574a5262c9074003C4F9B496/sprint-4
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 4</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task </td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation (Hours)</td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-do / InProcess / ToReview / Done)</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-38</td><td colspan="1" rowspan="2" valign="top">Registro de eventos</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Registro de eventos</td><td colspan="1" valign="top">Implementar una API para obtener los datos de registros de eventos.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Timeline de los eventos</td><td colspan="1" valign="top">Crear un componente para mostrar timeline de eventos.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Max</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-38</td><td colspan="1" rowspan="2" valign="top">Dashboard de Resumen</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Diseño responsivo del dashboard</td><td colspan="1" valign="top">Diseñar gráficos y tablas para el resumen y timeline</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Max</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Notificaciones de eventos</td><td colspan="1" valign="top">Integrar notificaciones de los eventos importantes</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU-39</td><td colspan="1" rowspan="3" valign="top">Gestión  de Dispositivos  (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Conectar dispositivos</td><td colspan="1" valign="top">Implementar conexión de nuevo dispositivo en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Sección dispositivos</td><td colspan="1" valign="top">Implementar seccion de dispositivos en App mobile</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Gestión de dispositivos</td><td colspan="1" valign="top">Implementar formularios emergentes para añadir y editar dispositivos de manera intuitiva.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU-40</td><td colspan="1" rowspan="3" valign="top">Visualización de Propiedades, Áreas y Dispositivos (My Devices)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Pantalla Areas</td><td colspan="1" valign="top">Implementar Areas en App Mobile</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Tarjetas para propiedades.</td><td colspan="1" valign="top">Crear una vista de tarjetas para cada propiedad, mostrando áreas y dispositivos asociados.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Navegación entre propiedades y áreas</td><td colspan="1" valign="top">Permitir la navegación entre propiedades y sus áreas, con opción de expandir y colapsar detalles.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-41</td><td colspan="1" rowspan="2" valign="top">Sección de Asistencia, Manuales y Soporte</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Enlace a soporte tecnico</td><td colspan="1" valign="top">Implementar un  enlace directo a soporte técnico en caso de dudas.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">To Review</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Resolver dudas</td><td colspan="1" valign="top">Crear una sección de preguntas frecuentes.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">To Review</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU-38</td><td colspan="1" rowspan="3" valign="top">Implementar endpoint POST Y GET para registrar datos de sensores</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Registro de datos de los sensores</td><td colspan="1" valign="top">Crear el esquema de datos en el sistema de persistencia para registrar datos de los sensores.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Post para recibir datos</td><td colspan="1" valign="top">Configurar el endpoint POST para recibir datos de los sensores en formato JSON</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Elvia</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Get para obterner los datos</td><td colspan="1" valign="top">Configurar el endpoint GET para obtener los datos registrados</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">HU-37</td><td colspan="1" rowspan="6" valign="top">Configuraciones de la aplicación movil VerySafe</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Pantalla para los configuraciones</td><td colspan="1" valign="top">Implementar seccion de Configuración</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">To Review</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Cambiar contraseña</td><td colspan="1" valign="top">Implementar seccion de Configuracion - Change your Password</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">To Review</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Elegir método de pago</td><td colspan="1" valign="top">Implementar seccion Configuracion - Payment Method</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">To Review</td></tr>
+<tr><td colspan="1" valign="top">TA04</td><td colspan="1" valign="top">Cambiar Idioma</td><td colspan="1" valign="top">Implementar seccion Configuracion - Application Language</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">To Review</td></tr>
+<tr><td colspan="1" valign="top">TA05</td><td colspan="1" valign="top">Cerrar sesión</td><td colspan="1" valign="top">Implementar seccion Configuracion - Log Out</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">To Review</td></tr>
+<tr><td colspan="1" valign="top">TA06</td><td colspan="1" valign="top">Eliminar cuenta</td><td colspan="1" valign="top">Implementar seccion Configuracion - Delete Account</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">To Review</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-43</td><td colspan="1" rowspan="2" valign="top">Configuración y Pruebas de Sensores</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Configurar Motion Sensor (PIR)</td><td colspan="1" valign="top">Configurar el dispositivo Motion Sensor - PIR.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Mostrar datos en LCD según control</td><td colspan="1" valign="top">Mostrar datos de sensores en LCD de acuerdo a la opción del control remoto.</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">HU-43</td><td colspan="1" rowspan="3" valign="top">Configuración del sensor de proximidad</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Conexión entre ESP32 y el sensor proximidad</td><td colspan="1" valign="top">Conectar el sensor ultrasónico al ESP32 (Trig, Echo, VCC, GND).</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Configurar la conexión</td><td colspan="1" valign="top"><p>Configurar el pin Trig como salida y el pin Echo como entrada.</p><p></p></td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Medir la distancia</td><td colspan="1" valign="top">Crear una función para medir distancias a partir del tiempo de respuesta.</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Quevedo</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-43</td><td colspan="1" rowspan="2" valign="top">Conexión y control del LED</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Configurar LED</td><td colspan="1" valign="top">Conectar el LED al ESP32 mediante una resistencia de 330Ω.</td><td colspan="1" valign="top"><p></p><p>2</p></td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Funcionalidad del LED</td><td colspan="1" valign="top">Programar un GPIO para encender/apagar el LED con comandos del monitor serie.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-43</td><td colspan="1" rowspan="2" valign="top">Configuración del sensor de movimiento (PIR)</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Conexión del sensor PIR con ESP32</td><td colspan="1" valign="top">Conectar el sensor PIR al ESP32 (VCC, OUT, GND) y asignar un GPIO para las lecturas.</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Detectar movimiento y encender LED</td><td colspan="1" valign="top">Implementar la lógica de programación para encender el LED cuando el PIR detecte movimiento.</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">Jamutaq</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top"><p></p><p>HU-43</p></td><td colspan="1" rowspan="3" valign="top"><p></p><p>Configuración del Módulo RFID</p></td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Configurar módulo RFID</td><td colspan="1" valign="top">Configurar el módulo RFID </td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Conectar RFID</td><td colspan="1" valign="top">Conectar el lector RFID al ESP32 utilizando los pines SPI (SDA, SCK, MOSI, MISO, RST).</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA03</td><td colspan="1" valign="top">Leer tarjeta RFID</td><td colspan="1" valign="top">Programar la lectura tarjetas RFID y mostrar los UIDs en el monitor serie.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sabino </td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">HU-43</td><td colspan="1" rowspan="2" valign="top">Integración del sistema VerySafe</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Integrar todos los componentes</td><td colspan="1" valign="top">Diseñar la estructura del programa principal para integrar todos los componentes.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TA02</td><td colspan="1" valign="top">Pruebas de simulación</td><td colspan="1" valign="top">Simular movimiento, proximidad y detección RFID, asegurando respuestas correctas del LED.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Gaby</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">HU-44</td><td colspan="1" valign="top">Implementación de Traducción Multilingüe en la Aplicación Web</td><td colspan="1" valign="top">TA01</td><td colspan="1" valign="top">Implementación de 3 idiomas</td><td colspan="1" valign="top">Agregar traducción de idiomas en la Aplicación Web</td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">Sabino</td><td colspan="1" valign="top">Done</td></tr>
+</table>
+
+
+
+
 #### 6.2.4.3. Development Evidence for Sprint Review.
 #### 6.2.4.4. Testing Suite Evidence for Sprint Review.
 #### 6.2.4.5. Execution Evidence for Sprint Review.
@@ -2939,7 +2933,7 @@ En este sprint se realizaron nuevos despliegues de los productos desarrollados a
 
 **Frontend de la Aplicación Web:**
 
-![Frontend Deployment Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment1.jpg)
+![Frontend Deployment Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment1.png)
 
 **Backend:**
 
