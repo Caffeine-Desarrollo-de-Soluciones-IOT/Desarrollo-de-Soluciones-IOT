@@ -3039,6 +3039,9 @@ Se incluyó una vista "Profile" para que el segmento objetivo modifique su perfi
 
 3. Embedded API:
 
+Se incluyo las endpoints necesarias para el edge api como las actividades de los sensores y los actuadores
+![alt text](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20042016.png)
+
 
 4. Dispositivo IoT físico:
 
