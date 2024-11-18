@@ -414,6 +414,10 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
       - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
       - [6.2.1.6. Services Documentation Evidence for Sprint Review.](#6216-services-documentation-evidence-for-sprint-review)
+        - [Property](#property)
+        - [Area](#area)
+        - [User Profile](#user-profile)
+        - [Device](#device)
       - [6.2.1.7.Software Deployment Evidence for Sprint Review](#6217software-deployment-evidence-for-sprint-review)
       - [6.2.1.8. Team Collaboration Insights during Sprint.](#6218-team-collaboration-insights-during-sprint)
     - [6.2.2. Sprint 2](#622-sprint-2)
@@ -423,6 +427,11 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review)
       - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review)
       - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review)
+        - [Property](#property-1)
+        - [Area](#area-1)
+        - [User Profile](#user-profile-1)
+        - [Device Events](#device-events)
+        - [Device](#device-1)
       - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review)
       - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
     - [6.2.3. Sprint 3](#623-sprint-3)
@@ -441,6 +450,12 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
       - [6.2.4.4. Testing Suite Evidence for Sprint Review](#6244-testing-suite-evidence-for-sprint-review)
       - [6.2.4.5. Execution Evidence for Sprint Review.](#6245-execution-evidence-for-sprint-review)
       - [6.2.4.6. Services Documentation Evidence for Sprint Review.](#6246-services-documentation-evidence-for-sprint-review)
+        - [Property](#property-2)
+        - [Area](#area-2)
+        - [User Profile](#user-profile-2)
+        - [Payments](#payments)
+        - [Device Events](#device-events-1)
+        - [Device](#device-2)
       - [6.2.4.7. Software Deployment Evidence for Sprint Review.](#6247-software-deployment-evidence-for-sprint-review)
       - [6.2.4.8. Team Collaboration Insights during Sprint.](#6248-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews.](#63-validation-interviews)
@@ -3302,15 +3317,15 @@ A continuación se presenta la documentación de los servicios de la aplicación
 
 **Despliegue de Aplicación Móvil**
 
+La aplicación móvil fue subida a Firebase App Distribution.
 
-
-
+![App Mobile Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint4_mobile.png)
 
 También se realizaron nuevos despliegues de los productos desarrollados agregando las mejoras implementadas. A continuación, se visualizan pantallazos de las aplicaciones y servicios desplegados.
 
 **Landing Page:**
 
-![Landing Page Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_deployment.jpg)
+![Landing Page Sprint4](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_3.png)
 
 **Frontend de la Aplicación Web:**
 
