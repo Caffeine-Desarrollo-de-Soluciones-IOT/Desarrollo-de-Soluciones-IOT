@@ -3080,7 +3080,7 @@ En esta sección, presentamos el conjunto de Acceptance Tests relacionados con l
 
 #### 6.2.4.5. Execution Evidence for Sprint Review.
 
-En este Sprint 4, logramos integrar y desarrollar nuevas funcionalidades clave en nuestra aplicación web, aplicación móvil, dispositivo IoT físico y la Embedded API. Estas mejoras se alinean con los objetivos trazados en el Sprint Planning y buscan ofrecer una experiencia de usuario más robusta y funcionalidades que fortalezcan nuestro ecosistema de seguridad IoT.
+
 
 1. Aplicación Web:
 
@@ -3315,7 +3315,73 @@ En la entrevista, Aldahir menciona que la landing page es intuitiva y fácil de 
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
-Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta. Para esto la sección debe contener la estructura del formato para evaluaciones de heurísticas indicado en el Anexo D. Formato para Evaluación de User Experience según Heurísticas. 
+
+**UX Heuristics & Principles Evaluation**  
+**Usability – Inclusive Design – Information Architecture**  
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Desarrollo de Soluciones IoT  
+**SECCIÓN:** Código de la sección  
+**PROFESORES:** Angel Augusto Velasquez Nuñez
+**AUDITOR:**  Aldahir, Diana 
+**CLIENTE(S):** Aldahir, Diana  
+
+**SITE o APP A EVALUAR:**  
+Landing Page y Prototipo de la Aplicación (Web y Móvil)  
+
+**TAREAS A EVALUAR:**  
+El alcance de esta evaluación incluye la revisión de las siguientes tareas:  
+1. Visualización de la landing page.  
+2. Selección y comparación de planes.  
+3. Navegación multilingüe (3 idiomas).  
+4. Registro y gestión de propiedades.  
+5. Activación/desactivación de dispositivos.  
+6. Recepción de notificaciones de eventos.  
+
+**ESCALA DE SEVERIDAD:**  
+
+**TABLA RESUMEN:**  
+
+| #  | Problema                                                                                           | Escala de Severidad | Heurística/Principio Violado       |
+|----|---------------------------------------------------------------------------------------------------|---------------------|------------------------------------|
+| 1  | Imagen de fondo con poco contraste en la landing page dificulta la lectura del texto del eslogan. | 3                   | Usabilidad: Principio de Percepción |
+| 2  | Notificaciones de eventos no críticos podrían volverse molestas.                                  | 2                   | Usabilidad: Minimizar carga del usuario |
+| 3  | No se especifica si las notificaciones pueden ser personalizadas según la relevancia del evento.  | 2                   | Diseño Inclusivo: Personalización  |
+
+---
+
+**DESCRIPCIÓN DE PROBLEMAS:**  
+
+**PROBLEMA #1:** 
+
+![Landing Page Deployed](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_3.png)
+
+**Severidad:** 3  
+**Heurística Violada:** Usabilidad - Principio de Percepción  
+**Problema:**  
+El contraste insuficiente entre el fondo y el texto en el eslogan reduce la legibilidad y afecta la comprensión del mensaje principal en la landing page. Esto puede ser frustrante para usuarios con discapacidades visuales o en condiciones de luz desfavorable.  
+**Recomendación:**  
+Aumentar el contraste ajustando el color del texto o el fondo, o implementar una superposición semitransparente en el fondo para mejorar la legibilidad.  
+
+**PROBLEMA #2:** Notificaciones de eventos no críticos podrían volverse molestas.  
+**Severidad:** 2  
+**Heurística Violada:** Usabilidad - Minimizar carga del usuario  
+**Problema:**  
+Si las notificaciones abarcan eventos irrelevantes, como lecturas frecuentes de sensores no críticos, podrían saturar al usuario, reduciendo la utilidad de la funcionalidad y generando frustración.  
+**Recomendación:**  
+Implementar opciones para personalizar las notificaciones y filtrar eventos según su relevancia o urgencia.  
+
+**PROBLEMA #3:** No se especifica si las notificaciones pueden ser personalizadas según la relevancia del evento.  
+**Severidad:** 2  
+**Heurística Violada:** Diseño Inclusivo - Personalización  
+**Problema:**  
+No se brinda una opción clara para configurar qué notificaciones recibir, lo cual podría afectar a usuarios que priorizan solo eventos de seguridad crítica.  
+**Recomendación:**  
+Incluir una sección en la configuración para personalizar las alertas según las preferencias del usuario.  
+
+---
+
+
 
 ## 6.4. Video About-the-Product.
 
