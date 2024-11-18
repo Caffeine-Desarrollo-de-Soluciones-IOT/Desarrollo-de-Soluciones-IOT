@@ -3552,7 +3552,19 @@ Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113876_u
 
 # Bibliografía
 
-En esta sección el equipo especifica todas las referencias bibliográficas en formato APA, utilizadas como base para el desarrollo del trabajo o referenciadas en secciones del informe. 
+Instituto Nacional de Estadística e Informática (INEI). (2024). Datos sobre criminalidad en inmuebles de Lima Metropolitana. Recuperado de https://www.inei.gob.pe
+
+Ministerio del Interior del Perú. (2023). Plan Nacional de Seguridad Ciudadana y Convivencia Social 2023-2025. Recuperado de https://www.mininter.gob.pe
+
+Organización de las Naciones Unidas (ONU). (2022). Guía para la Prevención del Crimen en Comunidades Urbanas. Recuperado de https://www.unodc.org
+
+ISO. (2018). ISO 31000:2018 Risk Management Guidelines. International Organization for Standardization.
+
+Verisure. (n.d.). Sistemas de alarma para hogares y negocios. Recuperado de https://www.verisure.com
+
+Prosegur. (n.d.). Servicios de seguridad y alarmas monitoreadas. Recuperado de https://www.prosegur.com
+
+Securitas. (n.d.). Soluciones de seguridad remota y protección contra incendios. Recuperado de https://www.securitas.com
 
 # Anexos
 
