@@ -276,7 +276,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Tabla de Contenido](#tabla-de-contenido)
-- [Student Outcome](#student-outcome)
+- [Student Outcomes](#student-outcomes)
 - [CAPÍTULO I: INTRODUCTION](#capítulo-i-introduction)
   - [1.1 Startup Profile](#11-startup-profile)
     - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
@@ -455,7 +455,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
 - [Anexos](#anexos)
 
 
-# Student Outcome
+# Student Outcomes
 <table border="1">
   <thead>
     <tr>
@@ -488,7 +488,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
         <strong>TF:</strong> <br/>
         <strong>Max Dayson Sabino Arostegui:</strong> Colaboré en la implementación de i18n en la aplicación web, implementación de los eventos, configuración de la tarjeta RFID en el wokwi.
         <strong>Jamutaq Ortega Vélez:</strong> Colaboré con mi equipo en el desarrollo del feature de autenticación y flujos OAuth2 en la aplicación mobile para garantizar la seguridad del usuario. Además de apoyar en el desarrollo del prototipo físico.
-        <strong>Gabriela Nomberto Ramos:</strong> Colaboré con la implementación del dispositivo IoT con las aplicaciones tanto web como móvil.
+        <strong>Gabriela Nomberto Ramos:</strong> Colaboré con la implementación del dispositivo IoT con las aplicaciones tanto web como móvil. <strong>Elvia Arteaga Cruz:</strong> Colaboré en la implementación del dashboard de la aplicación web. Así como también en la traducción de la web utilizando i18n.
         <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar correctamente los sistemas de notificaciones que se mostrarán cada vez pase un evento.
       </td>
       <td>Concluimos que las reuniones y las mejoras continuas entre todos nos ayudan a mejorar el reporte de trabajo y poder colaborar de forma equitativa.</td>
@@ -518,7 +518,7 @@ Para esta entrega, dentro de la organización creamos los repositorios para el d
         <strong>Max Dayson Sabino Arostegui:</strong> Realicé en conjunto con mis compañeros el sprint backlog 4 en Trello y el sprint planning. Además, ayudé a mejorar el sprint goal de los sprints 1, 2, 3 y 4. <br/>
         <strong>Jamutaq Ortega Vélez:</strong> Me encargué de implementar el sistema de pagos en la aplicación web, además de agregar la internacionalización y verificar otros detalles pendientes de las aplicaciones.
         <strong>Gabriela Nomberto Ramos:</strong> Me encargué de implementar y arreglar el dispositivo IoT junto con los componentes que hemos acordado en grupo.
-        <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar el sistema de propiedades y notificaciones en la aplicación móvil que estaba pendientes.
+        <strong>Dennis Quevedo Yucra:</strong> Me encargué de implementar el sistema de propiedades y notificaciones en la aplicación móvil que estaba pendientes. <strong>Elvia Arteaga Cruz:</strong> Realicé, junto con el equipo, la documentación del sprint 4 y las correcciones a secciones anteriores del documento. 
       </td>
       <td>Para este apartado, todos aportamos en la estructuración y llenado del reporte, trabajando así en grupo y entendiéndonos entre todos.</td>
     </tr>
