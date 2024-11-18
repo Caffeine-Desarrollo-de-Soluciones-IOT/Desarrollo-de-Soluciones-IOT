@@ -2351,11 +2351,11 @@ Durante el Sprint 1, el enfoque principal fue el despliegue de la Landing Page d
 - **Creación de Cuenta y Configuración en GitHub:**
 El primer paso fue la creación de la cuenta del proyecto en GitHub, si no estaba previamente configurada, y la creación de un repositorio para el código fuente de la Landing Page. Luego, se configuraron los permisos y accesos necesarios para los miembros del equipo, permitiendo que todos pudieran colaborar en el desarrollo y despliegue de la página.
 
-  - _Repositorio de Landing Page_
+  - _Repositorio de Landing Page:_
 
 ![Landing Page Repository](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_1.png)
 
-  - _Configuración de Repositorio de Landing Page_
+  - _Configuración de Repositorio de Landing Page:_
 
 ![Landing Page Repository Config](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/deploy_sprint1_landing-page_2.png)
 
@@ -2371,7 +2371,7 @@ Los resultados obtenidos de GTmetrix indicaron que el tiempo de carga de la land
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
-
+Las actividades de implementación se han desarrollado de acuerdo a lo planificado en el Sprint Planning, donde se han asignado tareas a cada miembro del equipo y se han realizado reuniones grupales para realizar el despliegue. A continuación, se presentan los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 1:
 
 ![team](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/team.jpg)
 
@@ -2864,7 +2864,9 @@ A continuación, se detallan los nuevos endpoints implementados y las operacione
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review.
 
-**1. Despliegue de Edge API en OnRender**
+Durante el Sprint 3, el equipo se enfocó en el despliegue de el Edge API. Este producto fue desplegado utilizando OnRender, al igual que fue para el backend. Ambos servicios de despliegue en la nube permitieron una integración eficiente, facilitando la disponibilidad y escalabilidad de los servicios.
+
+**Despliegue de Edge API en OnRender**
 
 - **Creación de cuenta y configuración en OnRender:**
 Para el Edge API, se utilizó OnRender al igual que para el backend. Se utilizó la misma cuenta y se configuró el entorno para recibir el repositorio del Edge API, configurando el acceso al código fuente desde GitHub. Este paso permitió automatizar el despliegue del backend a medida que se realizaban actualizaciones en el repositorio.
@@ -2883,14 +2885,6 @@ Se realizaron pruebas del backend para verificar el correcto funcionamiento de l
 
 ![Web Services Deployed](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20042016.png)
 
-**2. Despliegue de Aplicación móvil**
-
-- **Creación de cuenta y configuración**
-
-- **Verificación y pruebas:**
-
-
-
 **Análisis del Proceso de Deployment**
 
 El despliegue del Edge API se realizó de manera eficiente utilizando OnRender, aprovechando su capacidad para gestionar entornos escalables y de alto rendimiento. El equipo implementó la API en producción, garantizando su disponibilidad y estableciendo una integración fluida con los demás componentes del sistema IoT.
@@ -2902,6 +2896,10 @@ Las pruebas posteriores al despliegue confirmaron el correcto funcionamiento de 
 Para evidenciar la colaboración de todos integrantes del equipo FalconShield en el desarrollo del presente sprint, mostramos a continuación la sección Insights del repositorio donde se encuentra almacenada nuestro Edge api.
 
 ![alt](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/Captura%20de%20pantalla%202024-11-03%20043719.png)
+
+**Interpretación de Analíticos:**
+
+Para este Sprint, se llevó a cabo un seguimiento exhaustivo de las contribuciones de cada miembro del equipo a través de los commits y métricas de colaboración en GitHub. Estas métricas reflejan el compromiso y la participación de cada integrante en el desarrollo del Edge API. La revisión y análisis de estos datos permiten evaluar la efectividad del equipo en términos de coordinación y productividad en cada uno de los productos trabajados en el Sprint.
 
 ### 6.2.3. Sprint 4
 #### 6.2.4.1. Sprint Planning 4.
@@ -3015,6 +3013,7 @@ A continuación, se presenta una imagen del dispositivo IoT físico con los comp
 ![Physical IOT Execution](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/physical-iot-execution.jpg)
 
 #### 6.2.4.6. Services Documentation Evidence for Sprint Review.
+
 #### 6.2.4.7. Software Deployment Evidence for Sprint Review.
 
 En este sprint se realizaron nuevos despliegues de los productos desarrollados agregando las mejoras implementadas. A continuación, se visualizan pantallazos de las aplicaciones y servicios desplegados.
@@ -3048,13 +3047,6 @@ En este Sprint, el backend fue optimizado con la creación de nuevos endpoints R
 La Embedded API fue actualizada para gestionar nuevos tipos de sensores, optimizando la transmisión de datos hacia la nube y reduciendo la latencia de respuesta. El equipo trabajó en sincronía, revisando cada funcionalidad implementada y asegurándose de cumplir con los requisitos establecidos.
 
 ![Embedded API Sprint4 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/sprint4_insight3.png)
-
-
-**Dispositivo IoT Físico**
-
-El equipo colaboró en la implementación del dispositivo que incluye un sensor de proximidad y un RFID. Esto se logró a través de un enfoque iterativo que incluyó pruebas y ajustes necesarios. La simulación fue desarrollada en Wokwi.
-
-![Physical IOT Sprint4 Insight](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/physical-iot-execution.jpg)
 
 **Interpretación de Analíticos:**
 
