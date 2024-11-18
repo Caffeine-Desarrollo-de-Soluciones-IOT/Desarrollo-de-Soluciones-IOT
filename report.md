@@ -2928,13 +2928,51 @@ Y se agregó la vista de planes de suscripción para los usuarios.
 
 ![Subscription Plans View](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/plans_web-app.png)
 
-1. Aplicación Móvil:
+2. Aplicación Móvil:
+
+Se implemento las vistas conrrespondientes para la aplicación movil
+
+**Vista de la sección home**
+Se desarrolló la vista home permitiendo a los usuarios visualizar sus dispositivos y áreas
+
+![Mobil](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/home_mobile.png)
+
+**Vista de la sección properties**
+Se implementó una sección para que los dueños de inmuebles puedan gestionar sus propiedades
+
+![Mobil](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/propiedades_mobile.png)
+
+**Áreas de las propiedades**
+Se desarrolló la sección para que se muestren las áreas asignadas a las propiedades registrados.
+
+![Mobil](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/areas_mobile.png)
+
+**Vista de los dispositivos**
+Se añadió una vista para que el segmento objetivo gestione los dispositivos asignados a cada área
+
+![Mobil](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/devices_mobile.png)
+
+**Detalles de  los dispositivos**
+Se añadió los detalles para cada dispositivo incluyendo el cronograma, tipo y descripción
+
+![Mobil](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/detalles_mobile.png)
 
 
-2. Embedded API:
+**Notificaciones de los eventos registrados por los dispositovos**
+Se incluyó una vista "Notifications" para que el segmento objetivo reciba una alerta de los eventos registrados por los dispotivos
+
+![Mobil](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/notificaciones_mobile.png)
+
+**Sección de configuración y   perfil**
+Se incluyó una vista "Profile" para que el segmento objetivo modifique su perfil y realice ajustes respecto a su cuenta y notificaciones.
+
+![Mobil](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/perfil_mobile.png)
 
 
-3. Dispositivo IoT físico:
+3. Embedded API:
+
+
+4. Dispositivo IoT físico:
 
 En este Sprint, se avanzó significativamente en el desarrollo del dispositivo IoT físico, que ahora integra un sensor de aproximación y un lector RFID.
 
