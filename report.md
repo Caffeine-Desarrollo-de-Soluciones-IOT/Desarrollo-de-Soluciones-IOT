@@ -3194,11 +3194,10 @@ Este análisis también refleja un enfoque colaborativo en la resolución de pro
   - Nombres y apellidos: Diana Gomez Oré
   - Edad: 25 años
   - Distrito: Chorrillos
-  - Timing:
-  - Duración:
-  - Link: [Enlace entrevista 1]()
+  - Duración:14:05
+  - Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a991_upc_edu_pe/EfF4wSQxCz9FqleS1IBnyKIBcwfT2uiQUInFm2xDdbegbA?e=400yow&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
 
-    ![Validation Interview 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-1.png)
+![Validation Interview 1](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-1.png)
 
 Antes de la entrevista Diana me comentó que le pareció interesante el tener 3 idiomas en la landing page, esto debido a que no era algo común para ella. Durante la entrevista se pudo apreciar que la sección que más llamó su atención en la landing page fue la de los planes, ya que indicó que tener la información de los planes a la mano le facilita el poder seleccionar cuál desea adquirir y poder comparar sus características. En cuanto al prototipo de la aplicación web, lo que más le agradó fue la sección de dispositivos por áreas, esto debido a que le encontró utilidad al hecho de tener los dispositivos filtrados mediante áreas correspondientes. Finalmente, ella comentó que le parece importante el recibir notificaciones sobre eventos que puedan sucitarse en su propiedad, debido a que toma mucho en cuanta su seguridad al vivir sola. Es así que Diana indicó que le gustaría mucho el poder recibir estas notificaciones mediante una aplicación móvil, ya que es el dispositivo que tiene a su mano con mayor frecuencia.
 
@@ -3207,11 +3206,10 @@ Antes de la entrevista Diana me comentó que le pareció interesante el tener 3 
   - Nombres y apellidos: Aldahir Valenzuela
   - Edad: 23 años
   - Distrito: San Borja
-  - Timing: 
-  - Duración: 07:04 minutos
-  - Link: https://youtu.be/NO6eZs-q9hM
+  - Duración:14:05
+  - Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a991_upc_edu_pe/EfF4wSQxCz9FqleS1IBnyKIBcwfT2uiQUInFm2xDdbegbA?e=400yow&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
      
-    ![Validation Interview2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-2.png)
+![Validation Interview2](https://pub-9734af8385734c25a466d683cb2e6c2f.r2.dev/validation-interview-2.png)
 
 En la entrevista, Aldahir menciona que la landing page es intuitiva y fácil de navegar. Además, destaca que los planes se muestran de manera clara y que las imágenes ayudan a comprender los beneficios que obtendrá el usuario. Con respecto al prototipo de la aplicación móvil, le agrada la funcionalidad para agregar una nueva propiedad y asignar áreas a estas, así como la opción de activar y desactivar dispositivos. También resalta la utilidad de recibir notificaciones cuando se genera un evento en los dispositivos, aunque advierte que podría ser molesto si el dispositivo genera alertas por eventos que no son de emergencia. En cuanto a las mejoras sugeridas, propone ajustar la imagen de fondo en el inicio de la landing page, ya que actualmente no tiene suficiente contraste con el texto del eslogan, lo cual dificulta su lectura.
 
