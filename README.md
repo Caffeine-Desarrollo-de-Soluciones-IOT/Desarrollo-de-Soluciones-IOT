@@ -229,7 +229,7 @@ Ciclo: 2024-2
 
 ## Project Report Collaboration Insights
 
-Enlace del Project Report: https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/Desarrollo-de-Soluciones-IOT/blob/main/report.md 
+Enlace del Project Report: https://github.com/Caffeine-Desarrollo-de-Soluciones-IOT/Desarrollo-de-Soluciones-IOT/blob/main/README.md 
 
 **ENTREGA N°1: TB1**
 
